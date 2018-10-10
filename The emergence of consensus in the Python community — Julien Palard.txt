@@ -1,0 +1,71 @@
+
+18:08:000094:000094_4 : --------
+18:09:000094:000094_4 : Rechargement du document
+Keynote #2 The emergence of consensus in the Python community — Julien Palard
+
+18:19:000050:000050_4 : 18:18:39:223: So if Are we there a printer . 4
+18:19:000051:000051_2 : 18:18:59:659: So you dressed don't have to do it because it's a lot of time . 2
+18:19:000052:000052_3 : 18:19:05:089: Her so what am I in a few seconds I'm biting cold little . 3
+18:19:000053:000053_4 : 18:19:13:227: Things that accommodation in French . 4
+18:19:000054:000054_1 : 18:19:17:357: A lot in a few places are super don't need to put the washing out of poos and if you want to find me I'm on Twitter I'm size of . 1
+18:20:000055:000055_0 : 18:19:29:480: Tomato Juliet paton. As I have some time the time to write timeline of fighting 2 . 2
+18:20:000056:000056_3 : 18:19:37:392: Translation of the documentation since one year are most we have a language feature in the documentation so you can change the language by reading the documentation before this the condition Warehouse tiered in different parts . 3
+18:20:000057:000057_4 : 18:19:54:185: And I miss education last year for the French translation we wear our light 25/:/ of time station and since yesterday thanks to this prince 32/:/ of them station Japanese translation is way faster than us . 4
+18:21:000058:000058_3 : 18:19:55:185: Are R s t oredein much longer is there a conference you suggest I should I use nose or bi test is there a consensus and she's so . 3
+18:22:000059:000059_2 : 18:21:36:857: Prequel to animated version if you used to use Jupiter please also try to Peter Rabbit Jupiter Jupiter . 2
+18:22:000060:000060_3 : 18:21:37:857: Eat right now . 3
+18:22:000061:000061_4 : 18:21:51:168: Pillars contract of Jupiter Labs so as I did I only get 10 years of data . 4
+18:22:000062:000062_1 : 18:22:02:275: As I have only got a few data points it tends to get Messi and and readable so I dropped it . 1
+18:23:000063:000063_4 : 18:22:24:649: Python project using a rest of the text and they're not using markdown falls out with me and everybody is using Spanx full documentation so everybody is using research set voice to text so I planned . 4
+18:23:000064:000064_1 : 18:22:42:778: Since I like five or six years service to drop with me on read me the text everyone before this was using her with me without extension and we switch like 5 years ago to read me the McDonnell respect I text . 1
+18:23:000065:000065_2 : 18:23:03:910: McDonald better yet MN winning so I don't have a great liberator forgot to text people are using it as a newspaper does not support it . 2
+18:23:000066:000066_3 : 18:23:17:402: I also tried to plot to commit messages so the frequency of commits messaging containing Knockdown of containing restore text . 3
+18:24:000067:000067_4 : 18:23:28:530: The red one is a quick text so it's going down the well I'm so blue one is not going out Miranda . 4
+18:24:000068:000068_0 : 18:23:39:835: I can hear you telling me better bye bye. Python.. Not super Smackdown so I don't want to use it yes but I buy guitar . 1
+18:25:000069:000069_3 : 18:24:10:076: It works so if you use McDonagh please just as a content type so it will render correctly and try educating please use Vanguard . 3
+18:25:000070:000070_0 : 18:24:49:529: What's a guy texts you ok for leaky for Direct Line documentation so I don't want to kill us with a text.. X is good . 2
+18:26:000071:000071_0 : 18:24:59:349: I tried to compare set of the TFG setup.py requirements pit viper 5 and here it's not very interesting in fact we just see and hear a zip file on people that look so I see a thing not everybody is committing is a pedophile of luck so please can meet your people. . 3
+18:26:000072:000072_4 : 18:25:28:703: Alliteration words sorry so far as a dependency management there is a lot of different philosophy on it really depends on what you are doing is I bet he's why we do not see how come some SIA independent are you packaging or library or are you packaging and application is it . 4
+18:26:000073:000073_1 : 18:25:54:843: Adidas equipped Xtra . 1
+18:27:000074:000074_3 : 18:26:28:079: Linked the present but really different . 3
+18:27:000075:000075_4 : 18:26:33:718: When is implementation of the spec of the other . 4
+18:27:000076:000076_2 : 18:27:11:948: Is GTA San . 2
+18:27:000077:000077_4 : 18:27:18:861: Sorry someone you still using those and I'm really sorry I don't know what to say but something else we do not see things a graph better with . 4
+18:28:000078:000078_2 : 18:27:47:105: Jaleco 5/:/ of project using test . 2
+18:28:000079:000079_3 : 18:27:52:124: I know commit messages so the numbers are really low because you know project not every comment or relating to test but we can see the rise in blue of Pi test so it looks like by test 1 . 3
+18:28:000080:000080_4 : 18:28:13:681: Flat nose is there thunder by the sea is rising I like this one . 4
+18:28:000081:000081_1 : 18:28:21:324: I like this one to . 1
+18:29:000082:000082_4 : 18:28:47:463: But I think it has been renamed so it may be an artificial fast . 4
+18:29:000083:000083_2 : 18:29:28:717: Deprecated and Ozzy . 2
+18:30:000084:000084_1 : 18:29:40:010: Two little ones about what year do we are used to store deichmann patients and we see that from to Susan I need a winner . 1
+18:30:000085:000085_2 : 18:29:52:153: And Boom app on home system to use for you and exactly the same for the test directory which makes sense I think we do not have one test I hope you have multiple test so please use your name father John . 2
+18:30:000086:000086_3 : 18:30:12:963: Ons from the beginning and apple sausage stew is a piano . 3
+18:31:000087:000087_1 : 18:30:22:199: Seems like only 35/:/ of people texting so please write test . 1
+18:31:000088:000088_2 : 18:30:30:195: About the fact of to ring an slc deactivate I think it's a no returns faulty project can see other languages . 2
+18:31:000089:000089_3 : 18:30:45:556: The most girls are most people use the SFC Jack Kelly was 10 years ago and there was only 25/:/ of project using a sausage activities and now there's nobody use NFC tag type so if you meditate . 3
+18:31:000090:000090_4 : 18:31:06:694: Susanna Saturday like I just put your project as packaging in the root of your project and eating out there is just very specific and little cases are we having any sausages burgers are typically when by tests when you used under any file is in your tests . 4
+18:32:000091:000091_3 : 18:31:39:084: It's pizza back to create and Saturday at 8 to avoid by test to import of packages while running in the contract so just about the sausages toys on a vendor I need files in your test I think . 3
+18:32:000092:000092_4 : 18:31:56:709: About she bangs I don't like this one because in this one we see that we are obligated to specify Python version is a shubunkin I don't like it I would like to just have a python is a she bangs . 4
+18:32:000093:000093_7 : 18:32:15:842: But there is something great is that the blue line Python 2.7 . 1
+18:32:000094:000094_2 : 18:32:21:961: So there was no epic . 2
+18:33:000095:000095_7 : 18:32:29:095: Have decided it was a good thing to specify I want is specifically Python 2.7 but there is she bangs Python free so it's ok I win her for Python free . 3
+18:33:000096:000096_4 : 18:32:43:237: Happy with it but I will prefer to just have by turn on the Titans free my shopping . 4
+18:33:000097:000097_1 : 18:32:50:393: My position is personal just use python is a Shiba . 1
+18:33:000098:000098_2 : 18:32:57:536: About licences . 2
+18:34:000099:000099_3 : 18:33:01:663: No population Sarah sorry if someone can explain this to me I would rate likely take the explanation as we see is a PSV licence for ring and the MIT license weaning and I don't know why it is switch for Muesli to close on the m80 licences are almost equivalent so if someone can explain me off or doing the question why is he switch Ok other . 3
+18:34:000100:000100_0 : 18:33:46:145: Illuminated choice there is two door licence. Conor asking you questions about a what you want and showing you which licence is the best for your project . 1
+18:36:000002:000002_2 : 18:33:58:319: I discovered that if you do not put a licence in your project Isabel convention is protecting you so you software will remain up and so so it works to is called licence free software and if you're interested about the subject is that a Wikipedia page about it feel free to document Joseph about this so it's ok if you completely forgot to put the licensing your software is an open source  When we think it turns off the plug I supported or so but they're not everyone is renaming class or class and Oscar to ILS so maybe just that with his son that k l a s s I don't know but I spotted this one . 3
+18:37:000004:000004_4 : 18:34:49:676: Next about version in packages of Medusa I see a lot of thing I see identification capitalised I see version Wizard and of course I really don't know so if someone know please tell me and . 4
+18:37:000005:000005_1 : 18:36:40:767: I love her and I try to say it next time I'm better now I really don't know why and I don't understand why am I choose winning RM8 is a great licence but I do not understand you switch between the two licences I personally was using busy to closes before . 1
+18:37:000006:000006_3 : 18:37:07:285: May be a source of inspiration yes maybe . 3
+18:38:000007:000007_2 : 18:37:28:288: The question is . 2
+18:38:000008:000008_3 : 18:37:34:421: Able to the slide just one is it better to put a single LEGO Ninjago need to file on the read it from this tablet UI file portable gas Galaxy tablet Wi-Fi file on the radiator from the Dordogne fight . 3
+18:38:000009:000009_4 : 18:37:51:535: Define consensus and his one my personal use age is to duplicate your version number on O2 files manually because I don't want the complex things that just to propagate an integer . 4
+18:38:000010:000010_1 : 18:38:03:679: So what are you doing myself . 1
+18:38:000011:000011_2 : 18:38:08:803: No steering . 2
+18:39:000012:000012_3 : 18:38:12:264: Define . 3
+18:39:000013:000013_4 : 18:38:15:207: Yes I was also project name the gas that help you bumping your Russians I tried it once but I did manage the project took . 4
+18:39:000014:000014_1 : 18:38:28:669: Also if you have questions about you male or yes you about consensus you will live like to have themselves to but I did not search for feel free to ask if there is enough questions I may do it again just another juice on U of the pics and do it next year with himself so if you can't pay as you questions during the Year FIFA to write me an email . 1
+
+
+

@@ -1,0 +1,169 @@
+
+ 
+02_Méthodologies de Debug/Monitoring Julien Thebault 
+
+
+11:04:000311:000311_4 : 11:04:02:020: Alizée même harmonisant application donc je pars . 4
+11:04:000312:000312_1 : 11:04:09:199: Qui est vrai pour moi mais qui peut l'être . 1
+11:04:000313:000313_2 : 11:04:13:324: Aujourd'hui sur ce constat pour ça va être le fil rouge . 2
+11:04:000314:000314_3 : 11:04:17:461: Aujourd'hui sur son sac Le prix d'un développeur . 3
+11:04:000315:000315_4 : 11:04:22:183: J'entends par infrastructure . 4
+11:05:000316:000316_1 : 11:04:29:062: Le serveur donc au niveau de l' hardware vraiment Danny dreige le réseau ou même une base de données donc finalement tout ce qui est utilisé pour votre application un peu python je prends un exemple qui peut peut-être parler à certains d'entre vous . 1
+11:05:000317:000317_2 : 11:04:45:200: Petite API Python qui marche plutôt bien fait aucun souci . 2
+11:05:000318:000318_3 : 11:04:51:344: Une semaine j'avais des lenteurs toutes les minutes toutes les 5 minutes vous avez une requête qui met 60 secondes . 3
+11:05:000319:000319_4 : 11:04:58:969: Si jamais il y a pas de problème Élodie de mon chien a un problème vous allez voir la personne la plus proche de Vouglans DevOps une personne de me poser la question . 4
+11:05:000320:000320_1 : 11:05:12:103: Il va vous rediriger une fois sur deux un bon bah c'est le réseau vous avoir le réseau le réseau est complètement perdu . 1
+11:05:000321:000321_2 : 11:05:25:227: Crèche un peu méchant avec les gens du réseau . 2
+11:05:000322:000322_3 : 11:05:29:367: Il est bien configurer mon Tennessee passe . 3
+11:06:000323:000323_4 : 11:05:34:497: Vous avoir le DBA ou la DBA vous dis non Moinerie son bonne santé courir . 4
+11:06:000324:000324_1 : 11:05:43:795: Savoir . 1
+11:06:000325:000325_2 : 11:05:45:855: Vraiment je grossis un peu le trait mais je suis sur certains d'entre vous ont vécu 7 7 épisode W toujours dans une moindre mesure c'est extrêmement frustrant pour la personne qui développe la pays et ça va entraîner dans l'équipe donc . 2
+11:06:000326:000326_3 : 11:06:03:985: Pour voir comment finalement on peut expliquer pourquoi aujourd'hui on peut vis enfin moi je l'ai vécu et pourquoi il existe une règle . 3
+11:06:000327:000327_4 : 11:06:16:874: Moi c'est que le sais point de vue finalement chaque équipe non regarde pas la même chose on peut avoir le même produit . 4
+11:06:000329:000329_2 : 11:06:30:152: Au pire on l'a choses différemment . 2
+11:07:000330:000330_3 : 11:06:34:274: On entend beaucoup parler le monitoring tout ce qui est black box /:/ White Box aujourd'hui l'infrastructure pour un développeur c'est très souvent vu comme une blague box j'avais très peu de visibilité . 3
+11:07:000331:000331_4 : 11:06:47:424: A contrario finalement l'infrastructure vu comme une voix de boxe . 4
+11:07:000332:000332_1 : 11:06:53:551: Beaucoup de choses vous êtes très très distant finalement du produit ou de l'abbaye pour qu'on a vraiment de monde qui s'opposent qui ont du mal un peu à se parler ou finalement à travaillan sans . 1
+11:07:000333:000333_0 : 11:07:04:695: . polystyrène liste non exhaustive mais c'est ce que j'aime moi c'est ce que je pense être intéressant en général aujourd'hui le point de vue du développeur sur toi engineer . 2
+11:07:000334:000334_3 : 11:07:16:817: Oh pour les dents important je response time tout ce qu'il attend seulement exemple de la très bon . 3
+11:07:000335:000335_4 : 11:07:25:960: Tu as fait ok . 4
+11:07:000336:000336_1 : 11:07:28:095: Black Box et voilà c'est . 1
+11:07:000337:000337_2 : 11:07:32:247: Ça doit tourner je veux juste des ressources . 2
+11:08:000338:000338_3 : 11:07:37:373: Au niveau de la consistance si je parle pas de la donner mais plutôt être quelque chose de consistant et de correct . 3
+11:08:000339:000339_4 : 11:07:46:518: Fond de moi j'ai pas touché mon code ça va rester flat ayant un impact . 4
+11:08:000340:000340_1 : 11:07:52:651: A contrario le point de vue Laz sysadmin Houdain DBA exetera Paris 10 c pas exhaustifs mais ça va être très différent on va plutôt en avoir une vision assez bas niveau . 1
+11:08:000341:000341_2 : 11:08:04:798: Comment comment finalement mon serveur se comporte quand j serveur j'embarque bar métal conteneurs et au niveau de la capacité finalement à monter en charge un aspect financier . 2
+11:08:000342:000342_3 : 11:08:22:940: Compte que finalement chacun de regarde pas la même chose . 3
+11:09:000343:000343_4 : 11:08:29:084: Elle n'a pas la même affinité . 4
+11:09:000344:000344_1 : 11:08:33:394: Et donc finalement quand on a un petit souci . 1
+11:09:000345:000345_2 : 11:08:37:864: Tu as passé . 2
+11:09:000346:000346_3 : 11:09:08:674: Saisissez juste pour qu'on soit d'accord mais finalement les résultats c'est leur comme il a assez difficile à prévoir une recherche à une autre d'une personne à une autre ça va être quasiment . 3
+11:09:000347:000347_4 : 11:09:22:731: Pamela même réponse . 4
+11:10:000348:000348_1 : 11:09:26:865: Vous avez un souci sur une API ou sur une Alfa à automatiser la recherche google pour une réponse et là c'est moi qui m'intéresse le plus c'est au niveau des gens on peut pas finalement en dehors des légendes à mon travail ensemble avec ce genre de débat . 1
+11:10:000349:000349_2 : 11:09:46:917: Donc le but c'est de descendre un peu des méthodologies plus ou moins vieille on va en voir trois qui sont assez récente et qui sort de . 2
+11:10:000350:000350_3 : 11:09:58:558: Une petite 4e qui peut tout le monde mon expérience le but c'est pas de vous donner une liste de de technologie va pas aller . 3
+11:10:000351:000351_4 : 11:10:07:699: Amuse-toi voir une approche et on va assez bien aussi documentaire au niveau de . 4
+11:10:000352:000352_1 : 11:10:16:830: Rentrée énormément détails mais c'est plutôt est capable de donner une nouvelle view de chaque méthodologie et puis maman quel problème à la essayer d'adresser ou avec comment vous pouvez l'utiliser . 1
+11:10:000353:000353_2 : 11:10:27:592: La méthode qu'on va avoir toujours moins connu la méthode yeux . 2
+11:10:000354:000354_3 : 11:10:35:747: 3 méthodes et on verra à la rentrée mais on va chacun dans la . 3
+11:11:000355:000355_4 : 11:10:39:897: Intéressant tu vas pouvoir surtout vous aider à organiser un peu cadrer autant le monitoring . 4
+11:11:000356:000356_1 : 11:10:49:032: Je pense que je parle people ça va être un aussi une manière de choses . 1
+11:11:000357:000357_2 : 11:10:58:187: Crée des ponts technologie contre l'équipe ça pour moi c'est la chose la plus importante et c'est le vecteur friction que je connais le plus capable d'utiliser un aussi mais tu sais même aussi finalement entre les équipes pour avoir la même façon de regarder . 2
+11:11:000358:000358_3 : 11:11:12:336: Moi comment se faire méthode . 3
+11:11:000359:000359_4 : 11:11:16:469: Ressources et regarder utilisation la saturation importante . 4
+11:11:000360:000360_1 : 11:11:23:614: La météo du jour c'était . 1
+11:11:000361:000361_2 : 11:11:28:737: Qui ai fait ça finalement beaucoup pour la base de données . 2
+11:12:000362:000362_3 : 11:11:35:545: Je pense que c'est une dérange pas pu voir heureusement que c'est une des briques applicative les moins compris soirée développeur . 3
+11:12:000363:000363_4 : 11:11:44:685: Parce qu'on s'y intéresse pas ou parce qu'on a pas aussi qu'on a des sushis une méthode pour appliquer pour trouver un moyen de trafic . 4
+11:12:000364:000364_1 : 11:11:55:830: Terminologie Sandero source de . 1
+11:12:000365:000365_2 : 11:12:01:169: Il y a 47 mois site web sur le juge méthode . 2
+11:12:000366:000366_3 : 11:12:06:308: Oui comment ça a été apportée . 3
+11:12:000367:000367_4 : 11:12:09:449: Revenir cette méthode c'est que voilà c'est très bon anniv aujourd'hui c'est surtout surtout ce qui . 4
+11:12:000368:000368_1 : 11:12:16:587: Brick . 1
+11:12:000369:000369_2 : 11:12:18:731: La saturation et les Orres SFR ça finalement sur chaque sur chaque brick . 2
+11:13:000370:000370_3 : 11:12:25:872: Recherche messages et c'est un peu . 3
+11:13:000371:000371_4 : 11:12:30:356: Bac en faite méthode j'essaie de faire c'est mon avis mais en plus c'est un mois et finalement si vous voulez le matériel à quoi ressemblerait cette méthode aller à ces vieilles elle est assez utiliser mon quel avons fait ses preuves sur du debeing beaucoup de base de données c'est très très utile il y a beaucoup de . 4
+11:13:000372:000372_1 : 11:12:49:485: Chats qui savaient que maman a flight plan ou qui explique que je regarde le sais plus comment je le regarde comment je vais regarder finalement les 10 exetera et ça vous pouvez le donner s'il ment à toutes vos équipes une fois vous avez a checklist et en existe finalement disponible sur internet donc . 1
+11:13:000373:000373_2 : 11:13:05:638: Je suis intéressé à moi ce que j'aime beaucoup dans la méthode UC que ça permet finalement the white Boxx et les ressources de votre infrastructure vous avez des centaines de serveur capable de donner un . 2
+11:13:000374:000374_3 : 11:13:20:776: Un peu ce qui se passe sur les serveurs que tu peux laisser cette méthode je peux te fournir un dashboard l'intégrer à ton droit de gros point noir aujourd'hui gros point négatif c'est finalement ça niveau hardware . 3
+11:14:000375:000375_4 : 11:13:35:924: Développeurs n'est pas la main donc si finalement à vous d'être sûrement la demander au réseau steam d'infrastructure de vous fournir cette . 4
+11:14:000376:000376_0 : 11:13:43:472: c'est que c'est pas ses parents tes services c'est vraiment beaucoup orienter le serveur ça te fait beaucoup pour les serveurs c'est pas très facilement adaptable . 1
+11:14:000377:000377_2 : 11:13:53:625: Les méthodes ça m'étonnerait à qui elle ce qui est important pour moi donc c'est pour ça que service mon bain monitor il reste . 2
+11:14:000378:000378_3 : 11:14:03:410: Donc là m'étonnerait temps fait à il vraiment orientée services et quand on dit service et finalement une abbaye . 3
+11:14:000379:000379_4 : 11:14:11:253: En terme de terminologie on va le voir mais ça c'est le nom de rail donc le nombre de requêtes qu'on reçoit le nombre d'erreurs quand est-ce qui est un dû passer roquette et le temps que prendre contre les méthodes par fois pour la même pour la même chose il y a toujours . 4
+11:15:000380:000380_1 : 11:14:32:383: Latency où ça dépend . 1
+11:15:000381:000381_2 : 11:14:36:538: Derrière la méthode red finalement si on se rend compte tout de suite que c'est beaucoup plus orienté API orientée services que hardware pas vraiment d'avoir une vision assez rapide de qu'est-ce qui se passe sur mon appli . 2
+11:15:000382:000382_3 : 11:14:51:450: C'est ce que j'ai dit voilà c'est beaucoup des années pour les développeurs ça parle beaucoup plus au développeur est capable d'avoir ces informations que le côté le lot de mon serveur qui finalement on est assez distante ça pour ça que ça intéresse un peu de ski et ses services et services l'objectif . 3
+11:15:000383:000383_0 : 11:15:12:593: C'est un très très bon. Commencé comme c'est très proche finalement de une application business on est capable de donner finalement le paye mon âme la latence à votre client qui vous veut c'est sûr peut-être des enfants un peu assez important de vous avoir une réponse à la . 4
+11:15:000384:000384_1 : 11:15:30:741: Auprès de votre client par exemple à répondre 99 /:/ du temps . 1
+11:16:000385:000385_2 : 11:15:37:877: Et si vous dépassez vous avez des pénalités . 2
+11:16:000386:000386_3 : 11:15:41:928: Finalement derrière qui va se mettre Alizée si il faut vous ayez des indicateurs et en fait cette méthode vraiment vraiment adapté a été popularisé . 3
+11:16:000387:000387_4 : 11:15:51:063: Microservices Dutti finalement qui sont Plug and Play pour votre service mes idées derrière . 4
+11:16:000388:000388_1 : 11:16:00:197: Le point de cette méthode si on peut dire c'est un problème c'est que ça . 1
+11:16:000389:000389_2 : 11:16:07:357: Homme que la cause . 2
+11:16:000390:000390_0 : 11:16:10:509: En fait je t'attends ce je sais pas pourquoi j'ai un bon. . 3
+11:16:000391:000391_4 : 11:16:15:651: Très difficile de trouver la route . 4
+11:16:000392:000392_1 : 11:16:19:792: Écoutez c'est pas une solution . 1
+11:16:000393:000393_2 : 11:16:23:918: Mais c'est l'ensemble de ces solutions qui va vous permettre finalement d'adresser beaucoup de problématique . 2
+11:17:000394:000394_3 : 11:16:31:959: Paris elle est un peu on a beaucoup parlé parce que finalement c'était dans le bouquin de google je vous invite au fait demain sur des systèmes distribués . 3
+11:17:000395:000395_4 : 11:16:46:099: Bouquin de Google c Reebok vraiment une mine d'or pour ton vraiment vraiment vite s'il voulait rien . 4
+11:17:000396:000396_1 : 11:16:55:252: Donc l'idée c'était comment on peut monitorer jusqu'à et systèmes distribués quel indicateur on peut utiliser . 1
+11:17:000397:000397_2 : 11:17:03:397: Beaucoup trop de la de la méthode la méthode red ils ont juste ajouter la notion de saturation . 2
+11:17:000398:000398_3 : 11:17:10:554: Commentaires sont la saturation la situation pour ceux qui . 3
+11:17:000399:000399_4 : 11:17:15:688: Capable de dire finalement mon à payer appeler Jérémy request pars seulement et si vous arrivez à me sens que finalement vous avez . 4
+11:17:000400:000400_1 : 11:17:24:829: Une Alfa une brique hardware ceinture se mettre le disque . 1
+11:18:000401:000401_2 : 11:17:31:968: Quelque chose saturé finalement va entraîner parfois des erreurs ou la latence que c'était super intéressant . 2
+11:18:000402:000402_3 : 11:17:39:614: Donc ce que j'ai testé par Google vraiment il le pousse une amende aussi dans certains outils qui développe par d'autres boîtes aussi il y a pas besoin d'avoir . 3
+11:18:000403:000403_4 : 11:17:52:751: Le bouquin parce que j'ai assez intéressant et c'est pas non plus révolutionnaire c'est juste la méthode respiration donc c'est pas important . 4
+11:18:000404:000404_1 : 11:18:03:893: Comme des médecins CDA proches qui sont après qui se marie souvent sous forme de métrique c'est pour ça que je m'étais un petit déjeuner . 1
+11:18:000405:000405_2 : 11:18:13:042: Transformers papiers avant une chat qui se savoir qu'est-ce que comment je peux regarder . 2
+11:19:000406:000406_3 : 11:18:17:972: La méthode qui pour moi a le plus de sens c'est la notation cirque aujourd'hui la on a vu quelques petites méthode qui vont permettre d'identifier des causes des choses qui est très dur finalement corréler les choses . 3
+11:19:000407:000407_4 : 11:18:33:118: On se rencontre souvent à moi j'ai déjà été confronté à des soucis où on a des serveurs Windows pour faire une TPO faire BNS est le père de la personne change le serveur NTP et donc on arrive un souci et on mettra en fait pour comprendre que c'est que c'est Gérard qu'à changer de DNS parce qu'il y a un moment il y a une communication . 4
+11:19:000408:000408_1 : 11:18:55:255: Mon corps est la . 1
+11:19:000409:000409_2 : 11:18:57:895: Tonton tout ce que vous faites a autant de business métier de faire des annotations je vais vous montrer . 2
+11:19:000410:000410_3 : 11:19:06:043: On fait un déploiement il faut le dire où faut le mettre dans un système quand vous avez un accident il faut le mettre où on fait une maintenance quand même très bas comme un démon Arista faut pas avoir peur c'est vraiment . 3
+11:20:000412:000412_2 : 11:19:31:505: Présentation pour est corrélé très rapidement un problème qui vous prends à 3h en fait en cinq minutes vous rendez compte que c'est juste une personne café quelque chose . 2
+11:20:000413:000413_3 : 11:19:40:628: Fais à tous les niveaux dire que l'ajout d'un client a un impact sur votre infrastructure si vous avez un client qui arrive qui ajoute 10 million de request par jour c'est sûr peut-être que ça va casse vos SLI/SLO le finalement vous allez à saturer technique ajouter un nouveau serveur . 3
+11:20:000414:000414_4 : 11:20:01:771: Retirer c'est important de savoir . 4
+11:20:000415:000415_1 : 11:20:05:682: Pareil aussi pour ceux qui ont ça des structures un peu plus santé équipe où chacun responsable par exemple . 1
+11:20:000416:000416_2 : 11:20:12:820: Une partie de l'infrastructure par exemple . 2
+11:20:000417:000417_3 : 11:20:17:964: Ah si finalement vous faites quelque chose sur vos plateforme ça facilite énormément le travail cross équipe donc c'est intéressant il y a pas la notation finalement c'est obligé de automatisé eau manuelle . 3
+11:21:000418:000418_4 : 11:20:34:094: C'est pas obligé d'avoir un système full automatique pour dire non moi je sais pas automatique je passe à la main ou pas commencé à faire de la natation à la main . 4
+11:21:000419:000419_2 : 11:20:43:261: Et dans le temps aussi c'est assez intéressant c'est pas grave si finalement natation vous la faites maintenant et ça s'est passé il y a 2 semaines c'est vraiment pas le c'est pas la notion de . 2
+11:21:000420:000420_0 : 11:20:54:417: Waouh. Charles . 3
+11:21:000421:000421_4 : 11:20:58:558: Dentiste une chose ça c'est un an d'annotation sur une plate-forme pour machine One Berlin . 4
+11:21:000422:000422_1 : 11:21:06:692: C'est un an d'annotation ne sais pas ça fait assez gros . 1
+11:21:000423:000423_2 : 11:21:12:839: Vraiment vraiment très utile grafana pour ce t'ai pas reconnu . 2
+11:21:000424:000424_3 : 11:21:18:994: Métrique de mettre une petite annotation qui dit . 3
+11:22:000425:000425_4 : 11:21:19:994: Donc je sais pas si on voit bien finalement là c'est juste des erreurs sur des serveurs qu'on a la petite et notation c'est juste le déploiement d'un code et en fait on s'est aperçu que 10 minutes plus tard ça je n'avais pas grave mais très rapidement . 4
+11:22:000426:000426_1 : 11:21:43:281: Je me sens pendant les bénéfices finalement . 1
+11:22:000427:000427_2 : 11:21:52:418: Le feed-back aussi être capable de voir ce qui s'est passé et ça fait si tu me mens la communication . 2
+11:22:000428:000428_3 : 11:22:01:549: Par un chat peut importe mais après ça ça ouvre la discussion par contre ça demande donc CSDPS . 3
+11:22:000429:000429_4 : 11:22:16:667: Récemment grafana je gère aussi maintenant les invitations . 4
+11:22:000430:000430_1 : 11:22:23:796: Je sais pas comment germer saisir directement grâce à . 1
+11:22:000431:000431_2 : 11:22:28:538: Voilà pour faire un petit take away rapide . 2
+11:23:000432:000432_3 : 11:22:34:263: Très très important j'en parle beaucoup . 3
+11:23:000433:000433_4 : 11:22:37:403: Tu as pas de se font n'importe . 4
+11:23:000434:000434_0 : 11:22:41:551: Chaque outils finalement va vous permettre d'adresser une problématique y a pas un outil qui va être capable de vous donner la cause le pourquoi et le comment donc faut les prendre faut les utiliser à chaque fois dans le bon cas est-ce que je dois m'en 2e. C'est extrêmement important d'avoir une approche systémique donc ce que j'entends . 1
+11:23:000435:000435_2 : 11:22:59:675: Est capable de voir en fait ce qui s'est passé si vous faut que je sais seulement sur votre API ça va être impossible parfois de des buggies toute la chaîne donc il faut à chaque fois utiliser le bon outil au bon moment . 2
+11:23:000436:000436_3 : 11:23:14:828: Enfin composition de chaque outils en ce moment parle beaucoup de observabilité et finalement l'observer observabilité c c une vision systémique de votre infrastructure . 3
+11:23:000437:000437_4 : 11:23:26:962: J'espère vraiment que vous allez utiliser ces outils au niveau de ses méthodes vous avez commencé peut-être oui c'est pas déjà dans votre entreprise mets un point qui va arriver c'est que ce que je vois très souvent . 4
+11:24:000438:000438_1 : 11:23:43:117: On crée des dashboard c'est génial . 1
+11:24:000439:000439_2 : 11:23:46:167: Mais en fait ils sont jamais regardé . 2
+11:24:000440:000440_3 : 11:23:49:441: Ce qui arrive très souvent c'est que quand vous avez un incident ça ce moment-là vous avez sur votre dashboard mais comment faite vous ai jamais pris l'habitude de le regarder vous êtes un peu perdus pour une personne extérieure je pense à ceux qui font par exemple . 3
+11:24:000441:000441_4 : 11:24:05:562: Allez sur ce dashboard et regarder ça en fait comme connaissez pas la plate-forme très peu vous êtes complètement perdu . 4
+11:24:000442:000442_1 : 11:24:13:694: Super important n'importe quel mettez en place de prendre le temps avec vos équipes de border d'expliquer voilà c'est comme ça qu'il faut lire cette métrique c'est comme ça qu'il faut interprété par exemple . 1
+11:24:000443:000443_2 : 11:24:27:831: Dutex Oran pas avoir peur d'être verbeux c'est ok c'est un outil de dataviz mais ça va sur toi aussi vous aider à corréler à comprendre ce qui se passe . 2
+11:25:000444:000444_3 : 11:24:37:956: Qu'est-ce qu'il a 7 m et sa source de données c'est ça et que c'était . 3
+11:25:000445:000445_4 : 11:24:43:848: Ça rejoint finalement le quand je dis be readable se voit la visibilité entre vous étiez . 4
+11:25:000446:000446_0 : 11:24:50:973: avoir le même Dashboard. Avec une vie on produit sera toujours plus intéressant à mon sens qu'une vision juste infrastructure apprécié toute les équipes regarde je suis pas vous avez une interface qui va avoir peut-être des parties différentes . 1
+11:25:000447:000447_2 : 11:25:04:108: Mais tout le monde va regarder le même aussi ça c'est très intéressant au moins de capable de dire voilà il y a pas chacun . 2
+11:25:000448:000448_3 : 11:25:14:246: Il y a rien qui marche . 3
+11:25:000449:000449_4 : 11:25:17:378: Je t'aime . 4
+11:26:000450:000450_1 : 11:25:21:873: Application . 1
+11:26:000451:000451_4 : 11:25:47:148: Femme contre s en détail ce que je veux . 4
+11:26:000452:000452_1 : 11:25:57:004: Un sac par exemple sur les métriques en présence de grâce . 1
+11:26:000453:000453_2 : 11:26:03:141: Derrière qui va être utilisé par les carbone carbone agrégation . 2
+11:26:000454:000454_3 : 11:26:10:285: St max 1 minute . 3
+11:26:000455:000455_4 : 11:26:14:623: En fait c'est très . 4
+11:26:000456:000456_1 : 11:26:21:018: Adresser Paris finalement . 1
+11:27:000457:000457_2 : 11:26:23:523: Maman finale . 2
+11:27:000458:000458_3 : 11:26:28:696: Brick menthe ski autour du conteneur légendaire . 3
+11:27:000459:000459_4 : 11:26:36:827: Chapoutier . 4
+11:27:000460:000460_4 : 11:27:12:318: Oui Alan fait ça va dépendre surtout du Japon le niveau de maturité de vos équipes . 4
+11:27:000461:000461_1 : 11:27:21:442: Pour moi c'est ça . 1
+11:27:000462:000462_2 : 11:27:24:584: Faire quasiment tous les maillons de la chaîne d'une application . 2
+11:27:000463:000463_3 : 11:27:29:291: C'était très bon sur le monitoring location c'est une bonne chose et après au faire à mesure il faut que je sois capable d'en descendre dans toutes les chaînes . 3
+11:27:000464:000464_4 : 11:27:38:419: Cybernet maison son père apporté très difficile aujourd'hui dans cet écosystème j'ai une grosse . 4
+11:28:000465:000465_1 : 11:27:45:540: Finalement pour votre requête il y a des y a des briques applicative style . 1
+11:28:000466:000466_2 : 11:27:52:689: Ils ont . 2
+11:28:000467:000467_3 : 11:27:55:823: J'ai reçu une requête et finalement elle est passé par ce ne l'a elle est passé par cette application exetera nous . 3
+11:29:000468:000468_4 : 11:28:03:791: Charmant dépend de la maturité où est-ce que vous en êtes faut pas dire bah voilà je vais adresser directement je veux une vision systémique de tout mais déjà commencé par demander à vos équipes d'un fera peut-être d'avoir interview serveur ensuite . 4
+11:29:000469:000469_1 : 11:28:20:953: Et ensuite donc Aurélie tous ensemble au foyer étape par étape donc on tu as des soucis de performance finalement c'est aussi . 1
+11:29:000470:000470_2 : 11:28:28:500: Après c'est juste toi en fait le prisme que tu vas prendre si tu préfères prendre un prisme Puteaux service donc toi tu vas avoir une vision voilà moi j'ai un service client . 2
+11:29:000471:000471_3 : 11:28:58:651: Pas énormément de . 3
+11:37:000472:000472_4 : 11:29:00:573: Avoir des méthodes différentes et après c'est ton choix tu peux très bien rester dans une isolation ou une équipe qui va voir si il risque d'avoir ce que finalement . 4
+11:37:000473:000473_1 : 11:29:14:720: Un peu patate chaude je vais demander un truc et en fait on fait que des allers-retours parce qu'on regarde pas la même chose on a pas une vision . 1
+11:37:000474:000474_2 : 11:29:22:583: Mafia pareil pour ça que c'est une bonne réponse mais moi je pense que la vision . 2
+
+

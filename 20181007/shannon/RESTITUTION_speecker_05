@@ -1,0 +1,105 @@
+ 
+
+05_Consommer et produire des e-mails avec Python : lire, écrire, etc. Stéphane Blondon
+
+12:02:000530:000530_3 : 11:59:52:184: Donc une partie de texte typiquement va être juste du texte brut . 3
+12:02:000531:000531_4 : 12:01:51:335: Donc sans décoration une partie HTML ça c'est quand on veut des mails avec des couleurs et des images et tout ce genre de chose est souvent on veut des pièces jointes pour voir des images des PDF de facture ou n'importe quoi . 4
+12:02:000532:000532_1 : 12:02:04:862: Donc comment est-ce qu'on les envoies alors que . 1
+12:03:000533:000533_2 : 12:02:08:984: Bouilloire par exemple utiliser un petit peu libre qui est dans la bibliothèque standard pilon du coup c'est super simple démarrer et donc on a envie de commencer comme ça on me connecter sur un serveur local . 2
+12:03:000534:000534_3 : 12:02:24:122: Envoie un message sauf que ça ben ça marche pas très bien parce que par exemple justement avec un message qui ressemble à ça il y a pas de titre dans le mail donc on va vite être déçu donc ça ça ça ça ça a marché donc . 3
+12:04:000535:000535_4 : 12:02:42:268: Message c'est pareil elle est dispo dans dans la bibliothèque standard de pigeon donc en rajoute on peut rajouter donc l'instant . 4
+12:05:000536:000536_1 : 12:02:55:384: Mais Kiss Kiss comportant parti comme comme un dictionnaire pour ça qu'on peut du coup affecté . 1
+12:05:000537:000537_2 : 12:03:02:522: Vieilles femmes qui sont celles qu'on voit dans les en-têtes et puis du coup il y a la méthode cette contrainte qui va faire la partie texte du mail . 2
+12:05:000538:000538_3 : 12:03:11:373: Précédent sur un serveur s m . 3
+12:05:000539:000539_4 : 12:04:45:601: Donc plutôt que tu déjà on peut avoir envie d'un truc un peu plus pratique beaucoup plus agréable à utiliser pour pour le développeur qui va le faire . 4
+12:05:000540:000540_1 : 12:04:59:356: S'appelle une bibliothèque qui s'appelle enveloppe dispo sur papier libre donc typiquement enveloppe ça s'appelle . 1
+12:05:000541:000541_2 : 12:05:12:480: 20 sentier . 2
+12:06:000542:000542_3 : 12:05:15:641: Objet avec tous les paramètres du coup dans la partie HTML simplifié mais c'est pour faire la même que celle du . 3
+12:06:000543:000543_4 : 12:05:25:774: Ajouter un sèche-linge avec juste le chemin vers le fichier où il se trouve et du coup c'est la bibliothèque qui va faire le boulot de lire . 4
+12:06:000544:000544_1 : 12:05:34:868: Tension regarde si vous regardez sur ta fille c'est marqué que c'est embêtant 04 nous on l'utilise depuis au moins 3 ans et on a jamais eu de problème du coup c'est devenu le standard qu'on utilise partout parce que je sais plus simple que ça marche tout seul . 1
+12:06:000545:000545_2 : 12:05:51:971: Parmi les autres besoin qu'on a eu ses défauts voulais écrire des mails mais sans crème prenne trop . 2
+12:06:000546:000546_3 : 12:06:06:095: Nous on a eu ses typiquement comme on a un message texte et un message HTML . 3
+12:06:000547:000547_4 : 12:06:13:231: Eh bien vas-y juste c'est bien d'avoir les deux parce que le texte c'est un peu . 4
+12:06:000548:000548_1 : 12:06:21:361: HTML en fait c'est contraire . 1
+12:07:000549:000549_2 : 12:06:24:484: Normalement il faut forcément avoir son tel certains lecteurs de mail ce genre de choses comme ça qui sont . 2
+12:07:000550:000550_3 : 12:06:34:630: Vont mal interprété de l'acheter mais si je me laisse pas ils vont voir du HTML et du coup ça va pas être super lisible . 3
+12:07:000551:000551_4 : 12:06:42:529: Les antispam vont pas apprécier pas la partie texte . 4
+12:07:000552:000552_1 : 12:06:48:935: Donc comme on a besoin j'ai deux farcies et qu'on veut que vida man le contenu soi-même à chaque fois il faut faire attention mettre à jour les deux temps plein qu'on construit pour le Pôle emploi du . 1
+12:07:000553:000553_2 : 12:07:04:650: Donc on a fait mal de mail . 2
+12:07:000554:000554_3 : 12:07:09:776: Ivan permet de faire des assez simple . 3
+12:08:000555:000555_4 : 12:07:14:912: Une seule une seule base qui va être du McDo et on va mettre la partie de Marion directement averti texte sans la changer et on va faire une transformation vers lui HTML 4 . 4
+12:08:000556:000556_1 : 12:07:28:588: You are c'est pas du tout personnaliser pour l'utilisateur donc ça marche bien pour des trucs un peu transactionnelle ou un peu générique pour des clients internes exetera mais voilà un truc traité mais ça c'est pas du tout . 1
+12:08:000557:000557_2 : 12:07:44:135: Région qu'on met un texte comme ça donc tu . 2
+12:08:000558:000558_3 : 12:07:51:227: On appelle le MacDo mail c'est une bibliothèque qui se juste un tout petit bout de colle sur enveloppe d'un côté et la biotech marque données disponibles sur . 3
+12:08:000559:000559_4 : 12:08:02:357: Comment sont fait juste du coup de contenu qu'on a vu juste avant qui et passer directement par arrêt . 4
+12:08:000560:000560_1 : 12:08:11:249: On l'envoie en supposant évidemment là encore tu veux on est le serveur SMTP . 1
+12:08:000561:000561_3 : 12:08:17:387: Exécuter ses on a rendu comme ça donc . 3
+12:08:000562:000562_4 : 12:08:24:501: Une capture d'un cube mais globalement la mettre dans Thunderbird n'importe quoi ça ressemblerait à peu près à sa . 4
+12:09:000563:000563_1 : 12:08:32:633: Café Basic qui je viens juste décorer les valises principal donc la charge de . 1
+12:09:000564:000564_2 : 12:08:41:135: Tu sais paramétrable sur veux dans la dans l'appel de la fonction une chaîne sera le CSS . 2
+12:09:000565:000565_3 : 12:08:49:293: Moussa répondre aux besoins . 3
+12:09:000566:000566_4 : 12:08:54:426: On a pas besoin d'aller plus loin . 4
+12:09:000567:000567_1 : 12:08:57:650: Donc 2e étape c'est évidemment le fil quand on les a envoyés on a aussi parfois besoin de les consommer mais si c'est moins que pour moi c'est moi courant . 1
+12:09:000568:000568_2 : 12:09:09:685: Donc il y a plusieurs méthodes possible donc mail dire qu'il a aussi disponible de psy tu es disponible à la bibliothèque standard . 2
+12:10:000569:000569_3 : 12:09:18:343: Donc me le dire c'est un système qui tous les mails des utilisateurs sur des machines tu me dis quoi le répertoire . 3
+12:10:000570:000570_4 : 12:09:30:487: 5 mile va et afficher d'autres filles adorent ma pour enregistrer les mails qui existent typiquement et qui sont gérés par python . 4
+12:10:000571:000571_1 : 12:09:41:616: S'informa concurrente mais il dira météo aujourd'hui largement déconseillé d'utiliser parce que c'est un seul fichier avec tous les mails de dents et du coup c'est pas très pratique pour défendre de concurrence exetera psy il faut gérer des loges . 1
+12:10:000572:000572_2 : 12:09:54:754: Aujourd'hui c'est plus trop utiliser après dissolution propriétaire j'aurai ma chez d'autres mais globalement moi je connais personne qui utilise ce truc donc a priori on peut les oubliés . 2
+12:10:000573:000573_3 : 12:10:04:893: En tout cas . 3
+12:10:000574:000574_4 : 12:10:08:006: A priori c'est conseillé d'utiliser . 4
+12:10:000575:000575_1 : 12:10:12:356: On doit faire deskripsi utilise médias et ben il faut comme c'est sûr système de fichier de base il faut évidemment avoir accès à serveur la . 1
+12:10:000576:000576_2 : 12:10:26:478: Supprimer le fichier vidament faut avoir un droit de suppression extra . 2
+12:11:000577:000577_3 : 12:10:31:384: Donc un exemple de l'utilisation de me dire où on suppose que on veut accéder à la boîte mail de Alice donc on va sur son sur son homme dans la gamelle dire . 3
+12:11:000578:000578_4 : 12:10:43:134: Du coup j'ai rajouté un message quand . 4
+12:11:000579:000579_1 : 12:10:47:253: Concert font toujours avec des titres des noms de destinataire expert . 1
+12:11:000580:000580_2 : 12:10:54:167: Du coup c'est le message qu'on est en train de lui rajouter . 2
+12:11:000581:000581_3 : 12:10:58:254: Donc le mail dire c'est la boîte mail . 3
+12:12:000582:000582_4 : 12:11:04:383: Et on ajoute le message qu'on vient de créer juste avant et ça va la . 4
+12:12:000583:000583_1 : 12:11:09:501: Faire d'autre chose donc Half-Life par exemple FC poursine donc c'est vrai marquer comme lu la Doutre fly à d'autres drapeau qui peuvent être ajoutée en fait ça va se rajouter sur le dans le nom du fichier dans mes le dire . 1
+12:12:000584:000584_2 : 12:11:25:622: Si jamais vous ai utilisé mailbox ou d'autres choses comme ça va pas être les mêmes lettres ce qui est pas très pratique mais c'est selon les implémentation de mailbox et dire qu'ils sont pas les mêmes . 2
+12:12:000585:000585_3 : 12:11:38:870: Qu'on peut faire d'autre par exemple c'est le l'exemple en dessous mais il vient à item bah ça va retourner l'ensemble des messages puis on peut y tirer dessus donc message à Eddy c'est ce qu'on avait vu tout au début que l'identifiant du mail message qu'on peut ce qui va être utilisé dans pas mal de commande pour pour faire des choses dessus comme ça . 3
+12:12:000586:000586_4 : 12:12:03:773: Autre solution il a man I'm a été utilisé le protocole IMAP si c'est faisable avec un immeuble qui est disponible aussi dans la bibliothèque standard donc ça s'utilise cc de manière donc je suis sur mon sur une machine locale et je vais accéder au serveur IMAP lui demander de faire des tâches sur le . 4
+12:13:000587:000587_1 : 12:12:29:913: Disponible . 1
+12:13:000588:000588_2 : 12:12:32:034: Typiquement . 2
+12:13:000589:000589_3 : 12:12:34:723: Donc on appelle la buvette à Karim Habib et puis on se connecte avec évidemment le mot de passe l'histoire et puis on peut chercher les mails exetera stock . 3
+12:13:000590:000590_4 : 12:12:50:854: Jamais fait ça parce qu'après pour faire des pour faire plein d'autres commandes si son derrière il faut écrire le from lacets cédric est inapte il faut faire il faut les faire à la main et en fait bon c'est horrible en tout cas moi je préférais directement . 4
+12:13:000591:000591_1 : 12:13:08:991: Comment simplifier la vie . 1
+12:13:000592:000592_2 : 12:13:11:403: En l'occurrence j'ai utilisé . 2
+12:13:000593:000593_3 : 12:13:14:543: Et du coup et pas dans la bijection d'armée est disponible sur palpitante effacer installable super simplement avec un virtual envoie ces choses comme ça . 3
+12:13:000594:000594_4 : 12:13:24:685: Coupe la suite il . 4
+12:13:000595:000595_1 : 12:13:27:437: J'ai fourni un petit exemple de une box . 1
+12:13:000596:000596_2 : 12:13:31:170: On se connaît . 2
+12:14:000597:000597_3 : 12:13:33:310: Du coup là ça va permettre de se connecter sur le serveur IMAP on récupère l'instant . 3
+12:14:000598:000598_4 : 12:13:34:310: Voir Lolo chance moniteur sur tous les messages . 4
+12:14:000599:000599_1 : 12:13:47:945: Si on peut faire afficher le titre le nom exetera donc là avec message passe abject ça . 1
+12:14:000600:000600_0 : 12:13:54:559: Body plein qui après Bafé on voit la partie de texte du mail mais je préfère message. HTML pour voir la partie . 2
+12:14:000601:000601_3 : 12:14:04:406: Voilà qu'est-ce que je peux faire les l'exemple la ligne d'après c le marché donc été l'équivalence qu'on avait vu dans sur média qui était juste là là avec le Half-Life . 3
+12:14:000602:000602_4 : 12:14:17:522: La même chose . 4
+12:15:000603:000603_1 : 12:14:19:654: C'est par ici je veux le supprimer je récupère message à Lydie qui a été passée dans message . 1
+12:15:000604:000604_2 : 12:14:25:391: C'est possible aussi assez facilement là on a récupéré tous les messages non en fait ça peut être assez facile de lui faire filtrer par date Parions je veux tous les mails avant telle date ou après telle date est pas mal de choses comme ça j'ai pas . 2
+12:15:000605:000605_3 : 12:14:43:532: Je prends une dent Claudine par l'équipe décoder les mails mais j'ai renvoyé ddpc le matin répondu assez vite . 3
+12:16:000606:000606_4 : 12:14:54:620: Non il répond des gens dans la journée ou la semaine . 4
+12:16:000607:000607_1 : 12:14:59:203: Voilà ça c'est les liens des bibliothèques que j'ai utilisé dans ton j'ai parlé donc enveloppe qui était l'envoie de mail facile Maldon mais le truc simplifié pour toi qui fait du HTML et du texte tout seul et une box l'alarme pour faire de la . 1
+12:16:000608:000608_2 : 12:15:22:294: Je voudrais des questions . 2
+12:16:000609:000609_3 : 12:15:26:425: Sur . 3
+12:16:000610:000610_4 : 12:15:53:555: C'est le McDo le pharmacie McDo . 4
+12:17:000611:000611_1 : 12:16:07:204: Location c'était quel est le format contre qui a tendu par McDonald's pour afficher pour condoléances donc . 1
+12:17:000612:000612_2 : 12:16:20:341: Donc qu'un pharmacie utilisé par exemple irritable . 2
+12:17:000613:000613_3 : 12:16:27:468: Question c'est est-ce qu'on peut en déduire le texte à une é-mail oui c'est ça en fait il va on va prendre la bibliothèque marionnette qu'elle prend juste . 3
+12:17:000614:000614_4 : 12:16:50:608: Tout le texte fonctionne une chaîne de caractère et on va la passer en paramètre la classe marque de mail et donc c'est le paramètre contente . 4
+12:18:000615:000615_1 : 12:17:01:328: Apprendre le format McDo et lui il va le mettre soir il va le mettre dans la partie texte directement . 1
+12:18:000616:000616_2 : 12:17:13:457: Avec une bibliothèque externe le format Margot mail en HTML . 2
+12:18:000617:000617_3 : 12:17:21:320: Merci primitive pour qu'on soit sera sur le fait que ça . 3
+12:18:000618:000618_4 : 12:17:25:994: Donc la question c'est est-ce qu'on peut utiliser mail dire à distance où est-ce qu'il utilisa IMAP donc non mais le dire c'est forcément c'est c'est un accès c'est un accès que local pour la machine parce que c'est son système de fichiers et donc ça peut pas être un accès distant . 4
+12:18:000619:000619_1 : 12:18:04:474: Trop vite . 1
+12:18:000620:000620_2 : 12:18:17:639: Et l'Italie . 2
+12:19:000621:000621_3 : 12:18:20:988: Où il y a un problème défaut faut faire attention au droit d'accès . 3
+12:19:000622:000622_4 : 12:18:29:117: Potentiellement il y a des sous répertoire et sous répertoire tmp dans le fichier arrive . 4
+12:19:000623:000623_1 : 12:18:38:261: Donc en fait après le système va gérer le maître val-d déplacer pour gérer les problèmes . 1
+12:19:000624:000624_2 : 12:18:45:392: Et donc il faut aussi avoir les droits sur faire un sous-répertoire la femme il faut faire attention au point d'accès parce que pendant seulement ça peut pas marcher . 2
+14:46:000625:000625_3 : 12:18:55:441: Oui . 3
+14:46:000626:000626_4 : 12:19:00:766: Pour . 4
+14:49:000627:000627_1 : 12:19:13:933: Je suis pas dans lequel . 1
+14:49:000628:000628_2 : 12:19:18:084: Chaque fois récupérer . 2
+
+ 

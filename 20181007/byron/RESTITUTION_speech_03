@@ -1,0 +1,138 @@
+
+
+03_TkInter : toujours de la partie ? Girault François
+
+ 
+ 
+11:35:000339:000339_4 : 11:34:50:820: Je suis en mode production . 4
+11:35:000340:000340_2 : 11:35:04:760: Qui . 2
+11:37:000341:000341_0 : 11:36:50:892: Bonjour et bienvenue à cette conférence, heu, intervention sur Tkinter. Tkinter vous le savez c'est un tookit qui est intégré
+11:37:000343:000343_1 : 11:37:11:183: Sur ce sujet et de le remettre dans le contexte par rapport en faite aux préoccupations égonomique du moment entre vous avez peut-être entendu parler d'un acronyme s'appelle UX qui signifie user experience et donc . 1
+11:38:000344:000344_2 : 11:37:24:312: Mais histoire d'avoir quelques notions parce que sinon c'est un besoin qui monte beaucoup et qu'à chaque fois qu'il y a un besoin c'est qu'on sait bien qu'il y a des propos moyens qui arrive derrière en fait voilà il faut de qualité donc je parle un petit peu de l'histoire ses origines . 2
+11:38:000345:000345_3 : 11:37:40:450: Tkinter dans le contexte et je vous présenter une étude de cas voilà j'ai mis un petit proto qui montre des choses et aussi un logiciel que j'ai fait pour un client qui est le CNRS et Météo France. 3
+11:38:000346:000346_4 : 11:37:53:577: Donc je m'appelle François Giraud donc voilà je suis un quadragénaire en pleine crise, j'ai 20 ans de métier derrière moi python c'est une quinzaine d'années avant je faisais du PERL, heuuu, j'ai toujours aimé les langage de script . 4
+11:38:000347:000347_1 : 11:38:11:657: Travaille pour une société qui s'appelle Telespasio te laisse pas qui côté sponsor merci de l'espace journée compagnie qui fait de la télécommunication du spatial on aime beaucoup beaucoup beaucoup Python, merci Telespasio de m'avoir emmené ici . 1
+11:39:000348:000348_2 : 11:38:29:164: Tkinter en 2018 comme je vous le disais un peu en intro . 2
+11:39:000349:000349_3 : 11:38:33:306: Ah c'est moche et il y a largement mieux effectivement c'est une application va dire Tkinter . 3
+11:39:000350:000350_4 : 11:38:43:454: Python qui est idle3 environnement de développement de base de livrer avec Python bon on a quelque chose voilà c'est un peu rustique quand même un relief ces petites croix ça rappelle des choses d'un autre temps . 4
+11:39:000351:000351_2 : 11:38:59:583: Attention les moins de 20 ans ne peuvent pas connaître, heu, ça ressemble à IDLE Effectivement un look qui est a priori… Bon c'est bien mais quand même on veut on veut d'autres choses . 2
+11:40:000352:000352_3 : 11:39:17:153: Écoutez je ne vais pas refaire une conférence qui a été donnée par Richard Jones voilà que vous vous trouverez facilement sur SlideShare voilà qui va vous expliquer du coup en 96 style pourquoi tu as une terre c'est très bien ça sert à une vie aussi comme projet a été pas mal rénover en 2000 et 2008 avec TCL. 3
+11:40:000353:000353_4 : 11:39:42:297: Donc c'est quelque chose qui va se passer à la trappe c'est pas dans les Spotlights donc on a on a pas vu et donc du coup on ne connaît pas mais c'est pas grave y a une occasion de connaître . 4
+11:40:000354:000354_1 : 11:39:52:721: Donc UX et design, je voulais faire un tout petit crash course sur ce qui était avec c design qu'est-ce que c'est vrai que c'est un peu trop difficile à qualifier donc on va plutôt dire qu'est-ce que vous avez un poster célèbre dans le monde de l'ergonomie hein, qui dit que UX is not UI . 1
+11:41:000355:000355_2 : 11:40:10:846: Effectivement comme on a toujours tendance à se focaliser sur la partie émergée de l'iceberg, l'interface graphique, mais ça va beaucoup beaucoup plus loin . 2
+11:41:000356:000356_3 : 11:40:22:989: Ici qui sont très hétérogène qui parfois certaines n'ont rien à voir entre des arts graphiques et écrire les exigences par exemple c'est pas forcément des matières qu'on a l'habitude de voir ensemble . 3
+11:41:000357:000357_4 : 11:40:39:017: UX c'est vraiment tout ça et donc c'est plein d'activités qui sont hors de de la conception de l'interface qui sont des activités on va dire centréess sur l'utilisateur il y a une démarche après une méthode de conception l'interface qui s'appelle le truc design la conception centrée sur l'utilisateur qui va vous permettre comme ça de rencontrer au final utilisateur, avoir de l'empathie pour lui . 4
+11:41:000358:000358_0 : 11:40:40:017: Souvent en attendant ça plutôt à utiliser le jugement utilisateurs il y a pas de faire ça il est idiot si vous avez vous avez tout perdu il faut toujours avoir de l'empathie et se mettre à la place des ses utilisateurs . Qu'est ce que je suis en train de le faire subir ? 1
+11:42:000359:000359_2 : 11:41:17:359: Est-ce que je peux déplacer sa souris dans tous les sens je scroll je passe dans plein d'images souvent des utilisateurs logiciel tout simplement . 2
+11:42:000360:000360_0 : 11:41:31:502: Ils doivent naviguer en permanence du soir au matin entre 5 fenêtres à faire des copier-coller c'est pas une bonne manière quoi donc ces disciplines entre permettre de poser un peu les choses et s'intéresser l'utilisateur plan du coup on met un pied dans la science humaine. Dans mon parcours personnel où j'ai fait toujours la grosse technique il y a 6 ans à l'occasion un petit burnout. 3
+11:42:000361:000361_4 : 11:41:53:631: Et je me suis lancé dans l'ergonomie et c'est là où j'ai commencé à prendre conscience de UX et de tout ce qui est autour alors c'est quelque chose de très jeune qui est très dynamique . 4
+11:42:000362:000362_1 : 11:42:03:467: Il y aurait beaucoup de choses à en dire donc je vous invite à aller voir d'autres sources pour un air de ça c'est pas ce qui manque sur le sur le net . 1
+11:42:000363:000363_2 : 11:42:11:995: Donc UX / UI allez sur ce site là il y a le . 2
+11:42:000364:000364_3 : 11:42:18:119: Original de Éric flower qui est très intéressant . 3
+11:42:000365:000365_4 : 11:42:22:630: Providentiellement en début de semaine justement sur le Framablog . 4
+11:43:000366:000366_1 : 11:42:29:763: a été posté un article ou titre justement un peu provoquant de et si . 1 dans les projets libre souvent les projets libre d'un peu cette réputation de bon bah c'est pas forcément pour grand public . 1
+11:43:000367:000367_2 : 11:42:45:911: Desktop voilà on l'attendait tous on était tous prêts avec notre Linux, Linux sur le desktop n'es pas arrivé au final quelque part on a raté des choses il faut . 2
+11:43:000368:000368_0 : 11:42:57:049: On a pas assez pensé aux utilisateurs on a pas assez pensé... . 3
+11:43:000369:000369_4 : 11:43:01:164: La classe . 4
+11:43:000370:000370_1 : 11:43:03:285: Monsieur / Madame Michu, non finalement on n'y a pas pensé au contraire parfois il y a ces comportements d'élitisme où on dit vous n'avez pas compris ! vous n'êtes pas dedans ! faut comprendre que c'est un comportement d'exclusion sont très dommageable pour les communautés . 1
+11:43:000371:000371_2 : 11:43:16:986: Ce petit post de blog va vous parler de plein de choses donc je ne vais pas le répéter, je vous recommande grandement d'aller jeter un œil parce que vous allez voir,la mise en place de différentes disciplines et comment finalement on arrive à s'intéresser aux utilisateurs des projets libre qui sont pas forcément des utilisateurs . 2
+11:44:000372:000372_3 : 11:43:35:109: Quand je travaille pour un client je peux voir les utilisateurs en direct, te faire des choses etcais pas avec lui c'est pas tout à fait la même démarche mais il faut pas baisser les bras . 3
+11:44:000374:000374_4 : 11:43:47:233: On peut toujours arriver à apprendre . 4
+11:44:000375:000375_1 : 11:43:50:658: Quel que quelques outils et à faire quelque produire de la valeur ajoutée avec ses outils . 1
+11:44:000376:000376_2 : 11:43:57:881: Alors le design, le bon design c'est celui que nous n'oublions, s'il y a quelque chose qui a un design parfait par exemple je pense à ma cuillère avec laquelle je touille mon café le matin elle tient formidablement dans ma main elle me permets de mettre . 2
+11:45:000377:000377_0 : 11:44:20:995: Un petit peu liquide et le porter à ma bouche aussi quand même assez précis quand même interaction mais une fois que j'ai fini pour mon café vois même pas mon café je n'y pense absolument pas, je suis pas imbibé toute ma journée par rapport à comment était bien ma cuillère à café ce matin voilà donc c'est pour vous dire que il faut dire non à l'efet Whaoo
+11:45:000378:000378_4 : 11:44:42:110: Le slogan de la campagne de Microsoft pour Vista mais oui pour Windows Vista on a vu ce que ça a fait . 4
+11:45:000379:000379_0 : 11:44:50:243: Bin ils ont voulu dire à regarder en fait on est comme Mac on met de la transparence et des polices jolies, etc., il y a des animations, voilà c'est disney youpi . 1
+11:45:000380:000380_2 : 11:45:03:363: mais au final pas vraiment on va dire même le publique des utilisateurs parce que le but de du UX au-delà du retour sur investissement dans le sens où ces activités là qu'on va mener en amont dans un procès de développement tuto comment se passe intéressé utilisateur bien évidemment la . 2
+11:45:000381:000381_3 : 11:45:24:484: Retour sur investissement dans le sens où on a pas le temps ni l'argent de faire le mauvais produit . 3
+11:46:000382:000382_4 : 11:45:32:591: On fait du UX ou pas voilà annoncer on n'a ni le temps ni l'argent dessus donc l'objectif . 4
+11:46:000383:000383_1 : 11:45:43:721: C'est le plébicite des utilisateurs une application sans utilisateur est une application morte . 1
+11:46:000384:000384_2 : 11:45:49:578: Donc le bon design dans voilà passé bruce tcl/tk il faut remonter éfectivement un peu dans le temps situé ça vient de très loin donc là je vous présente un magnifique écran window voilà comme on pouvait en 1987 il a été fabriqué par le MIT. 2
+11:46:000385:000385_3 : 11:46:09:710: Comme tant d'affaires universitaires ou autres ont été converties en savoir-faire industriel et on a des choses on a des éléments . 3
+11:46:000386:000386_4 : 11:46:18:604: Pick-up des boutons et tout ça mais bon on est en 1987 W . 4
+11:46:000387:000387_1 : 11:46:26:731: Donc on est aux origines la programmation X11 c'est très très pénible il faut écrire quelques centaines de lignes code juste pour afficher un petit un petit label c'est pas rien donc du coup on sent très bien qu'on a besoin d'outils audessus . 1
+11:47:000388:000388_2 : 11:46:41:849: Mettre graphique justement j'ai pas réussi à trouver la date précise que j'ai mis un X dans les années 80 on a eu Mo . 2
+11:47:000389:000389_3 : 11:46:49:957: Une bibliothèque propriétaire qui à eu beaucoup de succès dans l'armée américaine. 3
+11:47:000390:000390_1 : 11:47:00:197: Où qu'il y avait un modèle donc de développement bibliothèque propriétaire et qui n'était pas vraiment sympa puisque en fait elle faisait exprès de conserver des bugs pour que les clients puissent continuer à fonctionner quoi . 1
+11:47:000391:000391_2 : 11:47:15:330: Surdimensionné entre de l'Américaine si l'ammé terou . 2
+11:47:000392:000392_3 : 11:47:19:452: Trouver un bug dans les 4h c'était corrigé je veux une équipe il réveiller la nuit et on avait une . 3
+11:47:000393:000393_4 : 11:47:27:575: C'était des contrats évidemment a des millions et des millions de dollars . 4
+11:48:000394:000394_1 : 11:47:32:668: Motif a lui proposé justement désolé mon interface graphique voilà on a des . 1
+11:48:000395:000395_0 : 11:47:39:781: On a des boutons qui sont ici son relief et aimante justement ce concept des années 80 CR de guidage dans la
+11:48:000396:000396_0 : 11:47:51:903: Français c'est un mot anglais qu'on... qu'on... qu'on... "francise", c'est-à-dire c'est la capacité des éléments d'une interface à à être des analogies ou des métaphores du monde réel . 3
+11:48:000397:000397_4 : 11:48:04:021: Comme un bouton de lumière en relief et ce genre de chose . 4
+11:48:000398:000398_1 : 11:48:09:006: En même temps, en 1990 est arrivé TCL/TK tu arrives en 1988 qui t'arrive en 90 très vite et ça a été une petite révolution parce que enfin on pouvait avoir où est fabriqué de d'une manière assez simple avec un langage qui partage de qualité, en terme de réponse aux besoins avec Python . 1
+11:48:000399:000399_2 : 11:48:35:141: Langage le site il y a pas besoin de compiler on se sent déjà que il y a des besoins qui sont vraiment commun quoi du coup dans les années 90 . 2
+11:49:000400:000400_3 : 11:48:48:275: Un binding sur TK . 3
+11:49:000401:000401_4 : 11:48:52:404: C'est une interface de dévelopeur . 4
+11:49:000402:000402_1 : 11:48:56:228: De nos jours une interface a un objectif qu'il faut être capable d'accomplir une tâche et on va dire en étant concentrer sur s'attache et ne croyez pas de ces l'utilisateur qui fait ce qu'il veut une interface c'est l'inverse de nos jours se sont les interfaces qui font ce qu'elles veulent des utilisateurs. 1
+11:49:000403:000403_0 : 11:49:12:833: Les interfaces des réseaux sociaux, etc., c'est très précisément c'est pour ça voilà vous devinez les messages si vous êtes sur facebook ben c'est fait pour liker les choses c c pour recevoir du lac . 2
+11:49:000404:000404_3 : 11:49:25:966: Dans le cerveau qui est assez dommageable donc l'interface de développeurs . 3
+11:49:000405:000405_4 : 11:49:34:094: On ne comprend pas le but de cette interface et les interfaces moderne doit s'exprimer ce qu'on veut en faire . 4
+11:49:000406:000406_1 : 11:49:42:232: Même sur le web . 1
+11:50:000407:000407_2 : 11:49:45:338: Passer son annonce est-elle . 2
+11:50:000408:000408_3 : 11:49:48:649: En 1993 est apparu CDE. 3
+11:50:000409:000409_4 : 11:49:51:771: C'était un environnement de c'était le CDE commande desktop environment ça a été un effort de de plusieurs secteurs, Unix, Solaris, HP et qui ont du coup . 4
+11:50:000410:000410_1 : 11:50:08:328: Proposer pour unique une interface unifié on retrouve un peu ce genre d'intérieur . 1
+11:50:000411:000411_2 : 11:50:15:447: Trafic des du relief des choses que voilà des métaphores des dossiers ces gens de . 2
+11:51:000412:000412_3 : 11:50:24:477: En 2018 d'interface graphique c'est de moins en moins spoliomorphic justement est arrivé quelque chose qui est le flat design flat design c'est-à-dire on arrête de faire des repères en relief c'est fini et pourquoi on arrête de faire des repérages en relief, parce que on sait que les utilisateurs ont la culture pour comprendre où est-ce qu'ils doivent cliquer et où est-ce qui . 3
+11:51:000413:000413_4 : 11:50:25:477: Microsoft en a fait les frais avec Windows 8 mais ils ont courage au moins de d'être disruptifs. 4
+11:51:000414:000414_1 : 11:50:55:804: Le flat design comme je dis c'est la fin des repères de Bidache paiement si il y a une simplification il y a moins de choses à l'écran du coup on est moins perturbé - de charge mentale . 1
+11:51:000415:000415_0 : 11:50:56:804: On va plutôt se focaliser sur les contenus que le contenant après évidemment on a du malus c'est... on perd des repères... voilà c c le l'échelle de Windows 8 c'est ça on a perdu le monde ou pas qu'est-ce que ça faisait surtout . 2
+11:51:000416:000416_3 : 11:51:23:086: C'est à dire la capacité découvert intuitif d'un coup commence à être un peu perdue . 3
+11:52:000417:000417_4 : 11:51:30:126: Pour implémenter le flat design, c'est pas très compliqué il faut une typographie voilà une belle police ou un couple de polices et une palette de couleurs été autorisé à plat sans être trop agressif . 4
+11:52:000418:000418_1 : 11:51:43:253: Interface utiliser palette de couleurs qui viennent de flat ui colors et qui ont trop de vous avez un rouge vous pouvez mettre un gros panneau rouge il Palatino tout va bien . 1
+11:52:000419:000419_2 : 11:51:54:382: Iconographie Default Icons fournit des des des icônes plate qui sont assez assez sympa c'est pas ça suffit largement pour prototype . 2
+11:52:000420:000420_3 : 11:52:03:082: Comment on fait ça avec TK de nos jours et une écris c'est pas le thème TK donc il s'appelle TTK dans dans Python ans a été construit à l'origine pour compléter intégration native parce que les toolkits ont toujours voulu s'intégrer aux environnement donc c'est pour ça que . 3
+11:52:000421:000421_4 : 11:52:19:196: Ressemble à motifs mais si vous lancer un programme sous Windows ça ressembleà Windows sur Mac OS vous allez avoir une interface . 4
+11:52:000422:000422_0 : 11:52:28:853: Theme TK a d'abord conçu pour mettre en place... heu... compléter cette intégration mais c'est complètement contournable pour faire du flat design donc . 1
+11:53:000423:000423_3 : 11:52:44:317: Du code . 3
+11:53:000424:000424_4 : 11:52:48:107: Pour vous montrer un peu . 4
+11:53:000425:000425_1 : 11:52:52:667: App . 1
+11:53:000426:000426_2 : 11:52:54:794: Voilà ça c'est une interface . 2
+11:53:000427:000427_3 : 11:53:18:929: Visual Studio code et en fait . 3
+11:53:000428:000428_4 : 11:53:24:049: Implémenter une petite bibliothèque de widgets je peux aller me chercher . 4
+11:53:000429:000429_1 : 11:53:29:175: Mon environnemet . 1
+11:54:000430:000430_2 : 11:53:31:294: Et donc du coup aussi un peu amusé à faire quelque chose qui ressemblait à VisualStudioCode . 2
+11:54:000431:000431_3 : 11:53:38:115: Là vous pouvez pas me dire que ça ressemble à des choses des années 80 . 3
+11:54:000432:000432_4 : 11:53:44:261: Comment on fait ça ? Vous allez voir c'est pas un grand grand effort et voir je me fais un petit-fils aime comment j'ai fait pour me faire mon theme en déclarant en utilisant TTK en déclarant Austin et j'ai créé un theme pour mon application dérive en interne existant . 4
+11:54:000433:000433_1 : 11:54:04:405: Tout ça c'est c'est assez comment on fait ça vous allez voir c'est pas un grand grand theme or et voir je me fais un petit-fils aime comment j'ai fait pour me faire mon t'aime en déclarant en utilisant TTK en déclarant un style et j'ai créé thème, on déclare des propriétés par rapport en fait tu sois à des classes de widget ou soit des classes de widget qu'on dit fini nous-même quoi cette panel par exemple c'est une classe que j'ai défini moi-même et c'est un style du coup que j'ai appliqué à tout ce qui était sur mon panneau latéral . 1
+11:54:000434:000434_2 : 11:54:19:308: Avec pas grand chose là je suis à même pas 100 lignes quoi, avec 70 lignes de code . 2
+11:54:000435:000435_3 : 11:54:27:447: J'obtiens ce genre de résultats . 3
+11:54:000436:000436_4 : 11:54:31:515: Je veux montrer rapidement une autre application . 4
+11:55:000437:000437_1 : 11:54:36:588: Là c'est fait pour un pour un autre client donc ça application pour client . 1
+11:55:000438:000438_2 : 11:54:43:619: C'est une application dont je suis assez fièr ce que j'ai pu faire une démarche UX complète et intégrale sur sur ce logiciel . 2
+11:55:000439:000439_3 : 11:54:58:201: je vais lancer ça . 3
+11:55:000440:000440_4 : 11:55:00:324: Créer une application qui vole ça va dans un avion et ça vole dans un avion de recherche atmosphérique et ça du coup ça affiche en temps réel des capteurs et ce genre de choses et on peut faire du coup et des graphiques comme ça avec matplotlib . 4
+11:55:000441:000441_1 : 11:55:16:032: Et on peut vous faire quantité de choses avec ça par exemple avec les paramètres calculés . 1
+11:56:000442:000442_2 : 11:55:25:162: Et ça clignote pas trop c'est plutôt fluide . 2
+11:56:000443:000443_3 : 11:55:29:939: Tout ça est tr flat design thème thème sont les thèmes sombre savoir les idées un peu on va dire avec parcimonie quand on se pose pas la question de pourquoi une planche de bord d'un avion c'est un fond noir on peut la regarder longtemps. 3
+11:56:000444:000444_4 : 11:55:47:076: Alors pour la présentation il mer reste 5 minutes donc je vais aller un peu vite donc pour créer une application utiliser les widgets voilà c'est les mêmes que les widget TK . 4
+11:56:000445:000445_1 : 11:56:02:181: Comment faire on définit des classes après on les applique donc le cas pratique je viens te montrer . 1
+11:56:000446:000446_2 : 11:56:08:310: Je termine avec des ressources documentaires ou c'est difficile de trouver quelque chose de très à jour l'Université du Nouveau-Mexique à une documentation fantastique sur TKinter. 2
+11:56:000447:000447_5 : 11:56:16:434: Sur TKinter 8.5 je le recommande énormément EffBot historique c'est un peu obsolète maintenant active state va héberger quantité de recettes de toute façon si vous balader sur Tkinter . 3
+11:57:000448:000448_4 : 11:56:32:558: Où est intéressant et des gens qui a pas implémenté l'interface métro de Microsoft avec le même s'il . 4
+11:57:000449:000449_1 : 11:56:41:178: S'il y a peut-être moyen pour une ou deux questions je pense si vous en avez . 1
+11:57:000450:000450_2 : 11:56:48:164: Oui . 2
+11:57:000451:000451_3 : 11:56:56:281: Et non, tout est natif dans Python . 3
+11:57:000452:000452_4 : 11:57:04:400: C'est passé . 4
+11:57:000453:000453_1 : 11:57:07:525: Énoncé natif ses bonus l'avantage de TTK sais que c'est livre avec Python donc vous mettez python vous avez ticket unitaire vous avez pas à 150 Mo de Peter amener . 1
+11:57:000454:000454_2 : 11:57:20:649: Mais où vous avez comme ça un mécanisme de dépendance qui est vraiment restreint . 2
+11:57:000455:000455_3 : 11:57:27:489: Y a-t-il des limites de compatibilité entre les entre les OS ? . 3
+11:57:000457:000457_4 : 11:57:40:617: Bayapi a peut-être certains cas . 4
+11:58:000458:000458_1 : 11:57:44:729: J'ai déjà mis une sauce . 1
+11:58:000459:000459_2 : 11:57:47:480: Si tu en a un qui tu peux reporter vois je pense que les développeurs python son . 2
+11:58:000460:000460_3 : 11:57:55:600: Oui . 3
+11:58:000461:000461_1 : 11:58:05:890: Alors on me demande : est-ce qu'il y a quelque chose pour pallier l'absence de widget natifs c'est ça sur Tkinter Tkinter ça va dépendre des os c'est vrai que le widget pour sous Unix j'ai préféré un truc qui ressemble à du GTK, quand je l'ouvre j'ai un peu mal aux yeux . 1
+11:59:000462:000462_2 : 11:58:28:005: Mais au moins il fait son taf quand même il me permets il me permet de naviguer dans mes dans mes dans mes répertoires . 2
+11:59:000463:000463_3 : 11:58:39:147: C'est un sélecteur native sous Windows aussi on récupère le natif local Linux est un petit peu à part dans . 3
+11:59:000464:000464_4 : 11:58:48:269: Et de la diversité des toolkits qui se son ex . 4
+11:59:000465:000465_1 : 11:58:52:598: Bon je suis dans les temps et en . 1
+11:59:000466:000466_2 : 11:59:02:714: Il reste 3 minutes . 2
+11:59:000467:000467_0 : 11:59:10:950: Architecturer une application en TKinter y a un peu de grandes options : soit on va hériter des widgets alors à ce moment-là faut faire un peu attention avec les méthodes qu'on va surcharger les attributs qu'on va surcharger ou soit on va choisir l'encapsulation on va plutot créer une classe qui hérite de rien
+12:01:000468:000468_1 : 11:59:34:069: Après ça nécessite du coût des opérations donc on va s'en mêler widget du coup il va pas pouvoir travailler les clés de sa directement . 1
+12:02:000469:000469_2 : 11:59:42:856: Il est 59 ok d'accord mais pas venir vers moi si vous avez des questions vous voyez traîner je fais du consulting gratuit jusqu'à 15h . 2
+12:02:000470:000470_4 : 11:59:57:525: Tu es déjà . 4
+12:02:000471:000471_3 : 12:01:47:184: Un coup de main sur l'écran le problème le plus compliqué en fait je vois pas . 3
+
+ 

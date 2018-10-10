@@ -1,0 +1,118 @@
+
+
+
+Watchghost : surveillance asynchrone de serveurs Arthur Vuillard & Sam
+
+
+15:47:000275:000275_1 : 15:38:29:382: Ok merci beaucoup . 1
+15:48:000276:000276_3 : 15:47:25:455: On va commencer par se présenter donc je m'appelle Arthur Vuillard je travaille dans une entreprise qui s'appelle HashBang qui fait essentiellement développement web sur mesure donc par ailleurs il faut qu'on héberge certains des services qu'on développe et c'est pour ça qu'on a besoin d'un outil de monitoring. 3
+15:48:000277:000277_4 : 15:47:45:022: Zone . 4
+15:48:000278:000278_1 : 15:47:48:168: Donc . 1
+15:48:000279:000279_3 : 15:48:01:510: Donc on va vous parler de WatchGhost, vous expliquer un petit peu pourquoi WatchGhost, pourquoi est-ce qu on a eu besoin . 3
+15:48:000280:000280_4 : 15:48:14:492: On vous parlera des fonctionnalités puis ensuite l'installation la configuration on parlera un peu technique, si on a le temps faire une démo et puis vous part de la suite de ce projet . 4
+15:48:000281:000281_1 : 15:48:27:627: Commençons par WatchGhost qui est issu d'un collectif d'entreprise lyonnaise donc à la fois je m'en font partie collectif donc c'est le collectif s'appelle local Ghost chat Nrj en fait . 1
+15:49:000282:000282_2 : 15:48:44:759: Bidon parce que du coup on était plusieurs d'entreprise de . 2
+15:49:000283:000283_3 : 15:48:51:192: Maman qui font qui font de l'hébergement . 3
+15:49:000284:000284_4 : 15:48:58:298: Et du coup . 4
+15:49:000285:000285_3 : 15:48:59:298: Collectif le cargo c'était déjà y a . 3
+15:50:000286:000286_2 : 15:48:58:298: Chez Kozea c'était Nagios, chez . 2
+15:50:000287:000287_3 : 15:50:02:015: Shinken et les deux en fait font preuve d'une complexité d'un installation et configuration . 3
+15:50:000288:000288_1 : 15:50:03:015: Et puis on a aussi Qui nous semblait un petit peu bizarre vu nos échelle dans le dans le dans la supervision dans le monitoring . 1
+15:50:000289:000289_2 : 15:50:22:551: Et puis donc le côté sans agent c'était pour ne pas avoir à installer quelque chose encore en plus sur les serveurs et puis éviter éviter la complexité d'installation donc je disais c'est vraiment d'avoir . 2
+15:51:000290:000290_3 : 15:50:35:490: Simple basique et qui répondre à ce beau . 3
+15:51:000291:000291_4 : 15:50:40:759: Donc en terme de fonctionnalités voilà ce qu'on a défini dès le départ donc si décès tester le fonctionnement d'un service réseau . 4
+15:51:000292:000292_1 : 15:50:48:874: Et surtout le bon fonctionnement d'être alerté quand il y a quelque chose qui se passe mal ou quand y a quelque chose qui redevient dans le bon état . 1
+15:51:000293:000293_2 : 15:50:59:476: On voulait aussi avoir une une console Web un petit peu moderne qui se mette à jour en temps réel . 2
+15:51:000294:000294_3 : 15:51:08:427: Donc voilà la console Web . 3
+15:52:000295:000295_3 : 15:51:38:090: Efficace . 3
+15:52:000296:000296_4 : 15:51:49:192: Merci . 4
+15:52:000297:000297_1 : 15:51:54:312: D'avoir un framework assez léger on va pouvoir utiliser la saison bloquant au niveau des qu'on va effectuer . 1
+15:52:000298:000298_2 : 15:52:02:427: On a la partie WebSocket . 2
+15:52:000299:000299_3 : 15:52:05:445: On utilise également asyncio qui est dans la librairie standard Python et enfin on utilise également d'autres librairie FTP et tu as un caillou . 3
+15:52:000300:000300_4 : 15:52:17:574: Serveur . 4
+15:52:000301:000301_1 : 15:52:21:719: Le paquet est dispo sur PyPI, install classique légalement disponible pour pour arc Linux et pour lancer pour lancer . 1
+15:53:000302:000302_2 : 15:52:34:509: Le pré Talence . 2
+15:53:000303:000303_0 : 15:52:38:445: L'édition aussi de la configuration pour pouvoir et intégrer les différents serveurs pour surveiller et les différentes actions et services qu'on va faire et ensuite on le lance la console dans un navigateur. Au niveau de la configuration . 3
+15:53:000304:000304_4 : 15:52:54:579: Les 4 types d'objets qu'on va mettre en place donc on va voir les serveurs et savoir qui voit une groupé . 4
+15:53:000305:000305_1 : 15:53:04:576: Je me permets . 1
+15:53:000306:000306_2 : 15:53:07:443: Aller . 2
+15:53:000307:000307_3 : 15:53:09:619: Le premier fichier : là on a le serveur tu vas être identifié par un nom qui est son identifiant unique pour qu'elle ait une IP à son IPv4 et IPvV6 si elle est disponible un exemple avec . 3
+15:54:000308:000308_4 : 15:53:29:318: Ensuite les regrouper . 4
+15:54:000309:000309_0 : 15:53:42:577: Et ensuite on va configurer les Watchers. Donc les watchers qui sont responsables d'une action de surveillance on peut les donc l'appliquer sur un serveur en particulier fois un groupe . 2
+15:55:000310:000310_3 : 15:54:35:133: L'évêché à vendre monter une . 3
+15:55:000311:000311_4 : 15:54:41:009: Donc on peut définir un certain nombre d'essais avant de remonter une alerte . 4
+15:55:000312:000312_2 : 15:54:56:946: Donc on a par défaut la console de WatchGhost . 2
+15:56:000313:000313_0 : 15:55:03:378: Qui n'a pas réussi, mais on peut aussi paramétrer l'envoi de SMS ou l'envoi d'e-mails lorsque il y a une alerte à remonter. Là je vais laisser la parole à Arthur. 3
+15:56:000314:000314_4 : 15:55:46:306: Comment . 4
+15:57:000315:000315_4 : 15:56:04:295: Tout s'installe . 4
+15:57:000316:000316_4 : 15:57:04:904: On a aussi la possibilité de voir assez rapidement que ben là le service s'il il est passer du rouge au vert ça c'est vraiment quasiment en temps réel et donc quand on 600 particulier . 4
+15:57:000317:000317_1 : 15:57:25:034: Tous les ans . 1
+15:57:000318:000318_2 : 15:57:28:161: Tous les tous les détails toutes les infos sur . 2
+15:57:000319:000319_3 : 15:57:33:669: Qu'est-ce qui se passe qu'est-ce qu'on a comme résultat . 3
+15:58:000320:000320_1 : 15:57:40:641: De la même manière pour le ping aura des infos un petit peu différentes parce que du coup on utilise la commande ping pour réaliser cette chat qui . 1
+15:58:000321:000321_2 : 15:57:51:788: Là j'ai configurer un nom de domaine qui n'existe pas et donc . 2
+15:59:000322:000322_3 : 15:57:59:920: Il me dit que le certificat n'est pas valide . 3
+15:59:000323:000323_4 : 15:58:04:054:  pour ce nom de domaine. 4
+15:59:000324:000324_1 : 15:58:07:293: Et donc si j'arrête à nouveau mon serveur ça passe très rapidement au rouge . 1
+15:59:000325:000325_2 : 15:58:52:640: Donc en ce qui concerne la suite du projet donc . 2
+15:59:000326:000326_4 : 15:59:08:377: notamment . 4
+15:59:000327:000327_1 : 15:59:12:355: Une console en vue JS donc je les ai déjà celle que je vous ai présentée à l'instant . 1
+15:59:000328:000328_2 : 15:59:21:486: Consultez actuellement disponible avec le projet est un petit peu plus . 2
+16:00:000329:000329_2 : 15:59:43:005: C'est du code qui a été fait par des gens qui apprenez l'asynchrone aussi et puis avec . 2
+16:00:000330:000330_3 : 15:59:50:773: Par un petit peu de complexité inutile donc on va essayer de simplifier un petit peu ça . 3
+16:00:000331:000331_4 : 15:59:56:873: Et puis on va essayer de changer quelques quelques termes qui nous plaisent pas trop . 4
+16:00:000332:000332_1 : 16:00:04:191: Ensuite WatchGhost fait partie en fait d'un ensemble d'outils qui sont en cours de développement dont la de qui s'appelle le brocante l'objectif fournir une interface qui va pouvoir nous permet de . 1
+16:00:000333:000333_2 : 16:00:19:687: Plusieurs . 2
+16:00:000334:000334_3 : 16:00:21:551: Photos de . 3
+16:01:000335:000335_4 : 16:00:24:660: Passer de définir la faire face qu'on pourrait mettre en place pour qu'elle soit utilisable aussi par des non-techniques . 4
+16:01:000336:000336_1 : 16:00:33:510: Et toujours justement un des points qui me permettrait de mettre en place aussi cette interface ce serait de d'implémenter une database timeserie tu as une série donc d'écrire longueur qui va nous permettre spotted historiser tous et à toutes les mesures pour pouvoir justement les afficher . 1
+16:01:000337:000337_3 : 16:01:01:774: Je crois qu'on a fait le tour voilà merci . 3
+16:02:000338:000338_3 : 16:01:02:774: Donc . 3
+16:02:000339:000339_4 : 16:01:41:615: En fait on l'utilise sans être trop taquin. 4
+16:02:000340:000340_1 : 16:01:46:450: avec les services à dire que je pense moi les plus fréquents je l'ai fait toutes les minutes parce que en fait j'ai pas besoin de . 1
+16:02:000341:000341_2 : 16:01:57:475: Toujours sur la démo le chèque il était tout les deux . 2
+16:02:000342:000342_0 : 16:01:58:475: L check
+16:02:000343:000343_4 : 16:02:07:721: Je pense que c'est juste quelques requête . 4
+16:02:000344:000344_1 : 16:02:13:291: Ça reste quand même assez léger après effectivement moi j'ai quelques checks qui passent par SSH qui sont un peu lourds du coup il faut effectivement pas faire n'importe quoi . 1
+16:02:000345:000345_2 : 16:02:26:899: Quand on fait des efficace . 2
+16:03:000346:000346_4 : 16:02:38:289: Alors la question c'est est-ce qu'on utilise test infra . 4
+16:03:000347:000347_1 : 16:02:43:407: J'ai vaguement connaissance du projet mais non je l'ai pas utilisé . 1
+16:03:000348:000348_2 : 16:02:48:361: Samira ne connaît pas non plus . 2
+16:03:000349:000349_3 : 16:02:54:476: Il faudrait un service de monitoring pour surveiller en fait . 3
+16:03:000350:000350_4 : 16:03:08:599: J'ai un onglet en permanence dessus dans mon navigateur . 4
+16:03:000351:000351_2 : 16:03:17:783: On s'est dit que c'était trop méta et qu'on n'en n'avez pas besoin . 2
+16:03:000352:000352_0 : 16:03:18:783: Avait
+16:03:000353:000353_3 : 16:03:23:269: Ouais . 3
+16:04:000354:000354_4 : 16:03:31:388: Alors non . 4
+16:04:000355:000355_1 : 16:03:39:521: Ah oui répéter la question donc la question c'était un des intérêts de Shinken et de faire du monitoring décentralisée et est-ce qu'on a prévu ça dans la route . 1
+16:05:000356:000356_2 : 16:03:51:637: On a pas prévu ça dans la roadmap parce que en fait nous notre besoins correspond pas à ça et notre envie c'est de rester très simple de fait le si on commence à décentraliser ça va rendre le projet beaucoup plus compliqué . 2
+16:05:000357:000357_0 : 16:04:35:484: Donc la question c'est : 2
+16:05:000358:000358_3 : 16:04:45:603: Dans le système de d'alerte est-ce qu'on a prévu des cas où des cas un peu plus intelligent que juste binaire ça marche ça marche pas donc la réponse est non on n'a pas trop prévu ça car bah c'est pareil ça va complexifier beaucoup beaucoup le projet, ça correspond pas du tout au besoin c'est vraiment . 3
+16:06:000359:000359_4 : 16:05:14:717: De de de faire quelque chose de simple à faire facilement rapidement configurable châtiment et d'éviter d'avoir des notions trop complexe c'est vraiment . 4
+16:06:000360:000360_1 : 16:05:28:689: C'est de mettre un pied dans le monde du monitoring . 1
+16:06:000361:000361_4 : 16:05:58:238: La question c'était : est-ce qu'il y avait par exemple un mécanisme pour intégrer des plugins tel que ioredis c'est ça . 4
+16:06:000362:000362_1 : 16:06:15:705: Pour l'instant on n'a pas prévu de système de plugin serait intéressant pourquoi pas . 1
+16:06:000363:000363_2 : 16:06:23:840: TPC s'acheter qu'on utilise et mes . 2
+16:06:000364:000364_3 : 16:06:29:459: Après tout en restant si possible en quelque chose d'assez . 3
+16:12:000365:000365_4 : 16:06:35:320: Ajouter . 4
+16:12:000366:000366_1 : 16:06:39:454: Mais . 1
+16:12:000367:000367_2 : 16:06:43:576: Merci . 2
+16:15:000368:000368_3 : 16:12:31:614: Comme ça . 3
+16:16:000369:000369_4 : 16:12:37:733: S'il collègue il veut prendre la parole . 4
+16:16:000370:000370_1 : 16:12:42:113: Ouais je sais pas si elle est question séance il faudra se passer . 1
+16:16:000371:000371_3 : 16:15:48:867: Ah tu vois c'est pour rire . 3
+16:16:000372:000372_1 : 16:16:07:236: Full streaming . 1
+16:16:000373:000373_3 : 16:16:20:266: 1920 par 1080 . 3
+16:17:000374:000374_1 : 16:16:29:030: Lycée l'interface web . 1
+16:17:000375:000375_2 : 16:16:32:130: Le faire comme ça . 2
+16:17:000376:000376_2 : 16:17:24:730: Ce sont . 2
+16:18:000377:000377_3 : 16:17:28:893: Tu n'as pas trop chaud . 3
+16:18:000378:000378_4 : 16:17:34:196: Changer le fond peut-être . 4
+16:18:000379:000379_2 : 16:17:47:097: Bien si tu veux quand c'est mieux . 2
+16:18:000380:000380_3 : 16:18:26:037: Profil du creep . 3
+16:19:000381:000381_2 : 16:18:44:923: Envoie des choses à . 2
+16:19:000382:000382_4 : 16:18:53:947: Sissi pour moi je dis que faire mainte0t . 4
+16:19:000383:000383_2 : 16:19:09:660: Non il n'a pas pris en compte . 2
+16:19:000384:000384_3 : 16:19:13:449: Ah c'est bien ça . 3
+16:19:000385:000385_4 : 16:19:18:554: Si je reprends un nouveau profil . 4
+

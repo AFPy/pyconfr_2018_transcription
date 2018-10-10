@@ -1,0 +1,156 @@
+
+05_La révolution dans le monde des tests Boris Feld
+
+12:05:000643:000643_1 : 12:04:41:647: C'est parti bonjour à tous je suis ravi de voir autant dedes tests gens intéressés sur le sujet des tests aujourd'hui et j'espère que je vais révolutionner votre vie on va voir ça qui me connaissent pas _ce que ça fait 5 ans que vais arreter de faire des conf à pyconfr . 1
+12:05:000644:000644_2 : 12:04:59:786: Donc je pour profiter demain donc si expert Merkel Python et les vapes mais un vrai enthousiaste sur la qualité sur les tests ça c'est mon dada je lit tous les articles que je peux trouver tous les . 2
+12:05:000645:000645_3 : 12:05:12:905: Pense que je peux faire je travaille chez octobus on est sponsor . 3
+12:05:000646:000646_4 : 12:05:21:039: On fait du mercurialm du Python de la qualité et vous pouvez me trouver sur internet sous le pseudo . 4
+12:05:000647:000647_1 : 12:05:28:165: C'est bon j'ai une petite question qui fait des tests . 1
+12:06:000648:000648_2 : 12:05:33:003: Combien de personnes écrivent et exécutent des tests ici . 2
+12:06:000649:000649_3 : 12:05:39:453: Et combien de personnes sans écrire les exécute . 3
+12:06:000650:000650_4 : 12:05:48:044: Surfaix de 7h le 1er donc ça va être les personnes de la QA où les juniors ou ok ma quelque chose à toutes les personnes qui ont levé la main j'ai envie de dire vous n'êtes pas les seuls . 4
+12:06:000651:000651_1 : 12:06:02:180: jetbrenains a fait un sondage en 2017 et 2018 qui demandait justement ces deux question et on arrive à un taux de 70 /:/ ans à peu près stable depuis 2 ans 2 personnes de l'IT qui exécute des tests donc ça fait partie de leur vie de tous les jours . 1
+12:06:000652:000652_2 : 12:06:17:777: Effet du coup un très bon potentiel . 2
+12:06:000653:000653_3 : 12:06:21:887: Pour améliorer la vie d'énormément de personnes . 3
+12:06:000654:000654_4 : 12:06:26:308: les tests C'est bien . 4
+12:06:000655:000655_1 : 12:06:28:449: on est a la pyconfr, on va parler test en python c'est quoi l'état de l'art. 1
+12:07:000656:000656_2 : 12:06:35:569: Un test tout le monde va connaître nos ce unittest, nosetest que les nouveaux connaissent pas été vous devez connaître obligatoire et si on a d'autres que j'ai pas si tu es où que je connais pas et j'étais pas à venir en parler moi j'adore parler alors parle . 2
+12:07:000657:000657_3 : 12:06:54:710: Donc unittest . 3
+12:07:000658:000658_4 : 12:06:57:839: Écrire des tests souvent de classe certains diront comme junit souvent ils ont raison et ça vous fournit des assertions sous la forme de méthode . 4
+12:07:000659:000659_1 : 12:07:10:966: On apporte une test fait une classe des fini de mettre 2 test test test upper rajoute le bout à la fin pour que unittest retrouve ses petits et voilà vous avez votre test. 1
+12:08:000660:000660_2 : 12:07:27:092: Vous pouvez faire python afficher test l'avoir cette sortie la . 2
+12:08:000661:000661_3 : 12:07:35:218: C'est pas terrible il y a pas de couleurs il y a pas trop de détails peut mieux faire . 3
+12:08:000662:000662_4 : 12:07:41:138: On annonce test no stress c'est un test en mieux un homme de plugin il y a des défauts qui sont mieux qu'unittest c'était une vraie avancer le problème c'est que ils ont essayé de faire nosetests2 avec un paquet de nose2 / pypi et que il y a des plugin qui sont compatibles nostetest2 et qui sont compatibles nostetests et le paquet de nous a plus de release depuis 2015 . 4
+12:09:000663:000663_2 : 12:08:11:290: Tu reprends l'exemple viens de voir avec 11 ans avec nosetest résultat c'est le même . 2
+12:09:000664:000664_3 : 12:08:20:404: Avec un plugin un plugin uniquement compatible note on a de la couleur que vous voyez absolument pas c'est génial de la couleur . 3
+12:09:000665:000665_0 : 12:08:31:068: pytest c'est la vraie étoile montant du marché si vous avez un doute utiliser pytest est sa meilleure amie test c'est compatible avec tous comme unité propose vous pouvez écrire vous test sour forme de fonctions. sur êtes nombreux utilitaire Zaventem plugin génial et vous avez un output un peu plus détaillée donc au début vous avez . 4
+12:09:000666:000666_1 : 12:08:59:201: Vous allez avoir un résultat avec plus de détails les choses bien de pytest te c'est que quand vous allez avoir une erreur d'assertion il va vous récré la traceback pour dire oui ben alors tu as variable à qui vient de cette méthode elle avait cette valeur là au moment de l'erreur ça c'est très pratique pour debugger . 1
+12:09:000667:000667_2 : 12:09:21:348: Mais c'est toujours pas de couleur . 2
+12:09:000668:000668_3 : 12:09:24:293: Avec le bon plugin c'est mieux qu'un plugin qui s'appelle pytest sugar . 3
+12:09:000669:000669_4 : 12:09:31:421: Très vite . 4
+12:10:000670:000670_1 : 12:09:33:547: Veux une progress bar quand vous avez une suite de test plus grande mais surtout vous avez de la couleur ou vous avez plus d'informations sur quels sont les tests qui sont passés ou pas . 1
+12:10:000671:000671_2 : 12:09:45:629: Dans tout ça c'est pas mal mais avec 70 /:/ de gens de l'IT qui lance des tests dans leur boulot et dans leur vie de tous les jours on peux faire mieux . 2
+12:10:000672:000672_3 : 12:09:56:261: On voulait faire une interface moi qu'est-ce que je ferais qu'est-ce que je mettrai dans ma liste au Père Noël . 3
+12:10:000673:000673_4 : 12:10:03:577: Petit 1 de la couleur ça c'est indispensable . 4
+12:10:000674:000674_1 : 12:10:07:729: Des barres de progression quand votre test met 15 minutes à tourner et vous n'avez pas envie d'attendre 15 minutes que votre terminal n'affiche rien vous avez croire qu'il est cassé alors que en fait il est en train de tourner . 1
+12:11:000675:000675_2 : 12:10:19:691: Ça c'est uniquement les tests échoués faut donc ça à la plupart des test runners le propose avec certains de vos options mais c'est pas toujours la même output sur tous les tests runners ou lancer uniquement tu as donné sa pareil il y a des façons diverses et variées de le faire sur chacun des casseroles . 2
+12:11:000676:000676_3 : 12:10:40:211: Parce que la console c'est cool hein je l'utilise tous les jours mais interface web donne beaucoup plus de flexibilité sur ce qu'on peut faire savoir des animations on peut avoir des dashboard avoir des graphes . 3
+12:11:000677:000677_4 : 12:10:56:348: Ok bon bah le Père Noël m'a pas ramener sa 1re fois Noël du coup bah j'ai laissé le faire ça s'appelle valtot valtot c'est quoi ce n'est pas dit YAPTL yet another python test c'est pas un remplacement de pâtes . 4
+12:11:000679:000679_1 : 12:11:13:470: balto c'est quoi , ca a de la Couleur . 1
+12:11:000680:000680_2 : 12:11:15:596: Ça c'est cool douce à quoi sa barre de progression ça marche pas très bien legifrance . 2
+12:11:000681:000681_3 : 12:11:23:735: Balto ça vous permet de sélectionner uniquement les tests ont échoué de façon très très facile . 3
+12:11:000682:000682_4 : 12:11:31:171: Danser ce n'est que . 4
+12:12:000683:000683_1 : 12:11:34:219: Les screenshots c'est bien mais demo c'est encore mieux du coup en faire une live demo . 1
+12:12:000684:000684_2 : 12:11:39:760: Donc voilà Balto non parler faut un peu un peu blanc mais . 2
+12:12:000685:000685_3 : 12:11:55:927: On peut dire je veux tous les tests de défini dans le dossier d'où j'ai lancé Balto donc là vous avez une suite de test j'ai plusieurs fichiers on va dire que celui là j'ai vraiment envie l'exécuter je le sélection . 3
+12:12:000686:000686_4 : 12:12:15:603: Donc l'agence que j'en ai 29 dans mon répertoire mail agence très facilement . 4
+12:12:000687:000687_1 : 12:12:23:426: Conseil en erreur peut-être que le fichier il est en erreur je lance mon fichier . 1
+12:12:000688:000688_2 : 12:12:31:565: il C'est sûrement passé quelque chose là à ce moment-là va falloir tourné toute la suite . 2
+12:13:000689:000689_3 : 12:12:37:679: Très facilement peu sectionné exactement qu'est-ce qu'on veut lancer beaucoup beaucoup d'erreurs on voit que j'en ai 11 . 3
+12:13:000690:000690_4 : 12:12:47:463: Si je veux modifier mon code que je veux uniquement lancer les tests qui ont échoué . 4
+12:13:000691:000691_0 : 12:12:54:527: Et j'appuie sur
+12:13:000692:000692_0 : 12:13:00:535: et j'appuie RUN. Si je veux par exemple lancer les tests qui sont qui sont a été skip j'appuie sur est-ce . 2
+12:13:000693:000693_4 : 12:13:08:710: Sur run . 4
+12:13:000694:000694_1 : 12:13:10:873: Et si maintenant je veux. 1
+12:13:000695:000695_2 : 12:13:13:340: Trouver un test en particulier parce que là il y a 29 tests l'a rapidement des centaines voire plus detestes . 2
+12:13:000696:000696_3 : 12:13:22:894: ctrl-k pour aller dans barre de recherche . 3
+12:13:000697:000697_4 : 12:13:25:901: Random je sélectionne et je runne . 4
+12:13:000698:000698_1 : 12:13:29:916: Là vous avez plus à vous passer 15 minutes alors ça c'est dans pytest version 2 là je veux lancer une méthode qui est dans une autre classe dans un fichier c'est immediat. 1
+12:13:000699:000699_2 : 12:13:45:096: Donc ça c'est balto . 2
+12:14:000700:000700_3 : 12:13:50:218: Comment ça marche Balto . 3
+12:14:000701:000701_4 : 12:13:53:050: Vous poser une question à votre avis c'est quoi Balto . 4
+12:14:000702:000702_1 : 12:13:57:826: un plugin pytest . 1
+12:14:000703:000703_1 : 12:14:01:483: Petit b une interface web . 2
+12:14:000704:000704_3 : 12:14:04:989: Petit c'est un serveur WebSocket . 3
+12:14:000705:000705_4 : 12:14:08:743: Ou petit D un lanceur de process . 4
+12:14:000706:000706_1 : 12:14:12:411: Va à la bonne réponse et bien sur la réponse D . 1
+12:14:000707:000707_2 : 12:14:17:541: La bonne réponse est toutes ces réponses c'est à la fois un plugin pytest un server websocket une interface web est un ensemble processus mais du coup comment tout ça communique . 2
+12:14:000708:000708_3 : 12:14:18:541: Et est-ce le plugin pas été assez simple semaine process trop le serveur Balto et interface web on vient de dire se websocket mais il manque encore le lien la au mi . 3
+12:15:000710:000710_4 : 12:14:42:427: Est-ce que vous les secrets . 4
+12:15:000711:000711_1 : 12:14:46:230: il lit la sortie standard . 1
+12:15:000713:000713_2 : 12:14:49:870: nan en fait il y a un petit plus si on veut que le tout marche il faut que le plugin le serveur Balto une interface va tu puisses comprendre . 2
+12:15:000714:000714_3 : 12:15:05:400: Il faut une langue commune . 3
+12:15:000715:000715_4 : 12:15:07:965: Standard de . 4
+12:15:000717:000717_1 : 12:15:11:121: C'est pas cool à parser . 1
+12:15:000718:000718_2 : 12:15:13:640: Je conseille pas mais moi j'essaye pas . 2
+12:15:000719:000719_3 : 12:15:17:653: Les formats qui existent . 3
+12:15:000720:000720_4 : 12:15:20:787: JUNIT si vous faites soi du Java soin du Jenkins . 4
+12:15:000721:000721_1 : 12:15:25:115: Et vous avez tap et Moselog . 1
+12:15:000722:000722_2 : 12:15:28:048: JUNIT se baser sur XML . 2
+12:15:000723:000723_3 : 12:15:31:194: Attendez 50 minutes vous consommez 16 Go de mémoire et vous ça marche XML de 7 Mo . 3
+12:16:000724:000724_4 : 12:15:37:605: Ça le rend pas facilement stream able . 4
+12:16:000725:000725_1 : 12:15:40:817: vous avez TAP qui est pas mal connu dans la communauté perl est assez simpliste on peut extensible qui a formé à l'implantation dans perle de TAP et qui nécessite un parseur du coup en python JS puisque c'est un format qui est pas basé sur XML ni JSON . 1
+12:16:000726:000726_2 : 12:15:57:386: Vous avez Mozlog utilisé chez Mozilla qui va voir un carré secic d'avoir un message au début d'un test un message à faire un test donc ça des avantages message des avantages . 2
+12:16:000727:000727_3 : 12:16:12:527: Un test en message . 3
+12:16:000728:000728_4 : 12:16:15:166: Du coup on va pouvoir faire une nouvelle liste au Père Noël qu'est-ce qu'on veut quelque chose qui simple à lire simple à écrire . 4
+12:16:000729:000729_1 : 12:16:24:316: Et dure 15 minutes vous ne voulez pas attendre 15 minutes avoir des résultats dans l'interface web . 1
+12:16:000730:000730_2 : 12:16:33:435: Est-ce que lese implantations ben ça deviens obsolète et s'il faut créer un schéma en format à chaque fois que là c'est dommage . 2
+12:17:000731:000731_3 : 12:16:44:203: Nouveau format d'un nouveau forme . 3
+12:17:000732:000732_1 : 12:16:47:988: qui est passé ou pas et un message erreur . 1
+12:17:000733:000733_2 : 12:16:55:655: On va sortir ce json-simple à écrire simple ç lire . 2
+12:17:000734:000734_3 : 12:16:59:800: On donne un nom testname. 3
+12:17:000735:000735_4 : 12:17:03:925: l'outcome ça dit est-ce qu'il est passé ce qui est pas passer ce qui était skip et un message avec la traceback . 4
+12:18:000736:000736_1 : 12:17:11:586: Il manque quelque chose on va mettre un message quand même au début pour dire bah il y a combien de tests qui vont tourner et un message à fin qui dit bas en combien de tests ont tourné quel sont quel est à combien de temps qu'ils ont joué quand est-ce qu'ils sont passés . 1
+12:18:000737:000737_2 : 12:17:26:727: C'est du json c'est extensible donc on pourra rajouter pleins de choses pour ajouter des temps et message log sortie standard sortie standard d'erreur faire du diff de texte quand vous faites certains test ou d'images comment faire du test d'intégration à l'interface web voir dire bah non bah là tu tapes âge a Laurent pas pareil ajouter fichier le fichier du test ajouter la ligne du test . 2
+12:18:000738:000738_3 : 12:17:49:858: il y a quand même un item de la to do list avant qu'il y a pas se lancer un test spécifique c'est bien beau tout ça mais c'est que un format de sortie là on a besoin de dire au test runner moi je veux faire tourner et donc pour dans ce sens de communication . 3
+12:18:000739:000739_4 : 12:18:11:983: C'est là aussi qu'on va définir un format d'entrée et c'est la grosse différence avec JUNIT tape ou mozlog c'est que c'est trois formats sont uniquement des formats de sortie là on définit aussi un point d'entrée . 4
+12:18:000740:000740_1 : 12:18:27:124: soit on dit bah collecte uniquement les tests donne-moi la liste des tests où on peut donner liste de fichiers with the ne spécifique . 1
+12:18:000741:000741_3 : 12:18:38:286: La femme de comment on récupère ce ne partir . 3
+12:18:000742:000742_4 : 12:18:42:340: Ben on va rajouter dans dans le format de sortie si tu as le connais et pytes acceptes . 4
+12:19:000743:000743_1 : 12:18:49:466: Alors on verra quand il y aura besoin . 1
+12:19:000744:000744_2 : 12:18:52:588: Donc ça c'est la basse . 2
+12:19:000745:000745_3 : 12:18:56:157: Une fois qu'on a ça qu'est-ce qu'on peut faire . 3
+12:19:000746:000746_4 : 12:19:00:255: Tu reprends l'exemple . 4
+12:19:000747:000747_1 : 12:19:03:360: Qui iddit outcome et l'exception qu'est-ce qui danse au format et spécifique a pytest . 1
+12:19:000748:000748_2 : 12:19:14:219: Test même qu'une string on l'affiche donc on s'en fout . 2
+12:19:000749:000749_3 : 12:19:19:355: Sony dentition internat pacte s il nous envoie environ on s'en fout . 3
+12:19:000750:000750_4 : 12:19:24:928: Résultats du test c'est commun dans tous les tests Runner on a passé jouer skip et l'exception bah c'est une string ou l'affiche donc on parse pas si on disait . 4
+12:19:000751:000751_1 : 12:19:39:349: Un plugin nosetest avec le même format ça serait cool comme ça on aura le même interface web avec les deux test runners les plus connu de Python . 1
+12:20:000752:000752_3 : 12:19:51:501: Est-ce que vous trouvez ça coule déjà . 3
+12:20:000753:000753_4 : 12:19:55:078: Et si on allait encore plus loin . 4
+12:20:000754:000754_1 : 12:19:57:778: Et siOn faisait un plugin avec le même format pour un test Runner et dans un autre langage qui ici fait des tests dans plusieurs langues à cheval en vous avez une interface web il était déteste . 1 vous avez _ une interface web l'état des tests ist Dédé . 1
+12:20:000755:000755_2 : 12:20:14:912: Langage . 2
+12:20:000756:000756_3 : 12:20:18:034: C'est le même outil . 3
+12:20:000757:000757_4 : 12:20:21:182: Savais pas besoin d'apprendre comment lance quels sont le flag pour lancer uniquement et est en erreur . 4
+12:20:000758:000758_1 : 12:20:29:119: Juste qu'on peut aller comme ça . 1
+12:20:000759:000759_2 : 12:20:31:822: Balto lit la sortie standard . 2
+12:20:000760:000760_3 : 12:20:35:949: Comme une connexion ça ça ça ça ça distance les logs à conteneur docker . 3
+12:21:000761:000761_4 : 12:20:45:075: Lancer vos test . 4
+12:21:000762:000762_1 : 12:20:47:509: Ton dans votre docker c'est totalement isolé et vous avez le résultat dans votre navigateur . 1
+12:21:000763:000763_2 : 12:20:55:159: Encore plus loin . 2
+12:21:000764:000764_3 : 12:20:58:274: Si Balto est basé sur asyncio passé plusieurs suite fight en parallèle ou si encore mieux on se plusieurs suite dans des langages différents une machine distante avec docker ça vous dit . 3
+12:21:000765:000765_4 : 12:21:15:497: bon bah la démo elle est pas dispo on passera mais sinon ça marche vous assure . 4
+12:21:000766:000766_1 : 12:21:22:613: En fait la vraie révolution que je vous parlais et c'est ce format . 1
+12:22:000767:000767_2 : 12:21:29:231: Les outils c'est bien mais les fondations à les protocoles c mieux donc similaires HTTP en étant un peu moins prétentieux à LSP donc c'est pas si vous connaissez LSP mais c language Server protocol c'est pousse par Microsoft . 2
+12:22:000768:000768_3 : 12:21:48:355: D'unifier la discussion entre les éditeurs de texte . 3
+12:22:000769:000769_4 : 12:21:53:518: Tout ce qui va être environnement de linting auto formatting . 4
+12:22:000770:000770_1 : 12:21:59:654: test linting de sécurité comme ça vous pouvez avoir . 1
+12:22:000771:000771_2 : 12:22:05:246: Par exemple sublime text ou atom ou visual studio . 2
+12:22:000772:000772_3 : 12:22:09:371: Tu sais parler à l'effet que vous allez avoir un serveur est assez python qui va du coup vas pouvoir S6 et avec sublime text atom vs code mais c'est la même idée vous allez avoir un test Renault . 3
+12:23:000773:000773_4 : 12:22:21:483: Et avec potentiellement n'importe qui qui peut consomer ce language donc vous allez pouvoir avoir des outils qui arrête d'être spécifique à une implantation un langage il va pouvoir commencer à construire les outils demain qui vont rester . 4
+12:23:000774:000774_1 : 12:22:41:619: Des changements et des nouveaux des nouveaux tests runners . 1
+12:23:000775:000775_2 : 12:22:47:747: Parce que ouais c'est bien mais quand même vous la console ou préfère pas de souci vous pouvez et vous pouvez le faire pour tous tous les quatre heures de tous les langages compatible voulais un rapport PDF sur le temps de chacun de vos . 2
+12:24:000776:000776_3 : 12:23:01:874: Vous pouvez vous avez rien de spécifique à implémenter à plus tard que hier j'ai discuté avec quelqu'un qui me disait à manger déteste bah il dépend de l'un de l'autre et j'aimerais bien que quand je debug ne pas avoir à débugger celui-là qui dépend qu'est-ce qui dépend d'une future cassé . 3
+12:24:000777:000777_4 : 12:23:20:590: qui empêche de rajouter des flags qui dit que le test B politesse et si le test B le test à son cas c'est bon ma fille d'abord le test parce qu'une fois qu'il sera fixé ça sent le test des va passer en rajoutant des informations . 4
+12:24:000778:000778_1 : 12:23:37:732: En rajoutant des consommateur à ce protocole on va pouvoir design et des outils qui nous permet d'être plus efficace Balto moi j'utilise tous les jours quand je fais mes refactoring sur un projet il y a 500 test j'ai 25 erreur sais que c'est mon code je sais que c'est un disque ont échoué je relance ça me prend 10 /:/ du total viennent ils en ont toujours . 1
+12:24:000779:000779_2 : 12:24:02:445: Donc c'est pour ça que le format je l'ai appelé LITF donc ça veut dire langil n'est pas dans ta forme à . 2
+12:24:000780:000780_3 : 12:24:09:413: Ça veut dire quelque chose après de longs mois de recherche ça veut dire quelque chose belle to the language test Orchestrator . 3
+12:24:000781:000781_4 : 12:24:19:186: Comment installer Balto . 4
+12:25:000782:000782_1 : 12:24:23:348: Pronatal relise télécharger le binaire et c'est tout . 1
+12:25:000783:000783_2 : 12:24:28:474: Balto est un test Orchestrator . 2
+12:25:000784:000784_3 : 12:24:33:267: Pensée pour la taupe et pour c'est pour doute langage je peux . 3
+12:25:000785:000785_2 : 12:25:09:607: Pardon vous pouvez parler de balto autour de vous et vous pouvez surtout parler de LITF maintenant de votre astroneer préféré si c'est pas encore en train de monter . 2
+12:25:000786:000786_3 : 12:25:20:885: On peut aussi contribué donc comme vous Eddy paletot . 3
+12:25:000787:000787_7 : 12:25:25:023: Python 3.7 et de l'asyncio ce plaisir l'interface c durée accès du bulma . 4
+12:26:000788:000788_1 : 12:25:31:157: Donc voilà je suis à la conclusion et si vous avez question c'est maintenant . 1
+12:26:000789:000789_2 : 12:25:39:101: D'accord . 2
+12:27:000791:000791_3 : 12:25:49:802: Alors la question est-ce qu'il y a un document de spec lorsque le choix que j'ai fait sur l'été f est le but d'avoir un truc avais pensé que c'est repo à part avec des json schema ce qui m'a pour chacun des messages donc ça permet à n'importe qui indépendamment de balto de l'implémenter pour son langage et d'avoir un script de validation totalement indépendant de balto . 3
+12:27:000792:000792_4 : 12:26:15:944: Donc oui il y a un document de spec pas forcément si pousser qu'une Rfc mais au moins un json schema . 4
+12:27:000793:000793_3 : 12:27:03:246: But principal pour LITF est streamable c'est que vous lancez tous les tests ça tourne ça s'affiche en temps réel et vous pouvez accéder à la trace vacant dès que ça arrive . 3
+12:28:000794:000794_4 : 12:27:15:391: je T'avais dit que ça allait révolutionner ta vie . 4
+12:28:000795:000795_1 : 12:27:19:094: Donc la question c'est est-ce que tu peux stocker les résultats de ces tests puor les analyser après oui comme le format est streambable tu peux l'analyser après là c'est possible . 1
+12:28:000796:000796_2 : 12:27:50:229: L'utiliser pour pour tester la flakiness c'est possible de faire analyse a posteriori il y a pas de solution magique c'est un vrai problème dans l'industrie tout ce que je parle qui bosse dans des noms des grosses boîtes me disent que les flaky test est vraiment un gros problème et malheureusement c'est un problème . 2 un gros problème _ et malheureusement c'est un problème qui sera resolvable . 2
+12:29:000797:000797_3 : 12:28:15:344: Uniquement en bossant sur les tests à l'heure c'est pas quelque chose qu'on peut fixer de l'extérieur Metz quelque chose qu'on peut analyser l'extérieur et n'importe quel format de sortie pour aller faire . 3
+12:29:000798:000798_4 : 12:28:29:479: Walid œuf . 4
+ 
+ 

@@ -1,0 +1,72 @@
+
+
+01_Débuter en programmation web avec asyncio et aiohttp Amirouche Boubekki 
+
+
+
+10:18:000041:000041_3 : Alors on recommence début . 3
+10:18:000042:000042_1 : Voir si ça marche . 1
+10:19:000043:000043_2 : Non . 2
+10:19:000044:000044_3 : Ok ben moi je suis prêt donc . 3
+10:19:000045:000045_4 : Donc aujourd'hui je vais vous prie donc vous avez eu un aperçu de Comment on pouvait utiliser asin caillou et Ayo HTTP avec as in Cayo moi je vais vous présenter un peu ce qui as in Cayo et pourquoi je pense que c'est une révolution dans le monde du Piton je m'appelle Rémi Luxair je travaille pour chef club depuis mars avant je travaille pour Mozilla et c'est une peau une petite start . 4
+10:19:000047:000047_2 : On embauche aussi donc si vous avez envie de changer les idées n'hésitez pas à nous rejoindre . 2
+10:19:000048:000048_3 : Un petit sondage est-ce que y a des gens ou qui a déjà entendu parler de NodeJS alors note JSC JavaScript un peu côté serveur . 3
+10:20:000049:000049_4 : Qui a déjà entendu parler de go . 4
+10:20:000050:000050_1 : Tout le monde . 1
+10:20:000051:000051_2 : Nadia c'était à peu près la moitié là c'est tout le monde et qui a entendu parler d'un de C2C d'une de ces librairie donc il y a twisted une bonne moitié . 2
+10:20:000052:000052_3 : Vous avez entendu parler de tout ça . 3
+10:20:000053:000053_4 : Sûrement intéressé par racine caillou . 4
+10:20:000054:000054_1 : Il avait déjà utilisé asin caillou qui a déjà utilisé une caillou avec python 3 et supérieurs d'accord alors là par contre il y a moins de monde . 1
+10:21:000055:000055_2 : Donc en fait tout c'est tout c'est différent language toutes ces différentes librairie repose sur une idée simple qui est de dire je ne veux pas bloqué mon CPU quand j'ai une tâche qui qui attend quelque chose . 2
+10:21:000056:000056_3 : En fait le fonctionnement donc pour résoudre ce problème on a inventé Lieven loupe et donc Lieven loupe ça fonctionne de la manière suivante faut imaginer une file de message je continue donc on appelle ça un buffer circulaire . 3
+10:21:000057:000057_4 : Le faire on va mettre des fonctions et ses fonctions doit être notre routine qui vont avoir un statut soit elle et vous ai dit ça veut dire qu'on peut continuer son exécution soit elle a white ça veut dire que elle attend quelque chose soit elle est addon se dire qu'on peut la supprimer du Beaufort circulaire . 4
+10:21:000058:000058_2 : L'avantage de ça c'est que notre CPU il va tourner sur ses fonctions dès qu'il en trouves une ready Tac il continue son exécution et sinon il passe à la suivante si c'est un wait on passe à la suivante si ça adonne on l'enlève et on passe à la . 2
+10:21:000059:000059_3 : La Coroutine parents donc ça ça veut dire quoi se dire que quand on va rajouter . 3
+10:21:000060:000060_4 : Routine dans notre bœuf heures circulaire c'est que quelque chose à appeler cette Coroutine et donc moi je l'ai appelé le la Coroutine parente . 4
+10:22:000061:000061_1 : Suite mais dis donc ça veut dire qu'elle a fini d'attendre . 1
+10:22:000062:000062_0 : Un grand python en python roi et quel que je sais plus exactement à partir de quand c'est arrivé sous cette forme
+10:22:000063:000063_0 : Plutôt Python 3. Fait avec notamment ceux dont tu as parlé Amirouche avec le point run . 3
+10:22:000064:000064_4 : Donc en fait c'est une fonction qu'on définit un peu comme on définir et n'importe quelle fonction sauf qu'on va lui rajouter le mot-clé think devant l'avantage de faire ça ça va nous permettre d'appeler ensuite await . 4
+10:23:000065:000065_1 : Ça va nous permettre de rajouter cette Coroutine dans notre événement . 1
+10:23:000066:000066_0 : Ensuite vous avez un moyen de lancer quand vous êtes dans un programme python vous avez pas dit vin de l'eau donc pour créer une icône loupe vous faites quoi ce qu'on a vu plus tard as in Cayo. Get event loop et ensuite run t-il complite la première Coroutine x 2 pi Python 3.7 vous pouvez faire le signe caillou. Run la Coroutine et donc ça ça va créer une Heaven loup . 2
+10:23:000067:000067_3 : Rajouter la première Coroutine dans votre event loup et à partir de là à l'exécution commence jusqu'à ce qu'on arrive au premier way . 3
+10:23:000068:000068_0 : Rajouter le paramètre de await donc en l'occurrence Cécile Caillaud. Slip un autre event loop . 4
+10:23:000069:000069_0 : slip c'est un bon exemple parce que c'est une fondue c'est une Coroutine qui fait que attendre donc en fait au bout de 3 secondes elle va passer en ready . 1
+10:23:000070:000070_2 : Le CPU va voir à ce midi donc du coup il la met en donnes ils enlèvent il repasse et il va faire 8 . 2
+10:23:000071:000071_3 : Donc . 3
+10:23:000072:000072_4 : Ansible de base une cour outils . 4
+10:24:000073:000073_1 : C'est ça qui est intéressant alors je sais pas si vous voyez pourquoi c'est intéressant . 1
+10:24:000074:000074_2 : On va prendre un exemple de serveur Web donc quand vous faites un serveur Web vous allez avoir une multitude de clients ses clients ils vont envoyer la requête ils vont attendre et ils vont récupérer la la réponse . 2
+10:24:000075:000075_4 : Si par exemple vous voulez créer 300 doudoune . 4
+10:24:000076:000076_1 : Vous avez pas forcément envie de les créez une après l'autre et d'attendre à chaque fois que la requêtes précédente s'est terminé est-ce que vous pouvez avoir envie de faire c'est de l'écrit en parallèle vous pouvez facilement faire tomber votre serveur si on facility passing caillou mais le principe de base c'est ça donc comment est-ce qu'on fera avec le signe caillou pour . 1
+10:25:000078:000078_3 : On va créer une session donc ça c'est la paix idayu HTTP l'avantage d'une session c'est qu'on va pouvoir lui donner tous les paramètres qu'on veut passer à nos à toutes nos requête par exemple si vous avez de l'authentification vous allez vouloir ajouter un et deux roues . 3
+10:25:000079:000079_4 : Ensuite donc on définit la j'ai défini l'URL le pélo de ma Data donc la j'utilise la pectine tôt donc je suis obligé de préfixes et par date à mon objet . 4
+10:25:000080:000080_1 : Ensuite je fais un post sur l'URL avec ses fonctions Jason et ça me retourne une réponse . 1
+10:25:000081:000081_2 : Ça utiliserez status donc ce que disent request ils ont un peu l'habitude on a ils ont repris plus ou moins les bonnes idées de request et . 2
+10:25:000082:000082_0 : Await sur R. Jason pourquoi est-ce qu'on fait un away . 3
+10:25:000083:000083_4 : On doit attendre que de que le serveur nous renvoie la réponse . 4
+10:26:000084:000084_1 : Réponds . 1
+10:26:000085:000085_3 : Dès qu'on doit attendre en as in Cayo il faut mettre un réveil parce que ça ça nous permet de libérer le le but c'est de libérer le plus rapidement possible notre notre fonction pour que les autres Coroutine puis saucisse exécuter . 3
+10:26:000086:000086_4 : Alors pourquoi elle sync with est-ce que ça c'est quand même un peu bizarre mon manager quand je vais montrer le slide hindi tu peux pas les enlever ça s'est embrouillé on comprend pas rajouter await à la place donc en fait le sync with c'est pareil que les with normaux de Python . 4
+10:27:000087:000087_1 : L'affaire await sur cette petite partie la . 1
+10:27:000088:000088_0 : Et ensuite à la fin de l'exécution du bloc il va y avoir quelques s'appelle qui vont être fait de manière automatique et en l'occurrence ça va fermer la réponse à la fin de sync with la et fermer la session à la fin de sync with si vous utilisez pas à sync with que vous faites await il faudra pas oublier de faire
+10:27:000089:000089_3 : Ligne dessine caillou donc pour éviter d'avoir tout ce bruit dans l'eau fonction utiliser async oui ça permet de rendre la fonction plus lisible une fois qu'on s'y habituer . 3
+10:27:000090:000090_4 : Donc une fois que j'ai fait ma doudou mais je peux créer ma fonction main donc ma fonction main j'en ai fait une Coroutine parce que je vais appeler dedans déco routine donc à la fin vous voyez que je démarre ma fonction main . 4
+10:27:000091:000091_1 : Call back on peut lui passer des paramètres c'est important de noter on pourrait vouloir oublier les parenthèses la donc on appelle vraiment notre Coroutine ça va créer un je veux pas rentrer trop dans les détails à l'intérieur de comment ça se passe mais ça va créer . 1
+10:27:000092:000092_0 : En fait qui représente Mako routine et ça et cet objet il doit être on doit attendre enfin on doit attendre qu'il soit terminé donc c'est ça que things are you. I run fait . 2
+10:28:000093:000093_3 : Vous voyez je fais pareil en fait je crée un tableau avec mes coups routine tué Toto donc c'est la fonction d'avant . 3
+10:28:000094:000094_4 : Ça va me créer des objets . 4
+10:28:000095:000095_0 : Que après je vais pouvoir rajouter dans mon dans mon à you look avec bottines caillou. Gazeur l'avantage de faire ça c'est qu'elles ont tout être ajoutée en même temps . 1
+10:28:000096:000096_2 : Déclare le premier SD que la première en fait tu vas être en await ça va ça va faire les requêtes des autres . 2
+10:28:000097:000097_3 : Attention parce que là il y en a deux donc ça va mais par contre si j'en avais vraiment 300 il faudrait que je fasse quand même des badges pour pas DDOS mon serveur inutilement quoi . 3
+10:28:000098:000098_4 : Donc là . 4
+10:29:000099:000099_1 : Précédent results et que je vais avoir un tableau avec le résultat de de toutes mes Coroutine dans l'ordre je les ai créé . 1
+10:29:000102:000102_0 : Akracing caillou. Gazeur c'est quelque chose qui est assez intéressant pour paralyser les appels décor outils . 2
+10:29:000103:000103_3 : Pourquoi je vous ai dit tout à l'heure que as in Cayo été révolutionnaire pourquoi c'est révolutionnaire c'est surtout révolutionnaire dans le cas où vous avez un programme qui a la foi CPU bande et à la fois Ayoub alors qu'est-ce que ça veut dire . 3
+10:29:000104:000104_4 : Un programme qui qui te piquement vous allez vous en rendre compte parce que il fait énormément de calculer donc votre processeur est à 100 /:/ si . 4
+
+ 
+ 
+
+
+

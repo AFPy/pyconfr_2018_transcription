@@ -1,0 +1,141 @@
+
+
+08_Maintenir un code lisible Sébastien Corbin
+
+
+
+17:37:000976:000976_1 : 17:37:11:840: Petite question qui était dans cette Salvia 5 6 heures dans le code ne suffit pas . 1
+17:37:000977:000977_2 : 17:37:20:813: Vous avez p-e remarqué que le descriptif de cette . 2
+17:37:000978:000978_3 : 17:37:28:945: Donc vous allez peut-être à prendre des trucs un peu plus en profondeur mais . 3
+17:38:000979:000979_4 : 17:37:38:079: Je me suis aperçu ça ce matin mais c'est pas grave . 4
+17:38:000980:000980_1 : 17:37:42:112: De quoi on discute et on va discuter de maintenir un colis visible et du coup vous allez entendre parler de . 1
+17:38:000981:000981_2 : 17:37:50:168: J'ai besoin de vous préparer juste une présenter quand même je m'appelle Sebastien Corbin. 2
+17:38:000982:000982_3 : 17:37:59:300: Makina Corpus petites fesses de elle s'est servi sans logiciel dure composé de 50 personnes . 3
+17:38:000983:000983_4 : 17:38:10:432: J'en viens je suis repassée du bon côté de la force et en fait aussi la carte au . 4
+17:38:000984:000984_1 : 17:38:24:568: De me demander à la fin de la session . 1
+17:38:000985:000985_2 : 17:38:28:686: Préparez-vous parce que avant de savoir comment faire un code lisible il faut se souvenir du code illisible. 2
+17:38:000986:000986_3 : 17:38:33:303: Donc préparez-vous rétine ça va piquer pendant quelques slides et après on va . 3
+17:39:000987:000987_4 : 17:38:41:537: Imaginez un monde sans code style . 4
+17:39:000988:000988_1 : 17:38:48:396: Bon j'ai pris un langage un peu bizarre qui permet de faire des trucs bizarres . 1
+17:39:000989:000989_2 : 17:38:54:526: Dès qu'on a des accolades et qu'on peut faire n'importe quoi on peut vite se retrouver avec n'importe quoi . 2
+17:39:000990:000990_3 : 17:39:02:435: Un peu bizarre . 3
+17:39:000991:000991_4 : 17:39:07:696: Notamment dans mes . 4
+17:39:000992:000992_1 : 17:39:10:746: Ça fait péter le vidéoprojecteur tellement c'est moche . 1
+17:39:000993:000993_2 : 17:39:21:882: Pendant mes recherches sur le pire coding standard qui existent. 2
+17:40:000994:000994_4 : 17:39:24:998: Je suis tombé sur les coding standards des gens qui mettent de leur entreprise - Je vais passer sur un autre adaptateur . 4
+17:40:000995:000995_1 : 17:39:36:044: Ça risque d'être relativement fréquent si j'ai bien compris . 1
+17:41:000996:000996_2 : 17:39:45:176: Je pense . 2
+17:41:000997:000997_1 : 17:40:33:019: Non j'ai juste à remettre s'adapte . 1
+17:41:000998:000998_3 : 17:40:48:732: Ok ça devrait plus bouger merci VGA . 3
+17:41:001000:001000_1 : 17:41:04:643: Sur ce que l'on peut trouver des standards vraiment bizarre, l'indentation inversee je sais pas qui est à l'origine de ce truc peut-être c'était pour . 1
+17:42:001001:001001_2 : 17:41:16:804: Vendredi et faire du Code absolument moche mais bref ça existe le truc c'est que nous dans Python et comparée à d'autres langages on est plutôt content . 2
+17:42:001002:001002_3 : 17:41:30:479: On a on a pas de mon autre parenthèse et illimité mais bon gros c'est pas obligatoire on a des points qui sont acceptés pour faire des instructions sur . 3
+17:42:001003:001003_4 : 17:41:46:631: Beaucoup de concepts sont fermé donc on a une syntaxe clair on a pas d'accolade on arrive dans dans ta c'est obligatoire ce qui est du coup ça ça ça permet de pas avoir de problème de ce côté-là pas de blocs anonyme comment gérer script PHP notamment . 4
+17:42:001004:001004_1 : 17:42:04:776: Wiki elles doivent être uniquement sur une ligne donc ça se forcer et aussi peu de mots clés bref j'ai essayé de trouver un obfuscateur . 1
+17:42:001005:001005_2 : 17:42:19:932: J'ai pas trouvé . 2
+17:42:001006:001006_3 : 17:42:22:080: J'ai vu des trucs qui convertit séance et du coup c'était où mais ça reste pas du tout bref c'est plutôt bon signe . 3
+17:42:001007:001007_4 : 17:42:31:235: Du coup oui c'est une chance de coder avec Python puisque la je me suis amusé à faire un benchmark de qui avait quoi en terme de garde . 4
+17:43:001008:001008_1 : 17:42:42:378: Moi qui vient de PHP . 1
+17:43:001009:001009_2 : 17:42:45:600: J'en ai fait pendant pas mal de temps et en fait PHP figues le consortium qui gère les PSR saisir un peu les . 2
+17:43:001010:001010_3 : 17:42:53:748: Et relativement récent et du coup son BSR . 3
+17:43:001011:001011_4 : 17:42:59:865: Est apparu récemment à celui qui gère le coding standards et qui est très large alors voilà je me rester là sur PHP JavaScript c'est le bordel . 4
+17:43:001012:001012_1 : 17:43:14:005: Mastic du coup le monde suis le gros le gros standard sur typescript Google a pondu GTS qui est un informateur sur rubis c communautaire alors Java c'est officiel . 1
+17:44:001013:001013_2 : 17:43:33:152: Je voulais aller les voir pour aller vers les coding standards . 2
+17:44:001014:001014_3 : 17:43:40:300: Où est en restons informateur donc en ligne de commande c'est plutôt pratique et du coup on s'est échappé en python on a aussi des trucs officiel . 3
+17:44:001015:001015_4 : 17:43:51:455: Ok bon je vais rien nous apprendre annotation texto 79 caractères sur plusieurs lignes . 4
+17:44:001016:001016_1 : 17:44:03:594: Pour les valises pour les classes exetera exetera donc c'est assez largement même temps c'est plutôt force on force plutôt la lecture . 1
+17:44:001017:001017_2 : 17:44:14:743: Ensuite chaque framework bibliothèque projet à son propre connu standard par exemple Gengoux ainsi permettre les méthodes de classe dans un certain ordre . 2
+17:44:001018:001018_3 : 17:44:23:890: Pour maintenir un bon quoi donc on l'outil de prédilection et là ce qui était là ce matin . 3
+17:45:001019:001019_4 : 17:44:33:052: Le Winter . 4
+17:45:001020:001020_1 : 17:44:37:204: Le Logis Kalender qui se permet de faire des remarques sur les erreur de code de syntaxe et le stylistique Linder qui en gros si vous aveavezbeau selon certains standard . 1
+17:45:001021:001021_2 : 17:44:53:681: Euro si il peut s'occuper d'aller vérifier pattern de code dangereux avoir une variable qui s'appelle . 2
+17:45:001022:001022_3 : 17:45:04:806: Stdlib où ce genre de chose . 3
+17:45:001023:001023_1 : 17:45:07:984: Alors les outils de base pour vérifier la compatibilité des pépites . 1
+17:45:001024:001024_2 : 17:45:16:236: Linky vérificateur erreur de syntaxe et aussi de vérificateur de mauvaises design . 2
+17:45:001025:001025_3 : 17:45:24:366: Flex plus rapide mais qui vérifie moins de choses qui se concentre plus sur la syntaxe . 3
+17:45:001026:001026_4 : 17:45:31:601: Recette pour chacun des deux on a . 4
+17:46:001027:001027_1 : 17:45:36:726: Le formateur automatique basé sur plex donc en gros il va vous formater votre code automatiquement sinon réflexe de base . 1
+17:46:001028:001028_2 : 17:45:45:880: Style ancienne m'en tape 8 mais du coup c'est bizarre d'avoir un mot qui s'appelle Pépi d'avoir . 2
+17:46:001029:001029_3 : 17:45:54:007: Et du coup le formateur automatique à souci . 3
+17:46:001030:001030_4 : 17:45:59:311: Alors je veux parler de ma if I donc . 4
+17:46:001031:001031_1 : 17:46:05:443: Tension fête du 3 6 avec annotation ça peut être pratique pour détecter des erreurs de type H . 1
+17:46:001032:001032_2 : 17:46:13:717: Yet another Piton de formateur ISPF . 2
+17:46:001034:001034_4 : 17:46:22:019: Et puis des projets Morse te dire que Python est en très anciens on a des Linder qui sont aussi prévention n'ont pas été cœur et puis et puis . 4
+17:47:001035:001035_1 : 17:46:35:117: Puisque du coup le haut du tableau et relativement utilisée très utilisé alors on pourrait croire que Céline . 1
+17:47:001036:001036_2 : 17:46:48:260: Rihanna qu'il faut mieux doterra et du coup . 2
+17:47:001037:001037_3 : 17:46:52:376: Ils sont ils se sont regroupés un espèce de consortium qui s'appelle comme python code quality aussi donc c'est un groupe . 3
+17:47:001038:001038_4 : 17:47:04:512: Tous les projets de parler . 4
+17:47:001039:001039_1 : 17:47:08:657: Discussion il y a échange de composants internes partage les mêmes composant interne pour certains . 1
+17:47:001040:001040_2 : 17:47:17:667: Et voilà donc . 2
+17:47:001041:001041_3 : 17:47:20:762: Haut du monde . 3
+17:48:001042:001042_4 : 17:47:22:880: La pepite elle est relativement l'axe assez de large donc on va aller plus loin malgré une pépite de resimont complète on va voir que il y a des petites d'interrogation que tout le monde se pose le nombre de caractère d'une . 4
+17:48:001043:001043_1 : 17:47:41:030: Te dire que là-bas maintenant il faut 4K et ils peuvent aller sur 3 écrans exetera exetera n'a plus besoin de 80 caractères en 1920 . 1
+17:48:001044:001044_2 : 17:47:54:165: Bon ok le fait est que c'est humide 219 L hérité d'écran tout-petits qu'on avait bien autant mais du coup c'est pratique pour faire de la côte comparer zone c aussi pratique je sais pas si vous avez déjà eu un journal tt sur toute la page mais en vrai c'est carrément plus facile de l'Iran colonne quoi donc ça permet de pas faire des allers-retours de la rétine . 2
+17:48:001045:001045_3 : 17:48:22:300: Autres petites d'interrogation effacer en fait le plus gros c'est le zapping le retour à la ligne donc on a du retour à la ligne possible dans Python assez souvent dès qu'on a des parenthèses ou des . 3
+17:49:001046:001046_4 : 17:48:38:446: Donc notamment dans les arguments et les paramètres d'une fonction ou d'une méthode . 4
+17:49:001047:001047_1 : 17:48:46:357: Il y a plusieurs écoles faut choisir la vôtre mais par exemple avec la dernière vous pouvez retrouver fichier énorme de ligne . 1
+17:49:001049:001049_3 : 17:48:59:450: J'ai aussi le cas pour une copine donc du coup grâce à l'objet un peu gêné mais appel de méthode et bar encore une fois on a plusieurs l'école il y en a qui médecin qui utilise la notation antislash rentré il y en a qui ont la troisième je trouve vraiment très belle et la dernière quand même un peu plus propre . 3
+17:49:001050:001050_4 : 17:49:24:582: C'était quand j'ai voulu essayer de . 4
+17:49:001051:001051_1 : 17:49:30:708: Définir standard sinon il va faire son propre standard et là ça devient le . 1
+17:49:001052:001052_2 : 17:49:36:036: Même chose pour les impôts donc là les import bien sûr ils sont sur plusieurs lignes mais on peut les mettre en . 2
+17:50:001053:001053_3 : 17:49:44:166: Et donc là on a plusieurs méthodes c'est un peu la même chose que . 3
+17:50:001054:001054_4 : 17:49:50:085: Zapping avec les lis le dictionnaire extérieur . 4
+17:50:001055:001055_1 : 17:49:53:876: YouTube en fin de ligne alors si vous regardez ces petits bouts de code vous remarquez que la deuxième ligne des paramètres n'a pas de en famille . 1
+17:50:001056:001056_2 : 17:50:06:999: 119 carré et en plus du coup ça ferait passer à la ligne se trouve que c'est . 2
+17:51:001057:001057_3 : 17:50:18:147: Les apostrophes alors y a aussi des nazis de l'apostrophe genre tu doubles apostrophe est enceinte extérieure bon il y en a qui font . 3
+17:51:001058:001058_4 : 17:50:30:269: Le formatage de chaîne alors la première notation est l'ancien notation la 2e du coup peut être fort c c c la nouvelle notation 3 et du coup c'est mieux de utiliser les notations mais par exemple la 2e . 4
+17:51:001059:001059_1 : 17:50:49:387: Dans la dans le pattern donc Bonjour accolade accolade sans rien dedans et en fait bah il y a des développeurs qui disent non je préfère pas autorisé ça puisque je mettrai un truc en plus on sera . 1
+17:51:001060:001060_2 : 17:51:04:511: Donc en a qui force la dernière notation . 2
+17:51:001061:001061_3 : 17:51:09:029: J'ai oublié quelque chose . 3
+17:51:001062:001062_4 : 17:51:14:161: La complexité cyclomatique qui ne sais pas ce que c'est que la complexité . 4
+17:51:001063:001063_1 : 17:51:20:489: La complexité cyclomatique bah c'est typiquement le code que je vous ai mis la . 1
+17:52:001064:001064_2 : 17:51:27:613: Voilà c'est complexe et donc en fait on va calculer une complexité selon le nombre entre guillemets ans et je vais à briser le nombre de blog de Claude que vous avez donc ça donne une complexité 1 ans forcer une complexité plus un . 2
+17:52:001065:001065_3 : 17:51:47:763: Exetera exetera il fait bref on arrive à une complexité . 3
+17:52:001066:001066_4 : 17:51:55:901: Sachant que veut dans une méthode le mieux c'est de rester le plus bas possible 5 si c'est pas mal . 4
+17:52:001067:001067_1 : 17:52:04:563: On a des outils qui permettent de connaître cette valeur de complexité au sein de chaque méthode . 1
+17:52:001068:001068_2 : 17:52:11:080: Ensuite on a des métriques un peu plus poussé . 2
+17:52:001069:001069_3 : 17:52:14:817: Comlandi de maintenabilité . 3
+17:52:001070:001070_4 : 17:52:18:974: Lundi de maths l'habilité c'est un indice allant de 0 à 100 donc ça vient de métrique de Halstead . 4
+17:53:001071:001071_1 : 17:52:19:974: Formule . 1
+17:53:001072:001072_2 : 17:52:30:286: Chauffagiste grossièrement ce que vous devez connaître c'est que un indice ou de suite 85c une bonne maintenabilité au-dessus de 65 sa responsabilité moyenne et en dessous de 65 pouces poser des questions . 2
+17:53:001073:001073_3 : 17:52:43:864: Et du coup il y a aussi le la métrique de nombre de lignes de code barre menu si votre mot Jimmy ligne c'est un peu bizarre c'est un peu difficile de parcourir . 3
+17:53:001074:001074_4 : 17:52:57:981: Alors on a encore d'autres outils du coup pour vérifier toutes ces métrique et xénon à lancer l'outil en ligne de commande et xénon alors radon calcul les métriques donc on a vu . 4
+17:53:001075:001075_1 : 17:53:16:122: J'aurais fait votre programme ça il va s'arrêter avec une erreur symétrique calcul et Paradon son . 1
+17:53:001076:001076_2 : 17:53:26:241: Alors alors ça va régler vos problèmes de rapide . 2
+17:54:001077:001077_3 : 17:53:32:355: C'est un paquet de jeu très utilisé ça permet de gérer l'ordre donc ça le met en ordre alphabétique et surtout ça permet de regrouper par exemple si vous voulez par exemple . 3
+17:54:001078:001078_4 : 17:53:48:478: Support dans une seule dans un salon vous allez pouvoir faire ça . 4
+17:54:001079:001079_1 : 17:53:55:056: Ensuite on aime McCabe . 1
+17:54:001080:001080_2 : 17:53:59:185: Tu peux utiliser un bail Flex et tu notamment utilise ça . 2
+17:54:001081:001081_3 : 17:54:04:793: Alors là on a on arrive dans les dans les rappeurs . 3
+17:54:001082:001082_4 : 17:54:11:930: Pilar MAIF la qualité de la peur qui vont tous les composants qu'on était développée par les autres . 4
+17:54:001083:001083_1 : 17:54:22:053: Pour vérifier le Doubs donc il a assez assez complet mais c'est un peu plus complexe configurer . 1
+17:54:001084:001084_0 : 17:54:31:189: Le fêter qui vérifie beaucoup de choses notamment radon dans les métriques de recette du coup et aussi des trucs de JS. Bref il est complet mais complexe . 2
+17:55:001085:001085_3 : 17:54:42:670: Fake fake AXA . 3
+17:55:001086:001086_4 : 17:54:47:792: Permis du coup de d'avoir une combinaison relativement légère de paille Flex de ma came et depuis que s'il . 4
+17:55:001087:001087_1 : 17:54:56:894: Ça permet d'avoir un virage 14e 5 ça serait assez . 1
+17:55:001088:001088_2 : 17:55:03:019: Et du coup on a black black . 2
+17:55:001089:001089_3 : 17:55:10:140: Qui est parue depuis pas longtemps et moi je le considère comme la vie c'est très bien ça fait grand-chose . 3
+17:55:001090:001090_4 : 17:55:19:282: Alors en fait pourquoi nazista dire que vous avez pas le choix c'est une dictature il a ses propres . 4
+17:56:001091:001091_1 : 17:55:27:417: Bar donc j'irai voir sur son et demi il a ses propres standard et du coup vous pouvez pas contrôler le . 1
+17:56:001092:001092_2 : 17:55:27:417: Voulais juste contrôler à la limite de caractère parler c'est très pratique pour les grosses qui n'ont pas envie de débattre sur sûre j'ai envie d'avoir le graphique de cette manière je veux t'envoyer le caractère Paris . 2
+17:56:001093:001093_3 : 17:55:54:743: Et en fait si toute la communauté l'adopter on aurait pu besoin de discuter sur le côté . 3
+17:56:001094:001094_4 : 17:56:03:883: Alors taxes taxes je passe vite fait mais en gros c'est un automatiser les textes . 4
+17:56:001095:001095_1 : 17:56:14:038: En fait moi même si j'ai pas beaucoup de suite de test il est très utilisé pour tester sur plusieurs versions moi par exemple personnellement je . 1
+17:56:001096:001096_2 : 17:56:28:174: Et du coup je lui dise par contre parce que son fichier de config Sony il peut regrouper justement les confites deflate et de Aïssa donc là . 2
+17:57:001097:001097_3 : 17:56:41:299: Là on a le confit de figues . 3
+17:57:001098:001098_4 : 17:56:46:529: Du coup là je vous parlez de regroupement par exemple Mango . 4
+17:57:001099:001099_1 : 17:56:55:669: Rouler cet exemple de . 1
+17:57:001100:001100_2 : 17:56:58:814: Alors faut pas oublier qu'il y a d'autres choses qui peuvent rendre un code illisible même pas potable c'est le bon dieu grec . 2
+17:57:001101:001101_3 : 17:57:09:958: J'ai déjà un peu importe p*** met en prod il faut pas l'oublier . 3
+17:57:001102:001102_4 : 17:57:16:106: Mettez pas pourquoi donc du coup ça arrête le PL ça s'arrête . 4
+17:58:001103:001103_1 : 17:57:24:249: Pour ça du coup on peut vérifier avec des greffes avant de comité c'est toujours utile et aussi le qui c'est qui a pas fini son mince donc avec . 1
+17:58:001104:001104_2 : 17:57:37:398: Merde Martin donc les crochet chevron aide extérieure . 2
+17:58:001105:001105_3 : 17:57:45:291: Alors maintenant qu'on c est qu on a des outils pour vérifier sa à quel moment on va vérifier alors du coup on a trois moment on peut par exemple configurer son . 3
+17:58:001106:001106_4 : 17:57:58:433: Ou alors par exemple de charme et de formatage automatique relativement simplement raccourci . 4
+17:58:001107:001107_1 : 17:58:06:870: On a du coup la deuxième option c'est avant le comité donc là on peut ajouter en route de pré comique maison donc sans bâches son piston il y a pas de problème vous pouvez faire le 2e devenir un peu . 1
+17:58:001108:001108_2 : 17:58:22:016: Chant à coder si on se connait pas trop en python c'est un peu chaud aussi . 2
+18:00:001109:001109_3 : 17:58:31:171: Un autre une autre solution qui s'appelle prix comique donc c'est un fichier de configuration partager qu'on peut laisser sur son iPod comme ça les gens qui arrivent sur l'autre il faut . 3
+18:00:001110:001110_4 : 17:58:44:299: Et du coup vous pouvez définir quels sont les . 4
+18:01:001111:001111_1 : 17:58:49:450: Exécuter avant de comité donc là par exemple dans ce fichier de config on peut vérifier s'il y a pas d'espace à la fin de la vigne on veut vérifier donc c'est la syntaxe Python docstring sont bien la méthode . 1
+18:01:001112:001112_3 : 17:59:57:276: Et puis si vous êtes sous gitlab gitlab ci Guy donc là je vous ai mis un exemple donc si vous avez quelque chose . 3
+

@@ -1,0 +1,150 @@
+
+
+
+05_Retour d'expérience sur le déploiement de ReadTheDocs en interne Benjamin Divet, Olivier Munier
+
+
+
+
+15:45:000264:000264_1 : 15:44:55:275: Est-ce que nous on a un train . 1
+15:45:000265:000265_2 : 15:44:59:163: Ça marche ouais y a pas beaucoup de monde du coup mais . 2
+15:46:000266:000266_4 : 15:45:05:334: Alors bonjour tout le monde et merci d'être venu alors . 4
+15:46:000267:000267_1 : 15:45:06:334: Lors de cette prochaine petite demi-heure du coup d'un retour d'expérience sur l'installation d'un serveur readthedocs ce en interne . 1
+15:46:000268:000268_2 : 15:45:23:963: Donc d'abord pour nous présenter moi et Oli non moi c'est Benjamin disait mon collègue Olivier meunier nous sommes du groupe it link France . 2
+15:46:000269:000269_3 : 15:45:36:128: Enseignement connu . 3
+15:46:000270:000270_4 : 15:45:39:266: Kiss x sis du coup c'était le nom on avait lors des deux précédentes pycon voilà donc is it link c'est une ESN spécialisé dans l'informatique et qui a notamment ball Python présent tu nous en partie . 4
+15:46:000271:000271_1 : 15:45:59:072: Alors pour faire une petite rétrospective . 1
+15:46:000272:000272_2 : 15:46:07:213: On avait en faite entrer pour mettre en place readthedocs donc les besoins c'était de centraliser des dômes des documentations de divers projets . 2
+15:46:000273:000273_3 : 15:46:19:361: Domaine centre . 3
+15:46:000274:000274_4 : 15:46:23:509: Histoire d'avoir vraiment nos process simplifiée à ce niveau-là . 4
+15:46:000275:000275_1 : 15:46:30:662: D'une même documentation . 1
+15:47:000276:000276_2 : 15:46:33:859: Et aussi répondre à une . 2
+15:47:000277:000277_3 : 15:46:39:818: Gestion des points d'accès . 3
+15:47:000278:000278_4 : 15:46:40:818: Documentation . 4
+15:47:000279:000279_1 : 15:46:46:152: Nous cela quoi on est confronté déjà sur une problématique par rapport à nos à nos projets . 1
+15:47:000280:000280_2 : 15:46:55:291: On avait aussi une demande de la part de nos clients donc certains . 2
+15:47:000281:000281_3 : 15:47:02:456: Qualité . 3
+15:48:000282:000282_4 : 15:47:05:617: Comment on a une confidentialité vraiment importante à respecter et du coup c'était de valider voilà les droits d'accès vraiment pour euh du coup les contraintes qui nous est imposé donc c'était une documentation au format Sphinx doc donc historiquement it link . 4
+15:48:000283:000283_1 : 15:47:06:617: Sous format la et beaucoup de nos clients aussi . 1
+15:48:000284:000284_0 : 15:47:38:821: Une documentation qu'on puisse héberger sur gitlab gitlab qui a
+15:48:000285:000285_3 : 15:47:48:978: Versionning donc j habite . 3
+15:48:000286:000286_4 : 15:47:52:117: Donc des solutions qu'on avait envisagé donc tout d'abord on avait pensé à faire le développement à terme d'un serveur dédié donc une solution qu'on n'a pas retenu parce que trop chronophage et aussi parce qu'il existe plein de solutions déjà donc plutôt que d'en inventer la route partir sur quelque chose de l'existant on avait aussi envisager l'utilisation d'un serveur . 4
+15:49:000287:000287_1 : 15:48:20:254: Hôtel 5 serveur néanmoins sans rester trop restreint . 1
+15:49:000288:000288_2 : 15:48:21:254: Voilà vraiment que diable en fait tellement . 2
+15:49:000289:000289_3 : 15:48:31:665: Tu es vraiment trop restreint . 3
+15:49:000290:000290_4 : 15:48:35:835: Une solution aussi donc on va commencer voilà parler de readthedocs ce métaux la sur le service en ligne . 4
+15:49:000291:000291_0 : 15:48:45:996: Bac qui ne répondez pas voilà la problématique justement de confidentialité de certains de nos clients et du coup l'autre solution et c'est celle qu'on a retenue CE2. Interne d'un serveur Xbox donc à la fois pour répondre à nos process et aussi as eu des clients avec des contraintes de droit plus plus ferme . 1
+15:49:000292:000292_2 : 15:49:12:137: Alors ici ce que vous voyez ces l'infrastructure qu'on a au sein de l'équipe python a été link . 2
+15:50:000293:000293_3 : 15:49:22:096: Qu'est-ce qu'on voit alors très simplement je vais pas m'étendre sur Despi et Jenkins . 3
+15:50:000294:000294_4 : 15:49:30:278: Tu peux te promo mais du coup on a en fait bah en 2016-2017 présenter ses deux . 4
+15:50:000295:000295_1 : 15:49:38:832: Tracer 2 solution . 1
+15:50:000296:000296_2 : 15:49:41:966: Donc le despy en 2016 trouver la vidéo a été si Maicon 2016 et puis pour Jenkins c'est pareil du coup pouvez retrouver facilement la vidéo . 2
+15:50:000297:000297_3 : 15:49:42:966: Du coup ce qu'il y a à retenir de s'être infrastructure donc on a depuis PC on va alimenter la doc donc on va passer pour sa part à part le versionning de guide . 3
+15:50:000298:000298_4 : 15:50:15:316: On met à jour la doc ça va être couché sur le serveur du coup readthedocs et met systématiquement du coup la la nouvelle version de la documentation en ligne pour ça on a un service de web Oups qui récupère du coup la dernière version qui met à jour et qui génère derrière cette doc . 4
+15:51:000299:000299_1 : 15:50:37:209: Voilà . 1
+15:51:000300:000300_2 : 15:50:40:378: Tous nos paquets sur le serveur Despi donc des paquets plutôt que de . 2
+15:51:000301:000301_3 : 15:50:48:535: Idée d'avoir un serveur où on met Despi de sucer qu'on puisse avoir nos paquets . 3
+15:52:000302:000302_4 : 15:50:55:706: Ben comment . 4
+15:52:000303:000303_1 : 15:50:58:476: Et du coup on a vraiment la maîtrise de de nos paquets si demain on doit aller . 1
+15:52:000304:000304_2 : 15:50:59:476: Appeler bah Jenkins du coup pour tout ce qui est génération de tests unitaires unit test voix l'attestation intégration avec robot framework la couverture de TELUS et le dit de code avec . 2
+15:52:000305:000305_3 : 15:51:19:806: Alors pour présenter brièvement et de dox donc il s'agit d'un serveur de documentation Open Source donc écris en python et utilisant le framework python Django le format d'entrée C5 doc et ce que va générer readthedocs ce CD format tel que le html . 3
+15:53:000306:000306_4 : 15:51:46:959: Élie pub donc intéressant puisque derrière on va pouvoir les exploiter et facilement les traiter les envoyer les imprimer s'il faut . 4
+15:53:000307:000307_1 : 15:51:58:134: Ça permet . 1
+15:53:000308:000308_2 : 15:52:00:287: Chez facilement transmissible on a cet intérêt qui sait qu'on a gardé cette solution c'est la gestion des versions qui permet vraiment voilà de versionner chaque publié donc intéressant si on veut retrouver des docks des précédentes fois et on a un moteur de recherche . 2
+15:53:000309:000309_3 : 15:52:25:457: Cible du coup c'est elasticSearch donc on va voir un petit peu plus tard du coup ce qu'il en est au niveau de son installation . 3
+15:54:000310:000310_6 : 15:52:35:294: Les prérequis pour Xbox donc nous en lien avec notre Afrah structure C Linux on a choisi de mettre en place linux pour ça la version 3.6 de python avec Virtual ans du coup et on l'a déployer du coup avec Django la version 2.5 . 4
+15:54:000311:000311_1 : 15:53:01:200: Est-ce qu'il faut aussi et ça c'est par rapport à élastique elasticSearch OpenJDK donc parce que elasticSearch fonctionne avec du Java . 1
+15:54:000312:000312_2 : 15:53:13:334: Voilà les prérequis autres sont kit et aussi Mercurial donc deux outils de gestion de versionning nous c'est plutôt dit qu'on utilise . 2
+15:54:000313:000313_3 : 15:53:25:781: En Italie et bah voilà ce qu'il vous faut derrière c'est un accès Internet ou alors un serveur de paquet comme on le voyait du coup avec avec Despi . 3
+15:55:000314:000314_4 : 15:53:37:940: Du coup j'ai passé une micro à Olivier c'est lui qui va faire la suite d'un présentation . 4
+15:55:000315:000315_1 : 15:53:45:483: J'ai un peu l'impression d'être Robocop donc moi je file à vous voyez rien c'est normal le but que je vais vous présenter c'est un petit peu une structure le document présent on va le donner aux organisateurs de la paille clown pour kilomètres disponibilité souci donc si vous voulez développer appuyez-vous sur ce document il a plus office du coup en l'occurrence n'a plus tôt . 1
+15:55:000316:000316_2 : 15:54:26:644: Maman une présentation je vous rappelle que on est sur un retour d'expérience et non pas faim sur vraiment un sujet technique de fond c'est pour ça appuyez-vous sur ce document il sera présenté normalement en tout cas nous on mettra disponibilité des organisateurs de la paye donc il devrait pouvoir se retrouver avec la vidéo sur le site l'installation du serveur du coup si elle . 2
+15:56:000317:000317_3 : 15:54:52:785: Pas mal de place et qu'elle un petit peu technique donc . 3
+15:56:000318:000318_4 : 15:54:57:312: La présentement on va faire ça dans un environnement virtuel ski comme souvent le cas vous qui l'utilisez du Piton régulièrement les vents vous connaissez donc on va installer python raidissent comme base de données et ensuite la à la fin de du code on active l' environnement virtuel ensuite . 4
+15:56:000319:000319_1 : 15:55:19:363: Sûrement virtuel évidemment on récupère le code de readthedocs donc là en fait avec un en fait à partir du Ripault guide lui dis pas au guide pour avoir la dernière version stable où faire aussi avec les versions de . 1
+15:57:000320:000320_2 : 15:55:20:363: Et on installe avec PIP install donc du coup pour déployer tous les bacs à Mende . 2
+15:57:000321:000321_0 : 15:55:41:078: On utilise la django vers le milieu il y a marqué déploiement de la BDD utiliser manage.py why 2e qui est un outil de gestion de configuration de Django crée la base de données est un con super-utilisateur qui nous servira au moment où réside Ops réinstaller pour se connecter dessus . 3
+15:57:000322:000322_4 : 15:56:03:616: Donc à ce stade-là readthedocs est installé et fonctionnel mais il a pas encore de moteur de recherche et là donc tout à la fin la dernière ligne de code c on lance avec le serveur Web interne de Django qui n'est pas évidemment recommandée en production mais au moins on peut déjà testé que ça fonctionne . 4
+15:57:000323:000323_1 : 15:56:25:357: Ensuite comme je disais précédemment il y a pas de moteur de recherche c'est comme très pratique quand on a beaucoup de documentation de pouvoir chercher donc là il faut installer dastic search alors elasticSearch c'est une sacrée gymnastique parce que il existe un plugin pars version de doc et si vous trouvez aussi vous avez pas le bon du coup ça fonctionnera pas et ce sera . 1
+15:57:000324:000324_2 : 15:56:50:512: Et moi très difficile à débloquer donc le tableau qu'elle a juste à droite il est pas là pour faire joli c'est pour montrer vraiment les versions . 2
+15:57:000325:000325_3 : 15:57:00:348: Plugin à utiliser pour Tail version du document du logiciel . 3
+15:57:000326:000326_4 : 15:57:07:416: Rhizoloc on récupère mon là c'est un point Dead donc on l'a récupéré via Debian et puis on le déploie donc tout simplement . 4
+15:58:000327:000327_1 : 15:57:16:574: Pour pour qui sera pour l'installer . 1
+15:58:000328:000328_2 : 15:57:21:510: Une fois qu'il a installé on dit à Django ça y est . 2
+15:58:000329:000329_3 : 15:57:27:058: Évidemment donc via système 5 ou système D ça dépend sur la distribution Linux que vous utilisez quel système de service est présent . 3
+15:58:000330:000330_4 : 15:57:37:646: Et on va dire . 4
+15:58:000331:000331_1 : 15:57:39:996: On va pouvoir tester avec la comment cuire le tout à la fin qui fonctionne toujours intéressant de savoir que le service conviennent installer danser et fonctionnel et ensuite on va dire à Django voilà tu as tu vas chercher sur le port 92001 service elasticSearch présent c'est qui qui va pouvoir du coup indexer la documentation présente . 1
+15:59:000332:000332_2 : 15:58:04:149: Ce qu'on fait afin d'avoir une documentation enfin une recherche toujours en accord avec la documentation on a mis dans une crotte une tâche cron . 2
+15:59:000333:000333_0 : 15:58:15:300: L'indexation qui est lancé toutes les 5 minutes donc il existe d'autres manières effectivement de lancer l'indexation de la documentation par rapport à ça peut être ou exetera nous le choix et effets de lancer dans une tâche cron comme ça on est sûr que modulo 5 minutes la doc toutes les dernière version d'Adobe sont toujours indexé
+15:59:000334:000334_4 : 15:58:38:434: Certes mais elle fonctionne . 4
+15:59:000335:000335_1 : 15:58:40:899: Ensuite étant donné qu'on veut avoir un readthedocs en interne . 1
+16:00:000336:000336_2 : 15:58:46:375: Créer un fichier de configuration local juste pour indiquer en fait sur quel nom de domaine ou quelle adresse IP locale dans l'infrastructure est présente le . 2
+16:00:000337:000337_3 : 15:59:03:533: Appeler site quoi donc là voilà c'est expliqué dans ce document . 3
+16:00:000338:000338_4 : 15:59:09:927: Suite on paramètres les URL en fait on utilise gunicorn comme serveur WSGI bon un serveur qui sert à faire une passerelle python vert le ou d'autres serveurs Web où lui-même directement en web c'est pour faire pour servir les fichiers statiques . 4
+16:00:000339:000339_1 : 15:59:29:798: Le beaucoup ici sauf que c'est aussi possible de le faire avec un jean IKKS là on a pris gunicorn c'est aussi un choix . 1
+16:00:000340:000340_2 : 15:59:38:383: Et évidemment du coup avoir un gitlab accessible pour du coup pouvoir aller se s'interfacer dessus et puis pour l'authentification par gitlab on a fait une on a enregistré la clé de une paire SSH pour que du coup il y a pas un enregistrement manuel à faire ce qui pourrait être un petit peu lourd évidemment . 2
+16:00:000341:000341_3 : 16:00:00:999: Donc le on démarre gunicorn pour pouvoir avoir évidemment le serveur fonctionnelle . 3
+16:00:000342:000342_4 : 16:00:09:842: Et puis donc du Clos du coup il a lancé sur le port 8 1000 par exemple un ça peut être sur d'autres de porc et puis bon on la technique pour l'arrêter c ont-ils directement le Puy Heidi avec la commande qui permet de retrouver ça c'est très . 4
+16:01:000343:000343_0 : 16:00:26:249: Maintenant ça y est on a un readthedocs fonctionnel d'un point
+16:01:000344:000344_2 : 16:00:35:399: Bon va bien que sur le port 8 1000 sur la sur l' IP locale on a le serveur qui fonctionne qui répond tout bien . 2
+16:01:000345:000345_4 : 16:00:42:608: Avec le super-utilisateur qu'on avait créé au début dans dans Django on se connecte à eau dashboard de . 4
+16:01:000346:000346_1 : 16:00:50:668: HDD projet donc là on peut voir . 1
+16:01:000347:000347_2 : 16:00:55:282: Un peu mal de choses . 2
+16:01:000348:000348_3 : 16:00:58:748: Qu'on peut importer des projets c'est pas très lisible excusez-moi mais comme je vous ai dit précédemment . 3
+16:01:000349:000349_4 : 16:01:07:012: On apporte un projet . 4
+16:02:000350:000350_1 : 16:01:09:695: Ton . 1
+16:02:000351:000351_2 : 16:01:11:569: Donc le projet peut être évidemment sur Internet peu de sur Github bitbucket exetera nous en l'occurrence c'est en local ça nous intéresse donc on utilise le importer manuellement . 2
+16:02:000352:000352_3 : 16:01:26:972: Fini l'adresse IP toujours sur lequel est hébergé le bain des guides donc Raymond donne un nom donc jusqu'à la c'est tout simple . 3
+16:02:000353:000353_4 : 16:01:37:465: Suite on a les prunes un anglais qui apparaît avec du coup les projets disponible donc là on voit les projets boule en l'occurrence y en a qu'un mais bon après ils sont accessibles à partir d'ici . 4
+16:02:000354:000354_1 : 16:01:52:204: Et chaque projet à son dashboard du coup son interface de gestion qui lui est propre et donc laquelle on peut définir tout un tas de . 1
+16:03:000355:000355_2 : 16:01:53:204: Bon tout ce qui est inhérent vraiment au projet de documentation les droits d'accès exetera son réseau doc propose quand même un nombre assez intéressant de fonctionnalité sur la gestion de la documentation . 2
+16:03:000356:000356_3 : 16:02:15:579: Ensuite . 3
+16:03:000357:000357_4 : 16:02:18:714: Mettre avant c'est évidemment pas ces quelques exemples un petit peu de de de ce qui peut se passer dessus . 4
+16:03:000358:000358_2 : 16:02:25:989: Donc les versions qu'on Tout à l'heure du PDF to ePub tout un tas vie du HTML si les trois principaux Milia des plugins pour faire dodo truc c'est assez simple on peut définir tout ça ici dans l'interface de gestion et là du coup on rentre dans une partie qui est un petit peu plus général c'est . 2
+16:03:000359:000359_3 : 16:02:55:499: La documentation à chaque fois qu'on fait un point poux sur sur guide c'est-à-dire pour avoir une donc toujours à jour c'était ce qu'on expliqué au début avec l'infrastructure à chaque fois que la doigt qui est modifiée du coup on fait forcément un push sur dit et là il y a un hook qui va lancer readthedocs et c'est là dans ton paramètres cela pour justement que la doc . 3
+16:03:000360:000360_4 : 16:03:15:655: Ce soit jour directement et accessible . 4
+16:03:000361:000361_1 : 16:03:19:783: La le la procédure et expliquer ici . 1
+16:04:000362:000362_2 : 16:03:24:697: Donc . 2
+16:04:000363:000363_3 : 16:03:26:839: Bilan de tout ça . 3
+16:04:000364:000364_4 : 16:03:29:246: Readthedocs c'est un outil qui fonctionne bien et qui efficace qui peut me comporte beaucoup de paramètres par contre la documentation c'est assez difficile de la trouver sur le web y a assez peu de doc sur son déploiement . 4
+16:04:000365:000365_1 : 16:03:44:784: Le . 1
+16:04:000366:000366_2 : 16:03:46:918: Rona Lenorman on est un système de gestion de version bon en l'occurrence l'on peut pas tout les avoir pour l'instant on est encore hein c'est quelque chose d'intéressant fait dans la boîte on a que la dernière version qu'on convienne créer un disque . 2
+16:05:000367:000367_3 : 16:04:02:036: Il doit y avoir un paramètre activer quelque part . 3
+16:05:000368:000368_4 : 16:04:07:503: Certaines pages au moment de la configuration des fois il y a des messages d'erreur et ses messages d'erreur en fait il faut se relooker en admin un simple user il verra un message d'erreur malgré cette que ça fonctionne pareil c'est peut-être aussi au niveau du nez clown qui fait un ONU qui sert les fichiers statiques le message son passant par apprécié quoi qu'il en soit en cela . 4
+16:05:000369:000369_1 : 16:04:07:503: Refresh la page et les messages d'erreur disparaissent donc ils peuvent exister alors que le message erreur n'existe pas si problème visuel mais dans le fond ça fonctionne . 1
+16:05:000370:000370_3 : 16:04:37:364: Et donc Le l'ensemble est cohérent fonctionnelle Hérin répond à nos attentes . 3
+16:06:000371:000371_4 : 16:04:51:655: Voilà on a fini donc si vous avez des questions . 4
+16:06:000372:000372_1 : 16:04:59:615: Il reste 4 minutes left . 1
+16:07:000373:000373_2 : 16:05:02:706: Donc oui . 2
+16:07:000374:000374_2 : 16:05:40:599: La documentation au format 5 donc la question c'était de d'avoir . 2
+16:07:000375:000375_3 : 16:05:56:274: La nécessité d'avoir une documentation on parle souvent de la documentation nous sommes développeurs la documentation d'api High qui sont dans les docstring du Piton qui peuvent et effectivement aussi est parti avec readthedocs et on peut faire une documentation d'habillage en l'occurrence nous ce qui nous intéresse la plus tôt c'est la documentation qui va vraiment à . 3
+16:07:000376:000376_4 : 16:06:15:405: Derrière le piment session utilisateur donc l'utilisateur les API sais pas vraiment ce qui m'intéresse c'est vraiment le côté fonctionnel donc là on parle en fait d'une documentation qui est dans des fichiers au format string box une syntaxe de Markdown qui permet d'avoir de générer des documents comme on a vu PDF HTML et c'est plus sur cette documentation là qu'on s'intéresse . 4
+16:07:000377:000377_1 : 16:06:40:521: Au début on en a parlé un petit peu de la documentation client en fait il y a une documentation donc développeurs qui en règle générale reste dans l'entreprise et une documentation client qui elle va être proposé justement soit livré sous forme de documents soient sous forme d'une URL qui qui point sur notre infra ou alors on a des clients qui vaut carrément déployer . 1
+16:07:000378:000378_2 : 16:07:01:701: Infra enfin bref mais si les deux sont possibles avec readthedocs . 2
+16:08:000379:000379_3 : 16:07:08:284: Les deux sont fait d'ailleurs avec ce système là mais celle qui nous intéresse le plus dans le cas présent c'est plus les doigts utilisateur parement pour livrer le logiciel avec sa documentation . 3
+16:08:000380:000380_4 : 16:07:19:862: Je puisse la . 4
+16:08:000381:000381_1 : 16:07:22:815: Oui . 1
+16:09:000382:000382_2 : 16:07:26:951: Readthedocs propose à la question c'était sous les clients critique le lundi de la sécurité d'accès à la documentation alors isodoc il propose du coup un système de déjà de login password pour se connecter à une partie de . 2
+16:09:000383:000383_3 : 16:07:54:102: Euh non je crois pas que c'est vraiment l'intérêt . 3
+16:09:000384:000384_4 : 16:07:58:241: Merci la sécurité des clients ouais donc il faut déjà un système de login password ça permet d'avoir aussi un niveau un certain contrôle d'accès un utilisateur qui va avoir un certain nombre de droits pour accéder à certaines parties de la documentation du coup à certaines documentation en l'occurrence il y a certains clients et les clients supercritique typiquement la défense . 4
+16:09:000385:000385_1 : 16:08:26:387: Il faut même pas proposé ils vont pas vouloir du coup que nous le SNIT Link et berge leur documentation et le du coup fasse un service donc on héberge et oui se connecte dessus soumaintrain fera ils peuvent la connecté c'est l'arrivée de voir ça chercher les critiques les clients qui ont des documentations . 1
+16:10:000386:000386_2 : 16:08:49:506: Du coup alors créer des log in D password ils peuvent se connecter dessus et derrière nous on peut choisir ou au même que choisir de dire que certains utilisateurs vont avoir accès à certaines parties de la documentation ai pas d'autre c'est assez souple d'une certaine manière pour pouvoir . 2
+16:10:000387:000387_3 : 16:09:09:329: Je n'ai pas accès à toutes les informations et donc soit potentiellement perdu dans une boîte qui souhaiterait conséquences c'est qui qui l'intéresse pas dans son corps de métier . 3
+16:10:000388:000388_4 : 16:09:20:475: Une équation . 4
+16:11:000389:000389_3 : 16:09:34:512: Aucune idée j'espère qu'il y a un effectivement à plugin ldap pour ou Active Directory . 3
+16:11:000390:000390_4 : 16:09:43:863: Django et donc du coup on bénéficie d'un certain nombre de plugin alors après ce qu'il a vraiment idée connexion qui sont faites . 4
+16:11:000391:000391_3 : 16:10:14:396: Moi on peut lui filer un ePub . 3
+16:11:000392:000392_4 : 16:10:21:318: Merci alors on peut lui parler lu parler lu parler lu parler . 4
+16:11:000393:000393_2 : 16:10:26:460: Loxen le digital . 2
+16:11:000394:000394_2 : 16:10:56:201: Service module . 2
+16:11:000395:000395_3 : 16:11:02:885: Alors actuelle à ma connaissance résidence dispose . 3
+16:11:000396:000396_4 : 16:11:10:319: D'accord donc ça d'accord donc Circus proposerai un système de gestion des services qui bouge Unicorn . 4
+16:11:000397:000397_1 : 16:11:21:908: D'accord . 1
+16:11:000398:000398_2 : 16:11:29:635: C'est propre la commande . 2
+16:30:000399:000399_3 : 16:11:35:763: Sauce on récupère le pied Heidi puis on fait-il demain météo le Puy . 3
+16:30:000400:000400_4 : 16:11:40:917: Ouais avec les bouteilles tu sais très bien chaîne . 4
+16:30:000401:000401_1 : 16:11:46:852: Merci beaucoup . 1
+16:30:000402:000402_2 : 16:11:49:993: C'est bon . 2
+
+
+

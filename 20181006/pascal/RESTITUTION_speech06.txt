@@ -1,0 +1,178 @@
+
+
+A multi-core Python HTTP server (much) faster than Go (spoiler: Cython) Jean-Paul Smets
+
+16:35:000009:000009_1 : 16:34:30:285: Hello so I'm John Paul and so I will make it quite rough presentation of some work we did this year so please apologise this presentation is far from perfect I was actually in hospital last week and I didn't have much time to prepare it and I even forgot there was a meeting due to Anastacia which has some strange effect on my brain but I think the other presentation will be . 1
+16:35:000010:000010_0 : 16:35:03:413: So the work actually was not made by me made by young developer called Brighton like no not Brighton with H like their web browser Python. Brighton without h and so we gave him a challenge which was to try to make an HTTP server in Python that could scale as well as golang HTTP service and could handle as many request a second . 2
+16:36:000011:000011_4 : 16:35:42:507: So everything I'm going to . 4
+16:36:000012:000012_1 : 16:35:47:322: Talk about and especially the links can be found in the presentation if you take a picture of this QR code to get to link directly to the presentation so I leave her I give you a 10 seconds . 1
+16:36:000013:000013_3 : 16:36:12:071: Does the QR code work ok so we'll have the full path a brief introduction on next Saturday then we'll go directly to the conclusions then you can leave . 3
+16:37:000014:000014_4 : 16:36:30:712: Then if you want to know why in the hell within such a thing then we'll explain the rationale and show some coat . 4
+16:37:000015:000015_1 : 16:36:40:194: Even if you leave you can still use the QR code get the presentation . 1
+16:37:000016:000016_2 : 16:36:45:834: Next season now are more than 15 years old company president in Europe and Asia mainly it seems we are the largest Publisher free software neuropathy count the number of lines are number of products we made and we mainly do very big Enterprise application system that we build deploy and run for more than 10 years for large companies and we've always been profitable we have no . 2
+16:38:000017:000017_3 : 16:37:15:956: Capital we depend on nobody we do what we want as we want and we don't need to sell the company 24 . 3
+16:38:000018:000018_4 : 16:37:24:411: So the customers we have I like . 4
+16:38:000019:000019_0 : 16:37:29:537: Automotive industry aerospace industry now we are getting more and more automotive like PSA Mitsubishi Toyota we have chemical industry highways pretty big ones that are getting fed up by proprietary software so we are strict free software company and that's why for example my laptop is not a Mac that is proprietary. Proprietary in my opinion is morally evil. 1
+16:38:000020:000020_3 : 16:37:59:288: I have a laptop in which even the Bootloader is free software I just took a Chromebook recompiled it removed Google things and now I have something for you but still it's not fair enough for me so I'm currently building the Next Generation which not only be entirely free but you can also build it yourself and repair it yourself so we really care about free software and . 3
+16:39:000021:000021_1 : 16:38:37:891: More complex business model to do free . 1
+16:39:000022:000022_2 : 16:38:42:213: That's what we've been doing for 15 year patiently any building . 2
+16:39:000023:000023_3 : 16:38:47:792: We are mainly a python shop so you're B5 is entirely made in Python which is probably the only true cloud system that really works . 3
+16:39:000024:000024_4 : 16:39:01:450: It's entirely_ Made in Python from bottom to top . 4
+16:39:000025:000025_1 : 16:39:06:573: We have a low latency resilient network cold resist that can go through the Chinese great firewall officially with legal licence in . 1
+16:39:000026:000026_3 : 16:39:18:826: Can store petabytes of India rate single block for example 32 ND array stored in a distributed transactional database and we put for example 30 of them in a single database that the total of 1 . 3
+16:40:000027:000027_1 : 16:39:39:091: We are now completely unknown compared to 10 or 15 years ago because we focus more and more on our customers and less and less in conference like this one. 1
+16:40:000028:000028_2 : 16:39:52:855: One of our latest achievement is to move our entire cloud on open computer hardware so we felt hey can we be 3 times cheaper than ovh . 2
+16:40:000029:000029_3 : 16:40:06:807: Then we did it. 3
+16:40:000030:000030_1 : 16:40:15:794: handle more and more data and you need more and more cores to run many processes for example some of our systems need 100 Python processes deployed on a cluster you're pretty happy is 24 . 1
+16:40:000031:000031_3 : 16:40:36:070: 200 is what we charge 2000 is what you would need to pay for example at Amazon . 3
+16:41:000032:000032_4 : 16:40:44:034: This is how the company looks like . 4
+16:41:000033:000033_1 : 16:40:49:089: Let's go to the conclusion. 1
+16:41:000034:000034_3 : 16:41:00:866: And it's sequel at europython 2016 and it's marvelous because it shows that will you be loop . 3
+16:41:000035:000035_4 : 16:41:09:267: Second than . 4
+16:41:000036:000036_2 : 16:41:19:065: My current job so we played a bit with the cold . 2
+16:41:000037:000037_4 : 16:41:10:065: It then we compared . 4
+16:42:000038:000038_1 : 16:41:43:798: Then we compared the number of transattions per second. 1
+16:43:000040:000040_2 : 16:41:46:755: Maybe you'll be ok for the girl and case depending on how many characters are being sent back . 2
+16:43:000041:000041_3 : 16:41:56:100: India in the handler and we see that . 3
+16:43:000042:000042_4 : 16:42:48:458: I tried to do a hello world very stupid server you just connect by HTTP any chances hello world and we tried for that simplest possible server running on 4 cores in parallel but not single for hello world as the tools of 2016 presentation it's really multicore hello world in Python . 4
+16:44:000043:000043_1 : 16:43:15:598: Then we have async golang HTTP server, maybe 30/:/ to 2 times faster . 1
+16:44:000044:000044_2 : 16:43:24:371: It doesn't mean much but at least it's a first step showing that it is possible using a single Python process to completely use all cores Intel i7 and reach HTTP performance that is better than go round . 2
+16:44:000045:000045_3 : 16:43:47:472: Then we tried to do a bit more because they're returning hello world sounds a bit stupid though we programmed a Fibonacci function . 3
+16:44:000046:000046_4 : 16:44:01:159: And we checked how many requests per second each request doing a Fibonacci called couldn't small i7 machine handle with . 4
+16:44:000047:000047_1 : 16:44:12:293: Used to produce 3 and 4 . 1
+16:44:000048:000048_2 : 16:44:16:790: It scales linearly just like go along but a bit faster . 2
+16:44:000049:000049_3 : 16:44:22:353: Well so we decided to compare the kind of how many core routine . 3
+16:45:000050:000050_4 : 16:44:34:457: Born and execute in how much time . 4
+16:45:000051:000051_1 : 16:44:39:602: And we compared for example what can be done with I think I know I think I always use a loop give N Go routine and our little l 1 days protein in Python and you see the results so . 1
+16:45:000052:000052_2 : 16:44:55:606: Smoke machine I think I will take a total of about 10 or 8 seconds to spawn and run 500000 M People routine . 2
+16:45:000053:000053_4 : 16:45:09:339: L1 based library within its 1.49 . 3
+16:45:000054:000054_4 : 16:45:15:449: Michael and the largest time is taken in morning which does a lot of memory allocation using malloc which is . 4
+16:45:000055:000055_1 : 16:45:24:928: completly unoptimized. 1
+16:46:000056:000056_2 : 16:45:27:053: If you look at the 0.27 hear compared to 0. 39 year ago long it showed that there is a hope that we can get coroutine library that is as efficient as those in girl language when programming in Python . 2
+16:46:000058:000058_4 : 16:45:54:829: And in the future actually we don't use Python we use cython . 4
+16:46:000059:000059_1 : 16:46:01:911: Looks a lot like fighting that you can see see death instead of death in many parts of a cold and there's something called no GIL that releases the GIL very efficiently . 1
+16:46:000060:000060_2 : 16:46:16:364: Currently this first line see that class through No Deal . 2
+16:47:000061:000061_1 : 16:46:33:543: So that a function can create an instance of a single class like you do in Python transparently with a multi-core garbage collector and everything without ? . 1
+16:47:000062:000062_3 : 16:46:57:158: Performance similar to go language with a syntax that doesn't sound too weird to people who have practiced by Sam Smith . 3
+16:47:000063:000063_4 : 16:47:08:486: So I can find references for everything I've explained . 4
+16:47:000064:000064_0 : 16:47:17:073: First we studied what can be done in terms of using Python to handle all cores ... 1
+16:47:000065:000065_2 : 16:47:25:414: Article so everything is completely documented how we made the HTTP server if you click . 2
+16:47:000066:000066_0 : 16:47:33:946: All explanation and all code and if you go in the right part of the article you can find the whole source c
+16:48:000067:000067_3 : 16:47:34:946: Code in the repository so everything has like . 3
+16:48:000068:000068_4 : 16:47:49:021: In the references with added . 4
+16:48:000069:000069_2 : 16:48:07:785: And . 2
+16:48:000070:000070_3 : 16:48:10:899: I'm here . 3
+16:48:000071:000071_4 : 16:48:13:024: Funny thing about it and active is very interesting reference with you later because it provide . 4
+16:48:000072:000072_1 : 16:48:22:157: What kind of explanation how to do a good concurrent programming model for object languages that is unrelated to any kind of fashion and that can cover about any case of concurrent programming weather . 1
+16:49:000073:000073_2 : 16:48:39:324: I think I your tired your routines which ever actually rather than having to choose one you can have all of them if you read that article . 2
+16:49:000074:000074_3 : 16:48:50:644: Generalized . 3
+16:49:000075:000075_4 : 16:48:53:401: Concurrent object programming is a 30 years old and . 4
+16:49:000076:000076_2 : 16:49:02:060: Google point of view of Python today actually I choose Python for next Friday cos there was a nice book . 2
+16:49:000077:000077_3 : 16:49:10:833: 20 years ago that explain Python to beginners and why it was you that Ireland as a scripting language to do 3D animation I don't know if you . 3
+16:50:000078:000078_4 : 16:49:23:171: Read that book and what was bright in that book was that simple but easy to learn and a simple language . 4
+16:50:000079:000079_1 : 16:49:31:200: Today is the favourite language of developers according to some kind of statistics well that's good news but it is still extremely slow in terms of runtime 20 years ago it was acceptable because everybody was flowing scripting languages but today it's wanted to order of magnitude slower than competition . 1
+16:50:000080:000080_3 : 16:50:02:460: Like smashing suddenly got in the language to keywords Rupert rather than thinking about the true state of the art of object oriented concurrent programming it still unusable in the web browser . 3
+16:50:000081:000081_1 : 16:50:21:973: ?? JavaScript and go . 1
+16:50:000082:000082_2 : 16:50:26:078: Set alarm with a couple more and more traction among younger generation . 2
+16:50:000083:000083_3 : 16:50:34:218: Sorry that I told you can leave anytime you will get more and more depressed . 3
+16:50:000084:000084_4 : 16:50:42:338: Do we thought about moving up code to Python 3 then we thought what will it bring to a customer . 4
+16:51:000085:000085_3 : 16:50:53:687: I see absolutely no benefit for customer . 3
+16:51:000086:000086_4 : 16:50:57:973: Maybe only one is very small . 4
+16:51:000087:000087_1 : 16:51:01:094: Longer We Can Survive Candi . 1
+16:52:000088:000088_2 : 16:51:04:747: Except that I can tell you no idea . 2
+16:52:000089:000089_4 : 16:51:34:496: to make Python 3 compatible with the way Python tools working in terms of stream processing we already did it but we are going to maintain it it's lower despite what people say it requires more memory is getting needlessly complex for reasons I absolutely don't understand so we are going to have cost to explain new thing to us that every year and it added a model based on asyncio . 4
+16:53:000090:000090_1 : 16:51:59:607: Will eventually break all the transitionality our a system so it's terrible from my perspective which is different from Python community service . 1
+16:53:000091:000091_2 : 16:52:11:344: And if you look at industry adoption Instagram adopted python3 I think that's one of the rare 6s cases but Dropbox dropped it we actually been sponsoring for 1 year of Peace home just in time compiler we spend one man year trying to make it work and Dropbox dropped iPhone and when to go though they tried to do Python because they tried pie pie and it failed . 2
+16:53:000092:000092_3 : 16:52:41:459: Google prohibits using Python in production system as far as I know from my colleagues working inside Google YouTube Road to Python to go sun Chinese company doing cloud such as too new too new is a kind of drug box so I can buy in China they do and the others so it's a bit frightening and sometimes some Python community people who are giving the keynote in the presentation. 3
+16:53:000093:000093_4 : 16:53:11:592: Spent 30 minutes explaining why people should use Java big data they are part of actually Python data science lab . 4
+16:53:000094:000094_1 : 16:53:21:293: It's really really worrying for us. 1
+16:53:000095:000095_2 : 16:53:25:904: So we thought is it time to abandon Python 3 . 2
+16:54:000096:000096_3 : 16:53:30:804: Go language well too costly for us to migrate not very convenient when you need to interface with C libraries that's one of the Marvels of the python is that it's super easy to integrate any file fortran library to the CIA . 3
+16:54:000097:000097_3 : 16:54:01:132: JavaScript again to calculate for us to migrate we are not YouTube we are not Dropbox . 3
+16:54:000098:000098_4 : 16:54:09:125: Is concurrency model . 4
+16:54:000099:000099_1 : 16:54:13:247: is as bad as asyncio. 1
+16:54:000100:000100_2 : 16:54:16:386: So we tried to become more positive and we discovered your died who has heard about your diet . 2
+16:55:000101:000101_4 : 16:54:30:381: Your dad is a project from a dealer that brings . 4
+16:55:000102:000102_1 : 16:54:36:806: Jupyter notebook that running in webassembly in your browser it can run JavaScript it can run Python numpy it can run pandas and that means with a simple URL without installing any server you can provide a data science notebook to all your friends in one click . 1
+16:55:000103:000103_2 : 16:54:58:937: Louise been sponsoring now for 4 months your diet . 2
+16:55:000104:000104_3 : 16:55:05:115: Salt . 3
+16:55:000105:000105_4 : 16:55:07:241: Problem of running Python in the browser . 4
+16:55:000106:000106_1 : 16:55:11:074: The Python interpreter is very slow in the browser but the numpy libraries are nearly as fast as native and the combination of the two ways have compared to native the good side Iodile is that you can distribute say to 1 million people and notebook without purchasing a huge server so it's really a fantastic to . 1
+16:56:000107:000107_4 : 16:55:38:505: Stop the pressure . 4
+16:56:000108:000108_1 : 16:55:41:530: If you want to contribute to Mozilla Iodile you actually pay people to do it . 1
+16:56:000109:000109_2 : 16:55:49:102: I personally paid has been porting scikit learn to your diet and scikit-learn should be available within a month . 2
+16:56:000110:000110_3 : 16:55:58:208: Next step we made a kind of comparison between the different ways to get high performance in Python and what golang language provide so I'm not saying that it's impossible to do high performance system in Python we actually doing many of them . 3
+16:56:000111:000111_1 : 16:56:17:631: Play running the largest open source ERP with 500000 invoices and accounting and workflow process in 8 hours sleep should one . 1
+16:56:000112:000112_2 : 16:56:30:502: It has to be either based on multiprocessing or it has . 2
+16:57:000113:000113_3 : 16:56:37:094: On the support of the novel functions in this iPhone language . 3
+16:57:000114:000114_4 : 16:56:43:042: And whenever we need low latency high concurrency and perfect noted for execution with shared variable among the different thread . 4
+16:57:000115:000115_1 : 16:56:55:635: And whenever we can't use light or No Deal then go language is much better . 1
+16:57:000116:000116_2 : 16:57:02:419: This kind of comparison and we decided . 2
+16:57:000117:000117_3 : 16:57:07:390: Can we improove cython . 3
+16:57:000118:000118_4 : 16:57:11:261: People with but already existing pipes on a site on . 4
+16:58:000119:000119_1 : 16:57:17:375: Things to do in Admiralty chorus go language and get a very good concurrency model like Arctic and we've been now working on improving Python for about six months the first step where to make sure we could write a dynamic HTTP server in Python that can stand across all cores of a CPU within a single process . 1
+16:58:000120:000120_2 : 16:57:45:251: Second steps we wanted the same type of Scheduler it's called the work stealing Scheduler . 2
+16:58:000121:000121_3 : 16:57:53:288: Entitled without coroutine so that we can be sure that it will eventually scale up to for example 2448 . 3
+16:58:000122:000122_4 : 16:58:02:412: I don't know if you know but the process of Paris 7 university called Julie's trouble trick explained to me that one of the beauties in go language from currency is the Scheduler which is based on work feeling this is not like round Robin Hood traditional algorithm for scheduling any changes completely the scalability of operating system with work stealing you can scale a . 4
+16:59:000123:000123_1 : 16:58:31:561: So some code. 1
+16:59:000124:000124_3 : 16:58:39:725: In a first step of the project we studied which protein library already exist . 3
+16:59:000125:000125_4 : 16:58:49:243: cpc libtask lthread libdill libmill libcoy what's for example created by one of the developers of the go language . 4
+16:59:000126:000126_1 : 16:59:00:358: The first study we did and it up with a conclusion that none of them . 1
+16:59:000127:000127_2 : 16:59:08:488: one of them cover, say everything one would expect from a call routing library that's super strange we still don't have a good core routing library in the . 2
+17:00:000128:000128_3 : 16:59:55:158: So what we did it just reuse and L1 rugby teams title that's the beauty of python and fighting . 3
+17:00:000129:000129_4 : 17:00:07:301: The library zzz in girl language integrating the library is not as easy as one would expect . 4
+17:00:000130:000130_1 : 17:00:15:783: We use that strengths of the cython runtime . 1
+17:00:000131:000131_2 : 17:00:20:592: We can little by little by combining good CV library python . 2
+17:01:000132:000132_4 : 17:00:36:427: So the server is defined by defining a run function and defining handlers for example for the rules of the Fibonacci so it looks like one would do with a minimalistic application server framework in Python . 4
+17:01:000133:000133_1 : 17:00:54:556: Then the handler . 1
+17:01:000134:000134_2 : 17:00:59:149: looks a little bit C-ich . 2
+17:01:000135:000135_3 : 17:01:02:931: But not too difficult to read . 3
+17:01:000136:000136_1 : 17:01:12:189: So if we compare this kind of code . 1
+17:01:000137:000137_2 : 17:01:17:220: To what we would usually do in Python and we have in mind that by doing this we can occupy all cores of a server and get 10 to 100 time over 4 months I think the f word . 2
+17:01:000138:000138_3 : 17:01:34:929: A few functions like these a few classes like this is really worth the result . 3
+17:01:000139:000139_4 : 17:01:43:387: That's how we get this benchmark. 4
+17:02:000140:000140_1 : 17:01:48:505: Now look at the Fibonacci . 1
+17:02:000141:000141_2 : 17:01:51:637: Fibonacci that just item code . 2
+17:03:000142:000142_3 : 17:01:56:401: Done nothing new then the handler nothing much and we get scalability of a multiple core . 3
+17:03:000143:000143_4 : 17:02:05:907: Not so different from the Python we know but huge impact on performance and come . 4
+17:04:000144:000144_1 : 17:02:12:495: Thank you and again this is the QR code . 1
+17:04:000145:000145_1 : 17:03:52:590: Right for python programmers to get the performance of . 1
+17:04:000146:000146_3 : 17:04:00:273: Although we cheated what is interesting is . 3
+17:04:000147:000147_4 : 17:04:07:177: That . 4
+17:04:000148:000148_1 : 17:04:10:138: The day I show you the class . 1
+17:04:000149:000149_2 : 17:04:15:712: The day this kind of code becomes possible . 2
+17:04:000150:000150_3 : 17:04:22:408: The day you can write native Python classes . 3
+17:04:000151:000151_4 : 17:04:27:308: Then you can write Python code with object-oriented programming with a garbage collector . 4
+17:05:000152:000152_0 : 17:04:38:571: Not very very different from what
+17:05:000153:000153_2 : 17:04:45:614: We have the same time for the specific heat as the normal type . 2
+17:05:000154:000154_3 : 17:04:51:117: We have been writing a complete the application server framework will not be very difficult because those parts . 3
+17:05:000155:000155_4 : 17:05:02:884: Include c- type or . 4
+17:05:000156:000156_1 : 17:05:07:659: Look a little bit too much like to see . 1
+17:05:000157:000157_2 : 17:05:13:288: You want to see them anymore . 2
+17:05:000158:000158_3 : 17:05:16:578: Because they will be wrapped in base class is written in that way . 3
+17:06:000159:000159_4 : 17:06:06:250: For example just focus on the small set of features where concurrency and low-latency is needed like instant messaging or notification have this written a bit painful with Cedar Senegal and the . 4
+17:06:000160:000160_3 : 17:06:30:926: And you cut the integration so . 3
+17:07:000161:000161_1 : 17:06:45:213: Run super fast services that take a bit more time to write . 1
+17:07:000162:000162_3 : 17:06:56:063: The time we take to write the SAS services is compensated by the cost reduction in in . 3
+17:08:000163:000163_1 : 17:07:45:834: What prevents doing in hi-fi with no effort of rewriting code and benefits of just in time compiler . 1
+17:08:000164:000164_2 : 17:07:56:620: What prevents pipe I achieve the same types of performance as what we are showing Wi-Fi . 2
+17:08:000165:000165_3 : 17:08:06:934: So . 3
+17:08:000166:000166_4 : 17:08:09:595: It's so . 4
+17:08:000167:000167_1 : 17:08:14:713: I don't have a definite on Saturday because if I look at 5 pipe and if I run Hi-Fi on the rather small piece of code for example doing string processing we have a code that is used to process Apache logs and provides as a result a kind of ranking of the quality of the service . 1
+17:09:000168:000168_3 : 17:08:51:377: Box light by they get slower results . 3
+17:09:000169:000169_4 : 17:08:56:698: So . 4
+17:09:000170:000170_1 : 17:08:59:813: Well it's just a problem of working more on pi pi until we get the x 18 photo on Jungle for example . 1
+17:09:000171:000171_4 : 17:09:15:493: I thank you for a girly I can not have a definite answer but if you look at a track record we invested on piston not on . 4
+17:09:000172:000172_2 : 17:09:35:986: And one of the reasons why we invested in pissed on is because the . 2
+17:10:000173:000173_3 : 17:09:43:177: Bye bye doesn't solve the problem of . 3
+17:10:000174:000174_4 : 17:09:46:127: And make the integration of the libraries is a more complex or lessons . 4
+17:10:000175:000175_1 : 17:09:52:245: Part of the beauty of the python is the ease of integration of the library so I tend to be on the side of not believing that life I will remove the girls while keeping a garbage collector and easily into . 1
+17:10:000176:000176_2 : 17:10:12:460: But it's a belief . 2
+17:10:000177:000177_3 : 17:10:16:512: It's a great New Inn by 5 he Plus . 3
+17:10:000178:000178_4 : 17:10:21:632: Do you know the transactional memory part of pi pi I'm not sure it's a really . 4
+17:11:000179:000179_1 : 17:10:28:127: I resign . 1
+17:31:000180:000180_3 : 17:10:55:636: A huge part of the community has found a two-fold fighting that really helped them to write that code . 3
+17:31:000181:000181_4 : 17:11:04:612: Make sense to try to work for us to try to Leverage that tool not for data scientists . 4
+
+ 
+

@@ -1,0 +1,290 @@
+
+
+09_Salut à Toi: un écosystème de communication libre, standard et décentralisé Jérôme Poisson
+
+
+16:30:001272:001272_4 : 16:30:22:442: Bon ben salut à vous bonjour tout le monde alors moi je m'appelle Jérôme poisson chaussée connu sous le pseudo de Koffi sur internet je suis le développeur principale du projet salut à toi dans ton va parler aujourd'hui donc un peu près ce pli quelle idée de fête compte . 4
+16:31:001273:001273_1 : 16:30:40:605: Il y a deux parties la première ça va être une présentation globale du projet des nouveautés de voir un peu avant idée de faire . 1
+16:31:001274:001274_2 : Il y a un nouveau framework web encore en python . 2
+16:31:001275:001275_3 : 16:30:55:929: Donc il est ce sera un peu d'expliquer pourquoi faire un nouveau framework est l'intérêt qu'il a . 3
+16:31:001276:001276_4 : 16:31:03:066: Salut à toi on va faire un petit ensemble en d'abord les présentations qui nous sommes donc on a une association à but non lucratif loi 1901 donc basé en France association salut à toi . 4
+16:31:001277:001277_1 : 16:31:18:229: Concentré beaucoup sur l'éthique . 1
+16:31:001278:001278_2 : 16:31:22:362: Savoir . 2
+16:32:001279:001279_3 : 16:31:24:496: Les choses . 3
+16:33:001280:001280_4 : 16:31:26:656: Protéger la vie privée mais aussi pour voir comment comment mettre en place . 4
+16:33:001282:001282_2 : 16:32:45:586: Pour faire de l'argent et donc tous les outils cadeau dans les like et cetera ils ont un intérêt et on essaie de réfléchir à ce qu'on aime ce qu'on aimait pas et la porte et que ça peut avoir mon c c pas le sujet vraiment de la conférence aujourd'hui mais bon je voulais mentionné . 2
+16:33:001283:001283_3 : 16:33:03:741: Et oui donc je dis dès maintenant on un projet aussi qui a besoin d'aide parce que c'est comme ça que voir c'est un gros projet . 3
+16:33:001284:001284_4 : 16:33:10:884: Beaucoup de travail et je suis seul développeurs vraiment active dessus et donc on a besoin d'aide notamment dans ? et aussi pour développement documentation et traduction et cetera . 4
+16:34:001285:001285_1 : 16:33:27:008: C'est un projet qui ont développement très d'actifs simulation prêt d'Alpha donc c'est fort possible que les petits crash que il y a des choses qui marche pas tout à fait bien prenez pas peur c'est normal c'est en développement il a une stabilisation essaie d'avoir quelque chose de stable . 1
+16:34:001286:001286_2 : 16:33:46:156: Paiement sera plutôt d'ici d'ici la fin de l'année . 2
+16:34:001287:001287_3 : 16:33:50:567: Donc Salut a toi c'est quoi alors c'est un client XMPP alors que ça me fait pas si ça vous parle se connaît tout le monde Salut a toi est basé sur XMPP c'est un protocole de communication qui est standard donc l'intérêt qu'il soit standard ça veut dire que l'on peut utiliser ça fonctionne avec toute logiciel conversation 4 gym ce genre de logiciel . 3
+16:34:001288:001288_4 : 16:34:13:719: Qui est qui évolue avec différentes entités c'est pas contrôler par une salle entreprise se contrôler par différentes entités et il y a des élections tous les ans pour . 4
+16:34:001289:001289_1 : 16:34:26:880: Un conseil en fait il va valider les décisions technique c multi interface on fonctionne sur bureau sur web sur son portable sur Android . 1
+16:35:001290:001290_2 : 16:34:39:032: Plan ligne de commande pour avoir tout ça par la suite c multi-usage on sait pas que que la message instantannée . 2
+16:35:001291:001291_3 : 16:34:47:163: Beaucoup de choses aussi du blog partager fichier cetera et donc on a tout un écosystème collaboratif . 3
+16:35:001292:001292_0 : 16:34:57:290: Avec une certaine cohérence dans les différents outils et vitesse aussi d'avoir quelque chose qui un peu tout le temps d'un donc on installe ce logiciel on devrait avoir soit titre personnel ou dans une université d'entreprise et cetera on devrait avoir un tout ce qu'il nous faut pour la pour communiquer pour envoyer des messages pour partager des fichiers
+16:35:001293:001293_1 : 16:35:17:410: 7h à 7h bien sûr ça n'explique pas dans sa logiciel à côté mais on va voir la base . 1
+16:36:001294:001294_2 : 16:35:24:519: Par rapport aux autres projets il y a des problèmes là certainement tous entendu parler au moins de l'un d'entre diaspora demi sociale . 2
+16:36:001295:001295_3 : 16:35:33:654: Activité pop C1 maston Dompierre tube et cetera alors comment ça se positionne par rapport à ce genre de projet m'ont déjà on se base sur XMPP qui est beaucoup plus ancien que je pense tout le monde sur la liste et qui fait un peu d'impôt tous . 3
+16:36:001296:001296_4 : 16:35:48:801: Qui sont gérés par XMPP ou de toute façon peuvent être géré parce que c'est un protocole qui extensible . 4
+16:36:001297:001297_2 : 16:35:59:103: C'est un peu compliqué parce que il y a eu des nouveau protocole qui sont arrivés on saison décevante un peu déçu de voir que pour nous les gens réinventer la roue après ça peut être compréhensible aussi dans le cas notamment d'activité pub parce que ça a utilisé techno web qui sont plus à la mode ces temps-ci donc bon ça peut avoir un sens quoi qu'il en soit on peut pas . 2
+16:37:001298:001298_3 : 16:36:21:224: Mettre en opposition de ses projets on a un système de transport de toi qui permettent de communiquer avec des réseaux tout ce réseau la son libre donc donc donc on peut faire des transports donc on peut communiquer donc l'idée c'est qu'on se retrouve pas . 3
+16:37:001299:001299_4 : 16:36:36:373: Avec les autres tokamak l'idée c'est que à terme on puisse communiquer avec mastodonte puisse communiquer avec avec avec diaspora cetera et cetera . 4
+16:37:001300:001300_1 : 16:36:48:218: Comme on est à la Pycon j'espère quand même petites notes sur Python donc python en fait alors salut à toi c'est un projet qui a été commencé il y a 10 ans à peu près à la base comme beaucoup de projets c'était aussi une excuse pour se perfectionner dans Python et donc qu'est-ce que ça apporte ipython bah déjà ça porte un développement rapide . 1
+16:38:001301:001301_2 : 16:37:12:372: En étant une équipe comme vous l'avez entendu très réduite on arrive à faire comme beaucoup beaucoup de choses et rapidement et relativement proprement faire le langage permet de décrire des choses assez proprement facilement disponible . 2
+16:38:001302:001302_3 : 16:37:30:500: Retrait performant sur au téléphone sur bureau et cetera ça langage qui très populaire donc ça veut dire qu'il y a une grosse communauté . 3
+16:38:001303:001303_4 : 16:37:38:217: Facilement de l'aide et bassine commentaire en plus bas comme envoyez s'il y a des événements c me communiquer qui demain mon expérience c'est plutôt agréable et c'était bien aussi c'est quand on va s'attaquer un problème on trouve quasiment tout le temps des bibliothèques qui permettent de faire si tu travailles au moins une grosse partie du travail et d'autre part il y a des super . 4
+16:38:001304:001304_1 : 16:38:00:375: Stewart asynchrone en fait qui gère tout ce qui réseau donc il gère la base du protocole XMPP vont rajoute derrière qui gère le serveur HTTP mon interface a pas besoin de faire du . 1
+16:38:001305:001305_2 : 16:38:19:516: On a Kivy alors qui vis c'est un projet qui est malheureusement c'est pas assez connu je pense par rapport à ce que c'est . 2
+16:39:001306:001306_3 : 16:38:29:641: Remorque mont Corvo graphique amie qui s'accompagne d'outils qui permettent notamment de compiler sur Android sur iOS qui fonctionne sur Mac sur Windows sous Linux je pense . 3
+16:39:001307:001307_4 : 16:38:44:776: Il y a deux des développeurs principaux qui traîne qui train à la paille comme si vous avez l'occasion des croisés je vous conseille de discuter sont très sympa et donc voilà c'est un . 4
+16:39:001308:001308_1 : 16:38:56:914: Sinon comment pour . 1
+16:39:001309:001309_2 : 16:39:00:061: Interface concept car 6 mais en beaucoup plus agréable . 2
+16:39:001310:001310_3 : 16:39:04:803: Et si on a une petite vue de l'interface l'architecture global ont très très simplifié donc en fait ici on a un noyau c'est le cœur du projet c'est c'est ce qui gère vraiment le minimum vital la communication d'une personne personne âgée . 3
+16:40:001311:001311_4 : 16:39:23:945: À partir de là on a des plug-ins toutes les ai toutes les fonctionnalités avancées conversation de groupe chiffrement de bout en bout partager fichier de 7h à . 4
+16:40:001312:001312_1 : 16:39:36:091: Appelle un bridge en fait c'est une Eyed Peas i en fait c'est ce qui permet de communiquer avec les différences photo donc historiquement est principalement ses débuts ce qu'on utilise mais on peut remplacer par n'importe quoi métisse perspective . 1
+16:40:001313:001313_2 : 16:39:51:233: Sœur qui est une épice et de treated et et on peut entendre projet est donc ces différences photos qui sont vraiment que la vue qu'est-ce qui t'amène . 2
+16:40:001314:001314_3 : 16:40:06:369: Avec le logiciel et le tout représente un client XMPP au même titre que Kajeem peu conversation et cetera donc il se connecter à un serveur XMPP prodige a Birdy et cetera et cetera . 3
+16:41:001315:001315_4 : 16:40:21:514: Pour montrer les différentes interface donc c'est l'interface qui est à la fois bureau et Android donc c'est fait avec qui vit alors on pourrait techniquement faire une interface pour iOS le problème c'est qu'on est sous une licence libre sur AGPL et c'est incompatible avec l'Apple Store donc pour des raisons strictement Léon technique on peut pas être sur . 4
+16:41:001316:001316_1 : 16:40:47:662: Alors dans ce cas-là ce sera l'alternative web pour pour ceux qui ont des iPhone jusqu'à ce que appelle-moi la lumière . 1
+16:41:001317:001317_2 : 16:40:56:799: Boutique pensée pour travailler . 2
+16:41:001318:001318_3 : 16:41:00:950: TV et fais pour pouvoir utiliser en plein écran avec les différents soit chat ça bloc facettaire a séparé avec une interface qui est inspiré de Blender notamment pour la possibilité de Split différents widget autant qu'on veut et qui se veut simple bon alors comme voir beaucoup de projets libre . 3
+16:41:001319:001319_4 : 16:41:28:101: Donc il va nous aider sur . 4
+16:41:001320:001320_1 : 16:41:31:261: Prepa de refuge alors je vais lancer un kangoo . 1
+16:42:001321:001321_2 : 16:41:38:872: Pour la petite histoire Kabou le nom ça vient de faire une oiseau . 2
+16:42:001322:001322_3 : 16:41:46:014: Pas volé et qui aboie et c'est un oiseau endémique de Nouvelle-Calédonie . 3
+16:42:001323:001323_4 : 16:41:54:145: Rien que ça avec qui travaille sur le projet Nouvelle-Calédonie effacer active . 4
+16:42:001324:001324_1 : 16:42:01:292: Donc voilà ça ressemble à ça . 1
+16:42:001325:001325_2 : 16:42:07:419: Et donc quand je dis que c'était inspiré de Blender c'est qu'on peut splitter . 2
+16:43:001327:001327_3 : 16:42:12:569: Les différents . 3
+16:43:001328:001328_4 : 16:42:15:710: Faire quelque chose . 4
+16:44:001329:001329_3 : 16:43:14:861: donc côté dev c'est Kivi dans dans j'ai parlé tout à l'heure donc encore une autre sortie vie c'est un outil qui est pensé pour le tactile donc il y a beaucoup de choses à gérer le multitâches à Saint-Gervais rotation et cetera donc ça c'est très bien mais ça fonctionne aussi relativement bien quand vous avez vu au clavier la souris sans problème . 3
+16:44:001330:001330_4 : 16:43:39:016: Pas très agréable l'équipe et agréable aussi et en plus il y a d'autres projets donc donc python for Android qui permet de compile et interprète Python pour Android et donc de faire du Piton sur Android et c'est très . 4
+16:44:001331:001331_1 : 16:43:54:167: Ça peut être un peu mais une fois que c'est fait une fois que ça fonctionne c'est super agréable de faire du Piton sur Android donc je conseil fortement de jeter un œil . 1
+16:44:001332:001332_2 : 16:44:05:315: Alors Liberia donc chaque interface à son petit nom avez compris Liberty a donc c'est une interface . 2
+16:45:001333:001333_3 : 16:44:06:315: Donc historiquement c'était une application lourde c'est-à-dire que c'était beaucoup de javascript très très dynamique en fait et refait pour cette version donc maintenant il y a ce qu'on appelle élie Berger appelle en fait c'est l'idée c'est de beaucoup de simplifier d'avoir une finalité partage vous allez voir beaucoup beaucoup beaucoup plus simple . 3
+16:45:001334:001334_4 : 16:44:41:618: Retravailler guibergia on s'est rendu compte que ça donne étalement générique ça devenait amour poème donc c'est pour ça qu'il vient saint Andrea qui qui a vraiment web kiné de sa . 4
+16:45:001335:001335_1 : 16:44:52:769: Donc on a faim moi non c'est pas simple et pas Gibert bien mais on a aussi un toujours cette cette application lourdes un peu un peu plus élaboré donc j'ai lancé ici voilà moi alors vous avez les différents différentes fonctionnalités ici donc . 1
+16:45:001336:001336_2 : 16:45:12:909: Le blog nouvelle donne de mes contacts je vais dessus je peux aller dessus . 2
+16:45:001337:001337_3 : 16:45:18:697: Alors petites notes donc on essaie de donc la pensée en plein air factor in c'est pas c'est pas encore fantastique mais je pense que ça que c'est déjà relativement utilisable . 3
+16:46:001338:001338_4 : 16:45:32:845: C'est oui donc ces pensées pour être ça aussi du responsive design bien sûr si je mets en mode sur téléphone ça fonctionne bien . 4
+16:46:001339:001339_1 : 16:45:44:113: Un commentaire ici et on essaye aussi de faire des du code qui fonctionne sans JavaScript native JavaScript . 1
+16:46:001340:001340_2 : 16:45:57:252: Grand message . 2
+16:46:001341:001341_3 : 16:46:00:396: JavaScript javas le message qui va directement et ondulés commentaire qui m'ont affiché mais ça va fonctionner alors pourquoi est-ce que ça fonctionne qu'en JavaScript JavaScript . 3
+16:47:001342:001342_4 : 16:46:13:536: Qu'on a eu ces derniers temps sur les processeurs ça fait des pages plus légère et ça fait des pages aussi plus accessible pour les lecteurs automatique et cetera donc là où c'est possible il y a des caoutchouc c'est plus difficile on essaie de faire quelque chose qui fonctionne sans javascript . 4
+16:47:001343:001343_1 : 16:46:34:193: L'application lancer l'application historique . 1
+16:47:001344:001344_2 : 16:46:39:316: Complexe intermède à faire plus de choses alors c'est une application qui ai hérité on utiliser la technologie qui s'appelait pyjama qui n'est plus maintenu et qui permettait de compiler du Piton en javascript donc tout le temps de même dans navigateur s'il est . 2
+16:47:001345:001345_3 : 16:47:00:456: Cette interface es encore là elle a pas mal de bugs mais bon allez tu m'aimes fonctionnelle je pense parce que voilà . 3
+16:47:001346:001346_4 : 16:47:11:602: Bon alors si un peu vieilli un sénateur facilité Fatiha il y a pas mal d'années mais bon ça reste voilà on peut faire des choses qui sont pas possible sur les pages plus simple ta main mettre des widget à côté où . 4
+16:47:001347:001347_1 : 16:47:25:738: Faire réintégrer dans ce genre de chose . 1
+16:48:001348:001348_2 : 16:47:31:724: Passe une interface compteur pour cette version mais qui sera réécrite plus tard pour les prochaines versions qui en maintenance . 2
+16:48:001349:001349_3 : 16:47:38:879: Mets-moi . 3
+16:48:001350:001350_4 : 16:47:42:039: Alors côté développement donc Liberia c twisted donc le back-end aussi hein il y a beaucoup de freestyle donc comme je disais tout à l'heure twisted . 4
+16:48:001351:001351_1 : 16:48:02:186: Port HTTP intégrer ce qu'il veut dire que bah vous n'avez pas besoin de faire des configuration Apache poi jeans et cetera pour faire fonctionner l'interface que vous avez tout à l'heure bien sûr si vous voulez intégrer dans la page vous pouvez faire avec un proxy inversé . 1
+16:49:001352:001352_2 : 16:48:19:336: Complexe ça utilise Jinja2 donc si vous connaissez vous si vous connaissez Django c'est très similaire à blanc bosser un peu plus puissant que le système de Django ça marche très bien c'est simple c'est facile à comprendre et donc l'interface lourdes été faite avec pyjama alors rapide note sur primitive ça c'est juste l'interface consomme donc c'est où la résolution . 2
+16:49:001353:001353_3 : 16:48:46:478: Console alors ça sert notamment pour les amis Strateur système quand il y a pas de serveur graphique disponible je sais pas si vous voyez bien là sur le . 3
+16:49:001354:001354_4 : 16:48:56:626: Dentiste ou alors comme les gens comme moi qui préfère le texte parce que il y a directement l'information essentielles voilà c'est inspiré de vie dans le sens que ces modèles on peut faire des commandes par exemple si je le vois les messages je peux taper des courant de rien ma demande à l' . 4
+16:49:001355:001355_1 : 16:49:12:771: Mémo visuel pour faire des copies ce genre de chose ah voilà ça c'était juste rapidement JP par contre ça c'est plus intéressant c l'interface en ligne de commande donc . 1
+16:50:001356:001356_2 : 16:49:25:898: La la philosophie c'est à chaque fois qu'on chaîne des fonctionnalités on fait d'abord dans JP en mode texte donc . 2
+16:50:001357:001357_3 : 16:49:35:041: Tout ou presque contrôler depuis JP . 3
+16:50:001358:001358_4 : 16:49:39:188: Salut à toi même quand il pète et en général ça doit être un outil universel alors ça permet m'ont déjà pour nous deux pour travailler sa sensualité avant de faire du gras fille ça permet de pouvoir faire du du débogage si on travaille avec XMPP ça permet d'automatiser des commandes facilement donc ça nou ti amo ti un couteau suisse . 4
+16:50:001359:001359_1 : 16:50:00:343: Qui vient plus . 1
+16:50:001360:001360_2 : 16:50:03:478: Ça permet un peu comme comme pour les bases de données d'avoir de régler déjà des Indes enregistrer des paramètres quand on veut travailler son Sexion un peu plus longue ça permet de travailler haut et bas niveau c'est-à-dire que pour du bloc par exemple on peut avoir directement le contenu du blog formater avec les métadonnées où on peut travailler au niveau XML si on veut . 2
+16:51:001361:001361_3 : 16:50:25:637: Surtout weekend pour les développeurs merci toujours pratique foyer semaine il y a différents modes de sortie donc on peut avoir les informations Jason retravailler après sur les données avec d'autres . 3
+16:51:001362:001362_4 : 16:50:37:772: Série si c'est par exemple on va voir un blog ont retrouvé tous les titres où tous les auteurs de Tal blog St ça c'est facile à faire et on peut utiliser les tempêtes de Liberia c'est-à-dire qu'on peut on peut créer des sites statique à partir de sa . 4
+16:51:001363:001363_1 : 16:50:55:915: Météo à l'envers se dire qu'on peut utiliser des fichiers pour les pour toutes les commandes en fait . 1
+16:51:001364:001364_2 : 16:51:06:055: Alors ligne poussé par exemple euh moi ça m'est arrivé d'avoir créer un événement j'avais une liste sur LibreOffice d'inviter avec les noms et les e-mails et donc j'ai sorti ça . 2
+16:52:001365:001365_3 : 16:51:19:198: Mardi en CSV et j'utilise donc cette commande qui m'a crée automatiquement tous les comptes les invitations et cetera c'est facile pour moi c'est un peu avancé mais c'est juste pour vous donner un peu une idée de la puissance de l'outil Angers vous montrer je sais pas si on va voir quelque chose je grossis peut-être . 3
+16:52:001366:001366_4 : 16:51:37:336: Donc dans tous les cas il y a aussi toutes mes commandes sont suffixe avec d'âge que c'est des outils c'est les versions développement . 4
+16:52:001367:001367_1 : 16:51:46:486: Pas toujours tiré de fait réel vous aurez les informations qui qui vous faut nous vous voyez que ça permet de faire beaucoup de choses gestion blog gestion de forum Ticket To ça permet d'envoyer des messages ça permet de faire chiffrement bout-à-bout cetera et cetera . 1
+16:52:001368:001368_2 : 16:52:03:627: Je veux écrire un nouveau message de bloc . 2
+16:53:001369:001369_3 : 16:52:10:569: Je fais tout simplement ça je mets juste blog a dit avec le titre et ça va me crée donc là c'est configuré pour utiliser VI donc à droite je vois des métadonnées à texte je vais à côté je vais avoir . 3
+16:53:001370:001370_4 : 16:52:25:702: Le corps de mon message c'est aussi indépendant de lapin de la syntaxe lacets configurer politisé marque donne mais ça peut être directement du XHTML ou n'importe quel autre syntaxe indépendant donc si je sors ça m'a plu billet directement le . 4
+16:53:001371:001371_1 : 16:52:43:832: Si je veux corriger je sais juste blog Édith Lefel pour dire daft et je retrouve je reviens sur mon message envoyer clé des métadonnées qu'on te rajouter et donc je peux je peux corriger facilement . 1
+16:53:001372:001372_2 : 16:52:57:974: Non pas là alors pour vous montrer gîte rapidement le bas niveau . 2
+16:53:001373:001373_3 : 16:53:04:930: Donc là c'est en haut niveau parce que sa dégaine d'un côté métadonnées et de l'autre marque donne . 3
+16:53:001374:001374_4 : 16:53:13:945: Alors que je me trompe pas alors dans ce cas là effectivement c'est pas niveau donc il faut que je précise . 4
+16:53:001375:001375_1 : 16:53:20:872: Il a donc on va voir directement le contenu XML qui utiliser en interne dans XMPP donc c'est pas merci de travailler c'est dû à Tom l'intérieur donc ça permet de . 1
+16:54:001376:001376_2 : 16:53:41:014: Comment sont pas niveau 6 et surtout utile pour les développeurs ont pour ceux ou quand on veut des petits quelque chose . 2
+16:54:001377:001377_3 : 16:53:47:805: Voilà alors . 3
+16:54:001378:001378_0 : 16:53:51:908: Développement c'est dur parce pigment pour la coloration syntaxique Alix é-mail alors Alix é-mail c'est très intéressant parce qu'il y a un moteur XPath donc ça veut dire qu'on peut retrouver n'importe quelle information très très facilement ça veut dire qu'on peut travailler et on peut on peut s'en servir pour récupérer le titre ou
+16:55:001379:001379_1 : 16:54:15:090: Verdoodt réseau donc si oui travail par exemple avec mastodonte on fait une passerelle mastodonte XMPP il veut utiliser sa et vous pouvez récupérer par exemple tous les auteurs de gens qui parlent de la paie comme c'est assez facile à faire et voilà et après . 1
+16:55:001380:001380_2 : 16:54:33:204: Les fonctionnalités alors désolé il y a beaucoup de choses je sais que c'est un peu un peu à saumon j'essaie de faire des mots entre temps pour que ça passe mieux il y a beaucoup de choses à montrer mais bon après c'est pas non plus obligé de . 2
+16:55:001381:001381_3 : 16:54:48:343: Évidemment donc la passerelle comme j'ai quand même j'ai dis donc la possibilité d'envoyer des fichiers tu essaieras on a du chiffrement bout-à-bout alors pour ceux qui s'apparente la hauteur qui était le . 3
+16:55:001382:001382_4 : 16:55:01:482: Utiliser historiquement depuis des années cette version va voir le support de mémo aussi non classé imprimante à 80 /:/ encore faire la gestion . 4
+16:55:001383:001383_1 : 16:55:13:626: Donc elle commence à son groupe et cetera et bien sûr Cedex MPP donc c'est très très poussé au niveau . 1
+16:55:001384:001384_2 : 16:55:22:763: Des possibilités . 2
+16:56:001385:001385_3 : 16:55:25:918: Au niveau donc on a du blocage haut qu'on peut faire du blocage cours type Twitter ou débogage plus élaboré type WordPress choix du balisage exetera alors pourquoi se précise des commentaires plusieurs niveaux ça c'est intéressant quand on fait des passerelles donc il y a des sites comme . 3
+16:56:001386:001386_4 : 16:55:47:070: Les commentaires sont différents niveaux donc c'est gérer par XMPP c'est possible de faire des passerelles vers ce genre de chose on acid et forum les forums c'est tout simplement du blog mais avec . 4
+16:56:001387:001387_1 : 16:55:57:220: Pour faire des t'aime je montre à jour montre rapidement après . 1
+16:56:001388:001388_2 : 16:56:03:366: Affichez alors ça c'est plus intéressant enfin c'est papi c'est différent mais c'est autre chose . 2
+16:56:001389:001389_0 : 16:56:09:520: Pas du simple envoie de fichier c'est pas juste on envoie un fichier et on l'oublie là on a vraiment du partage où on a Mirarchi de fichiers on est en à la Lys et cetera et on a de mode c'est-à-dire sont envoyés sur un serveur donc un peu similaire avec la box homme beaucoup plus simple simple bien sûr on envoie direct en peer-to-peer alors là le cas d'utilisation. . 3
+16:56:001390:001390_4 : 16:56:33:665: Téléphone on arrive chez soi . 4
+16:57:001391:001391_1 : 16:56:34:665: En fait on peut directement depuis l'ordinateur accéder aux fichiers du téléphone et les fichiers vois t'envoyer par le réseau local sans . 1
+16:57:001392:001392_2 : 16:56:35:665: Sur un serveur . 2
+16:57:001393:001393_3 : 16:56:36:665: Revenir ensuite . 3
+16:57:001394:001394_4 : 16:56:50:704: Photos c'est une autre vue de partager fichier qui permet de commenter les photos alors ça c'est une chose qui est pas mal de bruit parce qu'on github se faire acheté par Microsoft parce que pour des besoins personnels en fait nous ont refusé d'utiliser github pour notre côté . 4
+16:57:001395:001395_1 : 16:56:51:665: Vu qu'on s'est dit qu'on avait les outils dans XMPP du coup on se fait notre objectionnaire de ticket donc on décentralisée avec des comptes séparés avec des possibilités de fédérer les tickets et il est content c'est un système qui est relativement souple on peut mettre les gens qu'on veut utiliser code . 1
+16:58:001396:001396_2 : 16:57:30:052: Course des to do list ce genre de chose donc voilà et on a fait une évolution qui est le maire request donc là en fait un ticket mais avec du quad attaché . 2
+16:58:001397:001397_3 : 16:57:33:665: Action derrière de . 3
+16:58:001398:001398_4 : 16:57:44:428: Donc on utilise Mercurial mais on a envie habillé merci on va vraiment te guide parce que c'est comme le plus populaire et et donc voilà ça permet d'avoir d'avoir le cas de Mercurial apparaître à côté d'un ticket de faire le commentaire la revue de code et cetera et de travailler dessus et c'est intégrer AJP se dire qu'on peut très facilement récupérer ou fermer une rocade de . 4
+16:58:001399:001399_1 : 16:58:10:577: Sans même avoir à connaître la commande de Mercury . 1
+16:58:001400:001400_2 : 16:58:15:169: Et la télécommande entendu j'ai déjà vous montrer ça on a parlé il reste combien de temps la . 2
+16:59:001401:001401_3 : 16:58:22:965: Comment peut-on pour la question . 3
+16:59:001402:001402_4 : 16:58:27:420: Donc le blog si si l'on connaît à différents blog mon ça je voulais montrer tout à l'heure les forums en fait c'est un blog avec avec différents sujets Donbass est-ce que c'est que des forums un j'ai pas vous la prendre mais c'est juste pour vous montrer que c'est . 4
+16:59:001403:001403_1 : 16:58:50:550: Vu différentes en fait et c'est aussi possible de faire des archi différent selon la langue Conforama foncé en anglais . 1
+16:59:001404:001404_2 : 16:59:01:704: Partage de fichiers alors ici j'ai un composant donc ça c'est le côté . 2
+16:59:001405:001405_3 : 16:59:08:840: Mini Mini nextaz voile avec différentes photos et là j'ai mettre en mode alors ça s'est pas encore ici depuis interface pour l'instant . 3
+16:59:001406:001406_4 : 16:59:19:656: Crois que c'est ça voilà donc ça sert Mode album photo donc les photos c'est un peu plus grosse et c'est possible ans ou 2 commentaires de commenter les photos mon voilà l'idée c'est d'avoir un truc assez simple avec une gestion des permissions si on veut partager des photos avec sa famille . 4
+17:00:001407:001407_1 : 16:59:38:777: Sais pas si . 1
+17:00:001408:001408_2 : 16:59:40:918: Alors pour le partage de fichiers je vais vous montrer . 2
+17:00:001409:001409_3 : 16:59:48:826: Ok donc là avec donc j'ai deux comptes Lego fille s'il te connecter ici et Louise qui est un autre compte et donc Louise vient de partager un fichier vidéo . 3
+17:00:001410:001410_4 : 17:00:01:968: Afficher vidéo qui apparaît dans mon navigateur donc je peux accéder dessus et je peux je peux ouvrir une vidéo . 4
+17:00:001411:001411_1 : 17:00:10:437: Allez partager directement et très simplement . 1
+17:00:001412:001412_2 : 17:00:14:591: Orgie vous montrer la même chose rapidement avec cagou . 2
+17:00:001413:001413_3 : 17:00:20:146: Pour 20 ans . 3
+17:00:001414:001414_4 : 17:00:23:292: Donc Forclaz Go ici j'ai mes fichiers qui sont partagés sais pas si vous voyez bien voilà . 4
+17:00:001415:001415_1 : 17:00:33:882: Si je filtrer sur les vidéos . 1
+17:00:001416:001416_2 : 17:00:37:030: Voilà si je veux enlever le partage je clique dessus je l'enlève si je leur faire c'est très simple je clique je fais partager et je décide que je partager avec Koffi et j'ai mes vidéos qui sont partagés directement . 2
+17:01:001417:001417_3 : 17:00:52:171: Donc voilà . 3
+17:01:001418:001418_4 : 17:00:54:307: Événement . 4
+17:01:001419:001419_1 : 17:00:56:432: Un événement . 1
+17:01:001420:001420_2 : 17:00:59:568: Comme j'avais annoncer un événement ici je peux avoir la liste des . 2
+17:01:001421:001421_3 : 17:01:06:700: Avoir la liste des gens qui vont venir le total inviter inviter des gens inviter des gens dehors du réseau par mail envoyé du blog Blog passé te rattrape . 3
+17:01:001422:001422_4 : 17:01:20:833: Critiquer . 4
+17:01:001423:001423_1 : 17:01:22:979: Les petits qu'il y a un petit souci de performance à régler un petit peu long démarrage mais non pas là on a si tous les tickets et . 1
+17:02:001424:001424_2 : 17:01:34:107: Et si les merdes request donc c'est une version . 2
+17:02:001425:001425_3 : 17:01:38:686: Insertion fait améliorer du ticket avec la possibilité d'attacher un patch et de et de commenter derrière . 3
+17:02:001426:001426_4 : 17:01:48:347: Donc . 4
+17:02:001427:001427_1 : 17:01:51:490: Ok donc la télécommande ça c'est une chose qui était rajouté récemment message et vous montrer avec le téléphone donc revenons à nos vidéos alors imaginons que je lise une vidéo . 1
+17:02:001428:001428_2 : 17:02:12:495: Ok alors je . 2
+17:03:001429:001429_3 : 17:02:16:431: Donc ça c'est mon téléphone . 3
+17:04:001431:001431_4 : 17:02:25:788: Ici j'ai ma vidéo derrière donc sur le téléphone je lance cagou . 4
+17:04:001432:001432_1 : 17:02:31:931: Donc j'ai une icône ici remote control est-ce-que ah oui c'est pas connecté ça va pas marcher . 1
+17:04:001433:001433_2 : 17:04:09:656: Ça a été possibilité de s'authentifier sans mot de passe de faire un bon voyage à la distance de retrouver des avatars un peu comme Gravatar de faire des où ça c'est peut-être intéressant quand même c'est à expliquer en détail c'est la possibilité de l'attacher des morceaux de code ou des commandes à des événements par exemple un message de bloc boum ça va lancer mon script . 2
+17:04:001434:001434_3 : 17:04:35:811: Connecter à mon salon ou dit quelque chose dans salon ça va lancer un événement ça va lancer mon Street et donc voilà ça permet de lire ces facilement des événements à des choses . 3
+17:05:001435:001435_4 : 17:04:47:902: Ça va pas trop . 4
+17:05:001436:001436_1 : 17:04:53:017: Endormi . 1
+17:05:001437:001437_2 : 17:04:55:158: Donc rapidement rapidement j'espère . 2
+17:05:001438:001438_3 : 17:05:01:312: La la 2e partie c'est donc à propos de du framework web donc un nouveau vraiment vraiment fait qui est basé sur Liberia qu'on a vu tout à l'heure . 3
+17:05:001439:001439_4 : 17:05:11:452: Nouveauté pour cette version non pourquoi faire un nouveau framework web bah c'était fini assez naturellement et l'idée c'est que ces décentralisée c'est-à-dire que les sites qu'on fait sans effort pour être capable de communiquer entre eux . 4
+17:05:001440:001440_1 : 17:05:24:646: Federer décentralisée cetera donc on SMTP . 1
+17:06:001441:001441_2 : 17:05:31:793: Gérer naturellement alors c'est gérer par SMS donc par XMPP est parti donc c'est très facile de faire des enfants il y a des composants qui sont déjà prêts . 2
+17:06:001442:001442_3 : 17:05:42:923: Mon compte de permission . 3
+17:06:001443:001443_4 : 17:05:46:064: Commentaires Lemonnier cetera le dynamisme et j'ai reçu facilement Sadir Siona une page qu'on peut mettre à jour en CAD événement on a une commande qui va activez en fait facilement des commandes et en arrière-plan mettre des voies book . 4
+17:06:001446:001446_3 : 17:06:08:456: Comme l'avait vu ça marche sans javascript on a moteur de theme très puissante et donc c'est un PC intégré à tout le reste de l'écosystème on a quelques outils à disponibilité on a framework CSS alors c'est possible utiliser absolument votre propre c'est possible utiliser . 3
+17:07:001447:001447_4 : 17:06:25:601: Meilleur on a des composant de base de dents et donc voilà c'est fait pour utiliser facilement XMPP il y a plus de 400 extensions et on peut rajouter donc on peut l'adapter à tout . 4
+17:07:001448:001448_0 : 17:06:39:726: On a PubSub
+17:07:001449:001449_2 : 17:06:47:872: Écris décentralisée et qui permet aussi de d'envoyer des notifications quand il y a des changements sur cette base de données non voilà ça c'est intégré si tu disais à la place d'une base de donnée à la place de MySQL aux pommes on va utiliser un pépé et on aura quelque chose de naturellement décentralisée alors on va essayer de faire une petite démo . 2
+17:07:001450:001450_3 : 17:07:07:979: Avec le site . 3
+17:07:001451:001451_4 : 17:07:11:947: Alors j'ai un petit peu préparer . 4
+17:07:001452:001452_1 : 17:07:16:971: J'aimerais partir mon sang peux fermer donc j'écris un répertoire pycon donc . 1
+17:07:001453:001453_2 : 17:07:25:089: Ok c'est bien . 2
+17:07:001454:001454_3 : 17:07:29:231: Donc l'architecture de base dans un répertoire pour un site . 3
+17:08:001455:001455_4 : 17:07:36:372: Assez bien . 4
+17:08:001456:001456_1 : 17:07:40:501: WC3 dossier donc ça c'est tout ce qui est traduction internationalisation ça c'est où se code Python et ça c'est template Ginga donc on va créer . 1
+17:08:001457:001457_2 : 17:07:51:629: Un template alors dans les tempêtes après on allait différents thèmes donc là on a le temp à défaut je sais pas si on va pas très bien en bleu dans quel thème par défaut . 2
+17:08:001458:001458_3 : 17:08:03:693: Donc il sera qui sera le thème principal de votre site donc là l'idée c'est que je crée . 3
+17:08:001459:001459_4 : 17:08:16:824: Une page hello world . 4
+17:09:001460:001460_1 : 17:08:20:147: Envoie la voiture à ma liste donc ici c'est du ninja . 1
+17:09:001461:001461_2 : 17:08:33:809: Ensuite . 2
+17:09:001462:001462_3 : 17:08:53:933: Je vais créer une page qui va tu sais template . 3
+17:09:001463:001463_4 : 17:08:57:718: J'avais déjà fait un essai quand j'ai pété la conf . 4
+17:09:001464:001464_0 : 17:09:05:173: Donc pour le code pour la partie python à chaque fois on créer un fichier qui s'appelle pages médecin. Un pays est dedans on a au début de partie où on déclare ce qu'on veut faire donc ici en fait je suis City lisez le template hello hello HTML . 1
+17:10:001465:001465_2 : 17:09:28:137: C'est tout ce que j'ai besoin de faire dans la partie python . 2
+17:10:001466:001466_3 : 17:09:32:856: Si vous avez la partie python à droite et à côté . 3
+17:10:001467:001467_4 : 17:09:56:982: Le pré configurer un pour gagner un peu de temps . 4
+17:10:001468:001468_1 : 17:10:02:254: Détails . 1
+17:10:001469:001469_2 : 17:10:08:395: J'attends encore hier quand on change un tempête sais pas encore quand on change le code donc je suis j'ai trop dansé à chaque fois le . 2
+17:11:001470:001470_3 : 17:10:22:444: Petits détails qui vont se régler petit à petit et donc voilà le hello world qui se fait donc vas-y après simplement et donc là où XMPP intéressant . 3
+17:11:001471:001471_4 : 17:10:33:119: Alors l'âge importe les . 4
+17:11:001472:001472_1 : 17:10:52:099: Les constantes en fait tu me service t'avoir limiter l'accès à ce qui raconte XMPP donc je sais voilà donc là j'ai différence accès . 1
+17:11:001473:001473_2 : 17:11:03:249: J'ai une constante qui dit tous ceux qui ont un profil Aix à pépé Nantes Atlantique CPP en fait pas se connecter donc par exemple les employés d'une entreprise ou ce genre de chose . 2
+17:11:001474:001474_3 : 17:11:14:216: Donc encore une fois pour l'instant il faudra démarre ça c'est un truc qui va changer pour la suite et donc maintenant quand je me connecter automatiquement j'ai une boîte de login qui demande connecter avec avec un compte plus disponible . 3
+17:12:001475:001475_4 : 17:11:31:359: Si je me connecte c'est bon alors après si je veux par exemple . 4
+17:12:001476:001476_1 : 17:11:36:499: Si je veux par exemple utiliser des variables interne ça c'est ça voilà l'idée c'est que là maintenant je connecter avec un compte XMPP et je peux facilement communiquer . 1
+17:12:001477:001477_2 : 17:11:47:633: Avec le monde extérieur je peux avoir des comptes qui sont administrateur nom qui va voir accès uniquement à la partie administrateur je veux et puis je peux faire tout tout ce que permet de faire du que sapete les commentaires et cetera et cetera . 2
+17:12:001478:001478_3 : 17:12:00:350: Fermer . 3
+17:12:001479:001479_4 : 17:12:02:497: Ok c'est mon . 4
+17:13:001480:001480_1 : 17:12:06:649: Donc voilà on arrive au bout de la conférence donc dans les choses à venir on va voir de la visioconférence qui est prévu pas pour la version avenir ça de l'après dépasserait notamment activity pub qui est très à la mode en ce moment WhatsApp et cetera donc là tout de suite tout l'architecture pour faire déplacer facilement une intégration plus poussé sur le bureau pour tout ce qui est ouverte . 1
+17:13:001481:001481_2 : 17:12:07:649: Gestion des URL et cetera donc les gars qui ticket Leymergie Quest il essaie de faire une force décentralisée donc une espèce de guitare Boogie tab basé sur XMPP avec la possibilité de créer un compte à chaque fois on peut avoir . 2
+17:13:001482:001482_3 : 17:12:54:015: Passer assez puissant veut dire et après . 3
+17:13:001483:001483_4 : 17:13:00:155: Pont des conteneurs docker Alex et ça ce sera pour faire des tests automatisés . 4
+17:14:001484:001484_1 : 17:13:06:292: Vivre ce genre de choses à prévoir édition préparatifs table basse FRAC pas les idées qui manque et côté framework web on va intégrer briton et transcription ça c'est pour remplacer pyjama briton et transcription à ce sont deux projets qui permet de faire du Piton côté navigateur donc le premier c'est un interprète python . 1
+17:14:001485:001485_2 : 17:13:28:429: Donc on peut faire du Piton à l'intérieur du navigateur c'est un peu lourd mais ça donne accès à une console complète python en interne c'est très intéressant transcrit pluie vas transpirer du Piton en javascript donc c'est beaucoup plus performant et ça peut être utilisé voilà pour coder . 2
+17:14:001486:001486_3 : 17:13:46:574: La partie web en python aussi sans une . 3
+17:14:001487:001487_2 : 17:14:12:595: Sinon on va se mettre en place un modèle économique pour l'instant travail sur le temps libre . 2
+17:15:001488:001488_3 : 17:14:13:595: Travail en plus en plus de notre travail salarié c difficile c'est fatiguant et donc on va essayer de développer un modèle alors on a plusieurs idées en tête faut voir maintenant qu'il est possible de faire pour travailler à plein-temps et bien sûr . 3
+17:15:001489:001489_4 : 17:14:38:895: Côté politisé en rester de faire ça en coopérative auto j'ai donc si si vous avez les liens le site officiel installer vous avez la solution sur le wifi . 4
+17:15:001490:001490_0 : 17:14:50:037: Ici et si vous voulez nous aider on cherche des développeurs mon comme tout le monde des impacts heure on a des gens qui impactent disponible sur infinix sur Debian centre Nantes empaqueter maison. Dead on aurait bien sur RedHat Fedora tout ça on a fait Pâques en cours quasiment bon . 1
+17:15:001491:001491_2 : 17:15:11:172: On a quelqu'un qui travaille sur voie yunohost aussi pour la partie web mais on aurait bien avoir un peu plus de gens pour nous aider à diffuser parce qu'on est très peu connu alors que c'est comme un projet assez assez gros . 2
+17:16:001492:001492_3 : 17:15:25:289: Compte on attend d'être le design est sur le graphisme sur la doc les traductions et cetera et merci à vous et je sais pas combien de temps on a pour les questions dans 15 minutes pour les questions merci à vous . 3
+17:16:001493:001493_4 : 17:15:40:399: Ah oui d'accord alors si vous avez des questions . 4
+17:16:001494:001494_1 : 17:15:50:828: Ouais . 1
+17:16:001495:001495_0 : 17:15:56:976: Ouais c'est chargé comme un module en fait il va parcourir donc j'ai fait une course j'ai pas montrer parce que c'est déjà c'est beaucoup de choses d'un coup mais en gros qui indique le chemin où j'ai mon site après il va il va chercher dans le sous-dossier page il va chercher tous les tous les dossiers qu'on a pas j'adore ça. Pie et il va aller charger et ça va être le site . 2
+17:17:001496:001496_3 : 17:16:21:107: Tu peux aussi donner des noms à tes site quand tu voulais retrouver cetera Fayat j'ai pas mal de choses qui sont possibles après . 3
+17:17:001497:001497_4 : 17:16:28:948: Alors c'est pour ça qu'on allait pas . 4
+17:17:001498:001498_1 : 17:16:52:087: En fait le tout c'est tout ce matin comment faire je sais pas je suis pas encore sûr pas comment utiliser nous-même condamné à l'excellence acti Jama pyjama appeler tes maths nuit parce qu'ils ont eu des conflits politiques effacer un peu n'importe quand ils sont restés bloqués . 1
+17:17:001499:001499_2 : 17:17:10:248: Donc c'est sûr c'est pas parce bouquet soif que sur Bricoman Soissons transcription voix l'intégrale mort je suis pas sûr qu'on va diviser nous-même mais sinon toute façon . 2
+17:18:001500:001500_3 : 17:17:21:554: Pas beaucoup beaucoup de choses parce qu'on a beaucoup de code qui factorisé entre les rangs que tu le sens ton sang pendant qu'on a une partie commune donc ça va faire et après on fera si on fait du Bryton fera pas énormément de quoi se dire que si demain British pas réussi c'est trop lourd et cetera . 3
+17:18:001501:001501_4 : 17:17:41:722: Ouais mais d'un autre côté parce que . 4
+17:18:001502:001502_1 : 17:17:52:164: Non non mais en fait ça sent la fin dans l'état dans les pages il y a du JS . 1
+17:18:001503:001503_2 : 17:18:00:296: Ça ça se passait pas du tout ce qu'on a on a dit aussi des frameworks JavaScript surtout que justement . 2
+17:18:001504:001504_3 : 17:18:08:424: Affaire épithète maintenant Britos qu'intéressant sais que tu as la console Python et je pense notamment la communauté scientifique et qui travaille beaucoup avec Python ça pourrait être intéressant de pouvoir afficher Tegra faire des formules et cetera en python directement dans navigateur donc ça peut avoir un m'intéresse maintenant . 3
+17:18:001505:001505_4 : 17:18:31:927: J'ai complètement oublier de répéter la question d'ailleurs . 4
+17:19:001506:001506_1 : 17:18:41:022: Teso transcription qui voit après la question c'est est-ce que on attend se casser les dents avec bruit ton GSM yeux le javascript super effet python cellule . 1
+17:19:001507:001507_2 : 17:18:52:159: Non non mais de toute façon on sera pas . 2
+17:19:001508:001508_3 : 17:18:58:291: On fera pas on mettra pas tout tout nous venons dans Bryon Bryton c'est juste un truc en plus éventuellement c'est la honte c'est vraiment parti avec les laitages Liberia avec du Code minimale JavaScript minimale et la plupart des choses cette . 3
+17:19:001509:001509_4 : 17:19:15:430: Et ça c'est plus du côté de ça fait c'est parce qu'on se le prof sûrement passer sur ce m'utiliser bootstrap au Bulma ça serait oui je sais que c'est note . 4
+17:19:001510:001510_1 : 17:19:43:555: Pour ça que je . 1
+17:20:001511:001511_2 : 17:19:46:684: relance un appel . 2
+17:20:001512:001512_3 : 17:19:49:836: Musée de la tuf ce qu'il faut voir aussi c'est . 3
+17:20:001513:001513_4 : 17:19:54:782: On peut aussi des composants qui va . 4
+17:20:001514:001514_3 : 17:20:05:170: Sarah design fasse un métier où on est développé en plus à son mot de temps libre tout ça c'est des jours et des jours sans ça fait 10 ans que ce projet comment cesser des migraines CDCC joue aussi sur la santé bout d'un moment . 3
+17:20:001515:001515_4 : 17:20:21:303: Donc en fait si si il faudrait de l'aide la dessus parce que nous on peut pas non plus passer des jours à travailler ça on peut peut-être utilisé des . 4
+17:21:001516:001516_1 : 17:20:32:450: C'était assez . 1
+17:21:001517:001517_2 : 17:20:35:571: Avoir . 2
+17:21:001518:001518_3 : 17:20:37:702: Alors la question c'est il y a différents projets quand elle monterai est-ce que il y a du est-ce que il y a Satoriz et en fait du code en commun je vais remontrer le schéma du début . 3
+17:22:001519:001519_4 : 17:21:13:840: Oui oui oui donc donc donc en fait on a déjà fait partie la plupart du métier normalement tu as les communes à tous les photos donc ça c'est l'essentiel après il y a 6 du code qui se répète quand même . 4
+17:22:001520:001520_1 : 17:21:31:962: Notamment tout ce qui est liste de contacts m'appelle roster CPP elle est allée en cash côté fontaine parce que c'est pas très coûteux faire un appel mais bon c'est quand même pratique donc en fait ici c'est pas indiqué sur le schéma simplifié mais on a un module comment utiliser pour ça à la partie vraiment parce que c'est . 1
+17:22:001521:001521_2 : 17:21:53:094: Une partie minimale . 2
+17:22:001522:001522_3 : 17:21:56:427: Alors la question c'est que du coup se séparer les livres sont séparés oui back-end entièrement séparer en fait c'est toute la pays n'importe quel langage simplement début faire tous les langages pas faire des appels il y a une API . 3
+17:22:001523:001523_4 : 17:22:20:559: Empattement bien cette partie-là et faire son propre truc après pour ce qui est du script je conseille d'utiliser JP parce que c'est encore plus haut niveau donc ça facilite la vie ou sinon il y a 6 de toute façon d'être ta bibliothèque . 4
+17:23:001524:001524_1 : 17:22:33:690: Pas précisé mon est compatible avec mon virement d'acompte amovible sur l'autre qui fait du bloc compatible avec conversation . 1
+17:23:001525:001525_3 : 17:22:43:882: Poser la question . 3
+17:23:001526:001526_0 : 17:22:49:666: Tout est très mot alors la question c'est imaginons que j'ai besoin que du téléphone de la partie téléphone est-ce que je peux assurer que cette partie-là alors pour l'instant on installe tout mais tu t'es fait en plugin tu sais très très modulable donc après c'est suffit de pour l'instant détachées ici chier mes ampoules automatisé
+17:24:001527:001527_1 : 17:23:17:802: Justement j'ai une discussion hier matin boire une bière avec les développeurs de qui vit et disais aussi que ça fait beaucoup de choses c'est intéressant mais c'est compliqué pour un utilisateur et si avec que la télécommande que le blog ce serait bien donc c c quelque chose à explorer . 1
+17:24:001528:001528_2 : 17:23:39:916: Supprimer plugin ça ça va pas afficher le truc donc après il y a . 2
+17:24:001529:001529_3 : 17:23:48:045: Alors c'est parce qu'on cherche à faire à nous on préfère avoir des petites structures une centaine parce que on peut se soit décentralisée justement maintenant de toute façon si j'avais pas savoir XMPP . 3
+17:24:001530:001530_4 : 17:24:06:175: 2D de temps il y a déjà peur des Cats utilisé par un petit projet comment ça s'appelait WhatsApp un truc comme ça . 4
+17:25:001531:001531_1 : 17:24:13:306: C'était dit que ? à la base ça ils vont un peu modifié maison c c capable de gérer des millions des dizaines de merde connaissance une planète et ça devrait passer le vent nous impact et voilà mais nous on préfère qu'il est plus petit . 1
+17:25:001532:001532_2 : 17:24:31:442: Plus petite instance ça c'est pas notre but qui est un million de personnes sur un site parce que vous perdrez un peu ce que je cherche à voir oui . 2
+17:25:001533:001533_3 : 17:24:42:228: Alors Slack ils sont très cool parce qu'il avait une passerelle XMPP qu'ils ont dit un jour on veut plus et ils ont coupé aussi et . 3
+17:25:001534:001534_4 : 17:25:07:350: Plan technique parce que tout ce que c'est là qu'on peut largement de faire Roxane pépé sans soucis c'est juste qu'ils ont envie de garder le contrôle sur YouTube zappeur maintenant oui c'est impossible sans aucun souci au passage spectrum . 4
+17:26:001535:001535_1 : 17:25:24:476: Purple ça fait déjà un bon paquet de . 1
+17:26:001536:001536_2 : 17:25:28:629: Qui peut danser au niveau des conditions d'utilisation est-ce que si on utilise une API mais que on peut l'utiliser que 10 appels par heure ou un truc comme ça ça va être gênant donc si c'est pas des fans Technics encore des problèmes légaux . 2
+17:26:001537:001537_3 : 17:25:44:760: Mode . 3
+17:26:001538:001538_4 : 17:25:50:889: Horse . 4
+17:26:001539:001539_1 : 17:26:09:373: Alors . 1
+17:26:001540:001540_2 : 17:26:11:502: Tranche après on a pas on n'a pas fait de mesure et puis on a pas encore optimiser sur ces deux-là toi parce qu'on est encore là encore la mise à Sion à faire après c'est encore une fois c'est beaucoup le serveur donc là il y a par exemple . 2
+17:26:001541:001541_3 : 17:26:26:638: Raspberry Pi donc aucun souci calcul il va y avoir aucun souci . 3
+17:26:001542:001542_4 : 17:26:32:758: Ah oui oui bien sûr qu'on peut en plus c'est pareil si c'est tellement possibilités avec XMPP si importer bloqué comme ici on peut ton passer par le port 80 . 4
+17:27:001543:001543_1 : 17:26:47:886: C'est très très souple . 1
+17:27:001544:001544_2 : 17:26:50:874: Oui on peut envoyer un port par défaut mais . 2
+17:27:001545:001545_3 : 17:26:55:948: Enregistrement SRV ses membres après ça c c s'expliquer sur le site de toute façon . 3
+17:27:001546:001546_4 : 17:27:03:079: J'ai cru voir un doigt mais je suis pas sûr . 4
+17:27:001547:001547_1 : 17:27:09:205: Bah c'est tout tout XMPP comment au niveau de . 1
+17:28:001549:001549_3 : 17:27:23:054: Bah si c'est la centrale . 3
+17:28:001550:001550_4 : 17:27:26:682: Ça ça peut communiquer avec spa un serveur se communique avec le serveur en fait il y en a tant souvent à dire oh mais c'est vachement mieux de faire des trucs entièrement peer-to-peer à 7h alors d'une part je vous donner une recette pour transformer sa . 4
+17:28:001551:001551_1 : 17:27:42:821: En fait avec des serveurs un truc surtout pire on prend le serveur on est là on met un seul utilisateur et on a un truc entièrement peer-to-peer maintenant pourquoi c'est pas une bonne idée c'est parce que si on a un serveur séparer c'est que ça permet de gérer tout un tas de choses que client n'a pas gérer donc il a des choses ça veut dire des ressources réseau ça veut dire . 1
+17:28:001552:001552_2 : 17:28:04:972: Ça veut dire des ressources processeur on a vu le truc inceste Ox par exemple c'est un projet qui est entièrement décentralisée ils ont pris ils ont pas de clients correct sur mobile parce que le mobile il doit gérer tous les ai tous les accès réseau tous les soirs après ça c'est compliqué avoir des super mais il y a pas de réseau il y a encore personne qui a vraiment . 2
+17:28:001553:001553_3 : 17:28:26:115: Comment peer-to-peer de toute façon il st pepe on pourra toujours ramener le serveur de ce côté-là et transformer en vampire tu tires mais sinon c'est décentralisée . 3
+17:28:001554:001554_4 : 17:28:35:272: Oui oui oui . 4
+17:29:001555:001555_1 : 17:28:43:430: Effectivement . 1
+17:29:001556:001556_2 : 17:28:47:406: Ouais bah j'y penserai pour la prochaine fois j'ai plus de 2 minutes alors il y a peut-être une question de Max si . 2
+17:29:001557:001557_3 : 17:28:55:680: Ah bon ben alors les deux questions et puis après on . 3
+17:29:001558:001558_4 : 17:29:00:832: PIP install d'Iberville alors depuis récemment oui maintenant c'est récent donc il y a encore des petits soucis à régler ça se stabilise . 4
+17:29:001559:001559_1 : 17:29:11:972: Le serveur de démo Liberia point org . 1
+17:37:001560:001560_0 : 17:29:16:107: Crée un compte ça fait une erreur tout de suite. N'aie pas peur c'est encore plein de bugs là on a le PC stabiliser alors on pensait la rentrée je pense pas plus pour Noël maintenant mais voilà donc la dernière question . 2
+17:37:001561:001561_3 : 17:29:29:500: Bah justement ça a été très compartimenter pour tous à part maintenant en fait on a une philosophie où on fait tout un petit morceau et aussi on fait toujours une implémentation Nike Vapor pour que ça marche après on optimise et après on fait des choses mais on n'a pas peur d'une Factory non plus c'est très compartimenter donc ça doit être un problème à 20h donc voilà . 3
+17:37:001562:001562_4 : 17:29:57:653: Il y en a qui veulent se maquille viens nous restaurant soir j'en ferai donc voilà et merci beaucoup d'être venu bonne journée . 4

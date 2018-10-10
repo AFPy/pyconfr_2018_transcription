@@ -1,0 +1,180 @@
+
+ 
+02_ Scripts et Services web avec Asyncio et Python 3.6 Rémy Hubscher
+
+
+
+10:30:000105:000105_1 : Une vidéo par exemple Accédez bande et un des moyens de rendre votre programme plus rapide va être fois de doit être d'âge d'acheter un plus gros processeur ou un processeur plus rapide Donc là ça c'est pour le party c'était bande . 1
+
+10:40:000108:000108_2 : 10:29:36:549: C'est un logiciel qui fait des calculs et un logiciel à eau bande . 2
+10:40:000109:000109_3 : 10:29:42:670: En fait ou le processeur passe la plupart de son temps à attendre donc vous allez vous rendre compte parce que Alors vous avez peut-être entendu qui a entendu parler du Guil en python . 3
+10:40:000110:000110_4 : 10:30:32:522: Vêtements tout le monde c'est bien le Guil en fait c'est quelque chose qui a été inventé dans Python qui bloque . 4
+10:40:000111:000111_1 : 10:30:41:634: Qui qui va bloquer en fait qui va faire que une certaine partie de la mémoire sont pas partager entre les Fred . 1
+10:40:000112:000112_2 : 10:30:51:037: Coucou c'est ce qui fait c'est que ce qui se passe c'est que quand on fait un programme python avec des Fred ben finalement il s'exécute pas vraiment les deux en même temps et donc du coup donc j'ai mis un article en anglais qui fait des tests et qui explique que finalement un programme python avec des frais de fera plus long que sont en dansant Fred donc c'est très frustrant . 2
+10:40:000113:000113_3 : 10:31:13:160: Allemand on a envie de passer à godet qu'on va ça . 3
+10:40:000114:000114_4 : 10:31:16:850: Une aide . 4
+10:40:000115:000115_1 : 10:31:18:787: D'ailleurs quand on a dit s est sorti a des gens qu'on dit bah ça y est c'est l'arrêt de mort de Pete on sait si . 1
+10:40:000116:000116_2 : 10:31:24:892: En fait non . 2
+10:40:000117:000117_3 : 10:31:25:892: Grâce as in Cayo on peut on peut faire mieux que ça . 3
+10:40:000118:000118_4 : 10:31:35:198: Donc . 4
+10:40:000119:000119_1 : 10:31:37:304: Va sur la partie aiolou vous avez des questions ou des des choses que j'ai oublié de préciser . 1
+10:40:000120:000120_2 : 10:31:44:537: Ouais . 2
+10:40:000121:000121_3 : 10:31:50:651: Tu te . 3
+10:40:000122:000122_1 : 10:32:04:937: Alors . 1
+10:40:000123:000123_2 : 10:32:17:071: Toutes les fonctions où il y aura le signe de F devant il faudra aller il faudra utiliser await pour les appeler ça devient déco routine donc il faudra utiliser Waze pour les appeler et toutes les fonctions où on doit utiliser await dedans doivent être des fonctions définies avec think devant . 2
+10:40:000124:000124_3 : 10:32:38:722: Le le gaz heure on l'utilise quand on veut paralléliser le lancement de Coroutine donc si . 3
+10:40:000125:000125_0 : 10:32:47:787: Un programme chaque ligne fait l'une après l'autre c'est-à-dire que là je vais fumer définir ma variable to do une fois qu'elle sera Veyrier dessiner je vais définir ma liste actions une fois qu'elle sera défini je vais appeler exetera exetera avec gaz heure ça permet de pas attendre en fait que que l'action précédente ce soit faite ça ça va lancer
+10:40:000126:000126_1 : 10:33:13:930: Nokia le étoile en fait ça veut dire tu me passes en argument degazeur le contenu de la liste . 1
+10:40:000127:000127_2 : 10:33:23:265: Pourrais mettre crée tout doux ménage passer un petit coup dans les sanitaires crée tout doux lessive changer les draps ce serait exactement pareil que faire comme ça . 2
+10:40:000128:000128_3 : 10:33:36:030: Une autre question non c'est bon . 3
+10:40:000129:000129_4 : 10:33:39:889: Ok donc je continue je vais vous prendre un premier cas d'usage pour bien vous expliquer pourquoi le CPU bande Ayoub en c c sympa donc moi j'ai dû faire donc si chef le Hamon a fait une appli Mobile et on s'est rendu compte que les gens avaient publier des recettes de cuisine sur Facebook mais qu'on avait pas forcément les fichiers initio un peu dommage donc mon travail pour . 4
+10:40:000130:000130_1 : 10:34:04:995: Lire les vidéos dans l'appli mobile c'était de les télécharger donc pour chaque recette de récupérer le format vidéo dans la meilleure qualité possible . 1
+10:40:000131:000131_2 : 10:34:16:856: Plan Caudéran HS donc HLS . 2
+10:40:000132:000132_0 : 10:34:21:048: Jeux
+10:40:000133:000133_4 : 10:34:26:154: Et en fait on va pouvoir dire ben si ma connexion est de 200 kg seconde utiliser ce flux vidéo si elle est de 1 Mo seconde utiliser ce fut vidéos exetera et si la connexion change le player va automatiquement basculer d'une playlist à l'autre donc ça c'est ce qu'on dit sur mobile il y a un autre . 4
+10:40:000134:000134_1 : 10:34:47:257: Un autre protocole aussi mais on nous on avait choisi hhls donc du coup vous revoyez bien que vidéo downloader ça va être aband est-ce que je vais devoir télécharger mes vidéos et j'ai pas envie d'attendre que toutes mes vidéos son à télécharger pour commencer à les encoder parce que l'encodage va être CPU bande . 1
+10:40:000135:000135_2 : 10:35:06:362: Donc du coup on aurait envie de faire un truc qui dit téléchargement à toutes les vidéos des que la première et télécharger tu commences à l' encoder . 2
+10:41:000136:000136_3 : 10:35:16:091: Et avec iOS in Cayo c'est exactement ça qui est qui est possible . 3
+10:41:000137:000137_4 : 10:35:23:340: Donc on a fait un petit schéma parce que c'est chez moi on comprend mieux sauf que là on voit pas donc . 4
+10:41:000138:000138_1 : 10:35:30:451: En gros il y a un video art cœur qui tourne qui est en as in Cayo et quand il y a une nouvelle vidéo qui est qui arrive on le rajoute dans ce dans ce soir cœur dans une file de en l'occurrence on a utilisé Heredis parce que moi j'aime bien les Disney on peut utiliser n'importe quel système de gestion de/ arriere train /. 1
+10:41:000139:000139_2 : 10:35:52:583: Suite . 2
+10:41:000140:000140_3 : 10:35:54:697: Le colis dit pour chaque vidéo tu les . 3
+10:41:000141:000141_4 : 10:35:58:825: Télé télécharger tu l'an code et une fois qu'elle encoder tulle upload dans un bucket sur le Cloud donc . 4
+10:41:000142:000142_1 : 10:36:08:025: Donc c'est ça que j'ai dit donc télécharger les vidéos aussi vite que possible dès qu'une vidéo est prête Lanko D/:/D qu'elle est encodé le plot . 1
+10:41:000143:000143_2 : 10:36:19:554: Donc en fait dans la simca you say même dans la doc Oulad ok a été refondu a pas longtemps donc et en plus elle est très bien faite il y a un petit exemple de de ce modèle producer consomme donc en gros . 2
+10:41:000144:000144_3 : 10:36:36:651: Faire c'est qu'on va créer deux Coroutine qu'on va lancer avec gaz heure en même temps et on va dire à la première tu rajoutes dès que tu as une nouvelle vidéo qui est télécharger tu l'a rajoute dans une Piou à Simca . 3
+10:41:000145:000145_4 : 10:36:49:234: Et ensuite donc ça c'est le modèle le professeur consommateur et l'autre Coroutine va regarder la cue et dès qu'elle a quelque chose continuer . 4
+10:41:000146:000146_1 : 10:36:58:623: Un 2e . 1
+10:41:000147:000147_2 : 10:37:00:744: Big on va utiliser pour ça parce que en python on aurait du mal à utiliser facilement tous les processeurs de l'ordinateur pour encoder le plus vite possible mais par contre ffmpeg le fait super bien . 2
+10:41:000148:000148_3 : 10:37:14:199: Il y a une API async à youtube process qui va permettre de lancer la commande et en fêtes de de débloquer la Coroutine jusqu'à ce que la commande Sainte-Hermine . 3
+10:41:000149:000149_4 : 10:37:27:309: Donc ça c'est la deuxième à pic je vais vous présenter . 4
+10:41:000150:000150_1 : 10:37:32:411: Look like you alors vous voyez dès que c'est plus du asin Cayola la coloration s'enlève . 1
+10:41:000151:000151_2 : 10:37:39:537: Mais grosso modo donc on va récupérer notre notre loupe . 2
+10:41:000152:000152_3 : 10:37:44:789: Pourquoi est-ce qu'on doit la récupérer parce qu'on va devoir la passer en paramètre de la . 3
+10:41:000153:000153_4 : 10:37:51:899: Voilà donc la cue c c juste une une fonctionnalité dessine caillou . 4
+10:41:000154:000154_1 : 10:37:58:517: Faut il faut s'imaginer un tableau en fait qu'on va remplir par la droite et qu'on va lire par la gauche . 1
+10:41:000155:000155_2 : 10:38:05:276: On peut appeler ça une fille Lou . 2
+10:41:000156:000156_3 : 10:38:08:245: On va créer nos deux Coroutine donc download pro 10h et en code cusimer et on va passer au deux là là . 3
+10:41:000157:000157_4 : 10:38:16:350: Ensuite ballager simplifier un peu mais grosso modo je lui passe la liste des d'été des vidéos à télécharger et ensuite on lance les deux en même temps . 4
+10:41:000158:000158_1 : 10:38:26:364: Donc là dans l'autre producer il fait pour chaque vidéo dans la liste des vidéos télécharger la vidéo . 1
+10:41:000159:000159_2 : 10:38:41:528: Le télécharger la vidéo une fois qu'il a terminé il renvoie le lundi de la vidéo et ensuite on rajoute à la cue le lundi de la vidéo . 2
+10:41:000160:000160_4 : 10:38:51:652: Donc là dès qu'on va lancer notre logiciel la première chose qui va être faite c de télécharger la première vidéo . 4
+10:41:000161:000161_1 : 10:38:59:692: De l'autre côté . 1
+10:41:000162:000162_2 : 10:39:02:143: Note concessionnaire il commence que quand alors pourquoi il y a ça ça ça devrait pas être là . 2
+10:42:000163:000163_3 : 10:39:10:804: Journée . 3
+10:42:000164:000164_4 : 10:39:12:933: Donc en gros notre rencontre concessionnaire il va commencer donc la boucle while . 4
+10:42:000165:000165_0 : 10:39:19:666: Et en fait il va lire le premier message de la cue et en fait en coding cue. Get va être en attente tant qu'il y a rien dans la CUB . 1
+10:42:000166:000166_2 : 10:39:30:336: Dès qu'on arrive la benne le pro la Coroutine va lâcher la main en créant 7 sous Coroutine qui va qui va passer en donnes uniquement . 2
+10:42:000167:000167_3 : 10:39:43:230: Le produit faire var ajouter une . 3
+10:42:000168:000168_1 : 10:39:48:249: Ensuite on lui dit ben si en fait la . 1
+10:42:000169:000169_3 : 10:40:03:610: Une petite Coroutine . 3
+10:42:000170:000170_4 : 10:40:06:872: Qui appelle d'autres Coroutine mais ce qu'il faut bien garder en tête c'est que . 4
+10:42:000171:000171_1 : 10:40:12:986: J'avais une Coroutine qui fait plein de calcul pleins de trucs et qui fait pas de wait c'est qui a peut-être un problème c'est que du coup ça veut dire que tant qu'elle va s'exécuter rien de va s'exécuter d'autre c'est toujours repensé à notre petit schéma du début ou en fait . 1
+10:42:000172:000172_2 : 10:40:31:108: Il faut il faut penser que notre CPU son but c'est de passer le plus vite possible sur toutes les echos routine . 2
+10:42:000173:000173_3 : 10:40:38:244: Donc . 3
+10:42:000174:000174_4 : 10:40:40:355: Donc là ça c'était la PID piou et la PIDC process donc c'est un peu la même idée on a sin caillou Creil process Exec on passe les arguments de notre fonction et ensuite on peut créer des Papes donc les palpes CD . 4
+10:42:000175:000175_1 : 10:41:03:572: C'est des objets qu'on va pouvoir écrivain dans l'Aude comme des fichiers text dans lesquelles on va pouvoir écrire et lire en même temps pas forcément en même temps mais c'est des buffer qui vont stocker des impôts . 1
+10:42:000176:000176_0 : 10:41:16:689: Et ensuite on lance await Troc.com unikite donc ça c'est pareil ça fait partie de la pays de créer de ses process . 2
+10:42:000177:000177_3 : 10:41:26:642: Et donc ça va nous retourner nos deux pailles en sortie . 3
+10:42:000178:000178_4 : 10:41:32:726: Donc là là c'est un exemple tout simple ou par exemple si j'appelle Youtube Download avec la vidéo et ben ça va lancer . 4
+10:42:000179:000179_1 : 10:41:43:078: Le téléchargement de la vidéo par exemple . 1
+10:42:000180:000180_2 : 10:41:46:424: Nom d'un processus externe et le gros avantage c'est que tant que Youtube Download tourne . 2
+10:42:000181:000181_3 : 10:41:54:104: Le le programme python n'ai pas bloqué . 3
+10:42:000182:000182_4 : 10:41:57:909: Il est sur le White donc il va pouvoir continuer à lire les autres . 4
+10:42:000183:000183_1 : 10:42:03:176: Le deuxième cas d'usage c'est ce que vous avez le petit écran vous avez là en fait donc on a des LED . 1
+10:42:000184:000184_2 : 10:42:11:570: LED . 2
+10:43:000186:000186_3 : 10:42:13:705: J'ai voulu d imprimer avec une découpeuse laser des petites cases ça prenait trop de temps . 3
+10:43:000187:000187_4 : 10:42:21:353: Beaucoup de l'aide et pour alimenter c LED il va falloir avoir un programme assez intensif qui va dire à chaque LED en continu allume-toi éteins-toi lune toi éteins-toi donc on est dans le cadre d'un programme CP bande . 4
+10:43:000188:000188_1 : 10:42:37:211: Écoutez on a quand même envie de pouvoir interagir avec de lui envoyer des messages . 1
+10:44:000189:000189_2 : 10:42:42:619: Donc là ben tant qu'il y a pas de message on attend donc on est dans le cas d'un programme Ayo Ayo bande . 2
+10:44:000191:000191_1 : 10:42:43:619: L'une des idées c'était de permettre aux utilisateurs d'envoyer des messages directement depuis slack donc donc là qu'on peut enregistrer des commandes qui vont envoyer le message qu'on allait les arguments enfin le message qu'on a tapé un serveur web ce serveur Web en fait quelque chose réponse qui veut et et voilà ça c'est la commande Fnac maison que nous on voulait . 1
+10:44:000192:000192_2 : 10:43:23:506: Pour pouvoir afficher directement des messages sur l'écran . 2
+10:44:000193:000193_3 : 10:43:28:476: Ensuite on voulait lire les messages au fur à mesure qu'ils étaient envoyer les faire défiler trois fois et passer au message suivant est là où ça c'est compliqué c'est quand vous voulez on a voulu avoir 2 lignes complètement indépendante l'une de l'autre mais bon on va voir tout ça . 3
+10:44:000194:000194_4 : 10:43:46:533: Donc pour pour ce projet on a déjà je vais vous présenter la partie serveur Web qui répond à la commande c'est donc j'ai décidé d'utiliser aiohttp . 4
+10:45:000195:000195_2 : 10:44:11:049: Donc ce que je vais faire c'est que je vais de nouveau utiliser ready pour stocker les messages en attendant que le l'écran l'hélice . 2
+10:45:000196:000196_3 : 10:44:20:187: Donc on a un poème pour le bot qui va récupérer les données du poste . 3
+10:45:000197:000197_4 : 10:44:27:308: Il est rajouter donc airpush ça permet de rajouter à la fin d'une d'un tableau avec crédit nous ce tableau je l'ai appelé splash screen et je mets tous les messages les uns à la suite des autres et ensuite je réponds à la commande c c bon c stocker . 4
+10:45:000198:000198_0 : 10:44:46:207: Et j'ai fait une autre fonction pour l'écran une autre un autre m. Et HTTP qui lui par contre va à lire le dernier le premier faim donc vous avez votre tableau nous ont rajouté message à la fin et puis on lit les premiers messages dans l'ordre . 1
+10:46:000199:000199_2 : 10:45:03:929: Si on a un message parce qu'il peut y arriver qu'on est pas de message . 2
+10:46:000200:000200_3 : 10:45:09:470: On retourne le message sinon on retourne une 404 . 3
+10:46:000201:000201_4 : 10:45:13:589: Donc là vous avez vraiment tout le code de mon serveur Web . 4
+10:46:000202:000202_1 : 10:45:21:966: J'ai mes deux Coroutine et après je l'ai redit Store sur des les enregistre sur des URL donc jeudi sur l'URL flash bottes avec le verbe HTTP GET tu utilises la Coroutine screen get et avec le verbe HTTP POST utilise le bon c août et ensuite tu me run lap donc là après c'est c'est lui qui va créer la socket exetera exetera . 1
+10:46:000203:000203_2 : 10:45:51:746: Donc pour mon Raspberry Pi donc je fais un producteur consommateur comme tout à l'heure mon producer il va juste regarder de temps en temps toutes les 10 secondes si un nouveau message . 2
+10:46:000204:000204_3 : 10:46:07:680: Donc . 3
+10:46:000205:000205_4 : 10:46:09:820: If I get sur l'URL du bot s'il a une 206 really le Jason s'il y a un message il le rajoute à la cue . 4
+10:47:000206:000206_1 : 10:46:18:397: Brouilla de fois le code non pourquoi pas et ensuite il attend . 1
+10:47:000207:000207_2 : 10:46:28:411: Comme quoi les review c'est bien mais . 2
+10:47:000208:000208_3 : 10:46:34:525: Donc le NEX message ça c'est une fonction qui va aller lire de manière non bloquante le message d'après alors pourquoi de manière non bloquante parce que on a de ligne donc on veut pas forcément attends de la 2e ligne pour écrire les deux messages en même temps . 3
+10:47:000209:000209_4 : 10:46:53:376: J'ai fait une fonction avec blocking = false par défaut . 4
+10:47:000210:000210_1 : 10:46:58:577: King the weight par contre sinon je fais un get no way donc ça c'est une fonctionnalité de la cue et si si a pas de messages ça à raze une exception Kyurem . 1
+10:48:000211:000211_2 : 10:47:10:259: Dans ce cas là je retourne non et sinon j'utilise la fonction white Firstline alright second line en fonction de si on a passé le paramètre second line a fool . 2
+10:48:000212:000212_3 : 10:47:24:165: Envoyez que c'est un peu de javascript dernièrement parce que là je sais pas pourquoi il en Kamel qu'est-ce . 3
+10:48:000213:000213_4 : 10:47:29:905: C'est pas très grave donc ITER peut-être que vous connaissez ça permet de créer un itérateurs en fait donc dans ma fonction Whiteline j'ai des îles de pour chaque écran et en fait mon itérateurs va s'occuper de me créer un objet ou je vais pouvoir faire NEX dessus pour récupérer l'écran d'après . 4
+10:48:000214:000214_1 : 10:47:50:375: Et mon concessionnaire . 1
+10:48:000215:000215_2 : 10:47:53:571: YVES a créé la matrice de LED il va créer un buffer pour pouvoir faire du double buffering ensuite il récupère le premier message donc au démarrage lui ai demandé d'attendre parce que ça sert à rien de de lancer tout le process il y a pas de messages et puis ensuite par contre pour la suite il attend pas . 2
+10:49:000216:000216_3 : 10:48:14:962: 2e message il le récupère et ensuite à chaque fois si un message en cours il la fille si on est à la fin du message il essaie d'en récupérer un autre et si y avait pas de messages il essaye aussi d'en récupérer un autre on fait pareil pour la 2e ligne et ensuite on donc tout à l'heure je l'ai appelé buffer maintenant je l'ai appelé double peux faire c'est le même . 3
+10:49:000217:000217_4 : 10:48:38:095: On affiche le nouveau buffer qu'on a préparé sur l'écran est on fait ça toute les . 4
+10:49:000218:000218_1 : 10:48:39:095: 20 millisecondes si dis pas de bêtises . 1
+10:49:000219:000219_2 : 10:48:49:373: Ensuite on efface le buffer et on recommence . 2
+10:49:000220:000220_3 : 10:48:53:177: Donc avant de faire ça vous pouvez tester le l'écran si on ne sait pas si on l'a fait plantes non il a l'air de tourner . 3
+10:49:000221:000221_4 : 10:49:04:151: Contacte donc je vous ai fait une petite appli ELM vous pouvez trouver à cette url . 4
+10:49:000222:000222_1 : 10:49:12:574: Je sais pas si ça si . 1
+10:49:000223:000223_2 : 10:49:19:441: C'est pas sûr de l'avoir re déployer tout à l'heure . 2
+10:50:000224:000224_3 : 10:49:23:678: Taxe . 3
+10:50:000225:000225_4 : 10:49:30:816: Oui non mais ça marche je peux juste attendre un peu . 4
+10:50:000226:000226_1 : 10:49:39:706: Bah vous pouvez envoyer des messages essayer de respecter le code au fond du quand même mais . 1
+10:50:000227:000227_2 : 10:49:46:728: Et du coup . 2
+10:51:000228:000228_3 : 10:49:49:856: C'est tout . 3
+10:51:000229:000229_4 : 10:49:53:988: Donc en fait depuis que j'ai découvert racine caillou moi c'est aussi que faire un métier back-end j'essaie d'utiliser un maximum parce que rien que l'idée de savoir que mon CPU n'est pas en train d'attendre ça me libère l'esprit donc pour moi c'est vraiment une révolution parce que ça bénéfit de tous . 4
+10:51:000230:000230_1 : 10:50:24:037: Gestion de livre loupe ça c'est concurrentiel par rapport à gogo c'est le même principe sauf que Go vous avez que les que Lego routine donc c'est exactement le même principe sauf que vous avez pas la lisibilité du Piton toutes les livres tours exetera l'écosystème de la Sinne caillou il est en train de s'enrichir très rapidement . 1
+10:52:000231:000231_2 : 10:50:47:450: Pour vous donner un ordre d'idée donc quand j'étais chez me dis là on a bossé sur web push qui est un serveur . 2
+10:52:000232:000232_3 : 10:50:56:374: Mais en fait d'envoyer des push notification nom d'utilisateur de Firefox . 3
+10:52:000233:000233_4 : 10:51:01:880: Et donc il crée énormément d' WebSocket parce que chaque Firefox qui tourne créer une WebSocket sur serveur donc il était très important de Pâques le fin de faire que le cp bloc pas sur une voie de socket donc il y a eu plein de difficultés dans ce projet-là notamment dû au fait qu'il y a beaucoup de file descriptor et du coup il faut beaucoup de machine . 4
+10:52:000234:000234_1 : 10:51:23:000: Mais il a été écrit en python en Python 3 réécris en paille paille à peu près la même chose tout ça mais il a été écrit en Gohelle a finalement été en détournant reste mais pendant très longtemps avant qu'il n'a you look dans rust ils ont la version la plus rapide c'était celle en as in Cayo Python 3 . 1
+10:52:000235:000235_2 : 10:51:44:137: Ensuite ça résout beaucoup de problème donc là j'ai mis WebSocket mais on pourrait parler aussi de HTTP 2 HTTP deux vous avez le fait que le navigateur ou une connexion permanente avec votre serveur et et du coup ben dès que vous avez cette connexion permanente ça veut dire que vous allez attendre donc vous allez pas créer un process Park eun' par client avec as in Cayo vous pouvez . 2
+10:52:000236:000236_3 : 10:52:10:272: Client . 3
+10:52:000237:000237_4 : 10:52:12:390: Pneu mettre dans le look tant que ça en attente il se passe rien et . 4
+10:52:000238:000238_1 : 10:52:17:659: EAC . 1
+10:52:000239:000239_2 : 10:52:19:771: Donc . 2
+10:53:000240:000240_3 : 10:52:21:896: C c un peu voilà mon retour d'expérience et Racine caillou . 3
+10:53:000241:000241_4 : 10:52:28:771: Que vous avez des questions . 4
+10:53:000242:000242_1 : 10:52:31:422: Tu vois des mains mais si c'est des gens qui se gratte en fait ça me fait . 1
+10:53:000243:000243_2 : 10:52:39:565: Oui . 2
+10:54:000244:000244_5 : 10:52:53:850: Alors bon je moi j'utilise as in Cayo depuis Python 3. 5 c'est ballot des billets Paléo sync with par exemple mais je sais plus si c'est arrivé en python 3.6.0 . 4
+10:54:000245:000245_6 : 10:53:06:974: Black sais pas si vous avez entendu parler de Black j'essaie de d'utiliser que des version supérieure à python 3.6.0 6 et donc . 1
+10:54:000246:000246_2 : 10:53:17:095: Tout ce que j'ai mis dans le temps que ça doit fonctionner à partir de Python 3 point 600 trop de soucis à part le point run qui vient vraiment d'arriver Messi a que une ligne le 2 ça change pas grand-chose . 2
+10:55:000247:000247_4 : 10:53:38:379: Oui oui . 4
+10:55:000248:000248_1 : 10:53:49:087: Oui ben déjà la doc a été complètement réécris donc rien que ça c'est ça vaut le coup de regarder la nouvelle doc après une fois qu'on enfin pour moi la la courbe d'apprentissage une fois qu'on a compris que le but c'était de pas faire attendre le processeur et de . 1
+10:55:000249:000249_2 : 10:54:12:654: Bah rien que ça déjà ensuite le reste des coule plus ou moins enfin avec les wait que après si on rentre dans le dans le cœur du passe au début la doc elle te donner envie de comprendre ce qui était une future une tasse que tu as eu un passage avec les îles from exetera donc c'était vraiment compliqué de moi encore maintenant j'aurais du mal expliqué à différence entre une tasse . 2
+10:56:000250:000250_4 : 10:54:37:772: La avec cette API là on a pas besoin de se poser ce genre de question . 4
+10:56:000251:000251_1 : 10:54:45:027: L'arrêt que c'est que si on veut utiliser Waze faut avoir une racine def et quand on a un signe dès qu'il faut faut faut mettre un oh wait fois qu'on a . 1
+10:56:000252:000252_2 : 10:54:58:955: Oui ben par exemple je sais pas si je devrais passer comme ça c'est mon stagiaire mais il a j'ai eu du mal j'ai eu du mal à lui expliquer pourquoi il fallait utiliser aille au psg plutôt que le client Poste graisse de d'habitude pour pour ces raisons-là parce qu'il me dit oui mais de toute manière c'est sur mon réseau local c'est rapide c'est suffisamment rapide c . 2
+10:56:000253:000253_3 : 10:55:24:076: Tu bloques tout CIO loupe tant que tu ne donne pas la main donc après il faut vraiment . 3
+10:57:000254:000254_2 : 10:55:49:514: Bah en faite c c c assez naturel manger je sais pas si j'ai vraiment réfléchi au truc mais dès que dès que je veux lancer quelque chose qui va à Tencin qui va attendre dans fait c'est le découpage normal des fonctions . 2
+10:57:000255:000255_3 : 10:56:08:623: Et sauf que si tu as un groupe qui attend tu vas avoir plus tendance à créer une une Coroutine pour pour mettre un seul away to the the way dans ta dans ta fonction mais moi j'ai pas . 3
+10:57:000256:000256_4 : 10:56:23:424: Qui a des bonnes pratiques vraiment mais par contre qui la vraie bonne pratique sexy tu fais un appel qui risque d'attendre et qu'il y a pas de wait c'est qui a un souci . 4
+10:57:000257:000257_1 : 10:56:34:438: Il vaudrait mieux vouloir mettre des oreilles partout en fait et les ai enlevé feu où il y a pas vraiment d'attente ou c'est juste un calcul de Python . 1
+10:57:000258:000258_2 : 10:56:44:084: Si ça répond à ta question . 2
+10:58:000259:000259_1 : 10:57:04:536: Après oui oui oui oui c'est ça du coup effectivement si quand ade ouais tu vas y penser parce que tu vas dire bah je veux mettre un ouais donc c'est que j'ai une Coroutine où est-ce qu'elle est ah bah j'en ai pas je vais la créez exetera quand c'est effectivement du Code pas pressé on peut appeler des fonctions qui sont pas l'éco routine dans dans les Coroutine donc on . 1
+10:58:000260:000260_2 : 10:57:31:669: Coupage comme d'habitude . 2
+10:58:000261:000261_3 : 10:57:34:950: Le mot-clé c'est la lisibilité quoi si on arrive avant un code qu'on comprend sais que c'est bon si on comprend pas être Factory . 3
+10:59:000262:000262_4 : 10:57:44:079: Ouais . 4
+10:59:000263:000263_1 : 10:57:47:654: D'autres questions . 1
+10:59:000264:000264_0 : 10:58:06:363: Alors bah le seul à seul gestion c de un moment dans ton que dans ton fichier python sera forcément à un signe caillou. Run ou un loupe run until complite de la première Coroutine le 2e et que il sait que on peut pas avoir deux si on commence à vouloir créer de loupe. 2 2 event loop le processeur il peut pas en surveiller deux
+10:59:000265:000265_1 : 10:58:33:466: Créer une 2e par contre si on va en créer 2e là on va vite se rendre compte que il y a un souci . 1
+10:59:000266:000266_2 : 10:58:42:572: Que j'utilise pour éviter d'avoir envie d'en créer deux c'est que je rends mon mon programme totalement asynchrone même si j'ai des fonctions qui même si ma première fonction principale elle est pas là pas besoin d'être en as in Cayo je lui je la mets quand même infime def pour pouvoir faire le wait tout à la fin quoi . 2
+10:59:000267:000267_3 : 10:59:05:237: Si j'utilise Crédit je vais pas à passer par racine caillou parce que c'est suffisant de mon rapide ça ça devient vraiment intéressant dans le cas d'un serveur Web par exemple où il y a énormément de requête qui rentrer donc du coup on a envie de les paralléliser sans forcément avoir un process par par requête comme c'est le cas avec whisky . 3
+11:00:000268:000268_4 : 10:59:25:786: Mais oui la . 4
+11:00:000269:000269_1 : 10:59:28:960: Forcément un problème de créer une Coroutine que la fonction main Swan Coroutine du coup ensuite on lance levensloop et tout le reste découle de ça se . 1
+11:07:000270:000270_2 : 10:59:40:908: Le web Lieven loupe alors après on peut changer levensloop Phyllali buvez enfin UV loupes c'est un programme une lib Python qui va remplacer levensloop de . 2
+11:07:000271:000271_3 : 10:59:52:739: Pour . 3
+11:07:000272:000272_4 : 10:59:55:858: Une une loupe côté coder en je pense que ça doit être du c'est ultra rapide . 4
+11:07:000273:000273_1 : 11:00:02:521: Mais il y a pas de gestion particulière autre que ça quoi . 1
+11:07:000274:000274_2 : 11:00:07:978: Bon eh ben bonne conférence en tout cas . 2
+
+ 
+ 
+ 
+
+
+

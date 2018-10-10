@@ -1,0 +1,176 @@
+
+
+03_Moviepy: l'édition ou le montage de vidéo par du code python Renaud Guezennec
+
+
+11:03:000271:000271_4 : 11:00:58:760: Alors le truc qui mange le mail on pourrait le parfait le publier mais encore une fois c'est encore trop spécifique à nous et j'aimerais le rendre plus générique est plus configurable je vais dans le code en dur il y a écrit le numéro de compte s'il y a écrit nos fournisseurs et du coup ça il faudrait qu'on fasse un fichier de conf derrière mais en gros . 4
+11:03:000272:000272_3 : 11:02:48:616: Ok . 3
+11:03:000273:000273_4 : 11:02:57:896: Donc j'aimerais manger vite fait je suis Renault Guézennec je suis un développeur cplusplus Qt alors si . 4
+11:03:000274:000274_1 : 11:03:07:009: Quel problème technique on est bien . 1
+11:03:000275:000275_2 : 11:03:11:141: Je vous parlez de moviepy vite fait . 2
+11:03:000276:000276_3 : 11:03:15:289: Avant ça je vous parlais du processus qui m'a mené à l'utiliser . 3
+11:04:000277:000277_4 : 11:03:21:441: Je suis plutôt expert cplusplus que Python donc veuillez passer le code que vous allez voir un petit peu moches expert python ça vous faire peut-être mal aux yeux et donc je suis aussi le développeur . 4
+11:04:000278:000278_1 : 11:03:36:573: C'est un logiciel de table virtuel . 1
+11:04:000279:000279_2 : 11:03:42:695: Un petit du coup mon chat mange un peu mais titre mais voilà et donc c'est une application . 2
+11:04:000280:000280_3 : 11:03:50:830: Lances orly si mon serveur les autres joueurs se connecte dessus on peut lancer les et partager des images faire des plans mets de la musique d'ambiance exetera exetera logiciel depuis . 3
+11:04:000281:000281_4 : 11:04:05:953: Non ils ont projet . 4
+11:04:000282:000282_1 : 11:04:09:083: Rire bah je viens un petit peu un petit peu tout le monde le site web le développement du truc le community management et cetera que c'était en 2015 . 1
+11:05:000283:000283_2 : 11:04:10:083: Pas mal de . 2
+11:05:000284:000284_3 : 11:04:22:388: Jeux de vidéos de fin de jeu de rôle en ligne chez le concurrent un succès parce que c'était des youtubeur célèbre et donc ben je me suis dit pourquoi pas faire la même chose pour présenter mon logiciel et pour montrer qu'il existe et qui fonctionne . 3
+11:05:000285:000285_4 : 11:04:41:524: Je réfléchis un peu besoin on peut le premier besoin évidemment c'est de montrer . 4
+11:05:000286:000286_1 : 11:04:49:647: Et qui fonctionne quand même pas mal déjà pas mal de rumeurs qui tournait autour du au fait que comme je suis tout seul à la communication c'est un peu difficile voilà donc . 1
+11:05:000287:000287_2 : 11:05:03:784: Brick des parties que je vous ai . 2
+11:06:000288:000288_3 : 11:05:06:541: Intéressant d'avoir une trace dans le temps de son je roule quoi . 3
+11:06:000289:000289_4 : 11:05:13:471: Ensuite va très vite se fait ressentir le besoin de rendre actif le visage allongé travaille un peu de Langon ce domaine-là et et en dernier du coup un impératif le extrême c'était de limiter le travail sur ses vidéos l'a donné que . 4
+11:06:000290:000290_1 : 11:05:34:609: Ajouter beaucoup d'heures de taf par semaine sur sur le train monde vidéo donc il me fallait une solution . 1
+11:06:000291:000291_2 : 11:05:43:731: Logo fil du temps où j'ai commencé en 2015 donc j'ai eu différentes méthodes d'enregistrement en utilisant des logiciels varier donc la première version c'était Simpson Recorder Gymslic et donc . 2
+11:06:000292:000292_3 : 11:05:59:859: Système d'enregistrement j'avais deux fichiers un fichier vidéo et un fichier son . 3
+11:06:000293:000293_4 : 11:06:05:695: Mais qui n'est pas synchroniser donc c'est moi qui démarre et les enregistrements donc forcément . 4
+11:06:000294:000294_1 : 11:06:13:827: Programme pas synchroniser avec quelques secondes de décalage et façon il y avait rien à l'écran qui demander une synchronisation j'ai pas de paroles et pas de sous . 1
+11:07:000295:000295_2 : 11:06:25:953: Pour le truc actif donc là vous avez un exemple . 2
+11:07:000296:000296_3 : 11:06:32:088: À l'époque à la bouche pas beaucoup et c'est pas près très sexy quoi . 3
+11:07:000297:000297_4 : 11:06:39:183: Ensuite j'ai développé une cette application qui permet d'allumer les avatars quand les gens parlent donc on sait qui parle et ça permet de rendre un peu le truc le plus convivial j'ai créer un plugin dans teamspeak pour gérer sa communication début c'est pour ça voilà donc nickel tout va bien . 4
+11:07:000298:000298_1 : 11:06:58:333: C'est quand sorti j'avais toujours de fichiers non synchronisé . 1
+11:07:000299:000299_2 : 11:07:02:473: J'ai besoin de lettres donc la fédé Henri cauchemar parce que parce que leur synchroniser cet officier qui font 12h30 chacun sa vie de quoi . 2
+11:07:000300:000300_3 : 11:07:13:601: C'est pas un film on regarde mon vérifier non il manque un corps de décalage Japon reprends et cetera donc c'est très très long ensuite je reviens dans ma copine et j'ai amélioré le système de plugin pour permettre de démarrer l'enregistrement de la vidéo en même temps que la vie . 3
+11:07:000301:000301_4 : 11:07:31:738: Synchroniser . 4
+11:08:000302:000302_1 : 11:07:34:136: Tu vas bien . 1
+11:08:000303:000303_2 : 11:07:36:527: Je suis resté dans son mot de la pas mal de temps . 2
+11:08:000304:000304_3 : 11:07:40:673: Une fois que je fais ça . 3
+11:08:000305:000305_0 : 11:07:44:816: LinuxFr.org où je parle tous les éléments que j'ai fait pour un peu plus un peu plus intéressant est sorti dans les commentaires après s'il y a eu pas mal de retour . 4
+11:09:000306:000306_1 : 11:08:00:953: D'où vient . 1
+11:09:000307:000307_2 : 11:08:04:061: Donc ça c'est ça c'est vous donne un exemple du rendu moderne avec les avatars qui s'allume quand on parle . 2
+11:09:000308:000308_3 : 11:08:17:197: Donc je suis passé au BF toujours en gardant système pour pour éliminer les avatars et tout ça et là maintenant sortie j'ai un seul fichier avec le Son déjà intégré . 3
+11:09:000309:000309_4 : 11:08:31:335: Comment gros bon sens taille de Dalida un peu costaud mais à retenir c'est juste que vous bas au fil du en 3 ans d'enregistrement je . 4
+11:09:000310:000310_4 : 11:09:14:837: Zara et on est en ligne . 4
+11:09:000311:000311_1 : 11:09:17:982: On va on a dû ajouter gestion du volume . 1
+11:09:000312:000312_2 : 11:09:24:627: Calvaire . 2
+11:10:000313:000313_3 : 11:09:26:784: En avoir un sont assez normalisé à ses propres pour pas casser les oreilles des gens peu trop faible exetera exetera fonction micro . 3
+11:10:000314:000314_4 : 11:09:36:934: Comme ça donc le jeu drôle . 4
+11:10:000315:000315_1 : 11:09:41:079: Toulon des moments où les gens se taisent et pour réfléchir se dispute parfois et cetera et donc ça provoque des silences qui sont parfois j'ai eu de retour de spectateurs qui m'ont dit . 1
+11:10:000316:000316_2 : 11:09:55:210: Que le média marche pas ou que le player a buggé ou un truc comme ça alors qu'en fait c'est juste que il y a un silence de 30 secondes . 2
+11:10:000317:000317_3 : 11:10:05:348: J'essayais a été aussi un objectif de couper sa donc la première des solutions que j'ai essayé . 3
+11:10:000318:000318_4 : 11:10:11:473: Usine de montage . 4
+11:10:000319:000319_1 : 11:10:14:614: Donc Pithiviers OpenShot caddy van live . 1
+11:11:000320:000320_2 : 11:10:20:769: Dans 2015 ans c'était une catastrophe donc j'ai pas essayé maintenant . 2
+11:11:000321:000321_3 : 11:10:26:927: Je suis resté sur caddy blague qui sont son à peu près mais ça reste quand même absolument horrible à utiliser pour pour faire tout le travail c c très très longue audition vraiment vraiment . 3
+11:11:000322:000322_4 : 11:10:43:072: À partir du moment où j'avais le son et la vidéo synchroniser c'était utiliser cette impec voilà . 4
+11:11:000323:000323_1 : 11:10:50:209: La Boîte à outils ultimes pour un pour faire du traitement vidéo et audio voilà donc derrière ça fait un petit script bash . 1
+11:11:000324:000324_2 : 11:11:01:369: Besoin au niveau de la vidéo et après qui exporter le son avec Audacity José modification pour pour la sortie en boîte cas . 2
+11:11:000325:000325_3 : 11:11:11:163: Donc ça allait pas mal de soucis mais j'avais encore la réduction des finances qui n'était pas possible dans le vide . 3
+11:11:000326:000326_4 : 11:11:19:788: Je cherche une solution et alors rien au problème c'est que aussi ça pour Audacity ça a cassé un peu l'automatisation qu'il me fallait que je peux . 4
+11:11:000327:000327_1 : 11:11:20:788: Maya m'a parlé dans les commentaires vu l'article de luxe à faire donc movie Picasso sébacé typiquement un module Python . 1
+11:12:000328:000328_2 : 11:11:42:087: CW par un gars qui s'appelait . 2
+11:12:000329:000329_3 : 11:11:46:238: Relation github . 3
+11:12:000330:000330_4 : 11:11:50:387: Ensuite pour l'installer bon la commande pas le classique quoi . 4
+11:12:000331:000331_1 : 11:11:55:522: Documentation qui qui est de qualité on va dire . 1
+11:12:000332:000332_2 : 11:12:01:657: Ensuite bon en fait c'est un c'est rien c'est pas mystérieux movie Piece juste dans le rapport au dessus de la ferme ta gueule donc il facilite grandement l'usage des CSMB . 2
+11:12:000333:000333_3 : 11:12:12:798: Pendant notre dépendance . 3
+11:13:000334:000334_0 : 11:12:15:951: Globalement si tu veux faire plus simple. Donc le concept qui a derrière mot épique il faut comprendre quand on commence à travailler avec ses le système de clip clip c'est un élément d'une vidéo . 4
+11:13:000335:000335_1 : 11:12:29:471: Donc vous pouvez avoir un clip de type vidéos de type audio . 1
+11:13:000336:000336_2 : 11:12:36:252: De ces deux types de clic ont des sous type qui sont en vidéo file text image et cetera donc par exemple si vous voulez faire une vidéo muette avec des sous-titres vous allez pouvoir utiliser un clip vidéo une texte est où le mixer ensemble et ça fait une vidéo avec . 2
+11:13:000337:000337_3 : 11:12:54:391: Donc c'est clip là on peut les éditer les créez découper le ralenti embryon peut m'aider effet les mixer . 3
+11:13:000338:000338_4 : 11:13:04:480: Et on peut aussi les sous diviser les détails appliquer des effets vraiment sympa pouvez même posé les vôtres si vous en avez envie . 4
+11:13:000339:000339_1 : 11:13:17:620: Voilà moi j'ai pas eu aller jusque-là mais . 1
+11:13:000340:000340_2 : 11:13:18:620: Le code que j'ai utilisé moi dans mon process . 2
+11:13:000341:000341_3 : 11:13:28:938: Il faut condamner DVD . 3
+11:13:000342:000342_4 : 11:13:32:753: Envoyer . 4
+11:14:000343:000343_1 : 11:13:34:913: Alcaline si c'est un jour mes fichiers . 1
+11:14:000344:000344_2 : 11:13:41:048: Et ensuite ça la ligne 8 je fais la condamnation dans l'ordre je veux et du coup derrière je j'écris je fais l'export finale quoi donc c'est assez . 2
+11:14:000345:000345_3 : 11:13:52:195: France . 3
+11:14:000346:000346_4 : 11:13:55:353: EPI pas là du coup ensuite ce que j'ai voulu faire passer simplement vidéo donc la couper en petits bouts . 4
+11:14:000347:000347_1 : 11:14:04:395: Donc ce que je fais c'est que donc je crée une . 1
+11:14:000348:000348_2 : 11:14:08:557: Mon clip lune 7 je crée une lambda qui me permet de couper le clip audio de ma vidéo . 2
+11:14:000349:000349_3 : 11:14:18:909: Petit petit bout d'une seconde . 3
+11:14:000350:000350_4 : 11:14:22:558: Calcul le volume de ses chaque de chaque petit morceau et je mets tout ça dans un tableau qui s'appelle volume . 4
+11:15:000351:000351_1 : 11:14:29:063: Ensuite du coup bah il faut fil tressé sample . 1
+11:15:000352:000352_2 : 11:14:36:580: Et donc voilà ça c'est le code il y a un petit peu un petit peu . 2
+11:15:000353:000353_3 : 11:14:42:721: Améliorer bon vas-y du coup il fait Scott la CAI parcours la liste des . 3
+11:15:000354:000354_4 : 11:14:52:859: Ton curseur je pars par la . 4
+11:15:000355:000355_1 : 11:14:57:644: Je sais pas où est mon cœur sur de souris . 1
+11:15:000356:000356_2 : 11:15:05:985: On va dans tous les cas on parcourt la liste des volumes et on crée en fait je recherche des amis tous les toutes les zones où il y a du volume en fait . 2
+11:16:000357:000357_3 : 11:15:20:134: Chaque partie et à la fin du coup j'ai faim lol time tous les duos les pères de début fin de chaque créneau . 3
+11:16:000358:000358_0 : 11:15:30:266: Où il y a du son. . 4
+11:16:000359:000359_1 : 11:15:33:282: Ensuite bah tout simplement bah il faut qu'on perd tous ses clips que j'ai isolé donc je suis une boucle sur le vin dans le Time et il a envie de regarder les clips fichier voilà j'ai une vidéo . 1
+11:16:000360:000360_2 : 11:15:54:415: Le silence qui font une seconde hier donc voilà c'est pas parfait mais c'était sympa . 2
+11:16:000361:000361_3 : 11:16:03:568: Le visage de moviepy moi j'en ai pas eu besoin mais je vois la sachez que ça a existé qu'on peut faire deux choses donc . 3
+11:16:000362:000362_4 : 11:16:13:702: Qui permet . 4
+11:16:000363:000363_1 : 11:16:15:853: Samsung ensemble d'outils qui permet de faciliter son travail et donc ça vous permet de prix visualiser . 1
+11:16:000364:000364_2 : 11:16:22:675: Vos commandes donc voilà donc si par exemple à si on fait un imprévu parce qu'on a fait on voit la vidéo lac qui est inversé equideow samba et voilà donc ça marche donc prévu et chaud en hiver Game et . 2
+11:17:000365:000365_3 : 11:16:39:833: 11h20 de vol utilisé depuis 1 épisode . 3
+11:17:000366:000366_4 : 11:16:45:985: Vidéo mais n'espérez pas à faire des prés joue sur des vidéos 2h30 comme moi ça marche pas . 4
+11:17:000367:000367_1 : 11:16:53:121: Générer donc . 1
+11:17:000368:000368_2 : 11:16:56:029: Forcément . 2
+11:17:000369:000369_3 : 11:16:58:180: Ensuite on peut dessiner avec Lisa qui es-tu libre il fait par le même moteur que même hauteur que . 3
+11:17:000370:000370_0 : 11:17:06:650: Et ça permet de faire des petits gifs animés des choses comme ça voilà le code à Seyssins. La résolution est la durée qu'on veut . 4
+11:17:000371:000371_1 : 11:17:18:769: Clip ils ont fourni le nom de la fonction qui va être rappelé pour le créez là chak chak images . 1
+11:18:000372:000372_2 : 11:17:26:726: On appelle la fonction light gif et automatiquement il va appeler donc là on a un jour de seconde Yves appelée 30 fois mais crème pour générer sa crème et donc on l'a dessine en fonction du paramètre . 2
+11:18:000373:000373_3 : 11:17:41:884: C'est plutôt sympa quoi . 3
+11:18:000374:000374_4 : 11:17:44:914: Ensuite séquence d'image donc si vous . 4
+11:18:000375:000375_1 : 11:17:45:914: Ohé du cinéma on travaille beaucoup avec des séquence d'image ben voilà chaque image d'un implant et et un fichier et bah du coup il permet de donner sa facilement voilà . 1
+11:18:000376:000376_2 : 11:18:06:243: Ensuite ça peut faire de la conversion de codecs et format donc pareil bah là vous appeler vous appelez vidéo file est automatiquement donc . 2
+11:19:000377:000377_3 : 11:18:21:373: Mais attention pas supporté plusieurs codec et donc vous avez la paramètres pour définir quel que vous voulez vraiment . 3
+11:19:000378:000378_4 : 11:18:29:518: Ensuite on peut faire des animation 3D serial exetera donc là il y a une grosse partie du code . 4
+11:19:000379:000379_1 : 11:18:42:666: Physique voilà et donc si on va tout le temps bah . 1
+11:19:000380:000380_2 : 11:18:49:081: Alcool un peu gros mais on retrouve la même structure avec la chanson du clip le mec rain vidéo et là pour le coup il spécifique un fichier AVI avec un code avec un PNG . 2
+11:19:000381:000381_3 : 11:19:03:226: Je m'appelle toutes les toutes et dépendance . 3
+11:19:000382:000382_4 : 11:19:08:362: Jeux pour pour générer CQB se mangent le bois quoi la . 4
+11:19:000383:000383_1 : 11:19:15:509: Ensuite enfin c'est le placement de clip . 1
+11:19:000384:000384_2 : 11:19:22:651: Un côté . 2
+11:20:000385:000385_3 : 11:19:24:918: Simple dessin géométrique et du coup on va spécifié on va spécifier chaque vidéo chaque forme géométrique quelle vidéo veux et ça donne les choses comme ça . 3
+11:20:000386:000386_4 : 11:19:40:053: Voilà . 4
+11:20:000387:000387_1 : 11:19:43:205: Bala envoyé c'est le code que les enfants jouent dans le montrer donc tout simplement on charge l'image de fond et je motive on calcule le nombre de régions qu'à l'intérieur . 1
+11:20:000388:000388_2 : 11:19:53:944: Un tableau avec la liste des vidéos . 2
+11:20:000389:000389_3 : 11:19:59:076: Position pour ça et on enregistre derrière quoi donc c'est vraiment vraiment très simple et ça pour le coup je pense que avec un logiciel de montage sa demande quand même niveau . 3
+11:20:000390:000390_4 : 11:20:10:537: Bah en fait c'est lui qui les calcule automatiquement et qui les qui les qui les identifier pansement horaires dois faire un truc c'est assez basique et après il faut . 4
+11:21:000391:000391_1 : 11:20:30:672: Matching comme on veut mais on peut on peut je pense affecté affecté ici on peut me donnes intelligence à ce niveau-là pour arriver à faire un peu ce qu'on veut quoi . 1
+11:21:000392:000392_2 : 11:20:42:296: Et ensuite on peut faire un générique Star Wars et ça c'est quand même la classe . 2
+11:21:000393:000393_3 : 11:20:50:981: Texter en blanc mais on peut le faire en jaune évidemment et . 3
+11:21:000394:000394_4 : 11:20:58:078: Démo . 4
+11:21:000395:000395_1 : 11:21:00:209: Brassens à demander quand même assez conséquent parce que c'est bon de vidéo ça se discute pendant 30 secondes . 1
+11:21:000396:000396_2 : 11:21:12:182: Mon cœur si c'est plutôt plutôt sportif comme truc mais là c'est ma fille c c voilà c'est assez conséquent . 2
+11:22:000397:000397_3 : 11:21:22:315: Mais en plus un exemple que la ferme tutorial donc c'est un peu . 3
+11:22:000398:000398_4 : 11:21:29:440: Un commentaire comme ça mais voilà donc en gros on a ici la fonction de composition des différents à clip donc le clip de texte le clip de l'image qui a été assombris . 4
+11:22:000399:000399_1 : 11:21:41:570: D'ici la fonction pour écris . 1
+11:22:000400:000400_2 : 11:21:45:611: Et voilà et derrière on remonte on voit H2O McLachlan images clip avec la photo des étoiles et derrière il assombris grâce à ça et puis voilà on verra . 2
+11:22:000401:000401_3 : 11:21:58:740: Oui oui oui . 3
+11:23:000402:000402_4 : 11:22:08:882: Du coup pour conclure donc moviepy dans mon process qu'est-ce que ça me permet de faire pour sortir une vidéo j'ai besoin de taper 3 commande . 4
+11:23:000403:000403_1 : 11:22:19:494: Donc là c'est un exemple pour épisode 22 de la campagne Warhammer donc j'appelle le premier . 1
+11:23:000404:000404_2 : 11:22:26:611: Qui me permet de faire la promotion de la de la diffusion en live et ça permet de préparer l'enregistrement donc ça va créer le dossier au bonne endroit sur mon PC ça va ça va modifier le titre de ma chaîne twitch pour avoir le bon titre avec le bon numéro d'épisode s'envoie des messages sur mastodonte et sur Twitter exetera exetera ensuite après une fois que j'ai fait là . 2
+11:23:000405:000405_3 : 11:22:49:750: Lancer l'enregistrement où je lance mon logiciel Obs je fais ma partie ou exetera à la fin OVS enregistrer la vidéo au bon endroit . 3
+11:24:000406:000406_4 : 11:23:00:869: CFAI j'appelle mec épisode 22 W qui va chercher au même endroit la vidéo qui a été enregistrée par vs et qui va appliquer tous les traitements donc supprimé le silence . 4
+11:24:000407:000407_1 : 11:23:12:015: De normaliser leçon exetera faire l'export du son pour le podcast et tout et tout quoi et une fois que ça se fait donc j'ai mangé dans le dossier tous les fichier généré et derrière j'appelle upload YouTube qui va les mêmes paramètres moto et du coup il va prendre le fichier va le mettre sur youtube il va le mettre dans WordPress pour . 1
+11:24:000408:000408_2 : 11:23:34:156: Il va automatiquement ne suffit les gens sur twitter est sur ma saison est la petite touche aussi c'est qu'il va également passer des messages sur des forums automatique . 2
+11:24:000409:000409_3 : 11:23:45:658: J'ai automatiser un peu près tout et donc mobipin m'a permise automatisé la 2e étape qui est quand même voilà là tu aurais été une très très long où j'aurais dû sacrifier la qualité on va dire des vidéos . 3
+11:24:000410:000410_4 : 11:24:01:812: Une vidéo ça fait gagner dans un quart d'heure à une demi-heure sur une vidéo 2h30 non . 4
+11:25:000411:000411_1 : 11:24:08:946: Je me suis inspirée d'un exemple VTC par l'auteur lui il a fait inscrire pour résumer automatiquement match de foot en se basant sur le volume sonore des spectateurs en fait . 1
+11:25:000412:000412_2 : 11:24:19:553: Donc du coup quand utiliser Movie pis alors je dirais que c'est quand vous avez besoin de somatiser et quand vous voulez pas suffisamment mon GSM bug . 2
+11:26:000413:000413_3 : 11:24:35:683: Envie de vous casser la tête avec la donc une bonne solution voilà si vous avez même pas que je pense pas besoin en fait . 3
+11:26:000414:000414_4 : 11:24:46:822: Du coup ça c'est un compromis plutôt intéressant entre ces deux solutions à quoi si vous avez vous avez une vidéo à traiter . 4
+11:26:000415:000415_1 : 11:24:57:958: Atomic pour tuer une mouche pas si vous avec une vidéo donc voilà et puis vous pouvez trouver des exemples plutôt pas mal donc sur le guide de github de l'auteur je suis désolé . 1
+11:26:000416:000416_2 : 11:25:15:102: Manger mais voilà et donc du coup ben c'est fini pour moi donc ben je merci de votre attention et puis si vous avez des questions n'hésitez pas . 2
+11:26:000417:000417_4 : 11:25:25:238: Du coup . 4
+11:26:000418:000418_1 : 11:26:05:356: Bon du coup . 1
+11:26:000419:000419_2 : 11:26:11:593: Parler du fait que voilà qu'on pouvait filmer plusieurs flux et les intérieurs seule fois gras . 2
+11:26:000420:000420_3 : 11:26:20:730: Le truc en live . 3
+11:27:000421:000421_4 : 11:26:23:865: Ouais ça oui ça ça sera faisable très facilement . 4
+11:27:000422:000422_1 : 11:26:28:974: Je ne sais pas j'en ai mangé jamais utilisé mais je sais qu'il y a je sais qu'elle va mal d'habitation de moviepy sur son des trucs sur les vidéos qui sont fermés dans une plage californienne qui est filmé tous les jours et qu'un système de suivi de surfer et et automatiquement en fait il lui coupe ses vidéos pars jouer en ligne . 1
+11:27:000423:000423_2 : 11:26:52:098: Des surfeurs quoi . 2
+11:27:000424:000424_3 : 11:26:55:144: Donc je sais qu'il y a moyen de câble et il y avait des choses pour faire du suivi de personnage par exemple avec avec la librairie traitement d'image mais j'avoue que voilà ça . 3
+11:28:000425:000425_4 : 11:27:08:277: Besoin . 4
+11:28:000426:000426_1 : 11:27:11:413: Non non parce que du coup sexy man c c chose qui revient souvent mais symbolisation 3D à l'époque avec Blender mais jamais eu je me suis jamais amusé à faire du montage vidéo mais . 1
+11:28:000427:000427_2 : 11:27:28:542: Change que c'était assez encore confidentiel et pas beaucoup de . 2
+11:28:000428:000428_3 : 11:27:33:659: Et caetera donne-moi la recette facile de se mettre pour un débutant mais mais non c'est vrai que j'ai quelque chose que j'ai pas testé que j'aurais pu . 3
+11:28:000429:000429_1 : 11:27:52:790: Mega . 1
+11:28:000430:000430_2 : 11:28:10:897: Renault message effectivement c'est ça ouais alors du coup quelqu'un a dit que epissure sur Windows été capable de récupérer ses pecs tout seul . 2
+11:28:000431:000431_3 : 11:28:23:070: C'est qui ment une bonne . 3
+11:29:000432:000432_4 : 11:28:28:204: Ah oui bien sûr on peut ont la question de savoir est-ce que on peut appliquer de transition entre oui on peut . 4
+11:29:000433:000433_1 : 11:28:47:340: Transformer son slip . 1
+11:29:000434:000434_2 : 11:28:51:479: Une exetera voilà mail pour les transitions et je pense que c'est largement faisable . 2
+11:29:000435:000435_3 : 11:28:57:611: Houra pro-allemand crée le créer un clip entre les deux qui fait la transition et qu'il faudra calculer et appliquer les effets comme il faut mais son responsable . 3
+11:30:000436:000436_4 : 11:29:07:737: Je sais pas cher mais je pense que ouais je pense que c'est facile . 4
+11:31:000437:000437_1 : 11:29:08:737: Le monde du clip précédent il y a un effet de fondue où ça se désintégrer CD existe . 1
+11:32:000438:000438_3 : 11:29:31:271: Alors qu'est-ce qu'on peut on peut choisir on a 10 heures dans un code qui est parti on veut oui tout à fait on peut appeler moins cher sans souci . 3
+11:32:000439:000439_4 : 11:29:44:052: Un clip c'est juste un tableau avec deux hommes en fait donc du coup on demande on demande la seconde temps à temps et ça marche pas . 4
+11:34:000440:000440_1 : 11:29:52:196: Développement pour arriver à . 1
+

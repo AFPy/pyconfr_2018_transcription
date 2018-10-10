@@ -1,0 +1,410 @@
+
+
+OpenSVC: Orchestration de stacks applicatives, avec ou sans containers Christophe Varoqui
+
+
+16:31:000389:000389_3 : 16:28:37:164: Si ça y est . 3
+16:36:000390:000390_2 : 16:30:18:567: C'est bien . 2
+16:36:000391:000391_4 : 16:31:01:061: Rajouter des légendes . 4
+16:36:000392:000392_4 : 16:36:14:536: Récession nous allons discuter de poney c c . 4
+16:36:000393:000393_3 : 16:36:31:166: Michel progr 2000 . 3
+16:37:000394:000394_4 : 16:36:34:627: Attends je suis fière nous verrons et je m'occupe . 4
+16:37:000395:000395_2 : 16:36:39:754: Dimension . 2
+16:37:000396:000396_3 : 16:36:43:868: Notre notre session va s'articuler en 2e phase une petite dizaine de slide ans assez rapide et ensuite on passe sur une une partie de démo s'en va suivant screencast impôts . 3
+16:37:000397:000397_1 : 16:37:06:759: Lancer la solution open SBC qu'est-ce que c'est . 1
+16:37:000398:000398_2 : 16:37:14:884: Doudou composants principaux on a d'une parce qu'on va appeler l'agence . 2
+16:37:000399:000399_4 : 16:37:28:569: Et on a d'autres parents une partie collector qui est un . 4
+16:37:000400:000400_1 : 16:37:35:175: Centraliser portail . 1
+16:37:000401:000401_3 : 16:37:43:874: Partie agent . 3
+16:38:000402:000402_4 : 16:37:46:707: Un socle une boîte à outils qui va nous permettre de modéliser . 4
+16:38:000403:000403_1 : 16:37:53:722: Envoyer sur une infrastructure . 1
+16:38:000404:000404_2 : 16:37:57:832: Quel que soit le modèle d'intégration qui est du conteneur qui en est par . 2
+16:38:000405:000405_3 : 16:38:04:433: C'est vraiment assez assez souple et très ouvert pour s'adapter aux besoins de chacun . 3
+16:38:000406:000406_4 : 16:38:11:338: Masquer . 4
+16:38:000407:000407_3 : 16:38:39:494: Donc ils vont être amené à implémenter . 3
+16:39:000408:000408_4 : 16:38:46:554: Agence . 4
+16:39:000409:000409_0 : 16:38:51:668: Daudet. . 1
+16:39:000410:000410_2 : 16:38:54:178: Appeler le service . 2
+16:39:000411:000411_4 : 16:39:07:047: Je te rapporter . 4
+16:39:000412:000412_2 : 16:39:15:595: DK derrière ce collecteur . 2
+16:39:000413:000413_3 : 16:39:19:696: Global . 3
+16:39:000414:000414_4 : 16:39:21:806: Et des fonctions qui sont servi sur une infrastructure informatique . 4
+16:39:000415:000415_1 : 16:39:28:215: Se connecter en c c install MariaDB avec du web toupie avec du riz 10 avec Jean x et aujourd'hui on a fait une chouette implémentation full docker . 1
+16:40:000416:000416_2 : 16:39:42:941: Agrégé toutes les informations en prove0ce des agents qui sont déployés sur . 2
+16:40:000417:000417_3 : 16:39:48:210: Il apporte un certain nombre de fonctionnalités de filtrage d'audit sur les actions qu'on a été menée sur les herbiers . 3
+16:40:000418:000418_4 : 16:39:57:091: Faire des analyses sur ce qui s'est passé sur la production . 4
+16:40:000419:000419_1 : 16:40:01:961: 06 de point central pour distribuer tout ce qui est . 1
+16:40:000420:000420_2 : 16:40:07:663: Il propose aussi . 2
+16:40:000421:000421_4 : 16:40:23:811: Appeler monter dans le lecteur . 4
+16:40:000422:000422_1 : 16:40:28:446: Voilà pour la vue globale . 1
+16:40:000423:000423_2 : 16:40:29:446: En détail . 2
+16:40:000424:000424_3 : 16:40:36:306: Leclerc de ce que ça fait comment ça marche . 3
+16:41:000425:000425_4 : 16:40:40:225: Faut qu'on a bientôt 10 ans d'existence dans la structure nos produits et open source et on maintient . 4
+16:41:000426:000426_1 : 16:40:49:095: Idé python 2 et Python 3 . 1
+16:41:000427:000427_2 : 16:40:53:197: Il y a des raisons pour ça c'est bien sûr l'âge du projet qui commence à être . 2
+16:41:000428:000428_3 : 16:40:59:302: Disant ça commence à être sérieux il y a une autre vraie raison c'est que les clients à qui on s'adresse c'est . 3
+16:41:000429:000429_4 : 16:41:08:428: J'ai des grands comptes qui ont des cycles de vie en terme de l'Opéra Team System qui sont très long . 4
+16:41:000430:000430_1 : 16:41:15:563: La vieille distribuer unique qui sont encore en service aujourd'hui et pour lesquels nous on . 1
+16:41:000431:000431_2 : 16:41:23:191: Maintenir notre vie opérationnelle sur ces solutions . 2
+16:41:000432:000432_3 : 16:41:27:709: On est obligé de couvrir un spectre aussi l'argent . 3
+16:42:000433:000433_1 : 16:41:37:682: Plaque email et téléphone . 1
+16:42:000434:000434_2 : 16:41:43:342: Site URL slack si vous voulez nous rejoindre si vous avez envie d'en savoir davantage sur . 2
+16:42:000435:000435_3 : 16:41:51:442: Avec grand plaisir . 3
+16:42:000436:000436_4 : 16:41:55:243: Manon comment . 4
+16:42:000437:000437_1 : 16:42:01:346: Se former . 1
+16:42:000438:000438_2 : 16:42:03:099: Créez de l'ambition se lâcher les différents clients emmènent avec eux cet outil et nous font connaître . 2
+16:42:000439:000439_3 : 16:42:12:239: Donc le le le spectre couverture fonctionnelle dirait du produit de la jeunesse et . 3
+16:42:000440:000440_4 : 16:42:23:770: Bousquet Technomedia Legacy traditionnelle historique . 4
+16:42:000441:000441_1 : 16:42:31:332: L'implémentation de . 1
+16:42:000442:000442_2 : 16:42:36:082: One base de données . 2
+16:43:000443:000443_4 : 16:42:47:994: Chaussures opensvc . 4
+16:43:000444:000444_1 : 16:42:51:101: Le service en terme de Thau Pôle . 1
+16:43:000445:000445_2 : 16:42:56:587: Donc c'est le reste à l'agence sur un serveur et on va faire un petit service . 2
+16:43:000446:000446_3 : 16:43:04:916: Beyoncé Sabazan Cesson on s'envoie . 3
+16:43:000447:000447_4 : 16:43:08:271: Une alternative viable et sympathique système D . 4
+16:43:000448:000448_1 : 16:43:13:943: Vous avez eu quelques difficultés système bcc plutôt sympa de décès . 1
+16:43:000449:000449_2 : 16:43:23:491: Tonnelle . 2
+16:43:000450:000450_3 : 16:43:26:281: On a aussi d'autres types de topologie service quand on vient rajouter des ne a des clusters . 3
+16:44:000451:000451_4 : 16:43:33:638: Continue avec des services qui bascule avec des topologie lover non actif passif ou des topologie active active . 4
+16:44:000452:000452_1 : 16:43:42:353: On a encore des services de type quelle heure ce qu'on appelle à quelle heure donc il va capable de grandir en terme de nombre d'instance . 1
+16:44:000453:000453_2 : 16:43:53:424: La Houssoye la baisse ou manuellement bien entendu . 2
+16:44:000454:000454_3 : 16:43:58:275: Lancer service . 3
+16:44:000455:000455_4 : 16:44:01:382: On va . 4
+16:44:000456:000456_1 : 16:44:06:507: Groupe et un certain nombre de ressources . 1
+16:44:000457:000457_2 : 16:44:10:343: La liste exhaustive qui a besoin pour que l'application fonctionne la STAC fonctionne . 2
+16:46:000459:000459_3 : 16:44:15:992: Ep 10 volumes groupe DL system des lanceurs applicative . 3
+16:47:000460:000460_4 : 16:44:16:992: Fleur de la mobilité de service on prend en considération tout les problématiques qui peut y avoir lors des incidents . 4
+16:47:000461:000461_1 : 16:46:56:495: Les fonctionnalités de . 1
+16:47:000462:000462_2 : 16:46:59:415: Anne qu'on appelle des arbitrator chez nous on a different types de arbitres pour monitorer échanger des états des services entre les deux . 2
+16:47:000463:000463_3 : 16:47:10:831: Des algorithmes . 3
+16:47:000464:000464_1 : 16:47:19:976: De perte de réseau des pertes de disque . 1
+16:48:000465:000465_3 : 16:47:32:048: Lancer . 3
+16:48:000466:000466_2 : 16:47:58:024: Téléphone . 2
+16:48:000467:000467_4 : 16:48:09:064: On a des mon nom sur la machine on vient lui soumettre des actions et on a synchrone ça va être le balajan qui qui effectue les actions . 4
+16:48:000468:000468_2 : 16:48:25:917: Matériaux technologie moderne à l'intégration de tout ce qui est techno de containerisation . 2
+16:48:000469:000469_4 : 16:48:37:978: Fleur de type zone Solaris des choses comme ça . 4
+16:49:000470:000470_4 : 16:48:56:999: Docker . 4
+16:49:000471:000471_1 : 16:49:00:189: On a des fonctionnalités de gestion de registre ebooker aussi intégrer dans le collecteur . 1
+16:49:000472:000472_2 : 16:49:06:303: T-shirt ce qui est pas pris en standard chez le docteur dans le sens où . 2
+16:49:000473:000473_3 : 16:49:11:673: En tous ces choses-là ont été intégré dans le collecteur . 3
+16:49:000474:000474_4 : 16:49:17:760: On a aussi vous allez voir dans dans la démonstration solution à proposer sur tout ce qui est réseau Internet parce qu'on étale de . 4
+16:49:000475:000475_1 : 16:49:29:628: Moi me reposer et détruire des containers . 1
+16:50:000476:000476_1 : 16:49:50:026: Conteneur pour qu'il puisse discuter entre dans le . 1
+16:50:000477:000477_1 : 16:49:59:282: La finalité c'est quand même que des clients puissent venir se connecter à notre service . 1
+16:50:000478:000478_2 : 16:50:04:222: Gâteau . 2
+16:50:000479:000479_3 : 16:50:10:348: Une ip publique et route et les connexions des clients externe vers les services de notaire . 3
+16:50:000480:000480_4 : 16:50:16:898: Notion si de méta service qui permettent de décrire des complexes avec dépendance entre démarrage de service . 4
+16:50:000481:000481_1 : 16:50:25:354: Voilà pour la théorie donc un petit un petit message . 1
+16:51:000482:000482_2 : 16:50:31:386: Ça peut intéresser . 2
+16:51:000483:000483_3 : 16:50:35:490: N'hésitez pas à nous contacter . 3
+16:51:000484:000484_3 : 16:51:00:539: Désolé pour les couleurs on a dû jouer un petit peu avec les . 3
+16:51:000485:000485_1 : 16:51:12:377: Alors le ce que vous voyez à l'écran . 1
+16:51:000486:000486_2 : 16:51:18:368: MX speed . 2
+16:51:000487:000487_3 : 16:51:21:372: Qui droite on va voir . 3
+16:51:000488:000488_1 : 16:51:26:597: HL sous la main voilà envoie une . 1
+16:51:000489:000489_2 : 16:51:32:721: De commande qui vont être passé avec des commentaires . 2
+16:52:000490:000490_3 : 16:51:38:081: Sur la partie gauche en haut à gauche on va avoir la commande service monitor donc une commande opensvc qui permet d'avoir . 3
+16:52:000491:000491_4 : 16:51:49:562: Global de de son cluster en terme de fonctionne . 4
+16:52:000492:000492_2 : 16:52:12:669: La zone qui est en bas à gauche on en parlera un stade à peux plus avancer dans la démo . 2
+16:52:000493:000493_3 : 16:52:22:357: Alors mon livre l'agent opensvc un sous forme de package pour différents différents os on a repository public qui est dispo pour ça . 3
+16:52:000494:000494_4 : 16:52:34:073: Install a droit tension . 4
+16:52:000495:000495_1 : 16:52:37:562: Système qui s'appelle note tiret 13-1 . 1
+16:53:000496:000496_2 : 16:52:41:917: Appeler mon ange . 2
+16:53:000497:000497_4 : 16:52:51:793: Qu'est-ce qu'on peut voir sur cette partie en haut à gauche on voit pour l'instant les Red . 4
+16:53:000498:000498_3 : 16:53:07:290: On est réellement sur un cluster stand alone insomnie . 3
+16:53:000499:000499_1 : 16:53:22:237: Différents services . 1
+16:54:000500:000500_4 : 16:53:33:860: Euromillion . 4
+16:54:000501:000501_1 : 16:53:35:934: Des notions de scoring donc ça ça va nous servir lorsqu'on est dans sur des typologies de service où on a besoin de savoir où démarrer un service de manière optimale . 1
+16:54:000502:000502_2 : 16:53:48:050: On va pouvoir des scores parle au sein du cluster pour dire bass only les plus appropriés pour démarrer mon service que cet automne . 2
+16:54:000503:000503_3 : 16:53:57:467: Un petit peu vide à gauche on a . 3
+16:54:000504:000504_1 : 16:54:06:538: On a passé la commande GSM j'ai donc Service Manager le nom du service et créez . 1
+16:54:000505:000505_2 : 16:54:14:673: Dentiste ensemble de commande avec avec ses services . 2
+16:54:000506:000506_3 : 16:54:24:122: La plupart des commandes supporter output informatique . 3
+16:54:000507:000507_4 : 16:54:33:222: La manière élégante avec . 4
+16:55:000508:000508_1 : 16:54:37:667: On a enfin une commande qui s'appelle une status . 1
+16:55:000509:000509_0 : 16:54:46:523: Statue saint sur le service SVC à combien degrés et qui est un petit peu vie d'un commis a aucune ressource de danser. . 2
+16:55:000510:000510_3 : 16:54:53:554: Une coquille vide sans intérêt réel . 3
+16:55:000511:000511_2 : 16:55:10:021: Dont le rôle va être de l'ancien interpreteur Python 3 . 2
+16:55:000512:000512_3 : 16:55:14:897: Le module HTTP Server et donc écouté sur le port . 3
+16:55:000513:000513_4 : 16:55:20:021: Pour la modification d'un fichier d'une fiche service ça peut se faire de cette manière-là mais ça peut se faire . 4
+16:55:000514:000514_1 : 16:55:25:766: Mail avec un éditeur . 1
+16:55:000515:000515_2 : 16:55:28:474: J'ai besoin de la démo qu'on fait tout en ligne de commande . 2
+16:55:000516:000516_4 : 16:55:36:430: Configurer le service et pour le moment . 4
+16:56:000517:000517_1 : 16:55:44:548: Prise de sang . 1
+16:56:000518:000518_2 : 16:55:47:278: Mondial agenda voilà service maman les Presles démarrer . 2
+16:56:000519:000519_3 : 16:55:53:854: Pour la . 3
+16:56:000520:000520_1 : 16:56:04:565: Alors il est toujours dans le parce que on a pas spécifié dans nos services que il devait être démarré de manière automatique donc c'est tout à fait normal c'est un comportement attendu . 1
+16:56:000521:000521_2 : 16:56:16:688: Affiche simple c'est pour ça que l'on vient de démarrer manuellement notre notre source applicative . 2
+16:57:000522:000522_1 : 16:56:44:557: Commande restart qu'il avait enchaîner un stop insta . 1
+16:57:000523:000523_2 : 16:56:50:671: Omar qui constate l'État déjà stopper donc il ne fait pas le stop et il redémarre l'application . 2
+16:57:000524:000524_3 : 16:56:58:336: Envoie . 3
+16:57:000525:000525_4 : 16:57:03:146: Gauche note service Keops donc le grand o majuscule vert indique voilà je suis ope sur le 13 tirer un . 4
+16:57:000526:000526_1 : 16:57:13:894: Viendra sur l'utilité du petit du petit chapeau un petit peu plus tard . 1
+16:57:000527:000527_2 : 16:57:19:913: On a fait un prince status sur notre notre service on voit que l'affichage c'est un petit peu enrichi . 2
+16:57:000528:000528_3 : 16:57:26:536: On a pas ressources donc là il faut qu'on en a qu'une seule à l'état de cette ressource . 3
+16:58:000529:000529_2 : 16:57:46:946: La même chose au format JSON toujours pour . 2
+16:58:000530:000530_3 : 16:57:51:994: Capable de passer sa facilement . 3
+16:58:000531:000531_4 : 16:57:55:140: Ça tu donnes est le prix une config au format season . 4
+16:58:000532:000532_2 : 16:58:29:333: Enfin pour terminer on vient faire une petite request request sur notre serveur Web et on constate une serre des fichiers pour que ça fonctionne telle que celle que c'est censé . 2
+16:59:000533:000533_1 : 16:58:51:611: Voilà c'est ce qui s'appelle notre 13-2 sur la BM . 1
+16:59:000534:000534_2 : 16:59:01:073: Bien déclaré . 2
+16:59:000535:000535_3 : 16:59:09:131: Ni plus ni moins qu'un canal de communication qui va servir à échanger des états de service entre les deux . 3
+16:59:000536:000536_1 : 16:59:27:737: Enfin on revient chercher sur le ne 13-1 le secret . 1
+17:00:000537:000537_3 : 16:59:40:938: Commission on a récupéré le secret sur le nos deux on fait un Damon d'urine avec le secret et on précis de serveur sur lequel on peut se connecter . 3
+17:00:000538:000538_4 : 16:59:53:556: À gauche . 4
+17:00:000539:000539_3 : 17:00:11:438: Il s'est passé des choses . 3
+17:00:000540:000540_4 : 17:00:19:132: Plan viens de dire en fait . 4
+17:00:000541:000541_1 : 17:00:22:253: Le service un sur ma peau non plus connus que d'une un nœud 13 ans mais aussi de l'autre . 1
+17:00:000542:000542_2 : 17:00:30:699: Composition d'un paramètre en lui disant bah je veux que le service puisse être démarré surtout les nodules Store avec une référence à Call adjuster note . 2
+17:01:000543:000543_4 : 17:00:43:811: Sac en haut à gauche on a vu des . 4
+17:01:000544:000544_1 : 17:00:47:935: Des choses arrivé sur le note 2 note 13 deux dons Croix-Rouge qui veut dire le service n'est pas . 1
+17:01:000545:000545_2 : 17:00:55:853: I love sur le numéro 1 . 2
+17:01:000546:000546_3 : 17:01:00:544: Voilà là on vient d'utiliser une comment il s'appelle switch . 3
+17:01:000547:000547_1 : 17:01:10:683: Ça a été ça a été un petit peu vite en argent à stopper le service sur le nom et la redémarrer sur le sur le . 1
+17:01:000548:000548_3 : 17:01:27:013: Pouvoir parler ici il a des petits chapeaux . 3
+17:01:000549:000549_4 : 17:01:33:121: Syndic un problème de placement qu'est-ce que ça veut dire le placement quand on va définir un service en avoir envie de déterminer quel est le nom prioritaire pour faire démarrer service . 4
+17:02:000550:000550_1 : 17:01:46:223: La priorité défini dans l'ordre des ne . 1
+17:02:000551:000551_3 : 17:01:55:214: En premier lieu de ronces . 3
+17:02:000552:000552_4 : 17:01:59:081: Le service sur le note 2 qui n'est pas le leader de placement . 4
+17:02:000553:000553_3 : 17:02:27:955: Problème on se voit . 3
+17:02:000554:000554_4 : 17:02:30:508: Ensuite on définit pour ce service I fly qui s'appelle orchestre Orchestra . 4
+17:02:000555:000555_1 : 17:02:38:438: Achat pour aller visiter . 1
+17:02:000556:000556_2 : 17:02:42:594: Peut-on dis simplement . 2
+17:03:000557:000557_4 : 17:02:47:742: À toi-même les décisions sur le ce qu'il faut faire de service ou démarrer ou l'arrêter . 4
+17:03:000558:000558_2 : 17:02:59:715: La machine . 2
+17:03:000559:000559_3 : 17:03:01:838: Où est-ce que le service est en train de redémarrer sur Le Mans . 3
+17:03:000560:000560_1 : 17:03:13:492: Guitare échanger entre entre les ne permet . 1
+17:04:000561:000561_2 : 17:03:19:103: Changer lorsque on peut remarquer que ici le petit défaut de placement il a disparu mainte0t le service il est revenu sur le sur son apparte0ce nominal . 2
+17:04:000562:000562_3 : 17:03:35:321: Voilà Lombard démarrer . 3
+17:04:000563:000563_4 : 17:03:40:823: Le numéro 2 . 4
+17:05:000564:000564_3 : 17:04:38:364: Une face au cours de laquelle il rejoint cluster mais il va attendre de recevoir les informations de des autres ne du cluster à pour être sûr de pas prendre de mauvaises décisions . 3
+17:05:000565:000565_4 : 17:04:50:913: Un éventuel ramener des éventuels redémarrage de service . 4
+17:05:000566:000566_2 : 17:05:04:864: Le clonage de service . 2
+17:05:000567:000567_0 : 17:05:08:802: Différent. Config au format gisone d'un service qu'on a déployé . 3
+17:05:000568:000568_4 : 17:05:14:319: Créez de service et on vient surchargé tout ce qui est . 4
+17:05:000569:000569_1 : 17:05:19:887: Au niveau du service . 1
+17:05:000570:000570_3 : 17:05:30:857: Voilà là on a dupliquer le service on écoute mainte0t sur le port 8 1000 RSV C2 . 3
+17:06:000571:000571_4 : 17:05:37:831: Et comme on a une valeur d'orchestration kihouu dispo le moniteur à tout de suite démarrer le service sur le 13e . 4
+17:06:000572:000572_1 : 17:05:47:982: Et là si vous voyez la dernière commande qui est passé on a inversé le leader de placement pour le service SVC 2 . 1
+17:06:000573:000573_2 : 17:05:56:598: Équipement je veux que le numéro de soi le leader de placement du service de . 2
+17:06:000574:000574_1 : 17:06:13:513: Centre de rendre . 1
+17:06:000575:000575_2 : 17:06:22:671: Le propriétaire grâce à la commande give back . 2
+17:06:000576:000576_4 : 17:06:32:565: Pour . 4
+17:07:000577:000577_1 : 17:06:35:837: On est à nominal sur le . 1
+17:07:000578:000578_3 : 17:06:45:608: Là on enchaîne avec la création d'un service 3 sur le même la même méthode . 3
+17:07:000579:000579_4 : 17:06:55:378: On va changer la topologie du service . 4
+17:07:000580:000580_1 : 17:07:02:338: Si vous avez remarqué à gauche là on est dans les topologies fait là on vient de spécifier je veux faire un service de Flex Flex . 1
+17:07:000581:000581_2 : 17:07:12:457: Là je spécifie mainte0t à droite je veux que le nombre minimum l'instant . 2
+17:07:000582:000582_3 : 17:07:23:556: De type actif actif soit égale au nombre de nom du Christ . 3
+17:08:000583:000583_4 : 17:07:29:141: Une fois que je défrise mon service le moniteur se met en route il va respecter les contraintes que j'ai définir savoir démarrer deux instances de ce service . 4
+17:08:000584:000584_1 : 17:07:42:020: Musique on a de web server sur le port 8002 / 1 / 20 / note . 1
+17:08:000585:000585_3 : 17:07:57:601: Le fait de capable de faire des upgrade de Cestac logiciel production ouverte . 3
+17:08:000586:000586_4 : 17:08:07:817: On imagine the avec des services qui fonctionne avec des clients qui sont connectés . 4
+17:08:000587:000587_1 : 17:08:14:955: Un peu désinstaller réinstaller la jambe sans que cela vienne impacter la production et service 42 style . 1
+17:09:000588:000588_3 : 17:08:26:319: Guillaume rastal du RPM l'envoie cycle le numéro de est en train de passer en face de bred . 3
+17:09:000589:000589_4 : 17:08:33:140: Voilà il redémarre il va rejoindre le Play Store . 4
+17:09:000590:000590_3 : 17:08:55:752: Donc là on lance un chat dans le sur le numéro deux ou qu'on voit . 3
+17:09:000591:000591_1 : 17:09:10:273: Ma chérie la présentation pose . 1
+17:09:000592:000592_1 : 17:09:35:121: Un homme qui vois qui c'est qui s'est invité la au niveau du service 3 . 1
+17:10:000593:000593_2 : 17:09:41:529: Modifier une contrainte d'avoir deux instances de mon service opérationnel . 2
+17:10:000594:000594_3 : 17:09:48:398: Actuellement donc ça se présente un problème de conforme . 3
+17:10:000595:000595_4 : 17:09:54:867: Non moi vu qu'il nous reste une instance le service reste . 4
+17:10:000596:000596_1 : 17:09:59:781: La France est . 1
+17:10:000597:000597_1 : 17:10:24:789: La session interactive si vous avez des choses . 1
+17:11:000598:000598_2 : 17:10:36:926: Lac la question c'est . 2
+17:11:000599:000599_3 : 17:10:49:282: Un algo de consensus qu'est-ce que tu entends par consensus . 3
+17:11:000600:000600_4 : 17:10:56:404: Keep . 4
+17:11:000601:000601_1 : 17:11:00:169: Alors en fait il y a donc la question c'est est-ce qu'il y a plusieurs . 1
+17:11:000602:000602_2 : 17:11:09:184: Nokia il faut qu'il faut voir s'il y a bien un agent qui va tourner par nos et donc tu as a Fred qui va prendre des décisions d'orchestration sur ses services . 2
+17:11:000603:000603_3 : 17:11:22:002: Ration fonction de l'état du service tel que le dis . 3
+17:11:000604:000604_4 : 17:11:28:129: Lenny entre Mons et changer une structure de . 4
+17:12:000605:000605_4 : 17:11:59:071: Problème je redémarre je prends la décision de redémarrer . 4
+17:12:000606:000606_1 : 17:12:04:922: Donc c'est vraiment . 1
+17:12:000607:000607_3 : 17:12:17:092: Je vais essayer de voir tes réponses à tes questions sous un angle un peu différence . 3
+17:13:000608:000608_4 : 17:12:24:228: Je pense que ce que tu voulais dire c'est . 4
+17:13:000609:000609_1 : 17:12:29:710: Ration avec des produits existants que tu connais déjà mieux comme ça . 1
+17:13:000610:000610_3 : 17:12:59:961: Picasso Picasso en passant par des tiers beaucoup de redondance au niveau des échanges entre chaque de du cluster et on a pas de notion de la symétrie . 3
+17:13:000611:000611_1 : 17:13:23:353: Récupérer données . 1
+17:13:000612:000612_2 : 17:13:27:243: Lyon va bien . 2
+17:14:000613:000613_3 : 17:13:30:015: Quand est limité aux alentours de 16h . 3
+17:14:000614:000614_2 : 17:14:00:764: Ok . 2
+17:14:000615:000615_1 : 17:14:01:764: Poster . 1
+17:14:000616:000616_3 : 17:14:29:365: Heure de replacer les services là où ils doivent être de manière nominal . 3
+17:14:000617:000617_4 : 17:14:36:483: Le numéro de . 4
+17:15:000618:000618_1 : 17:14:40:833: Venir là qu'il fallait voir c'est que c'est pas parce que nous rejoins cluster et que c'est lui le maître nominale d'un service qui reprend tout de suite le service . 1
+17:15:000619:000619_2 : 17:14:51:316: Tu aurais dû dans the time induit pour les utilisateurs . 2
+17:17:000620:000620_3 : 17:14:56:008: Donc il rejoint cluster mais il reprend service qu'au moment où on lui demande explicite donc c'est clairement une opération sysadmin qui . 3
+17:17:000621:000621_4 : 17:15:06:510: Bac pour . 4
+17:18:000622:000622_4 : 17:17:37:841: Clip et de services c'est dans une oncle l'État globale du service s'est arrêtée on va mainte0t . 4
+17:18:000623:000623_1 : 17:17:51:022: Simon voir que moniteur Val Val des marées . 1
+17:18:000624:000624_3 : 17:17:55:154: Bah non seulement démarrer l'adresse IP . 3
+17:18:000625:000625_4 : 17:17:59:630: Une autre application Bell pic . 4
+17:18:000626:000626_1 : 17:18:04:762: Nouvelle démonstration de Lidl potence des actions . 1
+17:18:000627:000627_2 : 17:18:10:504: Ou après avoir une frisé . 2
+17:18:000628:000628_3 : 17:18:13:620: Démarrer le service c'est un démarrage manuel et malgré ça . 3
+17:18:000629:000629_4 : 17:18:19:740: Passion . 4
+17:18:000630:000630_1 : 17:18:22:790: Au niveau global . 1
+17:18:000631:000631_2 : 17:18:24:893: Envoie un étape . 2
+17:18:000632:000632_3 : 17:18:28:823: Pour le 13 . 3
+17:18:000633:000633_4 : 17:18:30:927: Et pour chacune des ressources humaines étape égal . 4
+17:18:000634:000634_1 : 17:18:36:038: Cantine petite request HTTP au niveau de l'adresse IP du service et ça nous montre que ça répond correctement . 1
+17:18:000635:000635_2 : 17:18:44:485: On écoute bien sur la vie . 2
+17:19:000636:000636_3 : 17:18:47:578: Encore un switch du service . 3
+17:19:000637:000637_4 : 17:18:51:634: Au niveau du nez configurer l'adresse IP . 4
+17:19:000638:000638_2 : 17:19:04:575: Vivaservices . 2
+17:19:000639:000639_3 : 17:19:06:956: 13 élégant et très facile en terme de mise en œuvre un pour basculer DIP . 3
+17:19:000640:000640_4 : 17:19:16:599: Laon pas passer sur . 4
+17:19:000641:000641_1 : 17:19:22:704: Association d'un service . 1
+17:19:000642:000642_2 : 17:19:26:823: Complexe qui est plus représentatives de ce qu'on va trouver dans la vraie vie . 2
+17:19:000643:000643_3 : 17:19:34:709: Un petit peu vite sur le côté droit . 3
+17:20:000644:000644_4 : 17:19:37:402: On est partie d'un temple est . 4
+17:20:000645:000645_1 : 17:19:41:761: Ma config nom d'un fichier complète sur lequel on aura bien entendu fait une face de design auparavant . 1
+17:20:000646:000646_2 : 17:19:48:178: Mail à l'agence en charge complète instants sucrés le service est bien provisionner service donc là concrètement CD disques cd création . 2
+17:20:000647:000647_3 : 17:20:00:774: Création de logical volume c'est du formatage de fac système . 3
+17:20:000648:000648_4 : 17:20:05:861: Donc sur la droite on a un petit prince status difficile du service pardon il a un petit peu . 4
+17:20:000649:000649_1 : 17:20:16:122: Un petit peu parce qu'il n'a pas été encore démarré donc on a beaucoup de beaucoup d'achats je vois la . 1
+17:20:000650:000650_2 : 17:20:22:775: Lamanon qu'il ait démarrer . 2
+17:20:000651:000651_3 : 17:20:25:642: On a un service donc un peu plus sérieux avec des loups disque une amie et de services un volume group 3 packs système . 3
+17:20:000652:000652_4 : 17:20:33:855: Data base de zap serveur . 4
+17:21:000653:000653_2 : 17:20:42:044: De l'après-midi . 2
+17:21:000654:000654_3 : 17:20:47:655: Donc là on passe sur une partie de la démo où on va déployer . 3
+17:21:000655:000655_4 : 17:20:58:098: Donc là on vient de créer un service c'est un service de service c l'enveloppe assez l'enveloppe avec toutes les ressources . 4
+17:21:000656:000656_1 : 17:21:12:977: Modéliser toutes ses ressources de mon IP de mon régime et systèmes Meylan siccatif . 1
+17:21:000657:000657_2 : 17:21:34:666: EBay privé . 2
+17:21:000658:000658_3 : 17:21:37:917: Pourquoi utilise pour sa CNI . 3
+17:22:000659:000659_4 : 17:21:45:136: Networking interface donc si haï qu'est-ce que c'est c'est . 4
+17:22:000660:000660_1 : 17:21:52:283: Délibéré Despec sur . 1
+17:22:000661:000661_3 : 17:22:04:837: Mounir de l'infrastructure réseau sur des conteneurs . 3
+17:22:000662:000662_4 : 17:22:13:277: Plan on a fait le choix d'utiliser oui oui je te le plugin qui va s'appuyer sur sienne . 4
+17:23:000663:000663_4 : 17:22:36:062: Plan de délibérément ami toutes les commandes 1 pour la configuration . 4
+17:23:000664:000664_2 : 17:22:53:181: Quel réseau with . 2
+17:23:000665:000665_3 : 17:22:56:127: Et encore la mise en avant des how to design . 3
+17:23:000666:000666_4 : 17:23:02:503: Plan bien spécifié en terme de configuration que le service 3 on va lui ajouter une adresse IP de type Chennai . 4
+17:23:000667:000667_1 : 17:23:12:186: Approvisionner dans le réseau qui s'appelle with . 1
+17:23:000668:000668_2 : 17:23:15:959: Voilà donc là . 2
+17:23:000669:000669_4 : 17:23:24:150: Le premier ne ne ne une première adresse IP sur le sur le dos une seconde adresse IP . 4
+17:23:000670:000670_1 : 17:23:31:045: Météo qui a été attribué . 1
+17:24:000671:000671_2 : 17:23:34:296: Partir de ce réseau de back-end . 2
+17:24:000672:000672_3 : 17:23:38:587: La notion qu'on a pas encore abordé qui expliquent la présence de en bas à gauche du petit rectangle c'est la fourniture de services de nommage au sein de Secret store . 3
+17:24:000673:000673_4 : 17:23:53:185: On va dans un premier temps comment voit en bas à droite configurer et dire au cluster . 4
+17:24:000674:000674_3 : 17:24:15:470: Auchan nouveau serait apparue qui s'appelle DNS . 3
+17:24:000675:000675_4 : 17:24:19:088: Voilà on va propager 7 4 configuration ohne XIII-2 en faisant aurais dû à une du cluster . 4
+17:24:000676:000676_1 : 17:24:28:017: Voilà là ça a été un petit peu vite . 1
+17:25:000677:000677_3 : 17:24:35:641: Aller sur la socket Unix maintenu par l'agent . 3
+17:25:000678:000678_4 : 17:24:40:537: Interroger truc est là il nous nous raconte qui c'est du cluster donc on retrouve toute les adresse IP qu'on a défini dans l'eau dans nos différents . 4
+17:25:000679:000679_1 : 17:24:53:047: C'est parce bien qu'on est con cartographie 1 finalement tout ce qui est présent en terme de l'adressage IP est dommage dans le castor . 1
+17:25:000680:000680_3 : 17:25:12:743: Service qu'on a . 3
+17:25:000681:000681_4 : 17:25:15:850: Tu appuies sur des docker PowerDNS . 4
+17:25:000682:000682_1 : 17:25:21:373: Comment démarrer service envoie le service au DNS et démarrer sur le 13 ans et 13 2 . 1
+17:25:000683:000683_2 : 17:25:33:238: L'on vient . 2
+17:25:000684:000684_3 : 17:25:35:645: Mairie . 3
+17:26:000685:000685_4 : 17:26:02:179: Je suis là en utilisant mots clés comme quoi on expose un port TCP dans servi . 4
+17:26:000686:000686_1 : 17:26:09:261: Le service C3 si vous souvenez à l'association n'avait surchargé la variable environnement avec le port 8002 . 1
+17:26:000687:000687_3 : 17:26:18:811: Enregistrement SRV . 3
+17:26:000688:000688_4 : 17:26:23:074: Tu t'es mis à jour automatiquement . 4
+17:26:000689:000689_1 : 17:26:25:992: Par rapport à ce qu'on avait défini dans ses services . 1
+17:27:000690:000690_3 : 17:26:46:612: Tribunal . 3
+17:27:000691:000691_1 : 17:26:49:751: Service de type quelle heure on se le service SVC 4 . 1
+17:27:000692:000692_2 : 17:27:02:971: Voilà donc là il s'est passé des choses ou Instantiel service SVC 4 avec un homme d'instance à zéro . 2
+17:27:000693:000693_4 : 17:27:17:760: Plan bois que le moniteur est en train de d'instance . 4
+17:27:000694:000694_1 : 17:27:21:871: Est-ce qu'on voit . 1
+17:27:000695:000695_2 : 17:27:32:137: Sédition bas gauche on a les enregistrements est servie qui se sont mis . 2
+17:28:000696:000696_3 : 17:27:38:099: Bonjour juste après l'instanciation . 3
+17:28:000697:000697_4 : 17:27:41:767: Vraiment vraiment voir ça en terme de jusqu'à il est mon service à la hausse parce que j'ai besoin de croissance interne de performance sur ce que je veux servir . 4
+17:28:000698:000698_1 : 17:27:51:645: Donner mes nouveaux conteneur j'ai mis à jour mes Maps DNS donc là je veux avoir une greffe capable de parenté des nouvelles requête client verser nouveau compte . 1
+17:28:000699:000699_2 : 17:28:02:005: Pour absorber mon fils de charge . 2
+17:28:000700:000700_3 : 17:28:04:862: L'étape d'après on va faire un scan en fait on écrit sur les sur les enregistrements DNS qui serve le service 4 donc là on est bien à 5 . 3
+17:28:000701:000701_4 : 17:28:20:978: Aller à la baisse un . 4
+17:28:000702:000702_1 : 17:28:24:749: Automatiquement des provisionner ce qu'on a déployé on va on va trouver . 1
+17:29:000703:000703_2 : 17:28:30:871: Service cat on voit qu'il est revenu à une seule instance . 2
+17:29:000704:000704_3 : 17:28:35:389: Et de même on a le nombre d'enregistrement et servez qui est passé de 5 à 11 sur sur la . 3
+17:29:000705:000705_1 : 17:28:51:091: La partie suivante c'est . 1
+17:29:000706:000706_2 : 17:28:59:145: C'est le déploiement d'une grasse gâteau . 2
+17:29:000707:000707_3 : 17:29:03:583: Donc c'est Ingrid gâteau . 3
+17:29:000708:000708_4 : 17:29:07:507: Go between . 4
+17:29:000709:000709_1 : 17:29:10:633: Immigration . 1
+17:29:000710:000710_2 : 17:29:14:764: Et c'est grâce à elle est capable de fournir en entrée on porte une adresse ip publique routable où les clients vont venir se connecter pour consommer note service . 2
+17:29:000711:000711_3 : 17:29:28:677: De l'autre côté ça va route et ça sur toutes les . 3
+17:29:000712:000712_4 : 17:29:33:779: Conteneur et tous les services confondus dans le back-end de notre . 4
+17:30:000713:000713_3 : 17:29:50:420: Exposé voilà le port 8003 concerts en interne dans le back-end je dis si que je veux l'exposé sur le port 80 03 sur l'adresse public on en l'occurrence c000 toutes les adresses . 3
+17:30:000714:000714_1 : 17:30:10:319: Conteneur docker à nous qui vient qui va faire la translation des événements qui se passe dans le cluster qui vient configurer ingress Gateway automatiquement . 1
+17:30:000715:000715_2 : 17:30:20:938: Combien faire une connerie sur l'adresse de service sur le port 80 03 dans les bien servi par rapport à un des conteneurs du bac . 2
+17:31:000716:000716_1 : 17:30:42:991: J'ai déjà installé . 1
+17:31:000717:000717_2 : 17:30:47:104: Bien sûr que c'est des marées . 2
+17:31:000718:000718_3 : 17:30:52:249: La solution opensvc en fait ta porte des facilités de management sur sur le docteur . 3
+17:31:000719:000719_4 : 17:31:04:018: On a . 4
+17:31:000720:000720_1 : 17:31:06:205: Demande implémentation suis tout le monde . 1
+17:31:000721:000721_2 : 17:31:09:738: J'ai un démon docker . 2
+17:31:000722:000722_4 : 17:31:20:465: Seconde moitié dire je veux un démon docker privé par service opensvc . 4
+17:31:000723:000723_1 : 17:31:28:600: Intérêt lorsque vous avez des gros système avec des environnements mutualisé entre plusieurs développeur . 1
+17:32:000724:000724_2 : 17:31:35:339: Ça permet de travailler chacun sur son docker s'en aller casser les images où les conteneurs des autres . 2
+17:32:000725:000725_3 : 17:31:42:324: Combien créer un premier service SVC 6 . 3
+17:32:000726:000726_4 : 17:31:51:611: On va mettre en avant l'utilisation . 4
+17:32:000727:000727_2 : 17:32:01:636: Qui est simple dans le sens . 2
+17:32:000728:000728_3 : 17:32:05:094: Dupliquer de naissance réseau de l'hyperviseur sur lequel on est . 3
+17:32:000729:000729_4 : 17:32:10:137: Effacer un premier type de de cet à présent qu'on supporte . 4
+17:32:000730:000730_1 : 17:32:17:530: Envoie ici . 1
+17:32:000731:000731_2 : 17:32:19:651: L'argument au docteur Demon One est égal host . 2
+17:32:000732:000732_3 : 17:32:24:801: On conduit comment les réseaux et on utilise celui-ci dans notre service . 3
+17:33:000733:000733_4 : 17:32:31:717: Le conteneur qui est utilisé pour la démo c'est un petit conteneur Hello World en entier et qui affiche même lorsqu'on vient lui . 4
+17:33:000734:000734_1 : 17:32:43:837: Voilà c'est la requête HTTP . 1
+17:33:000735:000735_2 : 17:32:49:318: Butinette raison d'une autre aide il nous répond qui s'appelle non 13 place un peu simpliste comme cette présence normale mairie de fonctionner mais on va partager tout l'espace . 2
+17:33:000736:000736_3 : 17:33:02:466: Docker . 3
+17:33:000737:000737_4 : 17:33:05:589: Fabrique de Kerzerho avec le spawn de conteneurs et toute une bonne tambouille de port mapping pour . 4
+17:33:000738:000738_1 : 17:33:12:656: Pour répondre à tout ça . 1
+17:34:000739:000739_4 : 17:33:28:389: Produit produit Cassandra c'est une base de données distrib . 4
+17:34:000740:000740_1 : 17:33:36:174: Nous pour éviter justement de gérer toute cette cette embrouille de porte Mappy on m'a proposer des solutions . 1
+17:34:000741:000741_2 : 17:33:47:297: Ferme de cette au présent donc il va permettre d'avoir au sein des conteneurs docker que vous utilisez que vous déployez une prise direct sur le réseau sur le lac sur le segment réseau sans avoir de porte mapping utiliser . 2
+17:34:000742:000742_4 : 17:34:15:891: Et la seconde étape 7 dire je rajoute une adresse IP de service . 4
+17:34:000743:000743_1 : 17:34:22:018: Qui va être bloqué sur un bridge que j'ai configuré sur la machine est ce bruit du bien sûr et vu sur le réseau sur Le Lann . 1
+17:34:000744:000744_3 : 17:34:40:536: Spécifie ici . 3
+17:35:000745:000745_0 : 17:34:43:540: Ma manette = conteneur de. Nom du service. Containers. 0 . 4
+17:35:000746:000746_1 : 17:34:49:510: Explicitement je veux que le conteneur allô world Eric de la réseau de notre conteneur 0 qui est connecté sur le bridge . 1
+17:35:000747:000747_2 : 17:34:58:460: À droite le démarrage du service dans ce dans ce mode de configuration et on a ici toutes les commandes IP line qui sont qui sont passées messenger pour s'accrocher dans le même space et configurer la STAC . 2
+17:36:000748:000748_2 : 17:35:33:429: Enfin on a . 2
+17:36:000749:000749_3 : 17:35:38:385: Dernier service . 3
+17:36:000750:000750_3 : 17:36:08:167: Gifi que on doit pas de cœur des Monts privé mes paramètres donc on utilise le démon de cœur du système . 3
+17:37:000751:000751_0 : 17:36:37:305: Que cette fois-ci
+17:37:000752:000752_3 : 17:36:46:773: Bien ici lui donner le nom d'un IP Desvres concrètement on a un interface physique sur la machine on va dire donner cette interface physique dans le même space docker . 3
+17:37:000753:000753_4 : 17:36:59:163: Ça c'est pour les gens qui ont des contraintes un peu particulière qui vole des type d'interface physique spécial dans leur contenu utiliser . 4
+17:37:000754:000754_1 : 17:37:11:014: À partir du moment où on va démarrer le service . 1
+17:37:000755:000755_2 : 17:37:17:726: Commande IP link sur l'hiver viseur on verra plus du tout l'interface apparaître dans la liste Fram ça sera Maps et uniquement dans le . 2
+17:37:000756:000756_3 : 17:37:27:846: Sensation du du docteur que l'interface réapparaît sur le supervie . 3
+17:37:000757:000757_4 : 17:37:35:235: Résumé trois modes de cette app réseau supporter avec . 4
+17:38:000758:000758_3 : 17:37:53:483: Sur la reproduction . 3
+17:39:000759:000759_2 : 17:38:55:042: Acronyme . 2
+17:39:000760:000760_2 : 17:39:28:201: Alors là encore comme dans Shining directrice du produit en supporter quasiment tout ce que le client envie qu'on supporte donc ça part de . 2
+17:40:000761:000761_3 : 17:39:42:081: Comment comment gère-t-on au sein d'un cluster la réplication des données ou la mobilité des données . 3
+17:40:000762:000762_4 : 17:39:50:819: 2 solutions soit . 4
+17:40:000763:000763_1 : 17:39:54:938: Poster une solution de stockage partager . 1
+17:40:000764:000764_2 : 17:39:59:142: Je te reste 17 . 2
+17:40:000765:000765_3 : 17:40:02:013: Soit on travaille avec des disques locaux dans ces cas-là on supporte . 3
+17:40:000766:000766_1 : 17:40:23:627: Sois . 1
+17:40:000767:000767_2 : 17:40:26:765: Logiciel et asynchrone . 2
+17:41:000768:000768_3 : 17:40:31:264: Viande fumée du risque d'une copie asynchrone mais en tout cas le produit légère à la place c'est le produit qui fait le ski du ligne de la réplication de données . 3
+17:41:000769:000769_4 : 17:40:40:874: Les anges budgétaire des enjeux techniques de RTO RPO au fil abonnement le bon choix de technologie entre le synchrone asynchrone logiciel . 4
+17:41:000770:000770_1 : 17:40:53:017: Je fais la totalité en es capable de piloter de la réplication côté baie de parler ob pour qu'elle se split . 1
+17:41:000771:000771_2 : 17:41:01:153: Les enverra . 2
+17:41:000772:000772_3 : 17:41:05:276: En plus simple pour . 3
+17:41:000773:000773_4 : 17:41:07:920: Vas-y vas-y . 4
+17:41:000774:000774_3 : 17:41:33:471: Faire la question et . 3
+17:42:000775:000775_4 : 17:41:39:592: Depuis quelques années dans 3 ans on parle beaucoup de produits comme Mézos ce soir mais du Béarn . 4
+17:42:000776:000776_1 : 17:41:47:563: Comment se positionne par rapport à ses produits . 1
+17:42:000777:000777_2 : 17:41:51:911: Affectivement on a 10 ans d'existence devant nous donc on attend des marées à vent dans un monde où des produits on était concurrent plutôt par rapport . 2
+17:42:000778:000778_3 : 17:42:05:607: Poster des choses comme ça . 3
+17:42:000779:000779_1 : 17:42:22:860: Devant c c un . 1
+17:42:000780:000780_2 : 17:42:30:988: Donc aujourd'hui la situation dans laquelle on essaie que on vise . 2
+17:43:000781:000781_2 : 17:42:59:222: Containerisation . 2
+17:43:000782:000782_3 : 17:43:01:187: Orchestra avec le Ster de réseau de ma chaîne et dinaz la totale . 3
+17:43:000783:000783_4 : 17:43:07:352: Position origine . 4
+17:43:000784:000784_2 : 17:43:15:597: On a pas le poids de . 2
+17:43:000785:000785_4 : 17:43:27:924: Jusqu'à la version à Huit du produit Fédération aisne - 20 on avait pour ambition que de faire la partie CRM de . 4
+17:43:000786:000786_2 : 17:43:44:176: Refaire la peinture castration . 2
+17:44:000787:000787_3 : 17:43:47:663: Lyon . 3
+17:44:000788:000788_4 : 17:43:52:779: Open en charge des parties . 4
+17:44:000789:000789_1 : 17:43:55:791: Que . 1
+17:44:000790:000790_2 : 17:43:57:909: Mais tu es con trouver dans des produits Thiers qu'on a semblé avec un autre CRM la partie monitor achat par exemple . 2
+17:44:000791:000791_3 : 17:44:04:688: Un homme qui piloter la partie CRM proposé par reconnaissance . 3
+17:44:000792:000792_2 : 17:44:23:674: Quel sont tous les éléments de la STAC lesquels sont Open Source lesquels ont des contraintes . 2
+17:52:000793:000793_3 : 17:44:36:249: De tarification . 3
+17:52:000794:000794_1 : 17:44:46:499: Il est déjà fonctionnelle pour faire du mono mono service quand on installe 2 . 1

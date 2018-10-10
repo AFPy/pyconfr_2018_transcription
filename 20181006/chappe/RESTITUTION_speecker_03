@@ -1,0 +1,201 @@
+ 
+
+03_Progressive Web Apps : où en sommes-nous aujourd'hui ? Alexandra Janin
+
+
+
+11:00:000249:000249_4 : 11:00:00:268: Exemple qu'on veut pas que le prix des places 9000 . 4
+11:00:000250:000250_1 : 11:00:04:297: On peut pas faire avec dans ta classe a rien de il y a rien de fait pour dans dans ta classe à la main par exemple . 1
+11:00:000251:000251_2 : 11:00:13:407: J'ai pas de validateur . 2
+11:00:000252:000252_3 : 11:00:16:953: Zap son endroit . 3
+11:00:000253:000253_4 : 11:00:20:228: CTRI aussi il y a un autre viber Kinston sauf qui permet de vérifier que François c'est bien c'est bien du type qu'on a défini parce qu'en fait non dans ta classe a fait pas du tout ça parce que . 4
+11:01:000254:000254_1 : 11:00:34:385: Tu sais forfait quoi . 1
+11:01:000255:000255_2 : 11:00:37:808: On peut convertir aussi les petits pendant très typiquement typiquement c c UNAPEI et qu'en fait des fois le retour des trucs un peu bizarre avec mes goûts vous avez envie de toujours avoir des in toujours des flots . 2
+11:01:000256:000256_3 : 11:00:51:372: Bon bref pourquoi pourquoi pourquoi j'aurais e************** ta ta ta ta classe alors qu'il existe déjà et qui fait qui fait aussi bien de taf c'est mieux parce que il y a plein de Cyr en plus . 3
+11:01:000257:000257_4 : 11:01:05:477: Dans la tête d'un paragraphe juste pour ça . 4
+11:01:000258:000258_1 : 11:01:09:444: En fait ce qu'il faut savoir c'est que c'est que Éric quand il a fait quand il a fait dans ta classe si c'est vachement inspiré la terre il est même allé dans les dans les yeux qui avait été ouverte sur la terre et voilà il y a plusieurs années pour voir quelle décision était prise quelle est la quelle était la réflexion derrière . 1
+11:02:000259:000259_2 : 11:01:29:585: Pas d'autres typiquement le coude injecter les classes directement avec un avec un décorateur de classe ça vient en partie de la terre . 2
+11:02:000260:000260_3 : 11:01:38:021: Et en fait l'idée pourquoi pas juste activities à te taire parce que en fait toutes les filles sur en plus c'était pas forcément besoin d'une part et Piton de manière générale a vachement tendance à valoriser la simplicité . 3
+11:02:000261:000261_4 : 11:01:53:189: Du coup en fait ben voilà si vous avez besoin de faire des Data classe mais que mais que . 4
+11:02:000262:000262_1 : 11:02:02:064: Vainqueur tout ce que vous voulez faire vous pouvez le faire avec une attaque Las vous avez ça dans la liste standard . 1
+11:02:000263:000263_2 : 11:02:09:213: Ok ça marche je me dépêche très vite alors . 2
+11:02:000264:000264_3 : 11:02:14:822: Donc sur ton son entrée gangnam Dotcom qu'est-ce qui se passe si on avait voulu en avait une base mon bébé derrière par exemple il y a pas de son nez obligé de . 3
+11:03:000265:000265_4 : 11:02:30:846: On peut pas vraiment définir les champs à l'avance . 4
+11:03:000266:000266_0 : 11:02:36:974: Donc on pourra utiliser des dict mais c'est pas incroyable ça parce qu'on manque de type de type de orientée objet on peut pas savoir qu'est-ce qui est quoi on manque de partir on a pas la dotation peux pas faire... . 1
+11:03:000267:000267_3 : 11:02:58:133: Zouk la sé dicte mais bon c'est un peu dégueulasse . 3
+11:03:000268:000268_4 : 11:03:02:108: Il y a un truc s'appelle Simpson namespace qui est vachement intéressant . 4
+11:03:000269:000269_1 : 11:03:07:238: Chose que quand même t'appelle mais en plus permissif en mutable donc assez intéressant qui demande pas de définir les champs à l'avance donc là ça ça nous est pas mal le problème de simpel namespace et que on peut pas retourner sur des sites sur des type standard facilement . 1
+11:03:000270:000270_2 : 11:03:25:406: Des choses avant la est-ce qu'on peut pas avoir un peu mieux . 2
+11:03:000271:000271_3 : 11:03:29:973: Dans les mieux il y a box . 3
+11:03:000272:000272_4 : 11:03:34:111: Une livre moi je veux pas mettre dessus parce qu'il faut aller à intéressante mais la pousse très simple mais le problème c'est qu'elle est pas du tout performance d'habitude je regarde pas trop la performance m'en fiche un peu faim sera pas du Piton déjà . 4
+11:04:000273:000273_1 : 11:03:49:235: Donc c'est pas cool . 1
+11:04:000274:000274_2 : 11:03:53:928: Donc du coup . 2
+11:04:000275:000275_3 : 11:03:57:068: Pour pallier ça on écrit singi donc ça s'installe vite . 3
+11:04:000276:000276_4 : 11:04:03:195: D'avoir un truc un peu comme les simpson namespace mais avec quelques fissure en plus . 4
+11:04:000277:000277_1 : 11:04:09:313: Feuille à l'idée de Gioux cas c'est intéressant qui permet de définir pour une instance pour une classe comment on veut pouvoir la visualiser donc je définis une vue qui inclut m'apprécies total cost et ensuite en appelant item Dota . 1
+11:04:000278:000278_2 : 11:04:27:449: Faire un dicte . 2
+11:04:000279:000279_3 : 11:04:30:210: Qui a bien mal acquis bien m'a proposé de dans . 3
+11:05:000280:000280_0 : 11:04:34:020: Ça existe aussi pour mon bébé on a fait
+11:05:000281:000281_1 : 11:04:42:185: On fait un petit peu comme mongoengine mais beaucoup plus simple à utiliser et qui ça et surtout qui ne force pas à définir des champs . 1
+11:05:000282:000282_2 : 11:04:51:860: Voilà ces petits minets est-ce que data class Dépôt Quetigny en fait j'ai fait ce soir pour savoir ça la réponse sinon il y a mon avis y a de la place pour les deux est-ce que ça des prés quête les mêmes t'appelle franchement ouais arrêté du 16 . 2
+11:05:000283:000283_3 : 11:05:05:983: Est-ce que ça deprecated est-ce que l'alchimie je pense qu'il pourrait freebase sur sur les dans ta classe franchement ça serait sympa mais bon c'est vraiment un gros truc et je pense pas que ça va arriver mais . 3
+11:05:000284:000284_4 : 11:05:22:101: Pour avoir quelque chose qu'elle masculin qui me tombe dessus appareil pour marshmallow . 4
+11:09:000285:000285_1 : 11:05:27:802: Question que je vais laisser à vous c'est est-ce que ça des prés Kate classe du même . 1
+11:09:000286:000286_2 : 11:05:33:803: Merci . 2
+11:09:000287:000287_3 : 11:05:37:930: Moi du coup j'imagine qu'on a pas de temps pour question . 3
+11:10:000288:000288_1 : 11:09:36:171: Ça marche . 1
+11:10:000289:000289_2 : 11:09:57:287: Bonjour Mon cœur . 2
+11:10:000290:000290_3 : 11:10:07:479: Première qu'on est donc je vous parler des progressive Web App . 3
+11:10:000291:000291_4 : 11:10:14:619: Est-ce que est-ce que progressive Web Apps tout le monde sait ce que c'est est-ce que ça parle à tout le monde . 4
+11:10:000292:000292_1 : 11:10:21:565: Qui en a déjà fait . 1
+11:11:000293:000293_2 : 11:10:24:666: Donc je vais je vais avoir présenté un peu ce que c'est que les PWA pour faire un petit rappel rapidement ensuite je vais parler de la personnalisation du taf et après on rentre plus dans la pratique avec des exemples de code donc . 2
+11:11:000294:000294_3 : 11:10:45:803: Les différents modes de stockage des données ensuite voir box qui est un outil pour générer des service worker et enfin les notifications push . 3
+11:11:000295:000295_4 : 11:10:55:179: Alors le marché mobile aujourd'hui il est divisé en trois catégories lancer les applications natives hybride qui sont dispo sur les stores et les applications Web que tout le monde connaît alors qu'est-ce que les PWA ? . 4
+11:11:000296:000296_1 : 11:11:12:315: C'est une application qui va répondre à certains critères donc ces critères c'est la performance la disponibilité . 1
+11:11:000297:000297_2 : 11:11:20:432: Expérience similaire aux applications natives donc voilà installé accès au GPS application . 2
+11:11:000298:000298_3 : 11:11:28:578: PWA en fait c'est un terme marketing a été inventé pour promouvoir une façon de concevoir des sites web . 3
+11:12:000299:000299_0 : 11:11:35:253: Et après ça reste Classique. Alors quelques exemples rapidement donc l'application Starbucks . 4
+11:12:000300:000300_0 : 11:11:43:374: Parce qu'on va avoir un vent de d'installation sur mobile et on va pouvoir avoir la petite icône qui qui va s'afficher on va démarrer. Autre exemple: site de l'équipe . 1
+11:12:000301:000301_2 : 11:11:56:507: À proposer une pile 12V à . 2
+11:12:000302:000302_3 : 11:12:00:594: Comment savoir si un site est une PWA: uqui s'appelle disponible dans les . 3
+11:12:000303:000303_0 : 11:12:01:594: Y a une appliq dans C
+11:12:000304:000304_4 : 11:12:08:715: Mesurer la performance l'accessibilité . 4
+11:12:000305:000305_1 : 11:12:09:715: I Pour avoir une note sur 100 pour chacun de ces critères . 1
+11:12:000306:000306_2 : 11:12:20:014: Définir si on est progressive webapp ou pas . 2
+11:13:000307:000307_3 : 11:12:24:833: Alors qu'elle avantage donc par rapport aux application hybride et natives c'est qu'on va avoir une meilleure gestion des mises à jour logiciel distribution simplifié parce que l'application sera disponible directement via navigateur technologie . 3
+11:13:000308:000308_4 : 11:12:41:962: Donc même les intégrateurs vont pouvoir développer des PWA donc pas besoin d'avoir des une équipe de développeurs dédié par plateforme . 4
+11:13:000309:000309_1 : 11:12:52:516: Par contre il y a encore des inconvénients sais que c'est encore assez mal supporté par Safari . 1
+11:13:000310:000310_2 : 11:12:58:652: IOS mais c'est pas non plus le la techno la plus adaptée si on a des une application cartographie audio vidéo . 2
+11:13:000311:000311_4 : 11:13:12:801: Alors la compatibilité aujourd'hui elle essentiellement basée sur est-ce que ça supporter service worker donc je vais développer après la partie service Worker. 4
+11:13:000312:000312_1 : 11:13:25:078: Ça marche pas si l'on pourra faire une petite fille qui s'appelle is-service-ready. 1
+11:13:000313:000313_2 : 11:13:32:203: Compatibilité de chaque navigateur . 2
+11:14:000314:000314_0 : 11:13:37:323: Alors au niveau du thème donc ça ça te fait avec un fichier qui s'appelle manifest.json qui va être placé à la racine et on va pouvoir . 3
+11:14:000315:000315_4 : 11:13:50:436: Polygone le nom de l'application le style . 4
+11:14:000316:000316_1 : 11:13:54:573: On va voir aussi personnaliser touc ça avec des balises link donc ça fait un peu près la même chose mais . 1
+11:14:000317:000317_2 : 11:14:03:690: Safari Disco le manifeste il est utilisé principalement par . 2
+11:14:000318:000318_3 : 11:14:10:810: Donc le manifeste il va marcher que sur webkit. 3
+11:14:000319:000319_4 : 11:14:26:345: Donc sur sur Safari utiliser les balise link donc ça on a un petit qui s'appelle PWA qui permet de faire . 4
+11:15:000320:000320_1 : 11:14:38:488: Ça va nous générer les valises ligne quand . 1
+11:15:000321:000321_2 : 11:14:41:983: Car on va pouvoir définir le nom la couleur et ensuite on peut vérifier que le manifeste est bien configuré dans l'onglet chrome application manifest . 2
+11:15:000322:000322_3 : 11:14:54:238: Et après le bandeau d'installation on choisit pas de le mettre ou pas ces navigateurs qui l'affiche tout seul si jamais on rentre bien, c'est un bon critère. 3
+11:16:000323:000323_4 : 11:15:06:151: Donc ces critères c'est que le manifeste soit bien complet que l'application fonctionne HTTP est-ce que il y a un service worker qui intercepte des requêtes et que là ce soit pas installé si jamais le bandeau s'affiche pas on a un petit bouton dans l'onglet manifeste qui va permettre de vérifier pourquoi ça s'affiche pas, et on aura des erreurs dans la console qui vont nous dire pourquoi. 4
+11:16:000324:000324_2 : 11:15:35:500: Alors le service worker donc le rôle du service worker c'est de répondre aux critères de disponibilités donc c'est ce qui va nous aider application disponible hors ligne . 2
+11:16:000325:000325_3 : 11:15:50:623: Y a 3 concepts a retenir du SW; C'est un thread qui tourne en arrière plan en fait c'est juste principe darker . 3
+11:16:000326:000326_4 : 11:15:57:754: Ensuite le service voir car il va avoir le rôle de proxy il va permettre intercepter des requêtes et de répondre . 4
+11:16:000327:000327_1 : 11:16:07:896: Il va faire mettre de communiquer avec le skate principale du site et il fonctionne en HTTPS pour des raisons de sécurité bien sûr parce que il y a le rôle de SI . 1
+11:16:000328:000328_2 : 11:16:19:032: Alors comment ça marche donc la première étape ça consiste à déclarer le SW donc avec register donc on vérifie d'abord s'il . 2
+11:16:000329:000329_3 : 11:16:34:156: Si c'est le cas on ne déclare registers je vais montrer plusieurs exemples de corde à chaque fois je vais suis si fier dans quel fichier se trouve . 3
+11:17:000330:000330_4 : 11:16:45:306: Donc c'est bien deux fichiers distincs . 4
+11:17:000331:000331_1 : 11:16:50:279: Registers donc c'est tout fonctionne parce qu'on aille . 1
+11:17:000332:000332_0 : 11:16:54:837: Donc y a ce qu'on appelle le cycle de vie du service Worker. On va passer par plusieurs étapes: donc première étape il va s'installer ensuite il va s'activer ou par heure si jamais . 2
+11:17:000333:000333_3 : 11:17:06:978: Activez il va passer en mode Lidl en mode . 3
+11:17:000334:000334_4 : 11:17:13:087: Écris en tâche de fond tout le temps va pouvoir fermer l'onglet il fera toujours actif sur mobile on peut même fermer l'application . 4
+11:17:000335:000335_1 : 11:17:23:217: Un démon qui tourne en tâche de fond et c'est ce qui va permettre d'afficher des notification . 1
+11:18:000336:000336_2 : 11:17:30:342: Il va pouvoir intercepter des événements comme fetch et message . 2
+11:18:000337:000337_3 : 11:17:36:144: d'ans l'onglet chrome application on a une partie service worker qui permet de voir dans quel état se trouve d'activation en tâche de fond, activation, etc . 3
+11:18:000338:000338_4 : 11:17:52:272: Une fois qu'il est qui tourne on va pouvoir écouter des Evenements . 4
+11:18:000339:000339_1 : 11:17:59:409: c'est notamment lors de ces événements qu'on va pouvoir se mettre en cache des données . 1
+11:18:000340:000340_2 : 11:18:07:595: Ensuite il va pouvoir écouter des requêtes donc avec le vêtement fait et à ce moment là on va pouvoir répondre . 2
+11:18:000341:000341_3 : 11:18:16:734: Et on va remettre en paramètre plusieurs choses donc soit un objet response. 3
+11:18:000342:000342_4 : 11:18:25:864: un élément du cash avec catches match donc on va pouvoir récupérer l'élément qui correspond à la ressource . 4
+11:19:000343:000343_1 : 11:18:36:698: Rediriger vers une autre source avec un autre fête . 1
+11:19:000344:000344_2 : 11:18:41:791: Dernier dernier rôle du service worker il va pouvoir communiquer avec le js du site . 2
+11:19:000345:000345_3 : 11:18:48:928: Communiquez pas connaître l'état savoir si l'utilisateur a effectué des actions . 3
+11:19:000346:000346_4 : 11:18:57:055: Alors le stockage des données donc il y a plusieurs méthodes dans les navigateurs pour stocker des choses . 4
+11:19:000347:000347_4 : 11:19:25:552: WebSQL est une api dépréciée . 4
+11:20:000348:000348_1 : 11:19:39:678: Principalement pour stocker les states mais aussi tout faire en fait . 1
+11:20:000349:000349_2 : 11:19:46:797: IndexDb est intéressant aussi on va s'en servir pour stocker les données de l'application . 2
+11:20:000350:000350_3 : 11:19:53:895: Unique qui s'appelle water melon DB qui va être une alternative à Redux message ok . 3
+11:20:000351:000351_4 : 11:20:04:030: Mémo faire mon navigateur on va pouvoir venir on va retrouver le stade de l'application contrairement à Redux . 4
+11:20:000352:000352_1 : 11:20:12:663: Vous avez c c redit peu compliqué disais ce que c'est une sorte de base de données un peu bizarre donc en général . 1
+11:20:000353:000353_2 : 11:20:21:774: Action . 2
+11:20:000354:000354_3 : 11:20:24:918: J'ai pas montrer l'exemple d'un bébé parce que c'est un peu compliqué j'aurais voulu . 3
+11:20:000355:000355_4 : 11:20:32:058: Rebirth et l'espace disponible . 4
+11:20:000356:000356_1 : 11:20:36:169: Chrome et firefox . 1
+11:21:000357:000357_2 : 11:20:39:306: Fonction . 2
+11:21:000358:000358_3 : 11:20:46:436: Chrome et firefox on est limités a un quota pourcentage de l'espace disponible sur l'appareil . 3
+11:21:000359:000359_4 : 11:20:56:558: Sur Safari limité à 50 Mo de stockage donc c'est très peu surtout si on a une application avec des médias de la vidéo de l'audio c'est pour ça qu'on va sur Safari . 4
+11:21:000360:000360_1 : 11:21:09:682: Donc je parlais tout à l'heure de l'abbaye FileSystem qui est dispo que sur chrome pour le moment l'avantage c'est qu'on va pouvoir utiliser la côte à management de sa pays qui va permettre détendre cet espace disponible on va pouvoir . 1
+11:22:000361:000361_2 : 11:21:26:815: Qui souhaitent facile acceptes que notre application prennent plus de place donc on va pouvoir aller jusqu'à tout l'espace qui l'a disponible sur l'appareil . 2
+11:22:000362:000362_3 : 11:21:37:465: Alors je vais parler du cash . 3
+11:22:000363:000363_4 : 11:21:42:607: On appelle des stratégies cache donc c'est le scénario qu'on met en place pour stocker les données selon selon les types de données stockées l'application qu'on fait on va voir différentes stratégies possibles . 4
+11:22:000364:000364_1 : 11:21:58:709: Active . 1
+11:22:000365:000365_2 : 11:22:03:835: Ensuite d'abord par le cache et si c'est pas dispo il va répondre . 2
+11:22:000366:000366_3 : 11:22:09:950: Intercept l'événement fetch puis . 3
+11:22:000367:000367_4 : 11:22:19:077: Cash machine qui se trouve un élément correspondant à la ressource pour rechercher la renvoie si on a pas il va faire la requête fetch . 4
+11:23:000368:000368_1 : 11:22:29:684: Y a une autre Stratégie qui s'appelle network first c'est principalement utilisé pour des données qu'on souhaite avoir plus souvent un jour ce que cache sais plus . 1
+11:23:000369:000369_2 : 11:22:40:819: Pour les ressources tu peux le lien html css images des des choses qui changent pas très souvent . 2
+11:23:000370:000370_3 : 11:22:51:951: Voilà de réseaux sociaux donc le code voilà c'est un peu similaire mais juste qu'on va faire le fait en premier puis s'il échoue . 3
+11:23:000371:000371_4 : 11:23:05:081: Aller chercher ce qui se trouve dans le cache . 4
+11:23:000372:000372_1 : 11:23:09:703: Après il y en a un autre il y en a une autre stratégie qui est pas mal utilisé ça s'appelle le style validate . 1
+11:23:000373:000373_2 : 11:23:17:836: On fait quand même la requête sur le réseau pour avoir des données en cache toujours fraîche après il y a plein d'autres stratégie . 2
+11:23:000374:000374_3 : 11:23:26:984: Mon conseil . 3
+11:23:000375:000375_4 : 11:23:31:113: Jake Archibald développeur de chez Google qui fait vraiment plein de choses pour les . 4
+11:23:000376:000376_1 : 11:23:37:259: Nokia toutes les stratégies qui sont ici sur cet article . 1
+11:24:000377:000377_2 : 11:23:43:221: Une dernière paramètres en prenant compte quand on fait des . 2
+11:24:000378:000378_3 : 11:23:51:349: Mise à jour . 3
+11:24:000379:000379_4 : 11:23:53:468: Fin de versionning pour donner un nom pour pouvoir changer de nom quand on souhaite que l'utilisateur et une nouvelle version des données . 4
+11:24:000380:000380_1 : 11:24:04:332: Alors va voir en fait tous les tous les exemples de code que je viens de montrer mes service worker tout ce qui est pour gérer le cache tout ça en général on a pas besoin de le faire un ami qui s'appelle WorkBox. 1
+11:24:000381:000381_2 : 11:24:23:458: Appeler service worker Precache et service worker Toolbox donc tous ses outils ça a été fait par Google . 2
+11:24:000382:000382_3 : 11:24:23:458: Braquage son déprécier maintenant tout est en manque et ça va permettre de faire plein de choses perdues en fait c'est la mise en cache des données . 3
+11:25:000383:000383_4 : 11:24:43:760: Le versionning automatique . 4
+11:25:000384:000384_1 : 11:24:48:899: De générer automatiquement la liste des ressources . 1
+11:25:000385:000385_2 : 11:24:54:046: Comment ça marche pas grave en fait c'est très simple il y a plusieurs méthodes pour l'installer il faut utiliser soit . 2
+11:25:000386:000386_3 : 11:25:06:202: Et ensuite on a juste un fichier de config qui permet de dire ce qu'on veut faire avec notre application . 3
+11:25:000387:000387_4 : 11:25:15:323: Ca c'ets un exemple de fichier de Config workbox . 4
+11:25:000388:000388_1 : 11:25:18:476: Il y a pas grand-chose et on va venir par exemple dans une dame cachez nous on va dire pour cette ressource je veux . 1
+11:25:000389:000389_2 : 11:25:27:657: Juste à dire je vais essayer de protéger et ensuite il va le faire tout seul donc tout ce que j'ai mon traiteur avec tout ça . 2
+11:26:000390:000390_3 : 11:25:37:789: Ensuite les notifications push . 3
+11:26:000391:000391_4 : 11:25:47:294: Pour pour commencer justifier . 4
+11:26:000392:000392_0 : 11:25:52:413: Push API notification API
+11:26:000393:000393_0 : 11:25:59:543: Le push c'est d'Envoyer un message au service worker donc c'est invisible de l'utilisateur. notification API c'est ce qui permet d'afficher un message sur navigateur par l'utilisateur . 2
+11:26:000394:000394_3 : 11:26:12:664: Alors comment ça marche les notifications pour que ça on a besoin d'un serveur d'application ou alors provider qui va permettre de piloter l'envoi des messages donc c'est là qu'on va venir écrire les messages et les envoyer ensuite . 3
+11:26:000395:000395_4 : 11:26:29:809: Est-ce qu'il va délivrer le message au navigateur on n'a pas les mêmes . 4
+11:27:000396:000396_1 : 11:26:36:965: Elisa radio qui va nous donner cette information la donc un service de messagerie par navigateur . 1
+11:27:000397:000397_2 : 11:26:43:971: Et enfin on a une heure avec un service tu vas souffrir au service de messagerie . 2
+11:27:000398:000398_3 : 11:26:51:107: La première étape ça consiste demandez la permission à l'utilisateur ensuite s'il accepte . 3
+11:27:000399:000399_0 : 11:27:03:245: Avec subscribe. On reçoit une clé d'identification qui s'appelle VAPID . 4
+11:27:000400:000400_1 : 11:27:12:387: Ça permet d'identifier le client . 1
+11:27:000401:000401_2 : 11:27:17:525: Pour savoir vraiment qui on s'adresse et que le message soit passée ta manière . 2
+11:28:000402:000402_3 : 11:27:23:770: Achète le service de messagerie donc ça c'est propre à chaque navigateur donc sms . 3
+11:28:000403:000403_4 : 11:27:33:907: C2C de services sont tombés sur la bouche donc c c standard ensuite on en a un spécifique pour windows mobile et aussi fic pour ça . 4
+11:28:000404:000404_1 : 11:27:45:985: Dernière chose, on a besoin d'un serveur d'applications qui va permettre d'envoyer des messages donc ça on peut le faire soi-même . 1
+11:28:000405:000405_2 : 11:28:00:114: Une qui propose ses services donc on peut le faire par exemple dans tous les langages . 2
+11:28:000406:000406_4 : 11:28:11:402: Après il y a des livres aussi qui font qui font un peu une abstraction faite . 4
+11:28:000407:000407_1 : 11:28:17:565: Genre d'application . 1
+11:28:000408:000408_2 : 11:28:20:706: Soit autoroute sois à Safari est éteint donc vu que . 2
+11:29:000409:000409_3 : 11:28:28:449: Vu que les deux premiers sont plutôt sont standards et basés sur sur L'API Push pas de problème par contre si on veut s'adresser à Safari on va devoir développer une fois pour la payer une fois pour safari donc il y a des livres qui permettent de faire une abstraction et ensuite . 3
+11:29:000410:000410_0 : 11:28:49:585: À la fois pour appeler Inès et à la fois. . 4
+11:29:000411:000411_1 : 11:28:54:863: Un petit exemple avec un petit était content de savoir touche avec paille s m donc on dit que la clé qui permet d'identifier le client . 1
+11:29:000412:000412_2 : 11:29:05:995: Un message le titre . 2
+11:29:000413:000413_3 : 11:29:09:146: P'tit récap de comment ça se passe . 3
+11:29:000414:000414_4 : 11:29:14:373: Pour première étape le client télécharge l'application et installe le service worker 2e étape service . 4
+11:29:000415:000415_1 : 11:29:27:503: Troisième étape service worker envoie l'objet d'identification un serveur 4e étape le serveur transmet un message ou service et 5e étage service . 1
+11:30:000416:000416_2 : 11:29:39:633: Service . 2
+11:30:000417:000417_3 : 11:29:41:771: Dans les services de push . 3
+11:30:000418:000418_4 : 11:29:48:916: One Signal: C'est tout en ligne on a juste un petit script à poser c c c super quand même les marques de tout ça ils peuvent utiliser c'est super sympa les . 4
+11:30:000419:000419_1 : 11:30:01:062: PushCrew C'est aussi en ligne tous fait automatiquement ou genre c'est plus unique qui permet Pusher c'est une lib qui permet de créer son propre service de bouche . 1
+11:30:000420:000420_2 : 11:30:11:214: Coffret y en a d'autres mais c'est le plus connu . 2
+11:30:000421:000421_3 : 11:30:15:129: Pour conclure est-ce que est-ce qu'on doit utiliser les PWA oui et non ça dépend donc les avantage c'est que . 3
+11:30:000422:000422_4 : 11:30:29:264: Tube d'application . 4
+11:30:000423:000423_1 : 11:30:32:400: A condition qu'on n'ait pas trop d'Audio à gérer les choses comme ça ou hormis la cartographie . 1
+11:31:000424:000424_2 : 11:30:38:559: Pourquoi ne pas le faire voilà ça va vite on a juste une pose voir ma pause on pose le manifeste . 2
+11:31:000425:000425_3 : 11:30:46:707: Les contres c'est si notre site principal sérieux IE . 3
+11:31:000426:000426_4 : 11:30:51:830: J'ai mis mes toutes les ressources à la fin . 4
+11:32:000427:000427_1 : 11:31:02:046: Chaussures équitables . 1
+11:32:000428:000428_2 : 11:31:04:502: Si vous avez des questions . 2
+11:32:000429:000429_4 : 11:31:41:402: Alors la question c'est si j'ai déjà fait des fois récit webapp les choses qui ont marché les choses qui ont pas marché alors en fait j'ai fait la presse mais malheureusement j'en ai jamais fait en vrai . 4
+11:32:000430:000430_1 : 11:31:59:551: Désolé . 1
+11:32:000431:000431_2 : 11:32:02:354: Tu veux dire le serveur sur lequel on fait la question c'est est-ce que voir vous permet de choisir la source pour aller chercher . 2
+11:32:000432:000432_3 : 11:32:36:519: Tu veux dire le . 3
+11:33:000433:000433_4 : 11:32:39:657: Je pense oui . 4
+11:33:000434:000434_1 : 11:32:39:657: En fait selon l'axe . 1
+11:33:000435:000435_2 : 11:32:55:556: Hunger je sais pas . 2
+11:33:000436:000436_3 : 11:32:59:641: La le . 3
+11:34:000437:000437_4 : 11:33:02:785: C'est la Roquette donc tu dis pas pour celle requête je veux utiliser ta méthode mais tu peux pas le point d'entrée c'est le Caylar qu'est-ce qui est faite tu peux pas choisir enceinte m'en . 4
+11:38:000438:000438_2 : 11:33:28:343: Alors la question c'est est-ce que Apple prévoit de supporter les progressive Web App . 2
+11:38:000439:000439_3 : 11:33:34:476: Il le support déjà en fait depuis la version 11 depuis mars mars 2018 il y a des points qui font pas encore tout à fait par exemple sur sûr qu'on va pouvoir masquer la barre de navigation avoir du plein écran sur iOS ça marche pas très bien encore mais tu peux quand même avoir une app . 3
+11:38:000440:000440_4 : 11:33:57:617: Le cachot sinon ça permet déjà d'avoir une application et l'avoir hors-ligne ça ça marche . 4
+11:38:000441:000441_1 : 11:38:21:985: Darty . 1
+
+  

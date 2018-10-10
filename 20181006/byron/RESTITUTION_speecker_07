@@ -1,0 +1,177 @@
+
+ 
+
+07_Python 2 to Python 3 Mathilde Ziboura, Philippe Boulanger 
+
+16:33:001295:001295_2 : 16:27:15:281: C'est bon . 2
+16:33:001296:001296_2 : 16:31:11:994: Bonjour à tous est-ce que tout le monde m'entends . 2
+16:33:001297:001297_0 : 16:31:26:954: C'est super donc on va vous parler de la migration de
+16:33:001298:001298_4 : 16:32:42:337: Ça fait 19 ans aujourd'hui que je travaille en PI . 4
+16:33:001299:001299_4 : 16:32:51:764: Je vais vous parler de pourquoi c'est intéressant parler de passer en Python 3 . 4
+16:33:001300:001300_1 : 16:33:02:376: Tout d'abord ce qui est important de savoir c'est que la plupart des grosses boîtes qui utilise python contraint ont déjà migrer vers la version Python 3 non par exemple on vient d'apprendre que Dropbox . 1
+16:34:001301:001301_2 : 16:33:15:504: a fini sa migration en Septembre de cette année mais ils ont mis 3 ans à migrer . 2
+16:34:001302:001302_0 : 16:33:21:721: on a sur Instagram a migré aussi son projet ver piéton. . 3
+16:34:001303:001303_4 : 16:33:28:723: Tout d'abord pourquoi il faut vraiment passé à Python 3 . 4
+16:35:001304:001304_7 : 16:33:33:934: python2.7 l'arrêt du support est prévu pour le 1er janvier 2020 ça veut dire que après ça il y aura plus de patch de sécurité y aura plus de mise à jour sur Python 2.7 donc il y a pas mal d'extension qui ont dit bah si ça s'arrête on va pas continuer à développer pour ce soit compatible avec Python deux noms par exemple jangot la version 2.0 Un homme qui est-ce qui qui ont décidé qu'ils arrêtent leur support le 1er janvier 2019 donc c'est quand même bientôt et après il y a d'autres exemples . 2
+16:35:001305:001305_3 : 16:34:07:342: Arrivée de Python 4 . 3
+16:35:001306:001306_4 : 16:34:10:491: Possiblement prévu pour 2023 la seule chose à laquelle il faut penser c'est que même si la migration 3 à 4 devrait être le même jour de migration que de 1 à 2 qui devrait pas y avoir de coupure ce sera quand même plus facile de passer de la de python 3 a 4 . 4
+16:35:001307:001307_1 : 16:34:32:106: Qu'est-ce qui est intéressant Nantes 83 tu vas voir c'est l'apparition l'utilisation vraiment de la programmation asynchrone donc pour ceux qui sont allés à la . 1
+16:35:001308:001308_2 : 16:34:44:239: Chaque matin du coup vous avez pu en voir un peu plus donc je sais pas non plus m'attarder dessus et pour ma part je trouve que python3 est quand même beaucoup plus cohérent donc on peut je vous en parle encore apres. 2
+16:36:001309:001309_3 : 16:34:59:366: Parle après mais ça passe donc par la généralisation des générateurs au lieu d'utiliser des conteneurs donc ça c'est un peu compliqué à comprendre une phrase comme ça mais je vous montrerai des examples tout à l'heure lol si l'utilisation de la programmation fonctionnelle en c'était déjà présent python 2 mais pas très utilisé comme ça . 3
+16:36:001310:001310_0 : 16:35:22:490: differences entre 2 et 3
+16:36:001311:001311_1 : 16:35:25:614: Tout d'abord il y a le prince comme la plupart du temps c'est ce qu'on pense quand on entend sa différence c'est que prince au lieu d'être une instruction de Vienne une fonction pour moi ça fait partie de la cohérence on appelle print . 1
+16:36:001312:001312_2 : 16:35:38:302: Dans le même ordre d'idée se rêve du coup qui . 2
+16:36:001313:001313_3 : 16:35:44:426: C'est le même principe en devrais l'utiliser avec parenthèses pour faire ça il y a aussi le longue donc en python 2 on a le type de variable int donc des entier mais il y a aussi le type de variable long des entiers long très long en Python 3 le longue disparaît parce qu'en fait le int devient long par default . 3
+16:37:001314:001314_5 : 16:36:06:540: Différence d'un marché sur la queue en python 2 lorsqu'on fait 5 divisé par 2 ça ne ressors de moi je trouve que c'est pas très logique quand on fait 5 / 2 je préfère que ça me sorte 2.5 et que si je vais la partie entière C15 avec double . 4
+16:37:001315:001315_1 : 16:36:24:753: Notre différence c'est par rapport au string . 1
+16:37:001316:001316_2 : 16:36:32:309: Un python 2 on avait Unicode et STR en Python 3 le str donc c'est le par défaut on aura de l'Unicode ensuite ce qui est str du coup de viendra du bac . 2
+16:37:001317:001317_3 : 16:36:46:771: Une autre de la différence que je trouve assez cohérente . 3
+16:37:001318:001318_0 : 16:36:53:911: Je parlais de conteneurs et j'ai le générateur sais que notre dict.item() au lieu de renvoyer un corner donc une liste nous renvoie un générateur de type dict.item . 4
+16:38:001319:001319_0 : 16:36:54:911: Qui t'aime je récupère un dict.item . 1
+16:38:001320:001320_0 : 16:37:10:216: Dans le même ordre d'idée du coup le dict.iteritems disparaît parce que du coup on en a plus besoin de dict.iteritem en gros c'est le dit qu'il t'aime de Python 3 . 2
+16:38:001321:001321_3 : 16:37:21:347: Et enfin les dernières différence entre Piton de et puis ça que je voulais aborder donc c'est par rapport à la joconde Unicode comme je vous disais du coup par défaut chaîne de caractère Unicode donc on a plus besoin de rajouter . 3
+16:38:001322:001322_4 : 16:37:40:470: En revanche devant le chaine doctets faudra qu'on rajoute un B pour les transformer . 4
+16:38:001323:001323_1 : 16:37:46:368: Donc dans le même ordre d'idée à chaque fois qu'on aime qu'on appelle instructions Yoni code pour avoir des yo Nikon on en a plus besoin puisque ça en ai déjà parlé fort et les méthodes de classe année code aussi elles elles sont remplacés par les méthodes de classe str c'est la même chose . 1
+16:39:001324:001324_2 : 16:38:02:502: Ça implique aussi que les strings io son appel . 2
+16:39:001325:001325_3 : 16:38:07:625: L'aspect financier donc quand python3 est arrivé ça coûte quand même assez cher pour les entreprises de passer à piéton 3 sachant que . 3
+16:39:001326:001326_4 : 16:38:26:751: Oui ça sachant que c'était pas forcément nécessaire python3 ce début était pas aussi performant que aujourd'hui donc beaucoup d'entreprises sont restés sur Python deux donc . 4
+16:40:001327:001327_0 : 16:38:40:867: Avec ma vie sans toi quand même devenu très performant et la plupart de ceux qui n'étaient pas compatibles vous débutez ton trois laits devenus maintenant donc il y a pas de raison de ne pas passer un piéton. . 1
+16:40:001328:001328_2 : 16:38:53:418: Par contre si on souhaite rester en python 2 là ce qu'il va coûter de l'argent maintenant c'est justement de me faire des patchs de sécurité il faudra engager des gens pour le faire ou mettre des gens dessus ou alors payer de l'entreprise pour le faire à notre place de même que pour tout ce qui est la maintenance tout ce qui est la mise à jour des nouvelles des nouvelles . 2
+16:40:001329:001329_6 : 16:39:10:527: Il faudra dans le temps de faire les câbles mètre de payer des gens dessus donc peut-être que vous opéra personne tout de suite pour migrer mais dans la dans la dépense beaucoup plus d'argent pour rester en python 2.6 . 3
+16:40:001330:001330_4 : 16:39:23:638: Enfin du coup vous n'êtes pas convaincu c'est un peu un graphique pour montrer comment a évolué la l'utilisation python 3 en 2014 la tout au fond il y avait à peu près 20 /:/ des projets qui était en python toi ça veut dire que beaucoup de gens sont restés sur Python de haut débit ensuite . 4
+16:41:001331:001331_6 : 16:39:48:413: Recette de l'année dernière 75 /:/ des projets sont passés en Python 3 et surtout la plupart des projets scientifiques sont passés 3.6 alors que les projets de web sont restés . 1
+16:41:001332:001332_2 : 16:40:04:535: Qu'est-ce que c'est un pic c'est un pic si vous vous faites des migrations vous êtes doué là-dedans vous avez encore du boulot à faire parce qu'il y a encore pas mal de gens qui ont besoin de vos s'applique aussi que si vous avez besoin de migrer communauté active . 2
+16:41:001333:001333_3 : 16:40:21:653: Maintenant Philippe va vous parler de qu'est-ce qu'il faut mettre en place pour faire une bonne migration . 3
+16:41:001334:001334_4 : 16:40:28:277: Donc là la première chose c'est comment est-ce qu'on peut savoir que nôtre migration elle elle fonctionne et qu'elle est achevé ma il faut pour savoir un certain nombre d'indicateurs es la seule façon d'avoir des indicateurs . 4
+16:41:001335:001335_1 : 16:40:41:712: C'est d'avoir une couverture de tests qui nous permette d'avoir ces indicateurs donc le but c'est de mettre en place dans un premier temps des tests unitaires si vous en avez pas et je connais beaucoup de projets qui n'en n'ont pas malheureusement ben les tests unitaires permet de tester les fonctions une à une . 1
+16:41:001336:001336_2 : 16:41:02:649: toutes ces apis soit bien couverte et garantir que lorsqu'on sera la migration celles-ci n'ont pas été corrompu . 2
+16:41:001337:001337_0 : 16:41:12:369: La 2e partie c'est de mettre des tests fonctionnels. un test fonctionnel c'est beaucoup plus compliqué un ensemble de fonction qui sont appelés les unes derrière les autres pour vous fournir une fonctionnalité et donc là il faut aussi essayer d'avoir le maximum de tests fonctionnels disponible et automatisé pour éviter . 3
+16:43:001338:001338_4 : 16:41:33:484: Un travail très laborieux pour pouvoir tester l'application avant de rentrer en face de production . 4
+16:43:001339:001339_1 : 16:41:42:316: Donc il faut pas oublier que plus vous avez fonctionnalité dans votre logiciel . 1
+16:43:001340:001340_2 : 16:41:50:638: plus Vous allez avoir besoin . 2
+16:44:001341:001341_4 : 16:41:57:275: Caisse fonctionnelle pas si vous allez avoir plein de cas particulier algérien de test . 4
+16:44:001342:001342_1 : 16:42:03:146: Il faut faire attention il y a deux grandes catégories de test fonctionnel il y a ceux qui peuvent passer via les api et il y a ceux qui ne peuvent passer que par l'utilisation d'une interface graphique et donc là pour vous aider sur les . 1
+16:44:001343:001343_2 : 16:43:14:105: Qui permettent de valider que vous êtes bien rentrés dans toutes les portions de votre code ou au moins vous en donner une métrique kivu10 vous allez tester 50 /:/ 60 /:/ 70 /:/ de votre code et ceci vous allez l'utiliser en parallèle déteste vous avez précédemment fait et ça va vous donner un indicateur de la fiabilité de ce que vous avez mis en place . 2
+16:44:001344:001344_3 : 16:43:36:952: D'après moi si vous êtes a moins de 60 /:/ de teste le passage en production vous avez quand même des gros risques . 3
+16:44:001345:001345_4 : 16:43:47:086: Vous allez avoir des problèmes et en général les clients sont pas très content un objectif sain et d'atteindre environ 80 /:/ la vous partez avec une bonne espérance que vous avez pas trop de problèmes caché . 4
+16:44:001346:001346_1 : 16:43:59:211: Et donc je vais passer la main. 1
+16:44:001347:001347_2 : 16:44:03:874: les tests dont je vais vous parler c'est justement des tests dans le trafic Philippe on peut utiliser des outils St . 2
+16:44:001348:001348_3 : 16:44:14:000: Et aussi c'est important automatiser les tests que l'utilisateur va faire . 3
+16:45:001349:001349_4 : 16:44:21:676: Un Citya si les tests humain parce que nous entendre développeurs on va faire on a testé ce qu'il fonctionne on va vérifier que tout ce qu'on a pensé ça fonctionne comme on a espere sauf qui aussi quand même le mans tirage aléatoire ça veut dire que nous on peut dire . 4
+16:45:001350:001350_1 : 16:44:39:847: Attesté par quelqu'un derrière ça Quimper quand même quelque chose pour vérifier quoi c'est important . 1
+16:45:001351:001351_2 : 16:44:48:442: phillipe va parler du périmètre . 2
+16:45:001352:001352_3 : 16:44:54:494: Par le gros dangers dans une migration c'est souvent le périmètre . 3
+16:45:001353:001353_4 : 16:44:58:721: Orla je vous raconter une histoire qui me réellement arrivé il y a quelques années j'ai travaillé dans une grande société qui m'a embauché pour faire une migration logiciel d'un logiciel dont les développements avais démarre en 89 donc vieux logiciel avec un gros une grosse dette technique est le but c'était de changer qui était de compilateur. 4
+16:46:001354:001354_1 : 16:45:20:839: On parle de ceux compilateur voilà Visual Studio si ce qu'il faut changer absolument pas ce que nos clients son sosie . 1
+16:46:001355:001355_2 : 16:45:28:969: Donc j'en pose la question moi votre logiciel il fait quoi donc là on commence à m'expliquer que ça ne logiciel etc une interface graphique ok pas de souci . 2
+16:46:001356:001356_0 : 16:45:42:090: Il y a deux choses la façon mode MS-DOS avec
+16:46:001357:001357_4 : 16:45:53:226: D'accord . 4
+16:46:001358:001358_1 : 16:45:56:328: Je commence à avancer un petit peu dans dans la migration au bout de quelques mois et là on se rend compte que il y a des bibliothèques externe qui était utilisé et qui était sous licence qu'il fallait renouveler qu'il fallait racheter les nouvelles versions sept à huit oubliés . 1
+16:47:001359:001359_2 : 16:46:12:924: On commence à rentrer en production bout d'un an de travail et là on a on envoie chez nos premiers clients et nos produits qui le dis ça marche . 2
+16:47:001360:001360_3 : 16:46:22:696: Bah nous on est sur Oracle 11 ben nous on a fait tout l'été sous Oracle 9-i le client il a changer de version de base de données il fallait que le logiciel ensuite . 3
+16:47:001361:001361_0 : 16:46:38:825: Moi j'arrive pas à pas generer mes rapports
+16:47:001363:001363_3 : 16:46:52:384: Du périmètre et une problématique extrêmement importante . 3
+16:47:001364:001364_4 : 16:46:58:824: Ils sont très ancien . 4
+16:47:001365:001365_1 : 16:47:01:942: Chouraqui c'est une transformation de Piton de à Python 3 mais il oublie que il y a plein de dépendance vers l'extérieur . 1
+16:47:001366:001366_2 : 16:47:11:669: Chose à te poser la question c'est est-ce qu'on est qu'est-ce qu'un changement Douai ce qui est prévu est-ce qu'il y a un changement de base de données . 2
+16:48:001367:001367_3 : 16:47:19:068: Changement de hardware . 3
+16:48:001368:001368_4 : 16:47:21:256: Pervers qui change les gens qui vont garder des armes ou alors vers de nouveaux processeurs amd équipe à vouloir utiliser certaines fonctionnalités distribution . 4
+16:48:001369:001369_1 : 16:47:34:411: Pas vouloir aller vers . 1
+16:48:001370:001370_2 : 16:47:37:734: Et vous avez tout l'outillage qui vous sert à construire ouverture du Sud ça peut être un compilateur C plus plus il y a plein de choses qui peuvent avoir une influence sur votre migration . 2
+16:48:001371:001371_3 : 16:47:51:146: Une fois que vous avez posez votre question en termes d'outillage en terme de l'environnement il vous reste des questions va mon projet il dépend de quoi de module Python lesquels de module développer en interne lesquels ou alors de modules externes et ça c'est une partie qui est important parce que modules externes poser de problème . 3
+16:48:001372:001372_4 : 16:48:15:072: une Façon déterminer les dépendances . 4
+16:48:001373:001373_3 : 16:48:19:117: Petit qui a été rajouté dans Python 2.3 module Finder qui permet de trouver en exécutant un script . 1
+16:48:001374:001374_2 : 16:48:20:117: Charger parce que . 2
+16:48:001375:001375_3 : 16:48:29:458: En utilisant ça en parallèle de tous les tests de non-régression qu'on a pu remettre en place on va obtenir une liste de toutes nos dépendance interne ou extern . 3
+16:49:001376:001376_4 : 16:48:37:852: et donc à partir de là on va pouvoir créer . 4
+16:49:001377:001377_2 : 16:48:41:975: Un tableau . 2
+16:49:001378:001378_3 : 16:48:44:845: Les modules par module est-ce que ce module a été portée . 3
+16:49:001379:001379_4 : 16:48:49:762: Pendant longtemps double par exemple n'avait pas été porté python 3 . 4
+16:49:001380:001380_1 : 16:48:55:887: Que il y a des applis qui ont été modifiées . 1
+16:49:001381:001381_2 : 16:48:55:887: Dans mon cœur à moi la libido TEC d'accès au marché que je vous ai parlé tout à l'heure toutes les appli avec tes modifiez donc il faut réécriture . 2
+16:49:001382:001382_3 : 16:49:08:293: est ce que La licence a changé ça veut dire est-ce que vous avez besoin de dépenser de l'argent pour un nouveau logiciel . 3
+16:49:001383:001383_4 : 16:49:15:425: Passez de Open Source à un logiciel qui devient payant . 4
+16:49:001384:001384_1 : 16:49:19:607: ou simplement le module a changé de nom . 1
+16:50:001385:001385_2 : 16:49:22:499: Ensuite vous allez tous chier module écris dans un langage autre que Python un langage qui est très bien mais il y a un certain nombre de modules externes écris en cplusplus certains en fortran . 2
+16:50:001386:001386_4 : 16:49:37:658: Problème de portage decompilateur on peut avoir des problèmes de librairie tierce qui sont utilisés . 4
+16:50:001387:001387_1 : 16:49:44:261: pb outillage des problèmes de licence comme je l'ai dit précédemment . 1
+16:50:001388:001388_2 : 16:49:49:422: Ensuite on peut s'attaquer à la méthodologie de migration . 2
+16:50:001389:001389_3 : 16:49:55:503: L'important c'est diviser pour régner une devise qui fonctionne principalement dans tous les problèmes de l'informatique découper en l'eau en trouver des lots interaction avec les autres afin de travailler par petits paquets . 3
+16:51:001390:001390_4 : 16:50:12:684: Informer sa grâce à un graphe de dépendance qu'on aura plus via module Finder créer . 4
+16:51:001391:001391_1 : 16:50:19:629: Commence à travailler principalement sur les modules externes pourquoi les modules dexam comme ils sont passés dans la maison ils ont des modules maison . 1
+16:51:001392:001392_2 : 16:50:32:733: On va pouvoir isolé c'est parti là de la migration . 2
+16:52:001393:001393_3 : 16:50:37:714: À tenir compte de tous les outils parce que certains à outils certains modules vont nécessiter certaines versions de compilateur certaines versions de suis certaine version de bibliothèque STAPS et on pourrait avoir des conflits entre plusieurs . 3
+16:52:001394:001394_4 : 16:50:51:052: Ensuite est-ce que le module est porté les apis ont-elles changé pareil c'est la même problématique est-ce qu'on va avoir des conversions de module incompatible entre l donc faudra faire du gros tri . 4
+16:52:001395:001395_1 : 16:51:07:953: Ensuite une fois qu'on a fait ça on va pouvoir commencer à travailler vraiment sur le code Python et on va pouvoir dans Python2 de importer grâce au paquet de futur les fonctionnalités de Python 3 donc le changement pour la division le changement pour la fonction print l'ai testé séparément via les tests de non-régression . 1
+16:52:001396:001396_2 : 16:51:26:672: La gestion des import qui a changé ou le Unicode es où on va pouvoir la tester un à un les modifications pour les faire évoluer . 2
+16:53:001397:001397_3 : 16:51:37:372: Toujours dans l'objectif d'un portée du Piton de Troyes dans du dans Python 2 il y a une librairie qui est très utile qui s'appelle Six donc le but de Six donc d'utiliser les 1 portes du type Python 3 alors qu'on est toujours dans du pipi pendant que ça fonctionne comme ça par exemple là j'ai un fichier en python j'ai besoin du RL open pour l'appeler je vais la . 3
+16:53:001398:001398_4 : 16:51:59:484: Tu la librairie urllib2 Python 3 la librairie ont été remanié elles vont été aussi heureux catégorie pied donc maintenant URL open il se retrouve dans URL libre Paris couette . 4
+16:53:001399:001399_0 : 16:52:11:620: Mission utilisé donc les deux import c'est d'utiliser six qui fonctionne aussi bien Piton de Caen python3 mais du coup on va utiliser donc 6. URL request et apporter notre URL open donc là on est toujours dans deux mais on apporte qui s'écrit presque pareil que toi donc une fois qu'on sera vraiment passé en python3 on pourras juste supprimer tous les . 1
+16:53:001400:001400_2 : 16:52:35:743: Toutes les librairies seulement à lampe rencontre une bonne partie et il y a une bonne document documentation dessus qui est quand même pas mal . 2
+16:53:001401:001401_3 : 16:52:45:474: Ensuite donc les outils qu'on peut utiliser pour aider à la migration on n'est pas obligé de se souvenir de toutes les différences entre Python2 de Python 3 passe quand même beaucoup mais il y a un outil qui nous aide pour ça c'est tout tout de suite donc c'est simple ça s'installe avec pip tout simplement et pour l'utiliser il suffit simplement d'écrire tout de suite . 3
+16:54:001402:001402_4 : 16:53:04:577: Donne un fichier au de notre répertoire dans ton air de temps ça nous met en avant tout ce qu'il faudra modifier avec un petit moins de vent et la modification à l'appliquer avec un petit peu donc là par exemple vraiment que voilà pour URL open qu'il faudra donc l'utiliser depuis notre librairie . 4
+16:54:001403:001403_1 : 16:53:24:684: Le exceptionnel arrays . 1
+16:54:001404:001404_0 : 16:53:27:799: Utiliser de la même manière et sa demande vraiment comment on doit les utiliser bien sûr tu peux suis hyper u utile mais faut quand même bien revérifier parce-que des `for key, values in dict.items()` . 2
+16:54:001405:001405_3 : 16:53:41:468: Ça va nous dire bah faut transformer notre dis quand il t'aime en liste donc il . 3
+16:55:001406:001406_4 : 16:53:48:590: Mais c'est quand même très très utile ensuite si comme moi vous devez garder une partie de compatibilité entre piston de et Python 3 donc ça ça a été mon plus gros problème c'est qu'il fallait que mon code ça compatible dans les deux versions pendant un certain laps de temps avant de passer à Python 3 donc pour ça on vous a parlé de futur. 4
+16:55:001407:001407_1 : 16:54:11:703: Si tu te souhaite donc lui il se base de toute expérience qui se base sur tout à fait mais qui en plus du coup apporte les les import qu'il faut qu'il faudra et ça apporte en fait c'est toute manière d'écrire qui fait que ce sera . 1
+16:55:001408:001408_2 : 16:54:26:832: Par exemple en se basant sur la version Python simplement quand on peut pas faire autrement . 2
+16:55:001409:001409_3 : 16:54:32:905: Maintenant je veux parler de qu'est-ce qu'il faut faire après la migration donc là on en est on est passé à Python 3 tout fonctionne bien maintenant m'intéresse et si on est passé à python 3 c'est qu'on veut utiliser les fonctionnalités de Python 3 donc on vous a mis un exemple avec liste dire . 3
+16:55:001410:001410_0 : 16:54:54:014: Ça nous permet quand même d'avoir de très bonnes performances et ça fonctionne comme ça donc moi ce que je veux faire mon c'est un peu moche mais j'ai un dossier anaconda 3 et je veux simplement répertorié de tous les fichiers .py qui sont dedans donc en utilisant laisse dire donc ça c'est ma fonction qui tire . 4
+16:55:001411:001411_1 : 16:55:16:128: Donc attends . 1
+16:56:001412:001412_2 : 16:55:18:015: Je mette une seconde 54 à peine deux secondes pour te voir le faire donc là-dessus c'est quand même beaucoup plus performant . 2
+16:56:001413:001413_3 : 16:55:27:752: Ensuite il y a l'utilisation des générateurs . 3
+16:56:001414:001414_4 : 16:55:31:864: De type de générateur de différence qui fonctionne très bien donc là le but de ces deux fonctions c'est afficher 0 0 1 0 2 jusqu'à 1 donc on peut le faire ça avec un i held j'ai pas non plus m'attarder dessus parce que pareil de très bonne documentation sur Internet soit du coup de cette manie . 4
+16:56:001415:001415_1 : 16:55:50:981: La c'était simplement pour vous donner des exemples . 1
+16:57:001416:001416_2 : 16:55:56:104: Enfin vous avez peut-être déjà entendu parler des conteneurs en compréhension ou des compréhension list ou compréhension de texte le but c'est d'améliorer encore une fois un petit peu les performances on a tous l'habitude d'écrire ceci par exemple donc j'ai une liste avec un deux trois quatre de dans un dictionnaire b Kevin et moi ce que je veux c'est que mon dictionnaire il est en . 2
+16:57:001417:001417_3 : 16:56:21:232: Enfin vous avez peut-être déjà entendu parler des conteneurs en compréhension ou des compréhension compréhension de texte le but c'est d'améliorer encore une fois un petit peu les performances on a tous l'habitude d'écrire ceci par exemple donc j'ai une liste avec un deux trois quatre de dans un dictionnaire b Kevin et moi ce que je Le . 3
+16:57:001418:001418_0 : 16:56:24:486: Super master et en valeur le Ham sous forme un dentier on peut le faire avec un X exetera exetera on peut le faire aussi de compréhension dicte donc là je vais en clé de. Ce que je veux en valeur chaque valeur de . 4
+16:57:001419:001419_1 : 16:56:42:605: J'apprends que de ligne c'est quand même plus plus performant un petit peu . 1
+16:58:001420:001420_2 : 16:56:49:125: Il y a le formatage donc depuis Python on peut formater une chaîne de caractère de cette manière donc là j'ai mon variable name avec la chaîne de caractère Toto à l'intérieur ce que je veux toto dans `my name is` . 2
+16:58:001421:001421_0 : 16:57:07:251: Pourcentage s et à la fin après ma chaîne de caractère je rajoute un pourcentage et ma variable entre parenthèses. en python 2 . 3
+16:58:001422:001422_0 : 16:57:18:369: Informatique est apparu il suffit juste domaine des accolades là on en a besoin et à la fin de la chaîne de caractère en C un point fort maths avec nos variable ou invariable depuis 3. Sicilien qui sont apparus . 4
+16:58:001423:001423_1 : 16:57:37:480: Plus de lisibilité c'est que on a notre chaîne de caractère en rajoute juste un F devant et dedans on a juste à mettre nom variable directement entre parenthèses ça nous évite d'avoir des trucs encore après . 1
+16:58:001424:001424_2 : 16:57:50:601: Rapidement la vous aviez la possibilité après de recopier du Code Viala II Timba qui va vous permettre de gagner des de grosses performances là par exemple de exemple de la suite de Fibonacci juste en rajoutant ceci vous allez pouvoir passer d'un temps de 5 secondes 52 52 pour la Fibonacci de 35 et de la version compiler avec une barre vous allez passer à 69 millisecondes . 2
+16:58:001425:001425_3 : 16:57:51:601: Vous avez aussi tout ce qui est les outils de mise en cache qui vont vous permettre de gagner du temps sur des performances et cet outil et par contre a été bac pour te en python de . 3
+16:59:001426:001426_4 : 16:58:36:040: La confusion . 4
+16:59:001427:001427_1 : 16:58:40:478: Les migration sont un peu comme les enfants il y en a jamais 2e pareil donc faites bien attention . 1
+16:59:001428:001428_2 : 16:58:46:907: Avec l'idée établi Bouzaiene on fait une l'assurance se passera Paris c'est pas du tout vrai . 2
+16:59:001429:001429_3 : 16:58:53:524: C'est systématiquement à découper en état . 3
+16:59:001430:001430_4 : 16:58:56:751: L'important encore une fois c'est qu'à chaque étape il faut vraiment tester sur tester c c le plus important dans une migration cette c c pouvez-vous dire si c'est que du coup il y aura forcément des difficultés il y a aucune migrations qui se passe comme ça c'est peut-être ça que j'ai fait mais en dehors de ça il y a quand même beaucoup de gens qui peut vous aider par exemple . 4
+17:00:001431:001431_1 : 16:59:18:878: Besoin d'aide la société in vivo qui voulais l'adresse . 1
+17:00:001432:001432_2 : 16:59:25:273: Je fais ce genre d'opération . 2
+17:01:001433:001433_3 : 16:59:28:395: Pouvez appeler ma . 3
+17:01:001434:001434_4 : 16:59:30:346: Un joli ma carte de visite dans . 4
+17:01:001435:001435_1 : 16:59:33:464: J'en ai des vrais . 1
+17:01:001436:001436_2 : 16:59:50:592: Est-ce qu'on aurait pas des outils qui pourrait détecter des bouts de Caudan Piton de des bouts de Conan puissant de Troyes là ça me vient pas à l'esprit . 2
+17:01:001437:001437_4 : 17:00:22:801: Après en fonction de ce que tu veux c'est ce que je disais si tu veux du tout ton sweat à la librairie du coup suite si tu veux du Piton de Tal à vivre Estrie toutou et du coup voilà c'est si tu veux aller en python 2 tu peux utiliser librairie si tu veux aller en Python 3 se fait tout ça te met ce qu'il faut pour aller en . 4
+17:02:001438:001438_2 : 17:00:52:105: Je sais pas si on a qui existent moi ce que je faisais avec des commentaires tout simplement oui j'avais je m'étais mis un mot clé en fait pour dire belle ce fichier là il est compatible il faudra leur modifié après . 2
+17:02:001439:001439_3 : 17:01:11:225: C'est pas qu'elle se passe mal c'est qu'elle peut prendre du temps on peut rencontrer des problèmes dans toutes les migrations et ça prend du temps regarder Dropbox 3 ans . 3
+17:02:001440:001440_4 : 17:01:28:222: Bah oui c'est en fonction de la base de code ça peut ça prend un temps énorme . 4
+17:02:001441:001441_1 : 17:01:35:526: L'erreur c'est de vouloir tout faire en même temps ça il faut découper faut vraiment découpe en morceaux et il faut avoir une base de test . 1
+17:17:001442:001442_3 : 17:01:44:873: Morceaux Couzeix émigré et bon parce que en général vous habillez vous avez un premier morceau le deuxième morceau va s'appuyer sur le premier exetera et donc si vous si vous n'êtes pas sûr de la migration du premier morceau vous risquez de pas être sûr de la migration du 2e et cetera et des problèmes . 3
+17:17:001443:001443_4 : 17:02:05:129: Du mal à déterminer d'où vient le problème . 4
+17:17:001444:001444_1 : 17:02:08:158: Il y a forcément des il y a forcément des moyens de faire un découpage . 1
+17:17:001445:001445_2 : 17:02:25:277: Charger module module et vous allez pouvoir avec ça normalement faire un graphe de dépendance de de veau module et il faut isoler des bouts de graphe qui sont pas dépendant d'autres bout de gras pouvoir de faire le travail et il y a pas 136000 solutions sinon si vous faites tout d'un coup ajouter de la complexité et ça va vous prendre encore plus de temps . 2
+17:18:001446:001446_3 : 17:02:48:399: Non c'est pas impossible les . 3
+17:18:001447:001447_4 : 17:17:36:871: Et alors ensuite tu fais une porte string you . 4
+17:18:001448:001448_1 : 17:17:45:562: Une porte string you . 1
+17:18:001449:001449_3 : 17:17:51:709: À Cugnaux . 3
+17:18:001450:001450_4 : 17:17:54:527: Café d'autres python . 4
+17:18:001451:001451_1 : 17:17:59:821: De point retrait de point 5 . 1
+17:18:001452:001452_4 : 17:18:02:710: Alors je nous avons parlé de comment faire la migration te python 2.4 et python 2.5 . 2
+17:18:001453:001453_3 : 17:18:10:272: Non non ça va ceci est un test . 3
+17:19:001454:001454_4 : 17:18:16:324: Hervé the way . 4
+17:23:001455:001455_1 : 17:18:19:454: Ouvrez-la entre les . 1
+17:23:001456:001456_2 : 17:18:23:576: Et après je suis là et je fais des corrections dès que je peux j'ai le droit de tous les 6 mots en fait c'est un colissimo son live et après moi je peux modifier seulement derrière et du coup c'est un peu compliqué surtout si . 2
+17:23:001457:001457_3 : 17:18:43:697: Aération ça fait des très très gros pavé . 3
+17:24:001458:001458_1 : 17:18:54:996: EDD enlever . 1
+17:24:001459:001459_2 : 17:18:59:123: Et le reste . 2
+17:25:001460:001460_3 : 17:23:26:089: Gestion câble . 3
+17:25:001461:001461_4 : 17:23:33:908: C'est si vrai transcription ici . 4
+ 
+ 
+ 
+
+
+

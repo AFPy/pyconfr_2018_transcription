@@ -1,0 +1,250 @@
+
+
+
+04_My journey into joining billions of rows in seconds with ScyllaDB Alexys Jacob
+
+
+11:35:000287:000287_4 : 11:35:17:607: So yeah today we are going to talk about a journey that I had in using I see that you be . 4
+11:36:000288:000288_1 : 11:35:26:737: To start a bit about myself if you wants to . 1
+11:36:000289:000289_2 : 11:35:32:564: Yep ok . 2
+11:36:000290:000290_3 : 11:35:36:285: So you can find me about everywhere how's the traffic and then to Linux diff lock Land situate number we number we had some brands and our customers to do to Leverage the value of the data in the digital space and so we use a lot of of open source and we contribute back love you all the tools that and that we use in there and I loved and so my open source engagement is me . 3
+11:36:000291:000291_4 : 11:36:10:429: To go to to being a giant reign X0 file and all the possibilities that he gives you apart from the commuter possibility on torch but usually so it's a nice excuse to me to get down into technologies buy packaging them and I mainly focus on clustering related related server distributed databases and and values Python related packaging . 4
+11:36:000292:000292_0 : 11:36:38:191: Scylla
+11:36:000293:000293_2 : 11:36:42:340: Raise your hand if you ever heard about it . 2
+11:37:000294:000294_3 : 11:36:45:736: Ok not that much who knows about Cassandra . 3
+11:37:000295:000295_4 : 11:36:51:978: Ok love more . 4
+11:37:000296:000296_1 : 11:36:57:112: Garbage collection in Java . 1
+11:37:000297:000297_2 : 11:37:01:180: Nobody alright well . 2
+11:38:000298:000298_3 : 11:37:07:319: Is basically right of Cassandra cplusplus so I'd use garbage collection and welcome fine tuning and fine fine grain hardware announcements and Performance enhancements old is fully compatible with Cassandra has not affect you interact with C that you'll be using the cache on the drivers and so the Promise is like you shutdown your Cassandra . 3
+11:38:000299:000299_4 : 11:37:40:466: The machine and you just hang upside-down the same machine and it just works . 4
+11:38:000300:000300_1 : 11:37:46:736: Has great good quality so this is why we package inside in Gentoo Linux get me a look at actually some clothes and it has a really low level and more than a proton performance tuning and auto-tuning and the guys behind Sila Sila is are the people that made him so it's a gammon . 1
+11:38:000301:000301_2 : 11:38:15:879: So they know if we do offer how to interact and make sure and to Leverage the capacity of a of your hardware and to interact with me with the channel . 2
+11:39:000302:000302_3 : 11:38:28:022: At a very good level eight . 3
+11:39:000303:000303_4 : 11:38:32:158: When I approach a new technology I I I am really careful and I really care about the people behind so . 4
+11:39:000304:000304_1 : 11:38:33:158: Stream when your package of the people making the technologies that you would you are trying to package now you call them back straight when you approach them the way that they will come you are not all that they welcome your ideas or yeah you're . 1
+11:39:000305:000305_2 : 11:38:59:464: Sometimes there's a lot about who they are and how open-minded they open Source software here it's not about only having it opens off licence from now on your own yoghurt which you obviously . 2
+11:40:000306:000306_3 : 11:39:14:604: Mighty Zulu the right thing and it's really about . 3
+11:40:000307:000307_4 : 11:39:20:749: Who died and what did they spend foxhole as a welcoming people how they benevolent in there interaction . 4
+11:40:000308:000308_1 : 11:39:28:900: So they could rely on system leaves quite quite a lot so so it fits well with the Gen II Q/:/A and good quality philosophy so it's pretty easy to it was pretty easy to package it is a good things about it so it's a journey that I'm going to talk about with really concrete use cases and will we get down will get down to it but I am applying this lot of methodology that is . 1
+11:41:000309:000309_2 : 11:39:59:051: And I think it's important to do just take a bit of time to explain it so as I said my first thing is to take the packaging site as an excuse to and diving to the Source Code interact with him and then starting to contribute to the project . 2
+11:41:000310:000310_0 : 11:40:19:658: You know the process and you you start having a good feeling about how it's done then the second sex with me an evaluation ok with you don't put this kind of new technology in production without evaluating it so we are going to get down into how we set up with poc proof of concept and what we met eligibility that sound that we applied
+11:41:000311:000311_4 : 11:40:45:852: Ready for it so far this you need to find actual use case real use cases that will be able to to to to answer your . 4
+11:41:000312:000312_1 : 11:40:58:966: Need to be to change your picture on your own knowledge of the technology and you about Cassandra I knew some basic stuff about Cassandra but it's not enough you have to get a bit better at the internal as you set up a PLC and then in this case you we worked well together with her see that UB40 . 1
+11:42:000313:000313_2 : 11:41:21:092: In my . 2
+11:42:000314:000314_0 : 11:41:24:231: France is the first time that I interacted with the sun live stream that welcome the poc and that actually contributed in the poc so they made themselves available for the poc the ideas where we want to make sure that you have an unbiased opinion under technology and we want to make sure that it's not because you like
+11:42:000315:000315_4 : 11:41:51:370: The wrong conclusion so they also the help they will make themselves available and I will set up a private slack channel they will help you in schema design you will get an assassin said they will explain you the internal and then they will help in hardware sizing . 4
+11:43:000316:000316_1 : 11:42:10:490: Can you set 3 sympatex to take a relationship so it was I was really impressed and to my knowledge they are the only one in the database work that have this setup from from the start so it's pretty cool so you can just go to them and explain to him your your your problem and what you are trying to do when they will be there to help you and you can set up something up . 1
+11:43:000317:000317_2 : 11:42:35:636: Small concrete so it's irradiance no bullshits I think you should just talk to them . 2
+11:43:000318:000318_3 : 11:42:43:383: The lessons I've got from this is you really have to have some kind of background so I really recommend if you you've never read it they already book about on the definitive book on Cassandra it's really good is not only about how these two beauties databases work . 3
+11:44:000319:000319_4 : 11:43:04:524: Good reference book so with this you will have some basic understanding of how it's supposed to work and . 4
+11:44:000320:000320_0 : 11:43:14:658: We showered since we set up late and official receivers are we still RGB we set up a shadow sounds document so it's something that it's really you a document in our case it was a Google doc where we put on things like who are we going to participate and then what is the hardware that when we are gonna use and then we we we we are very
+11:44:000321:000321_2 : 11:43:44:893: How we do this using this kind of hardware the number of hardware specifications the schema that we were using everything hold the details every kind of it and you can give you put them on with reference document and then when you eat a right and you go along with the pew she then you will keep on every time you come to a conclusion that say you will put it on the reference if you . 2
+11:45:000322:000322_3 : 11:44:09:021: What are the things and then you can have no sex account so it's really important if you want it to do a purity like this with them or with a new one to see the nice list listen I seem to have really a sheriff and a reference document . 3
+11:45:000323:000323_4 : 11:44:31:431: Sure we will make sure as well to have some sort of monitoring because everything you do in this case when you monitor latency and you don't understand why it's very critical having a good relationship is there monitoring is important and know when to stop it's really easy to go into a PC and staff and cigarette some things and jira something and you want to refine . 4
+11:45:000324:000324_1 : 11:44:57:552: So make sure you know where your boundary is how and when to say OK it's good enough know when to stop if you see has to end at some point so make sure you used like new you know where to and from the start . 1
+11:45:000325:000325_2 : 11:45:12:693: Then it's a little bit is that I be so of course it's not for everyone's need you you don't go into this world if you have a if you've my sequel can do the job I hope you sleep so make sure you test higher inability because this is . 2
+11:46:000326:000326_3 : 11:45:29:826: Very thoroughly . 3
+11:46:000327:000327_4 : 11:45:32:855: Weather Pewsey have you seen at the production and a system which will come with his share of surprises so I will get back to it but the conclusion shouldn't be like only the Matrix no it's ok it's fast enough in the production and expect that you will . 4
+11:46:000328:000328_1 : 11:45:55:988: And they listen to see you see you next time I see if it was pretty for a robot ep I worked on it for 5 months or 5 months later full time job and some point so I was not very good at always being being there so make sure you do you make time if you if you want to try something like this I . 1
+11:47:000329:000329_2 : 11:46:28:125: Business contacts Huawei and why did we do this so how are we gonna invite are we going to evaluate still . 2
+11:47:000330:000330_3 : 11:46:39:676: The marketing industry well matic companies list of Attraction between marketing and technology . 3
+11:47:000331:000331_4 : 11:46:47:789: Sorry too busy getting doing marketing twin better marketing with technology using this technology and data to do better marketing so it's a bit contrived off standing right . 4
+11:47:000332:000332_1 : 11:47:03:933: We deal with multiple sources of data and a wide range of Evans and . 1
+11:47:000333:000333_2 : 11:47:11:827: Data 7 . 2
+11:47:000334:000334_3 : 11:47:14:968: That comes out of date is is the new event is the new knowledge that you have a good data so you can see it as a continuously evolving the thing is we have multiple sources of them . 3
+11:48:000335:000335_4 : 11:47:28:451: That means that when you have multiple sources of them you need to be able to make them and to correlate them at the massive amount and it's a different type of Heaven won't get the purchase while another can be . 4
+11:48:000336:000336_1 : 11:47:44:585: The web navigation and we'll get back to this and all of them has their own identifier . 1
+11:48:000337:000337_2 : 11:47:51:441: Can think is that primary keys right you have different sources of data you would stop them with a primary key so you could query them but since they are separate they all have a different primary key so how do you meet them how do you create them this is the key of people based marketing we usually do this but it's really important for . 2
+11:49:000338:000338_3 : 11:48:16:223: Typical example with navigation you will have a cookie ID . 3
+11:49:000339:000339_4 : 11:48:23:227: Sharing databases do soso CRM are the ones that are there are flying Data Base ok so are you you are registering yes you've been trying for how long are you subscribed to this is a flight to that and your purchase history is this so everything's a brand or company knows about you so CRM stands for customer relationship management how they know about you that can help them . 4
+11:49:000340:000340_1 : 11:48:55:357: Talk to you definitely better so you have a better experience and . 1
+11:50:000341:000341_2 : 11:49:01:999: So usually in this email address is the ID is a primary key and then we had a fab NERF digital platforms so when you want to I don't know by an add-on Google or on a flexatone something so it is displayed you rely on another platform with all that work with their own I'd so every one of us is known on this year and that obeys maybe he has an email address we have a quick . 2
+11:50:000342:000342_3 : 11:49:31:126: Has nothing to do with our email address on the web and this creates is different from Google to format for email from Facebook and from a Segway . 3
+11:50:000343:000343_4 : 11:49:43:674: Get hold of Signals and all the sources how do you make them together to know something and to reduce the pressure because it's people based marketing so we wear a dress people in Leicester for the ID is not to hang around people with a lot of you as well as much as possible instance about being a precise and and and insightful . 4
+11:50:000344:000344_1 : 11:50:11:423: And of course you have the mobile to mobile types so in this case it can be igfa form for phone is the name of the iPhone 4 apple in ng84gu look at them again . 1
+11:51:000345:000345_2 : 11:50:29:264: Thames to synchronise and translate identifier to one another . 2
+11:51:000346:000346_3 : 11:50:35:417: All your data sources and types you want to be able to do this you need what we will call ID matching table it's something that it's a table that has a noisy and the corresponding ID for another platform ok so maybe you have a quick Eid . 3
+11:51:000347:000347_4 : 11:50:53:545: Oh you're platforms and then you have the corresponding cookie are you ok this user I know as ABC and 123 at Google you need to translate you need to stables to be able to translate one source of data and to be able to use it on your partner's platform so that in those who you're talking about . 4
+11:52:000348:000348_1 : 11:51:17:682: Hope the concrete example just after the pretty purdie is it relies on joint . 1
+11:52:000349:000349_2 : 11:51:25:154: So join you know it's a heavy duty operation on that basis so the key ideas you have reference populations like in any red here who you selected menu with joining using an IDE matching Tyrone and then you will get too much population . 2
+11:52:000350:000350_3 : 11:51:43:295: Natural populations you will have the corresponding target let's say I G so you do this all the time as Evans flowing all the time and then you also updated all the time that means this is a high rise and also how you write workload . 3
+11:53:000351:000351_4 : 11:52:06:677: For the very very important to keep in my nieces read and write workers because its queried and updating all the time cos argumentative the second example of reference example of Wikimedia you know when I'm not sure their fundraising is done already but the reason we will maybe you received emails off of this station from Wikimedia Foundation and fall off on . 4
+11:53:000352:000352_1 : 11:52:36:425: Fundraising so this example we in the marketing time is retargeting the sole reason you have someone and you want to use another medium to to speak to him . 1
+11:53:000353:000353_2 : 11:52:48:459: Could have the from the Wikimedia Foundation we have little data base with the previous owners so the ones has donated something previously on the London on the last and fundraising and lose ones you know by the email address . 2
+11:53:000354:000354_3 : 11:52:49:459: Retargeting using an ad via Google ads that's so you will need to talk to the ad exchange of a Google which works with cookie ideas for your problem is how do I translate an email address to a Pa Ti by . 3
+11:54:000355:000355_4 : 11:53:24:294: You did an easy matching table for this . 4
+11:54:000356:000356_1 : 11:53:28:502: Select the previous owner you might have them using the ID matching table and then you can activate this market it then we can activate them on remote platform they say Google in this time so when the user with ID want to three things are you for generous add coconut that are for cookie ID 1238 Google you could know it and then you say it to Google I want to create a campaign that we buy . 1
+11:54:000357:000357_2 : 11:53:53:645: Wikimedia you will so we will display this I decided who is so they can type in an amount and make the donation . 2
+11:54:000358:000358_3 : 11:54:02:762: And you would target Mr 123 or Mrs 1 2 3 and he knows where it is so when you decide you want to three Bros the web and you wear . 3
+11:54:000359:000359_4 : 11:54:14:841: The Cairns Australia because they know who is . 4
+11:54:000360:000360_1 : 11:54:19:668: Accent . 1
+11:54:000361:000361_2 : 11:54:22:738: Should I wear shorts . 2
+11:54:000362:000362_3 : 11:54:25:892: Endeavour they are the keystone of everything you can do right this very very very important . 3
+11:54:000363:000363_1 : 11:54:34:071: How do we do it today . 1
+11:54:000364:000364_2 : 11:54:36:889: Are we have . 2
+11:54:000365:000365_3 : 11:54:39:035: Architecture we have Evans coming in . 3
+11:55:000366:000366_4 : 11:54:44:082: Eating two two pipelines resign pipeline and that pipeline . 4
+11:55:000367:000367_1 : 11:54:50:025: Under the same one we use mongodb as a storage engine . 1
+11:55:000368:000368_0 : 11:54:56:452: Are we having this issue that comes your workers it take to do things and then they start with matching IDs in in mongo DB and then we have real-time programs that interact with the decisions and say ok I see this and I know the matching his dad so I can do that whatever it is that you want to do in activator please remove someone
+11:55:000369:000369_3 : 11:55:24:598: Stop buying as fine stop hammering it because we know now that he has done the donation Who . 3
+11:56:000370:000370_4 : 11:55:31:840: Adam saying thank you well if you feel Wikimedia Foundation and the money for this they could do it as well you see what I mean . 4
+11:56:000371:000371_1 : 11:55:42:982: She's the essence of the technology behind the marketing mix and handling pressure and be Potent mean what you said people . 1
+11:56:000372:000372_2 : 11:55:51:949: So this is this can be done in real time for statin use cases but some others they need some heavy-duty computation and they need some joints that are that are bigger so the same kind of Evans they are still . 2
+11:56:000373:000373_3 : 11:56:07:088: Your sister so high resume . 3
+11:56:000374:000374_4 : 11:56:10:206: Play cfm . 4
+11:56:000375:000375_1 : 11:56:17:358: So we put them on on and then the other get integrated into high stairwells and then we can do that calculation and targeting of do something . 1
+11:57:000376:000376_2 : 11:56:26:733: Different by play . 2
+11:57:000377:000377_3 : 11:56:29:864: What's my good music whilst that means that we have to stop if we have to store the same data twice and we have to handle all the building and all the problems that come with you keeping their time since making sure it's consistent how do you make the freshness in the dash data as good as possible it's an operation or building you have to . 3
+11:57:000378:000378_4 : 11:56:57:004: Two kind of two kinds of databases and everything is behind behind it . 4
+11:57:000379:000379_1 : 11:57:04:370: Neither among go in Ohio can sustain to read and write . 1
+11:57:000380:000380_2 : 11:57:11:512: Workload that comes with the Eatery time program which are sensible to latency and that calculation which sensible to mash and Barrel elverys . 2
+11:57:000381:000381_3 : 11:57:25:885: None of them consisting book . 3
+11:58:000382:000382_4 : 11:57:29:008: The idea of implementation would look like this watch if we could have won that obeys 151 proof that the data . 4
+11:58:000383:000383_1 : 11:57:41:146: That can sustain go free time and that work clothes it would be simpler to have data consistency . 1
+11:58:000384:000384_2 : 11:57:51:304: It would give us some operational simplicity and Efficiency of your sleep and it will also reduce cost . 2
+11:58:000385:000385_3 : 11:58:03:388: Because of all this . 3
+11:58:000386:000386_4 : 11:58:06:070: For the question Westonbirt can see they do it when I came in to see you and I saw it when it says someone lies No Name famous for his right . 4
+11:58:000387:000387_1 : 11:58:22:176: Phoenix . 1
+11:58:000388:000388_2 : 11:58:24:315: Uses the hard way when they decline to play Muse all the promises we can also have consistent and low-latency read ok so . 2
+11:58:000389:000389_3 : 11:58:38:285: Maybe the best is this . 3
+11:59:000391:000391_1 : 11:58:44:541: Batteries low latency for both . 1
+11:59:000392:000392_2 : 11:58:48:673: This is what are the time . 2
+11:59:000393:000393_3 : 11:58:51:739: When you do a put ppoc depending but I took some cycle machines I said ok let's stay at Leicester City's new how with the best form enforceable without the worst not the worst but what are the best from my washing machines that are sitting around in the cave and I found it so yes it is indeed 19 gigs of ram his unusual they are not even consistent in the number of course . 3
+11:59:000394:000394_4 : 11:59:22:879: Gentoo Linux . 4
+11:59:000395:000395_1 : 11:59:26:025: JD is . 1
+12:00:000396:000396_2 : 11:59:29:105: If the software so good and the hard way I'm not that much . 2
+12:00:000397:000397_3 : 11:59:35:246: Get some comforting results with this time of how we are using Cydia then I can send you back that on my production system was real hardware . 3
+12:00:000398:000398_4 : 11:59:46:879: To to to to find me something very good so I wanted to this and then we were we are going to go in the steps that I followed in this industry PLC for the Celsius . 4
+12:00:000399:000399_1 : 12:00:02:016: I need to validate schema music . 1
+12:00:000400:000400_2 : 12:00:06:162: Has nothing in cash on hand in and has nothing to do with high iron monger so I need to find a way to 22 model to the data that I need . 2
+12:01:000401:000401_3 : 12:00:18:615: Ryan Mungo it's the same reasoning behind so it . 3
+12:01:000402:000402_4 : 12:00:23:701: Be pretty easy enough for me that you have been using we've been using Google and NASA form for more than 10 years now something like this . 4
+12:01:000403:000403_0 : 12:00:36:824: Query based modelling is part of it may be thought of you so that something you have to do to her. But it's basically you define your skin and not from your poorly on your date out of the relation to say that it has but on all the questions that you want your data to answer to answer so you live then maybe you will . 1
+12:01:000404:000404_2 : 12:00:59:965: Cookie ideas associated to the visas inside so give me a technology I will give you all the cookie ID that I know . 2
+12:01:000405:000405_3 : 12:01:09:405: And you can get a bit trickier over the last 10 months so now you had a time window or something like this in this . 3
+12:02:000406:000406_4 : 12:01:21:562: And the reverse is true as well so if I give you a quick as you can you give me that now for my son . 4
+12:02:000407:000407_1 : 12:01:31:711: There is a dam in this that is . 1
+12:02:000408:000408_2 : 12:01:37:854: Send in the noise trailer that obeys well they say is denormalization the normalisation means that it's ok to keep the same data free or not but usually free but storage in a different way so when you have to question you can't have your mother of time I saw this question and if you wanted to answer on the contrary question that's ok that you can keep a copy but you're really . 2
+12:02:000409:000409_3 : 12:02:06:032: Primary key . 3
+12:02:000410:000410_4 : 12:02:08:146: Turn on meditation and this is heavy ok . 4
+12:02:000411:000411_1 : 12:02:16:255: For us because we are friends list a and ends and daughter at school to other things with relational and ok I put everything in the same thing and it will go fine this if it is that obeys and this kind of murdering no denomination is almost enough . 1
+12:03:000412:000412_2 : 12:02:38:391: Be prepared as well for it if you if you if you wish you want to go that way that way . 2
+12:05:000413:000413_3 : 12:02:44:734: No cos we we ended up with three copies of the data to all the same data . 3
+12:05:000414:000414_4 : 12:02:53:028: If I'm the same engine and you have a way to consistently write all of them together at the same time I'm not ok his natural evolution of that she knew that allows you to have a consistent data in old copies of video games that you can have a bit later this is done so it's not like having 2-day to copies of the same day time different engines that we had before in this case it's . 4
+12:05:000415:000415_1 : 12:03:20:163: I've got a prototype if you . 1
+12:05:000416:000416_0 : 12:04:59:349: Ok and start again that means that when you query it depending on how you plan to. You can . 4
+12:05:000417:000417_2 : 12:05:07:501: In our case we are mostly not always but mostly you interested in racing data . 2
+12:06:000418:000418_3 : 12:05:18:842: That means that we can have? What is the latest cookie are you given for the top 9 . 3
+12:06:000419:000419_4 : 12:05:26:700: Actually the clustering order will have an impact on where it is stop if you start at the end and you look for these kind of query between get on the right SS7 if it's not in cash and it will have to get down into the fire until it finds the answer for you if it has to scan the site you should read this and you just changed in this case the date of the into descending the . 4
+12:06:000420:000420_1 : 12:05:51:832: Latest value is at the top of the assistant of the fine so then when you look . 1
+12:06:000421:000421_2 : 12:05:59:633: Josh and then you look at the ad what is the latest value for this cookie . 2
+12:06:000422:000422_3 : 12:06:05:768: Fast down because it doesn't have to scan the face . 3
+12:06:000423:000423_4 : 12:06:10:193: The Fifth Element it has and son is Donald . 4
+12:07:000425:000425_2 : 12:06:20:460: The kind of trick that can have a real impact on latency and things like that so when lots of your business like it relies on this it has a significant impact and this is the kind of owning that you can get her so wet that I got that interacting with the guys is with adriene pretty valuable . 2
+12:07:000426:000426_0 : 12:06:43:617: 71 what to say to setup Wi-Fi morning so this is the name of the project that Sheila is giving you stuck your baby's easy to install supremacy environment it's it's really great are you can use the song. Cassandra test on the only a few lackluster to test so you can see girls things and you can stop grasping a bit brown and understanding under the hood but since you will be . 3
+12:07:000427:000427_4 : 12:07:11:753: Kingham train think it's important that you have a proper monitoring to to to check it out . 4
+12:07:000428:000428_1 : 12:07:19:593: Torquay craft quickly number of open connections this one if your drive that doesn't open a lot of condition that means that maybe she's not doing any . 1
+12:08:000429:000429_2 : 12:07:33:737: Nihilism . 2
+12:08:000431:000431_4 : 12:07:40:012: I got used to it and it has a lot from the start a little earlier if I got on on on this one was to reduce the scraping data is you choose as primitive as he gets the number of points that you will get since on the poc your work clothes will be shutting down because you want to iterate fast having a smaller than before scraping tool allows you to have more data in the . 4
+12:09:000432:000432_1 : 12:08:08:142: Faster so it is pretty pretty pretty good as well for you to have the grass more reactive too young to your shopping . 1
+12:10:000433:000433_2 : 12:08:16:636: Venue you do the neck seam within is proprietary reference that time metrics so we we took the reference population of less than 10 million people and we had a 400 million time matching table so do Jews wear their fixed and where are used in all the cases that we we we we will see after this is our reference that I said and it's important when you do this kind of thing . 2
+12:10:000434:000434_4 : 12:08:44:785: To me to have reference that I said we decided to measure on our current stack so here again it depends on on on on people that time we wanted real Matrix on the appearance pack so that's how we did it so that means that we run the things and we use that are set on our prediction system safe to have refund matrix so we use Mac and high since Workload so you can see that you have your reference we have a reference that I said in high Weald Park who doesn't know that back . 4
+12:10:000435:000435_1 : 12:09:25:245: Spark is a distributed framework and to do to do computation heavily used on that engineering and data Science so basically it allows you to take some time is it Spanish well I hope you take a reference dataset that is let's a too large to be computed on a single machine so it will partition it efficiently and then you can apply any kind of conversation so it spreads work . 1
+12:10:000436:000436_0 : 12:10:00:378: The tackle executive and each of the executive do you delete a part of
+12:10:000437:000437_3 : 12:10:08:676: In an efficient way is Great British Gas and it's very very popular in very good very very very good . 3
+12:10:000438:000438_4 : 12:10:18:183: Which is exactly what we need we had a reference population in the highest ever Aldi matching 17 and older and we took the 10 millions at goodbyes backing to maintain with deleted partitions on disk partition with the joint and then we may as is and without . 4
+12:10:000439:000439_1 : 12:10:36:332: Ok . 1
+12:11:000440:000440_2 : 12:10:38:468: On an Eider crystal so this could just Christian is is . 2
+12:11:000441:000441_3 : 12:10:46:471: He machine . 3
+12:11:000442:000442_4 : 12:10:48:997: See that you have more than 80 machines and in quite a few a few thousand work as possible in Paris . 4
+12:12:000443:000443_1 : 12:10:59:097: Zoopla size mostly Idol it takes 2 minutes and 15 seconds on the normal loaded cluster on that means we are available workers when you request them you can do it in 4 minutes when it's overloaded meaning that you submit the job but there is no available work out so that has to wait to have sex lots of work out and then you can stop working he took 58 x 15 minutes of course . 1
+12:12:000444:000444_2 : 12:11:26:248: X and then you get the median with medication had an idea ok if you see in the way I got into this is not about benchmarking it is not a benchmark it is a real use case . 2
+12:12:000445:000445_3 : 12:11:42:369: And then you start testing using Cedar on see that you have two things to consider is the hot and cold case then I'll see you as a mechanism of cash so we should do a query the first time you had the call cash Generators to go to this . 3
+12:12:000446:000446_4 : 12:12:04:501: Ann . 4
+12:12:000447:000447_1 : 12:12:07:653: Angry again and exercise not restarted you are in the Hutt getting out you're so she's usually . 1
+12:12:000448:000448_2 : 12:12:15:775: RAM and the Newcastle around so fast so this one is more memory . 2
+12:13:000449:000449_3 : 12:12:21:911: Is to try to break Scylla . 3
+12:13:000450:000450_4 : 12:12:25:156: How can I put enough pressure with my current cluster around my eye test so that should I like at 99/:/ almost 100-percent usage this is where the money Talking Heads so you can see actually how valuable Stelar if you don't get see that that that that means that if not see that the problem is your client side so you don't you are not putting in a pressure . 4
+12:13:000451:000451_1 : 12:12:55:224: It looks like these we will be using spark who you have the reference that I said in high but now that he mentioned diverse city in Syria and you was Pitt the highest Park we split the institutions that just like usual and then instead query Sheila to the to the daddy matching and then do the council so I put a bit of code is just as an example but to This podcast from happen if there has . 1
+12:14:000452:000452_2 : 12:13:22:410: What allows you to join . 2
+12:14:000453:000453_3 : 12:13:26:522: In an efficient way and that means that he knows where the data is stored on on Kevin Hart in the counsellor with the same implementation again so it can be clever about it and this is how how it's done . 3
+12:15:000454:000454_4 : 12:13:43:665: Do I give you some insight if you use park and if you want to use it with a decathlon how Philip I use a fixed number of the executor this is this was pretty important maybe so useless I'm so I used 30 executor of Max and that we are almost always provision for me kg suitcase so that when I try again and try again I don't have the results when 200 of them were running why . 4
+12:15:000455:000455_1 : 12:14:14:823: Casey on your phone of then we running so if you have if you want to have consistency in your desk you have to fix an investigative by default it's a dim mak location listed as factory size is really important you have too much the taxi sizes 8 to 8 megabytes institutions like we wee so by the seaside megabyte but when you put pressure on on sea lion they expect one megabyte . 1
+12:15:000456:000456_2 : 12:14:41:002: Play tuning this you are actually eye lining gas on glass pizza Chesham with Sheila and then you'll you'll have good performance boost then it's about adjusting driver timeout sand and the rich person where actually are you have to train yourself so I implemented it and so the roads going up and up and up so this is this was the best for the 90/:/ I was seeking . 2
+12:15:000457:000457_3 : 12:15:08:013: If you wanted to do it to you you would give her another one . 3
+12:15:000458:000458_4 : 12:15:14:144: Retry the number of connections for the executor of this one has a huge impact on their own on . 4
+12:15:000459:000459_1 : 12:15:22:271: Under under pressure you put on Scylla and when I did this they were almost no reference documentation seems then there were they work pretty hard on their own . 1
+12:16:000460:000460_2 : 12:15:37:403: Women are so I put on some links if you're interested in how you view interactive it's pretty good . 2
+12:16:000461:000461_3 : 12:15:45:335: There isn't . 3
+12:16:000462:000462_4 : 12:15:48:212: So with this tree recycle Outwell reference whizzle 2 minutes 15 seconds number for 4 minutes of Reddit fifteen in this case call Cash Generator do the same in 12 minutes and inert can I use 2 minutes . 4
+12:16:000463:000463_1 : 12:16:05:342: I was like wow . 1
+12:16:000464:000464_2 : 12:16:09:509: 3 recycled machines they're really can't compete resection my actual high production system I mean it's comparable already with the tuning I explain before of course without the tuning no way but with the tuning although the right to me I can do it is it . 2
+12:16:000465:000465_3 : 12:16:32:981: Cremation 603 already compete with the . 3
+12:17:000466:000466_4 : 12:16:37:120: English tattoo machines and the Machines the phone behind high . 4
+12:17:000467:000467_1 : 12:16:43:243: We're spinning disks I don't remember she remembered they are spinning disk ok . 1
+12:17:000468:000468_2 : 12:16:52:366: Interesting how even even even even against an Eider close down it's pretty interesting . 2
+12:17:000469:000469_3 : 12:17:00:238: No I did as I had to I mean Stack is great but my interaction with back in I had to find a way because there is the real time pipeline industry type I'm flying is not on hadoop and is mostly an . 3
+12:17:000470:000470_4 : 12:17:18:169: So I had to find out why I couldn't live with myself without trying with fighting as well . 4
+12:17:000471:000471_1 : 12:17:26:785: Is you can do it with ice pack for example which allows you to use parking from biting but there is no join whiskers on the table . 1
+12:18:000472:000472_2 : 12:17:38:910: Ok so I said ok maybe maybe I don't need back to us all . 2
+12:18:000473:000473_3 : 12:17:45:990: Maybe in the reasoning behind it is ok but . 3
+12:18:000474:000474_4 : 12:17:51:524: Factories Chloe's clever because you can do the join and he has a clever function to do it but maybe I can do 10 million single hookups in parallel enough using python . 4
+12:19:000475:000475_1 : 12:18:07:664: In a relative compatible time lunch but you can't beat stacker I mean you can't beat back from the single machine is it runs on multiple machines but what you can beat that said to do the flexibility that you have is Sparky's colour and runs on the JVM and on the hadoop ecosystem old is work as a company that are scheduled by the Scheduler that is called . 1
+12:19:000476:000476_2 : 12:18:36:810: It goes through a Scheduler that gets all the available resources that . 2
+12:19:000477:000477_3 : 12:18:45:639: Brands of an executor in one of those sure that he has available that loads of the JVM and then that stops working this takes time all the scheduling and loading of the JVM next time this is where maybe I said that you said to myself but I don't I don't have his firing up latency maybe I can compete with it with a sparkly doing this . 3
+12:19:000478:000478_4 : 12:19:15:789: List of you tell me your request instead of doing a drawing using a single simple functions . 4
+12:20:000479:000479_1 : 12:19:25:336: Ok I said I'm going to try and challenge accepted let's go maybe maybe maybe maybe I will go if I break down I just need to Lille 10 million rose for every row look at the corresponding matching table and then do the count . 1
+12:20:000480:000480_2 : 12:19:43:476: That's why I'm a desk that is a disability compensation from work with an invite on so you can compare it . 2
+12:20:000481:000481_3 : 12:19:52:245: Guess who's back shady's free shipping so you have to do the day tiny Pattinson way and . 3
+12:20:000482:000482_4 : 12:20:01:390: Cancel order did the machine that you have available in my case I ran safety since I had such as Aikido I run so fast workers . 4
+12:20:000483:000483_1 : 12:20:13:152: The Wizard and that will do that for you it looks like this . 1
+12:20:000484:000484_2 : 12:20:18:299: Similar to what we did in stock but we do it in such . 2
+12:20:000485:000485_3 : 12:20:23:358: The results wow call Cash 6 minutes hot cash 2 minutes so into Colchester now you . 3
+12:21:000486:000486_4 : 12:20:36:496: Our forms that is interesting . 4
+12:21:000487:000487_1 : 12:20:41:400: Why is due to the latency that I don't have a quiz that I could start wearing plaster instead of hammering in 1 in 1 in one time that sell you are using spark . 1
+12:21:000488:000488_2 : 12:20:55:016: It's pretty good and the way that the fighting drive or diseases when is pretty efficient . 2
+12:21:000489:000489_0 : 12:21:02:156: It already work and then I got curious and I got into it and I said
+12:21:000490:000490_0 : 12:21:11:273: I saw that it was made of 450 seconds from Cardiff to load the data from hive which is also distributed database and hi-vis slow when you. That's why you confuse it in the recent pipeline in the first place . 4
+12:22:000491:000491_1 : 12:21:25:584: Peter query to hi Vis already takes 15 seconds to get initial I . 1
+12:22:000492:000492_2 : 12:21:30:725: I think that I could maybe if I get rid of how I can be faster than stop . 2
+12:22:000493:000493_3 : 12:21:37:857: What I did I switched from Hythe to back inside so packet is A5 storage format call now or young kids that allows you to put your face as a call girl face and your data in court file that said that you can load up as that are friends for you used to it and then you can query them pretty easily it's just a way to store data efficiently on this in the causeway ok so there is no engineer . 3
+12:23:000494:000494_4 : 12:22:07:021: Just love them and you look at them with libraries hear the game changer with me by css3 that allows us to get to the side in hdfs and then tile to read the packet tide in the Navy memory efficient way you stumble magic really magic I started with all their lives and dies when I get like 10 times faster with one very very good . 4
+12:23:000495:000495_1 : 12:22:34:152: This . 1
+12:23:000496:000496_2 : 12:22:36:293: Call Kirsty Ne-Yo was a bit better but but it's ok I managed to get them that almost to me twice as fast as a as a spark to arrive and then I was really really amazed like 123 machines I can do this in 1 minutes 5 seconds . 2
+12:23:000497:000497_3 : 12:23:00:457: Prison yeah it's inserted disc call cash for gash 1 minutes 5 seconds when you compare it to spot 2 results and the reference visit Moray Moray . 3
+12:23:000498:000498_4 : 12:23:12:603: Interesting for recycled nationwide . 4
+12:23:000499:000499_1 : 12:23:16:525: Out of her that Swiss pocket and . 1
+12:23:000500:000500_2 : 12:23:21:534: Easy . 2
+12:24:000501:000501_3 : 12:23:24:682: Python function hide a . 3
+12:24:000502:000502_4 : 12:23:28:811: Python code on how is done the loading because it's you I do to get this right to be honest and this is there is very efficient way to do it I couldn't load the data in less than 10 seconds of the 10 million day time in less than 7 so it's pretty impressive using DB TV as well as a connection class instead of the default iSyncr as concurrency in the castle fighting dry . 4
+12:24:000503:000503_1 : 12:23:54:946: Adding back down no . 1
+12:24:000504:000504_2 : 12:23:55:946: Then I played with high availability then yeah I got disappointed by the cats on the driver to be honest because for example exception not in the same namespace so you have to be very for role in your system to simulate only kind of errors and distinguished the client side there are there from the south side thereof and find out which and from where are the kind of a . 2
+12:24:000505:000505_3 : 12:24:24:269: Raise . 3
+12:24:000506:000506_4 : 12:24:26:504: Well it was a bit of a mess so yeah I put on the names of the main ones that I found . 4
+12:24:000507:000507_1 : 12:24:36:669: You have to play with the policies and on and the consistency label that and that that you use and phone founded . 1
+12:25:000508:000508_2 : 12:24:45:340: What is meant for . 2
+12:25:000509:000509_3 : 12:24:47:459: Fancy of the data and when you when you when you you address the clutter . 3
+12:25:000510:000510_1 : 12:24:53:081: Come here to discuss your today I am I really found in the cell in love with a wee wee still . 1
+12:25:000511:000511_2 : 12:25:06:395: I want to stress out again that . 2
+12:26:000512:000512_0 : 12:25:10:109: And we decided to go for it in an introduction but the decision itself is not and since it was not a benchmark of the decision itself doesn't come from just the one minute 5 seconds that I got and the two minutes at our case is better than the highest close down. I have today . 3
+12:26:000513:000513_1 : 12:25:35:554: The driver obviously because now I have all in the same place so my data is consistent even if he's been all my life fine I get production reliability as well . 1
+12:26:000514:000514_2 : 12:25:51:691: I'm not having two kinds of things and it's feelers just like I surmise that I sent elsewhere so in our case where we have multiple datacenters we can have reciprocal piece of the data and if it has a great deal of a local . 2
+12:26:000515:000515_3 : 12:26:10:848: Bluebell consistency and availability of course . 3
+12:27:000516:000516_4 : 12:26:16:999: It's pretty easy to operate to be honest so the autotuning is at a higher than those provided Sea Life Centre tools . 4
+12:27:000517:000517_1 : 12:26:27:133: Violin tuning of the system so it's pretty cool and rationalized infrastructure mean in the maintenance and it's . 1
+12:27:000518:000518_2 : 12:26:38:280: Pretty little of the friendly but it's not mongo DB ok and it's not meant to so when would you be is really developing friendly and you want to be very busy and stop playing and it's very promise you the way design is very damaging and then and if you are not tell me something is not really really only performance . 2
+12:27:000519:000519_3 : 12:27:06:441: Normalising you specialise your data . 3
+12:27:000520:000520_4 : 12:27:10:155: In one way it's not that there was a friend . 4
+12:27:000521:000521_1 : 12:27:15:034: And of course it's reduce cost because I don't have to to to to to to struggle with the older patients of all of these consistency and between . 1
+12:28:000522:000522_2 : 12:27:26:749: Turn around . 2
+12:28:000523:000523_3 : 12:27:29:273: You too can we started with three 3D machines quite a lot of RAM time machine k700 than 20 and 12 gigs of RAM turn machine of coffee RAM is it is really important in databases and we used nvme disks . 3
+12:28:000524:000524_4 : 12:27:47:392: You too can we started with three 3D machines quite a lot of RAM time machine k700 than 20 and 12 gigs of RAM turn machine of coffee RAM is it is really important Definitely and the publisher lot of benchmark designs on on nvme on different kinds of this will make sure you you pick the right ones they have a huge impact on latency there in on Gentoo Linux of course this is a GC aware set up so . 4
+12:29:000525:000525_0 : 12:28:06:651: Are peas to skeleton to another datacenter and it will be done really easily we use ansible to provision our infrastructure as code and so everything is deployed using ansible and configured using ansible that includes user role management of cost money Telegraph and amo need to ring and all the housekeeping or do the things that you have
+12:29:000526:000526_2 : 12:28:32:792: Jacqueline is Understand by the provider distiller manager . 2
+12:30:000527:000527_3 : 12:28:38:084: So it's raining live now so everything I showed you it's raining now for real and this is this was me trying to share how we got it we got there and and and all the things that we learnt along the way thank you very much . 3
+12:30:000528:000528_0 : 12:29:03:953: For the question is you do all Your Mother ending by by having the same business site questions or usage size questions and what happens when the new question box sets are over the time as I so after several days is very nice very flexible you can change it on the fly at Collins and changes on the fly so if you're not alone by
+12:30:000529:000529_2 : 12:29:47:083: Any sign you just do it it has the rocket easy really easy to do to add note to change the right it's really easy and not a big big deal for this kind of the device is not Julie normalising . 2
+12:30:000530:000530_3 : 12:30:04:842: That's your job . 3
+14:44:000531:000531_4 : 12:30:09:045: So with the other ways like Matalan . 4
+14:44:000532:000532_1 : 12:30:18:174: Tweet about if you wanting details got a bad feeling is up to you . 1
+14:44:000533:000533_2 : 12:30:25:308: Thank you . 2

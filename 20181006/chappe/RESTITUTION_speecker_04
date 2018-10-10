@@ -1,0 +1,546 @@
+
+
+04_Le code ne suffit pas Joachim Jablon
+
+
+
+11:38:000442:000442_2 : 11:38:33:110: Du coup bienvenue pour la plantation le code ne suffit pas donc je veux parler maintenant de choses . 2
+11:39:000443:000443_3 : 11:38:42:089: Le gros aussi voir . 3
+11:39:000444:000444_4 : 11:38:50:159: La femme le marché . 4
+11:39:000445:000445_1 : 11:38:54:319: Pour la présentation le code monsieur Phi pas donc voilà . 1
+11:39:000446:000446_2 : 11:39:00:473: Donc j'étais censé faire à la base c'est présentation avec Stéphane tu dis que vous connaissez peut-être malheureusement pour raisons personnelles il a pas pu joindre donc je le fais tout seul mais c'est pas grave . 2
+11:39:000447:000447_3 : 11:39:25:617: Je travaille chez PeopleDoc une boîte qui fait des logiciels danse pour les ressources humaines . 3
+11:40:000448:000448_4 : 11:39:33:753: Table sur tous les réseaux sociaux sur le nom de WII . 4
+11:40:000449:000449_1 : 11:39:38:896: Et je vous parler aujourd'hui ou deux de l'organisation vous pouvez avoir sur un projet open source donc vous avez envie de vous lancer sur un projet choses à faire donc . 1
+11:40:000450:000450_2 : 11:39:55:016: J'ai plein de questions sur . 2
+11:40:000451:000451_3 : 11:39:58:144: Quel problème je voudrais sur le langage utilisé alors si vous êtes là il y a des chances que vous avez déjà répondu et méthodologie . 3
+11:40:000452:000452_4 : 11:40:09:281: Quenelles et architecture vous mettez on fait en sorte que la maintenance va pas totalement horrible exetera . 4
+11:40:000453:000453_1 : 11:40:19:141: Formage bonnes pratiques tout ça ça il y a déjà de quoi perdre beaucoup de temps à coder un truc qui est bien mais . 1
+11:41:000454:000454_2 : 11:40:28:296: De l'iceberg et du coup il va y avoir encore énormément de choses à voir alors c'est pas autant que ce qu'on a vu . 2
+11:41:000455:000455_3 : 11:40:38:432: Travail par exemple tout est question de comment je fais en sorte que . 3
+11:41:000456:000456_4 : 11:40:39:432: Intelligent assa Sylla accessible et caetera ce qui va permettre potentiellement a des gens de pour faire des progrès couette facilement et donc de mon projet de ne pas mourir au bout de trois mois quand je me suis un peu là c'est que personne n'en a strictement rien à faire donc toutes les choses que je peux toutes les choses que je peux mettre en place . 4
+11:41:000457:000457_1 : 11:41:03:760: Est-ce que ce soit un peu plus . 1
+11:41:000458:000458_2 : 11:41:07:934: Sample aborderons est-ce que les l'esprit des gens puissent être vraiment utilisé à réfléchir à comment améliorer le code lui-même et pas et pas le restaurant gros essayer de voir tous les outils on va pouvoir utiliser pour améliorer un autre Hippo sans toucher directement au code donc ça va être le sujet de . 2
+11:42:000459:000459_3 : 11:41:27:640: Donc je vous embarque un peu dans un tour du laboratoire de cue de James Bond donc on va voir plein de gadgets la plupart aucun n'est indispensable vous pouvez faire sans tout mais certains risque de vous dépanner dans des situations un peu complexe donc j'ai le . 3
+11:42:000460:000460_4 : 11:41:46:771: Réussisse à continuer sur les trucs bonus avant la fin du temps réglementaire malheureusement j'ai peur que ce soit pas le cas donc au pire si c'est . 4
+11:42:000461:000461_1 : 11:41:55:856: Je vais commencer tout de suite dans le vif du sujet par les autos formateur donc le principe des autos formateur c de dire puisque de toute façon on sait quelles sont les règles qu'il faut suivre pour que le langage et l'air joli typiquement papiers et caetera pourquoi ne pas avoir un outil qui va faire le travail à votre place donc en gros vous écrivez n'importe comment lui . 1
+11:42:000462:000462_2 : 11:42:19:002: Exactement la même chose mais c'est proprement donc le problème évidemment qu'on va chercher un réseau . 2
+11:42:000463:000463_3 : 11:42:27:119: Discussion autour de ami mais alors là tu es les trois fois à la ligne il faut faire de la lune elle est trop longue je préfère les doubles . 3
+11:43:000464:000464_4 : 11:42:37:259: Remise et toutes ces discussions la . 4
+11:43:000465:000465_1 : 11:42:40:413: Bonne fois pour toute on pourrait plutôt se concentrer dans l'épaule request sur des choses plus intéressantes comme latin introduit une faille de sécurité et là tu a introduit une fête mémoire . 1
+11:43:000466:000466_2 : 11:42:50:407: Et du coup les outils que je vous proposer pour ça aujourd'hui le 1er ça va être black qui est un plutôt nouveau venu dans l'écosystème python qui a apparu un an ou 2 ans et qui commence à prendre beaucoup d'emplois qui tourne en Python 3 6 mais qui peut tourner sur du code Python 3 inférieur donc . 2
+11:44:000467:000467_3 : 11:43:12:554: Il a une opinion très très fort sur ce qu'il veut il va pas vraiment vous laisser la possibilité de mettre le code comme vous voulez on va mettre le code comme lui il . 3
+11:44:000468:000468_4 : 11:43:23:687: Topamax ça peut être négociable si vous vous trouvez que c'est pas le cas du du coup vous n'utilisez peut-être pas black . 4
+11:44:000469:000469_1 : 11:43:32:836: Donc l'idée c'est que le plus simple pour nous ça va être configuré ça à chaque fois que vous faites un contrôle sur votre éditeur comme ça vous vous posez même pas la question vous écris n'importe quoi et puis vous fait contrôler ses propres et du coup rajouter au niveau de votre chèque qui valide et que la personne a bien fait tourner et puis et puis . 1
+11:44:000470:000470_3 : 11:44:13:892: Elle et les entourent interne de vos clips les enfants rentrent dans la frémoire que vous utilisez où les en paraît que ça donc du coup il est là c'est configurable en particulier il est configurable pour ne pas se battre avec black est-ce que plutôt une bonne chose et du coup ça va vous permettre faire en sorte que le truc qu'on a régulièrement . 3
+11:45:000471:000471_4 : 11:44:34:035: Haut et en bas de la liste mais quand ils sont priés ils sont juste à côté ça se voit beaucoup mieux . 4
+11:45:000472:000472_1 : 11:44:39:451: On va continuer sur les 2e outils le deuxième type d'outil ça va être Lénine sœur donc le principe d'une peur ça va être d'analyser votre code sans forcément de faire tourner mes d'essayer de voir toutes les erreurs qu'on peut voir simplement à la lecture du code . 1
+11:45:000473:000473_2 : 11:44:54:592: Bien évidemment le but du jeu c'est de trouver les bagues le plus rapidement possible et tout ce qu'il pourrait être dis automatiquement par dans une paire a pas besoin d'être libre un humain du coup ça fuit différents échanges . 2
+11:45:000474:000474_3 : 11:45:10:734: Encore une fois dans le but de baisser la marche à l'entrée de la contribution . 3
+11:45:000475:000475_4 : 11:45:15:877: Le premier outils dont je vais parler c'est pas ulys donc lui il est capable de trouver je crois 317 types d'erreurs possibles différents sur votre aide ça fait beaucoup il y en a quelques-unes vous serez pas forcément d'accord avec lui mais vous pouvez lui dire donc c'est plutôt intéressant . 4
+11:46:000476:000476_1 : 11:45:33:014: Vraiment aller chercher pleins pleins pleins de choses il va être capable de détecter que là vous importez une fonction dans un module et dans ce module cette fonction existe pas donc ça veut dire qu'il va vraiment aller analyser de façon assez loin mais c'est vraiment intéressant où trouver plein plein plein de choses . 1
+11:46:000477:000477_2 : 11:45:50:159: Lui dit non je suis pas d'accord la . 2
+11:46:000478:000478_3 : 11:45:54:316: Avec pie face très rapidement c'est la même chose mais il est beaucoup moins méchant . 3
+11:47:000479:000479_4 : 11:46:02:455: J'ai beaucoup moi méchant donc c'est un peu servi une version un peu light de pylint il va vous montrer vraiment les erreurs évidence et ça permet d'être un peu avant d'aller un peu plus vite au niveau de la correction mais du coup vous attraper potentiellement un peu . 4
+11:47:000480:000480_1 : 11:46:18:621: Mais dans dans le truc d'avant avant très intéressant et il va utiliser la les annotations de type que vous pouvez mettre depuis Python 3 6 pour valider que vous utilisez bien les fonctions comme une forêt va être capable de détecter des erreurs si vous utilisez string au lieu d'un dentier alors . 1
+11:47:000481:000481_2 : 11:46:41:743: Le plus intéressant une fusée Congo commencé avoir une grosse que tu baises avec plein de choses puisque c'est ça qui va vous permettre de de vraiment voir que là en fait comme un truc et nommer toute façon un peu ambigu on sait pas quel type d'objet en prend et puis quand on la connait on est allé un peu vite et Maï thaï va vous l'attraper directement c'est super intéressant . 2
+11:47:000482:000482_3 : 11:47:00:868: On continue sur le métal hinter en fait c'est pas directement à 8h c'est un outil que j'ai découvert . 3
+11:48:000483:000483_4 : 11:47:13:010: Le principe de Belly Button sais que vous décrivez vous-même les règles d'un winter helluva chargé de vous fournir un Hunter qui va valider ça donc vous pouvez d'écrire ce que vous recherchez à éviter dans le code soi avec une regex que la façon pas forcément évidente parce que le code c'est pas évident la crise . 4
+11:48:000484:000484_1 : 11:47:37:152: Écrire les règles à St donc de ce que Python comprends ce que vous avez écrit indépendamment des espaces des machins des trucs et en fait . 1
+11:48:000485:000485_2 : 11:47:48:293: Pour comprendre à un exemple où on dit je cherche toutes les fonctions qui s'appelle prince souper prince il voulait trouver et donc de vous dire . 2
+11:48:000486:000486_3 : 11:48:00:431: Ah ça va ça va et sans problème . 3
+11:48:000487:000487_4 : 11:48:07:275: Du coup c'est un outil vachement intéressant parce que ça vous permet de rajouter vos propres règles de projet si vous permet de gérer des choses déprécier où vous voulez être sûr que vous vous en débarrasser au fur à mesure ça vous permet de . 4
+11:48:000488:000488_1 : 11:48:22:434: Vous assurer que les gens font pas des aller ce genre de chose donc c'est c'est vraiment intéressant et c'est vous qui choisissez . 1
+11:49:000489:000489_2 : 11:48:30:408: Un exemple . 2
+11:49:000490:000490_3 : 11:48:34:552: Gestion des dépendances donc ça se fait donc votre projet lui-même va probablement avoir des dépendances Python et selon que ce soit une librairie ou un projet . 3
+11:49:000491:000491_4 : 11:48:48:703: Ça va pas être géré exactement la même façon mais dans les deux cas vous allez avoir besoin d'un moyen simple de gérer le fait que quand les gens à développement local il faut qu'il travaille avec un peu près les mêmes version qu'est-ce que vous avez prévu et et si possible essayer de comprendre bien quand vous détecter des bugs est-ce que le buggy viendrai pas d'une . 4
+11:49:000492:000492_1 : 11:49:06:836: Je ne pense qu'à une personne ou quoi . 1
+11:49:000493:000493_2 : 11:49:10:971: Le problème . 2
+11:50:000494:000494_3 : 11:49:15:120: Il y a quelques outils nouveaux qui sont nés pour gérer son . 3
+11:50:000495:000495_1 : 11:49:32:408: Et du coup il va gérer à la fois la la création et la maintenance dans un environnement virtuel et aussi l'installation d'un package et de toutes ces sous dépendance avec un système de verrou de dépendance qui va vous permettre d'avoir de vous assurer que tout le monde travaille exactement avec la même version donc . 1
+11:50:000496:000496_2 : 11:49:52:532: En face à pipe en fait à peu près la même chose que poetry qui a un peu plus jeune en train de monter aussi les deux sont recommandés par l'iPhone packaging authority triche un peu plus de trucs mais du coup il y a un peu moins de contributeur m'envoyer ce que vous voulez et explorer un peu les deux . 2
+11:51:000497:000497_0 : 11:50:11:670: Du coup il y a pas eu. IOS 5.1 ou qui sont deux c'est toi qui marche à peu près de la même façon vous vous vous dites au site de d'analyser votre IP publique et lui il va vous faire des boules request à chaque fois qu'il y a des mises à jour à faire sur le dépendance par rapport à ce que vous avez donc . 3
+11:51:000498:000498_4 : 11:50:31:809: Feuille de sécurité sans avoir besoin de passer votre temps à les lire les changelog de tous les deux tout le monde est sans avoir besoin de faire régulièrement adpr où tout ce que vous changer ses versions il le fera pour vous avez accepté . 4
+11:51:000499:000499_1 : 11:50:49:948: Noter que github vous sera sera capable de vous dire que il y a des failles de sécurité dans ce que vous utilisez mais ils sont pas capables de faire des pères donc c'est toujours intéressant de savoir que . 1
+11:51:000500:000500_2 : 11:51:02:084: Je continue un peu sur les tests donc évidemment le but du jeu ne va pas être de vous convaincre qu'il faut faire des tests parce que j'imagine que vous le faites déjà prête aussi . 2
+11:51:000501:000501_3 : 11:51:11:223: J'ai des ça va plutôt être de voir tous les outils qu'on peut mettre autour des tests de l'écriture des tests qui peuvent vous aider à est-ce que vaut test effectivement a quelque chose et 60 La Martinière et . 3
+11:52:000502:000502_4 : 11:51:26:360: Pie test j'imagine que c'est une surprise pour tous pour personne que je mentionne pie test dans un bowling en parlant déteste c'est l'outil de référence vraiment vraiment cool pour écrire des tests qui vous permettra de décrire beaucoup beaucoup plus simplement que vous avez . 4
+11:52:000503:000503_1 : 11:51:42:509: Avec paille test c'est qu'il a plein de plugin en fait ils peuvent être développés par n'importe qui en a plein de . 1
+11:52:000504:000504_2 : 11:51:53:640: Qui vous permet de générer la couverture de vote mais aussi PESTEL Dr qui améliore la lisibilité de la route pour que ce soit un peu plus simple . 2
+11:52:000505:000505_3 : 11:52:04:779: Avec qui vous permet de distribuer l'exécution déteste en plusieurs voir cœur potentiellement simplement sur plusieurs . 3
+11:52:000506:000506_4 : 11:52:14:997: Plantation de moqueur de la librairie standard python bytes 32 me fais tourner la tête dans un ordre aléatoire pour mieux trouver les tests . 4
+11:52:000507:000507_1 : 11:52:26:599: C'est un peu chiant quand ça arrive mais au moins où trouver des assistants défaut d'isolation et n'apparaissent pas . 1
+11:53:000508:000508_2 : 11:52:34:715: Au moins longtemps . 2
+11:53:000509:000509_3 : 11:52:37:170: Site est bête fixtures qui vous permet de trouver quand il y a des figures de l'utiliser dans vos têtes qui ne sont pas utilisés . 3
+11:53:000510:000510_4 : 11:52:45:272: De sa taille test watch qui va automatiquement lancer vos têtes à chaque fois que vous vous lancez que vous modifiez du code et que vous faire un petit bruit ça passe ou quand ça passe pas besoin de faire des allers-retours . 4
+11:53:000511:000511_1 : 11:52:58:416: Donc je parle à un tout petit peu de couverture de code avec l'outil coverage donc en fait c'est plus j'en fais plus j'ai remarqué que c'était vraiment très intéressant de séparer la couverture des tests unitaires qu'on fait idéalement se rapproche de la couverture . 1
+11:53:000512:000512_2 : 11:53:20:555: Elle a encore plus s'approcher de sang pour sang faite regarder juste la couverture d'intégration regarder la couverture . 2
+11:54:000513:000513_3 : 11:53:29:685: Impression tester son projet alors que j'ai sont passe dans dans du Code Bar effet de bord mes comptes s jamais vraiment . 3
+11:54:000514:000514_4 : 11:53:36:828: Du coup corail va vous permettre de générer plusieurs rapports de tête et après je parlerai dans notre outil qui va aller avec vous permettra aussi de faire de la couverture de branche donc à chaque fois Cardiff valider que il y a au moins un test qui aller dans le . 4
+11:54:000515:000515_1 : 11:53:53:950: Elles sont dans le l Swarga juste askip est complètement bloc avec vous pouvez faire des rapports HTML . 1
+11:54:000516:000516_2 : 11:54:01:821: Ça permet de passer rapidement de comprendre rapidement à quelle date parce qu'elle d'espace pas à quel endroit est donc de pouvoir écrire des tests qui augmente . 2
+11:54:000517:000517_3 : 11:54:12:963: Le bout de . 3
+11:54:000518:000518_4 : 11:54:15:167: Donc effectivement c'est est bien sang pour sang de coverage du code . 4
+11:54:000519:000519_1 : 11:54:24:281: Tu vois le problème . 1
+11:55:000520:000520_2 : 11:54:27:418: Événement . 2
+11:55:000521:000521_3 : 11:54:30:558: Une vérification il manque les affaires effectivement on a 100 /:/ coverage avec 0 /:/ donc . 3
+11:55:000522:000522_4 : 11:54:42:690: Un problème qui peut arriver dans les tests effectivement il y a pas énormément de façon de bien et esquiver ce problème déteste où on a l'impression qu'il faut quelque chose en fait ils font rien à part une technique que je trouve vachement sympa s'appelle le test de mutation si beaucoup de gens dans la salle . 4
+11:55:000523:000523_1 : 11:55:01:821: Le principe du test de mutation ce que vous allez prendre votre attaché c'était elles passeront . 1
+11:55:000524:000524_2 : 11:55:10:964: Une mutation aléatoire de votre vous allez changer parents plein enlever un break . 2
+11:55:000525:000525_3 : 11:55:19:101: Et à l'idée c'est que si voter sont bien écrit alors il doit faire les plus que vous avez changé quelque chose dans le cadre y en a qui devrait pas avoir été changé et du coup . 3
+11:56:000526:000526_4 : 11:55:31:237: Je cherche à faire de mutation dans cette affaire de mutation et à chaque fois qu'il trouve une mutation qui passe il va vous dire là il y a un problème . 4
+11:56:000527:000527_1 : 11:55:41:384: Aujourd'hui avec mousse muscat un outil très simple qui va être assez long mais tu vas trouver quelques trucs et avec . 1
+11:56:000528:000528_2 : 11:55:49:061: Que signifie Carlotti beaucoup plus complexe à mettre en place puisque ça demande du rabbitmq avec un marqueur spécifique et cetera mais c'est beaucoup plus rapide . 2
+11:56:000529:000529_3 : 11:55:58:192: Donc assez intéressant . 3
+11:56:000530:000530_4 : 11:56:06:340: Veut dire un mot la c je fais . 4
+11:56:000531:000531_1 : 11:56:10:480: Continue de passer donc là vous pouvez dire aucun problème je pensais avoir un problème vous pouvez améliorer . 1
+11:56:000532:000532_2 : 11:56:22:630: Pourquoi est-ce que votre coverage enseignement . 2
+11:56:000533:000533_3 : 11:56:27:215: Top c'est un outil qui va vous permettre de lancer plusieurs suite de test cerveau de suite de test avec plusieurs versions en gros dans plusieurs environnement vous pouvez lancer . 3
+11:57:000534:000534_4 : 11:56:39:341: Téléphone . 4
+11:57:000535:000535_1 : 11:56:41:486: Lancer les tests tango un incendie 111 2 1 2 0 2 1 2 et cetera et en fait c'est lui qui va s'occuper de faire toute la matrice de test et du coup de vous dire quand il y a quelque chose qui va pas . 1
+11:57:000536:000536_2 : 11:56:55:635: On va continuer sur ce que j'ai appelé les points d'entrée c'était pas évident de trouver un nom très très pertinent mais en gros à ce niveau-là dans votre projet vous avez décidé d'y aller à fond vous avez vous pouvez lancer votre projet il y a plein de projets spécifiques que vous aussi vous pouvez lancer test . 2
+11:58:000537:000537_3 : 11:57:17:787: Ça unitaire . 3
+11:58:000538:000538_1 : 11:57:39:526: Mais c'est toujours encore de baisser la marche à rentrer en simplifiant le fait que les gens puissent . 1
+11:58:000539:000539_2 : 11:57:49:658: Ça m'a parlé mais en fait il est très pertinent pour ça aussi lancer voting avec toi c'est tout le problème principal c'est que c'est très bien à la nation d'environnement virtuel virtuel . 2
+11:58:000540:000540_3 : 11:58:04:783: Je voulais lancer sont pas moi mendier adv anges du coup c'est pas toujours le plus adapté il y a Makefile c'est très classique c'est assez courant d'arriver sur le problème c'est que . 3
+11:58:000541:000541_4 : 11:58:19:921: Et garde beaucoup d'héritage de truc qui fait pour pompiers du c'est par exemple juste pour avoir une idée combien de personnes ont déjà vu le poinçonnet en haut et ça va à peu près à quoi ça sert . 4
+11:59:000542:000542_1 : 11:58:31:743: Ça on va dire à un petit 5e de la salle du coup pour les autres personnes est-ce que vous avez une idée de . 1
+11:59:000543:000543_2 : 11:58:41:873: Dans mon réponds est-ce que le fait de lancer un mail pas être affecté par l'existence de fichiers d'une ou pas il y en a qui veut dire avec certitude . 2
+11:59:000544:000544_3 : 11:58:51:478: Voilà donc on entend le 8D des gens qui qui se sont fait avoir par sa une fois dans la vie effectivement mais vraiment nous ticket pour compiler du côté et du coup . 3
+11:59:000545:000545_4 : 11:59:05:635: Quand on décide que finalement c'est pas des fichiers mais juste des noms comme Lindsay on peut se retrouver face à des problèmes si vous avez pas envie d'étudier ligne . 4
+11:59:000546:000546_1 : 11:59:16:760: Comment plat inox un outil fit tonic en python qui a été fait par les gens qui fabriquent dans le but du jeu dans le but de fois refaire fabrique de la première . 1
+12:00:000547:000547_2 : 11:59:30:913: François vachement pratique tu veux ou permettre de s'amplifier en fait pas mal de choses écrire du piston c'est quand même plus sympa . 2
+12:00:000548:000548_3 : 11:59:39:438: On va passer sur la documentation donc forcément si on parle de décès de baisser la marche à rentrer sur la contribution des projets la documentation . 3
+12:00:000549:000549_4 : 11:59:49:571: Du coup j'ai des ça va être de chanson depuis votre documentation soit visible accessible que les gens arrivent à trouver des choses dedans et que vous arriviez à savoir où mettre les choses pour qu'on est trop facilement . 4
+12:00:000550:000550_1 : 12:00:03:713: Il y a une documentation et le loup qui le plus classique et le plus le plus le plus standard pour le faire même pas que en python c'est aussi utilisé pour plein de trucs c'est vachement cool avec 5 ça c'est que quand vous partez de rien voulais juste faire une documentation . 1
+12:01:000551:000551_2 : 12:00:23:839: Trouver des questions tu as la force d'un début de . 2
+12:01:000552:000552_3 : 12:00:27:963: Ça passe ça peut faire des bouts avec loto doc donc tu vas aller à analyser votre code pour pour faire votre doc de référence mémé une de référence à une et il va y avoir besoin . 3
+12:01:000553:000553_4 : 12:00:42:959: Si pour que votre d'Auxerre vraiment c'est de la mettre en ligne accessible tu es paré pour ça je vous conseillerais de dox un outil au service vraiment sympa c'est gratuit pour le projet open source il va aller lire votre IP publique et il va automatiquement allez . 4
+12:01:000554:000554_1 : 12:00:59:087: Avec plein de fonctionnalités de très sympa arrivé capable de faire plein de choses cv franchement new Titeuf pas grand-chose à configurer . 1
+12:02:000555:000555_2 : 12:01:07:236: Ok allez en ligne donc n'hésitez pas à utiliser et du coup comment écrire votre 2 pour qu'elle soit vraiment alors là je reprends une slide Daniele Procida présenter à plusieurs reprises . 2
+12:02:000556:000556_3 : 12:01:24:372: Sur aller 4 grande partie qu'il voulait météo Nancy je suis voulu utiliser pour structurer votre docks ça devrait simplifiée des choses à la première partie c'est le tutorial . 3
+12:02:000557:000557_4 : 12:01:37:503: La personne ne connaît rien sur votre projet et vous voulez l'aider à faire quelque chose avec votre projet pour comprendre à quoi ça sert vraiment semble très guider et faire en sorte que ça ne puisse pas fait il vous mettez tout en place pour que ce soit la personne sur des rails il veut rien lui arriver à la tester votre ça c'est la plus importante pour . 4
+12:02:000558:000558_1 : 12:01:59:632: Appelez les recettes de cuisine . 1
+12:02:000559:000559_2 : 12:02:03:778: Précisément comment utiliser votre projet pour réaliser début de précis la troisième partie . 2
+12:02:000560:000560_3 : 12:02:10:917: Quoi . 3
+12:02:000561:000561_4 : 12:02:13:045: Tu verras faut vraiment comprendre la façon dans le projet structuré allez choix de design qu'on a été faite et du coup la dernière partie référence . 4
+12:02:000562:000562_1 : 12:02:14:045: Là où je vais mettre votre API de référence avec tous les détails de des noms des méthodes des paramètres . 1
+12:02:000563:000563_2 : 12:02:34:352: Mais il y a des parties sont plutôt lit à l'apprentissage de pieds sont plutôt l'exécution des parties . 2
+12:03:000564:000564_3 : 12:02:41:509: En principe pour que chaque fois que vous ayez une chose vous dit je voudrais la mettre dans la zone toujours un peu près une bonne idée de est-ce qu'il faut la mettre . 3
+12:03:000565:000565_4 : 12:02:50:651: Intégration continue . 4
+12:03:000566:000566_1 : 12:02:53:798: Ah bah il va y avoir encore quelques trucs donc les problèmes à résoudre c'est premièrement s'assurer que même quand les contributeurs sont très pressés à tous les tests ont bien tournée parce que sinon les gens ils et ça se passe . 1
+12:03:000567:000567_2 : 12:03:10:582: Et du coup effectivement il y a plein de gens qui offre des serveurs équipe avec des Qt du code de n'importe qui donc autant profiter pour faire tourner étaient suite parce que voilà donc je vais vous parler . 2
+12:04:000568:000568_3 : 12:03:30:734: Et le plus pratique pour le projet open source Alizée c'est vraiment vous vous mettez je vous avez juste un fichier YML à mettre à la racine de votre projet et rien qu'à partir de ça vous activez votre projet sur . 3
+12:04:000569:000569_4 : 12:03:46:881: À vous mettre un chèque sur Github ou autre . 4
+12:04:000570:000570_1 : 12:03:52:025: Si vous avez jamais eu l'occasion de tester une série essayer Travis . 1
+12:04:000571:000571_2 : 12:03:59:160: Quasiment la même façon le sait taper un poil plus compliqué parce que le fichier de conf à un poil plus complexe mais par contre il est vraiment vraiment plus rapide donc si vous avez l'impression que . 2
+12:04:000572:000572_3 : 12:04:11:287: Donner à un deuxième chance . 3
+12:04:000573:000573_4 : 12:04:15:421: Appveyor cas intéressant qui soit particulièrement bon il est plutôt - donc les deux autres mais il y a un très bon l'avantage c'est que ils ont débarqué sur Windows et donc du coup si vous voulez tester que votre projet il marche bien sous Windows . 4
+12:04:000574:000574_1 : 12:04:31:559: Je voudrais gratuitement à vas retourner sur windows ça veut dire qu'il faut que vous écriviez fichier batch Windows . 1
+12:04:000575:000575_2 : 12:04:39:679: Adaptation de main cet . 2
+12:05:000576:000576_3 : 12:04:42:828: Il vous permet d'atteindre une audience passionnant beaucoup plus large . 3
+12:05:000577:000577_4 : 12:04:47:464: Et du coup . 4
+12:05:000578:000578_1 : 12:04:52:626: Gitlab ci a été vachement intéressant c c gitlab que vous utilisez pour héberger votre code avantage c'est que du coup c'est plutôt simple à utiliser ça marche à peu près pareil avec un fichier . 1
+12:05:000579:000579_2 : 12:05:06:763: Et du coup le gros avantage c'est que il va être capable d'aller vraiment loin dans tout ce qui est déploiement à partir de votre code donc si vous n'êtes pas sûr mais plutôt sur une sur un site web par exemple il va être capable de vous montrer une version de votre site web directement sur . 2
+12:06:000580:000580_3 : 12:05:27:912: La capable d'aller les voir sur le web sans même sans même les avoir déployé fait tu vas faire le déploiement pour vous c'est un peu de configuration à tout mais si vous permet vraiment de partager de tester vraiment le code que vous avez fait avec d'autres personnes avant de manger . 3
+12:06:000581:000581_4 : 12:05:43:046: Accent des outils comme ça c'est dur d'imaginer ce genre de chose à prêter son ordi à quelqu'un pour qu'il fasse le plan local . 4
+12:06:000582:000582_1 : 12:05:52:099: Dans notre routine c'est vachement pratique en terme de Sia et ça va être code comme un outil qui va faire l'agrégation de rapport de coverage que vous avez pu générer qui va vous dire combien de pour cent de cow-boy je vous avez en particulier . 1
+12:06:000583:000583_2 : 12:06:11:225: Une fois que là il y a tourné banalisée faire un commentaire sur Pôle request donc du coup vous savez si directement dans la prairie . 2
+12:06:000584:000584_3 : 12:06:23:357: Il a plutôt monté par rapport à ce qu'il y avait avant il a plutôt bcc vous pouvez même dire à . 3
+12:06:000585:000585_4 : 12:06:31:502: Le diras github le build a failli laisser le cobra il a baissé de plus de 3 /:/ . 4
+12:07:000586:000586_1 : 12:06:38:634: Il y a pas de test . 1
+12:07:000587:000587_2 : 12:06:42:769: Je sais pas si il faut qu'on se dit vous déconseillé spécifiquement ça mais je trouve que c'est vachement intéressant proche de pouvoir voir le vrai je lui ai offert pour mieux comprendre quels sont les perdre vraiment . 2
+12:07:000588:000588_3 : 12:06:55:498: Voilà donc il y a . 3
+12:07:000589:000589_4 : 12:07:01:651: Le temps demain il y a plein de choses dont je n'ai pas parler là-dedans puisque il y a quand même un nombre infini de problème résolu par . 4
+12:07:000590:000590_1 : 12:07:15:781: Parce que les développer ses développeurs adore résoudre le problème en rajoutant plus . 1
+12:07:000591:000591_2 : 12:07:22:901: Voilà j'ai pas parlé de l'insigne de configuration . 2
+12:08:000592:000592_3 : 12:07:30:035: Jurassic manifester principalement pour le . 3
+12:08:000593:000593_4 : 12:07:37:174: Donc j'ai pas parlé de versionning et d'outils qui vous permet de te mettre des la montée de numéro de version les badges les séries de possible que vous pouvez avoir sur le rythme votre projet c'est quand même très pratique pour savoir . 4
+12:08:000594:000594_1 : 12:07:53:316: J'ai pas parlé de déploiement continu il y a plein de Fra gratuite si vous permettre de mettre des projets assez complexe gratuitement sur le web . 1
+12:08:000595:000595_2 : 12:08:05:456: Viva la création d'une . 2
+12:08:000596:000596_3 : 12:08:09:586: Et du coup . 3
+12:08:000597:000597_4 : 12:08:13:740: J'aurais bien proposé à Stéphane de Paris 17 à Lyon qu'il développe qui permet de fournir une vue vachement plus sympa pour faire de la code review et analyser des différentes il faut faire du combat donc je vous invite à en parler avec lui . 4
+12:08:000598:000598_1 : 12:08:31:881: Et du coup . 1
+12:09:000599:000599_2 : 12:08:36:004: Je veux faire ma conclusion tout de suite mais je pense que je vais avoir le temps pour ça au moins un petit point de . 2
+12:09:000600:000600_3 : 12:08:42:157: Donc c'est bien d'avoir des outils attention s'il vous commencez en mettre trop parce que au bout d'un moment ça dure aussi un peu lisible donc c'est à vous de faire la part des choses entre les outils que vous apporte vraiment quelque chose . 3
+12:09:000601:000601_4 : 12:08:53:279: Pour le gadget moi j'aime ça aussi maman mais c'est vrai que c'est sympa et du coup le plus important c'est . 4
+12:09:000602:000602_1 : 12:09:04:420: Essayer essayer de faire en sorte que votre projet sont abordables en essayant de limiter au maximum tous les trucs un peu abscon . 1
+12:09:000603:000603_2 : 12:09:14:542: Avant la semaine suivante je passais à celle d'après . 2
+12:10:000604:000604_4 : 12:09:20:661: Est-ce que vous pouvez routier sur guitabec s Lab donc sur Ferrara j'ai vérifié mais c'est accessible autant sur l'un sur l'autre comment tester tous les outils mais comme c'était de plus gros . 4
+12:10:000605:000605_0 : 12:09:39:940: En fait il y a plein de choses que vous pouvez configurer et qui vont vous permettre de d'améliorer un peu la communication autour de votre projet pour les gens qui vont essayer de continuer donc le premier le plus important c'est le readme.md que vous avez déjà probablement . 1
+12:10:000606:000606_2 : 12:09:56:074: Appeler projet qu'on en parle assez facilement mais du coup c'est intéressant de bien vérifier . 2
+12:10:000607:000607_3 : 12:10:03:219: Plus importante donc la licence comment contribuer les étapes comment se détestent le code de conduite si vous en avez un genre de chose et puis votre projet comment installer . 3
+12:11:000608:000608_4 : 12:10:18:353: Hésitez pas même à organiser votre et demi d'après les 4 grands points à aborder un peu tout à l'heure parce qu'en fait c'est déjà une version pour certains c'est tout votre documentation un peu . 4
+12:11:000609:000609_1 : 12:10:32:459: Alors qu'elle les a un peu comme ça ça permettra aux gens de pouvoir aller directement taper la partie des intérêts . 1
+12:11:000610:000610_2 : 12:10:40:220: MD donc contributeur ce qu'on aime vraiment les informations à destination des gens qui veulent contribué du coup c'est ça peut être vraiment l'endroit où vous pouvez vous et tendre et expliquer dans le détail qu'est-ce que vous attendez en terme de contribution quels sont les outils lancer . 2
+12:11:000611:000611_0 : 12:11:03:349: Et du coup le truc qui est très sympa avec avec guide et je crois que fiable ça aussi c'est que si vous avez mis en place un fichier contributeur. MD quand les gens sont en train d'ouvrir leur première pour le resto la première issue . 3
+12:12:000612:000612_4 : 12:11:19:486: Qu'est-ce que vous avez bien lu les règles de contribution et qui permet dans 80 /:/ des cas de limiter les allers-retours qui va y avoir parce que la personne ne reçoit pas donné un faux . 4
+12:12:000613:000613_1 : 12:11:31:622: Quelle heure conduite forcément du coup il est référencé aussi au même endroit quand existe c'est forcément plutôt important pour . 1
+12:12:000614:000614_2 : 12:11:40:767: Que que que les règles soient écrire quelque part sur ce que vous attendez des contributeurs éviter les problèmes assez récurrent de harcèlement de machin de ses dents ça suffit pas d'avoir un gros s'il appliquait mais déjà l'avoir à appliquer une très bonne première étape . 2
+12:12:000615:000615_3 : 12:11:57:903: Donneur de sang donc c'est quelque chose qui a paru dans la dans les derniers mois chez github et qui existe existe un tout petit peu avant je crois . 3
+12:12:000616:000616_4 : 12:12:13:032: Avec certains contributeur pour faire en sorte que ces ses fichiers sur modifier les contributeurs sera automatiquement notifier pour une connerie pouvez même exiger que c'est pas facile pour . 4
+12:12:000617:000617_1 : 12:12:25:176: La presse de Vienne valide une façon assez sympa vous vous pouvez soit associé à des gens . 1
+12:13:000618:000618_2 : 12:12:34:302: Agence . 2
+12:13:000619:000619_0 : 12:12:36:451: Société chemin spécifique soit plutôt des extensions de fichiers vous voulez que votre localisation d'un manager gère tout ce qui est laid. Prévost écoutez vous pouvez faire ça ce qui permet de lecture automatique . 3
+12:13:000620:000620_4 : 12:12:53:593: Pour faire une relecture toutes ces choses là c'est assez intéressant puisque ça permet de ne jamais oublier de notifier une personne qui doit faire quelque chose . 4
+12:13:000621:000621_1 : 12:13:05:693: Au niveau des branches protéger donc c'est assez important de protéger un certain nombre de branches ne serait-ce que pour éviter les les réecritures d'historique parce qu'on a oublié de crée une nouvelle branche qui peut arriver régulièrement donc les branches ça permet d'être sûr que personne ne peut faire votre . 1
+12:13:000622:000622_2 : 12:13:23:829: Un gros souci . 2
+12:14:000623:000623_3 : 12:13:27:959: Accès à tout un tas de choses que vous pouvez faire dessus qui sont vachement intéressant aussi poser au moins une ou deux avant que . 3
+12:14:000624:000624_4 : 12:13:40:122: Qu'est-ce que sinon elle pourra dire c'est bon c'est pas bon mais elle vous dira pas en fait vous pouvez pas marché . 4
+12:14:000625:000625_1 : 12:13:48:253: Un tas de choses que vous pouvez faire ça vaut le coup d'aller explorer dans les options parce que c'est un peu caché dans github pour pour faire en sorte que les règles que vous voulez humainement mettre en place pour les gens qui correspondent effectivement affiche . 1
+12:14:000626:000626_2 : 12:14:06:385: Janine pour toujours à faire quelque chose ah ah qu'il respecte pas les règles mais si ça ce que il faut . 2
+12:14:000627:000627_3 : 12:14:13:268: Les template dis chouette père c'est assez intéressant puisque en plus surtout avec le nouvel affichage qu'il y a dans Peter maintenant puisque ça vous pla ça permet aux gens d'ouvrir directement des pères qui sont beaucoup plus . 3
+12:14:000628:000628_4 : 12:14:29:421: Qui sont beaucoup plus directement . 4
+12:15:000629:000629_1 : 12:14:30:421: Parce qu'elles veulent ce qu'elle demande quel est le problème SFR et en demandant directement l'utilisateur quelles sont les informations dans ton à vendre donc . 1
+12:15:000630:000630_2 : 12:14:44:738: Égout commence à avoir un peu de choux qui s'ouvre sur votre projet ça vaut le coup de commencer à mettre des templates parce que vous voulez gagner . 2
+12:15:000631:000631_3 : 12:14:53:745: Alors . 3
+12:15:000632:000632_4 : 12:14:57:317: Niveau temps . 4
+12:15:000633:000633_1 : 12:15:01:913: J'avais fini à peu près la . 1
+12:15:000634:000634_2 : 12:15:08:525: Je vous parler rapidement du coup du . 2
+12:15:000635:000635_3 : 12:15:12:668: un dernier truc que j'avais prévu aussi c'était book . 3
+12:15:000636:000636_4 : 12:15:20:813: Est-ce que . 4
+12:16:000637:000637_2 : 12:15:22:936: Vachement pratique de pouvoir faire en sorte que votre nouveau comique soit propre et du coup pour ça les décès Respecte bien en sortant de choses donc ça vous évite la personne qui a cessé pour la presqu'île oublié du coup . 2
+12:16:000638:000638_3 : 12:15:43:246: C'est pas très très grave d'avoir un historique qui pas extrêmement lisible mais néanmoins toujours plus sympa de s'assurer à chaque fois qu'on a rien oublié . 3
+12:16:000639:000639_4 : 12:15:54:378: Et surtout c'est dommage de s'en priver parce que c'est très simple à faire avec guide propose de base tout ce qu'il faut pour faire seulement il suffit de mettre . 4
+12:16:000640:000640_1 : 12:16:05:515: Affichez exécutable du coup à chaque fois que vous essayez de comité . 1
+12:16:000641:000641_2 : 12:16:11:645: Envoie un code un code en plus le comique va être annulé avec un message d'erreur qui serait appeler Gérard afficher le . 2
+12:17:000642:000642_3 : 12:16:12:645: Une bonne manière de d'automatiser incertaine de chèque je voulais mettre blague s'il voulait mettre les limites heures et cetera pour pouvoir valider tous les comme il vous pouvez le faire directement à ce niveau-là par contre vous pouvez pas imposer que des gens utilisent de prix . 3
+12:17:000643:000643_4 : 12:16:38:936: 10h quand tu pues poulains repos entre clone array pas à prendre ou de prêt comme ici ça n'existe pas ça serait en fait au niveau sécurité ce sera un peu trop compliqué parce que poulain haribo c'est juste pour les des fichiers et si on peut dire exécuter script sur l'ordi de la personne qui . 4
+12:17:000644:000644_1 : 12:16:56:087: À chacun dans sa laisser propre de prêt commis par contre ce que vous pouvez s'est proposé le pré commit strip et laisser la personne installer facilement . 1
+12:17:000645:000645_3 : 12:17:05:246: Et du coup . 3
+12:17:000646:000646_4 : 12:17:08:031: Hanautic existe . 4
+12:17:000647:000647_1 : 12:17:13:169: Et je suis pas sûr que ça extrêmement ouf mais j'en profite pour en parler parce que je trouve que c'est intéressant qui vous permet en fait de s'amplifier d'installation chez les gens de exemple . 1
+12:17:000648:000648_2 : 12:17:27:318: Juste à faire après comice install il va automatiquement avoir Black Agra Agra Sophie configuration que vous aurez mis dans votre il va avoir . 2
+12:18:000649:000649_3 : 12:17:37:480: Voilà je crois que je fais à peu près le tour de tous les outils que je vais à présent du coup ça va nous laisser le temps pour . 3
+12:18:000650:000650_4 : 12:17:48:248: Une dernière chose avant . 4
+12:18:000651:000651_1 : 12:17:56:390: Il va y avoir c c c sujet là vous intéresser un atelier demain après-midi demain matin . 1
+12:18:000652:000652_2 : 12:18:06:515: Sur le siège d'un projet en python donc on a on a dialogué pour valider qu'effectivement n'allez pas vous dire des choses complètement inversé l'autre ça vous permettra de mettre en application pas mal des outils ont été présentés ici effectivement ça marche si vous voulez utiliser . 2
+12:19:000653:000653_3 : 12:18:26:669: Voilà du coup j'ai 1000 . 3
+12:19:000654:000654_4 : 12:18:31:787: Je vais la question c'est avec plaisir que je les remettrai puis . 4
+12:19:000655:000655_1 : 12:18:36:554: Alors la question c'est au niveau des tests de mutation est-ce que ça ralentit pas trop les tests même mais en fait si c'est par définition c'est assez long à faire tourner m'aider c'est pas non plus forcément de quelque chose qu'on s'est tourné dans chaque perd tout le temps est plutôt quelque chose qu'on peut lancer de temps en temps pour avoir un peu une idée de chose . 1
+12:20:000656:000656_0 : 12:19:16:845: Cours ferme donc effectivement si il faut les laisser tourner dans un process pendant une heure ou deux de temps en temps c'est faisable c'est juste au moins ça nous permet d'avoir un outil qui permet d'avoir à l'instant
+12:20:000657:000657_4 : 12:19:30:976: À faire tourner dans une pierre à chaque fois c'est probablement un peu trop long . 4
+12:20:000658:000658_1 : 12:19:36:306: Durée de question . 1
+12:20:000659:000659_1 : 12:20:05:121: Alors la question c'est est-ce que je connais des outils qui marchent particulièrement bien en terme de dialogue communautaire autour de projet open source . 1
+12:24:000660:000660_2 : 12:20:16:258: Malheureusement j'ai l'impression que beaucoup de gens cherchent encore un peu s Evo Lafesse la cave un peu de succès pour venez sur notre slack mais le fait que l'inscription sois sois pas facile et pas évidente discord en train de monter un peu sur certains projets mais mais c'est encore assez faible 8h que j'ai beaucoup de succès mais j'ai l'impression que au final . 2
+12:24:000661:000661_3 : 12:20:36:401: Mais tu les aujourd'hui malheureusement j'ai pas de réponse définitive pour dire ça c'est un problème il faut y aller à fond . 3
+12:26:000662:000662_4 : 12:20:45:547: Et bien merci beaucoup je serai disponible pour répondre . 4
+12:27:000663:000663_1 : 12:24:17:361: Alors la vidéo . 1
+12:29:000664:000664_2 : 12:24:22:203: Combien fait 8 heures de . 2
+12:29:000665:000665_2 : 12:26:16:888: Mais . 2
+12:29:000666:000666_4 : 12:27:46:536: De mieux comprendre . 4
+13:58:000002:000002_4 : 13:50:11:810: Alors allô allô . 4
+13:58:000003:000003_2 : 13:51:05:508: Allô allô tu vas bien . 2
+13:58:000004:000004_3 : 13:51:10:115: Je veux le micro comme ça moi d'habitude voilà comme ça à peu près sur le coup comme ça ça . 3
+13:58:000005:000005_3 : 13:58:14:828: Ok donc ça ça marche . 3
+13:58:000006:000006_1 : 13:58:26:118: Magnifique Joachim . 1
+13:59:000007:000007_2 : 13:58:34:608: Ouais je pense normalement . 2
+13:59:000008:000008_4 : 13:58:41:733: Une heure . 4
+13:59:000009:000009_1 : 13:58:44:789: Ouais ouais c'est bien . 1
+13:59:000010:000010_2 : 13:58:56:641: Sophie . 2
+13:59:000011:000011_3 : 13:59:10:793: Clinique . 3
+14:00:000012:000012_4 : 13:59:16:911: J'aimerais me soulager l'autre je sais pas si il faut que j'utilise seul en plus je demanderai aux gens s'ils entendent bien globalement si un jour . 4
+14:00:000013:000013_2 : 13:59:33:554: D'accord . 2
+14:00:000014:000014_3 : 13:59:41:178: Viens . 3
+
+
+
+05_Leveraging consistent hashing in your python applications Alexys Jacob
+
+ 
+14:05:000028:000028_3 : 14:04:24:710: Mitcham Baden-Baden come on sava Chris Tyson . 3
+14:05:000029:000029_4 : 14:04:31:759: It is on Keeley is not going to say something . 4
+14:06:000030:000030_4 : 14:05:33:198: Translate correctors for the instructions if you really want to anyone can be corrected . 4
+14:06:000031:000031_1 : 14:05:41:319: The news . 1
+14:06:000032:000032_2 : 14:05:48:438: You want to fill out on this weekend delivery . 2
+14:06:000033:000033_3 : 14:05:56:571: Hello everyone so the first question I will have his do I need this might or if I speak this way it's enough for you in the back . 3
+14:06:000034:000034_4 : 14:06:24:506: Time . 4
+14:07:000035:000035_1 : 14:06:27:148: If not just ask just ask and I will just use the bike with weights welcome before it started yet . 1
+14:07:000036:000036_2 : 14:06:38:832: Alright if not you just raise your hand and I will catch it up free with my eyes are right this way is whether it's good or . 2
+14:07:000037:000037_3 : 14:06:51:790: Just to get a quick overview who has never heard of consistent hashing . 3
+14:07:000038:000038_4 : 14:06:58:888: Don't be shy alright . 4
+14:07:000039:000039_1 : 14:07:03:986: Ok so I hope this will be at least informative . 1
+14:08:000040:000040_2 : 14:07:10:301: A quick introduction about myself so can't find me your blog almost everywhere as . 2
+14:08:000041:000041_3 : 14:07:18:427: The work at numberly for the first time on soles of her know we are very pleased to to to come to this event for a few years sponsors of Europe item so he gave gave restore previous version of it's at the euro parts of the last year and . 3
+14:08:000042:000042_4 : 14:07:44:228: We are in the master chief which is a contraction between marketing and technology that we are marketing technologies so we use a lot of Python code actually and to analyse data and makes sense out of a lot of various types of data for to connect a brand with a customer or someone or some some people so we sit in between France and us and our core businesses is data analysis . 4
+14:08:000043:000043_1 : 14:08:18:411: And concerning our clients to make good marketing strategy . 1
+14:09:000044:000044_2 : 14:08:19:411: And we operate them . 2
+14:09:000045:000045_3 : 14:08:27:150: I'm also in the open source world, i'm also a Gentoo Linux developper 10 to Linux . 3
+14:09:000046:000046_4 : 14:08:35:274: So you're welcome I'm Focus mostly on packaging and stuff like that song and various fighting related packaging so it's my excuse to actually go deeper into into some of Perseus project and contribute to them as well so if I can see this with my day-to-day work I'm happy now . 4
+14:09:000047:000047_1 : 14:09:04:991: Alright . 1
+14:09:000048:000048_2 : 14:09:07:658: A bit of history first and I would try not to look a bit better I guess I will have to sometime so so forgive me there is also part where I will do I will try to to show you a Live demo its local so it's a . 2
+14:10:000049:000049_3 : 14:09:25:783: so consistent hashing is nothing new it goes back to where can I use paper from akamai in 1997 . 3
+14:10:000050:000050_4 : 14:09:38:211: Daniel . 4
+14:10:000051:000051_0 : 14:09:40:344: There's nothing new in this and then it spread to peer-to-peer networks like a child where are they use a consistent hashing to keep track of what were in the in the P2P. Amazon dynamodb is an example and for memory management and basically a lot of distributed databases when you need to address something they found the key and we'll look at why later and so there are a lot of . 1
+14:11:000052:000052_2 : 14:10:13:478: Technologies and very big technologies such as Cassandra of course which uses it under the hood . 2
+14:11:000053:000053_3 : 14:10:21:584: But it's still fairly unknown to the average developper they're both so this is my time in trying to spread a bit the world's in making making something out of it on actual Python code and so before we go into the details of consistent hashing we need to understand the why why why did this guy do this and and what's the philosophy or at least the basic principles behind it and it's a bit of story of . 3
+14:12:000054:000054_4 : 14:10:51:812: castle they're both so this is my time in trying to spread a bit the world's in making making something out of it on actual Python code and so before we go into the house consistent hashing we need to understand the why why why did this guy do this and and what's the philosophy or at least the basic principles behind Ok a map is a way to take something that can point to another item and report and returned the second item so it how do I find these days on what we can see as a query or like we used to say we say more the key and so it's basically a referential you are a source of reference and you do look up and you get pointed to this information which you kind either insert because . 4
+14:12:000055:000055_1 : 14:11:27:015: Ok a map is a way to take something that can point to another item and report and returned the second item so it how do I find these days on what we can see as a query or like we used to say we say more the key and so it's basically a referential you are a source of reference and you do look up and you get pointed to this information Somewhere or you want to Rretrn and so it's reference information it is a mapping between the two and what is interesting yesterday is the arrow in between how do you make this and what are the implications in this area lookup operation is the phone book is just like a mapping you go look for her name and you get a number . 1
+14:12:000056:000056_3 : 14:11:58:523: It's pretty easy . 3
+14:12:000057:000057_4 : 14:12:03:814: The principle . 4
+14:12:000058:000058_1 : 14:12:06:938: You have a. 1
+14:13:000059:000059_2 : 14:12:09:806: Referential selection you have to have a way to find to define your your reference then you apply a logical operation if in the phone book the Logical operation is a physical one you just go over the pages and find something and then you get your information and in between the two First Steps define your lookup efficiency . 2
+14:13:000060:000060_3 : 14:12:37:436: Sonic fine sense if you take the phone book you open the page layout random I am at f and I'm looking for someone with a gene is name ok I have to . 3
+14:13:000061:000061_4 : 14:12:51:589: Days until I get something so what we did we do to increase the lookup efficiency index . 4
+14:13:000062:000062_1 : 14:12:59:545: Index you find the right thing and then you go to the right page immediately it's faster because the index is he is more dense than the actual phone with the actual phone book write . 1
+14:13:000063:000063_6 : 14:13:11:958: We will get back to this index right idea a bit later and especially when we talk about her Python 3.6 . 2
+14:13:000064:000064_3 : 14:13:21:087: Basically what you seek is the lookup efficiency when you when using an map . 3
+14:13:000065:000065_4 : 14:13:30:012: Ok . 4
+14:13:000066:000066_1 : 14:13:32:595: A map you have a key you get the value or you set a value does is ring a bell . 1
+14:14:000067:000067_2 : 14:13:42:405: Python dict . 2
+14:14:000068:000068_3 : 14:13:45:604: You addressed by a key either of two sets of that you are to get it right . 3
+14:14:000069:000069_4 : 14:13:54:548: There is presentation is this with the Houston Rockets that's basically it is that I don't know if this is it is the right channel not there anyway actually maybe you lots of you know and maybe some don't but the Titans it is actually what we call a hash table . 4
+14:14:000070:000070_1 : 14:14:16:989: Table comes from the implementation of the arrow how does it work how does it know where to start this letter from in memory and how does it know how to retrieve it . 1
+14:15:000071:000071_0 : 14:14:28:395: Can you looks like this the hash
+14:15:000072:000072_3 : 14:14:35:545: Fashion workie then you apply a logical operation and that you get a pointer to a location again if the implementation process on the online down the two parts to have that define deficiency of love the Look . 3
+14:15:000073:000073_4 : 14:14:53:226: RVI implementation so if we look at Python dict . 4
+14:15:000074:000074_1 : 14:14:58:764: It's using an array . 1
+14:15:000075:000075_2 : 14:15:02:909: Cancel the erasing memory the bath on your right . 2
+14:15:000076:000076_3 : 14:15:08:719: Indices of this array are obtained using a hash function on the key . 3
+14:15:000077:000077_4 : 14:15:16:590: Look up the volume so there is a routing function that's called hash . 4
+14:15:000078:000078_1 : 14:15:22:713: Can you do with my dict the username you actually under the hood you do a hash of the string username and then . 1
+14:15:000079:000079_2 : 14:15:34:843: The Logical operation that is applied is emoji love and the modulo is the size of the array - 1 . 2
+14:16:000080:000080_3 : 14:15:45:781: So there is the spacing memory . 3
+14:16:000081:000081_4 : 14:15:49:189: Sigmund to Dagenham . 4
+14:16:000082:000082_1 : 14:15:52:260: I have the key that is 'a' I apply your house on this is me a number is hash function Returns a number . 1
+14:16:000083:000083_2 : 14:16:03:897: I do modulo on the size of the array let's stay in this in Disguise Nigerian memories is it . 2
+14:16:000084:000084_3 : 14:16:12:029: Is there any live 11 elements and I guess that means that . 3
+14:16:000085:000085_4 : 14:16:21:101: This value I will get the value in memory my index just like me in the phone book is 0 and that's where the data is for a key . 4
+14:16:000086:000086_1 : 14:16:36:085: Sounds good . 1
+14:16:000087:000087_2 : 14:16:38:475: Nobody's last . 2
+14:17:000088:000088_3 : 14:16:40:981: So . 3
+14:17:000089:000089_4 : 14:16:45:105: Betty Teresa is doing good . 4
+14:17:000090:000090_1 : 14:16:50:230: The role of the hash function is to distribute the keys evenly in the memory so they don't you have to spread it you don't have you you need to be able to not have them or sequentially because . 1
+14:17:000091:000091_2 : 14:17:07:293: Good hash functions they minimise the number of of of keys having the same hash when you apply Your House depending on your hash function in this case the Python hash is is a bit then . 2
+14:18:000092:000092_3 : 14:17:23:431: And that means that when you do hash of 'a' it gives you a number but maybe you have something else, another string that gives you the same number when you do this and the hash functions allow this then it's ccalled collisions . 3
+14:18:000093:000093_4 : 14:17:40:065: So in our case this is the case for the hash function with item so that means that true keys could point to the same index in memory that's a problem . 4
+14:18:000094:000094_2 : 14:17:54:169: Interpreter has some kind of logic to avoid this place exists and avoid this which adds complexity and of course in efficiency in the process . 2
+14:18:000095:000095_3 : 14:18:10:349: Why . 3
+14:19:000096:000096_4 : 14:18:10:349: the hash Gives you an uneven distribution of your keys . 4
+14:19:000097:000097_1 : 14:18:20:099: Then this implementation is done because on python . 1
+14:19:000098:000098_3 : 14:18:27:695: That is known when they know that they will have to keep pointing to the same the same index they have they have what they called with probing which is something that will automatically resize the array in memory but what does it mean it means that the server is already created and will evolve over time and when did does that means Two spaces in memory . 3
+14:19:000099:000099_4 : 14:19:04:150: Because the hash functions can have collisions you get anti sludge in memory that memory inefficient . 4
+14:19:000100:000100_1 : 14:19:16:012: What's good on the other side is that this implementation with the modulo . 1
+14:19:000101:000101_2 : 14:19:22:368: has a constant lookup time 01 so it's up to you nice that means that this implementation is up to my eyes so fast Lucas at the expense of memory . 2
+14:19:000102:000102_3 : 14:19:37:496: So you will get to consistently fast lookup . 3
+14:20:000103:000103_4 : 14:19:41:762: But you will consume more me more memory . 4
+14:20:000104:000104_1 : 14:19:46:503: that's how it is in python . 1
+14:20:000105:000105_6 : 14:19:48:639: I do an apparte I don't know the English word for this song sorry but it's true before Python 3.6 . 2
+14:20:000106:000106_3 : 14:20:01:285: This is chunking of the the array memory is it will happen when you insert a when you remove data ok so it will it will it will move over time . 3
+14:20:000107:000107_6 : 14:20:15:309: What did they do in Python 3.6 actually be Heidi Klum age is . 4
+14:20:000108:000108_6 : 14:20:22:320: Josephine in 2012 it was proposed and you've got implemented only in Python 3.6 . 1
+14:21:000109:000109_2 : 14:20:31:876: The basically did the same thing as the phone book so instead of having one or a memory that stores . 2
+14:21:000110:000110_3 : 14:20:42:911: Pixies let's a and the value of the data they created an index . 3
+14:21:000111:000111_4 : 14:20:51:040: That's behaves the same as before so it will have empty slot . 4
+14:21:000112:000112_1 : 14:20:59:678: It still has this because the implementation itself has not changed it still the same hash function and it's still the same module . 1
+14:21:000113:000113_2 : 14:21:10:447: But it's Mummy mode but you have I guess maybe some of you heard that is more memory efficient and it is because instead of having to probe and resize the whole array with hold the data inside it only has to resize an indexed . 2
+14:21:000114:000114_3 : 14:21:29:382: What is smaller so it's faster to do this lady . 3
+14:22:000115:000115_4 : 14:21:38:515: You go onto into vnd in this is a red pointed to the data array that is sorted . 4
+14:22:000116:000116_1 : 14:21:48:169: it is it is compact this time . 1
+14:22:000118:000118_2 : 14:21:52:317: Are used they are stored in a compact way and you just have to manipulate with smaller array of indices . 2
+14:22:000119:000119_6 : 14:22:02:450: And this makes the Python 3.6 more memory efficient . 3
+14:22:000120:000120_4 : 14:22:10:029: If it's not perfect because you still have the problem you still have the same logic it's just that you added the indexed just like in the phone book . 4
+14:22:000121:000121_1 : 14:22:20:157: What's interesting as well as with this implementation when you iterate over old values of your 6 a day . 1
+14:22:000122:000122_2 : 14:22:30:373: Directly on the data array . 2
+14:23:000123:000123_3 : 14:22:34:258: Before you had to do it on the only way that you had that means that you eat a rated between every cell of the array and when do swear n t . 3
+14:23:000124:000124_4 : 14:22:46:640: Because it was a sparse array you just keep them but she still had to look up . 4
+14:23:000125:000125_1 : 14:22:53:191: This is also giving performance benefits when iterating your data it's not only lookup and memory efficiency performance efficiency here . 1
+14:23:000126:000126_2 : 14:23:07:019: Bridge interesting the dinner and ID is you have an implementation you have to hope have a way to . 2
+14:23:000127:000127_4 : 14:23:24:403: Question I don't know I think I think it's insertion order . 4
+14:24:000128:000128_1 : 14:23:30:560: Concession . 1
+14:24:000129:000129_2 : 14:23:33:300: And . 2
+14:24:000130:000130_6 : 14:23:37:430: Yeah that's also a form for this but at the end of the day whatever optimise hashtable you use you still end up with some limitations we are still within the single machine here right so what is your data set is so large that you can store it even in the Python 3.6 better memory optimized implementation . 3
+14:24:000131:000131_4 : 14:24:03:576: Maybe I'll get so it doesn't say that it's ok . 4
+14:24:000132:000132_1 : 14:24:11:239: Now we go to the distributed hash table so we started with a hashtable HD and now we go to the dht world is DHT in hash table . 1
+14:24:000133:000133_2 : 14:24:23:193: Principal is . 2
+14:24:000134:000134_3 : 14:24:26:335: The same for most . 3
+14:25:000135:000135_4 : 14:24:30:247: You still have . 4
+14:25:000136:000136_1 : 14:24:32:972: Hash tables right for you you have to apply a hash function is still based on the logic of I apply a hash function I do some kind of operation and then something happens but then you can split your key space in buckets. 1
+14:25:000137:000137_2 : 14:24:48:087: So the hash function it will impact hear the size of each bucket because the hash function gives you an int, gives you a number . 2
+14:25:000138:000138_3 : 14:25:03:861: Depending on the hash function you use . 3
+14:25:000139:000139_4 : 14:25:07:591: From I don't know why - 1 million 2 1 million and you have a consistent range ok . 4
+14:25:000140:000140_1 : 14:25:16:795: So depending on the hash functions you can have wider or shorter ranges so when you want to distribute them you have to know these ranges so you can split them efficiently . 1
+14:25:000141:000141_2 : 14:25:30:278: The smaller the Range the higher the highest probability you have to have conditions of course . 2
+14:26:000142:000142_3 : 14:25:41:536: When you have a bucket instead of their having them all in a single machine you put old is bacchus in different sellers . 3
+14:26:000143:000143_4 : 14:25:52:344: Right . 4
+14:26:000144:000144_1 : 14:25:54:431: No . 1
+14:26:000145:000145_2 : 14:25:57:576: The key question you hear his what's the the orange operator what's the best operator to apply . 2
+14:26:000146:000146_3 : 14:26:06:671: To find the server hosting the key . 3
+14:26:000147:000147_4 : 14:26:10:703: Find the server that owns the bucket where the data for mi key is . 4
+14:26:000148:000148_2 : 14:26:15:904: This is the kit with . 2
+14:27:000149:000149_3 : 14:26:18:926: Southern . 3
+14:27:000150:000150_4 : 14:26:21:639: Can I use DHT I thank you for the implementation the knife 1 letters the same as fighting does right so I do I use md5 ok md5 is give us a good distribution . 4
+14:27:000151:000151_1 : 14:26:41:778: Show me simple is widespread you can apply it on almost anything so you will get you will get the string back but you can then converted to int and then you can use this all right and then let's do modulo operation on the number of bucket I have . 1
+14:27:000152:000152_2 : 14:27:01:815: Play Take the Lead . 2
+14:27:000153:000153_3 : 14:27:04:960: AMD 5 GHz json in the FIFA 16 so that means that basically convert 5 to 2 to integer modulo I have 360 ok we go to the server in 0 . 3
+14:27:000154:000154_4 : 14:27:23:072: Can I go straight to the front door he would be on the other one and f with Beyonce to . 4
+14:28:000155:000155_1 : 14:27:30:847: I mean look solid . 1
+14:28:000156:000156_2 : 14:27:35:982: The md5 . 2
+14:28:000157:000157_3 : 14:27:39:144: Ok so the height of a will not be close to the actual be necessarily close to the house of be ok that's the role of the hash function receives using the keys so that you don't have hotspot because you have a lot of her I don't know he's an f u r z in your in your that I sent them . 3
+14:29:000159:000159_4 : 14:28:03:916: Well it will work . 4
+14:29:000160:000160_0 : 14:28:08:157: Until you start adding or removing nodes because then the number of modulo will change
+14:29:000162:000162_4 : 14:28:56:937: That means that if you do this you will have to figure a way to implement a way to remap we could this remapping all your keys ok so you basically need to know your key space and then iterate over it and do the before it was on this and now it is on that and ok I'm going to move the data . 4
+14:29:000163:000163_1 : 14:28:57:937: Games of some databases that we are doing this in the first place so I imagine when the node is down as well . 1
+14:29:000164:000164_2 : 14:29:29:866: Another problem . 2
+14:30:000165:000165_3 : 14:29:32:266: So this remapping it will take time it will consume IO and if you so it's not very efficient and just because you changed one thing in your topology . 3
+14:30:000166:000166_4 : 14:29:47:504: All your data . 4
+14:30:000167:000167_1 : 14:29:50:200: This is the equation and is the number of South Africa that you have so when you change it when you change his if this is the average the general idea of the number of keys that we will have to change it depends on your hash functions etc at the Berkeley this is it for md5 so that means that if you had 1000 keys on 10 servers . 1
+14:30:000168:000168_2 : 14:30:16:274: Avios changed how you wanted to add one or one or remove one you will have to remap 900 of them . 2
+14:30:000169:000169_3 : 14:30:24:423: Song that sounds bad enough . 3
+14:30:000170:000170_4 : 14:30:29:422: So yeah that means that we need a bit more consistency in this logic . 4
+14:30:000171:000171_1 : 14:30:41:555: And we can't have bad . 1
+14:31:000172:000172_2 : 14:30:45:954: Yeah at least the best we can do . 2
+14:31:000173:000173_3 : 14:30:49:569: Maybe not the perfect but it is better right ok . 3
+14:31:000174:000174_4 : 14:30:55:704: Here comes the hash ring . 4
+14:31:000175:000175_1 : 14:30:59:462: Yeah and I'm starting to feel happy in this presentation now because I'm going to . 1
+14:31:000176:000176_2 : 14:31:07:253: Button through ok so let's picture again disarray where our data living right now let's give it . 2
+14:31:000177:000177_3 : 14:31:17:188: The round . 3
+14:31:000178:000178_4 : 14:31:19:091: a sort of Infinite . 4
+14:31:000179:000179_1 : 14:31:22:252: Right . 1
+14:31:000180:000180_2 : 14:31:24:684: So you have your nice array with all the cells in it but instead of having it you just make it a cac ACA . 2
+14:32:000181:000181_3 : 14:31:34:517: This is a rainstick ok this is IKEA start from the main use of what is of your hash function range . 3
+14:32:000182:000182_4 : 14:31:46:545: In our previous example - 1 million and the last one and you go on the right on the Ring and then you get the last cell . 4
+14:32:000183:000183_1 : 14:31:57:288: Be 1 million later this is your token range this is the range of old whenever you apply you use you feed in the key you will get within these down . 1
+14:32:000184:000184_2 : 14:32:09:738: That they just curl over and over . 2
+14:32:000185:000185_3 : 14:32:15:002: So I will apply the hash function on the name list of the name of the server . 3
+14:32:000186:000186_1 : 14:32:25:149: I will get a Number and I will put them on the speaker in the right said corresponding to the number that I can remember . 1
+14:33:000187:000187_2 : 14:32:33:461: Gives you this so you have cash of 70 that is loaded the yellow ones maybe he phones to the side of the on the right hand side of to is there is between 1 and 7 and 701 is the . 2
+14:33:000188:000188_3 : 14:32:53:260: The purple one . 3
+14:33:000189:000189_4 : 14:32:56:186: Since it's the Range it's just like you sorted list right you start at work - 1 million and you and then you just it so it's just like and rearrange actually it says III Revenge . 4
+14:33:000190:000190_1 : 14:33:14:668: Now we placed our servers on the ring . 1
+14:33:000191:000191_2 : 14:33:19:506: No you come with a key you apply the same logic you do the hash of your key you get the number you place the number it gives you a point on the circle you play c is the height of key in orange and then you go clockwise on your to know where this key belongs to which server this key belongs so where is it stored you just go on the sick and she's you hit yourself Sarah . 2
+14:34:000192:000192_3 : 14:33:51:473: Set . 3
+14:34:000193:000193_4 : 14:33:53:618: So in this case half of key points to 70 . 4
+14:34:000194:000194_1 : 14:33:58:819: That means that server 0 is responsible for this key actually . 1
+14:34:000195:000195_2 : 14:34:04:990: If you look at it and will see it on the next on the next line but that means that each each cell is responsible for . 2
+14:34:000196:000196_3 : 14:34:17:363: The range . 3
+14:34:000197:000197_4 : 14:34:19:962: The second week of Continuum right if the Range before him in the loop in the second and tz80 price . 4
+14:34:000198:000198_1 : 14:34:33:095: And another half of key could go in there and then it would be serve 2 . 1
+14:34:000199:000199_2 : 14:34:40:888: You just do you just go clockwise I mean is it easy enough to reason with . 2
+14:35:000201:000201_4 : 14:34:52:510: Is it a pretty easy . 4
+14:35:000202:000202_1 : 14:34:55:673: just by doing this . 1
+14:35:000203:000203_2 : 14:34:58:263: If you apply again and you had a shower now one of her and she's only will be remapped when you do this . 2
+14:35:000204:000204_3 : 14:35:09:972: So yes you will still have to undergo nappy . 3
+14:35:000205:000205_4 : 14:35:14:058: Bless lots more . 4
+14:35:000206:000206_1 : 14:35:19:208: a lot less thank you . 1
+14:35:000207:000207_2 : 14:35:22:990: That the highest is an is . 2
+14:35:000208:000208_3 : 14:35:27:120: Between a heart in adding or removing . 3
+14:35:000209:000209_4 : 14:35:31:260: For the more you had so now let's see . 4
+14:35:000210:000210_1 : 14:35:35:703: you loose one or you add 1 . 1
+14:36:000211:000211_2 : 14:35:39:855: You have less unless he's too to move . 2
+14:36:000212:000212_3 : 14:35:45:558: It's pretty cool . 3
+14:36:000213:000213_4 : 14:35:49:481: Does a little catch it's only true when your keys are evenly distributed between your servers which and the distribution is relies on the LED security or strong base of the hash functions because it is the hash function that distributes well I'm not your your your data . 4
+14:36:000214:000214_1 : 14:36:12:584: so Consistent hashing this is consistent hashing and . 1
+14:36:000215:000215_2 : 14:36:19:387: Army house in remapping in the remapping problem it doesn't help in the distribution this is the responsibility of the hash function has nothing to do with the histological the Continuum . 2
+14:37:000216:000216_4 : 14:36:35:528: What's the problem between these . 4
+14:37:000217:000217_1 : 14:36:42:052: Please distribution is this example exactly you could have server 0 that has a big range or bigger Range than the others just because the hash point somewhere . 1
+14:37:000218:000218_2 : 14:36:56:794: Make this kind of thing happen so we see that lets a hashtag 70 is responsible for a very very loud . 2
+14:37:000219:000219_3 : 14:37:08:913: Duck and rice and the others . 3
+14:37:000220:000220_4 : 14:37:12:901: If you relate to talk and arrange with the load the actual load that means that you get what we called love and it will vary between servers so the best . 4
+14:38:000221:000221_1 : 14:37:30:041: better your hash function is the law where I should each other to do this but it is not only about the hash function there are things to meet you at this . 1
+14:38:000222:000222_2 : 14:37:41:175: See him that if we lose 70 it will have a bigger impact than if we lose their first ever won . 2
+14:38:000223:000223_3 : 14:37:48:763: So this is called hotspot because you will have her that she's hotter than the others . 3
+14:38:000224:000224_4 : 14:38:00:458: What hash function to use you have two kinds . 4
+14:38:000225:000225_1 : 14:38:07:591: Traffic like NG5 shower and Exeter 2004 and they were designed for criptography and you have no cryptographic hash functions like you as itchy rash on Romeo and . 1
+14:38:000226:000226_2 : 14:38:23:522: Quick benchmark . 2
+14:38:000227:000227_3 : 14:38:26:651: To be . 3
+14:39:000228:000228_4 : 14:38:28:780: Stone but basically it's . 4
+14:39:000229:000229_0 : 14:38:32:906: The non cryptographic are simpler implemented implementation so they're faster so depending on what you want to apply I advise you to go to non cryptographic hash functions because you were there will be faster Cassandra for example choose "murmur"
+14:39:000230:000230_2 : 14:38:55:018: Is the data between the civil between the nose and to know where are which note to ask for this kind of data when you do a query right this is how it's done . 2
+14:39:000231:000231_3 : 14:39:08:124: The methodology and then they use the real movie 3 hash function . 3
+14:39:000232:000232_4 : 14:39:13:698: The cryptographic is usually they are widespread like md5 is there is a defaqto one that you you you have in the in the Python standard libraries the other ones are usually requiring some kind of sea binding to to be used as so it really depends on what you want if you don't know anyone to stop somewhere or just use md5 it's it's . 4
+14:39:000233:000233_1 : 14:39:40:812: distribute that well and is fast . 1
+14:40:000234:000234_2 : 14:39:44:399: Which is ok . 2
+14:40:000235:000235_3 : 14:39:46:534: Usually you don't care that is now has been broken down so it's fine I even just for the use catered so it is good . 3
+14:40:000236:000236_4 : 14:39:56:091: Pickled onions that is caused by the hash functions can be mitigated and I promise you to expand your why there is two Concepts the first one is the concept of Venus and the second one is there is the concept of weight but it clearly knows is ok I have 17 R3 shower but instead let's play Let's Pretend that instead of putting only three points on the ring I was just put GP . 4
+14:40:000237:000237_1 : 14:40:22:244: virtually and forever each so I will put let's a 60 point on the South on the London . 1
+14:40:000238:000238_2 : 14:40:32:358: Get on the Honda Insight . 2
+14:41:000239:000239_1 : 14:40:36:486: Do you ask you to the south of name as you view house. 1-2 . 3
+14:41:000240:000240_4 : 14:40:41:621: Dash4it if you're happy and you get different points of the same server on the ring and you do this for every server you get something that looks like this . 4
+14:41:000241:000241_1 : 14:40:53:407: You see that the Range the total range is now spread in smaller slices so it's either is still responsible for basically . 1
+14:41:000242:000242_2 : 14:41:06:170: The better than instructions of the Ring . 2
+14:41:000243:000243_3 : 14:41:11:963: So you don't have to have thousands of Seville . 3
+14:41:000244:000244_4 : 14:41:17:754: Just to use keynote . 4
+14:42:000245:000245_1 : 14:41:21:891: And then you have this notion of wait so instead of having a flat let's say 60 points on the node per server on the ring let's say this is twice as performance as the other so we should have you could just have a weight the way to wake . 1
+14:42:000246:000246_0 : 14:41:44:022: St. good but you can have a weight on on the on the underside of so this one would get . 2
+14:42:000247:000247_3 : 14:41:53:860: Twice twice the number of points which will lead to a bigger representation of the under ring so we will have a big share of the Rings and because it can hold it . 3
+14:42:000248:000248_4 : 14:42:10:044: This is known as well bye bye bye some kind of my some databases . 4
+14:43:000249:000249_1 : 14:42:18:423: So it's pretty is pretty is pretty good so when you do this you can really mitigate hotspot but very easily without thinking about it and it still worth exactly the same you still has your key and you get on the on the server you just don't have to go into a large portion of the Ring . 1
+14:43:000250:000250_2 : 14:42:40:558: Ok . 2
+14:43:000251:000251_3 : 14:42:43:684: So now you wanted in your Python code because you're so will you you you understand why is there white good ways efficient and and and that you are still likely ok . 3
+14:43:000252:000252_4 : 14:42:58:047: How do I use it what are the fighting ecosystem around this well when I needed it for a production environment and under the . 4
+14:43:000253:000253_2 : 14:43:14:124: basically to look like this consistent hashing ok there were some libraries around but they were mostly . 2
+14:43:000254:000254_3 : 14:43:25:264: Proof of concept let's see . 3
+14:44:000255:000255_4 : 14:43:28:944: So there will . 4
+14:44:000256:000256_1 : 14:43:32:073: Did he leave a lead but they were not meant on the easy to use so I decided to create you have things to do to me to check this and to to take to to just answer mitigate this may actually needing products . 1
+14:44:000257:000257_2 : 14:43:48:206: Because I want to use this I just died I don't want to just have a ring and be able to do a ok give me the news for this key and then have to implement older logic around it I just want to be able to use the ring easy . 2
+14:44:000258:000258_3 : 14:44:05:020: This is where I'm going to try to to show you a bit of how it looks like . 3
+14:44:000259:000259_4 : 14:44:13:146: We work fairly easily as it should let's go there ok you go you say good . 4
+14:44:000260:000260_1 : 14:44:21:992: Yeah alright . 1
+14:45:000261:000261_2 : 14:44:27:110: Yeah yeah yeah yeah yeah I don't I don't really . 2
+14:45:000262:000262_3 : 14:44:38:204: Yeah ok . 3
+14:45:000263:000263_4 : 14:44:44:343: Where am I I should I get . 4
+14:45:000264:000264_1 : 14:44:52:349: Hand . 1
+14:45:000265:000265_2 : 14:45:01:481: Sheila . 2
+14:45:000266:000266_3 : 14:45:15:506: Ok so basically you do you have things get to you you get string object then in this case I will explain was just show let's say I have I have to Love by Dire . 3
+14:46:000267:000267_4 : 14:45:31:639: And I want to spread the Isle on the discs between the key so for let's say for I don't know whatever it can be here I just want to make sure that when I get some kind of data for this user it always goes on this commit log alright . 4
+14:46:000268:000268_1 : 14:45:50:005: So . 1
+14:46:000269:000269_2 : 14:45:52:141: This one I just copy paste so you create a node mapping you you you give them names and then you can point the point them instances the Wendy it's a it's a it's ok well and then you can be any kind of object so in this case I just create . 2
+14:47:000270:000270_3 : 14:46:14:281: I just open in in Apple mode from file in different folder and if you pretend that do for those were mounted on different disks and you would spread the aisle when you write to them differently right . 3
+14:47:000271:000271_4 : 14:46:29:420: Ok and then I just create a hash ring . 4
+14:47:000272:000272_1 : 14:46:34:876: With this build configuration that's all so using senses they could point to the safe in this is ok that expenditure but it said near sqlite databases ok because you are fed up with the one thread limitation of a sphere light and you want to to to to be able to have all the data for user on a SQL file but you don't want to . 1
+14:47:000273:000273_2 : 14:47:05:021: At some point so you could have mutiple once and have a good that is able to just know which one to use and then you could spread and over and over ok you should you won't do it in a reproduction system but it's just to get the idea that you can have anything ok redis connection whatever it is his object . 2
+14:48:000274:000274_3 : 14:47:27:578: If so then you get your nodes which is exactly between in here you'll see that the Instance is active your objective is in this case it's text io wrapper and then you can start saying OK get me the news for . 3
+14:48:000275:000275_4 : 14:47:45:466: Ok see you would be returned on this one . 4
+14:48:000276:000276_1 : 14:47:49:720: Ann and it's cool but this does the other libraries they do as well so what I wanted best is to to do something like ok but hr['coc . 1
+14:48:000277:000277_2 : 14:47:49:720: Are now this one represents the actual object the Instance object . 2
+14:48:000278:000278_3 : 14:48:14:011: So now I can start using it with Mikey . 3
+14:48:000279:000279_4 : 14:48:19:163: It's a magically without without thinking so I could do that ok so I want to write . 4
+14:48:000280:000280_1 : 14:48:26:740: You need to write it worth . 1
+14:48:000281:000281_2 : 14:48:31:782: I don't have to know where to go I just use them with the key in the as input on my ring and I eat I just get pointed to the writing . 2
+14:48:000282:000282_3 : 14:48:43:426: Ann . 3
+14:49:000283:000283_4 : 14:48:46:295: Means that I can flash it and then I can do with a . 4
+14:49:000284:000284_1 : 14:48:53:435: This . 1
+14:49:000285:000285_2 : 14:48:57:568: Safe . 2
+14:49:000286:000286_3 : 14:48:59:851: Yep I should be good and I get what I wanted . 3
+14:49:000287:000287_4 : 14:49:07:580: This is practical to me it looks practical and this is the kind of thing I needed to distribute some different workloads in a consistent way . 4
+14:49:000288:000288_0 : 14:49:19:784: Alright so I'm going to stop switching back if it works ok. it Looks like it. 1
+14:50:000291:000291_3 : 14:49:35:732: For example use case that are busy tube you shouldn't you have a database that is not able to . 3
+14:50:000292:000292_4 : 14:49:44:232: Self . 4
+14:50:000293:000293_1 : 14:49:46:363: I want to have different point of and just use them etc if one of those database goes down on that means that you have a second portion of your keys of your user that are affected but not the others and you can skate it by ok it's a cheap way but in some cases we sometimes you have some Legacy systems to work with and you want to work with them in a consistent way please can . 1
+14:51:000294:000294_2 : 14:50:11:513: This can be ok so it looks will same as you see the instances are in this case of Pi and Pi MySQL connection and I thought and then you can you can use it seamlessly with the real idea about you having is to use it seamlessly so is na pytanie Quay . 2
+14:51:000295:000295_3 : 14:50:31:337: New distribution this is the one I showed you before you can deliver login tracing this when I said I find interesting as well this is the actual kind of use case that we that we did when you have to be able to trace all the things that the user has done and you want to make sure that all distressing or old is Matrix after all in the same at the same place . 3
+14:51:000296:000296_4 : 14:50:58:479: Right but when you have so many users and so many so many loads you need to distribute this but still have the consistency per user research . 4
+14:51:000297:000297_1 : 14:51:11:429: Who uses memcache and the Python memcache library ok . 1
+14:52:000298:000298_2 : 14:51:21:199: Then maybe what you don't know is you can specify multiple cache Java to Python memcached library yeah he chooses the modulo operation to store and retrieve cash and to retrieve keys are elements . 2
+14:52:000299:000299_3 : 14:51:39:336: Have your data so if one of your cache server goes down you basically lose almost all your keys and then you have to refresh it to hear this happens and you have this in production and it's big . 3
+14:53:000300:000300_4 : 14:51:53:529: Would have a thunderstorm of loan if one of your cash cash devil goes down . 4
+14:53:000301:000301_1 : 14:52:01:939: So do you have in your house ring I provide the monkey patching carpet online cash so that and other food each users are consistent hash ring for you is just she can use it that with me so that's all for me I think we have time for questions I hope and that's it thank you . 1
+14:53:000302:000302_1 : 14:52:49:690: Yes . 1
+14:53:000303:000303_3 : 14:53:08:038: No data base with you right here right so the question is . 3
+14:53:000304:000304_4 : 14:53:17:848: It's disabled and to implement it even more when you when you when you finish your your your your your your poop thank you how can you undelete outside of Python if you don't want to handle it in Python . 4
+14:54:000305:000305_1 : 14:53:37:172: I said that I can propose is just to use a disease a disability database that implements it for you but that's how I will do it . 1
+14:54:000306:000306_2 : 14:53:48:305: With this you can meet you this but you still have to do the remapping . 2
+14:54:000307:000307_3 : 14:53:54:482: At some point so even if user has ring with you which you can use the hash ring and consistent hashing to also have application . 3
+14:54:000308:000308_4 : 14:54:04:310: You can . 4
+14:55:000309:000309_1 : 14:54:07:417: You can have a replication but so it is good is invalid enough that say but that means that if you eat doesn't track for you if something is unreplicated for example so you there is still some kind of remapping or recloning or repositioning that you have to do . 1
+14:55:000310:000310_2 : 14:54:29:408: But if you think of a way and you want to implement it in your hash ring . 2
+14:55:000311:000311_3 : 14:54:34:291: Namaste . 3
+14:55:000312:000312_4 : 14:55:09:407: So the question is did I look at the how did you mainline dht implementation and how they do it with a glass . 4
+14:55:000313:000313_2 : 14:55:23:546: No . 2
+14:55:000314:000314_3 : 14:55:25:847: Friday I started looking at it and I was like . 3
+14:55:000315:000315_4 : 14:55:31:431: So maybe . 4
+14:55:000316:000316_1 : 14:55:35:993: I don't know . 1
+14:56:000317:000317_3 : 14:55:48:350: When it's 9 . 3
+14:56:000318:000318_4 : 14:55:52:464: Consistent hashing now . 4
+14:56:000319:000319_1 : 14:55:55:359: I think you're much . 1
+14:56:000320:000320_2 : 14:55:58:592: I said thank you . 2
+15:00:000321:000321_3 : 14:56:01:708: I . 3
+15:00:000322:000322_4 : 14:56:28:855: How to revise . 4
+15:00:000323:000323_1 : 14:56:35:350: Supreme FM . 1
+15:00:000326:000326_1 : 15:00:03:925: Prefer I get . 1
+15:00:000327:000327_2 : 15:00:22:085: Coffee . 2
+15:01:000328:000328_3 : 15:00:24:233: Just before you minute . 3
+15:01:000330:000330_2 : 15:00:56:259: Profile image . 2
+15:01:000331:000331_3 : 15:00:58:981: Utica New York in Focus at the cafe come here a sheep . 3
+

@@ -1,0 +1,302 @@
+
+11:32:000589:000589_1 : --------
+11:33:000589:000589_2 : Rechargement du document
+Optimiser une application principalement transactionnelle (retour d'expérience avec Tryton) Cédric Krier
+
+11:37:000602:000602_3 : 11:36:30:603: Bonjour à tous c'est assez fort je parle assez fort ça ok donc aujourd'hui je vais vous présenter les optimisations . 3
+11:37:000603:000603_1 : 11:36:49:094: Mais avant ça je vais commencer par vous présenter donc je suis cédrière je suis le répondeur manager de ces cas une société de développement de logiciel principalement logiciel libre . 1
+11:37:000604:000604_2 : 11:37:08:221: Créateur et aussi je fais office de PDF el pour le projet Triton qui a mainte0t 10 ans je crois qu'on a fait le . 2
+11:38:000605:000605_3 : 11:37:19:778: Fil le plus ou moins 10 ans . 3
+11:38:000606:000606_4 : 11:37:22:909: Alors ça va être donc je principalement au parler du feed-back qu'on a vu sur le développement Triton Triton . 4
+11:38:000607:000607_2 : 11:38:01:155: Historique comment avec le projet évolution . 2
+11:38:000608:000608_3 : 11:38:06:126: Voilà c'est un fork et alors la peau de particularités c'est qu'en fait on a évité dans nos RM custom . 3
+11:38:000609:000609_4 : 11:38:07:126: Brick c'est-à-dire que quand le projet ERP a démarré il y avait pas encore vraiment ORM dans le monde python puisque c'est . 4
+11:38:000610:000610_1 : 11:38:26:987: 2004 choses comme ça c'était le début de Raismes et en tout cas . 1
+11:38:000611:000611_2 : 11:38:35:111: Braine-l'Alleud choix et effets de démarrer avec ancré en soi-même . 2
+11:39:000612:000612_3 : 11:38:40:892: Donc beaucoup de d'optimisation vont être par rapport à 7h m . 3
+11:39:000613:000613_4 : 11:38:46:170: Alors qu'est-ce que c'est une application transactionnelle c'est une application qui qui . 4
+11:39:000614:000614_1 : 11:38:53:930: Qui va connecter s'il te plaît et après faire des modifications sur des données mais de manière transactionnelle donc on va toujours essayer de démarrer dans un état cohérent et on quitte l'application que dans un autre État cohérent par rapport à la conception et si on arrive pas on revient à l'état initial . 1
+11:39:000615:000615_2 : 11:39:19:156: Hespress pas loin tu disais donc dans la gestion d'entreprise ou en fait la plupart des opérations sont des transactions une transaction . 2
+11:39:000616:000616_3 : 11:39:30:282: Vente transactions fi0cières . 3
+11:40:000617:000617_4 : 11:39:33:698: Droit des placement de produit on veut savoir exactement ce qui s'est passé et garder le système . 4
+11:40:000618:000618_1 : 11:39:40:823: Alors généralement on appelle ce genre d'application RP même si le nom est un peu limité un peu par rapport à ce que fait une application . 1
+11:40:000619:000619_2 : 11:39:53:947: Alors l'application est composé de . 2
+11:40:000620:000620_3 : 11:39:59:072: Transaction prédéfini souvent donc on sait exactement ce qu'on va faire quand va faire quand on sait que doit ce que va engendrer cette vente et quel genre de l'opération ça va générer . 3
+11:40:000621:000621_4 : 11:40:15:197: Par contre cette transaction généralement son fait de manière concurrente parce qu'on a plusieurs utilisateurs qui vend que deux en même temps les informations et donc il faut que la concurrence c'est concurrence à gérer de manière généralement on se . 4
+11:41:000622:000622_1 : 11:40:31:991: Moteur de base de données qui acide donc il va garder la télé 2 actionnelle des données je sais pas si tout le monde connaît . 1
+11:41:000623:000623_4 : 11:41:11:324: L'employé où ça peut aller jusqu'à 100 ou 1000 mais ça reste toujours de nombreux à c'est plutôt restreint par rapport une application boîte classique ouverte sur le monde . 4
+11:42:000624:000624_1 : 11:41:24:397: Alors les caractéristiques de transaction c'est généralement ça va on va travailler avec un ensemble assez large de . 1
+11:42:000625:000625_2 : 11:41:33:522: Donc . 2
+11:42:000626:000626_1 : 11:42:01:999: En plus sur cet ensemble les opérations sur légèrement différente donc en fonction des conditions que le client . 1
+11:42:000627:000627_2 : 11:42:12:102: Direct star à on va faire d'autre calcul légèrement différent mais c'est toujours décale culasse et ça . 2
+11:42:000628:000628_3 : 11:42:18:959: Alors l'autre particularité sais que généralement Harry corde . 3
+11:43:000629:000629_4 : 11:42:28:073: Ça va servir à représenter un document . 4
+11:43:000630:000630_1 : 11:42:33:188: Le document que candidate heure perçoit et mais ce document va être composé de plusieurs vCard dans une base de données donc on va avoir une par exemple la vente si on va voir une carte pour le header de l'avent tête mais alors on va voir aussi une vie . 1
+11:43:000631:000631_3 : 11:43:10:143: Donc ça c'est une particularité qu'il y a un effet on va voir après sur sur le design d'un pays . 3
+11:44:000632:000632_4 : 11:43:19:262: Sur ce document qui sont à qui sont perçus comme un ensemble on va avoir un workflow qui va s'appliquer dessus ça dire que on va passer de d'étape en étape . 4
+11:44:000633:000633_3 : 11:43:54:404: Que les opérations qu'on va appliquer sur les documents sont faites dans un temps prévisible ça dire que . 3
+11:44:000634:000634_4 : 11:44:05:541: Donner qu'on va traiter on veut la traiter dans un temps le plus . 4
+11:44:000635:000635_1 : 11:44:11:602: Qu'on va pouvoir déterminer en tout cas avoir une bonne estimation évidemment le plus rapide possible c'est mieux pour l'utilisateur si . 1
+11:45:000636:000636_2 : 11:44:24:710: 5 minutes pour avoir le résultat c'est pas ça m'intéresse pas donc on va essayer d'avoir un temps de réponse prévisible et en plus rapide . 2
+11:45:000637:000637_3 : 11:44:35:835: Alors pour atteindre cet objectif d'avoir un temps de réponse rapide sur les traitements on va il y a quelques objectifs principaux dans le développement du . 3
+11:45:000638:000638_4 : 11:44:56:962: Du traitement . 4
+11:45:000639:000639_1 : 11:45:00:082: Appeler les points clés qui vont permettre d'être rapide et être prévisible donc là pour le premier de la communication entre le serveur . 1
+11:45:000640:000640_2 : 11:45:11:219: Et la base de données donc si on le communication . 2
+11:46:000641:000641_3 : 11:45:19:329: La récupération de données de la base de données et coûteuse est fortement coûte généralement c'est un peu près . 3
+11:46:000642:000642_4 : 11:45:31:159: Du temps d'exécution d'une requête va être passé à récupérer des données de la base de données ou ou ou on a serré et donc on va essayer de réduire au maximum le cette communication est le temps passer à échanger avec la base données . 4
+11:46:000643:000643_0 : 11:45:50:273: Et l'autre. Ça va être aussi des crises algorithme qui vont avoir un temps exécution le plus prévisible possible donc le mieux évidemment si c'est ton constant . 1
+11:46:000644:000644_2 : 11:46:02:374: Souvent assez compliqué atteindre . 2
+11:46:000645:000645_3 : 11:46:08:490: Logarithmique . 3
+11:46:000646:000646_0 : 11:46:11:385: Proportionnelle au nombre de ricorde contre FC généralement déjà une bonne un bon. . 4
+11:47:000647:000647_4 : 11:47:11:642: De particulier à qui consulte dans cet objectif on a aussi . 4
+11:48:000648:000648_2 : 11:47:23:637: Hériter de Tignes Harper pour prêtres beaucoup plus performant et en fait on va voir la dernière étape on est passé sur page qui a synchrone . 2
+11:48:000649:000649_3 : 11:47:35:329: Alors pour la petite . 3
+11:48:000650:000650_1 : 11:48:04:544: Programmer plus facile à programmer . 1
+11:48:000651:000651_2 : 11:48:08:663: Du code pour . 2
+11:48:000652:000652_3 : 11:48:11:770: Et . 3
+11:48:000653:000653_4 : 11:48:14:893: La comprendre ce que Falcon par contre souvent le désavantage de l'alternatif ricorde c'est souvent critiqué pour avoir moins bonne performance par rapport à d'autres pattern . 4
+11:49:000654:000654_2 : 11:48:38:142: Active . 2
+11:49:000655:000655_3 : 11:48:40:248: Je continue . 3
+11:50:000656:000656_4 : 11:48:47:367: Moi je veux toujours . 4
+11:50:000657:000657_3 : 11:49:09:794: Donc pour contrecarrer les désavantages de l'actif licorne on a mis en place une autre à Plailly parallèle qui va travailler plutôt avec des méthodes de classe donc il travaille sur . 3
+11:50:000658:000658_4 : 11:49:28:918: Opérer sur un ensemble de ricorde d'un coup ce qui permet d'avoir le pouvoir générer du coup des requêtes SQL plus rapide et moins de requête et d'être donc beaucoup plus performant mais le contrecoup sexagénaire du côté plus complexe à comprendre puisque on est moins dans une application qui travaille avec des objets qui manipule un objet . 4
+11:50:000659:000659_1 : 11:50:00:079: Alors par exemple donc le cas typique pour l'activer cœur si on va faire une appliquer une opération annonce enregistrement et alors on va sauver Rieker Paris corde cette modification . 1
+11:50:000660:000660_2 : 11:50:19:212: Performance par rapport à la base de données ça va générer évidemment curry . 2
+11:51:000661:000661_3 : 11:50:25:830: Pour chaque ricorde donc ça va être assez consommateur en ressources et à exécuter parce qu'il y aura beaucoup de . 3
+11:51:000662:000662_4 : 11:50:35:940: Application . 4
+11:51:000663:000663_1 : 11:50:38:058: Comparer à une appli qui va pouvoir travailler sur un ensemble de ricorde et appliquer la même opération alors ici on va générer alors en fonction de la taille de la liste de ricorde générer un objet ou plusieurs si il faut découper si la liste vraiment trop grande et qu'on peut pas la faire rentrer dans un cosy . 1
+11:51:000664:000664_2 : 11:51:02:008: Les bases données ont généralement une limite sur la taille de curry donc on va pas pouvoir nécessairement mettre un million de ricorde un coup mais on va le découper en bambou et on va limiter . 2
+11:52:000665:000665_3 : 11:51:17:530: Heure du coup le problème qu'on va se dire on a deux à payer donc 2e de banjaard accéder aux données différentes dans le dans l'application est donc potentiellement une incohérence ou un fonctionnement légèrement différent d'une version d'une API à l'autre mais en fait c'est pas vraiment un problème parce que on peut construire le pattern activer carte . 3
+11:52:000666:000666_4 : 11:51:43:555: Au-dessus de la plus de l'abbaye de méthode de classe donc ce n'est qu'une surcouche . 4
+11:52:000667:000667_1 : 11:51:51:686: Recette apéritif kir Antilles en fait . 1
+11:52:000668:000668_2 : 11:51:57:818: Que faire une couche . 2
+11:52:000669:000669_3 : 11:52:03:933: Tu les mets derrière c'est le même . 3
+11:52:000670:000670_4 : 11:52:08:343: La méthode qui sont exécutés le même . 4
+11:52:000671:000671_1 : 11:52:11:804: Alors du coup donc on a vu . 1
+11:52:000672:000672_2 : 11:52:22:939: Adecco limiter le nom de communication avec la base de données et donc ça va être aussi de limiter les appels . 2
+11:52:000673:000673_3 : 11:52:32:052: De création de lecture de blettes et de suppression dans la base de données . 3
+11:53:000674:000674_4 : 11:52:38:172: Les appels aux méthodes qui font ces opérations on doit aussi essayer de les limites et afin de limiter de l'ombre de curry . 4
+11:53:000675:000675_1 : 11:52:46:302: Il y a le ça permet de limiter Landry mais aussi d'autres choses par exemple si on est en cash par rapport aux données qu'on lit dans la base données . 1
+11:53:000676:000676_2 : 11:52:56:087: Écrire modifier la base données du coup il va falloir un valider le cache et ça a un coût de traitement donc il est préférable d'essayer de la valise de faire cette opération le moins souvent possible de modification des années et si on le fait le faire regrouper en un seul moment pour invalidite tu le caches d'un seul coup est limité du coup . 2
+11:53:000677:000677_3 : 11:53:17:222: Le . 3
+11:53:000678:000678_0 : 11:53:20:351: La validation et l'autre. C'est que aussi une fois que le cache été validé par le remplir donc si on si on passe son temps à remplir le cache la valise et remplir le cache beaucoup de traitement . 4
+11:53:000679:000679_1 : 11:53:35:473: L'opération modification à la fin du traitement . 1
+11:54:000680:000680_2 : 11:53:39:484: Partie de validation généralement dans le Raymond Aron va valider les données qu'on a écrit dans la base de données donc on a pas . 2
+11:54:000681:000681_3 : 11:53:48:608: Ça pose pas uniquement sur les contraintes du schéma de la base de données mais on va voir aussi des contraintes ou de . 3
+11:55:000682:000682_4 : 11:53:49:608: Qui sont beaucoup plus business plus plus complexe et qui vont être un briquet dans le dans le RM et donc on va faire des opérations modification on va voir un processus de validation pour voir si la modification c'est accepter ou pas et donc . 4
+11:55:000683:000683_1 : 11:54:19:922: Et aussi bénéfique plat du traitement qu'on qu'on élimine et et enfin il y a aussi tous les événements qui vont être pleurer parce qu'on fait une modification sur les données qui vont propager très de t'entraîner de nouveau très traitement donc il est préférable essayer de regrouper de limiter le nombre d'événements générée pour limiter encore une fois . 1
+11:55:000684:000684_2 : 11:54:45:273: Alors là pays avec lequel on a on est abouti c'est celle-ci alors je sais pas si c'est facile à comprendre mais en fait de création de données on va prendre une vie . 2
+11:55:000685:000685_3 : 11:55:05:365: Dictionnaire qui représente les valeurs bottes de chat qui corde et donc on va voir on va pouvoir créer plusieurs ricorde d'un seul coup ce qui va nous permettre de le valider la création de série corde . 3
+11:55:000686:000686_4 : 11:55:19:379: Dans seul coup au lieu de faire . 4
+11:55:000687:000687_1 : 11:55:23:532: Apparent on a la même chose pour l'écriture . 1
+11:56:000688:000688_2 : 11:55:28:086: Un peu plus complexe encore à comprendre ça veut dire qu'on va pays qui . 2
+11:56:000689:000689_0 : 11:55:35:042: Si on peut avoir on peut l'étendre vent d'autan paramètres qu'on veut et ça va être chaque fois le premier paramètres va être la liste de licorne sur lequel on va appliquer la modification de valeur et puis on peut avoir une note liste de ricorde sur lequel on va rappliquer d'autres modifications et pouvoir ainsi
+11:56:000690:000690_4 : 11:55:58:168: Pur délice différente de d'enregistrement . 4
+11:57:000691:000691_1 : 11:56:03:291: Si ça va permettre parlera près aussi de valider tous les records modifiez d'un seul coup au lieu de valider uniquement les listes individuellement alors la poésie pour la suppression bah prends juste la liste des enregistrements comment supprimer donc c'est assez classique . 1
+11:57:000692:000692_2 : 11:56:25:981: Le particulièrement innovant dans la partie là et la pluie pour la lecture on va lire plusieurs ricorde donc les identifiants de derka d'un seul coup au lieu de faire les lire un parrain donc on va faire un seul Curie SQL pour un ensemble de ricorde et les récupérer . 2
+11:57:000693:000693_3 : 11:56:51:102: Et donc quand je parle pour la validation cet après-midi va permettre chaque fois de valider les records . 3
+11:57:000694:000694_1 : 11:57:17:553: Et l'autre partie aussi on va le valider uniquement les parties qui sont susceptibles de ne plus être valide donc ce qui est échangé . 1
+11:58:000695:000695_2 : 11:57:30:671: Uniquement ce qui a été changé et où les conditions à l'heure qui dépend de . 2
+11:58:000696:000696_3 : 11:57:40:819: Les valeurs qu'on a changé . 3
+11:58:000697:000697_4 : 11:57:41:819: Donc voilà c'est tout ça pour limiter et encore une fois le traitement de ce qu'on valide mais garder quand même la certitude que l'enregistrement et cohérent . 4
+11:59:000698:000698_1 : 11:57:58:969: Une autre partie qui au départ pouvait paraître truc bonne idée quand un cerf dans la base données est-ce qu'on va faire une loupe on va lancer un cri insert pour chaque valeur une après l'autre ou alors on va diviser la sœur de valeur multiple SQL supporte donc avoir une certes value et nuit . 1
+11:59:000699:000699_2 : 11:58:26:085: On pourrait penser au départ que la faire avec de multiples valeur est plus performant parce qu'on va faire qu'un seul conneries sur la DB en réalité c'est pas tout à fait exact c'est même plutôt l'inverse pour nous l'assertion Pareloup peu plus efficace alors on va avoir Lorette de la communication va faire plus de communication avec . 2
+11:59:000700:000700_4 : 11:58:54:226: Affaire de multi valeur c'est que le curry devient très grand si on peut insérer beaucoup de données et du coup le parking de secouriste qui a assez long un certain coup pour pour la base données qu'il faut comparer à lover être dur and trip souvent n'ai plus . 4
+12:00:000701:000701_1 : 11:59:15:520: Mais en plus de ça un cri qui va être très grand un peu de chance on a peu de chances de le retrouver une deuxième fois et donc tout le cache des conneries préparer base de données ben ne va plus être très efficace puisque on va voir chaque fois d'écurie Delonghi avec détail faction légèrement différent tandis que les petits cris d'un cerf d'une seule valeur suis là on attend je le Virement . 2
+12:00:000703:000703_3 : 11:59:44:990: La préparation des conneries dans base de données le pré parking inclus pas les valeurs qui sont insérées les valeurs son passé en paramètre à côté donc c'est vraiment le curry . 3
+12:00:000704:000704_4 : 12:00:02:101: Variable qui est mis en cash . 4
+12:00:000705:000705_1 : 12:00:06:217: Enfin le classeur multi valeur plus compliqué à construire donc on va passer plus de temps essaie de le construire . 1
+12:00:000706:000706_2 : 12:00:15:960: Simple à faire parce que il va falloir qu'on aille exactement le même nombre de con Acer les mêmes valeurs le même nombre de valeurs et ça pour le garantir bah il faut voir les comparer les valeurs que l'utilisateur va passer à l'appel de fonction et compléter les blancs s'il faut et donc ça va être un traitement qu'on va devoir faire en amour qui est aussi coûteux et du coup à la fin . 2
+12:01:000707:000707_3 : 12:00:42:098: Faire une loupe sincère et plus efficace . 3
+12:01:000708:000708_4 : 12:00:43:098: Que d'essayer de faire encore plus complexe . 4
+12:01:000709:000709_1 : 12:00:53:086: L'autre une autre partie par rapport à la communication les appels distance pour qu'on a vu . 1
+12:01:000710:000710_2 : 12:01:05:895: Boutique pour l'utilisateur . 2
+12:01:000711:000711_3 : 12:01:08:992: Des documents donc ils sont à un enregistrement qui inclut un ensemble de soude enregistrement avec des one to many exetera . 3
+12:01:000712:000712_4 : 12:01:19:126: Afin de garder le côté transactionnelle ça dépend c'est toute la modification d'un seul coup . 4
+12:02:000713:000713_1 : 12:01:26:240: On annule et on rollback l'opération on a une une appli pour comme valeur pour les chambres . 1
+12:02:000714:000714_2 : 12:01:38:355: Qui vont au lieu d'être juste les valeurs classique vos inclure des opérations de création d'écriture de mise à jour exetera . 2
+12:02:000715:000715_3 : 12:01:49:477: Appelle modifier le Ricard principal mais aussi les Rieker qui lui sont liés et donc limiter le nombre d'appels entre le client est le serveur et de faire en plus l'opération dans une seule transaction qui permettra de garantir l'intégrité . 3
+12:02:000716:000716_4 : 12:02:05:532: Base de manière de faire un appel recouper . 4
+12:02:000717:000717_1 : 12:02:10:525: Système on peut on aurait pu imaginer d'autres mécanisme mais c'est celui qui ont été choisis évidemment c appelle mimique les . 1
+12:03:000718:000718_2 : 12:02:24:233: La poésie de appel de méthode classique réhabilite qu'on a implémenté donc avec des listes . 2
+12:03:000719:000719_3 : 12:02:33:962: Une autre optimisation qu'on fait c'est la gestion des caches qui est spécifiquement conçu pour le travail avec délices de Bastan . 3
+12:03:000720:000720_4 : 12:02:51:075: Ce qu'on va régulièrement retrouver dans le code ça va être délice des sens de réseau de ricorde qui vont être construite généralement directement donc on a la liste on récupère la liste parce qu'on va demander d'aller lire tous les tous les enregistrements avec une . 4
+12:03:000721:000721_1 : 12:03:12:206: Et . 1
+12:03:000722:000722_2 : 12:03:14:327: On va faire tomber sur la liste pour faire une opération . 2
+12:03:000723:000723_3 : 12:03:19:381: ACC accède la première élément de la liste quand on va comment va demander à avoir la valeur d'un champ . 3
+12:04:000724:000724_4 : 12:03:29:491: Le lorem . 4
+12:04:000725:000725_1 : 12:03:32:525: Préfecture . 1
+12:04:000726:000726_2 : 12:03:35:636: Va lire pour ce weekend là mais aussi x ricorde après dans la liste donc il vient d'une liste et donc il va prendre lire d'office à certain nombre on pourrait dire toute la liste mais si elle est trop grande pour des raisons de limitation de mémoire on a une limite qui qui est fixé et donc on va lire d'un seul coup tous les ricoh vivant qui va faire que quand allitération L'allemand au 2e élément de la liste alors on aura déjà ses données rempli dans le cache et donc ça va pas générer un nouveau cri sur la base de données . 3
+12:04:000728:000728_4 : 12:04:16:569: Et donc quand va itérer comme ça sur une liste généralement si la liste n'est pas trop on doit faire qu'un seul curry ou alors on va faire un nombre qui va être proportionnelle juste à la longueur de la liste . 4
+12:04:000729:000729_1 : 12:04:29:909: Évidemment une fois qu'on aura connaissez rad atteint de de lire le Ricard qui est juste après . 1
+12:04:000730:000730_2 : 12:04:37:011: Prérempli dans le dans le cache est-ce qu'on va se passer c'est qu'on va remplir le cache . 2
+12:05:000731:000731_3 : 12:04:45:806: Pour les suivants mais en même temps on va . 3
+12:05:000732:000732_1 : 12:04:54:965: Pour pour limiter la consommation mémoire et on se . 1
+12:05:000733:000733_2 : 12:05:00:073: Je pars du temps le pattern on ne reviens jamais sur la Lys convert qu'on est en train de terre et eau normande jamais on avance toujours . 2
+12:05:000734:000734_3 : 12:05:08:096: Complètement et donc ça permet d'avoir . 3
+12:05:000735:000735_4 : 12:05:12:208: Optimiser . 4
+12:05:000736:000736_1 : 12:05:17:324: La loupe sur sur sur sur les listes drykorn . 1
+12:06:000737:000737_2 : 12:05:22:894: Alors . 2
+12:06:000738:000738_3 : 12:05:25:216: Du coup bah le pattern qu'on a généralement . 3
+12:06:000739:000739_4 : 12:05:34:333: On va itérer sur les listes de ricorde on va appliquer une opération sur sur le records changer certaines de ces valeurs on doit pas sauver tout de suite série corne parce que il n'a pas l'intérêt à ce moment-là qu'on a la liste de toutes les instances et en fait on va utiliser l'appli . 4
+12:06:000740:000740_1 : 12:05:58:457: Qui était le White . 1
+12:06:000741:000741_2 : 12:06:02:586: Appeler cria to write en fonction Syrie carte a été sauvé . 2
+12:06:000742:000742_3 : 12:06:07:691: Yves appliquer du coup en une seule écriture sur l'ensemble . 3
+12:06:000743:000743_4 : 12:06:15:383: Enregistrement et donc ça va être . 4
+12:07:000744:000744_1 : 12:06:19:500: Hassle Curie à la DB qui va être regroupés et une seule validation exetera sur l'ensemble des records tout en profitant du de l'effet du cash sur les listes qu'on a . 1
+12:07:000745:000745_2 : 12:06:33:076: Et donc il va se passer on va avoir un colis pour lire les données et puis Xperia Z6 évidemment la modification à chaque fois différente pour chaque tricorne . 2
+12:07:000746:000746_3 : 12:06:48:761: L'autre partie donc on va remplir le cache on va utiliser on va directement remplir donc en lit pour une colonne ben en fait comme on est déjà en train de lire les colonnes une colonne d'une table en fait on va lire toutes les colonnes de . 3
+12:08:000747:000747_4 : 12:07:09:281: Pour remplir le cache ce qui permet du coup si on accède à premier chant qu'on achète Auchan un autre chanteuse même Ricardo ne pas refaire une select une sélection donc c'est la technique eager loading donc on va essayer de remplir de lire un maximum . 4
+12:08:000748:000748_1 : 12:07:30:387: De données qu'il rajoute pas de la complexité au curry donc on va on va le faire évidemment pour tous les gens qui ne nécessite pas de faire une voiture sur une autre table vraiment une jointure ça va être une opération beaucoup trop coûteuse par rapport à juste la lire des données en plus . 1
+12:08:000749:000749_2 : 12:07:49:522: Note et en plus on ne fait pas pour les gens qui sont trop grands donc les champs binaire il s'était on va pas les lire systématiquement . 2
+12:08:000750:000750_3 : 12:07:59:669: Trop grande donc n'a pas d'intérêt pour remplir le cache . 3
+12:08:000751:000751_4 : 12:08:07:763: Donc on va lire tout d'un couple et alors on a toute une série de chant qui vont être . 4
+12:08:000752:000752_1 : 12:08:14:881: Rechargement . 1
+12:08:000753:000753_3 : 12:08:17:031: Zizi passif donc ça va être tout les gens qui vont nécessité de faire une jointure donc les gens qui sont des champs relation comme one to many ou ou à manytomany qui requiert de faire une voiture pour récupérer les données . 3
+12:08:000754:000754_4 : 12:08:35:150: Accède . 4
+12:09:000755:000755_1 : 12:08:37:288: On y accède pour un ricorde évidemment on va pouvoir factoriser le curry beau . 1
+12:09:000756:000756_2 : 12:08:46:047: Oui pour tous les autres i cord de la liste . 2
+12:09:000757:000757_3 : 12:08:50:160: C'est un travail qui va se faire à la demande doit pour qu'on première action va remplir le cache pour tous les autres i cord pour le même parce que en plus potentiellements si on est dans une loupe qu'on accède à un champ de ce type là il y a de fortes chances que allitération suivante on repasse dans le même goût de code et qu'on va avoir besoin d'un acte accéder le même sens . 3
+12:10:000758:000758_4 : 12:09:13:271: Une autre partie depuis mise à Sion c'est partager le cache pas uniquement avec les instances qui sont dans une liste mais avec toutes les instances qu'on va créer pendant cette transaction vu qu'on est dans une transaction on sait que les données ne vont pas être modifié . 4
+12:10:000759:000759_1 : 12:09:35:390: Action c'est le principe acide de la base de données donc on est dans l'environnement qu'on connait et donc on peut remplir se cache des données brutes qui sont dans la base de données les partager pour que différents . 1
+12:10:000760:000760_2 : 12:09:53:524: Soirée utilisable à différentes parties de l'application donc on va instancier deux fois le même ricorde avec le même identifiant en réalité on va aller lire qu'une seule fois le Ricard 2e instanciation va récupérer ce qui a déjà été élu par . 2
+12:10:000761:000761_3 : 12:10:13:642: La première à sensation . 3
+12:10:000762:000762_0 : 12:10:17:044: L'autre partie c'est que généralement en fait des recherches dans la base
+12:10:000763:000763_1 : 12:10:26:159: De recherche par rapport à dexter . 1
+12:11:000764:000764_2 : 12:10:32:273: Marche on va aussi en profiter puisque ça va être un colis select pour remplir le cache en perspective de l'association du résultat . 2
+12:11:000765:000765_3 : 12:10:42:797: Permettre donc du coup encore une fois d'économiser un peu riz au lait séries de recherches et puis après un cri de lecture on va on aura quelque quelques rides en charge qui remplit automatiquement le d'instance . 3
+12:11:000766:000766_4 : 12:10:56:880: Pédoncule a pattern qu'on retrouve souvent si on fait une recherche puis après on va faire une action sur le résultat de la recherche et donc on va réitérer et donc ici il est possible de n'avoir qu'un seul que . 4
+12:11:000767:000767_1 : 12:11:12:037: Exemple de code parce que tu aurais été rempli lu par la roche . 1
+12:11:000768:000768_2 : 12:11:21:172: Commence . 2
+12:12:000769:000769_3 : 12:11:23:300: Que la méthode action n'utilise que des gens qui sont . 3
+12:12:000770:000770_4 : 12:11:29:566: Alors c'est bien c'est bien d'avoir un cache . 4
+12:12:000771:000771_1 : 12:11:37:749: En fait il faut bien de limiter aussi la taille du cache pour ne pas qu'il prenne toutes les ressources du système donc en fait on met en place juste une limite est-ce qu'on utilise le cache aller rue donc on va . 1
+12:12:000772:000772_2 : 12:11:58:723: On atteint la limite de . 2
+12:12:000773:000773_3 : 12:12:01:024: On va supprimer ce qui a été le moins d'utiliser donc les plus anciens les plus ancienne valeur du cash qui n'ont plus te accéder c'est celle-là qu'on va illuminer considérant que celles qui sont accédez régulièrement sont plus chaud de nouveau . 3
+12:12:000774:000774_4 : 12:12:20:835: Alors ce qui fait limite c'est bien de la rente configurable parce que ça dépend en fait de la capacité de la machine donc mais encore une fois c'est bien d'avoir de bonnes valeurs par défaut qui fonctionne dans la majorité des cas exceptionnel de configurer . 4
+12:12:000775:000775_1 : 12:12:41:951: Contraint par des ressources . 1
+12:13:000776:000776_2 : 12:12:46:555: Une autre chose qu'on peut mettre en cache . 2
+12:13:000777:000777_3 : 12:12:53:014: Résultats certaines fonctions . 3
+12:13:000778:000778_4 : 12:12:56:134: On s'aperçoit qu'on en a deux méthodes qui vont qu'on appelle avec ton le résultat ne change quasiment jamais c'est-à-dire que les données sur lequel elle se repose sur des années qui sont statique qui reste dans le son des données par exemple de configuration qui sont changer de très très très rarement en fait autant mettre en cache se donner la . 4
+12:14:000779:000779_1 : 12:13:21:254: Résultat de l'appel de fonction qui se passe uniquement sur ce genre de données alors pour que ça marche il faut qu'il vidament que les paramètres de la méthode peu de variabilité de variation se dire il faut pas si on a des paramètres et le temps évidemment la le cache . 1
+12:14:000780:000780_2 : 12:13:41:799: Quasiment toujours une valeur différente et l'on se voit faire que remplir en cash qui ne jamais utiliser . 2
+12:14:000781:000781_3 : 12:13:50:762: Note parti le danger dans un cache comme ça qui est persistant à travers les transactions c'est que il va falloir le kiné . 3
+12:14:000782:000782_4 : 12:14:01:873: Quand évidemment on fait des changements sur la TV il faut le supprimer pour qu'il soit calculer par rapport avec tes nouvelles données . 4
+12:14:000783:000783_1 : 12:14:13:999: Il faut faire attention si on essaye son à plusieurs d'instance plusieurs process plus en instance du serveur bah il faut un mécanisme pour que une instance bises à l'autre qu'elle a modifié telle ou telle donner et donc il faut supprimer le cache qui en dépend . 1
+12:15:000784:000784_2 : 12:14:33:135: Avec site on utilise en fait la base données pour . 2
+12:15:000785:000785_3 : 12:14:37:469: Notifier ce genre de . 3
+12:15:000786:000786_4 : 12:14:41:249: Ication ça dire que quand on va modifier un enregistrement pour chaque cache et le serveur qui va faire une modification qui a valid blocage note à tout à l'heure le cache a été modifié donc si toutes les autres modification . 4
+12:15:000787:000787_1 : 12:15:01:367: Le supprimer pour construire . 1
+12:15:000788:000788_2 : 12:15:06:499: Peu fréquemment pour ce soit utile sinon le cacher tout le temps par les autres serveur . 2
+12:15:000789:000789_3 : 12:15:14:667: Va faire . 3
+12:15:000790:000790_4 : 12:15:17:784: Alors par rapport au design c'est le design du code comme on a toute une API key optimisé pour travailler avec délices de ris Corse avec le paquet de d'enregistrement évidemment il faut . 4
+12:16:000791:000791_1 : 12:15:31:262: Le code pour fonctionner par par opération sur les listes d'enregistrement . 1
+12:16:000792:000792_2 : 12:15:40:385: Les points dans le code où on s'aperçoit qu'on a des problèmes de performances sont généralement deux endroits où on a que des une méthode juste en pensant que ce sera accéder par un seul ricorde à la fois ou des choses comme ça . 2
+12:16:000793:000793_3 : 12:15:57:503: Le point de . 3
+12:16:000794:000794_4 : 12:16:00:032: Ralentissement dans l'exécution de la transaction . 4
+12:16:000795:000795_0 : 12:16:05:795: Une partie sur un autre. Ce qui revient souvent donc c'est
+12:16:000796:000796_2 : 12:16:14:850: Toujours là aussi que on va perdre du temps parce que Ben loupe . 2
+12:16:000797:000797_3 : 12:16:21:670: Paiement la taille peut être très grand tétons qu'on peut pas prédire que . 3
+12:16:000798:000798_4 : 12:16:26:789: Rapidement qui aura donc peu de requête SQL alors vers quelle méthode de Kruth aussi . 4
+12:16:000799:000799_1 : 12:16:35:923: Y a pas uniquement accéder à la base de méthode qui accède . 1
+12:17:000800:000800_2 : 12:16:44:050: Recette sortir cet appel en dehors de la loupe . 2
+12:17:000801:000801_3 : 12:16:48:868: Prends de l'eau pour faire un appel à une sauvegarde . 3
+12:17:000802:000802_0 : 12:16:52:848: Un autre. C'est quand qu'on soit ça passe donné faut faire attention de ne pas créer des points de contention . 4
+12:17:000803:000803_1 : 12:17:04:723: Schéma . 1
+12:17:000804:000804_2 : 12:17:06:849: Qu'on a fait en fait sur chaque table chaque enregistrement à une référence sur utilisateurs qui a créé le l'enregistrement et l'utilisateur qui a le modifier la dernière fois cet enregistrement . 2
+12:17:000805:000805_3 : 12:17:22:579: Cet cette ces colonnes était en fait des clés étrangères vers une table utilisateur tout bêtement ce qui est resté design cohérent . 3
+12:17:000806:000806_4 : 12:17:36:159: Le souci . 4
+12:18:000807:000807_1 : 12:17:38:506: Étrangère qui pointure cette table sur la même table pour tous les enregistre pour toutes les autres table à la moins de modification la base données de vérifier la validité . 1
+12:18:000808:000808_2 : 12:17:51:847: De la colle . 2
+12:18:000809:000809_3 : 12:17:53:803: Principalement de dernière modification par l'utilisateur pour s'assurer que les identifiants qui est écrit existe toujours dans la base utilisateurs c'est la contrainte l'étranger et ça ça génère en fait un lot sur la table utilisateurs qui crée un point de contention par rapport à toutes les autres d'écriture qui sont en même temps . 3
+12:18:000810:000810_4 : 12:18:18:925: Problème assez simple . 4
+12:18:000811:000811_1 : 12:18:22:699: Supprimer la contrainte de clé étrangère donc il y a plus de vérification par là par la base de données de l'intégrité . 1
+12:18:000812:000812_2 : 12:18:31:798: En contrepartie . 2
+12:19:000813:000813_3 : 12:18:34:274: Nathalie Z supprimer des utilisateurs donc du coup on est sûr que l'enregistrement existe toujours puisque on peut pas supprimer utilisateur donc tout utilisateur utiliser qui existent dans le début . 3
+12:19:000814:000814_4 : 12:18:50:408: Et en fait on utilise juste une suppression logique . 4
+12:19:000815:000815_1 : 12:18:55:533: Père en réalité ça revient au même que par rapport à la contrainte donc l'étrangère puisque on ne savais de toute manière pas supprimer utilisateur si jamais il avait créer un enregistrement quelque part il avait une référence donc si l'on pouvez pas modifier donc on a pas changé la fonctionnalité . 1
+12:19:000816:000816_2 : 12:19:16:657: Remonter la tension . 2
+12:19:000817:000817_3 : 12:19:21:285: Un autre point de contention généralement par rapport au design de la début . 3
+12:20:000818:000818_1 : 12:19:33:786: Que de rajouter dans une table . 1
+12:20:000819:000819_2 : 12:19:38:941: Qu'on va modifier en fait on va le créer un blog sur cet enregistrement qui pourrait être potentiellement utilisé par d'autres exetera donc ça craint point de contention encore une fois . 2
+12:20:000820:000820_3 : 12:19:52:061: Alors plaît exemple qu'on avait son compte on comptait sur . 3
+12:20:000821:000821_4 : 12:19:59:183: P'tit zappeur le nombre de fois où il avait une tentative de login qui est chouette . 4
+12:20:000822:000822_1 : 12:20:06:867: Mettre en place une protection . 1
+12:20:000823:000823_2 : 12:20:11:985: Le temps de réponse proportionnellement nombre de . 2
+12:20:000824:000824_3 : 12:20:16:117: C'est juste une protection contre les attaques par brute force mais le fait de l'écrire systématiquement sur ce même utilisateur d'augmenter le compteur en fait . 3
+12:20:000825:000825_4 : 12:20:31:594: Puisque . 4
+12:20:000826:000826_1 : 12:20:34:709: On prenait une transaction et on écrit sur cet enregistrement et que l'on met automatiquement en place un délai de réponse pour qu'il était propre . 1
+12:21:000827:000827_2 : 12:20:46:832: Map horreur . 2
+12:21:000828:000828_3 : 12:20:50:961: Garder sur son . 3
+12:21:000829:000829_4 : 12:20:52:941: Qui empêchait l'utilisation . 4
+12:21:000830:000830_1 : 12:20:58:052: De se connait . 1
+12:21:000831:000831_2 : 12:21:00:899: Aussi de mettre à jour le Ricordeau là ou si . 2
+12:21:000832:000832_3 : 12:21:06:319: Moi te disais comme référence . 3
+12:21:000833:000833_4 : 12:21:09:599: Manger avec cetera bloqué de notre séparation et donc à la place de faire le mettre à jour Harry corde en fait ce qu'on fait mainte0t si on ajoute dans une table à part juste une entrée pour chaque erreur et donc on ne fait que rajouter ça ne serait pas de nouveau look . 4
+12:21:000834:000834_1 : 12:21:29:719: Un lac en fait que le riz carte sur laquelle on a eu conviendrait donc personne d'autre ne connais ce moment . 1
+12:22:000835:000835_2 : 12:21:37:685: Pour savoir combien d'erreur de log in or on a on fait juste un code sur le sur la table et donc du coup là on a enlevé une contention juste par design en préférence d'ajouter que . 2
+12:22:000836:000836_3 : 12:21:55:010: Général c'est toujours . 3
+12:22:000837:000837_4 : 12:21:57:607: Plus efficace d'ajouter que de mettre à jour l'existant . 4
+12:22:000838:000838_1 : 12:22:02:767: Alors . 1
+12:22:000839:000839_2 : 12:22:07:889: Sur les documents on a des vaures Flo qui permettent de définir les étapes donc une vente impasse de aller en bourgeon et puis on passe en de vie et puis aller valider puis on va factures exetera . 2
+12:22:000840:000840_3 : 12:22:25:017: Un moteur de boire floqué très complexe qu'on pouvait qui était stocké la description texto quai de la base de données . 3
+12:22:000841:000841_4 : 12:22:33:969: En fait c'était un moteur . 4
+12:23:000842:000842_1 : 12:22:38:881: Beaucoup de lecture qui a pas besoin de beaucoup de qui prenait beaucoup de ressources . 1
+12:23:000843:000843_2 : 12:22:43:992: Et en fait on s'est aperçu qu'en fait on . 2
+12:23:000844:000844_3 : 12:22:48:939: Finalité dans la joue dans diversion courante et qu'on pouvait simplement remplacer au lieu d'avoir une description . 3
+12:23:000846:000846_4 : 12:22:58:663: On peut juste que tu veux remplacer par une appli qui fonctionne par contre ah donc on a juste . 4
+12:23:000847:000847_1 : 12:23:07:780: Correspondent à des transitions . 1
+12:23:000848:000848_2 : 12:23:10:697: On a certains noms . 2
+12:23:000849:000849_3 : 12:23:15:639: Et qu'on va juste utilisé dans le code à certains moments . 3
+12:23:000850:000850_4 : 12:23:21:757: Les appel de méthode et ça résout ça résolu quasiment tous tous les . 4
+12:24:000851:000851_1 : 12:23:30:288: Ça permet de remplacer qu'on quasiment dans tous les cas le voir flou actuelle et en plus comme c'était beaucoup plus léger on a rajouté de voir flou un peu partout plein de documents qui n'en n'avez pas avant parce que on considère que c'était trop de flow . 1
+12:24:000852:000852_2 : 12:23:49:419: De ressources et donc la conclusion 7 se dire parfois il y a pas besoin de faire des moteurs très complexe . 2
+12:24:000853:000853_3 : 12:23:50:419: De manière beaucoup plus simple et ne pas essayer de résoudre tous toutes les possibilités si si en fait on n'a pas vraiment le problème . 3
+12:25:000855:000855_4 : 12:24:11:871: Le cas concret . 4
+12:25:000856:000856_1 : 12:24:14:990: Et enfin la dernière optimisation . 1
+12:25:000857:000857_2 : 12:24:44:251: C'est de ne pas faire de ne pas exécuter l'opération mais en fait exécuter plus tard retourner directement utilisateur donc pour ça c'est simplement le fait d'avoir une cuve de tâches qu'on va remplir donc quand l'utilisateur va marquer Laval de valider son compte ça déclenche tout ensemble de processus . 2
+12:25:000858:000858_4 : 12:25:16:175: Tout toute tous ces enregistrements tous ces documents tout de suite bah en fait on les pose à plus tard . 4
+12:25:000859:000859_1 : 12:25:24:290: La particularité . 1
+12:26:000860:000860_3 : 12:25:46:524: Bon de commande ou ou s'il y a une erreur et que le . 3
+12:26:000861:000861_4 : 12:25:51:696: Ne pas valider bah il faut pas que la tâche de création de livraison soit sur Lens et donc du coup on a besoin d'une queue qui aussi transactionnelle . 4
+12:26:000862:000862_1 : 12:26:02:806: Alors la solution qu'on a choisi pour ça c'est d'utiliser la base de nez comme moteur de . 1
+12:27:000863:000863_3 : 12:26:19:285: Dans la littérature les bases données ce qu'elles sont pas prêts conçu pour pour faire . 3
+12:27:000864:000864_2 : 12:26:49:359: Bloc je sais pas comment on dit au revoir en français . 2
+12:27:000865:000865_3 : 12:26:53:490: La base de données de la possibilité de loquet individuellement certains enregistrement qui va permettre de risque de faire une réservation dans la/ arriere train /sans avoir s'en empêcher d'autres transaction devenir réserver Dautry garde un peu compliqué et en plus on a système de listen notify à l'intérieur de la base donnée dans le moteur de base de données transactionnelles . 3
+12:27:000866:000866_4 : 12:27:21:617: Donc on va pouvoir envoyer de messages . 4
+12:27:000867:000867_1 : 12:27:25:622: Par exemple mais uniquement de manière transactionnelle donc je lance dans mon code le message il sera reçu par le voir cœur que si ma transaction à la fin est correctement comité et qu'il y a pas de problème . 1
+12:28:000868:000868_2 : 12:27:39:709: Et donc c'est grâce à ça compte du coup on a une Piou qui est transactionnelle et qu'on va pouvoir on peut déposer le traitement . 2
+12:28:000869:000869_3 : 12:27:50:822: Le traitement lourd à plus tard . 3
+12:28:000870:000870_4 : 12:27:55:725: L'autre point important quand on crée des tâches . 4
+12:28:000871:000871_1 : 12:28:03:744: Écouter . 1
+12:28:000872:000872_2 : 12:28:05:866: Faire un point qu'on essaie toujours d'après mentez . 2
+12:28:000873:000873_3 : 12:28:11:985: Impotente . 3
+12:28:000874:000874_4 : 12:28:15:724: Dire que on peut l'appeler plusieurs fois sera toujours le même résultat alors pour nous ça veut dire si on appelle plusieurs fois sur la vente de créer la livraison à Leclerc à jamais qu'une seule livraison ça dire si la livraison a été créé par une nouvelle livraison pour la vente . 4
+12:29:000875:000875_3 : 12:28:56:215: Le résultat foot toujours d'avoir un système . 3
+12:29:000876:000876_4 : 12:28:59:540: L'autre avantage de ta part une cuve avec des marqueurs maman va pouvoir créer plusieurs . 4
+12:29:000877:000877_1 : 12:29:08:659: Beaucoup de voir cœur on va pouvoir le dispatcher sur différentes machines et donc augmenter la capacité de calcul facilement et à et à la vente et donc si on a des moments où on a plus besoin de réponse de travail on peut faire un CAP puis . 1
+12:29:000878:000878_2 : 12:29:30:785: Les tâches ont les travaille toujours aussi par litre de ricorde donc toujours pour profiter de la poésie . 2
+12:30:000879:000879_3 : 12:29:40:917: J'avance sur la gestion du cash . 3
+12:30:000880:000880_4 : 12:29:44:355: Lara mais par contre la chose qu'il faut faire attention . 4
+12:30:000881:000881_1 : 12:29:50:485: Notaire de QC qui vient mention Poste une tâche pour un ricard qui va qui a été supprimé bah il faut pas que . 1
+12:30:000882:000882_2 : 12:29:58:609: Plante parce qu'elle a d'autres Igor d'arrêter donc il faut filtre avant tout les records qui ont été supprimés . 2
+12:30:000883:000883_0 : 12:30:08:630: Et ensuite de le dernier. Si on fait un système de passage dans une pub . 3
+12:30:000884:000884_2 : 12:30:40:631: S'appelle la même méthode mais pas ça poste cet appel là dans le CUE donc c'est assez simple le code . 2
+12:31:000885:000885_3 : 12:30:50:763: Le code qu'on avait existant avant lol . 3
+12:31:000886:000886_4 : 12:30:54:886: Films de/ arriere train /. 4
+12:31:000887:000887_3 : 12:31:04:237: Passer sur l' assistance asynchrone . 3
+12:31:000888:000888_4 : 12:31:08:318: Voilà c'est tout . 4
+12:32:000889:000889_1 : 12:31:11:956: Direction . 1
+12:32:000890:000890_3 : 12:31:23:257: Vraiment c'est fini je crois . 3
+12:32:000891:000891_4 : 12:31:31:372: Ouais . 4
+12:32:000892:000892_4 : 12:32:05:244: La méthode prendre en compte ça prend en paramètre généralement le ricorde donc si si on crée la livraison pour une vente à des paramètres va être la vente . 4
+12:32:000893:000893_1 : 12:32:16:330: Une méthode d'instance et donc ce sera paramètres d'instance qui sera la vente donc ça s'écrit automatiquement mes identifiant unique et en fait . 1
+12:32:000894:000894_3 : 12:32:29:706: On va faire si on va regarder l'état . 3
+12:32:000895:000895_4 : 12:32:32:473: Pour la vente on va regarder qu'est-ce qu'on a déjà livré . 4
+12:34:000896:000896_2 : 12:32:38:755: Qu'est-ce qu'on devait normalement livret . 2
+12:36:000897:000897_3 : 12:32:42:199: Quantité c'est sur la vente et on va faire la différence et si on a une différence donc si elle est positif ça dire qu'on a pas livré suffisamment on va créer une nouvelle livraison de la . 3
+12:36:000898:000898_4 : 12:32:55:555: Et donc si on a déjà livré tout ce qu'il fallait faire quand on a on a rien à livrer donc on ne fait rien . 4
+12:36:000899:000899_2 : 12:33:54:499: Et donc je peux dire n'importe quoi . 2
+
+ 
+

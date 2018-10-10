@@ -1,0 +1,160 @@
+
+
+01_Les nouveautés dans Python 3.7 Vincent Maillol, Stéphane Wirtel
+
+10:07:000024:000024_2 : 10:03:40:451: Le fameux get attr et le dire qui existent il y a les évaluations avec qui sont pas bonnes en français je sais pas le dire je suis désolé vous allez vite comprendre comment ça fonctionne . 2
+10:07:000025:000025_3 : 10:06:36:818: Ouais ça doit être ça en fait c'est le chasseur de la traduction française de Python et donc j'ai plus l'habitude de parler en France en anglais en français ensuite on a des nouvelles fonctions au niveau du timing . 3
+10:07:000026:000026_4 : 10:06:52:958: Bon donc ça peut être intéressant pour certaines choses on a les warning qui sont affichés enfin certains cas on a les variables contextuel pour tout ce qui est asynchrone et on a enfin moi qui s'appelle UTF-8 par défaut désactiver voilà alors la première chose que je vais vous montrer un petit peu . 4
+10:07:000027:000027_1 : 10:07:13:088: Ok qu'est-ce qui s'est déjà demandé comment débloquer correctement en soit avec convenir avec le prix toi avec le login ou quoi que ce soit bidon élite heure est-ce qu'il y a un bouton debugger ok en fait parce que cet exemple de code . 1
+10:08:000028:000028_2 : 10:07:31:224: Moi j'ai un peu mieux comme ça parce que c'est tout petit exemple de code où on va avoir une petite erreur division par 0 0 . 2
+10:08:000029:000029_3 : 10:07:43:368: On veut des buggé et qu'on est nouveau exetera bon on va s'amuser utiliser un peu plus malin parce que les gens connaissent pas forcément . 3
+10:08:000030:000030_4 : 10:07:55:515: Salut depuis 20 ans mais c'est pas . 4
+10:08:000031:000031_1 : 10:07:58:602: Vous donnera une formation Python Basic il y a des gens qui savent pas ce que c'est qu'un Burger . 1
+10:08:000032:000032_2 : 10:08:05:748: C'est quoi une classe . 2
+10:08:000033:000033_3 : 10:08:08:355: CB développement bébé . 3
+10:08:000034:000034_4 : 10:08:11:804: Alors . 4
+10:08:000035:000035_1 : 10:08:13:944: On va utiliser un petit peu un truc qui provient de JS s'appelle debugger développer . 1
+10:08:000036:000036_2 : 10:08:22:098: Non p***** ça ne fonctionne pas que ça appartient la place . 2
+10:08:000037:000037_3 : 10:08:28:575: Alors on peut s'amuser aussi au niveau des burgers pourrais utiliser quel . 3
+10:09:000038:000038_4 : 10:08:35:219: Hemophilia pdb IPDB puis DBW DVD b . 4
+10:09:000039:000039_1 : 10:08:42:184: Comprendre un petit peu que ça va vite un peu ennuyant par contre quand on s'amuse à utiliser on dit mais comment ce que je vais les appeler . 1
+10:09:000040:000040_2 : 10:08:51:321: DB7 tracer que ça rien de bien nouveau mais au moins à ceux qui savait pas vous avez eu un cours aujourd'hui voilà . 2
+10:09:000041:000041_3 : 10:09:02:461: Alors si on veut utiliser UDB ou épiler b c pas difficile on changera pas mon l'import wiki ça E-Brick nous intéresse maladie alors par contre . 3
+10:09:000042:000042_4 : 10:09:15:581: Incendie . 4
+10:09:000043:000043_1 : 10:09:18:580: Plan de debugger qui sont disponibles on va en créer un nouveau . 1
+10:09:000045:000045_3 : 10:09:25:560: C'est faux en fait ils ont introduit une nouvelle fonction bottines qui s'appelle breakpoint et cette fonction là appeler le debugger pour vous . 3
+10:10:000046:000046_4 : 10:09:34:681: Installer sur une machine ça va donc ce sera pas utiliser sa formation utiliser directement . 4
+10:10:000047:000047_1 : 10:09:44:818: Enchérissez externe . 1
+10:10:000048:000048_2 : 10:09:48:948: Devis mais mon cœur alors là on peut s'amuser par exemple à utiliser directement le break pas exécuter automatiquement le PDF donc ça il y a pas de souci au lieu d'avoir . 2
+10:10:000049:000049_3 : 10:10:03:094: Alors l'avantage de ce truc là c'est que ces configurable . 3
+10:10:000050:000050_4 : 10:10:09:134: Donc si par exemple il prend une variable environnement que s'appelle pas éteindre une et comment dire si vous allez me débrouille un peu partout j'avais vous êtes en train de développer machin que ça fonctionne bien . 4
+10:10:000051:000051_1 : 10:10:22:273: Bloquer quelqu'un peut plus fonctionner . 1
+10:10:000052:000052_2 : 10:10:26:420: Mais il y a pas si vous activez directement le bref comme ça . 2
+10:11:000053:000053_3 : 10:10:34:551: Pratiquant normalement ça ça doit sauter avec un serveur d'intégration alors si jamais vous aimez bien un petit peu utilisé . 3
+10:11:000054:000054_4 : 10:10:45:699: Spécifier la fonction de trace in que vous voulez utiliser ça va si vous vous êtes en train de développer . 4
+10:11:000055:000055_1 : 10:10:53:841: Que vous préférez utiliser pdb PUD BPD BPPC Tara spécifié celui que vous voulez . 1
+10:11:000056:000056_2 : 10:11:01:117: Les fans de iPhone . 2
+10:11:000057:000057_3 : 10:11:04:253: Bouquet autres on peut aussi intégrer directement dedans ça va c'est bien casser la tête en fait énormément de temps développer . 3
+10:11:000058:000058_4 : 10:11:13:385: Alors ensuite oui le break pas une c'est aussi une fonction qu'on peut un peu surchargé utiliser le print on n'a pas forcément envie de s'arrêter en plein milieu l'exécution d'un truc et si on a un gros Caudan prod ça y est on a plusieurs trade il y en a qui est bloqué . 4
+10:11:000059:000059_1 : 10:11:31:541: Quelque chose mais en fait on peut spécifier la fonction print parfois ça va ça peut être intéressant . 1
+10:11:000060:000060_2 : 10:11:39:676: Ensuite . 2
+10:12:000061:000061_7 : 10:11:41:755: Il est parti c'était un nouvel feature de 3.7 on a vachement bien travaillé là-dessus merci beaucoup c'était vraiment très agréable . 3
+10:12:000062:000062_4 : 10:11:50:896: Qui a déjà joué dans ta classe qui sait ce que c'est qu'une attaque la . 4
+10:12:000063:000063_1 : 10:11:55:757: Quand même un petit cœur petit cœur c'est bon alors les Data classe en fait c'est une . 1
+10:12:000064:000064_2 : 10:12:03:911: Donner sa simplement ça cherche un peu le fonctionnement de veau classe de base et ça va rajouter des petites fonctions supplémentaires . 2
+10:12:000065:000065_3 : 10:12:14:053: Le sais par exemple alors pour pouvoir implémenter une dans ta classe d'habitude d'habitude . 3
+10:12:000066:000066_4 : 10:12:23:184: Un exemple là je vais vous montrer graduellement comment on fait quand je ressentais une personne . 4
+10:12:000067:000067_0 : 10:12:31:303: Ça va rien de bien compliqué on fait un peu Paul voilà c'est génial consomme pas beaucoup de RAM le problème c'est que ça accessible simplement avec un indice mais on sait pas s'amuser directement la natation. . 1
+10:13:000068:000068_2 : 10:12:46:465: Natation avec une chaîne de caractère les clés donc mon imprimante . 2
+10:13:000069:000069_3 : 10:12:52:507: C'est déjà vu . 3
+10:13:000070:000070_4 : 10:12:54:648: Ouais ouais voilà j'ai déjà fait . 4
+10:13:000071:000071_1 : 10:12:59:784: Tant pis maintenant 18 ans alors le problème avec sa sac à main dictionnaire on aime bien le type à j'aime bien ça si c'est Paul qui viennent . 1
+10:13:000072:000072_0 : 10:13:12:906: Natation. Super j'ai quelque chose qui correspond mais c'est pas encore bien ça donc là j'ai un petit exemple je fais une personne personne je l'utilisation et tout ça fonctionne bien jusqu'à présent . 2
+10:13:000073:000073_3 : 10:13:30:044: Un peu plus de logique ça va pas forcément allez donc je peux passer son truc s'appelle une cloche . 3
+10:14:000074:000074_0 : 10:13:35:748: On adore les classes. C'est que quand on a une classe comme ça aussi c'est quand même un peu . 4
+10:14:000075:000075_1 : 10:13:42:033: Parce que j'ai une classe avec peut-être 3 4 5 7 à Raja m'amuser à faire le guetteur le 7 à la représentation des comparaisons machin exetera ça bien vite lourd bon pour un cas d'école c'est intéressant . 1
+10:14:000076:000076_2 : 10:13:57:179: Au niveau l'application est assez gros un peu saoulant alors est-ce qu'on peut s'amuser à faire mais c'est de remplacer sa part ça . 2
+10:14:000077:000077_3 : 10:14:05:200: Pour ceux qui savent pas il est avec ta classe a fait un peu moins de code avec la ça fait ça donc . 3
+10:14:000078:000078_4 : 10:14:13:476: Dans ta classe c qu'on va utiliser le typage de Python . 4
+10:14:000079:000079_1 : 10:14:19:603: À titre informatif ici dans le cadre de ta classe il va les utiliser c'est tout alors là par exemple ma classe Python à personne pardon j'ai mis un email à . 1
+10:15:000080:000080_2 : 10:14:30:740: Directement un constructeur et dans ce constructeur là il va mettre directement tous les attributs communs spécifié automatiquement la c'est cool si on a un truc un peu en même temps les autres . 2
+10:15:000081:000081_3 : 10:14:44:877: Ça ça va ensuite on peut balancer des valeurs par défaut . 3
+10:15:000082:000082_7 : 10:14:51:594: En quoi alors cette fille tu as été introduit d'inversion 3.7 depuis ton pour les notes Apple vous avez un nouvel argument pouvez utiliser un nouveau parce que en fait . 4
+10:15:000083:000083_1 : 10:15:02:715: Jaloux de l'eau . 1
+10:15:000084:000084_2 : 10:15:05:853: Non maintenant on peut avoir des valeurs par défaut et donc si vous instancier votre . 2
+10:15:000085:000085_3 : 10:15:14:002: Par défaut vont être utilisé chez but de valeur par défaut d'accord là-dessus . 3
+10:15:000086:000086_1 : 10:15:20:178: Bien évidemment rajouter un petit peu de logique donc pas de souci vous pouvez aussi mettre du business exetera dedans voilà quoi je pense que vous avez bien compris . 1
+10:15:000087:000087_2 : 10:15:31:663: Ok . 2
+10:16:000088:000088_3 : 10:15:35:794: Là tu m'entends bien ok je peux plus courir moi mère . 3
+10:16:000089:000089_4 : 10:15:42:940: Elle s'appelle le data class qu'on peut s'amuser aussi à configurer donc data class décorateur de classe tu peux prendre en paramètre qui sont là donc c'est . 4
+10:16:000090:000090_1 : 10:15:56:074: L'Europe le quoi le redonne donc le frangin c'est par exemple si voulais avoir une heure ta ta ta classe ça peut être intéressant . 1
+10:16:000091:000091_2 : 10:16:08:623: Ben Norman exemple je peux m'amuser avec le frozen ben j'ai la petite exception qui va venir gentiment disant impossible de lit impossible d'écrire quoi que ce soit . 2
+10:16:000092:000092_3 : 10:16:18:453: Est-ce que c'est assez difficile de bouger . 3
+10:16:000093:000093_0 : 10:16:23:260: Mais pas un tablier
+10:17:000094:000094_3 : 10:16:34:895: Maison mise à faire un attentat classe la présente une personne et ensuite on soumet j'utilise je les rites pour pouvoir faire un dans ta classe qui est un utilisateur alors la chose amusante sais que vous avez défini dans ta classe différentes valeurs . 3
+10:17:000095:000095_4 : 10:16:50:026: Juste . 4
+10:17:000096:000096_1 : 10:16:52:192: Mais vous faites Titans ouvre les paramètres qui était en plus sur le constructeur de la nouvelle classe donc ça ça peut être intéressant parfois moi j'aime bien les utiliser le dictionnaire . 1
+10:17:000097:000097_2 : 10:17:04:223: Attaque là c'est fini ma non pas sur autre chose on a le Guetta trail dire quand vous maintenez du Code parfois vous avez des fonctions qui peuvent être déprécier alors l'idée c'est de la fonction warning . 2
+10:18:000098:000098_3 : 10:17:19:353: Les choses un peu plus intéressantes qui vient directement au gras version 37 c'est qu'à ce moment-là on peut dire gentiment j'ai une fonction Grenoble simplement quand on va l'appeler je voudrais bien non pas dans la fonction donc je . 3
+10:18:000099:000099_4 : 10:17:32:497: Je vais pouvoir m'amuser à crée directement une émission d'un warning donc ici dans l'exemple mais j'ai ma liste de mes fonctions qui sont simplement déprécier et j'ai surchargé le get attr du module donc en fait python quand vous allez lui demander tiens j'ai besoin de tes fonctions il a appelé est-ce que la fonction n'existe pas appelé maintenant . 4
+10:18:000100:000100_1 : 10:17:33:497: Elle va dire gentiment mais attention la fonction que tu m'appelles elle est dépressive donc je digère automatiquement warning . 1
+10:18:000101:000101_2 : 10:18:02:821: Une dizaine de fonction une centaine je sais pas où changer la pierre et vous voulez déprécie quelque chose mais au lieu de faire une dépréciation dans fonction ou decorateur vous faites une fois on s'incline quoi un peu de maintenance . 2
+10:18:000102:000102_3 : 10:18:15:954: Un petit exemple j'essaie de télécharger j'essaye de charger la dernière fonction . 3
+10:19:000103:000103_4 : 10:18:24:096: Alors le dire ça le dis en fait on fait un dire sur un module vous avez la liste des fonctions qui vient nous deck la sexta en fait vous pouvez vous amuser a joué un peu avec le dire ajouter des nouvelles méthodes exetera . 4
+10:19:000104:000104_1 : 10:18:39:231: Un exemple ici quand je suis un dire de libre en fait j'ai d'abord les nouvelles fonctions et après j'ai une fonction donc je change un peu le résultat du tir avant c'était pas un prospection Manon peut s'amuser à . 1
+10:19:000105:000105_2 : 10:18:54:383: Passion pour spawn en fait les évaluations . 2
+10:19:000106:000106_3 : 10:18:59:088: Parce que sa première fois que le français quand vous écrivez ce genre de code avec le Tahiti . 3
+10:19:000107:000107_4 : 10:19:08:214: Quand vous instancier quand vous créez une classe note . 4
+10:19:000108:000108_1 : 10:19:16:609: Sabi bippe ici ça me poses la samedi potes là-bas c'est génial un vrai sapin de Noël . 1
+10:20:000109:000109_2 : 10:19:24:740: Allez avoir un problème regarde un peu la définition des paramètres left et right dans le constructeur on utilise le problème c'est que noz est en cours de création . 2
+10:20:000110:000110_3 : 10:19:36:862: Utilise une référence une classe qui n'existe pas il existe un souci . 3
+10:20:000111:000111_4 : 10:19:45:003: Alors la petite astuce pour pouvoir faire ce genre de chose non mais rectement la chaîne de caractère alors c'est bien quand on utilise une chaîne de caractère si on s'est trompé dans un truc ça on a découvert dans Python . 4
+10:20:000112:000112_1 : 10:20:00:138: Afrat au lieu de la sœur une exception on a Jacques à parce que quelqu'un se dit oui parfois je vais t'appeler a tout lieu de taper à certaines choses . 1
+10:20:000113:000113_1 : 10:20:10:514: Invité gens de problème on va écrivez simplement les annotations il vient directement du module futur et donc ça ça sera la prochaine version 3.1 8 on pourra l'utiliser directement et ça nettoie un petit peu le code ça va . 2
+10:20:000114:000114_3 : 10:20:23:328: Utilisé dans ta classe a thing on peut s'amuser à résoudre un petit peu ça c'était avant un nouveau . 3
+10:21:000115:000115_4 : 10:20:32:451: Alors les fonctions . 4
+10:21:000116:000116_1 : 10:20:37:591: En fait avant il y avait un problème c'est que la résolution c'était limite à 104 jours donc si vous faire de benchmark certaines choses comme sur des float on évite limités alors l'idée principale . 1
+10:21:000117:000117_2 : 10:20:54:728: Donc au lieu d'avoir par exemple des flots on va voir directement des entiers des grands . 2
+10:21:000118:000118_3 : 10:20:59:865: 64 bits est-ce que vous voulez simplement à cause du format de représentation d'un faux . 3
+10:21:000119:000119_4 : 10:21:05:981: Alors les nouvelles fonctions se voit si on a la plus intéressant pour moi c'est monotonic Annesse et tout ce qui est processing ça peut être intéressant si jamais vous devez faire du benchmarking . 4
+10:21:000120:000120_1 : 10:21:20:074: Comment voilà exemple si je mens directement avec le mot tonic c'est directement à flottant donc on voit qu'il a une raison de résolution arrondi alors que avec le nanoseconde on a vraiment les valeurs adequat à la seconde . 1
+10:21:000121:000121_7 : 10:21:38:211: Alors agression 3.7 on affichez aussi maintenant les deprecation warning qui s'amuse à faire des tests . 2
+10:22:000122:000122_3 : 10:21:45:639: Non mais sérieux quoi . 3
+10:22:000123:000123_4 : 10:21:51:539: Il y a 3 . 4
+10:22:000124:000124_2 : 10:21:54:726: Résultat bon ben ok ça va se passer pour engager . 2
+10:22:000125:000125_3 : 10:22:03:853: Un problème c'est que dans la version 3.3 Python ou 3.2 au début des version 3 . 3
+10:22:000126:000126_4 : 10:22:12:997: Ça faisait un petit peu problème exetera s'était caché directement quand on exécuter la fonction main s'afficher quand on avait déteste alors quand vous développez . 4
+10:22:000127:000127_0 : 10:22:24:117: Quand on s'amuse à utiliser Django mais on peut constater que même quand on était. Deprecation warning . 1
+10:23:000128:000128_2 : 10:22:33:267: Depuis la version 37 la Chine warning Sarah directement afficher un restaurant bouge pas . 2
+10:23:000129:000129_3 : 10:22:41:114: I am the context elles sont très intéressante dans le cas où vous faites de la programmation asynchrone si vous faites la programmation synchrone . 3
+10:23:000130:000130_4 : 10:22:50:224: Sur le trade ça ça va mes mains programmation asynchrone vous avez majoritairement un trait d plusieurs requêtes qui viennent en parallèle maison de problème . 4
+10:23:000131:000131_1 : 10:23:00:360: Sur la plage au moment Vacquerie la Coroutine donc à partir de là au moment de l'évaluation de la routine on va reprendre . 1
+10:23:000132:000132_2 : 10:23:10:498: Pages à partir de l'on peut jouer exemple comme celui-ci . 2
+10:23:000133:000133_3 : 10:23:16:613: Un utilisateur on le récupère l'utilisateur des commandants la roquette non non . 3
+10:23:000134:000134_4 : 10:23:23:747: Et après on peut le réutiliser plus tard ça peut être intéressant depuis la version ISO HTTP . 4
+10:24:000135:000135_1 : 10:23:30:878: Voir 40 pour l'utiliser ici maintenant ça va être inclus directement alors bien évidemment ben moi j'ai un petit peu parce que grâce à moi il y a quelqu'un qui est devenu corps de la documentation surtout Python et qui se lancer à faire la Documentation française . 1
+10:24:000136:000136_2 : 10:23:47:017: Voilà pouvez commencer à contribuer avec la version française de la . 2
+10:24:000137:000137_3 : 10:23:52:141: En japonais on a encore rien bientôt peut-être en arabe en français bien évidemment en anglais . 3
+10:24:000138:000138_0 : 10:23:59:261: Ce qui n'est pas dans la par exemple. Si vous savez que par exemple les dictionnaires et ordonnée depuis la version 3.7 c'est officiellement annonce . 4
+10:24:000139:000139_1 : 10:24:11:668: Maman du branding non c'est fait . 1
+10:24:000140:000140_0 : 10:24:15:802: Oui ça va aller à Simpson en Word ne sont plus des petits vous pouvez plus utilisé comme des variables donc si vous avez de l'ancien quoi. Si normalement pourrais avoir un warning avec la version 3.7 vous allez avoir un crash . 2
+10:24:000141:000141_3 : 10:24:31:930: A single trou avant le faisais projet qui s'amuse à faire ce genre de chose . 3
+10:24:000142:000142_4 : 10:24:38:068: Moi ça va si c'est des lignes de code si vous avez mis en ligne de code bonjour . 4
+10:24:000143:000143_1 : 10:24:42:688: Oh wait . 1
+10:25:000144:000144_2 : 10:24:45:822: Alors maintenant à Cynthia Cynthia you a quand même quelques petites améliorations qui a joué avec un caillou . 2
+10:25:000145:000145_3 : 10:24:52:305: Vahiné van-loo machin . 3
+10:25:000146:000146_4 : 10:24:56:454: Tuto monde mais en fait c'est vrai que c'est un peu lourd donc ils ont pour réduire tout ce qu'elle ouvre t-il complexée par habitant sortie . 4
+10:25:000147:000147_1 : 10:25:07:602: Alors je vous annoncer un truc c'est depuis 2 semaines 3 semaines Yuri a totalement écris la documentation donc maintenant c'est plus de référence . 1
+10:25:000148:000148_2 : 10:25:19:746: Donc ça vaut la peine quoi . 2
+10:25:000149:000149_3 : 10:25:24:767: Tu descends en formation les gens ils font . 3
+10:25:000150:000150_4 : 10:25:27:909: Rien ça . 4
+10:25:000151:000151_1 : 10:25:31:056: Regarder nouvelle petite feature on a comment dire des Petits-Champs plus . 1
+10:26:000152:000152_2 : 10:25:39:205: On a fikayo crée task on a commandé le louvre part veux passer en TLS donc . 2
+10:26:000153:000153_7 : 10:25:47:337: À tout les temps on peut maintenant enfin utilisé kernel pour envoyer des fichiers tout ça ça a été ajouté dans la version 3.7 . 3
+10:26:000154:000154_4 : 10:25:57:482: Normalement modification Yuri travail sur Racine caillou il a préparé mes des trucs mais monstrueux vais pas vous retrouver l'année prochaine . 4
+10:26:000155:000155_1 : 10:26:07:610: Qu'est-ce qu'il y a . 1
+10:26:000156:000156_2 : 10:26:10:261: Vous avez compris il faut refaire la transcription . 2
+10:26:000157:000157_3 : 10:26:17:389: Donc on n 15 fois plus rapide ou du 15 /:/ ça dépend les fonctions qu'on utilise donc ça c'est intéressant . 3
+10:26:000158:000158_4 : 10:26:26:531: Développer . 4
+10:26:000159:000159_1 : 10:26:29:683: Carnet dans le coin qui veut vraiment loin en fait si voulais savoir si votre code est un petit peu lent pouvez utiliser simplement il portail donc on prend des paramètres . 1
+10:27:000160:000160_2 : 10:26:40:827: Mets le paramètre 6 et sa maman pour dénoncer comme dans les mails le smtp tu m'as . 2
+10:27:000161:000161_3 : 10:26:48:970: Important en faite au moment tu vas faire n'importe comment te faire le profiling de l'impôt . 3
+10:27:000162:000162_4 : 10:26:57:113: On a aussi le mode UTF-8 en fait avant d'aller te fais n'était pas forcément active machin exetera en fait il est toujours pas actif mais il va utiliser ces local . 4
+10:27:000163:000163_1 : 10:27:08:245: Mettez rajouter récemment donc ça c'est intéressant et on peut automatiquement spécifique on veut du thé frite une fois qu'on a specific UTF-8 Sarrail tout ce qui existe sur le système Windows . 1
+10:27:000164:000164_2 : 10:27:22:375: Alors on a aussi le modèle modèle ça va rajouter des chèques en plus c'est tard donc ça vaut la peine de regarder avec le modèle pouvez vous amuser avec un signe rapidement plus facilement c'est toujours un peu de . 2
+10:28:000165:000165_3 : 10:27:38:532: Quelque chose de plus au lit alors on est parti . 3
+10:28:000166:000166_4 : 10:27:43:661: Qui permettent heure avant elle a fait un exemple j'ai un fichier d'un répertoire un package exetera avant quand je voulais m'amuser aller lire un fichier . 4
+10:28:000167:000167_1 : 10:27:52:826: Un musée à faire à aller chercher le répertoire ensuite avec le répertoire j'avais le fichier après je vais un petit peu c'est pour ça que personne . 1
+10:28:000168:000168_2 : 10:28:03:973: Alors pour remplacer ça va il porte il est venu à la rescousse et ils ont sorti pardon . 2
+10:28:000169:000169_3 : 10:28:12:631: Maintenant . 3
+10:28:000170:000170_4 : 10:28:15:543: Maintenant . 4
+10:29:000171:000171_1 : 10:28:18:672: En fait moi j'aime pas écrire sur le cas donc j'écris à la ligne sans le sou et après avec une partie 1 version 3.1 sais mais si tu dis ça maintenant c'est un peu plus simple ou je contacte manager voilà . 1
+10:29:000172:000172_0 : 10:28:31:564: Alors les pizzas premier amélioration bah oui Python 3. C'était quand même un peu plus rapide version 2.7 plus maintenant et plus rapide version 1.6 donc ça intéressant pour moi la conclusion . 2
+10:29:000173:000173_0 : 10:28:48:698: Et toi. C'est surtout en fait maintenant je donne que des formation Python 3 princesse et tout le monde baise j'ai mes clients c'est directement cuisson 3.7 j'ai pas eu trop de souci pour le petit souci sinon ça fonctionne bien . 3
+10:29:000174:000174_4 : 10:29:05:843: Ah ouais c'est directement cuisson attends un truc avec la traduction c'était quoi encore avec pickle . 4
+10:30:000175:000175_1 : 10:29:18:123: Oui non mais hier traduction savez on s'occupe d'un traduction française surtout surtout Julien et en donner on est en train de traduire pickle donc c'est tombé avec des cornichons des machins des saucisses à la . 1
+10:30:000176:000176_2 : 10:29:31:248: Voilà donc si vous les retrouvez les slides elles sont juste là pouvez faire une photo directement avec un QR Code ça va vite être trouvée sur les téléphones un peu ça fonctionne bien moi j'ai vu des téléphones Android tu fais une photo d'un place consistant sais que c'est un bandit directement . 2
+10:30:000177:000177_3 : 10:29:47:396: Code pouvez retrouver toutes les slides disponible sur Internet bien donc au final je vous remercie beaucoup . 3
+10:30:000178:000178_4 : 10:29:55:533: Est-ce que vous avez des questions . 4
+
+ 

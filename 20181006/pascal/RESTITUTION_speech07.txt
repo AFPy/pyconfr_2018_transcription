@@ -1,0 +1,103 @@
+
+
+
+17:31:000281:000181_4 : --------
+17:31:000381:000181_4 : Rechargement du document
+Scaling Python to 1K QPS per server, not doing Hello Worlds Guillaume Gelin
+
+
+17:32:000184:000184_3 : 17:31:39:184: My way baby I can come off for today . 3
+17:33:000185:000185_2 : 17:32:32:625: So how everyone do you email well . 2
+17:34:000186:000186_3 : 17:32:42:438: For you today I'm going to talk about fitting lot . 3
+17:35:000003:000003_3 : 17:34:55:391: The Cure of to August 1st 11th hour clock is coming in . 3
+17:35:000004:000004_4 : 17:35:04:520: You start to be very very very long to Bob is completely out of the business . 4
+17:35:000005:000005_2 : 17:35:20:034: And everything is better for Bob . 2
+17:36:000006:000006_3 : 17:35:24:170: Alpha 12 if you are completely so there is a lot of locusts I never stop coming in . 3
+17:36:000007:000007_4 : 17:35:32:877: So there is a crisis meeting between Bob and his coworkers as a really don't know what to do with Bob at an idea but wants to use rabbit what is the use rabbit instead of the old computers . 4
+17:36:000008:000008_1 : 17:35:50:010: Info that you the robot and the source of much faster if you start to disappear so they're still there still more and more and more Motors but they can be thin . 1
+17:36:000009:000009_2 : 17:36:04:976: Put up at 13 yeah . 2
+17:36:000010:000010_4 : 17:36:16:228: To be continued . 4
+17:36:000011:000011_1 : 17:36:19:253: So I'm going to do my real thoughts of killing people song to one cake ups for server rack ups quote against not doing lol that's the main part of the dog is not doing in the world . 1
+17:37:000012:000012_2 : 17:36:35:373: To show what's what's killing what is killing an application of real real estate . 2
+17:37:000013:000013_3 : 17:36:43:221: Before we start with a quick summary so in your opinion with the locust . 3
+17:37:000014:000014_4 : 17:36:50:341: Yeah request yeah so we're both so inclined what's the desk and computer . 4
+17:37:000015:000015_1 : 17:37:03:019: Milk . 1
+17:37:000016:000016_2 : 17:37:06:510: It's a CPU . 2
+17:37:000017:000017_3 : 17:37:09:198: Sebab is the process so your applications that are serving and the robot can be a lot of things go for that later . 3
+17:37:000018:000018_4 : 17:37:20:323: So the first word about stealing is that . 4
+17:38:000019:000019_1 : 17:37:27:283: A lot of things to stay up there is a lot of a way of telling . 1
+17:38:000020:000020_2 : 17:37:34:388: There are some ways that are wasting pleasant others right so you really should when you want to tell you really really really should try to keep as simple as possible . 2
+17:38:000021:000021_3 : 17:37:48:528: Because like you to ls22 rewrite everything in see when you can just like took a process of the cast of that world . 3
+17:38:000022:000022_4 : 17:37:59:262: So the steps 02 steal something is to have something to scale right . 4
+17:38:000023:000023_1 : 17:38:05:910: So . 1
+17:38:000024:000024_4 : 17:38:35:194: Good words are not correct like to believe but not too good neither . 4
+17:39:000025:000025_1 : 17:38:43:326: Cookies . 1
+17:39:000026:000026_2 : 17:38:45:441: So we are going to to the . 2
+17:39:000027:000027_4 : 17:38:59:433: Digigov France and that we have and Jennings Nginx . 4
+17:39:000028:000028_1 : 17:39:09:394: In front of the application so the river Sports News just going to take every workers coming from both 82 to the portal . 1
+17:39:000029:000029_2 : 17:39:19:796: Papaya you delete application returning flask with sqlite sqlalchemy flask what the font size decrease . 2
+17:40:000030:000030_4 : 17:39:37:056: Is that you can register login logout list twits right nutrients list all users follow and unfollow other users . 4
+17:40:000031:000031_1 : 17:39:52:184: When you lose to it it's not illegal to it but obviously also The Twits of the people you follow . 1
+17:40:000032:000032_2 : 17:40:00:021: Limited for our application documents key to the top one before I was killing is to identify threats and define protocol . 2
+17:40:000033:000033_4 : 17:40:16:415: So . 4
+17:41:000034:000034_2 : 17:40:32:648: You can do it the same way but it's not as efficient . 2
+17:41:000035:000035_3 : 17:40:37:863: Phone Ruth we have the Twitter list was released and in right everything else . 3
+17:41:000036:000036_4 : 17:40:46:004: Singam time we want to try to guess in advance while going to be alright but in our case since the main goal is to look at other people place and to talk or two main exports are the twist The Twits list and the fact that you can write in the tooth . 4
+17:41:000037:000037_1 : 17:41:11:909: Twist plaits on red because most likely you want to eat a lot when you're on Twitter you you read much more than than WhatsApp waiting . 1
+17:42:000038:000038_2 : 17:41:24:049: I think that I read something that that's what things are on Twitter it was like a perfect 1 race you so you reach 5 you make 5 a read request for 1 rifle good . 2
+17:42:000039:000039_3 : 17:41:37:555: Barry know where you say you are going to . 3
+17:42:000040:000040_4 : 17:41:42:285: To define protocol which is a bit different than this 510 Russia the first of all we have to define rules for our benchmark because if we don't define who we can just like say ok I'm going to change that thing I'm going to phone 10 server so that a ya so the first rule is only one server so no worries I'm feeling . 4
+17:42:000041:000041_0 : 17:42:09:401: The response time she'll stay under 2 seconds for 95/:/ of the users all the time if it goes. . 1
+17:42:000042:000042_2 : 17:42:22:519: Empathy Lorraine should stay at 0/:/ free should I have like no failure at home if you have any further it's meant that our our scaling model is not be . 2
+17:42:000043:000043_3 : 17:42:35:227: So yeah . 3
+17:43:000044:000044_3 : 17:43:03:874: When your vacation but sometimes you don't have metric sometimes it's a good first step is to do metrics and see you know the threshold for here but here we are just like getting them so I'm guessing that there is like 10 times more people will lifting The Twits and people writing you to it and the others are like this . 3
+17:44:000045:000045_1 : 17:43:04:874: Which allows you to define this week . 1
+17:44:000046:000046_2 : 17:43:45:094: So let's surrender application with a simple Python rest API and we r v e y quimica great . 2
+17:45:000047:000047_1 : 17:44:36:371: The one called are you ok which is supposedly better performances than unicorn I didn't very tired . 1
+17:45:000048:000048_2 : 17:44:37:371: Completely motoring complete into the other to configure and the condition is not very good but if you take the time to Malta it has lot of . 2
+17:45:000049:000049_3 : 17:44:59:679: I can speak with Ann Jennings Knightley with the modulus upgrades of Advanced options like auto scaling . 3
+17:47:000050:000050_4 : 17:46:00:615: The only thing to to make sure your hair is that application statement what we call state for application is an application that remember previous interactions with users so far is on clothes that keeps account if I don't know the number of Twitter user application restarts then the council of the Lost and also if you have multiple processes of the same application you won't have a . 4
+17:47:000051:000051_1 : 17:46:27:741: Open sea between visayas state so you want to put the state somewhere else like that obeys or cache the kind of stuff in Hawick UK with 2 pi it works because we have lightly opticians but the station's flash stations are implemented play inside all the data is kept on the cookie of the client-side make the application status . 1
+17:48:000052:000052_3 : 17:47:05:088: You really should liver a drum which means that you should have as much . 3
+17:48:000053:000053_4 : 17:47:13:209: Dara Dara cleaner on because it's much faster to access and it's pointless to do to do accepting discs which are much slower if you have a lot of entry ramp so you should do everything you can to have your RAM almost full I just just keeping a bit of France for your application to her and for your camera to work with her . 4
+17:48:000054:000054_2 : 17:47:36:351: Also Beijing a repeating is very on like what do you do to navigate from page to page consistently when the data change the lot you can lost the the counting the index of where you are so very difficult but it's outside the scope of this talk . 2
+17:48:000055:000055_3 : 17:47:59:087: But that being said you should never return a full set of data that's pretty obvious but when I was so all your database queries full of a limit . 3
+17:48:000056:000056_4 : 17:48:09:672: Play older than Amazing switch implement indexes they all have some sort of unexplained feature . 4
+17:48:000057:000057_1 : 17:48:19:792: And if it helps you to understand what's happening and if the queries are you in the end so use it . 1
+17:49:000058:000058_2 : 17:48:26:912: I'm also massively davita international transaction log to keep track of everything that happens and you really really should monitor rate for long-running queries . 2
+17:49:000059:000059_0 : 17:48:41:054: That's where you can like evony book of changes if someone implement a new query was that not a tumor. that you you can do it in the UK that means of the most important thing to monitor in the world . 3
+17:49:000060:000060_4 : 17:48:53:185: So what say that our application was very bad at querying and we had zero indexed and that kind of stuff so we gain another 70 qps . 4
+17:50:000061:000061_4 : 17:49:32:553: Get your your dad are you first try to get it from cash if you don't have it from cash you get it from database and I know I know the function another Endpoint that right inside the data . 4
+17:50:000062:000062_1 : 17:49:33:553: Right and then remove the cash you are pigeons with saved to this is cache invalidation and this is all because if your dog Ashes are spread across several machines or if your crush is is . 1
+17:50:000063:000063_2 : 17:50:08:480: Sorry . 2
+17:50:000064:000064_4 : 17:50:29:806: Another way to ride the present example which I think my son is much more I am . 4
+17:50:000065:000065_1 : 17:50:37:939: Decorators into a . 1
+17:51:000066:000066_3 : 17:50:45:996: This is an example of what you could achieve with a lot of getting libraries . 3
+17:51:000067:000067_4 : 17:50:51:900: But you could tell me a application stateful right now if you if you just put the cash inside addict or something like your position is stateful and you will be you you you would be right and that's why you really want to use something like 9 kg which is basically your database in ramen very very simple that are based in RAM where you can put all your all your cash which is . 4
+17:51:000068:000068_1 : 17:51:20:020: But you could tell me a application stateful right now if you if you just put the cash inside addict or something like your position is stateful and you will be you you you would be right and that's why you really want to use something like 9 kg which is basically your database in ramen very very simple that are based in RAM where you can put It's a very good performance as well just in . 1
+17:52:000069:000069_3 : 17:51:38:203: For You by cashing rates we can like and write ups on top of that because . 3
+17:52:000070:000070_4 : 17:51:48:793: Free every Twitter list within that it's the most cold and points on August 8th so it's going much faster . 4
+17:52:000071:000071_1 : 17:51:58:931: The five not be arriving at funny things so you want to achieve come to Stoke-on-Trent it . 1
+17:52:000072:000072_2 : 17:52:07:052: What we call conference is that your application should never wear anything . 2
+17:53:000073:000073_4 : 17:52:25:326: How to do that there is mechanism and libraries like it even told you to to add concurrency to an existing program so I'm not talking about tornadoes all that kind of thing because they really require . 4
+17:53:000074:000074_1 : 17:52:45:456: To be sold for tonight from the beginning given with great with Germans that you really can take like any of location and just put it on top of it and it just works . 1
+17:53:000075:000075_3 : 17:53:18:706: But I think we're so confident by default . 3
+17:54:000076:000076_1 : 17:53:24:844: Project coming in on that subject there is quite which is basically we white off last night and that keeps exactly the same API . 1
+17:54:000077:000077_3 : 17:53:53:106: Actually be as gif protocol and was made by jungle guide . 3
+17:54:000078:000078_4 : 17:54:00:229: Do they have to do things that I think I'll definitely with his whatsoever and channels which is a lot of things that you cannot the jungle to the web for getting them canister . 4
+17:54:000079:000079_1 : 17:54:13:908: And I become with swag at the beginning the web server of Cloth the asynchronous web have recorded which now is the full project on the side . 1
+17:55:000080:000080_2 : 17:54:26:719: Sensitive so yeah you really want to monetize your application to see if it's CPU bound or unbound what we say when you say sit you down or lie about is . 2
+17:55:000081:000081_3 : 17:54:42:827: Easy for you to process can do to think it can do is a work so user CPU and we'll walk like a 5 amp hour calculator us to compare password when your user login . 3
+17:55:000082:000082_4 : 17:54:55:987: Also send a query to that above and just wait for the answer so when you send a query to get a basic input-output network but it's some sort of . 4
+17:56:000083:000083_2 : 17:55:26:727: In the database right here that his wife is really like the first thing you want to make conference so you want to have a concurrent database for example sqlite that is using 3 pi is not confirmed so it works at each request so it makes it harder for you have to implement all the converting mechanism in the application directly so good but pretty much all I can do that obeys like . 2
+17:56:000085:000085_4 : 17:55:59:981: So you just have to tell your application so every time there is a right do it on a separate green thread . 4
+17:56:000086:000086_1 : 17:56:09:668: Very lightweight form of thread . 1
+17:57:000087:000087_3 : 17:56:25:516: In the world step sex but WhatsApp sex like I think we've done pretty much everything right so right now or application looks very much like this there is a for CPUs are all screaming because of too many request we have cash we have come currency we have everything we can to to to make the answer factory . 3
+17:57:000088:000088_4 : 17:56:51:845: Last Resort with sister skills ethically right so just get better and better as is there with a better CPU or with more more more more CPU . 4
+17:57:000089:000089_1 : 17:57:06:975: If we go from the 4th PE28 CPU server well if I could be a bit better and we can get there one cake ups . 1
+17:57:000090:000090_3 : 17:57:21:099: Either as a conclusion . 3
+17:57:000091:000091_1 : 17:57:32:370: How to the tip UK by cities of your cervix during the fascinating but also very dangerous world of . 1
+17:58:000092:000092_2 : 17:57:43:515: Feeling in distributed systems . 2
+17:58:000093:000093_4 : 17:57:53:778: News when you benchmark do it with rigor and we'll UK's like I don't like every two weeks in Python we have a new web framework that I am the fastest way from work yeah ok cool but most of the time you up from work either is and the bottlemen off your . 4
+18:02:000094:000094_4 : 17:59:28:730: No thank you . 4
+ 

@@ -1,0 +1,188 @@
+
+
+07_Gestion de stocks en Python avec Anyblok / WMS Georges Racinet
+
+
+14:31:000958:000958_2 : 14:30:12:352: Je voudrais remercier comme il est d'usage les organisateurs de la conférence en particulier parce qu'ils sont bénévoles et que c'est quand même beaucoup d'engagements d'organiser un événement pareil et je voudrais souligner que c'est un sujet dont je parle pour la première fois en public . 2
+14:31:000959:000959_3 : 14:30:28:505: Il s'agit donc d'un moteur d'un moteur pour écrire des applications de logistique en python et pas seulement python si je remonte les dépendances en partant d'en bas . 3
+14:31:000960:000960_4 : 14:30:44:650: Alchemy Avec le back-end postgre SQL et tout ça en fait à l'intérieur d'AnyBlok dont Franck vient de vous parler mais comme c'était de pas exactement les mêmes personnes qui sont dans la salle je vais faire un petit sondage est-ce qu' est-ce qui a beaucoup de gens ici qui ont déjà pratiqué utiliser développer un peu pour anyBlock . 4
+14:31:000961:000961_1 : 14:31:05:738: Ok donc que les concepteurs de framework donc pas grand monde donc c'est parfait c'est très bien tu as vraiment pas de problème moi ça m'indique un peu que je voudrais commenter certaines choses est-ce qu'il y a des gens ici qui ont déjà eu affaire à des applications de logistique donc gestion d'entrepôt des choses comme ça . 1
+14:31:000962:000962_2 : 14:31:26:496: Ok . 2
+14:31:000963:000963_3 : 14:31:29:668: Donc vous pouvez trouver les transparent . 3
+14:32:000964:000964_4 : 14:31:36:814: De cet exposé sur mon github à l'adresse qu'elle a et plus généralement mon petit Leez de référence le code source sur Github aussi mon blog et la doc de référence quel très exhaustive . 4
+14:32:000965:000965_1 : 14:31:50:196: Manger aussi . 1
+14:32:000966:000966_2 : 14:31:54:339: Présenter je m'appelle donc Georges Racinet et je suis développeur d'application en python et d'application tournées vers les administrations où les entreprises depuis à peu près 2005 en fait c'est déjà une 2e vie et je suis con fondateur de la société Anybox prestataire de service Développement maintenance et cetera avec Christophe . 2
+14:33:000967:000967_3 : 14:32:17:468: En 2010 donc dans ce cadre-là, à titre personnel en tant que développeur mais aussi en tant que chef ou directeur de projet vous dites quand vous voulez aussi en tant que soutien aux autres des choses pas mal applications d'entreprise . 3
+14:33:000968:000968_4 : 14:32:39:622: Comme ça contre chose . 4
+14:33:000969:000969_1 : 14:32:42:769: Je ne sais pas me parce que mon confronté au four le Matic de stock par ailleurs Anybox c'est une boîte d'une quinzaine de personnes et les autres salariés de l'entreprise aussi une expérience logistique et complémentaire à la mienne par exemple en a qui ont fait de vie précédente des systèmes de gestion de distribution de journaux magazines de choses comme ça voilà . 1
+14:33:000970:000970_2 : 14:33:04:909: Et bien je reviens sur ce que c'est que des applications de logistique parce que j'en parle déjà depuis le début c'est tout ce qui concerne la gestion de flux physique . 2
+14:34:000971:000971_3 : 14:33:19:048: Une fois peut-être du matériel qu'on utilise donc si on va faire une petite liste rapidement déjà on a tout ce qui concerne le commerce le commerce à l'exception des services bien sûr . 3
+14:34:000972:000972_4 : 14:33:30:194: Choses matérielles la logistique pure ça ce que beaucoup de gens vont qualifier de logistique pure en gros c'est le métier de transporter . 4
+14:34:000973:000973_1 : 14:33:39:334: Qui met dans des grands cartons qui met dans des conteneurs dans des avions dans des trucs des machins et à la fin ça va à destination la gestion matérielle aussi c'est une chose qu'on peut faire en tout cas avec AnyBlok WMS base là c'est simplement répertorié selon ce qu'n dispose comme matériel par exemple . 1
+14:34:000974:000974_2 : 14:33:59:497: Le videoprojecteur l'autre videoprojecteur peut-être la caméra même si elle est pas à l'université elle est peut-être temps sous responsabilité de l'université et puis . 2
+14:34:000975:000975_3 : 14:34:10:631: L'état du matériel de informations diverses et variées comme son numéro de série s'il tombe en panne ou il est un instant T ou il devra être est-ce qu'on a la contention sur une ressource parce qu'on peut pas prêter le même caméra à deux personnes différentes applications . 3
+14:35:000976:000976_4 : 14:34:30:787: Je suis pas en train de parler faire des protocoles pour piloter des machines en train de parler d'apporter matière première au machine à faire des choses et . 4
+14:35:000977:000977_1 : 14:34:42:921: Venir à la à la fin d'une fabrication donner . 1
+14:35:000978:000978_2 : 14:34:48:546: Donc un petit point sur l'état du projet et du blog WMS base Franck vient de dire que c'était le peut-être le module le composant métier le plus avancé dans la dans l'écosystème à deux fait on n'est pas loin d'avoir des applications concrètement en production dessus mais on est encore en 1 version préliminaire le numéro de version . 2
+14:35:000979:000979_3 : 14:35:11:692: Conseillère et que je peux peut-être passer plus tôt ce soir à on a des 08 indiquer clairement quand on est pas encore en train de considérer la chose comme ça mais bon voilà j'espère que ça va pas trop tarder et si j'insiste là-dessus c'est parce que . 3
+14:36:000980:000980_4 : 14:35:27:846: Va prendre au sérieux et promesse de stabiliser donc moi quand je mets une un zéro je sais qu'à partir ce moment-là je pourrais plus trop . 4
+14:36:000981:000981_1 : 14:35:38:000: Trop sauvagement a changé des choses . 1
+14:36:000982:000982_2 : 14:35:41:164: Sans pour sans libre comme en licence Mozilla comme l'essentiel Denis bloque son écosystème s'est développée publiquement depuis le début niveau qualité je suis assez content parce que on a une conversion de test sang pour sang depuis quasiment aussi on a . 2
+14:36:000983:000983_3 : 14:35:59:306: De page écran de documentation de référence là aussi c'est un domaine dans lequel on a essayé d'être bien sérieux vraiment de faire une formation pour l'avenir . 3
+14:36:000984:000984_4 : 14:36:11:224: The c'est la première fois que je présente ce projet en public à . 4
+14:36:000985:000985_1 : 14:36:20:360: Pourquoi faire pourquoi venir vous en parler je pense à ce que c'est un moment pour reprendre le bois le bon vieux slogan développeurs développeurs je pense que c'est un moment . 1
+14:37:000986:000986_2 : 14:36:32:512: Utiliser concrètement pas pour des applications qui devrais monter en prod demain mais vous avez des projets qui doit mettre en prod dans quelques mois ça fait partie des choses qu'on peut considérer . 2
+14:37:000987:000987_3 : 14:36:44:193: Il est temps d'en faire un peu la publicité vis-à-vis de Primo utilisateurs qui serait de toute façon des développeurs . 3
+14:37:000988:000988_4 : 14:36:51:277: Le développeur qui utilise un système comme ça il a quand même location éventuellement as tourné en contributeur enfin en tout cas si il a des choses à proposer non mais bien sûr très très favorable à ça et éventuellement on pourrait construire de nouvelles briques intermedi . 4
+14:37:000991:000991_1 : 14:37:11:427: J'ai la j'aurais bien danser un petit sondage . 1
+14:37:000993:000993_2 : 14:37:15:574: Aimé Lancer Assez éventuellement . 2
+14:37:000994:000994_3 : 14:37:18:703: Non en fait ce Assystem alors je te trouve venir sur le nom du même de le départ je disais ENI blog WW . 3
+14:37:000995:000995_4 : 14:37:26:840: Bloc parce que on est dans l'écosystème me bloque la plupart des trucs s'appelle une ebook quelque chose WMS . 4
+14:38:000996:000996_1 : 14:37:35:012: Donc système de gestion d'entrepôt et base alors le base ça c'est une chose sur laquelle voulu insister on est en train de parler d'une d'une fondation . 1
+14:38:000997:000997_2 : 14:37:47:144: Passion donc des outils des primitives des choses comme ça je voudrais pas donner l'impression que c'est une solution complète . 2
+14:38:000998:000998_3 : 14:37:55:295: Si pour faire des solutions adaptées à des cas particuliers pourquoi parler des cas généraux aussi si on veut mais c'est pas un solution complète c'est pour ça qu'il y-a base dans l'eau maintenant le résultat . 3
+14:38:000999:000999_4 : 14:38:05:436: Bah je commence même déjà avoir du mal à le prononcer depuis le début de la présentation non peut-être se détend d'avoir d'avoir un nouveau nom et on pourra en discuter si vous avez des idées . 4
+14:38:001000:001000_1 : 14:38:17:367: Reviens sur les cas d'utilisation j'évoquais tout à l'heure le commerce en ligne sur la gestion de matériel et la gestion de fabrication qu'est-ce qu'on a en commun dans tout ça . 1
+14:38:001001:001001_3 : 14:38:27:522: Chaussures manière générique est-ce qu'on essaie de faire et ben en fait on peut résumer les choses en disant . 3
+14:39:001002:001002_4 : 14:38:34:670: Physique on va essayer de gérer . 4
+14:39:001003:001003_1 : 14:38:39:817: Des ordinateurs des vidéoprojecteurs des t-shirts et cetera et cetera par opposition à du dématérialisé par opposition à des services . 1
+14:39:001004:001004_2 : 14:38:51:934: Objet physique on va vouloir répondre à des questions ou enregistrer les réponses à des à certaines questions qui les concernent qui sont bien sûr entrepôt . 2
+14:39:001005:001005_4 : 14:39:03:092: Quand . 4
+14:40:001006:001006_1 : 14:39:09:394: Savoir bah depuis quand l'objet là quand est-ce que je dois le recevoir genre de choses comment ça va se passer comment ça s'est passé . 1
+14:40:001007:001007_2 : 14:39:19:976: Toutes les questions de traçabilité qui vont avec mon objet en fait ben il est périmé dans 3 jours je l'ai depuis 17 jours il était temps de le vendre jean-deffaugt safran dans le périmètre on a des problématiques de prévision et de planification qui sont très très fort . 2
+14:40:001008:001008_3 : 14:39:39:128: Il s'agit d'encadrer toute l'activité d'un entrepôt beaucoup de gens qui travaillent et donc on va prévoir qu'il aura des livraisons parce qu'on a fait des commandes prévoir qu'on va livrer des gens on va prévoir que on va réserver le vidéoprojecteur qu'elle a pour le mettre dans une autre . 3
+14:40:001009:001009_4 : 14:40:01:275: Alors une grosse différence avec un certain nombre d'autres classes d'application par exemple tout ce qui touche au ouais ben si je fais un blog un article sur le blog auto logistique sur le blog . 4
+14:40:001010:001010_1 : 14:40:15:414: La non on a une réalité et la réalité des fois les choses se passent pas comment les à planifier des fois même les vidéoprojecteurs on les casse et après on est bien embêté parce que on a besoin d'en trouver un autre et de savoir qu'il faut en trouver un autre et quoi qu'il arrive . 1
+14:40:001011:001011_2 : 14:40:33:552: Par contre système hydro et tous les systèmes de gestion stock je retrouve un peu par rapport à la réalité . 2
+14:41:001012:001012_3 : 14:40:42:701: Il va falloir qu'on soit encadrant donc un peu rigide mais en même temps avec la souplesse pour faire de la récupération par rapport à la réalité . 3
+14:41:001013:001013_4 : 14:40:51:486: Bon . 4
+14:41:001014:001014_1 : 14:40:54:634: Je voulais parler un peu de mes motivations personnelles mes objectifs en faisant tout ça mais je pense que j'ai déjà assez raconter ma vie . 1
+14:41:001015:001015_2 : 14:41:04:787: Chose qui se concentre vraiment sur le cœur de la chose qui soit suffisamment générique et bien sûr qu'il soit super performant qui soit super performant pardon qui passe à l'échelle de très grande qualité et particulièrement on arrive à résoudre avec la réalité . 2
+14:41:001016:001016_3 : 14:41:23:200: Alors dans la suite de la présentation je vais suivre un petit scénario on va dire qu'on est sur une application qui gère de la vente . 3
+14:42:001017:001017_4 : 14:41:35:695: Bon on n'est pas obligé de faire de la vente mais là ça sera la vente . 4
+14:42:001018:001018_1 : 14:41:39:841: En gros on de me gronder taille . 1
+14:42:001019:001019_2 : 14:41:43:586: Concrètement ce que ça veut dire c'est que bah on va livrer la centrale d'achat de la FNAC ça c'est le gros on va livrer des libraires on va vouloir ça va être on envoie par la poste . 2
+14:42:001020:001020_0 : 14:41:59:729: Donc on va considérer en ouvrage fictif malheureusement qui s'appelle dance of the wind par un certain Georges LP Racinet pu voir ses notes ok on espère que ça aura beaucoup de succès on attendra à trois volumes on sait pas trop si au final mais là. Et . 3
+14:43:001021:001021_4 : 14:42:19:862: Russie en coffret de l'intégrale l'intégrale donc les trois volumes avec en fait l'emballage spécifiques de Zack et préparer entrepôt alors je vous dis tout de suite j'ai préparé une présentation de 25 minutes et je peux pas aller jusque-là maintenant tout à l'heure . 4
+14:43:001022:001022_1 : 14:42:37:999: Que je pourrais continuer éventuellement un peu donc on verra de toute façon c'est une partie qui sera un peu moins préparer mais je vous montrerai je vous dirai entraînement oralement comment c'est censé marcher quand on en est à faire l'intégrale . 1
+14:43:001023:001023_2 : 14:42:51:137: Bloquer pendant une heure on va s'arrêter au bout d'une demi-heure puis après on verra si il y a lieu de continuer ou pas . 2
+14:43:001024:001024_3 : 14:42:57:967: On arrive un peu à quelques exemples de code donc comme il y a pas grand monde qui a l'habitude Dany bloc je vais commenter cet écran vraiment un peu papa . 3
+14:44:001025:001025_4 : 14:43:10:100: Lidl le premier la première question que mon système de logistique ça devrait devait être été c'était celle-là représentation des objets matériels . 4
+14:44:001026:001026_1 : 14:43:22:228: Cet écran la présente comment ça se passe en fait j'ai préchargée une base de données avec vous installer un bloc qui est l'exemple avec les bouquins qui définit les types de bouquin cetera et la bombe j'ai fait un peu en console Python quelques appelle pour montrer ce que j'ai déjà prêt populé comme comme dans la base de données . 1
+14:44:001027:001027_2 : 14:43:44:174: Heure la première ligne La ça c'est typique de ce qu'on va avoir un contexte Annie bloc en fait on est obligé d'accepter le registre c'est le point d'accès pour les classes on va utiliser concrètement 6h j'ai une classe est la base de données . 2
+14:44:001028:001028_3 : 14:44:00:964: Tout à l'heure ça c'est ce qu'on appelle une classe de modèle c'est-à-dire c'est quelque chose qui porte à la fois des aspects de programmation orientée objet et des aspects de base de données en l'occurrence base de données relationnelle . 3
+14:45:001029:001029_4 : 14:44:15:672: Donc j'ai décidé cette objet lol l'appeler 6h j'en ai pas très beau peut-être mais le mot je trouvais pas de mots du Général plus pertinent que objet pour désigner base des objets matériels et après j'étais embêté parce que dans le monde informatique . 4
+14:45:001030:001030_1 : 14:44:31:812: Donc j'ai décidé que ce serait 6 octobre je vous l'aurez compris ça désigne les objets physique par opposition tout le reste en contact . 1
+14:45:001031:001031_0 : 14:44:41:937: Cuisson représenté par un objet qui s'appelle 6e. Tarifs et là ce que je fais à cette deuxième ligne c'est que je récupère le type objet physique qui porte un certain code donc en l'occurrence volume 2 . 2
+14:45:001032:001032_3 : 14:45:01:089: Veille dépendante application ah c'est typiquement ce quelque chose qui pourra être reconnu pour lecteur de QR code de code barre de ma chambre . 3
+14:45:001033:001033_4 : 14:45:09:944: L'âge de monde à la base de données via une requête assez typique assez typique SQL Camille pour ceux qui connaissent many bloc en tout cas . 4
+14:45:001034:001034_1 : 14:45:19:814: On arrive à la première particularité Denis bloc WC par rapport à d'autres systèmes c'est que bah en fait on va représenter par une ligne dans la base de données chaque élément qu'on a . 1
+14:46:001035:001035_2 : 14:45:33:955: Identique ou pas je représente pas de ligne dans ma dans ma table en fête . 2
+14:46:001036:001036_3 : 14:45:40:636: Quel fonctionnement de base Dany blog WMS base mais qui peut être changé par un module complémentaire j'en toucherai peut-être un petit mot tout à l'heure en tout cas ça à la mairie d'une certaine d'une certaine simplicité je sais pas une ligne qui compte . 3
+14:46:001037:001037_4 : 14:45:54:788: Code et j'en ai quantité 4 parce que après je devais en livrer 2 particulier donc là dimanche à de voir la de couper en deux mais je vois des niveaux de réservation qui vont être différent du nôtre est vraiment il y a un côté simple chaque ligne un objet . 4
+14:46:001038:001038_1 : 14:45:55:788: C'est pas un type d'objet physique ça je vais déjà c'est vraiment un objet . 1
+14:46:001039:001039_2 : 14:46:16:759: Ça va jusqu'ici j'accelere un peu pour le pour la partie pour la partie fonctionnement unibloc . 2
+14:46:001040:001040_3 : 14:46:24:595: Sur les objets . 3
+14:47:001041:001041_4 : 14:46:31:745: Prêter flexible qui va servir encoder tout ce qui va être potentiellement différents objets qu'on crée un autre donc par exemple mes bouquins très bien avoir de numéro de numéro de série numéro de série . 4
+14:47:001042:001042_1 : 14:46:46:872: Dolodent pression quoi ça c'est dans ce métier-là mais si j'en ai besoin . 1
+14:47:001043:001043_2 : 14:46:53:013: Montre mes bouquins et je regarde quels sont ses propriétés et ça me répond qu'il est dû le 12 à 345 bien sûr c'est quelque chose que j'ai enregistré quand le bouquin est rentré dans mon système et puis là je donne un exemple . 2
+14:47:001044:001044_3 : 14:47:10:155: Propriété là j'ai envie de dire ce exemplaire là et il a été sur un stand il a servi de modèle d'exposition j'ai envie de m'en souvenir parce que je peux plus le vendre comme s'il était véritablement neuf mais je peux le réutiliser sur un autre exemple . 3
+14:47:001045:001045_4 : 14:47:22:970: Donc je disais on est en pause parce que elle a les propriétés sont stockés par défaut dans un champ Jason donc c'est complètement flexible en fait on fait ce qu'on veut mais on a besoin de choses qui sont un peu plus . 4
+14:47:001046:001046_1 : 14:47:35:125: Je reviens rapidement sur la notion de type que j'ai dit on a des types de système que j'ai pu utiliser . 1
+14:48:001047:001047_2 : 14:47:49:273: Mon type . 2
+14:48:001048:001048_3 : 14:47:52:397: Produit le volume de de ce bouquin la . 3
+14:48:001049:001049_4 : 14:47:57:567: C'est un produit mais de sang servant dans la distinction de ce qui se passe quand on manipule 10000 quand j'en a du pus le sens où quand je manipule juste un après tout c'est le même produit logistique . 4
+14:48:001050:001050_1 : 14:48:10:714: Grossiste et physiquement différent et que ces différences physiques à une pertinence pour la manipulation d'un autre chose ah bah ça doit être différent donc en fait le carton qui conscience n'est pas le même type que le bouquin tout seul et la palette sur laquelle on va . 1
+14:48:001051:001051_2 : 14:48:31:860: C'est pas non plus même type et si vous voulez . 2
+14:49:001052:001052_3 : 14:48:35:969: Ça fait partie des choses qui sont je crois des spécificités dans ce système mais si vous voulez vous en convaincre déplacer 80 cartons un homme seul il y arrive sur quel . 3
+14:49:001053:001053_4 : 14:48:48:123: Tandis que c'est une palette bah là tout de suite faut avoir un chariot élévateur à transpole un truc machin parce que ça pèse une tonne . 4
+14:49:001054:001054_1 : 14:48:55:126: Total ça pèse une tonne dans les docks . 1
+14:49:001055:001055_2 : 14:48:58:713: Jusqu'ici j'ai pas du tout parler de . 2
+14:49:001056:001056_3 : 14:49:04:849: Badoo question le boulot quand est le pourquoi sur les objets si les objets . 3
+14:49:001057:001057_4 : 14:49:12:987: Ils étendent introduire un concept qui appelle les avatars c spécifique blog WW . 4
+14:49:001058:001058_1 : 14:49:21:140: 6 ans code en fait tu le suivi d'un objet physique donner dans le système . 1
+14:49:001059:001059_0 : 14:49:28:281: Donc c'est enregistré dans un modèle à part qui s'appelle 6e. Avatar . 2
+14:50:001060:001060_3 : 14:49:33:819: Les avatars pointe vers les objets qu'on va dire un avatar de un objet physique est la donc si je reprends toujours le premier exemplaire du volume 2 que j'avais tout à l'heure . 3
+14:50:001061:001061_4 : 14:49:47:769: Je demande aux avatar quels sont les avatars de cet objet la bon je l'ai pris un peu j'extrais un peu de données pour que ce soit . 4
+14:50:001062:001062_1 : 14:49:56:904: Présentable et donc on voit je vois que j'ai donc là 4 avatar j'en ai deux qui sont en état passé quelque chose que le système sais que c' est révolu exactement la même chose que être dans le passé . 1
+14:50:001063:001063_2 : 14:50:13:070: Qui sont dans un emplacement qui s'appelle un respectivement quai d'entrée casier 3 et puis là j'ai afficher la date de début de validité de l'avatar câlins donc en gros on sait que dans le passé . 2
+14:50:001064:001064_3 : 14:50:29:208: À cette date-là on était la donc on voit ce qui s'est passé ici il s'est passé que bah mon livre mon livre il est rentré par lequel entrée il a été rangé dans le casier 3 actuellement présents dans l'emballage . 3
+14:50:001065:001065_4 : 14:50:45:354: Il est prévu qu'il soit ensuite en attente sur le quai de sortie bon . 4
+14:51:001066:001066_1 : 14:50:50:696: Je renouvelle particularité . 1
+14:51:001067:001067_2 : 14:50:53:842: Quand même des objet physique . 2
+14:51:001068:001068_3 : 14:50:56:905: C'est-à-dire il y a pas un concept une table d'emplacement qui serait quelque chose de différent des objet physique qui serait e penser comme les marchandises qui nous intéresse en fait tu t'es objet physique j'envoie un peu plus tard et donc du coup si je demande à mon avatar Quel est l'emplacement qui correspond . 3
+14:51:001069:001069_4 : 14:51:18:063: Et ben c'est un objet physique qui s'appelle qui est rentré j'ai senti peux malheureusement peux plus le voir la maison si pour fête ça ira ça représente emplacements fixes . 4
+14:52:001070:001070_2 : 14:51:28:246: La même chose sous forme de dessin le cheminement mon objet le livre toujours le même celui qui était le premier d'Alice et voilà c'est ta bhatar successifs ici et à passer lui aussi et à passer encore dans quel Détroit actuellement l'emballage et ensuite il est prévu qu'on soit comme prévu qu'on soit dans la zone d'expédition . 2
+14:52:001071:001071_3 : 14:51:53:935: Évidemment . 3
+14:52:001072:001072_4 : 14:51:56:080: Comme ça même si j'ai fait un petit script qui me précharge ma base de données ce qui s'est passé ce qu'il a créé cette avatar successivement un autre concept donc je vais parler à partir de maintenant qui s'appelle l'opération . 4
+14:52:001073:001073_1 : 14:52:10:665: Donc les fleches représentent les opérations ici j'ai eu une opération sur cette avatar . 1
+14:52:001074:001074_2 : 14:52:19:993: Un déplacement en fait move en anglais j'ai fait là un autre move qui est faite ici encore un mouvement qui lui et seulement planifier et enfin derrière une dernière opération qui va consister à livrer le client est la sera pas un mot ça sera une qui parle . 2
+14:52:001075:001075_3 : 14:52:36:602: Donc on a système d'opération qui es typé . 3
+14:53:001076:001076_4 : 14:52:40:556: Je vous montre comment ça marche . 4
+14:53:001077:001077_1 : 14:52:42:772: Donc là je prends le dernier de mes avatar c'est celui qui était en état futur . 1
+14:53:001078:001078_2 : 14:52:50:618: Et je regarde un champs dont j'ai pas parlé jusqu'ici qui représente opération qui est responsable du fait que c'est un et sois là là ça veut dire quoi ça veut dire . 2
+14:53:001079:001079_3 : 14:53:04:754: Sur les sur le quai d'envoi . 3
+14:53:001080:001080_4 : 14:53:09:900: Et à une date bac à une date prévisionnelle en pour l'instant en tant que c'est pas fait on n'est pas garanti que ce soit vrai . 4
+14:53:001081:001081_0 : 14:53:17:507: Regarde un peu ce que c'est que l'opération question donc cette fois-ci ça se passe dans WMS pour l'opération. Gouv . 1
+14:53:001082:001082_2 : 14:53:26:236: Chant d'accord elle est en état planifier son entrée bah c'est l'avatar je vais tout à l'heure et la destination et bah c'est l'objet physique qui représente le quai de sortie . 2
+14:54:001083:001083_0 : 14:53:36:338: Plus de ça et après j'ai mon avatar qui on est à qui on est à présent. . 3
+14:54:001084:001084_4 : 14:53:44:350: SFR la nouvelle opération la dernière flèche qui était sur mon diagramme de tout à l'heure et pour ça des voilages j'avais ton commence toujours par le registre et donc . 4
+14:54:001085:001085_1 : 14:53:57:489: Je dois d'entraînement fameuse avatar je dis que je veux que mon âne a dû partir sans crée directement Stones en plus ça lisible et bah ça y est . 1
+14:54:001086:001086_2 : 14:54:10:616: Celui qui était futur bah il a été successivement présent en noir et puis et puis passer c'est fini j'ai expédié expédié mon bouquin voilà c'est comme ça que ça fonctionne . 2
+14:54:001087:001087_3 : 14:54:21:764: C'est un modèle qui est très très découpées . 3
+14:55:001088:001088_4 : 14:54:27:889: La première ce qu'on va représenter chaque objet individuellement la 2e ce que on va faire des distinctions fil entre les opérations . 4
+14:55:001089:001089_1 : 14:54:37:520: Et on est vraiment au fond de la machine là par exemple dans dans ton ce que vous ai montré il y a pas de notion de je sais pas de bons de livraison autre chose comme ça ça ça va être du domaine de la couche applicative encore du dessus qui elle va déterminer . 1
+14:55:001090:001090_2 : 14:54:54:670: Entrepôt fonctionne à quel type de fournée ils font . 2
+14:55:001091:001091_3 : 14:55:00:817: Télécharger on a besoin de représenter parce que j'ai du corps sur les choses comme ça moi je veux pas faire de décision à la place du développement applicatif dans ces domaines . 3
+14:55:001092:001092_4 : 14:55:11:931: Pas besoin de faire des bons de livraison parce qu'on fait c'est entièrement des machines qui s'occupe de tout et puis j'ai pensé rien . 4
+14:55:001093:001093_1 : 14:55:19:635: Roller sur le fait que les . 1
+14:55:001094:001094_2 : 14:55:24:764: Emplacement sois à je reviens sur le fait que les emplacements soin des objets saisis comme les autres en fait d'où ça vient ça créez quand même si je reprends un peu comment ça se passe entre mes objets si je veux dire . 2
+14:56:001095:001095_3 : 14:55:40:921: Système que je veux présenter ça ressemble à ça ici j'ai une ligne dans ma table des objet physique . 3
+14:56:001096:001096_4 : 14:55:48:057: Ok et l'avatar dit qu'il est dans le casier le casier même un avatar qui dit que c'est dans l'armoire . 4
+14:56:001097:001097_1 : 14:55:54:591: Si je veux savoir combien j'ai de livres en totale dans l'armoire je mens tu vas faire des gens qui sont pas complètement évidente bloc WC pour vous . 1
+14:56:001098:001098_2 : 14:56:05:733: Regarder récursivement avec des cas d'exclusion et cetera mais bon quand même d'avoir un coup on performance mais en fait je me suis rendu compte que finalement c'est un peu comme toujours . 2
+14:56:001099:001099_3 : 14:56:18:888: C'était quelqu'un ici . 3
+14:56:001100:001100_4 : 14:56:21:281: Par exemple je m'occupe d'organiser des concerts c'est vrai c'est vrai . 4
+14:57:001101:001101_1 : 14:56:27:419: Les appareils qui sont dans des baies qui sont elles-mêmes protégées on appelle ça des plaques une boîte très solide et puis on a nos appareils qui sont dans la boîte . 1
+14:57:001102:001102_2 : 14:56:42:555: Mais en même temps ils sont complètement accessible quand ils sont dans . 2
+14:57:001103:001103_3 : 14:56:47:740: Nom pour les faire un concert on a pas envie de dire bon bah je prends l'ampli à lampes Lidl ampli troie et le crossover et je le mets dans le camion parce que c'est pas ça qui se passe si je prends le flight-case numéro et je le met dans le camion 3 . 3
+14:57:001104:001104_4 : 14:57:00:762: Est-ce que je veux faire c'est que de faire quelque chose qui connaît la réalité pour que ce soit pas surprenant pour l'utilisateur final . 4
+14:57:001105:001105_2 : 14:57:07:895: Dès que j'ai commencé C'était des objet physique passer des . 2
+14:57:001106:001106_3 : 14:57:18:757: Remplacement sont les objet physique du coup dans porno conceptuel si vous me dites lille je réponds oui pas de problème si vous me dit que la terre était évidemment . 3
+14:57:001107:001107_4 : 14:57:30:902: Fibre ai besoin d'une racine pour la hiérarchie tous à l'univers est un objet physique . 4
+14:58:001108:001108_1 : 14:57:38:031: Aussi que nous emplacement vas pouvoir ils vont forêt de sujet des opérations donc si on veut . 1
+14:58:001109:001109_2 : 14:57:44:172: J'ai pris le casier je vais bouger ça veut dire aussi qu'on peut acheter des trucs et les recevoir ils étaient . 2
+14:58:001110:001110_3 : 14:57:53:849: On a gratuitement bah tu sais ça me dit pager propriétés que j'ai essayé pour les objets physique donc par exemple je peux m'en servir pour labellisé de technique dire que un casier . 3
+14:58:001111:001111_4 : 14:58:06:987: Casier mes poubelles . 4
+14:58:001112:001112_1 : 14:58:10:141: Va voir une grande d'emballage . 1
+14:58:001113:001113_2 : 14:58:13:291: Opération a l peuvent être annulé exécuter commencer l'idée c'est de vraiment garder tout l'historique d'avoir d'avoir un peu comme comme comme d'habitude en Artcurial et on peut le on peut on peut décider que on avait mal enregistré des choses que quelque chose ne sais pas vraiment passé dans ce cas-là on peut les oublié complètement annihiler quoi au plus vite ou alors . 2
+14:59:001114:001114_3 : 14:58:36:429: Londres pas dû le faire BA Systèmes dis-moi comment je fais l'inverse parce que j'en ai besoin . 3
+14:59:001115:001115_1 : 14:58:42:468: Que je mets la et que je garde surtout pour référence si vous voulez vous irez SEREZIN voulais regarder plus tard . 1
+15:00:001116:001116_2 : 14:58:53:768: Terminale 1re partie la présentation en disant que . 2
+15:00:001117:001117_3 : 14:58:58:902: A pas mal d'opération qui sont disponibles c'est pas comme c'est quand même déjà un projet assez avancé donc on a les entrées en stock les départs de stock les déplacements les déballage j'ai dit tout à l'heure j'ai un type à part pour mon cas . 3
+15:00:001118:001118_3 : 14:59:47:283: Chose d'assez centrale en fait dans une application tu veux passer à l'échelle et qui a une solution pour traiter les quantités en vrac pas ce que vous pensez peut-être que c'est pas prévu en fait si Salem essai optionnel . 3
+15:00:001119:001119_4 : 14:59:59:818: Beaucoup de choses à faire encore je voudrais inviter le plus souvent possible à nous rejoindre parce qu'il y a des sujets qui sont . 4
+15:00:001120:001120_1 : 15:00:08:986: Intellectuellement assez stimulant comme tout ce qui réécriture de prévisionnel choses comme ça si elle j'emmène Camelas graphe de dépendance est en plein dedans . 1
+15:00:001121:001121_2 : 15:00:19:629: Et voilà bah je voudrais ah ok ce n'est le but de ma plantation à baliser c'est qu'on lance un écosystème où là j'ai bien compris avec la tentation font tout à l'heure à 7h et que je voulais des gens qui serait intéressé pour développer appli avec . 2
+15:00:001122:001122_3 : 15:00:33:758: Peut-être de nouveau contributeur des briques intermédiaire et pour ceux qui ont jamais te rappelle que le nid bouc et la ressource pour commencer . 3
+15:01:001123:001123_4 : 15:00:44:316: Je voudrais un nouveau . 4
+15:01:001124:001124_1 : 15:00:47:912: Les questions suggestions si on a . 1
+15:01:001125:001125_2 : 15:00:53:773: Ouais . 2
+15:01:001127:001127_4 : 15:01:02:072: Moi Saint-Étienne situation un peu un peu clin d'œil donc on va dire que je suis dans une vie secrète à un auteur un auteur de livre à succès que c'est de la fantaisie et cetera mais pas grande importance pour la présentation . 4
+15:01:001128:001128_1 : 15:01:17:133: Location 7e quelle est la nature véritable de mon livre . 1
+15:02:001129:001129_2 : 15:01:23:800: Pardon . 2
+15:02:001130:001130_3 : 15:01:30:875: À la question c'est si on reste sur les flux physique par rapport à des flux intangible qu'est-ce que tu aurais en tête comme plus intangible . 3
+15:02:001131:001131_4 : 15:01:46:995: Justement là là dans ce module là dans ce module ajustement on veut traiter . 4
+15:03:001132:001132_1 : 15:02:01:140: Logistique de manière un peu indépendant du reste ça ça veut pas dire qu'on discute pas avec le reste encore ses applications entreprise toute façon à un moment donné il va falloir qu'on a fait des choses mais surtout en fait je cherche à obtenir ces questions . 1
+15:03:001133:001133_2 : 15:02:16:299: Vous les questions de gestion de la relation client ou d'établissement de la vente à 7h ne viennent pas pollué trop les questions de logistique et ça c'est un peu mon expérience dans d'autres domaines qui sont vraiment dans d'autres 13h c'est quoi . 2
+15:03:001134:001134_4 : 15:02:40:164: Ça empêche pas que c'est un module à côté qui va faire gestion la gestion des commandes fournisseurs et que ce module gestion des commandes fournisseurs au truc de logistique ok je recevoir trois palettes honte Évry après-demain mais après là ce qui se passe quand a des gens qui vont manipuler tout ça logistique et ensuite . 4
+15:03:001135:001135_1 : 15:03:03:310: Ça c'est pas contradictoire . 1
+15:03:001136:001136_2 : 15:03:08:037: mais pour mon assMusicien . 2
+15:03:001138:001138_3 : 15:03:11:189: Besoin donc je veux pouvoir développer mon truc . 3
+15:03:001139:001139_4 : 15:03:15:337: Est-ce qu'il y a d'autres questions . 4
+15:03:001140:001140_2 : 15:03:20:621: Ben c'est Superman occasion pressée de choses c'est quoi . 2
+15:03:001141:001141_3 : 15:03:27:009: Pas de question . 3
+15:03:001142:001142_4 : 15:03:30:103: Merci . 4
+15:03:001143:001143_1 : 15:03:35:245: Donc si vous voulez je peux continuer un peu ils m'ont te montrer montrer des choses supplémentaires ou alors on a envie qu'on a tous bien mérité de faire une pause et reprendre le soleil . 1
+15:03:001144:001144_2 : 15:03:46:365: Notre ami Geoffroy . 2
+

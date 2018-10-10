@@ -1,0 +1,105 @@
+
+11:01:000682:000482_3 : --------
+11:01:000982:000482_4 : Rechargement du document
+Déployer des applications python dans un cluster openshift  Arthur Lutz
+
+11:04:000491:000491_1 : 11:03:39:218: Bonjour à tous bienvenue et bon début depuis qu'on a tous . 1
+11:04:000492:000492_2 : 11:03:50:343: Ça a l'air de salaire de super bien se passer . 2
+11:04:000493:000493_3 : 11:03:56:472: Donc aujourd'hui je viens vous présenter pardon pour les poches up . 3
+11:04:000494:000494_4 : 11:04:04:618: Monter une petite introduction . 4
+11:04:000495:000495_1 : 11:04:08:055: Et notamment sous l'ongle de comment faire tourner du Python n'a aucune si on va prendre des applications web com com exemple . 1
+11:04:000496:000496_2 : 11:04:19:176: J'ai vraiment introductif . 2
+11:05:000497:000497_1 : 11:04:40:362: Pour commencer du coup je me présente je m'appelle Arthur lieu de travail pour une cité qui s'appelle logilab vous pouvez me suivre sur Twitter sur Massy voulais . 1
+11:05:000498:000498_2 : 11:04:57:493: Alogie la bon on est une société de prestation de service sur logiciel libre on est spécialisée sur le logiciel libre . 2
+11:06:000499:000499_4 : 11:05:34:749: Avertissement présenter openShift si vous êtes amené à vouloir pousser vos applications vers orchestrateur de conteneurs type . 4
+11:06:000500:000500_1 : 11:05:48:874: Mémo d'avertissement essaie de pas brûler les étapes . 1
+11:06:000501:000501_2 : 11:05:52:993: J'étais tombé sur une documentation qui reprenait ce principe là je l'ai pas retrouvé la pour la presse je te rende dire c'est une courbe d'apprentissage qui est assez long is it a commencé ment par la base faire du docteur tout seul ensuite . 2
+11:06:000502:000502_3 : 11:06:07:110: Compose pour coordonnées plusieurs services qui tourne à l'intérieur du docteur regarder des choses comme docker swarm Corrèze Rangers exetera éventuellement du coup regarde openShift et puis c'est un peu la question que je pose dans cette présentation . 3
+11:07:000503:000503_4 : 11:06:27:238: Chips et est-ce que ça nous permet d'appréhender de mieux comprendre tu viens et s pour éventuellement passer à cette étape là j'ai pas du tout de . 4
+11:07:000504:000504_2 : 11:06:49:606: Qu'est-ce que c'est alors mainte0t ça s'appelle au cadet on rentre le moment présent au sujet de la présentation et aujourd'hui ils ont changé de nom donc mainte0t s'appelle au cadet qui est qui pour faire je pense sortir un petit peu le fait ça soit une distribution pars de Super NES et donc du coup le pitch sur leur page d'accueil intéressant de prendre ces descriptions qui tiennent . 2
+11:07:000505:000505_3 : 11:07:18:724: Pour pour voir ce que c'est ce que c'est donc c'est ce qu'ils disent que c'est une distribution de/ arriere train /Bernet est-ce qui est optimisé pour la livraison continuer d'application en mode multi tes notes et que ça ajoute de l'outillage orienter pour le développeur et pour les et pour la mainte0ce opérationnel non plutôt le profil sysadmin pour faciliter un déploiement rap . 3
+11:08:000506:000506_4 : 11:07:45:845: D'application faciliter le développement . 4
+11:08:000507:000507_1 : 11:07:49:976: Ils ont continue et . 1
+11:08:000508:000508_2 : 11:07:53:091: Quel de ces applications après une histoire de mainte0ce à long terme ha ha plus facilement suis vraiment . 2
+11:08:000509:000509_3 : 11:08:03:204: Faire des modifications exetera et une des choses qui m'intéresse particulièrement sur sur openShift c'est la notion de . 3
+11:08:000510:000510_4 : 11:08:15:317: Ma puce en plus en fait ça des acronymes un peu barbare pour par exemple l'utilisateur . 4
+11:08:000511:000511_1 : 11:08:25:435: Important de focaliser sur l'utilisateur ski . 1
+11:09:000512:000512_4 : 11:08:54:625: Qu'est-ce qu'il y a comme fonctionnalités dans dans Open shift . 4
+11:09:000513:000513_1 : 11:09:01:743: On va avoir une interface où est par-dessus Pernette s a aussi des interface web ils ont des dashboard exetera une des choses qui ne fait pas longtemps que je faisais spécialité . 1
+11:10:000514:000514_2 : 11:09:16:858: Très bien pour ça l'idée en fait quand on a commencé à faire du cumin et s c'était . 2
+11:10:000515:000515_3 : 11:09:24:977: Les secrets les machins une terminologie qui vient avec pas forcément très compréhensible et je trouvais que quand on comparer avec openShift l'éther mettez un peu plus proche de notre culture et voilà on n'en peux plus de facilité allez comprendre donc du coup il y a des outils pour les développeurs si on va le voir on va le voir dans la démo on a des magazines de sécurité . 3
+11:10:000516:000516_4 : 11:09:49:094: Supplémentaire 11h on va voir souvent en fait on a besoin de les connaître généralement pour les désactive au début pour dire recommencer à livrer désactiver . 4
+11:11:000517:000517_3 : 11:10:47:492: Recréer il y a des il y a des stratégies de aimer testing Exeter une des choses qui est aussi hyper intéressant de mon point de vue . 3
+11:11:000518:000518_4 : 11:10:58:618: En 2015 j'étais à Pau j'ai une presse sur les chèques déteste les tests fonctionnels en production . 4
+11:11:000519:000519_1 : 11:11:09:740: On commence à avoir vraiment on voit apparaître de manière précablé cette notion de de la Piat qu'on va dire - le chèque c'est elle c'est elle Test il faut taper sur tel URL il faut que tu Éluard elle se comporte de telles manières il tempo ouvert Exeter dans . 1
+11:11:000520:000520_2 : 11:11:29:870: Il appelle le ReadyNAS prouve et le Live 9 pro . 2
+11:12:000521:000521_3 : 11:11:34:998: Il y a des choses qui s'exécute de dent exetera et le live nas propre c'est vraiment un test de service ta dire . 3
+11:12:000522:000522_4 : 11:11:45:113: Mais par exemple a réussi à se connecter à la base de données et elle peut renvoyer des pages Web . 4
+11:12:000523:000523_1 : 11:11:51:238: Intéressant là-dedans c'est aussi justement dans cette culture du DevOps les interfaces à ce qui peut se faire entre les lèves et les autres c'est-à-dire que mon livre prof pas une boîte noire rose opérationnel qui savent pas ce qui tourne dans on a une spécification qui peut qui peut être faite sur ce qu'il y a dedans . 1
+11:12:000524:000524_3 : 11:12:23:515: Si voulais faire du openShift on va voir que des choses qui vont pied c'est la distraction . 3
+11:13:000525:000525_4 : 11:12:30:634: On peut on peut virer des machines . 4
+11:13:000526:000526_2 : 11:12:50:886: Un cluster openShift dans ce lieu dans une machine virtuelle donc là c'est ce qu'on va utiliser pour pour les démo j'ai un cluster . 2
+11:13:000527:000527_3 : 11:12:59:002: Dominici petite . 3
+11:14:000528:000528_4 : 11:13:04:142: Une des choses donc ça je sais pas si ça si si vous avez commencé à faire du docteur que vous avez peut-être rencontrer une des discuter quand on commence à mettre de cœur dans la main des développeurs c voilà le . 4
+11:14:000529:000529_4 : 11:14:22:609: VAD URL en fait donc . 4
+11:15:000530:000530_2 : 11:14:37:839: D'avoir des URL c'est pas juste pour un truc joli c'est aussi parce que dans une équipe je peux dire ah bah voilà service il y a un truc bizarre dans les log . 2
+11:15:000531:000531_3 : 11:14:47:955: Car elle . 3
+11:15:000532:000532_4 : 11:14:50:070: 2 rue du Rhône et je l'envoie un collègue qu'est-ce que tu en penses exetera c'est un concept retrouve dans des systèmes comme pour la collectore . 4
+11:16:000533:000533_1 : 11:15:01:191: Après ressemblance et des tâches d'administration il y a vraiment cette notion de partage plutôt que de lancer des choses en terminale ES faire un copier coller une copie d'écran exetera on a tous dans navigateur les trucs sont stockés on peut les partager facilement avec avec les gens avec . 1
+11:16:000534:000534_2 : 11:15:16:914: Une des choses donc juste pour vous montrer un peu la tête de l'interface web donc là j'ai Gemini shift kaki lancer je retourne sur la page d'accueil . 2
+11:16:000535:000535_3 : 11:15:34:051: On a une notion de ski appelle le multi-te0t tu vas donc on a les différents projets donc là je peux faire un projet concert 2018 par exemple et puis voilà je peux j'ai à l'intérieur de ce projet un certain nombre de choses donc on a passé visible on a des applications des images ce genre de chose tout à l'heure je vous montrer . 3
+11:16:000536:000536_4 : 11:16:02:176: Non . 4
+11:16:000537:000537_1 : 11:16:05:147: OpenShift dans le cas de Python qu'est-ce qui est intéressant du pain . 1
+11:17:000538:000538_0 : 11:16:13:093: Dans l'écosystème openShift est une des choses qui nous nous intéresser cette notion de est une image
+11:17:000539:000539_3 : 11:16:25:242: Quand vous lancez openShift et que vous voulez lancer une nouvelle application . 3
+11:18:000540:000540_0 : 11:16:59:619: On est copains avec les ondes octobus on aimerait bien qu'on ne pouvoir faire du Mercurial mais voilà c'est ça fait pas partie des options aujourd'hui openShift mets et donc du coup on va pouvoir dire moi je sais un projet Python et donc du coup je vais pouvoir. Tu es sur un dépôt dans lequel son contenu l'ensemble des informations qui permettent de lancer ce projet . 1
+11:18:000541:000541_3 : 11:17:47:671: Oui bah si sur son texte arabe c'est ça peut se dire si tel est pas forcément source de qualité et donc là ce qui est intéressant c'est qui a une . 3
+11:18:000542:000542_4 : 11:17:59:820: Basée sur . 4
+11:19:000543:000543_1 : 11:18:02:939: Un projet pour pouvoir installer un projet Python on se base sur une île de dépendance donc du coup il va installer ces choses-là et ensuite il va faire du W . 1
+11:19:000544:000544_3 : 11:18:28:189: Ça tout ça c'est configurable au niveau du build mais aussi au niveau du Rhône donc au niveau du Beal c on va à construire une image et on va pouvoir variabiliser à ce moment-là donc voir des fissures flag' par exemple qui sont pris en compte au niveau du bidon à pouvoir faire des optimisations mais aussi au niveau du Rhône . 3
+11:19:000545:000545_0 : 11:19:02:439: L'avènement qui vous permet d'augmenter le verbe JTD log. La mer déploie l'application avec ses nouvelle variable et salle lance-moi pour avoir du Python 3 5 4 3 3 et 2. Cette . 1
+11:19:000546:000546_2 : 11:19:21:567: Donc du coup pour vous montrer un peu comment ça fonctionne on va prendre l'exemple de de django a des gens qui connaissent pas du tout . 2
+11:19:000547:000547_3 : 11:19:31:699: Donc ici on a une application Python de base non on va tricher un peu juste pour faciliter la tâche on va dire veux installer du Django avec du pot de glace dedans même si ce qu'il faut pas se retourner dans . 3
+11:20:000548:000548_4 : 11:19:48:829: Du coup à la une série de paramètre c'est pas la peine de les de les modifier . 4
+11:20:000549:000549_0 : 11:19:56:588: Envoyez la le dépôt qui s'appelle Django T-Rex dans lequel on a ri kuai un autre. Txt et quelques fichiers de configuration supplémentaire pour lui dire comment déployer son application donc si je reviens sur le Var view ici en fait on voit qu'on a donc deux services en services de déploiement et puis on a le déploiement . 2
+11:20:000550:000550_3 : 11:20:21:251: De Django et ici en fait on voit directement dans l'interface au niveau du de la chose on voit le log de construction si vous avez vu passer il lance les tests à la fin de la construction alors on peut intégrer dans le dans le dans la construction des tests unitaires et puis voilà là on voit que une fois qu'il . 3
+11:21:000551:000551_4 : 11:20:42:383: Une fois que le registre interne reçois l'image ça va déclencher le déploiement de l'application qu'on va pouvoir voir . 4
+11:21:000552:000552_1 : 11:20:55:180: Il va faire la démo . 1
+11:22:000553:000553_0 : 11:21:10:600: Envoyer une application de une application web en fait elle m'a écouté sur un certain porc et donc du coup pour le pour la il faut mettre mettre le porc dans le docteur file il faut faire des routes entre les différentes choses exetera là en fait ça va être intégré de base à dire qu'on se voit ici ses coutures pour 80 80 et il va faire
+11:22:000554:000554_1 : 11:21:37:720: Service qui génère une URL qu'on voit ici . 1
+11:22:000555:000555_2 : 11:21:38:720: Une chose que je trouve extrêmement intéressante avec ce type de déploiement c'est vraiment top out of the box on a une URL qui nous et qui ne décide alors c'est une URL ça c découverte en utilisant petit truc s'appelle need you alors il y en a plusieurs en fait . 2
+11:22:000556:000556_0 : 11:22:01:989: IP local donc là dans ce cas là en fait il nous fait une URL avec dedans 192 168 1 99. Sang qui est l'adresse IP de l'Open de Luminy chiffre qui tourne sur ma machine et hop on a une URL qui est qui est qui est servie donc du coup alors l'application c'est pas grand-chose à l' affiche une page web et pour montrer que il y a de la persistante . 3
+11:22:000557:000557_4 : 11:22:29:110: Demande de visite qui sont fait ça dans le poste . 4
+11:23:000558:000558_1 : 11:22:34:726: Et donc du coup . 1
+11:23:000559:000559_3 : 11:22:37:855: Mon point de vue on voit on voit des concepts qui sont relativement accessible avec des choses comme ça on veut faire de la scalabilité on rajoute on rajoute un pod et on voit que il y a des couleurs qui montre ici il est notre dire qu'il a lancé le conteneur mais par contre . 3
+11:23:000560:000560_1 : 11:23:15:216: J'aurais pas forcément le temps de faire une modification et de faire une nouvelle version mais on va on voit en fait . 1
+11:24:000561:000561_3 : 11:23:35:474: Une des choses que sur lequel c'est aussi assez intéressant c'est alors là . 3
+11:24:000562:000562_4 : 11:23:43:361: Pour vous montrer quand on fait débiles ils prennent un certain temps ça peut être que je prenne 15 minutes par exemple . 4
+11:25:000563:000563_3 : 11:24:19:342: Donc du coup tout ça est relativement bien documenté Django je sais pas pourquoi ils ont ils ont pris ce truc là mais il y a pas mal de retour d'expérience sur qu'est-ce qu'ils ont dû adapter dans Django pour pour pouvoir le faire tourner sur openShift sur le mécanisation il y a même des variables d'environnement qui sont spécifiques . 3
+11:25:000564:000564_4 : 11:24:40:441: Réutiliser je mens sur sur d'autres sur d'autres framework donc là par exemple disable connectique où malgré lui dis . 4
+11:25:000565:000565_1 : 11:24:51:556: Tu essayes de l'enseig0t Grassion donné la on peut on peut aussi de désactiver ce mécanisme . 1
+11:25:000566:000566_2 : 11:24:57:971: Du coup on va pas avoir beaucoup de temps nous on a utiliser ses principes là pour déployer des applications cubique ouais donc . 2
+11:25:000567:000567_3 : 11:25:07:080: Qui a développé par logilab un logiciel libre avec une alternative à Django en quelque sorte donc en fait on utilise du pyramide . 3
+11:26:000568:000568_1 : 11:25:27:308: On avait déjà des choses qui tourne et nausée docker du coup c'est un peu plus facile de les passer à une technologie comme ça on de nouveau cette notion d'étape . 1
+11:26:000569:000569_2 : 11:25:37:424: Voilà les démons et les prophètes c'est super . 2
+11:26:000570:000570_4 : 11:26:00:686: On a tendance à encourager faire des paquets Debian plutôt que d'utiliser des paquets pipe là ça c'est un petit peu amélioré en fait je suis . 4
+11:26:000571:000571_1 : 11:26:11:810: Sur l'utilisation des huiles donc des choses qui sont précompilé pour votre plate-forme et qui peuvent être super . 1
+11:26:000572:000572_2 : 11:26:18:937: Avec pipe . 2
+11:26:000573:000573_3 : 11:26:22:058: Les optimisations par exemple et ça c'est assez bien documenté vous pouvez rajouter un proxy pypi au sein de votre infrastructure même à l'intérieur de votre de votre fils pour accélérer en fait le télécharger à chaque fois . 3
+11:27:000574:000574_4 : 11:26:39:178: Voulez-vous les récupérer depuis une source locales . 4
+11:27:000575:000575_1 : 11:26:43:830: Retour d'expérience aussi donc la courbe d'apprentissage de docteur qui est assez longue . 1
+11:27:000576:000576_2 : 11:26:49:874: Prendre ton corps mais là c'est mon point du pas quelque chose qui est super accessible au début mais qui n'est pas rentré dans les dans les usages une des choses aussi sur lequel on a pas encore de solution . 2
+11:27:000577:000577_3 : 11:27:06:990: Pratique là-dessus ça m'intéresse d'avoir votre retour on a vu qu'avec son n'est pas forcément parler avec sentiments mais si je déploie une nouvelle version de mon logiciel et que les livenet prog ne passe pas ouvert il va continuer de servir lancer l'application qui répond déjà au service donc j'ai introduit un bug j'essaie de le livrer en fait sur la machine ça marche . 3
+11:28:000578:000578_4 : 11:27:32:113: Il arrive pas à contacter leur ai dit ce qui existe encore je sais pas quoi donc du coup ça ça ça ne livre pas et donc . 4
+11:28:000579:000579_2 : 11:27:55:367: Modifier la base de données on arrive à un stade où en fait ça marche pas comment est-ce qu'on fait pour revenir en arrière de manière atomique à l'instant on n'a pas vraiment l'impression que . 2
+11:28:000580:000580_3 : 11:28:10:471: Tout fait pour ce genre de problématique . 3
+11:28:000581:000581_4 : 11:28:13:489: Quelques notions de sécurité dans Open sift . 4
+11:28:000582:000582_1 : 11:28:18:711: Chiffre des images de cœur pour petite qui rajoute des métadonnées pour dire quel utilisateur tourne exetera . 1
+11:29:000583:000583_2 : 11:29:06:340: Mot de ce secret qui tourne donc là tu s'inspirer de nety fly qui livre qui bouge nerfs des URL à chaque fois il y a aussi je sais pas s'il y a des gens qui ont participé au sprint qui avait une équation . 2
+11:30:000584:000584_3 : 11:29:23:468: Avec le nom de votre mère de request et il vous génère le site vous pouvez naviguer à tu ex Élysée de reprendre ce même principe ils ont plutôt que d'avoir des projets on a la Pradella preprod l'intégration un environnement pour chaque fois qu'on fait une proposition . 3
+11:30:000585:000585_4 : 11:29:43:591: Je récupère quelque quel que vous donner de la prose ou de la prod voilà ça c'est des choses que je trouve assez intéressant . 4
+11:30:000586:000586_1 : 11:29:51:701: J'ai pas forcément de temps je vais faire le parallèle dans dans l'univers Jupiter on a une notion de repos to docker où il se brancher sur un dépôt dans lequel il y a une spécification de commencer euh qu'est-ce qui doit être installé dans l'image binder utilise ce principe . 1
+11:31:000587:000587_2 : 11:30:09:848: Un environnement avec une des logiciels préinstallés . 2
+11:31:000588:000588_3 : 11:30:16:973: Blague là dessus avec un installeur universelle qui essaye de faire toutes les méthodes d'installation donc on se retrouve un peu dans ce genre de ce genre de mécanisme voilà donc on a un certain davantage j'ai parlé . 3
+11:31:000589:000589_4 : 11:30:33:088: Plage de kéké automatique avec Prometheus ici au et et grafana pour ceux qui voilà quand on passe à l'étape d'après il y a un outillage qui était assez bien intégré et il y a quand même quelques inconvénients c'est très fortement branché sur RedHat CentOS il y a un écosystème un peu payant de images qui sont précablé donc on a vu l'exemple . 4
+

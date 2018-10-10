@@ -1,0 +1,266 @@
+
+04_En pratique, qu'est-ce que ReST ? Xavier Ordoquy
+
+
+
+14:53:000003:000003_2 : 14:52:22:682: Bonjour tout le monde . 2
+14:53:000004:000004_3 : 14:52:36:819: Cette difficile d'avoir le . 3
+14:54:000005:000005_4 : 14:52:40:470: Il efficace . 4
+14:54:000006:000006_2 : 14:53:03:839: Est-ce que ça marche . 2
+14:54:000007:000007_4 : 14:53:49:202: Bonjour tout le monde merci d'être venu . 4
+14:54:000008:000008_2 : 14:54:05:360: Alors . 2
+14:54:000009:000009_0 : 14:54:11:483: Présente je suis Xavier Ordoquy
+14:55:000011:000011_4 : 14:54:15:647: Je suis freelance depuis depuis quelques années je fais beaucoup de développement un python Django je travaille beaucoup avec des API ce qui m'a amené à devenir corps développeur sur Django rest framework . 4
+14:55:000012:000012_1 : 14:54:31:804: Vous me retrouverez régulièrement sur hyères c voyeurs sous le nom de l'hymne Aubiac à la structure que j'ai créé quand je me suis mis à mon . 1
+14:55:000013:000013_2 : 14:54:42:140: Donc ben je suis parler de rêve donc ça sujet que que j'aime beaucoup ce qu'il m'a poussé à faire ce talk que cette année ça fait un peu suite un truc que j'ai fait l'année dernière sur différentes façons de traiter les API et j'étais pas complètement satisfait de la façon . 2
+14:55:000014:000014_3 : 14:55:06:802: Approche par rapport à REST l'impression surtout de le rater quelques trucs donc j'ai beaucoup j'ai essayé de chercher des informations sur ce que c'était reste essayer de voir un petit peu un petit peu plus concrètement en fait ce que c'est parce que on a pas mal de . 3
+14:56:000015:000015_4 : 14:55:23:966: Marché et puis des fois on se rend compte que d'un pratique bah ça marche pas et voilà donc du coup j'ai essayé de creuser un petit peu de sujet pour essayer de comprendre ce qu'il se faisait bien / mal . 4
+14:56:000016:000016_1 : 14:55:36:112: Donc un petit rappel rapide reste donc ces représentations des transferts donc c'est un transfert d'une robe d'un état d'une représentation d'un état . 1
+14:56:000017:000017_2 : 14:55:53:244: Un concept ce qui a été mise en avant paroles feeling la personne que vous voyez là oùRoy Fielding donc riding a travaillé pendant un paquet d'années je crois soutenir les protocoles de ce qu'on connait aujourd'hui au niveau du web . 2
+14:56:000018:000018_3 : 14:56:13:387: Et à force d'aller en conférence de défendez de défendre expliquer ses principes des protocole là il y a fini par identifier un certain nombre de principes donc il a mis de côté qu'il à pied ça donc reste donc ils sont . 3
+14:56:000019:000019_4 : 14:56:34:535: La raison pour laquelle . 4
+14:57:000020:000020_1 : 14:56:38:679: Le succès aujourd'hui . 1
+14:57:000021:000021_2 : 14:56:41:814: Alors pourquoi . 2
+14:57:000022:000022_3 : 14:56:44:953: Quoi ça reste toujours aussi abstrait aujourd'hui alors ça c'est un radis en fait c'est un style d'architecture donc ça s'oppose clairement a des protocoles comme ça . 3
+14:57:000023:000023_4 : 14:56:59:105: Nom des protocoles . 4
+14:57:000024:000024_1 : 14:57:02:242: c'est un joli mot un peu près un ça a été un peu près pour moi et du coup bah le style d'architecture en fait ce qui se passe c'est que ça c'est non pas une façon concrète de faire des choses c'est simplement . 1
+14:57:000025:000025_2 : 14:57:17:387: application de contraintes . 2
+14:57:000026:000026_3 : 14:57:21:496: la on a un example Un exemple donc . 3
+14:57:000027:000027_4 : 14:57:24:633: Le d'étude en a deux choses constater en architecture on a deux styles d'architecture : on a une cathédrale gothique et une et une cathédrale romane . 4
+14:58:000028:000028_1 : 14:57:33:757: On arrive à identifier la quelle est la quelle par contre pour dire précisément qu'est-ce qui qualifie une cathédrale de Romane et qu'est-ce qui qualifie une romane c'est un petit peu compliqué . 1
+14:58:000029:000029_3 : 14:57:50:043: Appelle aussi d'architecture c'est quelque chose très très abstrait difficile de ramener manière concrète . 3
+14:58:000030:000030_1 : 14:58:05:318: pour rest, . 1
+14:58:000031:000031_2 : 14:58:07:448: ce Qui a été apportée comme contraintes qui est identifié . 2
+14:58:000032:000032_3 : 14:58:13:594: L'enfer vert qu'on a deux machine qui discutent ensemble mais pas sur les même pas forcément c'est la même machine . 3
+14:58:000033:000033_4 : 14:58:21:722: Ça des communications inter process . 4
+14:59:000034:000034_1 : 14:58:25:227: Pour la une contrainte stateless c'est-à-dire que la communication se font sans conservation des d'etat par exemple quand on a du WebSocket . 1
+14:59:000035:000035_2 : 14:58:37:364: Et puis il m'a tout ce qui a été envoyé avant est conservé par serveur ou par le client et terre pour les communications ultérieure . 2
+14:59:000036:000036_3 : 14:58:45:510: c'est cachable Veut dire que donc on peut avoir des couches intermédiaires qui qui cache les données qui les refaire sans forcément aller voir les autres les autres on a une interface uniforme c'est un système qui est en couche donc tout à fait mettre plusieurs plusieurs strates unes sur les autres donc dans le . 3
+14:59:000037:000037_4 : 14:59:05:653: il y a des proxy il y a des . 4
+14:59:000038:000038_1 : 14:59:08:803: Il y a du cache . 1
+14:59:000039:000039_2 : 14:59:13:942: Quel cadeau me demande qu'est-ce que le serveur pour envoyer pour aider à compléter des informations sur ce que sur des données . 2
+14:59:000040:000040_3 : 14:59:21:838: Je t'attends un peu vite . 3
+15:00:000041:000041_4 : 14:59:24:047: Ok . 4
+15:00:000042:000042_1 : 14:59:32:172: Parmi les contraintes donc l'interface uniforme en fait on a plusieurs c'est un petit peu plus détaillée . 1
+15:00:000043:000043_2 : 14:59:43:334: 4 grandes grandes lignes: tout d'abord c'est qu'on peut identifier les ressources auquel on discute de manière unique ressources on a la manipulation de ressources à travers des représentations . 2
+15:00:000044:000044_3 : 15:00:00:492: Envoyer des informations au client et puis enfin récupéré cette représentation . 3
+15:00:000045:000045_4 : 15:00:06:400: les Message s'ecrivent tout seul c'était qu'on a pas besoin d'avoir des contextes préalable pour à comprendre le message message tout seul suffit et enfin on utilise de l'hypermedia pour viendra . 4
+15:00:000046:000046_1 : 15:00:25:556: Ça c'étaitla theorie générale pour être un petit peu plus pratique je suis partie d'une API donc il faut simplement pour prendre rendez-vous chez le docteur . 1
+15:01:000047:000047_2 : 15:00:37:145: example qui a été pris par Martine Frommer . 2
+15:01:000048:000048_3 : 15:00:44:258: RPC des premières RPC dernière version d'essai vers système un peu plus reste . 3
+15:01:000049:000049_4 : 15:00:53:278: le RPC donc c'est remote procédure call donc simplement on va appeler des fonctions à distance et on va récupérer un résultat donc globalement c'est ce que font sauter graphql de manière de manière sensiblement plus compliqué . 4
+15:01:000050:000050_1 : 15:01:09:437: Donc pour prendre rendez-vous donc on va envoyer un service prise de rendez-vous . 1
+15:02:000051:000051_2 : 15:01:16:621: La première chose à faire déjà c'est de savoir essayer d'identifier quand est-ce qu'on peut prendre rendez-vous donc on va leur demander lui demander de récupérer l'ensemble des créneaux disponibles donc ça c'esy laction fetchopenslots . 2
+15:02:000052:000052_3 : 15:01:30:739: On va demander pour la date donc par exemple pour le 4 janvier de midi avec le docteur auquel. 3
+15:02:000053:000053_4 : 15:01:38:467: Regarder dans sa base ce qu'il peut correspondre à nous renvoyer pas ici de données donc en disant d'aller le docteur auquel un rendez-vous est disponible de 14h à 14h50 . 4
+15:02:000054:000054_1 : 15:01:53:611: une fois qu'on a ces informations la que choisir le moment où on va faire notre rendez-vous donc là on va prendre . 1
+15:02:000055:000055_2 : 15:02:09:748: Recherche un poste sur techno . 2
+15:02:000056:000056_3 : 15:02:15:885: on va demander de réserver un créneau avec le docteur Jones et donc là de 14h à 14h50 pour le patient donc le serveur nous répondre en disant ok j'ai bien pris en compte le docteur . 3
+15:02:000057:000057_4 : 15:02:33:012: À 14h50 avec Monsieur . 4
+15:03:000058:000058_1 : 15:02:36:453: Le RPC, expose une interface au fourniture des services comme son pays graphql au fournil toute une expression l'interface pour dire das qu'on peut ce qu'on peut faire son copain . 1
+15:03:000059:000059_2 : 15:02:49:611: C'est basé sur du schéma du json . 2
+15:03:000060:000060_3 : 15:02:52:741: Prudente on viendra peut-être un peu dessus tout à l'heure c'est qu'ils HTTP en tant que couche de transport et non pas de transfert pour un protocole applicatifs de plus haut niveau donc on utilise vraiment HTTP pour . 3
+15:03:000061:000061_4 : 15:03:10:868: Transmission to come on pourrait avoir une connexion TCP ip tout simplement . 4
+15:03:000062:000062_1 : 15:03:15:651: Donc là dessus par rapport aux contraintes de reste donc on est en mode client Server donc ça parce qu'on a . 1
+15:03:000063:000063_2 : 15:03:21:798: Distance et on conserve pas d'état entre les deux on est un autre compte . 2
+15:04:000064:000064_0 : 15:03:30:945: On a absolument rien de rien d'uniforme et nation peux pas insérer de couche intermédiaire dans système là puisque c'est une connexion point à point. . 3
+15:04:000065:000065_4 : 15:03:42:956: la première étape pour un transformer cette interface afin d'utiliser des uri donc d'identifier nos ressources et pour voir à qui on va dire avec qui on va discuter manière distinct . 4
+15:04:000066:000066_1 : 15:03:58:430: La l'idée générale c'est de . 1
+15:04:000067:000067_2 : 15:04:02:586: La complexité . 2
+15:04:000068:000068_3 : 15:04:05:717: dviser pour gérer La complexité . 3
+15:06:000069:000069_4 : 15:04:08:852: Si on a un patient directement s'adresser au docteur Jones . 4
+15:06:000070:000070_1 : 15:04:16:008: Créneau disponible pour la date du 4 4 janvier 2010 . 1
+15:06:000071:000071_2 : 15:04:21:907: Serveur ne répond comme à peu près comme tout à l'heure sauf qui va rajouter des informations permettant d'identifier . 2
+15:06:000072:000072_3 : 15:04:31:215: Au premier pour premier créneau et en 72 par exemple pour 2e . 3
+15:06:000073:000073_4 : 15:04:36:497: Un prof sectionnéc Sur le créneau 43 oneau va réserver va faire une réservation pour le patience me . 4
+15:06:000074:000074_0 : 15:04:49:507: Le serveur me répondre ok pout le créneau 43
+15:06:000075:000075_4 : 15:05:04:028: Donc ici on est quasiment mes messages tout à l'heure sous qu'on a quand même rajouté une identification des ressources à savoir à qui on parle et on va pouvoir identifier de manière totalement extérieur . 4
+15:06:000076:000076_1 : 15:05:20:163: Les échanges entre client et serveur a qui on s'adresse. 1
+15:06:000077:000077_2 : 15:05:24:267: un petit souci avec ce mode de fonctionnement . 2
+15:06:000078:000078_3 : 15:05:33:388: Bateau qui va passer ça va passer en disant ok ok de serveur n'a toujours répondre ok ok et puis vint le jour où ça va pas marcher il va dire aussi ok mais en faite le problème c'est que l'erreur . 3
+15:06:000079:000079_4 : 15:05:45:516: Requête HTTP regarder à l'intérieur quel genre quel genre d'erreur . 4
+15:06:000080:000080_1 : 15:05:51:872: c'est absolument pas dépendant de développer et c'est absolument pas . 1
+15:06:000081:000081_2 : 15:05:59:995: Du coup pour avancer on va utiliser un petit peu plus ce protocole HTTP . 2
+15:06:000082:000082_3 : 15:06:07:641: Au niveau de ressources . 3
+15:07:000083:000083_4 : 15:06:10:774: Pour prendre notre rendez-vous donc on va toujours aller interroger un déjà donc là on va plus faire un post on va aller interroger des disponibilités du docteur Jones sur la date . 4
+15:07:000084:000084_1 : 15:06:22:893: Envoyer données donc ça . 1
+15:07:000085:000085_2 : 15:06:29:477: Avec le serveur puisque tout est indiqué au niveau de l'URL . 2
+15:07:000086:000086_3 : 15:06:36:015: Taux du verbe HTTP c'était hier que tu as pas besoin de rentrer à l'intérieur du protocole de regarder est-ce que le client a envoyé pour comprendre ce qu'il veut faire . 3
+15:07:000087:000087_4 : 15:06:46:378: après la réservation et donc là en fait . 4
+15:07:000088:000088_1 : 15:06:55:121: Là par contre que renvoie . 1
+15:08:000089:000089_2 : 15:06:59:270: Du coup le renvoie 1 201 ok pour nous dire ok ça a été créé . 2
+15:08:000090:000090_3 : 15:07:09:302:Pour nous dire pour me confirmer que ça a été créé et du coup là encore de manière totalement extérieur toutes les briques intermédiaires du système donc c'est proxy les caches et compagnie pouvoir passer ce cas de la et savoir qui c'est passer le temps . 3
+15:08:000091:000091_4 : 15:07:26:046: Dans le cas d'erreur par exemple si j'essaie de reréserver . 4
+15:08:000092:000092_0 : 15:07:31:210: le serveur me dire comment on fait tu peux pas il y a déjà un slot de pris. conflit 409
+15:08:000094:000094_3 : 15:07:59:043: On peut aller interroger les créneaux enseigne envoie la liste des créneaux on peut aller à créer des créneaux donc on fait un poste sur le sur la liste des créneaux donc ça nous fait une création si on fait un guide sur un slot sur un créneau particulier dont par exemple 123 ça nous afficher les informations de Secret . 3
+15:08:000095:000095_4 : 15:07:60:043: Un patch on peut faire une mise à jour partiel et Inde il est où va le supprimer . 4
+15:08:000096:000096_1 : 15:08:25:165: Oui bah on est bien en fait sauf qu'en fait, en vrai . 1
+15:09:000097:000097_2 : 15:08:31:311: REST c'est absolument pas à propos de à propos de sa . 2
+15:09:000098:000098_3 : 15:08:35:996: Ça c'est une simplification . 3
+15:09:000099:000099_0 : 15:08:39:143: On a beaucoup plus de lattitude au niveau de REST
+15:11:000100:000100_4 : 15:08:40:143: il faudrait . 4
+15:11:000101:000101_1 : 15:08:44:395: Niveau REST sur les niveaux d'ailleurs de http pardon au niveau des requêtes on a des familles de requête donc on a des familles qui sont dites donc . 1
+15:11:000102:000102_2 : 15:08:56:535: Pas avoir d'action côté serveur . 2
+15:11:000103:000103_3 : 15:09:00:665: Un va il va y avoir absolument aucune aucune action côté serveur ils ont cédé au c'est au niveau supplémentaire sans savoir ce que l'intérieur du intérieur de la requête Le détail voir le détail de la Roquette on sait que c'est la . 3
+15:11:000104:000104_4 : 15:09:16:778: Du côté des requêtes qui vont faire . 4
+15:11:000105:000105_1 : 15:10:57:600: D'autres ben on va se passer on a un identifiant ressources on peut manipuler les ressources à travers les représentations . 1
+15:12:000106:000106_2 : 15:11:09:657: les messgaes écrit tout seul parce que ma avec toutes les informations qu'on envoie dans l'en-tête et non pas dans le corps du message on a pas besoin d'avoir d'informations supplémentaires et systèmes et on peut te faire mettre des couches intermédiaires cache / proxy. 2
+15:12:000107:000107_3 : 15:11:24:792: Il reste quand même une contrainte à ce niveau-là qui remplit hypermédia . 3
+15:12:000108:000108_4 : 15:11:32:724: Notre réparer tout de suite donc l'hypermédia . 4
+15:12:000109:000109_2 : 15:11:36:837: Rajouter des hyperliens donc . 2
+15:12:000110:000110_3 : 15:11:42:132: Habitude de voir sur le site web l'intérêt de rajouter des liens au niveau des réponses des API ça va permettre d'éviter au client d'avoir à connaître les adresses des ressources auquelles ils doivent discuter . 3
+15:12:000111:000111_4 : 15:11:59:411: si on Reprend . 4
+15:12:000112:000112_1 : 15:12:02:542: Les disponibilités du docteur donc ici on va rajouter des URL dans les réponses et dire bah voilà par exemple . 1
+15:12:000113:000113_2 : 15:12:11:685: Disponible à l'url à /43 . 2
+15:13:000114:000114_3 : 15:12:17:807: Du coup ça permet au niveau du client quand quand on va causer le client qui valait interrogé s'est tapé . 3
+15:13:000115:000115_4 : 15:12:26:947: Supprimer ses informations d'accès de l'information qui sont souvent les mettre directement dans le client . 4
+15:13:000116:000116_0 : 15:12:27:947: Les urls venaient à changer il faut réécrire tous les clients
+15:14:000117:000117_2 : 15:12:41:409: Inversement tout à fait changer par exemple et du coup les identifiants s'associe aux clients donc si on avait des entier par exemple si on met des U10 . 2
+15:14:000118:000118_3 : 15:12:55:237: Si je veux aller à interagir avec la réservation le créneau 43 Abassi veux aller à interagir avec qui va suivre le lien qui lui a été fourni non plus se baser sur le l'identifiant pour retrouver sa . 3
+15:14:000119:000119_4 : 15:13:09:208: Heure maintenant il reste encore un souci c'est quand on regarde cette url là c'est un peu compliqué c'est un peu compliqué . 4
+15:14:000120:000120_4 : 15:13:45:137: Voir à côté ça en dur côté client on peut utiliser donc . 4
+15:14:000121:000121_1 : 15:13:52:276: Du coup on peut utiliser des templated URI qui correspondent au RFC6570. 1
+15:15:000122:000122_0 : 15:14:03:447: Découper
+15:15:000123:000123_3 : 15:14:09:580: Voir dire voleur de temps on va injecter des variables donc par exemple ici on va voir même pour le nom du docteur vous avoir la date and status paramètres de la Roquette . 3
+15:15:000124:000124_4 : 15:14:21:169: Et du coup on peut tout à fait faire une dent on peut se faire une page de garde ici non qu'on veut dire par exemple là on a une feuille de temps et ton ses feuilles de toi sont disponibles 1 2 suivante donc charge au client donc le client a pas besoin de connaître cette url a priori il est capable de la construire je lui donne . 4
+15:15:000125:000125_1 : 15:14:42:851: Du coup au niveau des URL il y a souvent pas mal de discussions pour savoir comment les construire . 1
+15:15:000126:000126_2 : 15:14:53:016: Ma la question ci-dessus c'est un savoir laquelle des deux URL et la plus HTTP exetera mais . 2
+15:15:000127:000127_3 : 15:15:02:157: Tout dans l'eure lui arrive directement mon ch docteur H docteur Jones . 3
+15:16:000128:000128_4 : 15:15:10:283: Directement dans le chemin du haut ou alors simplement d'aller interroger la liste des créneaux et de fil prépare docteur par,statut/ par date . 4
+15:16:000129:000129_1 : 15:15:19:818: Alors ouvrez . 1
+15:16:000130:000130_2 : 15:15:22:967: L'autre des URL . 2
+15:16:000131:000131_3 : 15:15:26:122: Les deux leçons la seule différence c'est que celle où on utilise ton chemin est caché automatiquement par les sustemes l'intermédiaire est-ce que quand on filtre c'est pas systématique ça dépend de la configuration du cache . 3
+15:16:000132:000132_4 : 15:15:43:260: Par contre elle permet d'avoir une décomposition aider filtrage ou des enfants de filtrage beaucoup plus souple par exemple si on veut savoir pour tous les docteurs qui est-ce qui est disponible à telle date suffit d'enlever le filtre docteur alors qu'il faut prévoir a priori . 4
+15:16:000133:000133_1 : 15:16:02:038: Maintenant donc toujours toujours dans l'eau de suite pour essayer de rendre le client le plus indépendant du serveur quand même un problème ici c'est quand on reçoit cette url là on sait que on a des variables en année par contre on sait absolument pas quel format . 1
+15:16:000134:000134_2 : 15:16:22:173: Informations et quelle format sont attendus est-ce que name est-ce que c'est un a dit hier que c'est un gars qui est-ce que c'est une chaîne de caractère est-ce que c'est autre chose le format date . 2
+15:16:000135:000135_3 : 15:16:33:318: comment on format ton status . 3
+15:17:000136:000136_4 : 15:16:36:078: Plante à préciser . 4
+15:17:000137:000137_1 : 15:16:38:821: Du coup . 1
+15:17:000138:000138_2 : 15:16:40:939: En plus loin et on va parler commencer à parler d'un effectivement de hypermédia et les hyper control . 2
+15:17:000139:000139_3 : 15:16:47:101: C'est un dernier emploi par rapport au mien donc les hyper contrôle en fait c'est simple si simplement des formulaires par exemple . 3
+15:17:000140:000140_4 : 15:16:55:549: ca clest un hyper contrôle bien connu . 4
+15:17:000141:000141_1 : 15:16:59:598: Affiche prends l'exemple avec un restant de Tahiti avec sirène 1 hyper contrôle ça va être ça donc si on fait notre récupération reprend notre notre entrée . 1
+15:17:000142:000142_2 : 15:17:13:763: Niveau des actions tout ce qu'on peut faire à partir de ce point d'entrée . 2
+15:18:000143:000143_4 : 15:17:35:033: On donne la méthode pour dire que bah on va faire une requête HTTP GET . 4
+15:18:000144:000144_1 : 15:17:40:418: On donne la référence vers laquelle va le gars de va être fait . 1
+15:18:000145:000145_2 : 15:17:48:578: Je précise . 2 _ Précisément tous les champs . 2
+15:18:000146:000146_0 : 15:17:51:742: Donc les paramètres de l'URL ." 3
+15:18:000147:000147_4 : 15:17:56:891: Docteur qui va du texte la date qui va être une date nos statuts qui va du texte avec par défaut la valeur "open". 4
+15:19:000148:000148_1 : 15:18:06:054: Et du coup avec tout ça le client il peut tout à fait construire . 1
+15:19:000149:000149_2 : 15:18:11:183: Il y a absolument pas besoin d'avoir au moment de son collage des informations quelconque sur qui doit faire avec ça en fait ce serveur lui envoie toutes les informations pour construire la requête . 2
+15:19:000150:000150_3 : 15:18:26:183: Je construis ma réponse du serveur va être donc un ensemble prénom donc ça paraît ça va être un petit peu plus compliqué que la dernière fois donc on a donc "entities" il va être l'ensemble des entités disponible . 3
+15:19:000151:000151_4 : 15:18:43:291: Donc on a une liste de 2 ans fait . 4
+15:19:000152:000152_1 : 15:18:49:168: En fait on a une liste de deux éléments donc ils sont de classe créneau et dans les propriétés sont le début et la fin il docteur associé non c'est exactement si je reviens en arrière c'est une forme un peu plus compliqué de cet affichage . 1
+15:19:000153:000153_3 : 15:19:16:522: Une fois donc là le . 3
+15:20:000154:000154_4 : 15:19:20:650: Et on a également dedans associés n'ont qu'à chaque à chaque créneau un lien qui va permettre d'aller naviguer vers ce créneau-là donc là on a un seul lien qui va nous dire vers qui va nous envoyer directement donc si l'utilisateur par exemple . 4
+15:20:000155:000155_1 : 15:19:37:819: Sur lui associer . 1
+15:20:000156:000156_2 : 15:19:40:666: Avoir un résultat . 2
+15:20:000157:000157_3 : 15:19:43:813: Donc là par exemple afficher le créneau 45 sur ce créneau-là donc on était une classe . 3
+15:20:000158:000158_4 : 15:19:52:975: Propriété qu'on avait tout à l'heure et dedans on va rajouter des actions qui vont dire là encore au client ce qui peut faire la fois d'après . 4
+15:20:000159:000159_1 : 15:19:53:975: Par exemple ça et de réserver le créneau . 1
+15:20:000160:000160_2 : 15:20:06:967: Pour réserver le créneau donc on a toujours un titre à destination des humains on a une méthode pour dire ben voilà faut aussi au lieu de faire un GET faire un POST on a la référence vers laquelle on va envoyer ça le type . 2
+15:20:000161:000161_3 : 15:20:23:130: Envoyez donc ça a pas réponse un formulaire HTML classique justeun eé-mail ou trois choses et . 3
+15:21:000162:000162_4 : 15:20:32:283: Donc en fait ouvrez c'est exactement ce que faire un formulaire . 4
+15:21:000163:000163_1 : 15:20:38:427: Première classique on a la méthode . 1
+15:21:000164:000164_2 : 15:20:42:575: Un qui l'action et à ma liste des champs ulterieurs . 2
+15:21:000165:000165_3 : 15:20:48:459: Donc là on envoie une requête il a donc le serveur ne répond . 3
+15:21:000166:000166_4 : 15:20:56:883: Réponds que . 4
+15:21:000167:000167_1 : 15:20:58:981: Passion été fait donc 226 la réservation est disponible donc à l'emplacement . 1
+15:21:000168:000168_2 : 15:21:07:129: Expression . 2
+15:21:000169:000169_3 : 15:21:10:256: Et donc du coup on a la description de réservation derrière . 3
+15:22:000170:000170_4 : 15:21:14:811: Donc pour la réservation donc on a mis dépression donc on a de la place on a des liens pour dire bah voilà par exemple la personne qui a réservé ça c'est le patient . 4
+15:22:000171:000171_1 : 15:21:32:940: Je veux aller voir le détail des informations Vias passion mettre un lien qui va terminer dessus . 1
+15:22:000172:000172_2 : 15:21:39:714: tu as des entités qui sont associés . 2
+15:22:000173:000173_4 : 15:21:42:871: L'occurrence était le créneau qui a été réservé initialement . 4
+15:23:000174:000174_1 : 15:21:47:779: Look avec les liens et propriétés et à toute une liste d'actions donc ici par exemple on a deux actions qui vont être de d'annuler le créneau donc ici on a fait un delete . 1
+15:23:000175:000175_2 : 15:22:01:935: Petit train destination à faire un deal sur l'URL URL . 2
+15:23:000176:000176_3 : 15:22:11:088: au format avec tel client et ainsi de suite donc là du coup . 3
+15:23:000177:000177_4 : 15:22:18:216: Le serveur envoie toutes les informations au client pour lui permettent de construire naviguez de construire à toutes les étapes intermédiaires de manière totalement indépendante la façon classique c de coder tout ça à la main ici avec les hyper contrôle le serveur qui donne les informations clients et client qui se qui construit un tout tout contexte . 4
+15:23:000178:000178_2 : 15:22:47:367: Donc du coup elle le fait que le convertir et beaucoup d'informations client et qu'on les ai mis pour les ai mis de côté serveur ça fait que le client est beaucoup plus souple pour pour évoluer sur des données . 2
+15:24:000179:000179_3 : 15:23:02:491: Ça c'est . 3
+15:24:000180:000180_4 : 15:23:05:634: Pression c'était un projet pour commencer à faire des factures . 4
+15:24:000181:000181_1 : 15:23:10:497: On a une facture avec la possibilité de la mettre à jour et de la supprimer on est incertaine intérieur sûr qu'on peut également mettre à jour est supprimé donc concrètement par rapport à ce qu'on a vu tout à l'heure donc les actions . 1
+15:24:000182:000182_2 : 15:23:27:656: Le titre d'un correspondant nom du bouton et la méthode et toutes les informations va arriver après donc quand on clique sur le bouton au niveau du client . 2
+15:24:000183:000183_3 : 15:23:40:797: Fichier avec l'affaire talon de champs à remplir nom qui correspond très exactement à ce que le serveur va envoyer donc est-ce que le serveur a envoyé donc ce qu'on avait parlé tout à l'heure tous les champs qui si on a des informations additionnelles . 3
+15:24:000184:000184_4 : 15:23:58:922: Celui qui a fait la facture donc il . 4
+15:24:000185:000185_1 : 15:24:04:060: Et on a l'URL du client qui est pareil . 1
+15:24:000186:000186_2 : 15:24:07:920: Du coup . 2
+15:24:000187:000187_3 : 15:24:17:069: Du coup on arrive sur une API a vraiment fassions une architecture qui est vraiment reste . 3
+15:25:000188:000188_4 : 15:24:22:800: Donc sur laquelle en fait le client . 4
+15:25:000189:000189_1 : 15:24:27:925: Et quand même n'as pas besoin d'avoir beaucoup de connaissances sur ce que ce que le serveur attendre lui en fait c'est serveur qui va renvoyer toutes les informations . 1
+15:25:000190:000190_3 : 15:24:42:545: Au niveau des liens des contrôles donc il y a Mike Amundsen qui a fait un tableau assez intéressant sur les différents types de liens et contrôle . 3
+15:25:000191:000191_4 : 15:24:56:097: What is a cassé donc au niveau des liens donc identifie de famille principal il y a deux liens qui se ressemble beaucoup mais qui sont fondamentalement différent donc ils sont en lien embed embarqué qui vont correspondre par exemple sur les acheter un mail à une image . 4
+15:25:000192:000192_1 : 15:25:15:271: Signification c de signaler au client de que ces informations la vont être assez importante et ont de fortes chances d'être utile dans le contexte . 1
+15:26:000193:000193_2 : 15:25:27:342: Un texte qui doit utiliser on a d'autres liens qui sont bons qui vont permettre la navigation . 2
+15:26:000194:000194_4 : 15:25:38:475: pour avoir les prochaines Étape dont on Aura peut-être besoin . 4
+15:26:000195:000195_1 : 15:25:43:004: Ça va envoyer vers un autre contexte . 1
+15:26:000196:000196_2 : 15:25:47:031: On a les lignes tan NYX template m donc ça c'est parce qu'on avait vu tout à l'heure au niveau de haut niveau de la recherche par exemple de Creno ça va permettre d'aller voir un bail filtrer sur Delphine trait sur un . 2
+15:26:000197:000197_3 : 15:26:04:864: Ensuite on a des liens qui sont non-idempotents donc ça c'est les formulaires des postes de formulaire a classic et Desbiens idem potency correspondra Audi TT . 3
+15:27:000198:000198_4 : 15:26:20:016: Côté contrôle . 4
+15:27:000199:000199_1 : 15:26:22:915: Contrôle là ça va permettre de savoir ce qu'on fait avec les ressources donc on a en lecture . 1
+15:27:000200:000200_2 : 15:26:30:077: Au niveau des . 2
+15:27:000201:000201_3 : 15:26:33:208: Donc au niveau des contrôles donc on a plusieurs types de d'information qui peuvent être intéressantes à avoir et à noter donc pas être le contrôle au niveau de la lecture pour les requêtes en lecture mon savoir . 3
+15:27:000202:000202_4 : 15:26:54:328: Requête un de savoir ce que le serveur peux nous envoyer comme informations donc là par exemple on voit que sur le lien à New suis dans le serveur va nous envoyer des applications RSS . 4
+15:27:000203:000203_1 : 15:27:08:976: Donner . 1
+15:28:000204:000204_2 : 15:27:11:020: Mon appareil côté à côtés mise à jour donc ça ça ça on connaît bien dans les formulaires . 2
+15:28:000205:000205_3 : 15:27:20:646: Une porte . 3
+15:28:000206:000206_1 : 15:27:25:804: On a un au niveau des contrôles la Façon de d'interagir avec le serveur non qu'est-ce que c'est du poste du Gal du _ coup on a également le type de relation . 1
+15:28:000207:000207_2 : 15:27:42:119: Pour un programme nommé donc ça on arrive plus sur le web sémantique si je suis seul un coup est-ce que je peux m'attendre donc ça par exemple ça va être . 2
+15:28:000208:000208_3 : 15:27:54:266: Appeler pendant une famille des frères et soeur de ce genre de relation . 3
+15:28:000209:000209_1 : 15:28:00:504: pour exploiter tout c'est tout c'est variétés on a different ContentType donc j'essaie c'est ici je passerai pas de temps en détail sachant que certains sont spécialisés dans certaines parties . 1
+15:28:000210:000210_2 : 15:28:17:789: N'utilise absolument pas d'autre d'autre possibilité d'un . 2
+15:28:000211:000211_3 : 15:28:22:565: Sur les liens . 3
+15:29:000212:000212_4 : 15:28:25:287: Au niveau des requêtes . 4
+15:29:000213:000213_1 : 15:28:32:433: Tu peux en retour aux sources affaires donc sur la sur une séquence quand on a une API REST ce qu'on va faire c'est qu'on va à manipuler une ressource . 1
+15:29:000214:000214_2 : 15:28:44:038: par exemple les réservations . 2
+15:29:000215:000215_3 : 15:28:48:186: Vallée modifier les mettre à jour exetera et pas par exemple association va voir des utilisateurs . 3
+15:29:000216:000216_4 : 15:28:56:124: Souvent c'est ce qui se passe avec liens simple je sais que dans une réservation va voir des liens vers le docteur vers l'utilisateur vers le client . 4
+15:29:000217:000217_1 : 15:29:05:656: Sauf que c'est absolument pas quelque chose d'obligatoire on peut peut-être se faire autrement . 1
+15:30:000218:000218_2 : 15:29:12:496: Ton fournir avec notre source de base donc avec notre . 2
+15:30:000219:000219_3 : 15:29:17:641: L'ensemble des informations par exemple fournir dans toutes les informations de la réservation on peut aussi fournir le nom du docteur et à toutes informations sur le docteur le nom du client . 3
+15:30:000220:000220_4 : 15:29:29:788: Nature restez pas aucune . 4
+15:30:000221:000221_1 : 15:29:35:528: Aucune alternative aucune contrainte aucune direction sur quel choix est meilleur entre a simplement avoir des ressources et puis aller interroger plusieurs plusieurs différentes où avoir plusieurs ressources à l'intérieur d'une seule . 1
+15:30:000222:000222_2 : 15:29:49:905: Par exemple ici sur la donc si je reviens sur les réservations on a ici donc au niveau des entités on ajoute des entités complètement qui sont les . 2
+15:31:000223:000223_3 : 15:30:02:477: Réservation . 3
+15:31:000224:000224_1 : 15:30:07:761: Arrêter là si vous avez des questions . 1
+15:31:000225:000225_2 : 15:30:17:155: 15 minutes . 2
+15:32:000226:000226_0 : 15:30:21:341: Alors alors la question c'est la question de savoir vos différents standard
+15:32:000227:000227_3 : 15:31:14:735: Donc la question à savoir par rapport à ces différents standard quels sont leur maturité quel son visage de la réponse donc j'ai pas ici . 3
+15:32:000228:000228_4 : 15:31:24:889: Justement dans cette histoire de différents facteurs hypermédia donc d'un sauvegarder quelle propriété tu as envie de mettre en avance sur cette interface hier que si tu veux avoir des choses un petit peu plus dans le utilisé beaucoup d' hyperlien mais pas forcément de contrôle . 4
+15:32:000229:000229_1 : 15:31:49:042: Est-ce que tu as envie en fait faut regarder les différents ContentType et je choisis celui qui va parce qu'il y en a qui vont privilégiées des options au détriment d'autres et vice-versa même si tu veux . 1
+15:33:000230:000230_0 : 15:32:01:177: Bon faut faire un choix est la première question à poser en fait c'est qu'est-ce que tu veux mettre en avant dans ton API d'abord quel est ton contexte quel est le problème que tu veux résoudre et
+15:33:000231:000231_3 : 15:32:17:331: Qui correspondent à ton problème . 3
+15:33:000232:000232_1 : 15:32:29:425: Il faut faire un choix . 1
+15:33:000233:000233_2 : 15:32:37:492: Alors je suis à Django alors mon 30 2009 je sais même pas si flash qui était déjà connu à l'époque moi ça répond à tous besoin donc du coup j'ai pas . 2
+15:36:000234:000234_3 : 15:32:53:670: Je suis pas le temps mon/ arriere train /restaurant pas extensible il y a des choses à faire comme ça comme ça marche comme ça ça marche bien voilà . 3
+15:37:000235:000235_4 : 15:33:04:822: Oui . 4
+15:37:000236:000236_1 : 15:33:15:933: Alors la question au niveau de Django rest framework est-ce qu'on a une intégration avancer des différents ContentType aller faire à la réponse est aujourd'hui non j'ai besoin encore d'avancer sur le sujet avant de commencer à travailler là-dessus la complexité et tant que . 1
+15:37:000237:000237_2 : 15:33:45:107: Lien entre les ressources sont très difficile à modéliser . 2
+15:38:000238:000238_3 : 15:33:49:401: Venir à beaucoup de choses différentes et que du coup bah si c'est pas une réponse évidente et ça j'ai besoin encore de réfléchir sur sujet avant de savoir si c'est ne serait-ce que possible . 3
+15:38:000239:000239_2 : 15:36:13:237: Libertin . 2
+15:39:000240:000240_1 : 15:36:49:094: Bien ça aussi . 1
+15:39:000241:000241_2 : 15:37:11:271: Alors la différence c'est que ça se passait pour caméra live . 2
+15:39:000242:000242_3 : 15:37:34:130: Ça c'est pour le froid micro en fait au total . 3
+15:39:000243:000243_4 : 15:37:38:054: 1 2 . 4
+15:39:000244:000244_1 : 15:38:55:232: 1 2 1 2 ok . 1
+15:39:000245:000245_2 : 15:38:58:493: Ok . 2
+15:39:000246:000246_3 : 15:39:02:576: Laisser des poils de barbe dessus . 3
+15:39:000247:000247_4 : 15:39:06:184: Oui voilà c'est qui ça se . 4
+15:39:000248:000248_1 : 15:39:11:271: Superbe . 1
+15:40:000249:000249_2 : 15:39:13:943: Oui . 2
+15:40:000250:000250_3 : 15:39:18:741: C'est ça comme ça on a le temps de s'installer . 3
+15:40:000251:000251_4 : 15:39:23:810: Série que je vois que il me présenter l'interface du coup . 4
+15:40:000252:000252_1 : 15:39:43:364: Jules . 1
+15:40:000253:000253_2 : 15:39:47:530: Pays-d'oc . 2
+15:41:000254:000254_3 : 15:39:50:263: Toi tu veux quoi . 3
+15:42:000255:000255_4 : 15:40:25:436: Et du coup toi tu me présenter version JSC ça . 4
+15:42:000256:000256_1 : 15:40:42:592: Par contre nous ça qu'on a pas trop d'interface . 1
+15:44:000257:000257_2 : 15:40:51:755: Pas trop de capture à ce niveau-là vrai . 2
+15:44:000258:000258_3 : 15:40:56:893: Chant des flamants . 3
+15:44:000259:000259_4 : 15:41:00:618: Tu n'avais hier . 4
+15:45:000260:000260_1 : 15:41:21:786: Quand tu sais pas mettre en plein écran . 1
+15:45:000261:000261_2 : 15:42:03:933: Non je . 2
+15:45:000262:000262_3 : 15:44:33:310: Non il est pas encore arrivé . 3
+15:45:000263:000263_4 : 15:44:49:959: Ouais . 4
+
+

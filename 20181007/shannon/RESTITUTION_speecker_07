@@ -1,0 +1,52 @@
+ 
+
+07_Pyref : Python et référentiel dans une université Nicolas Berne 
+
+
+15:16:000738:000738_3 : 15:15:03:077: Parler les machines entraîne voilà il me reste une minute 50 ou pas selon la police ou selon les organisateurs je vous remercie de votre attention s'il y a d'autres gens qui ont fait des choses à la merci de les partager et puis . 3
+15:16:000739:000739_4 : 15:15:23:225: Catégoriser les composants qu'on voyait tout à l'heure en fonction de leur niveau de vie privée et de logiciels libres contenu dedans donc si vous voulez venir m'aider à catégoriser c c composants c'est cool et sinon amusez-vous bien dans vos projets je pense c'est hyper important pour apprendre bien s'amuser merci . 4
+15:16:000740:000740_1 : 15:15:45:761: Une question une question aller une question . 1
+15:16:000741:000741_2 : 15:15:53:195: Ah si ils ont le même code ouais ils vont tous les deux s'allumer sur ces prises La quand a une télécommande tu vas la brancher sais pas si vous avez vu il y a à BCD donc ça au moins où faire faire des maths faire 4 x 4 x 3 c'est trop dur pour moi mais voilà et donc du coup tu as un certain nombre de canaux et puis après tu peux acheter d'autres prise mais mais c'est vrai que . 2
+15:16:000742:000742_3 : 15:16:26:340: Puis sur le truc et que tu as ton portail qui s'ouvre c'est pas ça peut arriver à la . 3
+15:17:000743:000743_4 : 15:16:33:735: Contrisson prends une deuxième question . 4
+15:17:000744:000744_1 : 15:16:37:877: Ouais . 1
+15:17:000745:000745_2 : 15:16:47:886: Alors wifi déco chaîne est-ce que . 2
+15:19:000746:000746_3 : 15:16:57:022: Il existe pour par exemple arroser des plantes le fait de récupérer des . 3
+15:19:000747:000747_4 : 15:17:04:177: DDD robinet pour en basse tension ha oui ça existe il y a des trucs en dis à Aywaille a des trucs en salut c'est du Cloud et puis voilà ça marche tout seul . 4
+15:19:000748:000748_1 : 15:17:16:314: Crée des choses avec Arduino en gros c'est les pompiers et c'est comme des relais à pouvoir dire tu ouvres une vanne où tu fermes une vanne mais là tu vois il y a pas mal de projets qui font ce genre de chose d'un capteur d'humidité dans ton peau et puis voilà tout à fait important c'est envoyer un tweet à la fin . 1
+15:19:000749:000749_2 : 15:17:35:469: SEPAQ la planta et bien c'est c'est que tu puisse communiquer avec Internet en disant c'est bon j'ai arroser la plante automatiquement merci beaucoup . 2
+15:19:000750:000750_3 : 15:17:44:708: Ouais en fait les capteur d acheter . 3
+15:22:000751:000751_4 : 15:19:13:866: 1 2 3 . 4
+15:22:000752:000752_1 : 15:20:01:013: Comme ça c'est bon . 1
+15:23:000753:000753_2 : 15:20:10:280: Il y en a peut-être que j'ai pas de visio sur mon poste . 2
+15:23:000754:000754_3 : 15:20:26:408: C'est bon . 3
+15:23:000755:000755_1 : 15:22:37:472: Ok donc le but de cette présentation Tondeuse lors de la mise en place d'un référentiel et notamment pour ce qui concerne l'alimentation des les ânes . 1
+15:23:000756:000756_2 : 15:22:53:775: Donc très rapidement qui je suis dans son contactez voici mon adresse mail mes activités à Lyon 2 sont quand même plutôt orientée chef de projet et assistant à maîtrise d'ouvrage pour d'autres projets que ce que je peux que celui que je peux présenter aujourd'hui et j'essaie toujours de garder une partie de développement dans mon activité parce que c'est plus ce qui m'amuse . 2
+15:24:000757:000757_3 : 15:23:16:911: Chef de . 3
+15:24:000758:000758_4 : 15:23:20:060: Donc le plan de cette présentation si vous essayez de vous expliquer les objectifs du projet l'architecture telle qu'elle est peut être utilisé . 4
+15:24:000759:000759_1 : 15:23:30:637: Ils ont fait le choix de Python et de PL python PL python éteins le langage que nous utilisons enfin de sur la base de données postgres SQL pour certaines opérations . 1
+15:24:000760:000760_2 : 15:23:42:023: Petit rappel sur l'annuaire LDAP je sais pas il y a beaucoup de monde qui connaît les annuaire LDAP dans l'assistance si vous utilisez beaucoup les résultats que nous avons obtenu avec Python ça soit la fois sur le LDAP sur l' activir Hector y est enfin la la conclusion sur ce qui nous reste un petit peu à faire . 2
+15:24:000761:000761_3 : 15:24:02:171: Donc un des problèmes qu'on compte dans une université c'est qu'on a quand même des des contraintes assez particulière . 3
+15:24:000762:000762_4 : 15:24:10:661: C'est près 50000 comptes utilisateurs qui sont créés par différents . 4
+15:25:000763:000763_1 : 15:24:18:228: Qui c'est vraiment d'avoir . 1
+15:25:000764:000764_2 : 15:24:21:356: Portant sur la qualité des données parce qu'on a beaucoup d'erreurs de saisie se pourrait essayer d'éviter deux individus qui viennent par deux endroits différents de leur créer plusieurs compte utilisateur . 2
+15:25:000765:000765_3 : 15:24:32:756: Attends que ça notre objectif c'est de gérer les accès au mieux possible ça veut dire qu'un personnel de l'université il va pas accéder au même endroit qu'un étudiant un invité qui va pouvoir venir pour assister à une conférence va aussi de voir avoir des accès différents sur une période plus restreintes alors que présente sur un étudiant va lui laisser les accès juste . 3
+15:26:000766:000766_4 : 15:24:53:892: Moi après son départ de l'établissement . 4
+15:26:000767:000767_1 : 15:24:58:112: On a un système un petit peu hétérogène à l'université avec principalement des serveurs qui sont sous Linux ou sous FreeBSD non tout l'entente ification est fait à partir de l'annuaire LDAP et on a principalement les postes de travail qui sont à son environnement Microsoft et donc j'utilise l'Active Directory . 1
+15:26:000768:000768_2 : 15:25:21:031: Une problématique d'avoir deux systèmes différent c'est justement il nous faut qu'on a sur à faire le mot de passe Mika l'utilisateur pour que lui il se moque un petit peu de savoir si l'authentification efface sur un annuaire LDAP ou sur un Active Directory . 2
+15:26:000769:000769_4 : 15:25:38:176: Propre au monde universitaire dans le sens où on a environ 50000 comptes utilisateurs et on va voir au moment de période d'inscription étudiante des centaines de compte par heure qui ont été créé ce qu'on va pas avoir dans une entreprise qu'on pourra voir d'une même taille donc on a certains souci de performance à obtenir . 4
+15:27:000770:000770_1 : 15:25:59:482: Donc très rapidement l'architecture qu'on utilise on va voir de l'amont et l'aval on va avoir différentes bases de données métier une pour gérer des étudiants donc ça pourrait être alimenté soit en direct parler service de scolarité soit par les liens qui vont s'inscrire par par le web ou parler . 1
+15:27:000771:000771_2 : 15:26:18:612: Extraire les données qu'on va recevoir en fin de Lex APB de parcours sup maintenant les personnel de la même façon on va voir son pouvoir se déclarer par une interface web qu'on a pu développer soit parler les gestionnaire RH l'établissement et après on a tout un paquet de base . 2
+15:27:000772:000772_0 : 15:26:38:757: On va dire dedans m'avoir les vacataires de l'établissement on va voir des invités on va aussi par exemple avoir des étudiants quoi crédité nous sur la sur la place Lionel il y a des étudiants de Lyon un qui ont pouvoir venir suivent juste quelques cours dans l'établissement il va aussi falloir qu'ils puissent s'inscrire
+15:28:000773:000773_4 : 15:26:56:932: Va revenir matifier sur les postes de travail qui puisse accéder à la plateforme de cours que les professeurs de Lyon 2 puisse contacter l'Aiguille en plus sur l'adresse mail Lyon 2 qui tu as presque l'étudiant mettre un lien sur l'adresse Lyon 1 pour pas qu'il s'en rende compte mais on n'a pas à connaître l'adresse mail extérieur donc on a tous cette partie-là on a . 4
+15:28:000774:000774_1 : 15:27:20:030: Et aussi des bergers ou avec l'Université on va avoir des des chercheurs du CNRS qui vont venir pour quelque quelques mois voir certains pour les labos qui sont en double tutelle qui vont être à temps plein . 1
+15:28:000775:000775_2 : 15:27:34:420: Un référentiel c'est de pouvoir savoir notre individus il faut être à la fois étudiant il fait personnel l'exemple typique à l'étudiant personnel c'est se met-on le on va voir des étudiants qui vont être aussi avoir un contrat parce qu'ils vont travailler la bibliothèque met-on de l'Université on peut avoir enfin selon le statut de . 2
+15:28:000776:000776_3 : 15:27:57:581: Ils vont être personnel étudiant selon le type de thèse qui peut qui peuvent avoir et le 8 c'est quoi les identifiants les identifier pour savoir que l'individu il représente telle étudiant ou tel personnel . 3
+15:29:000777:000777_4 : 15:28:11:996: Du coup de corriger toutes les erreurs de saisie qu'on peut avoir dans les bases données métier faut-il avoir la donner la plus propre possible dans le référentiel . 4
+15:29:000778:000778_1 : 15:28:22:023: Donc c'est alimentation là il fait avec un âne ETL enfin on n'a pas vraiment besoin de . 1
+15:29:000779:000779_2 : 15:28:28:813: Simplicité c'est ce qui avait été choisi initialement donc une fois qu'on a tous ces informations d'un référentiel on a deux possibilités soit on peut alimenter des applications métiers de la même façon par un système de Crohn qui va alimenter les applications métiers sois sinon en direct ou les applications pour aller lire des informations dans le référentiel pour être . 2
+15:30:000780:000780_3 : 15:28:53:935: En direct pour avoir l'information inissia . 3
+15:30:000781:000781_4 : 15:28:59:969: Séparé parce que même si c'est une application métier spécifique tout ce qui concerne l'alimentation des annuaires je dis des annuaires parce qu'on a 3 3 annuaire donc ce que j'ai pu dire on a deux annuaire LDAP un annuaire qui est plus je dirais enfin au goût du jour et puis on a un annuaire historique sur lequel on essaye de débarrasser mais on a encore beaucoup de . 4
+15:30:000782:000782_1 : 15:29:24:090: Qui été greffé dessus et après ma puce dans l'ensemble des applications métier donc ça peut être l'art et la réservation de salles de cours ou des ou pour les plannings des des des étudiants . 1
+15:30:000783:000783_2 : 15:29:39:209: Pour essayer d'expliquer c'est peut-être pas très lisible c'est un peu peut-être un petit peu petit notre objectif mais là ça représente juste que ce qui concerne les annuaires notre objectif est d'avoir une une classe ici la classe je la fais la casse personne qui est plus la classe qui représente ce que les informations qu'on a au niveau référentiel et se déduire de ses éclats . 2
+ 

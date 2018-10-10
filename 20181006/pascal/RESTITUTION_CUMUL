@@ -1,0 +1,1235 @@
+09:28:000038:000038_0 : --------
+09:30:000040:000040_0 : Rechargement du document
+Keynote #1 Science and Open Source: what do we learn from each other? — Viviane Pons
+
+09:31:000041:000041_2 : 09:30:08:904: Hello everyone . 2
+09:31:000042:000042_3 : 09:30:27:743: I want to check the you hear me well when I speak without the microphone here is it ok yeah . 3
+09:31:000043:000043_4 : 09:30:38:450: First I would like to thank the organizers for inviting me today I have been hurt by Cannes France a few times and it's a great honour for me to be here today and to give this opening keynote so I want to talk about my experience both at the scientist and open source developer and what this two wolves bring to each other . 4
+09:31:000044:000044_1 : 09:31:06:406: By introducing myself and explained just a little bit why I use Python in my work so I can see myself to be both a mathematician and a computer scientist . 1
+09:32:000045:000045_2 : 09:31:21:779: I'm not sure I could say that I use a computer scientist mine to solve mathematical problems so I approach mathematics with an algorithmic point of view and waistcoat . 2
+09:32:000046:000046_3 : 09:31:38:330: Be more specific my topic is cold air coming at her ex and to give you an idea that what it looks like . 3
+09:32:000047:000047_4 : 09:31:48:684: Are actual research notes from a few years ago and to give you another idea that also what it looks like so this is Python code that I use in my day-to-day research so I won't go into details . 4
+09:32:000048:000048_1 : 09:32:09:630: The basic idea about my research relies on code so anytime I write a research paper mathematics paper there is a program that . 1
+09:33:000049:000049_2 : 09:32:22:157: Tom how are there in some experiments has been some code I'm experimenting on mathematical objects to find your results if you want to know more about that actually give a hole chokes when I explained that is called experimental pure mathematics using sage today is not the topic of the conference because I want to give you a more a broader view of the links that I . 2
+09:33:000050:000050_3 : 09:32:47:266: Open source and science so I should start by saying that I am not the only scientist who showed . 3
+09:33:000051:000051_4 : 09:32:57:236: A survey in 2014 amount UK academics and there's been shown that 92/:/ of the second AmEx use research software and from the person who did the survey he was saying himself well maybe VIII to send that we made it just didn't understand the questions so . 4
+09:33:000052:000052_1 : 09:33:20:660: BBC many people who do research most people to research actually do stuff to it . 1
+09:34:000053:000053_2 : 09:33:28:790: Percent say that the research would not be practical without with a software this is definitely my case I don't see how I can do mathematics if I don't have a computer . 2
+09:34:000054:000054_3 : 09:33:39:531: 56/:/ say they develop their own software is also Mikey's in all those three cases . 3
+09:34:000055:000055_4 : 09:33:47:585: Give you an idea of how how important writing code in code is important for research so this is like a survey is Crossfield so what about mathematics I don't have any specific numbers for mathematician I can just rely on my own experience from what I see around me most of my colleagues use computers at some level to do there to do the
+09:34:000056:000056_1 : 09:34:16:697: P Money software for mathematicians so I went on Wikipedia and I find I found 39 computer algebra system listed so I put the main one here in this picture . 1
+09:35:000057:000057_2 : 09:34:31:095: Have to understand that even so research happens inside research papers inside inside theorem it also happens within the software and with the code that not matching mathematicians right for the software . 2
+09:35:000058:000058_3 : 09:34:49:093: All of the software open source Nokia 3 example . 3
+09:35:000059:000059_4 : 09:34:55:079: Maple make magnetic and Nightmares TV . 4
+09:36:000060:000060_2 : 09:35:24:177: My main motivation the reason I went to open so the reason I'm choosing Op is because to follow my to to to be when I want to be as a scientist to follow my values as a scientist I need to go up until this is where I find something that matches what I want to be as a scientist says it's values between science and open so this is what I'm going to describe now . 2
+09:37:000061:000061_3 : 09:35:52:301: The other scientists the first day is I want to contribute so in a mother when I just pay some money and then I'm giving a software but I don't have I cannot even look what into software and I don't have a say about what's in the software I cannot be a part of it this is not a model that I like I don't want to be a simple user I want to be a Are the scientists I want to create knowledge and share it . 4
+09:37:000063:000063_4 : 09:36:26:160: When I create new knowledge any new knowledge I create I want it to be available to everybody so I don't work only for me or for other academics I work for the public I am paid by the public to public money to do what I do I find that im very privileged to be paid to do something that I really love to follow my passion about Mathematics and I find that I it's my duty to g1r.gs 1
+09:38:000065:000065_2 : 09:36:59:283: Back and in that sense I find that everything that I do should be made everything that I do to my work should be made public to everyone so this means that for example all my papers are accessible online so they are not open source and the reason they are not open to . 2
+09:38:000066:000066_3 : 09:37:35:669: Any other academics you understand what I mean but let's say that I'm just doing my best so that everything that I write the mathematical counting that I write is accessible to everyone so all my teaching material is open source this is something that I've been doing for the last year's that every time I was creating you teaching material for you class you exercises anything . 3
+09:38:000067:000067_4 : 09:37:59:905: What actually put everything on github . 4
+09:38:000068:000068_1 : 09:38:04:060: And the final five . 1
+09:38:000069:000069_2 : 09:38:08:173: Off-licence so that so it means that not only to students can have access to it but any other teachers and they know that they have the right to use it and that can't even contribute back to me telling me what what I can improve in my in my class . 2
+09:39:000070:000070_3 : 09:38:26:049: Show me that all the code I write is open source the most of it goes into the software that I can that is going to stay tonight in which is there open source met medical software to someone that will do as actual contribution to the software I like it enters the Source Code some of it would be like external packages that people can install and most of it is actually just research . 3
+09:39:000071:000071_4 : 09:38:49:182: I've taken the Habit now to put this even disco that is not finish not documented just kind of my own research code to put it also online with an open source licence so that everyone every other researcher who is my paper can just go and look at the attitude that I read . 4
+09:39:000072:000072_1 : 09:39:09:300: As a scientist I collaborate . 1
+09:39:000073:000073_2 : 09:39:14:424: I go to conferences I have International collaborators organise workshops organised seminars when I write a paper this paper is to friend is reviewed by other scientists so it's really not something that you do on your own sign into something that you do as a group so they invent collaborative aspect of open source is very natural for scientists to me it makes complete . 2
+09:40:000074:000074_3 : 09:39:42:566: Actually I use the same tools I use get both for my scientific papers and for my account . 3
+09:40:000075:000075_4 : 09:39:52:314: Mortlake on the more physical point of view the idea that we are joining forces to create something better is a motivation for both . 4
+09:40:000076:000076_1 : 09:40:03:414: As a scientist I want my results to be reused and improved let's say I approve a new tier am so I publish a paper with a theorem and the proof it now becomes public knowledge so I knew mathematician can come and use this results to prove and use another serum they can also if there aren't they can rewrite my dear and maybe in
+09:41:000077:000077_2 : 09:40:33:534: Fix a mistake maybe that are left in the original paper 2 science is not something that is fixed once and for all it evolves and improves of the time and I should say just like open Source Code . 2
+09:41:000078:000078_3 : 09:40:49:023: Once again the idea that when I write something it's going to join a bigger frame where it's going to have its own life it's going to be improved and reused by Future developers and mathematicians this is something that I want and what I like about this is that I can be there in the next phase of the slice of my program on my paper but I don't have to it's going to happen I'm not I'm just leaving it for the future . 4
+09:41:000080:000080_1 : 09:41:22:398: For all these reasons . 1
+09:42:000081:000081_2 : 09:41:25:757: As a scientist I need to write a pencil skirt really after all I said I came to the conclusion that it is not possible for me to go back to writing something that would not be open source I would not be in line with my ethic as a scientist . 2
+09:42:000082:000082_3 : 09:41:46:292: This process is my father's I heard it's something that other side is that had in the past and many other reach the same conclusion and I think it's not a coincidence that when you look at the story of open source it's some of it emerged from academia and I'm thinking of two specific person am going to example so we shall stand men who are the creator of GNU he was work . 3
+09:42:000083:000083_4 : 09:42:16:417: Mighty . 4
+09:42:000084:000084_1 : 09:42:18:543: The second example if someone's very well known to computer scientists and mathematicians is do not need and in particular he is the creator of the language take that is widely used in mathematics . 1
+09:43:000085:000085_2 : 09:42:32:996: So now let's look at Malvern open and open so so basically as long as there's been the concept of open Source software we've had open sores med medical software . 2
+09:43:000086:000086_3 : 09:42:47:675: No in the last decade or so it did not a lot and we have what we would call like a whole ecosystem of software that are open source for mathematician . 3
+09:43:000087:000087_4 : 09:42:57:920: Gun shop specialist libraries I've put a few names years ago I specialise library is really something that is often the Blood by a small group of people and with main target is a subfield as mathematics so it's sizeable gap is for group computation group Theory . 4
+09:43:000088:000088_1 : 09:43:20:053: Ronaldo persistence like sagemath which is the one that I know the most is the one I'm going to talk a bit more about later on . 1
+09:44:000089:000089_2 : 09:43:29:165: We also use things that are meant for a wider group so interactive computing environments such as the iPad and Jupiter and the cool card platform . 2
+09:44:000090:000090_3 : 09:43:43:069: Who is the author of The just a little bit in a big community of for example society6 dieting and decided generally open till science . 3
+09:44:000091:000091_4 : 09:43:55:192: So I'm going to talk a bit more about the Sage max out through the official name is stage mad but I'm off and going to say only stage . 4
+09:45:000092:000092_1 : 09:44:08:308: It all started in 2005 by a mathematician poet William started the story is quite interesting he was actually writing a lot of code before and it was writing is not that serious and he was writing the code in a software called magma and my mum was one of the examples that I gave you earlier it's not open source and at some point I think he reached the same conclusion that I had before . 1
+09:45:000093:000093_2 : 09:44:35:427: The frustration that he was writing code for a property software and he had no say on the software itself and everyone who wanted to use this code had to get the bag my licence and he sounds really even that this was going nowhere that you was losing its time doing that and that's why I decided to create SageMath which was a big step quiz he had to make it from whatnot so nothing actually be . 2
+09:45:000094:000094_3 : 09:45:01:552: Already many other those libraries specialises already existed for the first thing that he did but that he took everything that existed that was open source and include them with Python so he created a python interface that allows newcomers to just take whatever they needed in the different libraries in work with it and by the way this was one of the first use of the . 3
+09:46:000095:000095_4 : 09:45:31:688: At the time I Python at terminal was when we won stage West Croydon . 4
+09:46:000096:000096_1 : 09:45:40:069: You managed to create something that was good enough that all those people started to join and it grew out of this many libraries glued together with Python a druid its own libraries in Python and also in this item on top of it and it grew a horse vibrant community so . 1
+09:46:000097:000097_2 : 09:46:06:190: 271 contribute as listed on the stage website on the on the map . 2
+09:46:000098:000098_3 : 09:46:15:317: The way . 3
+09:46:000099:000099_4 : 09:46:17:751: And what about me as oyster I joined . 4
+09:47:000100:000100_1 : 09:46:25:871: Doing research in 2010 and I was doing networks and it turned out that my people my groups networks they just had decided to move to say to say when I say move to say what I mean is that they used to also write code together they was already disclosure of sharing code among people in coming out works but they didn't have an open source solution so they were . 1
+09:47:000101:000101_0 : 09:46:52:027: Show me the way using a software called moped that now mostly disappeared and they had the same problem. William starting heard that they were writing code for a software on which they had no control and which was not open source so they took this decision to move to say so they basically translated a bunch of code into sage and when
+09:47:000102:000102_3 : 09:47:17:153: Sage native if I sent that I started doing research wife's age was already good enough that I could use it and it's the only research software that I've used to do my research and I'm really happy about it . 3
+09:48:000103:000103_4 : 09:47:33:838: Ok so I've told you about the love story that is between open source and sides and no I want to share a bed what are the challenges that we face and I think they are very similar . 4
+09:48:000104:000104_1 : 09:47:50:664: The main problem we have with open source in science is we need funding recognition and sustainability and I'm saying that for Open Source Project in science but I'm pretty sure this is a problem that any Open Source Project would have this question is who pays for the project so I said earlier ok when you have a property software you have to pay this licence when you go to open to . 1
+09:49:000105:000105_2 : 09:48:15:800: It's free it's not free because they are people working on the software so who pays them if you don't pay the licence and that's an actual problem because most of an in in science most of this is actually done by researchers we take this from their research time in the question is how is a devil of my word said in the community this time that you put two software valued in . 2
+09:49:000106:000106_3 : 09:48:41:931: And this lead to do hard reset software going to survive because if you don't pay for software and if you don't value the work then the work is not going to get down and the software was that whether it's open source of not . 3
+09:49:000107:000107_4 : 09:49:01:547: So let's look back at the same as development model so the main idea is for users by users so we are encouraged as write it to write code only when it's used for own research ok that's good but that means we need to better economic conditions for research software development because at the moment is not if your right to hold baggage about optimisation of factories in . 4
+09:50:000108:000108_1 : 09:49:02:547: Is not going to be as good in your CV as if you had done a few papers on the subject so we need to value this work from research or when they try to put the work into software . 1
+09:50:000109:000109_2 : 09:49:44:471: The only problem because it's good to write research showed that what about the rest of the code who did the dirty work and when I say dirty with this is what I mean . 2
+09:50:000110:000110_0 : 09:49:58:799: Paying into faces install scripts Lola lo software interaction this out tasks that are that has no recent value and high technical value so basically if you don't get recognition for writing research code you really get absolutely nowhere condition as a software the blob as a research as a researcher when you write this because it is
+09:51:000111:000111_4 : 09:50:26:954: Job to do it so I thought this number here so we said that 56/:/ of academic they love their own software but only twenty one percent . 4
+09:51:000112:000112_1 : 09:50:36:107: 56 received a proper training in software development so basically it's not our job to do this technical test and we're not really good at it so if I look at myself I have been training software development but I am not the best person to do that because I don't want to do that because my main thing is research and I don't want to take my research time to to do this code . 1
+09:51:000113:000113_0 : 09:51:03:239: Most qualified to do it so we need all the people in this other people they are called research software engineers and we really need those people with us so it means engineers weather true interest for research and want to work in up and sitting in academia but you get this people that people exist but we need also to be able
+09:51:000114:000114_3 : 09:51:28:365: Career prospects and some flexibility of a timer mission to that when someone works when we recruit an engineer's he can he or she can work on whatever projects that we need at the moment and this can evolve over time . 3
+09:52:000115:000115_4 : 09:51:44:138: Sing as we are working on very hard we try hard to convince or institutions or government that open source user driven development is the good way to go . 4
+09:52:000116:000116_1 : 09:51:56:256: Sustainable funding to function sometimes we're making progress so . 1
+09:52:000117:000117_2 : 09:52:06:293: 2015 we launched this project open gym kit which stands for open did you tell research environment Toolkit for the advent advent of Mathematics so basically it's a project that supports open source in mathematics for many different software . 2
+09:53:000118:000118_3 : 09:52:25:528: So this was . 3
+09:53:000119:000119_6 : 09:52:28:651: From a European call for me Eurovision 2020 European research infrastructure work program so it's really good that we managed to get this because it mean it mean that we convince your app that when we were doing was good then that it was worth giving money to so we receive the budget of 7.6 million and it was run by a team partner institution in 7 countries this morning was used to . 4
+09:53:000120:000120_1 : 09:52:29:651: Junior Air Force age and also for Jupiter and for all the software and also to pay on time as researcher when we were working on the project and also to pay for conferences and workshops . 1
+09:53:000121:000121_2 : 09:53:12:836: It started in 2015 it ends in 2019 . 2
+09:53:000122:000122_3 : 09:53:19:652: Next . 3
+09:53:000123:000123_4 : 09:53:21:367: That's a question why I don't have an answer so one thing I could do as I could apply for a new project but then . 4
+09:54:000124:000124_1 : 09:53:30:650: It would the air if I don't want to spend my whole time applying for a project and managing European Projects so there is something here that we have to guess where we had to make the most progressive as we have to convince this institution that is not something that we do for 4 year project and then another four-year project is something when we need sustainability and we need to be . 1
+09:54:000125:000125_2 : 09:53:53:775: Do you offer a permanent jobs to the Twitter ginger news . 2
+09:54:000126:000126_3 : 09:53:57:901: List the first thing I want to talk about another thing another challenge which is more from within our own communities . 3
+09:54:000127:000127_4 : 09:54:08:392: Equity and diversity . 4
+09:54:000128:000128_1 : 09:54:12:566: How to work within our self . 1
+09:54:000129:000129_2 : 09:54:15:904: We need to develop software for everyone with everyone I think the sentence should mean something for any open source of Robert this is the reason why we chose open source is in that like to work with everyone for everyone and at the moment I think putting your code on github with an open source licence Is Not Enough . 2
+09:54:000130:000130_3 : 09:54:35:959: So let me give you some numbers that are interesting . 3
+09:54:000131:000131_4 : 09:54:41:091: Turn off Windows users 93/:/ off Linux users use research software for not such a big difference there . 4
+09:55:000132:000132_1 : 09:54:49:803: Can we come to development 41/:/ of Windows users and 90/:/ of wind . 1
+09:55:000133:000133_2 : 09:54:55:925: Pictures of develop software . 2
+09:55:000134:000134_3 : 09:54:59:070: Difference in . 3
+09:55:000135:000135_4 : 09:55:01:195: The most of the people to develop that I see you either or Linux or mac and this goes to this is where we see something like the native Windows sage might install being done only in 2017 even so we have so many users who are on Windows . 4
+09:55:000136:000136_1 : 09:55:18:919: This was sent to or engineers recruited by up and drink it but it's very late though we had it . 1
+09:56:000137:000137_3 : 09:55:19:919: teaching stayed in many places such as I've been to Uganda and Colombia and other day I met some students and most of them were on windows and none of them had heard of ovens . 3
+09:56:000138:000138_4 : 09:55:53:496: This is for the student that I want to develop see this as a students who need it the most because then she just cannot bear for the licences and the students are the ones that are still deployed from it because we don't care about the money enough . 4
+09:56:000139:000139_1 : 09:56:09:160: Another number . 1
+09:56:000140:000140_2 : 09:56:11:022: Even so 56/:/ free social development on sole traders hides a big gap a big gender gap 70/:/ of my research Lab it was only 30/:/ women do . 2
+09:57:000141:000141_3 : 09:56:25:704: Set of them use it so it's good woman use research software but they don't give love it so it from what I hear when I see that it that many researchers many women still rely on some other people to do something that is very important for their work . 3
+09:57:000142:000142_1 : 09:56:43:834: It makes me sad about it something that I want a to fix and it means that this barrier that stops woman to go into science it's also exercise very high-level it exists at the level of women who have PhD in Mathematics and tell me I'm not good with code . 1
+09:57:000143:000143_2 : 09:57:04:145: Breaks my heart any woman who has appeared in mathematics should be good with good she can be good with code so the question is why we have this and say there are many reason is rooted in side to side he lack of training lack of confidence what can we do about it with it's difficult to solve the whole Society but we can try a little bit so we have to support for mental . 2
+09:57:000144:000144_3 : 09:57:29:270: I've been running with analytical methodology chapter in Paris I've been organising meeting for women in sage and this works so please support us . 3
+09:58:000145:000145_4 : 09:57:43:581: I need to finish now so I'm going to finish with this list of question is to go beyond this just being a woman or man you had to we have to check out privileges . 4
+09:58:000146:000146_1 : 09:57:57:499: Where you are . 1
+09:58:000147:000147_2 : 09:57:59:606: First computer when did you write your first line of code what field did you study when did you first hear about open source . 2
+09:58:000148:000148_3 : 09:58:11:498: What country are you from did you go to university what is the colour of your skin are you straight non-disabled cisgender Ann and we could have we could add more questions the idea behind this question is to make you realise that they are saying smallest most of you hear you have been helped by some Power imbalance in society that helped you get where you are and you are . 3
+09:59:000149:000149_4 : 09:58:39:623: But you also had helped and you have to remember that are all the people who maybe we're not an advantage as you were when they were going through their the best . 4
+09:59:000150:000150_1 : 09:58:52:622: I'm going to finish with that remember we want software for everybody by everybody and that's why this means you want people in one up like you and I'm finishing with it thank you . 1
+09:59:000151:000151_3 : 09:59:14:896: So I took almost all my time I don't think I don't know if you have time for questions are not . 3
+
+
+10:02:000152:000152_2 : --------
+10:03:000153:000153_3 : Rechargement du document
+La gestion de version  en 2018: présent et future  Pierre-Yves David, Boris Feld
+
+10:04:000156:000156_3 : 10:03:51:311: D'ailleurs ceci est un test . 3
+10:04:000157:000157_4 : 10:03:54:978: Pas mal la captation . 4
+10:04:000158:000158_1 : 10:03:58:169: Je ne parle pas Klingon ça va prendre sa Sion et affreuse . 1
+10:05:000159:000159_3 : 10:04:14:715: Oui mais du coup je veux descendre . 3
+10:05:000160:000160_2 : 10:04:40:378: Y-a-t-il un admin dans la salle on commence . 2
+10:05:000161:000161_4 : 10:04:59:800: Bonjour à tous . 4
+10:05:000162:000162_1 : 10:05:06:907: Aujourd'hui on va vous parler de la gestion de version et puis Jacques te ment . 1
+10:05:000163:000163_2 : 10:05:12:797: Donc il faut que je parle pas ok on reprend . 2
+10:06:000164:000164_3 : 10:05:20:908: Aujourd'hui on va vous parler de gestion de version et des problèmes en Essonne version et en particulier on va s'intéresser aux problèmes qui arrive donc des problèmes qui sont Breizh pas complètement résolu et que vous utiliserez des solutions ou simplement dans les années qui viennent mais pas forcément aujourd'hui . 3
+10:06:000165:000165_4 : 10:05:43:021: Avant de parler du futur on va parler un peu du passé donc qu'est-ce que c'est l'action version c'est un domaine qui a ses vieux qui date de 1972 donc ça a 45 ans mainte0t et même si c'est assez vieux il y a en fait toujours des nouvelles choses qui arrivent généralement après par vague mais le gras c'est que vous avez à droite c'est le nombre de nouveau gestionnaire de la . 4
+10:06:000166:000166_1 : 10:06:07:141: Depuis 1972 donc voyez qu'il y en a toujours dit et Mercurial c 2005 c'est un peu près la la Bosque vers la droite mais même après ça il y a encore de nouvelles choses qui arrivent les gens qui crée des nouveaux vais faire deux versions pour résoudre des nouveaux problèmes . 1
+10:06:000167:000167_2 : 10:06:25:083: Ma 45 ans donc on pourrait imaginer que quand même ça fait 45 ans que je rentre avec dessus ce serait un problème résolu et . 2
+10:06:000168:000168_3 : 10:06:32:751: Mais c'est vraiment pas le cas en particulier il y a un certain nombre de faire de version . 3
+10:06:000169:000169_4 : 10:06:40:486: Par exemple subversion CVS Perforce qui sont quand même sentiment plus vieux que la génération Y . 4
+10:06:000170:000170_1 : 10:06:47:080: J'espère que je n'ai pas ce qu'il . 1
+10:07:000171:000171_3 : 10:06:52:221: Mairie de celui . 3
+10:07:000172:000172_4 : 10:06:53:997: Pas assez bien géré par la génération actuelle de la même manière la génération actuelle même . 4
+10:07:000173:000173_1 : 10:07:01:946: Et attendre d'hôtes gestionnaire de version . 1
+10:07:000174:000174_2 : 10:07:07:834: Existe encore à côté de b*** comme Mercurial ils sont activement développer et qui m'ont soutenu par la tombe de Jean et des nouveaux dessins de passion comme . 2
+10:07:000175:000175_3 : 10:07:17:939: Mots des sources de son propriétaire comme plastique s m . 3
+10:07:000176:000176_4 : 10:07:23:280: Quoi il y a pas juste une solution qui . 4
+10:07:000177:000177_1 : 10:07:27:483: Ben c'est un mélange de plusieurs choses à la fois les contraintes techniques sont assez compliqué sont plus ou moins bien gérer . 1
+10:07:000178:000178_2 : 10:07:35:228: En plus il y a des domaines qui ont des besoins société de très particulière et qui . 2
+10:07:000179:000179_3 : 10:07:42:598: Injection qui ont créé des nick et fils pendant longtemps mais . 3
+10:08:000180:000180_4 : 10:07:48:705: Rue des contraintes techniques ou des choses particulières il y a aussi le fait que le processus de développement et la manière dont on développe . 4
+10:08:000181:000181_1 : 10:07:57:743: Change avec une ligne à l'autre on a des nouvelles contraintes ma des nouvelles des nouveaux workflow et du coup les animations besoin de s'adapter à ça des fois même déclenche le genre de modification et au final il y a une question va bien . 1
+10:08:000182:000182_2 : 10:08:17:857: Vidéo dans les Landes les deux il y a des gens qui . 2
+10:08:000183:000183_3 : 10:08:22:977: Il y aura tout . 3
+10:08:000184:000184_4 : 10:08:25:802: Crée des nouveaux outils qui sont un peu pareil mais un peu différent pour avoir des nouvelles idées nouvelles choses et pouvoir . 4
+10:08:000185:000185_1 : 10:08:33:733: Alors une dépression de reparler contraintes techniques . 1
+10:08:000186:000186_2 : 10:08:42:843: Envoyez un peu plus en détail . 2
+10:08:000187:000187_3 : 10:08:45:612: MDM . 3
+10:09:000188:000188_4 : 10:08:47:487: Avec . 4
+10:09:000189:000189_1 : 10:08:51:592: Existence de l'ancienne génération c'est les questions de très grande base de code ou de volonté d'avoir de très grande . 1
+10:09:000190:000190_2 : 10:09:01:694: En particulier il y a un milieu qui . 2
+10:09:000191:000191_3 : 10:09:07:805: C'est l'idée de t'avoir à Manon Ribaux qui en fait exactement ce qu'on fait quand on a les pieds de rassembler tous . 3
+10:09:000192:000192_4 : 10:09:18:919: Pour avoir toutes les choses à maman alors ce qu'il faut voir c'est que quand on dit . 4
+10:09:000193:000193_2 : 10:09:35:911: Merci nickel . 2
+10:09:000194:000194_3 : 10:09:43:020: Donc les . 3
+10:10:000195:000195_4 : 10:09:47:857: Gonflement droit ça veut pas dire avoir un projet unique à un autre un unique blog ou tu te concerne même temps et les plantes dans tous les sens . 4
+10:10:000196:000196_1 : 10:09:57:101: Les séparés dans un dépôt de gestion de version identique avec des paquets qui sont . 1
+10:10:000197:000197_2 : 10:10:04:653: Je voulais qui sont dépouillés indépendamment et ce genre de chose l'idée générale c de s'impliquer la collaboration . 2
+10:10:000198:000198_3 : 10:10:12:767: Attends ça tombe davantage simplifie la recherche de dépendance quels sont les versions avec laquelle on doit être dépendant ça va un peu global permet . 3
+10:10:000199:000199_4 : 10:10:23:453: De standardisation comme vous avez tout même endroit vous allez pouvoir appliquer facilement les mêmes Dutti . 4
+10:10:000200:000200_1 : 10:10:29:551: Genre de chose vous pouvez utiliser les mêmes d'outils de build . 1
+10:10:000201:000201_2 : 10:10:35:635: Fatiguée avec un N config qui va être le bal pour partout et c'est aussi plus simple si tu t'es maman droit de regarder ce que les autres gens font . 2
+10:10:000202:000202_3 : 10:10:47:754: Avoir aller . 3
+10:11:000203:000203_4 : 10:10:49:886: Quel code est où . 4
+10:11:000204:000204_1 : 10:10:52:784: Un des gros avantages d'avoir un dépôt unique c'est laquelle se faire un changement qui est atomique sur toutes vos . 1
+10:11:000205:000205_2 : 10:11:04:557: Et du coup aussi de garder et de préserver un état cohérent et de revenir en arrière donc vraiment historique si vous avez un dépôt différents impliqué dans un projet . 2
+10:11:000206:000206_3 : 10:11:22:674: Vous avez un moment . 3
+10:11:000207:000207_4 : 10:11:30:921: vous avez un Historique . 4
+10:11:000208:000208_1 : 10:11:33:039: Ben quand le mec il a modifié telle fonction et ben il a lancé cette est sa passé et l'état général . 1
+10:12:000209:000209_2 : 10:11:43:837: Elle aussi quand je peux dire factoring vous pouvez modifier une librairie et tous éducateur d'un seul coup . 2
+10:12:000210:000210_3 : 10:11:51:954: Fichier avec qui va rentrer en premier qui va sortir . 3
+10:12:000211:000211_4 : 10:11:56:644: Et ça aide aussi du coup tout c'que intégration continue qui peut juste prendre un dépôt vérifier que tu m'as . 4
+10:12:000212:000212_1 : 10:12:04:021: Par contre le désavantage il y a plein de choses qui augmenten parce que à la place de porter votre petite valise . 1
+10:12:000213:000213_2 : 10:12:14:743: Et dépendance vous partez une valise qui compte . 2
+10:12:000214:000214_3 : 10:12:20:637: Est-ce qu'il peut faire beaucoup de choses on pouvait avoir beaucoup de fichiers un historique et très grand dans lequel ça devient plus difficile de chercher les choses . 3
+10:12:000215:000215_4 : 10:12:30:392: Vous avez avoir un état de stockage sur votre disque qui explose . 4
+10:12:000216:000216_1 : 10:12:36:753: Je vais changer de version de . 1
+10:12:000217:000217_2 : 10:12:39:898: Météo . 2
+10:12:000218:000218_3 : 10:12:42:003: un serveur centralJe parle . 3
+10:13:000219:000219_4 : 10:12:49:135: Le plus compliqué un autre élément qui . 4
+10:13:000220:000220_1 : 10:12:53:776: Faire passer le contrôle d'accès si vous avez une . 1
+10:13:000221:000221_2 : 10:13:00:862: Le crédit que d'autres et donc les gens ont un accès limité à certains aspects du pain si vous avez plusieurs Dépôts c'est assez facile de restreindre qui accède à quoi je l'ai plus qu'un seul Dépôt ça devient plus compliqué d'avoir un dépot accessible que partiellement . 2
+10:13:000222:000222_3 : 10:13:15:557: Donc une des solutions à peu près ce problème c'est de faire le permettre de faire des clown est roi ou denaro clown Despars clown déjà l'automne . 3
+10:13:000223:000223_4 : 10:13:29:938: On les appelle pour ça on a une définition de quelles sont les fichiers nécessaires pour faire fonctionner un projet . 4
+10:13:000224:000224_1 : 10:13:41:215: quand on fait un clone Récupérer tout l'historique et tous les fichiers et . 1
+10:14:000225:000225_2 : 10:13:46:009: Que les fichiers qui nous intéresse . 2
+10:14:000226:000226_3 : 10:13:49:673: Donc d'un côté on annule tous les inconvénients dans ton a parlé avant . 3
+10:14:000227:000227_4 : 10:13:57:358: Affaire auto . 4
+10:14:000228:000228_1 : 10:14:03:487: u aussi beaucoup plus . 1
+10:14:000229:000229_0 : 10:14:04:487: N historique
+10:14:000230:000230_2 : 10:14:05:837: Et on peut . 2
+10:14:000231:000231_3 : 10:14:08:545: Une partie du dépôt ça veut dire qu'on peut recommencer installer du contrôle d'accès qui empêche . 3
+10:14:000232:000232_4 : 10:14:15:992: À pouvoir avoir un repo tu t'en reste . 4
+10:14:000233:000233_1 : 10:14:24:680: Pas avoir les inconvénients du monde Henri . 1
+10:15:000234:000234_0 : 10:14:32:798: tout en gardant les avantages C'est-à-dire que si une équipe qui est très transversale elle va pouvoir avoir tous les deux. En même temps . 2
+10:15:000235:000235_3 : 10:14:40:610: ECO tous les 14 en même temps et tout ce qui intégration continue outil test vas pouvoir aussi fonctionnel sur toute la base de code c'est simplement sans avoir accès à plusieurs dépôt et on garde aussi l'avantage de communication . 3
+10:15:000236:000236_4 : 10:14:59:693: Boris va vous faire un exemple de à quoi ça ressemble interagir avec un . 4
+10:15:000237:000237_1 : 10:15:07:564: Avec la Royal parce qu'on fait du mal . 1
+10:16:000238:000238_2 : 10:15:11:810: Comme Pierre Yves vous l'a expliqué avoir un repo c'est bien avoir un iPod plusieurs centaines de Go avec plusieurs centaines de milliers de comics un peu plus compliqué quoi prendre un exemple on va dire qu'on a un gros un gros nez . 2
+10:16:000239:000239_3 : 10:15:35:522: Envoie est-ce que vous voyez bien d'ailleurs est-ce que je peux être plus grand . 3
+10:16:000241:000241_2 : 10:15:59:607: Ta . 2
+10:16:000242:000242_3 : 10:16:05:371: Donc on voit on a 40 changements sur 40 ficiers. 3
+10:16:000243:000243_4 : 10:16:16:516: Potentiellement ça pollue 40A pour être 40 millions et avec une échelle de grandeur de taille . 4
+10:16:000244:000244_0 : 10:16:26:628: On voit que on a . beaucoup de fichiers 1
+10:16:000245:000245_2 : 10:16:32:073: Espace facile d'interagir est mainte0t on va faire un clone narro au . 2
+10:17:000246:000246_3 : 10:16:40:907: Compass l'option . 3
+10:17:000247:000247_0 : 10:16:44:024: Et on va lui dire que on veut récupérer les fichiers uniquement du projet web def .
+10:17:000248:000248_0 : 10:16:45:024: on a récupéré 3 commits 4
+10:17:000249:000249_0 : 10:17:03:476: projet 1 seul ficjhier 2
+10:17:000251:000251_1 : 10:17:21:707: Cool . 1
+10:18:000252:000252_0 : 10:17:35:993: Problème on a que 3 fichiers au lieu de 40
+10:18:000253:000253_1 : 10:17:48:118: Il va aller automatiquement le récupérer , le metter sur votre working directory. 1
+10:18:000254:000254_3 : 10:18:06:163: Il était deux fichiers . 3
+10:18:000255:000255_4 : 10:18:11:275: Afficher sur 40 minutes . 4
+10:18:000256:000256_1 : 10:18:14:327: Où on a un clone qui est beaucoup plus . 1
+10:18:000257:000257_2 : 10:18:20:101: Laurent la parole à Pierre Yves . 2
+10:18:000258:000258_3 : 10:18:24:622: Un autre problème technique qui qui fait que des solutions quand même Perforce subversion existe encore c'est le problème des pieds qui ne sont pas du code source principalement en gestion de version ovationné du code source donc . 3
+10:19:000259:000259_4 : 10:18:44:150: _du texte qui Explique un ordinateur quoi faire avec des mots . 4
+10:19:000260:000260_1 : 10:18:49:255: C'est un problème qu'on gère assez bien on s'est bien le stocker cicas non c'est bien faire des 10 explication dessus mais il y a tant de choses qui ne sont pas du code source . 1
+10:19:000261:000261_2 : 10:18:58:930: pour le quel on est moins bon ça peut être soit des données de test qui vont être binaire soin des fichiers de bureautique qui sont aussi binaire et qui . 2
+10:19:000262:000262_3 : 10:19:07:797: Le des médias des images et des vidéos tous ces choses là qu'on a besoin pour faire fonctionner une application ou un projet ou quoi que ce soit mais qui sont pas purement du code source . 3
+10:19:000263:000263_4 : 10:19:19:138: Code source . 4
+10:19:000264:000264_1 : 10:19:21:884: ils ont des proprietes différentes ce qui fait que toutes les solutions fabuleuse qu'on a mis 45 ans à mettre en place pour gérer très bien le code source elles sont pas très intéressant de voir assez inefficace là-dessus en particulier . 1
+10:19:000265:000265_2 : 10:19:35:004: bonnes chises pour la comparaison de la comparaison et du maire . 2
+10:20:000266:000266_4 : 10:19:40:032: Mais faire un diff sur une vidéo il y a des trucs qui existent mais c'est pas aussi simple et universe Application universelle que faire du indice sur du teck . 4
+10:20:000267:000267_2 : 10:20:06:063: Go et plus ça va plus c'est gros donc tout ça ça fait que . 2
+10:20:000268:000268_3 : 10:20:13:181:l Devient un est différente des fichiers sources et pose problème j'espère . 3
+10:21:000269:000269_4 : 10:20:21:572: Fais-moi un problème sur la génération d'avant avec des thèmes centralisée parce que le stockage gta au niveau du serveur les échanges été relativement simple et du coup on pouvait se permettre plus facilement de prendre des gros fichiers binaires elle et je te . 4
+10:21:000270:000270_1 : 10:20:38:703: Rentre dans une version décentralisée comme dit-on Mercurial on a tout l'historique en local donc quand on est en train de faire un clown et qu'on récupère conversion d'une vidéo qui fait 10 Go c'est quand même relativement inefficace . 1
+10:21:000271:000271_2 : 10:20:57:832: Il y a certaines choses qu'on a été faite avec le temps pour gérer genre de choses soient des gestionnaires d'artefacts dédié qui vont gérer . 2
+10:21:000272:000272_3 : 10:21:08:637: Direction intégré dans . 3
+10:21:000273:000273_4 : 10:21:13:010: Une collaboration à ses portes avec le thème de Bill qui va voir des caches des choses comme ça mais qui sont pas . 4
+10:21:000274:000274_1 : 10:21:18:932: Ou des solutions directement donc soit avec les . 1
+10:21:000275:000275_0 : 10:21:24:055: Plus vachement se permettre de mettre n'importe quoi dans le même sac posé comme des problèmes divers solution. Avec le temps .mercurial ou git 2
+10:22:000276:000276_3 : 10:21:34:286: Un guide de j'en ai d'autre en tête mercredi allitération avant d'arriver actuelle le standard à peu près de nos jours c'est git LFS qui était lancée il y a à peu près 5 ans . 3
+10:22:000277:000277_4 : 10:21:52:407: EDF des définition qui sont extensible . 4
+10:22:000278:000278_1 : 10:21:57:596: Je pars d'autres projets qui ont besoin de faire des choses . 1
+10:22:000279:000279_2 : 10:22:04:330: Et à la fois définition et le protocole réseau et standard . 2
+10:22:000280:000280_3 : 10:22:09:819: La Plaza voir au monde un peu une solution dans l'entreprise et son garçon qui fait des trucs il y a un vrai Standard est implémenté par une dizaine de fde serveur differe 10 . 3
+10:22:000281:000281_4 : 10:22:20:151: EBay que on peut effectivement c'est . 4
+10:22:000282:000282_1 : 10:22:24:151: La dernière itération de la . 1
+10:22:000283:000283_2 : 10:22:31:790: Et comment on a fait un peu après on peut avoir une meilleure impl"mentation à . 2
+10:22:000284:000284_3 : 10:22:40:724: Je vais laisser la parole à Maurice pour vous montrer à quoi ça ressemble . 3
+10:23:000285:000285_4 : 10:22:47:336: Merci Pierre-Yves . 4
+10:23:000286:000286_1 : 10:22:50:454: Donc on _a un repo avec des données propriétaire . 1
+10:23:000287:000287_2 : 10:22:59:412: Un clone est là dans son lit pour un cheat unlock et du texte ASCII binaire qui fait 10 Mo est arrivé . 2
+10:23:000288:000288_3 : 10:23:10:548: Elle a un petit historique . 3
+10:23:000289:000289_4 : 10:23:15:676: Séminaire une fois une fois une fois une fois et du coup avec les laisser à ta gueule à la fois git é-mail par défaut et elle va stocker les copies de chacune de ces révisions . 4
+10:23:000290:000290_1 : 10:23:30:192: Du coup ça rend le Repo bâtiment . 1
+10:23:000291:000291_2 : 10:23:36:308: Parce que comme Pierre-Yves l'a dit on peut pas faire de DIF on peut pas faire de ****** . 2
+10:23:000292:000292_3 : 10:23:41:916: Malheureusement elle connaît pas de solution mieux donc elle va juste pousser ses . 3
+10:24:000293:000293_4 : 10:23:51:309: Sur un serveur . 4
+10:24:000294:000294_0 : 10:23:54:486: Envoyez 17 Mega ca prend du tem
+10:24:000295:000295_2 : 10:23:57:826: J'ai des fichiers de plusieurs centaines de méga voir des plusieurs j'ai . 2
+10:24:000296:000296_0 : 10:24:03:058: Collègue Bob qui connaît lui des solutions
+10:24:000297:000297_3 : 10:24:04:058: un chouia lent. 3
+10:24:000298:000298_1 : 10:24:20:106: Espace où il y a que trois 37 c'est ça serait gros . 1
+10:24:000299:000299_0 : 10:24:35:417: Parce qu'il est mineur
+10:24:000300:000300_3 : 10:24:36:417: ana t binaire mainte . 3
+10:25:000301:000301_0 : 10:24:37:417: LFS
+10:25:000302:000302_4 : 10:24:41:520: Donc il décide d'ajouter la conf nécessaire . 4
+10:25:000303:000303_1 : 10:24:49:134: là quand nécessaire à la sphère solaire . 1
+10:25:000304:000304_2 : 10:24:55:257: Attention par taille d'une part d'autre ici . 2
+10:25:000305:000305_3 : 10:25:04:769: Donc il va . 3
+10:25:000306:000306_4 : 10:25:10:161: Configuration . 4
+10:25:000307:000307_1 : 10:25:12:198: Le committer . 1
+10:25:000308:000308_2 : 10:25:15:336: Le pousser . 2
+10:25:000309:000309_4 : 10:25:20:627: Elias un collègue . 4
+10:25:000310:000310_1 : 10:25:24:874: Poulet . 1
+10:25:000311:000311_2 : 10:25:27:997: Une fois qu'elle va ajouter des gros fichiers Sanary . 2
+10:25:000312:000312_3 : 10:25:33:465: Vas-y c'est dommage on vient de commencer on a déjà 17 Mo de données dans le serveur . 3
+10:25:000313:000313_4 : 10:25:40:586: Et c'est là où hg implémente le problème . 4
+10:26:000314:000314_1 : 10:25:46:302: Convertir . 1
+10:26:000315:000315_2 : 10:25:50:529: En gardant le même âge . 2
+10:26:000316:000316_3 : 10:25:54:726: On a . 3
+10:26:000317:000317_4 : 10:26:00:841: Kb9 f82 peu près . 4
+10:26:000318:000318_1 : 10:26:05:701: Si . 1
+10:26:000320:000320_4 : 10:26:19:488: Que le chose on écrit avant on va convertis . 4
+10:26:000321:000321_1 : 10:26:27:604: Il va passer sur Salins comique et quand on regarde . 1
+10:26:000322:000322_2 : 10:26:32:789: notre repo convertir . 2
+10:27:000323:000323_3 : 10:26:35:666: DAB ne fasse 82 . 3
+10:27:000324:000324_4 : 10:26:39:821: Là on a exactement le même âge . 4
+10:27:000325:000325_3 : 10:26:56:787: nouveau collegue Charlie . 3
+10:27:000326:000326_4 : 10:27:01:340: Le Ripault combien de partir avec . 4
+10:27:000327:000327_1 : 10:27:08:649: 507 ok c'est normal . 1
+10:28:000328:000328_2 : 10:27:14:273: C'est vachement moins de 17 Mo c'est un peu et mainte0t si il se met à jour sur la tête . 2
+10:28:000329:000329_3 : 10:27:24:900: LFS va télécharger automatiquement lautner valise savoir si Directory Eva le stocker . 3
+10:28:000330:000330_4 : 10:28:07:731: Tu nous préviens que d'habitude quand on ajoute un gros un gros fichier bah ça prend la place et ça prend la mémoire . 4
+10:28:000331:000331_2 : 10:28:27:064: À 10 ans qu'on va voir . 2
+10:28:000332:000332_3 : 10:28:31:355: Qui dit que le fichier de 20 Mo . 3
+10:28:000333:000333_4 : 10:28:36:842: Qui est généralement sur des . 4
+10:28:000334:000334_1 : 10:28:42:225: disques dédiSSD une application . 1
+10:29:000335:000335_2 : 10:28:46:506: C'est vachement plus efficace pour distribuer des gros fichiers . 2
+10:29:000336:000336_4 : 10:28:52:643: Je disais que les has changer qu'est-ce que ça fait que Léa shampoing c'est qu'on a déjà des clones . 4
+10:29:000337:000337_1 : 10:28:59:582: Avec alice et Bob et comme . 1
+10:29:000338:000338_2 : 10:29:04:698: Faire que l'historique n'a pas été réussi alors qu'en avez-vous fait votre conversion . 2
+10:29:000339:000339_3 : 10:29:12:811: Stationnement là-bas . 3
+10:29:000340:000340_4 : 10:29:19:177: so demande à Bob Et on . 4
+10:29:000341:000341_1 : 10:29:24:058: Note x le monde était vachement vraiment différente Alice a uniquement les trois premières la vision du Fou un fichier pub à être propre . 1
+10:29:000342:000342_2 : 10:29:35:880: Esalia uniquement la dernière . 2
+10:29:000343:000343_3 : 10:29:40:525: Certains . 3
+10:30:000344:000344_4 : 10:29:46:610: Fichier binaire . 4
+10:30:000345:000345_1 : 10:29:49:787: Rendez-vous globalement toute opération plus rapide . 1
+10:30:000346:000346_0 : 10:29:55:575: Le tuer d'après qui donne des contraintes au niveau gestion de version c'est tout ce qui est performance ce que même sans aller chercher très loin l'épreuve de performance quand on s'occupe de simulation finissent toujours pas arrivé. De raison assez simple qui est que le temps va toujours dans un sens donc plus à vin
+10:31:000347:000347_3 : 10:30:23:690: Vous avez aussi un projet qui devient de plus en plus grand et de plus en plus gens qui travaille sur un projet même sans avoir plus de gens qui travaillent sur le projet si vous êtes trop à travailler sur un projet vous faites 30 commits par semaine et ben le nom de la continuer de grandir avec le temps et vous vous allez finir par avoir de problème de . 3
+10:31:000348:000348_4 : 10:30:44:997: Si vous êtes petits ils arriveront vraiment lentement mais il y a ce côté comme mon ange et de l'historique le problème sur lequel on travaille et toujours de en grand. 4
+10:31:000349:000349_1 : 10:30:58:416: Quoi qu'il arrive la seule manière que ça arrête de grandir c'est que le projet s'arrête que la boîte cool que les gens par faire autre chose mais c'est pas forcément des choses à Paris . 1
+10:31:000350:000350_2 : 10:31:11:629: C 1 vaste sujet donc on va passer assez rapidement dessus mais il y a un sens de problème qui sont plus ou moins bien résolu dans la BBC à l'autre par exemple la capacité d'avoir plusieurs serveurs qui . 2
+10:31:000351:000351_3 : 10:31:25:754: Faire du caramel si vous pouvez faire ça vous allez avoir des capacités de redondance savoir qui tombe continuer à servir vous pouvez passer à l'échelle parce que si vous avez 3 serveurs. 3
+10:32:000352:000352_4 : 10:31:39:621: Plus de gens que si vous n'avez qu'un seul c'est l'heure de choses une autre manière de passer à l'échelle c'est de réussir à cacher des données donc quand les gens demande d'information d'historique un peu à la manière de la les fesses on peut . 4
+10:32:000353:000353_1 : 10:31:54:304: Un café près distribuer pour que à la fois le serveur est pas besoin de faire de calcul pour fichier et aussi pour qu'il soit servi de manière plus local . 1
+10:32:000354:000354_2 : 10:32:05:425: Parce que . 2
+10:32:000355:000355_3 : 10:32:07:536: Quartier des choses différentes réussir à savoir . 3
+10:32:000356:000356_4 : 10:32:13:158: Ça reste des problèmes qui refuse - résolu DBSS à l'autre et qui sont plus ou moins sans fin aussi . 4
+10:32:000357:000357_1 : 10:32:22:495: Des choses purement local est-ce que vous pouvez réussir à avoir à travailler . 1
+10:33:000358:000358_2 : 10:32:29:357: Mais du même projet sans avoir besoin d'avoir le même clown chez les grands il y a pleins d'Aspe qui vont être un peu un peu à creuser pour pour chaque heure de version un autre aspect en plus de juste . 2
+10:33:000359:000359_3 : 10:32:46:475: Il y a pûrement des amis ration d'algorithme qui des fois son nouvel et des fois sont pas nouvelle un exemple rigolo CVT mercurial une commande qui s'appelle annotate qui on appelle souvent blingee qui permet de savoir . 3
+10:33:000360:000360_4 : 10:33:03:573: Recette a introduit quelle ligne de quel fichier donc qui a fait quel changement . 4
+10:33:000361:000361_1 : 10:33:09:216: Déjà rien que pour exploitation de base chez git regarder l'historique de ce fichier dans mozilla cdiscount alors que dans mercredi c'est 7 secondes et demi parce que l'implantation est un peu différent donc elle a de la marge mais en fait quand mercurial s'est mis à utiliser une astuce de stockage qui améliore son particulier qui existait déjà dans . 1
+10:34:000362:000362_2 : 10:33:37:325: Qui a 45 ans et ben on va prendre plus vite que qu'est-ce qui se faire donc d'un côté il y a plein de solutions avec existe ou qui sont inventé mais qui sont jamais tout même endroit c'est aussi pour ça . 2
+10:34:000363:000363_3 : 10:33:50:313: Une autre manière de passer à l'échelle dans des dans des cas . 3
+10:34:000364:000364_4 : 10:33:59:423: On appelle la télé mega réponse qui avoir chez google facebook mais même bah ça côtés déjà chez Mozilla plus petit mais classement Grand . 4
+10:34:000365:000365_1 : 10:34:10:562: collaboration avec le Noyau du système donc le premier niveau C à la place de parc le système de fichier voir ce qui a changé . 1
+10:34:000366:000366_2 : 10:34:18:338: Excusez-nous est-ce que ce fichier modifié quand est-ce que gagné par le temps mais quelque chose qui a été fait dans toutes les grosses boîtes à la place de . 2
+10:34:000367:000367_3 : 10:34:32:239: Cichlidés futur . 3
+10:34:000368:000368_4 : 10:34:34:852: Tout le monde a fini par bouger sur un siège fr de version qui est le système de fichier . 4
+10:34:000369:000369_1 : 10:34:42:955: Comment et quand vous demander un fichier ça va directement les stocker demander dans ce cas je vais faire de . 1
+10:35:000370:000370_2 : 10:34:50:241: en pasant par le noyau . 2
+10:35:000371:000371_3 : 10:34:52:355: À l'envers quand vous écrivez une nouvelle version le chien de version est déjà au courant que celui-ci a été modifié que potentiellement faudra faire enregistrer . 3
+10:35:000372:000372_4 : 10:35:03:474: Sous la Manche donc là c'est une solution qui a été fait j'ai google avec des technologies qui sont interne qui était facebook avec des technologies et microsoft . 4
+10:35:000373:000373_1 : 10:35:17:591: Mais c'est vraiment quelque chose ou tout le monde finit par y arriver par . 1
+10:35:000374:000374_2 : 10:35:23:665: Un peu là où tout le monde va . 2
+10:35:000375:000375_0 : 10:35:24:665: Mais peut-être que vous en aurez besoin dans 5 ans et que ça va très mature dans 5 ans mais c'est le genre de chose . que vous finir3
+10:35:000376:000376_4 : 10:35:25:665: Divisé par le mange . 4
+10:35:000377:000377_0 : 10:35:26:665: Er par utilise
+10:35:000378:000378_1 : 10:35:37:303: Une autre manière de gérer les problèmes de batterie ciel 700 degrés avec d'autres outils . 1
+10:35:000379:000379_2 : 10:35:46:425: Peter bukkit la . 2
+10:36:000380:000380_4 : 10:35:49:578: À la place . 4
+10:36:000381:000381_1 : 10:35:52:833: Arrête de faire un certain nombre d'opérations que vous allez pouvoir faire sans directement passer par devant soi faire des modification d'un fichier assez facilement directement en ligne ou accepter des changements qui vont du coup avec directement ligne des choses . 1
+10:36:000382:000382_2 : 10:36:11:969: Si vous passez par un autre outil 7 autres outils pour lui gérer les problèmes de latence ou des problèmes d'orchestration de quand est-ce que l'opération va être fait donc c'est aussi un facteur assez intéressant pour réussir à passer à l'échelle et on se retrouve avoir une intégration à ses portes du gel avec d'autres outils qui devient . 2
+10:36:000383:000383_3 : 10:36:33:625: En plus des problèmes purement technique . 3
+10:36:000384:000384_0 : 10:36:40:895: On a passé simple expliquer il y a aussi toute l'évolution du processus .de dev 4
+10:37:000385:000385_1 : 10:36:48:005: Le plus la même manière . 1
+10:37:000386:000386_2 : 10:36:53:129: Invitation pour changer beaucoup de choses mais rien que simplement internet ce genre de chose . 2
+10:37:000387:000387_0 : 10:36:54:129: tests intégration continue 3
+10:37:000388:000388_2 : 10:37:24:051: Écoute n'existais pas apparemment . 2
+10:37:000389:000389_0 : 10:37:28:824: Bâtiment standard . revue de code3
+10:37:000390:000390_4 : 10:37:34:699: Et ben simply que ça implique que le Cher de version . 4
+10:37:000391:000391_1 : 10:37:40:844: Essaie de faire . 1
+10:37:000392:000392_2 : 10:37:45:038: Passer le formatage automatique du code . 2
+10:38:000393:000393_3 : 10:37:49:448: Et qui est pas encore complètement st . 3
+10:38:000394:000394_4 : 10:37:55:570: Impaction de . 4
+10:38:000395:000395_1 : 10:37:58:436: Collaborer avec d'autres outils soit . 1
+10:38:000396:000396_2 : 10:38:03:714: Alizée dans genre de situation . 2
+10:38:000397:000397_3 : 10:38:06:828: Le formatage automatique de code c'est une manière d'avoir un outil qui vous dit ouais . 3
+10:38:000398:000398_4 : 10:38:15:544: ou mettre espace Violetta . 4
+10:38:000399:000399_1 : 10:38:19:657: La même chose . 1
+10:38:000400:000400_2 : 10:38:26:155: Les . 2
+10:38:000401:000401_3 : 10:38:30:273: Un autre côté ça ressemble . 3
+10:38:000402:000402_4 : 10:38:33:920: Un espace après . 4
+10:38:000403:000403_1 : 10:38:41:041: Bonne avancée . 1
+10:39:000404:000404_2 : 10:38:47:859: Il y a des langages rrecents du poumon intégrer directement dans la . 2
+10:39:000405:000405_3 : 10:38:52:175: Et puis il y a des outils qui parle de l'appliquer à des anciens et . 3
+10:39:000406:000406_4 : 10:39:01:448: black récemment sorti . 4
+10:39:000407:000407_1 : 10:39:06:586: Donc c'est une bonne amélioration . 1
+10:39:000408:000408_2 : 10:39:10:092: Réveil qui viennent mais ça fait des frictions parce que le pharmacie du Code ça veut dire quoi tous les fichiers à peu près n'importe quelle ligne partout . 2
+10:39:000409:000409_3 : 10:39:21:785: Elle est déjà LAFA vous le faites c'est un problème parce que les gens du travail . 3
+10:39:000410:000410_4 : 10:39:32:902: Et en plus nautique sur ma clé code . 4
+10:40:000411:000411_1 : 10:39:39:416: Aller sur le Nautica de la nouvelle version . 1
+10:40:000413:000413_2 : 10:39:45:524: Est-ce que il est configurable vous avez décidé que en fait . 2
+10:40:000414:000414_0 : 10:39:51:656: modifications énormes
+10:40:000415:000415_4 : 10:40:00:782: Envoyer sur le . 4
+10:40:000416:000416_1 : 10:40:04:843: Requin . 1
+10:40:000417:000417_2 : 10:40:08:362: Collabore avec amateur de Cannes ça simplifie beaucoup l'adoption de choses et . 2
+10:40:000418:000418_3 : 10:40:17:474: Dans le cas une extension Mercurial qui va aider à . 3
+10:40:000419:000419_4 : 10:40:25:129: Mercier effectivement partage de code s'est bien voir les mêmes avant-hier avec certains d'entre vous qui sont un peu réticent à laisser un outil choisir et au-delà de ce pas psy il y a u. 4
+10:40:000420:000420_1 : 10:40:41:241: Faire pour . 1
+10:41:000421:000421_2 : 10:40:47:564: Donc si on prend . 2
+10:41:000422:000422_0 : 10:40:52:663: On voit [d
+10:41:000423:000423_0 : 10:41:08:944: Mémo . demo en lice
+10:41:000424:000424_2 : 10:41:17:785: Donc je dis des beaux . 2
+10:41:000425:000425_3 : 10:41:23:430: Avec un fichier . 3
+10:41:000426:000426_4 : 10:41:27:214: Ce fichier c'est du Python . 4
+10:41:000427:000427_1 : 10:41:31:222: On va . 1 changement
+10:41:000428:000428_2 : 10:41:42:358: Créer un Claude . 2
+10:41:000429:000429_3 : 10:41:46:087: Est-ce que comme ça on est sûr . 3
+10:42:000430:000430_4 : 10:41:50:170: Fermer correctement . 4
+10:42:000431:000431_1 : 10:41:54:279: Trouve-moi un simple . 1
+10:42:000432:000432_0 : 10:41:58:177: il manquait des
+10:42:000434:000434_3 : 10:42:03:293: Les allocations . 3
+10:42:000435:000435_4 : 10:42:08:428: Qui Agricole . 4
+10:42:000436:000436_1 : 10:42:10:280: Donc on va comiter le fix . 1
+10:42:000437:000437_2 : 10:42:15:393: Brancher à quelqu'un d'autre . 2
+10:42:000438:000438_3 : 10:42:24:801: Décidé de . 3
+10:42:000439:000439_4 : 10:42:27:938: Formater le fichier python . 4
+10:42:000440:000440_1 : 10:42:30:779: Il va dire . 1
+10:42:000441:000441_2 : 10:42:32:641: Des blagues quand on black bien il va dire que ben on va rater tous les fichier python . 2
+10:43:000442:000442_3 : 10:42:42:074: Crée sa configuration sa configuration . 3
+10:43:000443:000443_4 : 10:42:51:609: Donc va sauvegarder un fichier dans le répertoire donc ça c'est équivalent après comme utiliser lire Hippolyte et en plus va fixer . 4
+10:43:000444:000444_1 : 10:43:04:723: Passé simple . 1
+10:43:000445:000445_2 : 10:43:10:526: Ce serait bien mais le problème c'est que du coup on a deux tête et qu'un moment faut les mers G7 donc si on fait un maire de Nice . 2
+10:43:000446:000446_3 : 10:43:21:562: Aller à qui vend un autre extension qu'il a bien . 3
+10:43:000447:000447_4 : 10:43:26:671: Faire passer . 4
+10:43:000448:000448_1 : 10:43:28:787: Mais là c'est qu'on est en conflit parce que forcément . 1
+10:44:000449:000449_2 : 10:43:33:567: Ça peut pas marcher . 2
+10:44:000450:000450_3 : 10:43:37:996: Et qu'est-ce que fait l'extension qu'on a développé justement pour Mercurol c'est que il va quand il y a un conflit de merge et apprendre C2 fiche . 3
+10:44:000451:000451_1 : 10:43:59:103: Viens de voir il y a pas eu de conflit tant mieux . 1
+10:44:000452:000452_2 : 10:44:04:230: Et si on regarde notre . 2
+10:44:000453:000453_3 : 10:44:10:027: Résultat on a bien le nouveau code qui est lui aussi directement dans . 3
+10:44:000454:000454_4 : 10:44:18:968: On formate . 4
+10:44:000455:000455_2 : 10:44:31:069: Un problème retirer rapidement des vous mettez loto pharmatic . 2
+10:45:000456:000456_3 : 10:44:39:177: Oh merci mon boss activement dessus on dit j'imagine qu'il doit y avoir des efforts dessus mais j'ai rien vu de aussi . 3
+10:45:000457:000457_4 : 10:44:48:843: Donc là on vient de voir une solution technique à un problème technique qui vient avec un changement de . 4
+10:45:000458:000458_1 : 10:45:02:738: Bien aussi des problèmes plus philosophiques qui vont avec des questions philosophiques du . 1
+10:45:000459:000459_2 : 10:45:11:855: Développement . 2
+10:45:000461:000461_3 : 10:45:14:975: Donc la revue de code c'est bien parce que de manière simple sa trace de Lognes mais ça fait pas que attraper de bug donc relire le code de code ça permet de brasser les compétences dans votre équipe que si les gens regardent le même code ils vont discuter . 3
+10:45:000462:000462_4 : 10:45:34:107: Échanger des techniques . 4
+10:45:000463:000463_1 : 10:45:39:222: La base de quad parce que la place d'avoir une seule personne qui a écrit du code . 1
+10:46:000464:000464_2 : 10:45:44:800: Nombre de personnes qui ont gardé ou trois en fonction . 2
+10:46:000465:000465_4 : 10:46:03:699: Pour laisser votre propre au cas où le pain est relié le code de vos collègues si vous . 4
+10:46:000466:000466_1 : 10:46:11:950: Après la rue Claudia plusieurs manières de le faire . 1
+10:46:000467:000467_2 : 10:46:17:064: Méthode qui est très populaire actuellement en particulier à cause de github c'est de mettre tous les choses ensemble et de regarder tout d'un coup et de dire que ça a l'air bon et puis voilà . 2
+10:46:000468:000468_3 : 10:46:29:560: personnellement j'Applique une technique plutôt basé sur une pile de petits changements qui vont petit à petit aller vers le but final en essayant de séparer les refactoring des changements réel . 3
+10:47:000469:000469_4 : 10:46:42:774: Plus simple à comprendre et plus simple à lire pour . 4
+10:47:000470:000470_0 : 10:46:47:458: Moi j'aime bien mais je suis pas le seul au final les gens de google france les gens du ionique France a legend facebook. font ca . 1
+10:47:000471:000471_2 : 10:46:58:764: Il y a pas longtemps quand même une bonne idée là-dedans . 2
+10:47:000472:000472_0 : 10:47:05:798: En particulier aussi c'est par exemple le début de nettoyage les et bien on peut le prendre et puis on verra les parties compliqué plus tard et pour réussir à bien marcher il faut avoir une bonne intégration qui permet de facilement créer ses petites unités et facilement les manipuler les modifiez ce genre de chose donc
+10:47:000473:000473_0 : 10:47:31:919: Il faut que l'outil . supporte bien ce qu
+10:47:000474:000474_1 : 10:47:35:057: Est-ce que si bon ok ça a l'air bien mais en . 1
+10:48:000475:000475_2 : 10:47:40:649: On va quand même mutine technique . 2
+10:48:000476:000476_3 : 10:47:45:771: Donc là vous donnez un exemple de faire défiler avec des angles de quand est-ce que c'est plutôt . 3
+10:48:000477:000477_4 : 10:47:56:901: Tabulation donc on a un repo et on a une future branche . 4
+10:48:000478:000478_1 : 10:48:03:558: Et on a . 1
+10:48:000479:000479_2 : 10:48:07:11vue qui est limité sur la future branche à quel endroit . 2
+10:48:000480:000480_0 : 10:48:13:194: Avec cette approche c'est que on peut du coup . facilement3
+11:01:000481:000481_1 : 10:58:19:621: On va passer aux questions . 1
+11:01:000482:000482_2 : 10:58:25:379: Prendra pas de question . 2
+
+11:01:000682:000482_3 : --------
+11:01:000982:000482_4 : Rechargement du document
+Déployer des applications python dans un cluster openshift  Arthur Lutz
+
+11:04:000491:000491_1 : 11:03:39:218: Bonjour à tous bienvenue et bon début depuis qu'on a tous . 1
+11:04:000492:000492_2 : 11:03:50:343: Ça a l'air de salaire de super bien se passer . 2
+11:04:000493:000493_3 : 11:03:56:472: Donc aujourd'hui je viens vous présenter pardon pour les poches up . 3
+11:04:000494:000494_4 : 11:04:04:618: Monter une petite introduction . 4
+11:04:000495:000495_1 : 11:04:08:055: Et notamment sous l'ongle de comment faire tourner du Python n'a aucune si on va prendre des applications web com com exemple . 1
+11:04:000496:000496_2 : 11:04:19:176: J'ai vraiment introductif . 2
+11:05:000497:000497_1 : 11:04:40:362: Pour commencer du coup je me présente je m'appelle Arthur lieu de travail pour une cité qui s'appelle logilab vous pouvez me suivre sur Twitter sur Massy voulais . 1
+11:05:000498:000498_2 : 11:04:57:493: Alogie la bon on est une société de prestation de service sur logiciel libre on est spécialisée sur le logiciel libre . 2
+11:06:000499:000499_4 : 11:05:34:749: Avertissement présenter openShift si vous êtes amené à vouloir pousser vos applications vers orchestrateur de conteneurs type . 4
+11:06:000500:000500_1 : 11:05:48:874: Mémo d'avertissement essaie de pas brûler les étapes . 1
+11:06:000501:000501_2 : 11:05:52:993: J'étais tombé sur une documentation qui reprenait ce principe là je l'ai pas retrouvé la pour la presse je te rende dire c'est une courbe d'apprentissage qui est assez long is it a commencé ment par la base faire du docteur tout seul ensuite . 2
+11:06:000502:000502_3 : 11:06:07:110: Compose pour coordonnées plusieurs services qui tourne à l'intérieur du docteur regarder des choses comme docker swarm Corrèze Rangers exetera éventuellement du coup regarde openShift et puis c'est un peu la question que je pose dans cette présentation . 3
+11:07:000503:000503_4 : 11:06:27:238: Chips et est-ce que ça nous permet d'appréhender de mieux comprendre tu viens et s pour éventuellement passer à cette étape là j'ai pas du tout de . 4
+11:07:000504:000504_2 : 11:06:49:606: Qu'est-ce que c'est alors mainte0t ça s'appelle au cadet on rentre le moment présent au sujet de la présentation et aujourd'hui ils ont changé de nom donc mainte0t s'appelle au cadet qui est qui pour faire je pense sortir un petit peu le fait ça soit une distribution pars de Super NES et donc du coup le pitch sur leur page d'accueil intéressant de prendre ces descriptions qui tiennent . 2
+11:07:000505:000505_3 : 11:07:18:724: Pour pour voir ce que c'est ce que c'est donc c'est ce qu'ils disent que c'est une distribution de/ arriere train /Bernet est-ce qui est optimisé pour la livraison continuer d'application en mode multi tes notes et que ça ajoute de l'outillage orienter pour le développeur et pour les et pour la mainte0ce opérationnel non plutôt le profil sysadmin pour faciliter un déploiement rap . 3
+11:08:000506:000506_4 : 11:07:45:845: D'application faciliter le développement . 4
+11:08:000507:000507_1 : 11:07:49:976: Ils ont continue et . 1
+11:08:000508:000508_2 : 11:07:53:091: Quel de ces applications après une histoire de mainte0ce à long terme ha ha plus facilement suis vraiment . 2
+11:08:000509:000509_3 : 11:08:03:204: Faire des modifications exetera et une des choses qui m'intéresse particulièrement sur sur openShift c'est la notion de . 3
+11:08:000510:000510_4 : 11:08:15:317: Ma puce en plus en fait ça des acronymes un peu barbare pour par exemple l'utilisateur . 4
+11:08:000511:000511_1 : 11:08:25:435: Important de focaliser sur l'utilisateur ski . 1
+11:09:000512:000512_4 : 11:08:54:625: Qu'est-ce qu'il y a comme fonctionnalités dans dans Open shift . 4
+11:09:000513:000513_1 : 11:09:01:743: On va avoir une interface où est par-dessus Pernette s a aussi des interface web ils ont des dashboard exetera une des choses qui ne fait pas longtemps que je faisais spécialité . 1
+11:10:000514:000514_2 : 11:09:16:858: Très bien pour ça l'idée en fait quand on a commencé à faire du cumin et s c'était . 2
+11:10:000515:000515_3 : 11:09:24:977: Les secrets les machins une terminologie qui vient avec pas forcément très compréhensible et je trouvais que quand on comparer avec openShift l'éther mettez un peu plus proche de notre culture et voilà on n'en peux plus de facilité allez comprendre donc du coup il y a des outils pour les développeurs si on va le voir on va le voir dans la démo on a des magazines de sécurité . 3
+11:10:000516:000516_4 : 11:09:49:094: Supplémentaire 11h on va voir souvent en fait on a besoin de les connaître généralement pour les désactive au début pour dire recommencer à livrer désactiver . 4
+11:11:000517:000517_3 : 11:10:47:492: Recréer il y a des il y a des stratégies de aimer testing Exeter une des choses qui est aussi hyper intéressant de mon point de vue . 3
+11:11:000518:000518_4 : 11:10:58:618: En 2015 j'étais à Pau j'ai une presse sur les chèques déteste les tests fonctionnels en production . 4
+11:11:000519:000519_1 : 11:11:09:740: On commence à avoir vraiment on voit apparaître de manière précablé cette notion de de la Piat qu'on va dire - le chèque c'est elle c'est elle Test il faut taper sur tel URL il faut que tu Éluard elle se comporte de telles manières il tempo ouvert Exeter dans . 1
+11:11:000520:000520_2 : 11:11:29:870: Il appelle le ReadyNAS prouve et le Live 9 pro . 2
+11:12:000521:000521_3 : 11:11:34:998: Il y a des choses qui s'exécute de dent exetera et le live nas propre c'est vraiment un test de service ta dire . 3
+11:12:000522:000522_4 : 11:11:45:113: Mais par exemple a réussi à se connecter à la base de données et elle peut renvoyer des pages Web . 4
+11:12:000523:000523_1 : 11:11:51:238: Intéressant là-dedans c'est aussi justement dans cette culture du DevOps les interfaces à ce qui peut se faire entre les lèves et les autres c'est-à-dire que mon livre prof pas une boîte noire rose opérationnel qui savent pas ce qui tourne dans on a une spécification qui peut qui peut être faite sur ce qu'il y a dedans . 1
+11:12:000524:000524_3 : 11:12:23:515: Si voulais faire du openShift on va voir que des choses qui vont pied c'est la distraction . 3
+11:13:000525:000525_4 : 11:12:30:634: On peut on peut virer des machines . 4
+11:13:000526:000526_2 : 11:12:50:886: Un cluster openShift dans ce lieu dans une machine virtuelle donc là c'est ce qu'on va utiliser pour pour les démo j'ai un cluster . 2
+11:13:000527:000527_3 : 11:12:59:002: Dominici petite . 3
+11:14:000528:000528_4 : 11:13:04:142: Une des choses donc ça je sais pas si ça si si vous avez commencé à faire du docteur que vous avez peut-être rencontrer une des discuter quand on commence à mettre de cœur dans la main des développeurs c voilà le . 4
+11:14:000529:000529_4 : 11:14:22:609: VAD URL en fait donc . 4
+11:15:000530:000530_2 : 11:14:37:839: D'avoir des URL c'est pas juste pour un truc joli c'est aussi parce que dans une équipe je peux dire ah bah voilà service il y a un truc bizarre dans les log . 2
+11:15:000531:000531_3 : 11:14:47:955: Car elle . 3
+11:15:000532:000532_4 : 11:14:50:070: 2 rue du Rhône et je l'envoie un collègue qu'est-ce que tu en penses exetera c'est un concept retrouve dans des systèmes comme pour la collectore . 4
+11:16:000533:000533_1 : 11:15:01:191: Après ressemblance et des tâches d'administration il y a vraiment cette notion de partage plutôt que de lancer des choses en terminale ES faire un copier coller une copie d'écran exetera on a tous dans navigateur les trucs sont stockés on peut les partager facilement avec avec les gens avec . 1
+11:16:000534:000534_2 : 11:15:16:914: Une des choses donc juste pour vous montrer un peu la tête de l'interface web donc là j'ai Gemini shift kaki lancer je retourne sur la page d'accueil . 2
+11:16:000535:000535_3 : 11:15:34:051: On a une notion de ski appelle le multi-te0t tu vas donc on a les différents projets donc là je peux faire un projet concert 2018 par exemple et puis voilà je peux j'ai à l'intérieur de ce projet un certain nombre de choses donc on a passé visible on a des applications des images ce genre de chose tout à l'heure je vous montrer . 3
+11:16:000536:000536_4 : 11:16:02:176: Non . 4
+11:16:000537:000537_1 : 11:16:05:147: OpenShift dans le cas de Python qu'est-ce qui est intéressant du pain . 1
+11:17:000538:000538_0 : 11:16:13:093: Dans l'écosystème openShift est une des choses qui nous nous intéresser cette notion de est une image
+11:17:000539:000539_3 : 11:16:25:242: Quand vous lancez openShift et que vous voulez lancer une nouvelle application . 3
+11:18:000540:000540_0 : 11:16:59:619: On est copains avec les ondes octobus on aimerait bien qu'on ne pouvoir faire du Mercurial mais voilà c'est ça fait pas partie des options aujourd'hui openShift mets et donc du coup on va pouvoir dire moi je sais un projet Python et donc du coup je vais pouvoir. Tu es sur un dépôt dans lequel son contenu l'ensemble des informations qui permettent de lancer ce projet . 1
+11:18:000541:000541_3 : 11:17:47:671: Oui bah si sur son texte arabe c'est ça peut se dire si tel est pas forcément source de qualité et donc là ce qui est intéressant c'est qui a une . 3
+11:18:000542:000542_4 : 11:17:59:820: Basée sur . 4
+11:19:000543:000543_1 : 11:18:02:939: Un projet pour pouvoir installer un projet Python on se base sur une île de dépendance donc du coup il va installer ces choses-là et ensuite il va faire du W . 1
+11:19:000544:000544_3 : 11:18:28:189: Ça tout ça c'est configurable au niveau du build mais aussi au niveau du Rhône donc au niveau du Beal c on va à construire une image et on va pouvoir variabiliser à ce moment-là donc voir des fissures flag' par exemple qui sont pris en compte au niveau du bidon à pouvoir faire des optimisations mais aussi au niveau du Rhône . 3
+11:19:000545:000545_0 : 11:19:02:439: L'avènement qui vous permet d'augmenter le verbe JTD log. La mer déploie l'application avec ses nouvelle variable et salle lance-moi pour avoir du Python 3 5 4 3 3 et 2. Cette . 1
+11:19:000546:000546_2 : 11:19:21:567: Donc du coup pour vous montrer un peu comment ça fonctionne on va prendre l'exemple de de django a des gens qui connaissent pas du tout . 2
+11:19:000547:000547_3 : 11:19:31:699: Donc ici on a une application Python de base non on va tricher un peu juste pour faciliter la tâche on va dire veux installer du Django avec du pot de glace dedans même si ce qu'il faut pas se retourner dans . 3
+11:20:000548:000548_4 : 11:19:48:829: Du coup à la une série de paramètre c'est pas la peine de les de les modifier . 4
+11:20:000549:000549_0 : 11:19:56:588: Envoyez la le dépôt qui s'appelle Django T-Rex dans lequel on a ri kuai un autre. Txt et quelques fichiers de configuration supplémentaire pour lui dire comment déployer son application donc si je reviens sur le Var view ici en fait on voit qu'on a donc deux services en services de déploiement et puis on a le déploiement . 2
+11:20:000550:000550_3 : 11:20:21:251: De Django et ici en fait on voit directement dans l'interface au niveau du de la chose on voit le log de construction si vous avez vu passer il lance les tests à la fin de la construction alors on peut intégrer dans le dans le dans la construction des tests unitaires et puis voilà là on voit que une fois qu'il . 3
+11:21:000551:000551_4 : 11:20:42:383: Une fois que le registre interne reçois l'image ça va déclencher le déploiement de l'application qu'on va pouvoir voir . 4
+11:21:000552:000552_1 : 11:20:55:180: Il va faire la démo . 1
+11:22:000553:000553_0 : 11:21:10:600: Envoyer une application de une application web en fait elle m'a écouté sur un certain porc et donc du coup pour le pour la il faut mettre mettre le porc dans le docteur file il faut faire des routes entre les différentes choses exetera là en fait ça va être intégré de base à dire qu'on se voit ici ses coutures pour 80 80 et il va faire
+11:22:000554:000554_1 : 11:21:37:720: Service qui génère une URL qu'on voit ici . 1
+11:22:000555:000555_2 : 11:21:38:720: Une chose que je trouve extrêmement intéressante avec ce type de déploiement c'est vraiment top out of the box on a une URL qui nous et qui ne décide alors c'est une URL ça c découverte en utilisant petit truc s'appelle need you alors il y en a plusieurs en fait . 2
+11:22:000556:000556_0 : 11:22:01:989: IP local donc là dans ce cas là en fait il nous fait une URL avec dedans 192 168 1 99. Sang qui est l'adresse IP de l'Open de Luminy chiffre qui tourne sur ma machine et hop on a une URL qui est qui est qui est servie donc du coup alors l'application c'est pas grand-chose à l' affiche une page web et pour montrer que il y a de la persistante . 3
+11:22:000557:000557_4 : 11:22:29:110: Demande de visite qui sont fait ça dans le poste . 4
+11:23:000558:000558_1 : 11:22:34:726: Et donc du coup . 1
+11:23:000559:000559_3 : 11:22:37:855: Mon point de vue on voit on voit des concepts qui sont relativement accessible avec des choses comme ça on veut faire de la scalabilité on rajoute on rajoute un pod et on voit que il y a des couleurs qui montre ici il est notre dire qu'il a lancé le conteneur mais par contre . 3
+11:23:000560:000560_1 : 11:23:15:216: J'aurais pas forcément le temps de faire une modification et de faire une nouvelle version mais on va on voit en fait . 1
+11:24:000561:000561_3 : 11:23:35:474: Une des choses que sur lequel c'est aussi assez intéressant c'est alors là . 3
+11:24:000562:000562_4 : 11:23:43:361: Pour vous montrer quand on fait débiles ils prennent un certain temps ça peut être que je prenne 15 minutes par exemple . 4
+11:25:000563:000563_3 : 11:24:19:342: Donc du coup tout ça est relativement bien documenté Django je sais pas pourquoi ils ont ils ont pris ce truc là mais il y a pas mal de retour d'expérience sur qu'est-ce qu'ils ont dû adapter dans Django pour pour pouvoir le faire tourner sur openShift sur le mécanisation il y a même des variables d'environnement qui sont spécifiques . 3
+11:25:000564:000564_4 : 11:24:40:441: Réutiliser je mens sur sur d'autres sur d'autres framework donc là par exemple disable connectique où malgré lui dis . 4
+11:25:000565:000565_1 : 11:24:51:556: Tu essayes de l'enseig0t Grassion donné la on peut on peut aussi de désactiver ce mécanisme . 1
+11:25:000566:000566_2 : 11:24:57:971: Du coup on va pas avoir beaucoup de temps nous on a utiliser ses principes là pour déployer des applications cubique ouais donc . 2
+11:25:000567:000567_3 : 11:25:07:080: Qui a développé par logilab un logiciel libre avec une alternative à Django en quelque sorte donc en fait on utilise du pyramide . 3
+11:26:000568:000568_1 : 11:25:27:308: On avait déjà des choses qui tourne et nausée docker du coup c'est un peu plus facile de les passer à une technologie comme ça on de nouveau cette notion d'étape . 1
+11:26:000569:000569_2 : 11:25:37:424: Voilà les démons et les prophètes c'est super . 2
+11:26:000570:000570_4 : 11:26:00:686: On a tendance à encourager faire des paquets Debian plutôt que d'utiliser des paquets pipe là ça c'est un petit peu amélioré en fait je suis . 4
+11:26:000571:000571_1 : 11:26:11:810: Sur l'utilisation des huiles donc des choses qui sont précompilé pour votre plate-forme et qui peuvent être super . 1
+11:26:000572:000572_2 : 11:26:18:937: Avec pipe . 2
+11:26:000573:000573_3 : 11:26:22:058: Les optimisations par exemple et ça c'est assez bien documenté vous pouvez rajouter un proxy pypi au sein de votre infrastructure même à l'intérieur de votre de votre fils pour accélérer en fait le télécharger à chaque fois . 3
+11:27:000574:000574_4 : 11:26:39:178: Voulez-vous les récupérer depuis une source locales . 4
+11:27:000575:000575_1 : 11:26:43:830: Retour d'expérience aussi donc la courbe d'apprentissage de docteur qui est assez longue . 1
+11:27:000576:000576_2 : 11:26:49:874: Prendre ton corps mais là c'est mon point du pas quelque chose qui est super accessible au début mais qui n'est pas rentré dans les dans les usages une des choses aussi sur lequel on a pas encore de solution . 2
+11:27:000577:000577_3 : 11:27:06:990: Pratique là-dessus ça m'intéresse d'avoir votre retour on a vu qu'avec son n'est pas forcément parler avec sentiments mais si je déploie une nouvelle version de mon logiciel et que les livenet prog ne passe pas ouvert il va continuer de servir lancer l'application qui répond déjà au service donc j'ai introduit un bug j'essaie de le livrer en fait sur la machine ça marche . 3
+11:28:000578:000578_4 : 11:27:32:113: Il arrive pas à contacter leur ai dit ce qui existe encore je sais pas quoi donc du coup ça ça ça ne livre pas et donc . 4
+11:28:000579:000579_2 : 11:27:55:367: Modifier la base de données on arrive à un stade où en fait ça marche pas comment est-ce qu'on fait pour revenir en arrière de manière atomique à l'instant on n'a pas vraiment l'impression que . 2
+11:28:000580:000580_3 : 11:28:10:471: Tout fait pour ce genre de problématique . 3
+11:28:000581:000581_4 : 11:28:13:489: Quelques notions de sécurité dans Open sift . 4
+11:28:000582:000582_1 : 11:28:18:711: Chiffre des images de cœur pour petite qui rajoute des métadonnées pour dire quel utilisateur tourne exetera . 1
+11:29:000583:000583_2 : 11:29:06:340: Mot de ce secret qui tourne donc là tu s'inspirer de nety fly qui livre qui bouge nerfs des URL à chaque fois il y a aussi je sais pas s'il y a des gens qui ont participé au sprint qui avait une équation . 2
+11:30:000584:000584_3 : 11:29:23:468: Avec le nom de votre mère de request et il vous génère le site vous pouvez naviguer à tu ex Élysée de reprendre ce même principe ils ont plutôt que d'avoir des projets on a la Pradella preprod l'intégration un environnement pour chaque fois qu'on fait une proposition . 3
+11:30:000585:000585_4 : 11:29:43:591: Je récupère quelque quel que vous donner de la prose ou de la prod voilà ça c'est des choses que je trouve assez intéressant . 4
+11:30:000586:000586_1 : 11:29:51:701: J'ai pas forcément de temps je vais faire le parallèle dans dans l'univers Jupiter on a une notion de repos to docker où il se brancher sur un dépôt dans lequel il y a une spécification de commencer euh qu'est-ce qui doit être installé dans l'image binder utilise ce principe . 1
+11:31:000587:000587_2 : 11:30:09:848: Un environnement avec une des logiciels préinstallés . 2
+11:31:000588:000588_3 : 11:30:16:973: Blague là dessus avec un installeur universelle qui essaye de faire toutes les méthodes d'installation donc on se retrouve un peu dans ce genre de ce genre de mécanisme voilà donc on a un certain davantage j'ai parlé . 3
+11:31:000589:000589_4 : 11:30:33:088: Plage de kéké automatique avec Prometheus ici au et et grafana pour ceux qui voilà quand on passe à l'étape d'après il y a un outillage qui était assez bien intégré et il y a quand même quelques inconvénients c'est très fortement branché sur RedHat CentOS il y a un écosystème un peu payant de images qui sont précablé donc on a vu l'exemple . 4
+
+11:32:000589:000589_1 : --------
+11:33:000589:000589_2 : Rechargement du document
+Optimiser une application principalement transactionnelle (retour d'expérience avec Tryton) Cédric Krier
+
+11:37:000602:000602_3 : 11:36:30:603: Bonjour à tous c'est assez fort je parle assez fort ça ok donc aujourd'hui je vais vous présenter les optimisations . 3
+11:37:000603:000603_1 : 11:36:49:094: Mais avant ça je vais commencer par vous présenter donc je suis cédrière je suis le répondeur manager de ces cas une société de développement de logiciel principalement logiciel libre . 1
+11:37:000604:000604_2 : 11:37:08:221: Créateur et aussi je fais office de PDF el pour le projet Triton qui a mainte0t 10 ans je crois qu'on a fait le . 2
+11:38:000605:000605_3 : 11:37:19:778: Fil le plus ou moins 10 ans . 3
+11:38:000606:000606_4 : 11:37:22:909: Alors ça va être donc je principalement au parler du feed-back qu'on a vu sur le développement Triton Triton . 4
+11:38:000607:000607_2 : 11:38:01:155: Historique comment avec le projet évolution . 2
+11:38:000608:000608_3 : 11:38:06:126: Voilà c'est un fork et alors la peau de particularités c'est qu'en fait on a évité dans nos RM custom . 3
+11:38:000609:000609_4 : 11:38:07:126: Brick c'est-à-dire que quand le projet ERP a démarré il y avait pas encore vraiment ORM dans le monde python puisque c'est . 4
+11:38:000610:000610_1 : 11:38:26:987: 2004 choses comme ça c'était le début de Raismes et en tout cas . 1
+11:38:000611:000611_2 : 11:38:35:111: Braine-l'Alleud choix et effets de démarrer avec ancré en soi-même . 2
+11:39:000612:000612_3 : 11:38:40:892: Donc beaucoup de d'optimisation vont être par rapport à 7h m . 3
+11:39:000613:000613_4 : 11:38:46:170: Alors qu'est-ce que c'est une application transactionnelle c'est une application qui qui . 4
+11:39:000614:000614_1 : 11:38:53:930: Qui va connecter s'il te plaît et après faire des modifications sur des données mais de manière transactionnelle donc on va toujours essayer de démarrer dans un état cohérent et on quitte l'application que dans un autre État cohérent par rapport à la conception et si on arrive pas on revient à l'état initial . 1
+11:39:000615:000615_2 : 11:39:19:156: Hespress pas loin tu disais donc dans la gestion d'entreprise ou en fait la plupart des opérations sont des transactions une transaction . 2
+11:39:000616:000616_3 : 11:39:30:282: Vente transactions fi0cières . 3
+11:40:000617:000617_4 : 11:39:33:698: Droit des placement de produit on veut savoir exactement ce qui s'est passé et garder le système . 4
+11:40:000618:000618_1 : 11:39:40:823: Alors généralement on appelle ce genre d'application RP même si le nom est un peu limité un peu par rapport à ce que fait une application . 1
+11:40:000619:000619_2 : 11:39:53:947: Alors l'application est composé de . 2
+11:40:000620:000620_3 : 11:39:59:072: Transaction prédéfini souvent donc on sait exactement ce qu'on va faire quand va faire quand on sait que doit ce que va engendrer cette vente et quel genre de l'opération ça va générer . 3
+11:40:000621:000621_4 : 11:40:15:197: Par contre cette transaction généralement son fait de manière concurrente parce qu'on a plusieurs utilisateurs qui vend que deux en même temps les informations et donc il faut que la concurrence c'est concurrence à gérer de manière généralement on se . 4
+11:41:000622:000622_1 : 11:40:31:991: Moteur de base de données qui acide donc il va garder la télé 2 actionnelle des données je sais pas si tout le monde connaît . 1
+11:41:000623:000623_4 : 11:41:11:324: L'employé où ça peut aller jusqu'à 100 ou 1000 mais ça reste toujours de nombreux à c'est plutôt restreint par rapport une application boîte classique ouverte sur le monde . 4
+11:42:000624:000624_1 : 11:41:24:397: Alors les caractéristiques de transaction c'est généralement ça va on va travailler avec un ensemble assez large de . 1
+11:42:000625:000625_2 : 11:41:33:522: Donc . 2
+11:42:000626:000626_1 : 11:42:01:999: En plus sur cet ensemble les opérations sur légèrement différente donc en fonction des conditions que le client . 1
+11:42:000627:000627_2 : 11:42:12:102: Direct star à on va faire d'autre calcul légèrement différent mais c'est toujours décale culasse et ça . 2
+11:42:000628:000628_3 : 11:42:18:959: Alors l'autre particularité sais que généralement Harry corde . 3
+11:43:000629:000629_4 : 11:42:28:073: Ça va servir à représenter un document . 4
+11:43:000630:000630_1 : 11:42:33:188: Le document que candidate heure perçoit et mais ce document va être composé de plusieurs vCard dans une base de données donc on va avoir une par exemple la vente si on va voir une carte pour le header de l'avent tête mais alors on va voir aussi une vie . 1
+11:43:000631:000631_3 : 11:43:10:143: Donc ça c'est une particularité qu'il y a un effet on va voir après sur sur le design d'un pays . 3
+11:44:000632:000632_4 : 11:43:19:262: Sur ce document qui sont à qui sont perçus comme un ensemble on va avoir un workflow qui va s'appliquer dessus ça dire que on va passer de d'étape en étape . 4
+11:44:000633:000633_3 : 11:43:54:404: Que les opérations qu'on va appliquer sur les documents sont faites dans un temps prévisible ça dire que . 3
+11:44:000634:000634_4 : 11:44:05:541: Donner qu'on va traiter on veut la traiter dans un temps le plus . 4
+11:44:000635:000635_1 : 11:44:11:602: Qu'on va pouvoir déterminer en tout cas avoir une bonne estimation évidemment le plus rapide possible c'est mieux pour l'utilisateur si . 1
+11:45:000636:000636_2 : 11:44:24:710: 5 minutes pour avoir le résultat c'est pas ça m'intéresse pas donc on va essayer d'avoir un temps de réponse prévisible et en plus rapide . 2
+11:45:000637:000637_3 : 11:44:35:835: Alors pour atteindre cet objectif d'avoir un temps de réponse rapide sur les traitements on va il y a quelques objectifs principaux dans le développement du . 3
+11:45:000638:000638_4 : 11:44:56:962: Du traitement . 4
+11:45:000639:000639_1 : 11:45:00:082: Appeler les points clés qui vont permettre d'être rapide et être prévisible donc là pour le premier de la communication entre le serveur . 1
+11:45:000640:000640_2 : 11:45:11:219: Et la base de données donc si on le communication . 2
+11:46:000641:000641_3 : 11:45:19:329: La récupération de données de la base de données et coûteuse est fortement coûte généralement c'est un peu près . 3
+11:46:000642:000642_4 : 11:45:31:159: Du temps d'exécution d'une requête va être passé à récupérer des données de la base de données ou ou ou on a serré et donc on va essayer de réduire au maximum le cette communication est le temps passer à échanger avec la base données . 4
+11:46:000643:000643_0 : 11:45:50:273: Et l'autre. Ça va être aussi des crises algorithme qui vont avoir un temps exécution le plus prévisible possible donc le mieux évidemment si c'est ton constant . 1
+11:46:000644:000644_2 : 11:46:02:374: Souvent assez compliqué atteindre . 2
+11:46:000645:000645_3 : 11:46:08:490: Logarithmique . 3
+11:46:000646:000646_0 : 11:46:11:385: Proportionnelle au nombre de ricorde contre FC généralement déjà une bonne un bon. . 4
+11:47:000647:000647_4 : 11:47:11:642: De particulier à qui consulte dans cet objectif on a aussi . 4
+11:48:000648:000648_2 : 11:47:23:637: Hériter de Tignes Harper pour prêtres beaucoup plus performant et en fait on va voir la dernière étape on est passé sur page qui a synchrone . 2
+11:48:000649:000649_3 : 11:47:35:329: Alors pour la petite . 3
+11:48:000650:000650_1 : 11:48:04:544: Programmer plus facile à programmer . 1
+11:48:000651:000651_2 : 11:48:08:663: Du code pour . 2
+11:48:000652:000652_3 : 11:48:11:770: Et . 3
+11:48:000653:000653_4 : 11:48:14:893: La comprendre ce que Falcon par contre souvent le désavantage de l'alternatif ricorde c'est souvent critiqué pour avoir moins bonne performance par rapport à d'autres pattern . 4
+11:49:000654:000654_2 : 11:48:38:142: Active . 2
+11:49:000655:000655_3 : 11:48:40:248: Je continue . 3
+11:50:000656:000656_4 : 11:48:47:367: Moi je veux toujours . 4
+11:50:000657:000657_3 : 11:49:09:794: Donc pour contrecarrer les désavantages de l'actif licorne on a mis en place une autre à Plailly parallèle qui va travailler plutôt avec des méthodes de classe donc il travaille sur . 3
+11:50:000658:000658_4 : 11:49:28:918: Opérer sur un ensemble de ricorde d'un coup ce qui permet d'avoir le pouvoir générer du coup des requêtes SQL plus rapide et moins de requête et d'être donc beaucoup plus performant mais le contrecoup sexagénaire du côté plus complexe à comprendre puisque on est moins dans une application qui travaille avec des objets qui manipule un objet . 4
+11:50:000659:000659_1 : 11:50:00:079: Alors par exemple donc le cas typique pour l'activer cœur si on va faire une appliquer une opération annonce enregistrement et alors on va sauver Rieker Paris corde cette modification . 1
+11:50:000660:000660_2 : 11:50:19:212: Performance par rapport à la base de données ça va générer évidemment curry . 2
+11:51:000661:000661_3 : 11:50:25:830: Pour chaque ricorde donc ça va être assez consommateur en ressources et à exécuter parce qu'il y aura beaucoup de . 3
+11:51:000662:000662_4 : 11:50:35:940: Application . 4
+11:51:000663:000663_1 : 11:50:38:058: Comparer à une appli qui va pouvoir travailler sur un ensemble de ricorde et appliquer la même opération alors ici on va générer alors en fonction de la taille de la liste de ricorde générer un objet ou plusieurs si il faut découper si la liste vraiment trop grande et qu'on peut pas la faire rentrer dans un cosy . 1
+11:51:000664:000664_2 : 11:51:02:008: Les bases données ont généralement une limite sur la taille de curry donc on va pas pouvoir nécessairement mettre un million de ricorde un coup mais on va le découper en bambou et on va limiter . 2
+11:52:000665:000665_3 : 11:51:17:530: Heure du coup le problème qu'on va se dire on a deux à payer donc 2e de banjaard accéder aux données différentes dans le dans l'application est donc potentiellement une incohérence ou un fonctionnement légèrement différent d'une version d'une API à l'autre mais en fait c'est pas vraiment un problème parce que on peut construire le pattern activer carte . 3
+11:52:000666:000666_4 : 11:51:43:555: Au-dessus de la plus de l'abbaye de méthode de classe donc ce n'est qu'une surcouche . 4
+11:52:000667:000667_1 : 11:51:51:686: Recette apéritif kir Antilles en fait . 1
+11:52:000668:000668_2 : 11:51:57:818: Que faire une couche . 2
+11:52:000669:000669_3 : 11:52:03:933: Tu les mets derrière c'est le même . 3
+11:52:000670:000670_4 : 11:52:08:343: La méthode qui sont exécutés le même . 4
+11:52:000671:000671_1 : 11:52:11:804: Alors du coup donc on a vu . 1
+11:52:000672:000672_2 : 11:52:22:939: Adecco limiter le nom de communication avec la base de données et donc ça va être aussi de limiter les appels . 2
+11:52:000673:000673_3 : 11:52:32:052: De création de lecture de blettes et de suppression dans la base de données . 3
+11:53:000674:000674_4 : 11:52:38:172: Les appels aux méthodes qui font ces opérations on doit aussi essayer de les limites et afin de limiter de l'ombre de curry . 4
+11:53:000675:000675_1 : 11:52:46:302: Il y a le ça permet de limiter Landry mais aussi d'autres choses par exemple si on est en cash par rapport aux données qu'on lit dans la base données . 1
+11:53:000676:000676_2 : 11:52:56:087: Écrire modifier la base données du coup il va falloir un valider le cache et ça a un coût de traitement donc il est préférable d'essayer de la valise de faire cette opération le moins souvent possible de modification des années et si on le fait le faire regrouper en un seul moment pour invalidite tu le caches d'un seul coup est limité du coup . 2
+11:53:000677:000677_3 : 11:53:17:222: Le . 3
+11:53:000678:000678_0 : 11:53:20:351: La validation et l'autre. C'est que aussi une fois que le cache été validé par le remplir donc si on si on passe son temps à remplir le cache la valise et remplir le cache beaucoup de traitement . 4
+11:53:000679:000679_1 : 11:53:35:473: L'opération modification à la fin du traitement . 1
+11:54:000680:000680_2 : 11:53:39:484: Partie de validation généralement dans le Raymond Aron va valider les données qu'on a écrit dans la base de données donc on a pas . 2
+11:54:000681:000681_3 : 11:53:48:608: Ça pose pas uniquement sur les contraintes du schéma de la base de données mais on va voir aussi des contraintes ou de . 3
+11:55:000682:000682_4 : 11:53:49:608: Qui sont beaucoup plus business plus plus complexe et qui vont être un briquet dans le dans le RM et donc on va faire des opérations modification on va voir un processus de validation pour voir si la modification c'est accepter ou pas et donc . 4
+11:55:000683:000683_1 : 11:54:19:922: Et aussi bénéfique plat du traitement qu'on qu'on élimine et et enfin il y a aussi tous les événements qui vont être pleurer parce qu'on fait une modification sur les données qui vont propager très de t'entraîner de nouveau très traitement donc il est préférable essayer de regrouper de limiter le nombre d'événements générée pour limiter encore une fois . 1
+11:55:000684:000684_2 : 11:54:45:273: Alors là pays avec lequel on a on est abouti c'est celle-ci alors je sais pas si c'est facile à comprendre mais en fait de création de données on va prendre une vie . 2
+11:55:000685:000685_3 : 11:55:05:365: Dictionnaire qui représente les valeurs bottes de chat qui corde et donc on va voir on va pouvoir créer plusieurs ricorde d'un seul coup ce qui va nous permettre de le valider la création de série corde . 3
+11:55:000686:000686_4 : 11:55:19:379: Dans seul coup au lieu de faire . 4
+11:55:000687:000687_1 : 11:55:23:532: Apparent on a la même chose pour l'écriture . 1
+11:56:000688:000688_2 : 11:55:28:086: Un peu plus complexe encore à comprendre ça veut dire qu'on va pays qui . 2
+11:56:000689:000689_0 : 11:55:35:042: Si on peut avoir on peut l'étendre vent d'autan paramètres qu'on veut et ça va être chaque fois le premier paramètres va être la liste de licorne sur lequel on va appliquer la modification de valeur et puis on peut avoir une note liste de ricorde sur lequel on va rappliquer d'autres modifications et pouvoir ainsi
+11:56:000690:000690_4 : 11:55:58:168: Pur délice différente de d'enregistrement . 4
+11:57:000691:000691_1 : 11:56:03:291: Si ça va permettre parlera près aussi de valider tous les records modifiez d'un seul coup au lieu de valider uniquement les listes individuellement alors la poésie pour la suppression bah prends juste la liste des enregistrements comment supprimer donc c'est assez classique . 1
+11:57:000692:000692_2 : 11:56:25:981: Le particulièrement innovant dans la partie là et la pluie pour la lecture on va lire plusieurs ricorde donc les identifiants de derka d'un seul coup au lieu de faire les lire un parrain donc on va faire un seul Curie SQL pour un ensemble de ricorde et les récupérer . 2
+11:57:000693:000693_3 : 11:56:51:102: Et donc quand je parle pour la validation cet après-midi va permettre chaque fois de valider les records . 3
+11:57:000694:000694_1 : 11:57:17:553: Et l'autre partie aussi on va le valider uniquement les parties qui sont susceptibles de ne plus être valide donc ce qui est échangé . 1
+11:58:000695:000695_2 : 11:57:30:671: Uniquement ce qui a été changé et où les conditions à l'heure qui dépend de . 2
+11:58:000696:000696_3 : 11:57:40:819: Les valeurs qu'on a changé . 3
+11:58:000697:000697_4 : 11:57:41:819: Donc voilà c'est tout ça pour limiter et encore une fois le traitement de ce qu'on valide mais garder quand même la certitude que l'enregistrement et cohérent . 4
+11:59:000698:000698_1 : 11:57:58:969: Une autre partie qui au départ pouvait paraître truc bonne idée quand un cerf dans la base données est-ce qu'on va faire une loupe on va lancer un cri insert pour chaque valeur une après l'autre ou alors on va diviser la sœur de valeur multiple SQL supporte donc avoir une certes value et nuit . 1
+11:59:000699:000699_2 : 11:58:26:085: On pourrait penser au départ que la faire avec de multiples valeur est plus performant parce qu'on va faire qu'un seul conneries sur la DB en réalité c'est pas tout à fait exact c'est même plutôt l'inverse pour nous l'assertion Pareloup peu plus efficace alors on va avoir Lorette de la communication va faire plus de communication avec . 2
+11:59:000700:000700_4 : 11:58:54:226: Affaire de multi valeur c'est que le curry devient très grand si on peut insérer beaucoup de données et du coup le parking de secouriste qui a assez long un certain coup pour pour la base données qu'il faut comparer à lover être dur and trip souvent n'ai plus . 4
+12:00:000701:000701_1 : 11:59:15:520: Mais en plus de ça un cri qui va être très grand un peu de chance on a peu de chances de le retrouver une deuxième fois et donc tout le cache des conneries préparer base de données ben ne va plus être très efficace puisque on va voir chaque fois d'écurie Delonghi avec détail faction légèrement différent tandis que les petits cris d'un cerf d'une seule valeur suis là on attend je le Virement . 2
+12:00:000703:000703_3 : 11:59:44:990: La préparation des conneries dans base de données le pré parking inclus pas les valeurs qui sont insérées les valeurs son passé en paramètre à côté donc c'est vraiment le curry . 3
+12:00:000704:000704_4 : 12:00:02:101: Variable qui est mis en cash . 4
+12:00:000705:000705_1 : 12:00:06:217: Enfin le classeur multi valeur plus compliqué à construire donc on va passer plus de temps essaie de le construire . 1
+12:00:000706:000706_2 : 12:00:15:960: Simple à faire parce que il va falloir qu'on aille exactement le même nombre de con Acer les mêmes valeurs le même nombre de valeurs et ça pour le garantir bah il faut voir les comparer les valeurs que l'utilisateur va passer à l'appel de fonction et compléter les blancs s'il faut et donc ça va être un traitement qu'on va devoir faire en amour qui est aussi coûteux et du coup à la fin . 2
+12:01:000707:000707_3 : 12:00:42:098: Faire une loupe sincère et plus efficace . 3
+12:01:000708:000708_4 : 12:00:43:098: Que d'essayer de faire encore plus complexe . 4
+12:01:000709:000709_1 : 12:00:53:086: L'autre une autre partie par rapport à la communication les appels distance pour qu'on a vu . 1
+12:01:000710:000710_2 : 12:01:05:895: Boutique pour l'utilisateur . 2
+12:01:000711:000711_3 : 12:01:08:992: Des documents donc ils sont à un enregistrement qui inclut un ensemble de soude enregistrement avec des one to many exetera . 3
+12:01:000712:000712_4 : 12:01:19:126: Afin de garder le côté transactionnelle ça dépend c'est toute la modification d'un seul coup . 4
+12:02:000713:000713_1 : 12:01:26:240: On annule et on rollback l'opération on a une une appli pour comme valeur pour les chambres . 1
+12:02:000714:000714_2 : 12:01:38:355: Qui vont au lieu d'être juste les valeurs classique vos inclure des opérations de création d'écriture de mise à jour exetera . 2
+12:02:000715:000715_3 : 12:01:49:477: Appelle modifier le Ricard principal mais aussi les Rieker qui lui sont liés et donc limiter le nombre d'appels entre le client est le serveur et de faire en plus l'opération dans une seule transaction qui permettra de garantir l'intégrité . 3
+12:02:000716:000716_4 : 12:02:05:532: Base de manière de faire un appel recouper . 4
+12:02:000717:000717_1 : 12:02:10:525: Système on peut on aurait pu imaginer d'autres mécanisme mais c'est celui qui ont été choisis évidemment c appelle mimique les . 1
+12:03:000718:000718_2 : 12:02:24:233: La poésie de appel de méthode classique réhabilite qu'on a implémenté donc avec des listes . 2
+12:03:000719:000719_3 : 12:02:33:962: Une autre optimisation qu'on fait c'est la gestion des caches qui est spécifiquement conçu pour le travail avec délices de Bastan . 3
+12:03:000720:000720_4 : 12:02:51:075: Ce qu'on va régulièrement retrouver dans le code ça va être délice des sens de réseau de ricorde qui vont être construite généralement directement donc on a la liste on récupère la liste parce qu'on va demander d'aller lire tous les tous les enregistrements avec une . 4
+12:03:000721:000721_1 : 12:03:12:206: Et . 1
+12:03:000722:000722_2 : 12:03:14:327: On va faire tomber sur la liste pour faire une opération . 2
+12:03:000723:000723_3 : 12:03:19:381: ACC accède la première élément de la liste quand on va comment va demander à avoir la valeur d'un champ . 3
+12:04:000724:000724_4 : 12:03:29:491: Le lorem . 4
+12:04:000725:000725_1 : 12:03:32:525: Préfecture . 1
+12:04:000726:000726_2 : 12:03:35:636: Va lire pour ce weekend là mais aussi x ricorde après dans la liste donc il vient d'une liste et donc il va prendre lire d'office à certain nombre on pourrait dire toute la liste mais si elle est trop grande pour des raisons de limitation de mémoire on a une limite qui qui est fixé et donc on va lire d'un seul coup tous les ricoh vivant qui va faire que quand allitération L'allemand au 2e élément de la liste alors on aura déjà ses données rempli dans le cache et donc ça va pas générer un nouveau cri sur la base de données . 3
+12:04:000728:000728_4 : 12:04:16:569: Et donc quand va itérer comme ça sur une liste généralement si la liste n'est pas trop on doit faire qu'un seul curry ou alors on va faire un nombre qui va être proportionnelle juste à la longueur de la liste . 4
+12:04:000729:000729_1 : 12:04:29:909: Évidemment une fois qu'on aura connaissez rad atteint de de lire le Ricard qui est juste après . 1
+12:04:000730:000730_2 : 12:04:37:011: Prérempli dans le dans le cache est-ce qu'on va se passer c'est qu'on va remplir le cache . 2
+12:05:000731:000731_3 : 12:04:45:806: Pour les suivants mais en même temps on va . 3
+12:05:000732:000732_1 : 12:04:54:965: Pour pour limiter la consommation mémoire et on se . 1
+12:05:000733:000733_2 : 12:05:00:073: Je pars du temps le pattern on ne reviens jamais sur la Lys convert qu'on est en train de terre et eau normande jamais on avance toujours . 2
+12:05:000734:000734_3 : 12:05:08:096: Complètement et donc ça permet d'avoir . 3
+12:05:000735:000735_4 : 12:05:12:208: Optimiser . 4
+12:05:000736:000736_1 : 12:05:17:324: La loupe sur sur sur sur les listes drykorn . 1
+12:06:000737:000737_2 : 12:05:22:894: Alors . 2
+12:06:000738:000738_3 : 12:05:25:216: Du coup bah le pattern qu'on a généralement . 3
+12:06:000739:000739_4 : 12:05:34:333: On va itérer sur les listes de ricorde on va appliquer une opération sur sur le records changer certaines de ces valeurs on doit pas sauver tout de suite série corne parce que il n'a pas l'intérêt à ce moment-là qu'on a la liste de toutes les instances et en fait on va utiliser l'appli . 4
+12:06:000740:000740_1 : 12:05:58:457: Qui était le White . 1
+12:06:000741:000741_2 : 12:06:02:586: Appeler cria to write en fonction Syrie carte a été sauvé . 2
+12:06:000742:000742_3 : 12:06:07:691: Yves appliquer du coup en une seule écriture sur l'ensemble . 3
+12:06:000743:000743_4 : 12:06:15:383: Enregistrement et donc ça va être . 4
+12:07:000744:000744_1 : 12:06:19:500: Hassle Curie à la DB qui va être regroupés et une seule validation exetera sur l'ensemble des records tout en profitant du de l'effet du cash sur les listes qu'on a . 1
+12:07:000745:000745_2 : 12:06:33:076: Et donc il va se passer on va avoir un colis pour lire les données et puis Xperia Z6 évidemment la modification à chaque fois différente pour chaque tricorne . 2
+12:07:000746:000746_3 : 12:06:48:761: L'autre partie donc on va remplir le cache on va utiliser on va directement remplir donc en lit pour une colonne ben en fait comme on est déjà en train de lire les colonnes une colonne d'une table en fait on va lire toutes les colonnes de . 3
+12:08:000747:000747_4 : 12:07:09:281: Pour remplir le cache ce qui permet du coup si on accède à premier chant qu'on achète Auchan un autre chanteuse même Ricardo ne pas refaire une select une sélection donc c'est la technique eager loading donc on va essayer de remplir de lire un maximum . 4
+12:08:000748:000748_1 : 12:07:30:387: De données qu'il rajoute pas de la complexité au curry donc on va on va le faire évidemment pour tous les gens qui ne nécessite pas de faire une voiture sur une autre table vraiment une jointure ça va être une opération beaucoup trop coûteuse par rapport à juste la lire des données en plus . 1
+12:08:000749:000749_2 : 12:07:49:522: Note et en plus on ne fait pas pour les gens qui sont trop grands donc les champs binaire il s'était on va pas les lire systématiquement . 2
+12:08:000750:000750_3 : 12:07:59:669: Trop grande donc n'a pas d'intérêt pour remplir le cache . 3
+12:08:000751:000751_4 : 12:08:07:763: Donc on va lire tout d'un couple et alors on a toute une série de chant qui vont être . 4
+12:08:000752:000752_1 : 12:08:14:881: Rechargement . 1
+12:08:000753:000753_3 : 12:08:17:031: Zizi passif donc ça va être tout les gens qui vont nécessité de faire une jointure donc les gens qui sont des champs relation comme one to many ou ou à manytomany qui requiert de faire une voiture pour récupérer les données . 3
+12:08:000754:000754_4 : 12:08:35:150: Accède . 4
+12:09:000755:000755_1 : 12:08:37:288: On y accède pour un ricorde évidemment on va pouvoir factoriser le curry beau . 1
+12:09:000756:000756_2 : 12:08:46:047: Oui pour tous les autres i cord de la liste . 2
+12:09:000757:000757_3 : 12:08:50:160: C'est un travail qui va se faire à la demande doit pour qu'on première action va remplir le cache pour tous les autres i cord pour le même parce que en plus potentiellements si on est dans une loupe qu'on accède à un champ de ce type là il y a de fortes chances que allitération suivante on repasse dans le même goût de code et qu'on va avoir besoin d'un acte accéder le même sens . 3
+12:10:000758:000758_4 : 12:09:13:271: Une autre partie depuis mise à Sion c'est partager le cache pas uniquement avec les instances qui sont dans une liste mais avec toutes les instances qu'on va créer pendant cette transaction vu qu'on est dans une transaction on sait que les données ne vont pas être modifié . 4
+12:10:000759:000759_1 : 12:09:35:390: Action c'est le principe acide de la base de données donc on est dans l'environnement qu'on connait et donc on peut remplir se cache des données brutes qui sont dans la base de données les partager pour que différents . 1
+12:10:000760:000760_2 : 12:09:53:524: Soirée utilisable à différentes parties de l'application donc on va instancier deux fois le même ricorde avec le même identifiant en réalité on va aller lire qu'une seule fois le Ricard 2e instanciation va récupérer ce qui a déjà été élu par . 2
+12:10:000761:000761_3 : 12:10:13:642: La première à sensation . 3
+12:10:000762:000762_0 : 12:10:17:044: L'autre partie c'est que généralement en fait des recherches dans la base
+12:10:000763:000763_1 : 12:10:26:159: De recherche par rapport à dexter . 1
+12:11:000764:000764_2 : 12:10:32:273: Marche on va aussi en profiter puisque ça va être un colis select pour remplir le cache en perspective de l'association du résultat . 2
+12:11:000765:000765_3 : 12:10:42:797: Permettre donc du coup encore une fois d'économiser un peu riz au lait séries de recherches et puis après un cri de lecture on va on aura quelque quelques rides en charge qui remplit automatiquement le d'instance . 3
+12:11:000766:000766_4 : 12:10:56:880: Pédoncule a pattern qu'on retrouve souvent si on fait une recherche puis après on va faire une action sur le résultat de la recherche et donc on va réitérer et donc ici il est possible de n'avoir qu'un seul que . 4
+12:11:000767:000767_1 : 12:11:12:037: Exemple de code parce que tu aurais été rempli lu par la roche . 1
+12:11:000768:000768_2 : 12:11:21:172: Commence . 2
+12:12:000769:000769_3 : 12:11:23:300: Que la méthode action n'utilise que des gens qui sont . 3
+12:12:000770:000770_4 : 12:11:29:566: Alors c'est bien c'est bien d'avoir un cache . 4
+12:12:000771:000771_1 : 12:11:37:749: En fait il faut bien de limiter aussi la taille du cache pour ne pas qu'il prenne toutes les ressources du système donc en fait on met en place juste une limite est-ce qu'on utilise le cache aller rue donc on va . 1
+12:12:000772:000772_2 : 12:11:58:723: On atteint la limite de . 2
+12:12:000773:000773_3 : 12:12:01:024: On va supprimer ce qui a été le moins d'utiliser donc les plus anciens les plus ancienne valeur du cash qui n'ont plus te accéder c'est celle-là qu'on va illuminer considérant que celles qui sont accédez régulièrement sont plus chaud de nouveau . 3
+12:12:000774:000774_4 : 12:12:20:835: Alors ce qui fait limite c'est bien de la rente configurable parce que ça dépend en fait de la capacité de la machine donc mais encore une fois c'est bien d'avoir de bonnes valeurs par défaut qui fonctionne dans la majorité des cas exceptionnel de configurer . 4
+12:12:000775:000775_1 : 12:12:41:951: Contraint par des ressources . 1
+12:13:000776:000776_2 : 12:12:46:555: Une autre chose qu'on peut mettre en cache . 2
+12:13:000777:000777_3 : 12:12:53:014: Résultats certaines fonctions . 3
+12:13:000778:000778_4 : 12:12:56:134: On s'aperçoit qu'on en a deux méthodes qui vont qu'on appelle avec ton le résultat ne change quasiment jamais c'est-à-dire que les données sur lequel elle se repose sur des années qui sont statique qui reste dans le son des données par exemple de configuration qui sont changer de très très très rarement en fait autant mettre en cache se donner la . 4
+12:14:000779:000779_1 : 12:13:21:254: Résultat de l'appel de fonction qui se passe uniquement sur ce genre de données alors pour que ça marche il faut qu'il vidament que les paramètres de la méthode peu de variabilité de variation se dire il faut pas si on a des paramètres et le temps évidemment la le cache . 1
+12:14:000780:000780_2 : 12:13:41:799: Quasiment toujours une valeur différente et l'on se voit faire que remplir en cash qui ne jamais utiliser . 2
+12:14:000781:000781_3 : 12:13:50:762: Note parti le danger dans un cache comme ça qui est persistant à travers les transactions c'est que il va falloir le kiné . 3
+12:14:000782:000782_4 : 12:14:01:873: Quand évidemment on fait des changements sur la TV il faut le supprimer pour qu'il soit calculer par rapport avec tes nouvelles données . 4
+12:14:000783:000783_1 : 12:14:13:999: Il faut faire attention si on essaye son à plusieurs d'instance plusieurs process plus en instance du serveur bah il faut un mécanisme pour que une instance bises à l'autre qu'elle a modifié telle ou telle donner et donc il faut supprimer le cache qui en dépend . 1
+12:15:000784:000784_2 : 12:14:33:135: Avec site on utilise en fait la base données pour . 2
+12:15:000785:000785_3 : 12:14:37:469: Notifier ce genre de . 3
+12:15:000786:000786_4 : 12:14:41:249: Ication ça dire que quand on va modifier un enregistrement pour chaque cache et le serveur qui va faire une modification qui a valid blocage note à tout à l'heure le cache a été modifié donc si toutes les autres modification . 4
+12:15:000787:000787_1 : 12:15:01:367: Le supprimer pour construire . 1
+12:15:000788:000788_2 : 12:15:06:499: Peu fréquemment pour ce soit utile sinon le cacher tout le temps par les autres serveur . 2
+12:15:000789:000789_3 : 12:15:14:667: Va faire . 3
+12:15:000790:000790_4 : 12:15:17:784: Alors par rapport au design c'est le design du code comme on a toute une API key optimisé pour travailler avec délices de ris Corse avec le paquet de d'enregistrement évidemment il faut . 4
+12:16:000791:000791_1 : 12:15:31:262: Le code pour fonctionner par par opération sur les listes d'enregistrement . 1
+12:16:000792:000792_2 : 12:15:40:385: Les points dans le code où on s'aperçoit qu'on a des problèmes de performances sont généralement deux endroits où on a que des une méthode juste en pensant que ce sera accéder par un seul ricorde à la fois ou des choses comme ça . 2
+12:16:000793:000793_3 : 12:15:57:503: Le point de . 3
+12:16:000794:000794_4 : 12:16:00:032: Ralentissement dans l'exécution de la transaction . 4
+12:16:000795:000795_0 : 12:16:05:795: Une partie sur un autre. Ce qui revient souvent donc c'est
+12:16:000796:000796_2 : 12:16:14:850: Toujours là aussi que on va perdre du temps parce que Ben loupe . 2
+12:16:000797:000797_3 : 12:16:21:670: Paiement la taille peut être très grand tétons qu'on peut pas prédire que . 3
+12:16:000798:000798_4 : 12:16:26:789: Rapidement qui aura donc peu de requête SQL alors vers quelle méthode de Kruth aussi . 4
+12:16:000799:000799_1 : 12:16:35:923: Y a pas uniquement accéder à la base de méthode qui accède . 1
+12:17:000800:000800_2 : 12:16:44:050: Recette sortir cet appel en dehors de la loupe . 2
+12:17:000801:000801_3 : 12:16:48:868: Prends de l'eau pour faire un appel à une sauvegarde . 3
+12:17:000802:000802_0 : 12:16:52:848: Un autre. C'est quand qu'on soit ça passe donné faut faire attention de ne pas créer des points de contention . 4
+12:17:000803:000803_1 : 12:17:04:723: Schéma . 1
+12:17:000804:000804_2 : 12:17:06:849: Qu'on a fait en fait sur chaque table chaque enregistrement à une référence sur utilisateurs qui a créé le l'enregistrement et l'utilisateur qui a le modifier la dernière fois cet enregistrement . 2
+12:17:000805:000805_3 : 12:17:22:579: Cet cette ces colonnes était en fait des clés étrangères vers une table utilisateur tout bêtement ce qui est resté design cohérent . 3
+12:17:000806:000806_4 : 12:17:36:159: Le souci . 4
+12:18:000807:000807_1 : 12:17:38:506: Étrangère qui pointure cette table sur la même table pour tous les enregistre pour toutes les autres table à la moins de modification la base données de vérifier la validité . 1
+12:18:000808:000808_2 : 12:17:51:847: De la colle . 2
+12:18:000809:000809_3 : 12:17:53:803: Principalement de dernière modification par l'utilisateur pour s'assurer que les identifiants qui est écrit existe toujours dans la base utilisateurs c'est la contrainte l'étranger et ça ça génère en fait un lot sur la table utilisateurs qui crée un point de contention par rapport à toutes les autres d'écriture qui sont en même temps . 3
+12:18:000810:000810_4 : 12:18:18:925: Problème assez simple . 4
+12:18:000811:000811_1 : 12:18:22:699: Supprimer la contrainte de clé étrangère donc il y a plus de vérification par là par la base de données de l'intégrité . 1
+12:18:000812:000812_2 : 12:18:31:798: En contrepartie . 2
+12:19:000813:000813_3 : 12:18:34:274: Nathalie Z supprimer des utilisateurs donc du coup on est sûr que l'enregistrement existe toujours puisque on peut pas supprimer utilisateur donc tout utilisateur utiliser qui existent dans le début . 3
+12:19:000814:000814_4 : 12:18:50:408: Et en fait on utilise juste une suppression logique . 4
+12:19:000815:000815_1 : 12:18:55:533: Père en réalité ça revient au même que par rapport à la contrainte donc l'étrangère puisque on ne savais de toute manière pas supprimer utilisateur si jamais il avait créer un enregistrement quelque part il avait une référence donc si l'on pouvez pas modifier donc on a pas changé la fonctionnalité . 1
+12:19:000816:000816_2 : 12:19:16:657: Remonter la tension . 2
+12:19:000817:000817_3 : 12:19:21:285: Un autre point de contention généralement par rapport au design de la début . 3
+12:20:000818:000818_1 : 12:19:33:786: Que de rajouter dans une table . 1
+12:20:000819:000819_2 : 12:19:38:941: Qu'on va modifier en fait on va le créer un blog sur cet enregistrement qui pourrait être potentiellement utilisé par d'autres exetera donc ça craint point de contention encore une fois . 2
+12:20:000820:000820_3 : 12:19:52:061: Alors plaît exemple qu'on avait son compte on comptait sur . 3
+12:20:000821:000821_4 : 12:19:59:183: P'tit zappeur le nombre de fois où il avait une tentative de login qui est chouette . 4
+12:20:000822:000822_1 : 12:20:06:867: Mettre en place une protection . 1
+12:20:000823:000823_2 : 12:20:11:985: Le temps de réponse proportionnellement nombre de . 2
+12:20:000824:000824_3 : 12:20:16:117: C'est juste une protection contre les attaques par brute force mais le fait de l'écrire systématiquement sur ce même utilisateur d'augmenter le compteur en fait . 3
+12:20:000825:000825_4 : 12:20:31:594: Puisque . 4
+12:20:000826:000826_1 : 12:20:34:709: On prenait une transaction et on écrit sur cet enregistrement et que l'on met automatiquement en place un délai de réponse pour qu'il était propre . 1
+12:21:000827:000827_2 : 12:20:46:832: Map horreur . 2
+12:21:000828:000828_3 : 12:20:50:961: Garder sur son . 3
+12:21:000829:000829_4 : 12:20:52:941: Qui empêchait l'utilisation . 4
+12:21:000830:000830_1 : 12:20:58:052: De se connait . 1
+12:21:000831:000831_2 : 12:21:00:899: Aussi de mettre à jour le Ricordeau là ou si . 2
+12:21:000832:000832_3 : 12:21:06:319: Moi te disais comme référence . 3
+12:21:000833:000833_4 : 12:21:09:599: Manger avec cetera bloqué de notre séparation et donc à la place de faire le mettre à jour Harry corde en fait ce qu'on fait mainte0t si on ajoute dans une table à part juste une entrée pour chaque erreur et donc on ne fait que rajouter ça ne serait pas de nouveau look . 4
+12:21:000834:000834_1 : 12:21:29:719: Un lac en fait que le riz carte sur laquelle on a eu conviendrait donc personne d'autre ne connais ce moment . 1
+12:22:000835:000835_2 : 12:21:37:685: Pour savoir combien d'erreur de log in or on a on fait juste un code sur le sur la table et donc du coup là on a enlevé une contention juste par design en préférence d'ajouter que . 2
+12:22:000836:000836_3 : 12:21:55:010: Général c'est toujours . 3
+12:22:000837:000837_4 : 12:21:57:607: Plus efficace d'ajouter que de mettre à jour l'existant . 4
+12:22:000838:000838_1 : 12:22:02:767: Alors . 1
+12:22:000839:000839_2 : 12:22:07:889: Sur les documents on a des vaures Flo qui permettent de définir les étapes donc une vente impasse de aller en bourgeon et puis on passe en de vie et puis aller valider puis on va factures exetera . 2
+12:22:000840:000840_3 : 12:22:25:017: Un moteur de boire floqué très complexe qu'on pouvait qui était stocké la description texto quai de la base de données . 3
+12:22:000841:000841_4 : 12:22:33:969: En fait c'était un moteur . 4
+12:23:000842:000842_1 : 12:22:38:881: Beaucoup de lecture qui a pas besoin de beaucoup de qui prenait beaucoup de ressources . 1
+12:23:000843:000843_2 : 12:22:43:992: Et en fait on s'est aperçu qu'en fait on . 2
+12:23:000844:000844_3 : 12:22:48:939: Finalité dans la joue dans diversion courante et qu'on pouvait simplement remplacer au lieu d'avoir une description . 3
+12:23:000846:000846_4 : 12:22:58:663: On peut juste que tu veux remplacer par une appli qui fonctionne par contre ah donc on a juste . 4
+12:23:000847:000847_1 : 12:23:07:780: Correspondent à des transitions . 1
+12:23:000848:000848_2 : 12:23:10:697: On a certains noms . 2
+12:23:000849:000849_3 : 12:23:15:639: Et qu'on va juste utilisé dans le code à certains moments . 3
+12:23:000850:000850_4 : 12:23:21:757: Les appel de méthode et ça résout ça résolu quasiment tous tous les . 4
+12:24:000851:000851_1 : 12:23:30:288: Ça permet de remplacer qu'on quasiment dans tous les cas le voir flou actuelle et en plus comme c'était beaucoup plus léger on a rajouté de voir flou un peu partout plein de documents qui n'en n'avez pas avant parce que on considère que c'était trop de flow . 1
+12:24:000852:000852_2 : 12:23:49:419: De ressources et donc la conclusion 7 se dire parfois il y a pas besoin de faire des moteurs très complexe . 2
+12:24:000853:000853_3 : 12:23:50:419: De manière beaucoup plus simple et ne pas essayer de résoudre tous toutes les possibilités si si en fait on n'a pas vraiment le problème . 3
+12:25:000855:000855_4 : 12:24:11:871: Le cas concret . 4
+12:25:000856:000856_1 : 12:24:14:990: Et enfin la dernière optimisation . 1
+12:25:000857:000857_2 : 12:24:44:251: C'est de ne pas faire de ne pas exécuter l'opération mais en fait exécuter plus tard retourner directement utilisateur donc pour ça c'est simplement le fait d'avoir une cuve de tâches qu'on va remplir donc quand l'utilisateur va marquer Laval de valider son compte ça déclenche tout ensemble de processus . 2
+12:25:000858:000858_4 : 12:25:16:175: Tout toute tous ces enregistrements tous ces documents tout de suite bah en fait on les pose à plus tard . 4
+12:25:000859:000859_1 : 12:25:24:290: La particularité . 1
+12:26:000860:000860_3 : 12:25:46:524: Bon de commande ou ou s'il y a une erreur et que le . 3
+12:26:000861:000861_4 : 12:25:51:696: Ne pas valider bah il faut pas que la tâche de création de livraison soit sur Lens et donc du coup on a besoin d'une queue qui aussi transactionnelle . 4
+12:26:000862:000862_1 : 12:26:02:806: Alors la solution qu'on a choisi pour ça c'est d'utiliser la base de nez comme moteur de . 1
+12:27:000863:000863_3 : 12:26:19:285: Dans la littérature les bases données ce qu'elles sont pas prêts conçu pour pour faire . 3
+12:27:000864:000864_2 : 12:26:49:359: Bloc je sais pas comment on dit au revoir en français . 2
+12:27:000865:000865_3 : 12:26:53:490: La base de données de la possibilité de loquet individuellement certains enregistrement qui va permettre de risque de faire une réservation dans la/ arriere train /sans avoir s'en empêcher d'autres transaction devenir réserver Dautry garde un peu compliqué et en plus on a système de listen notify à l'intérieur de la base donnée dans le moteur de base de données transactionnelles . 3
+12:27:000866:000866_4 : 12:27:21:617: Donc on va pouvoir envoyer de messages . 4
+12:27:000867:000867_1 : 12:27:25:622: Par exemple mais uniquement de manière transactionnelle donc je lance dans mon code le message il sera reçu par le voir cœur que si ma transaction à la fin est correctement comité et qu'il y a pas de problème . 1
+12:28:000868:000868_2 : 12:27:39:709: Et donc c'est grâce à ça compte du coup on a une Piou qui est transactionnelle et qu'on va pouvoir on peut déposer le traitement . 2
+12:28:000869:000869_3 : 12:27:50:822: Le traitement lourd à plus tard . 3
+12:28:000870:000870_4 : 12:27:55:725: L'autre point important quand on crée des tâches . 4
+12:28:000871:000871_1 : 12:28:03:744: Écouter . 1
+12:28:000872:000872_2 : 12:28:05:866: Faire un point qu'on essaie toujours d'après mentez . 2
+12:28:000873:000873_3 : 12:28:11:985: Impotente . 3
+12:28:000874:000874_4 : 12:28:15:724: Dire que on peut l'appeler plusieurs fois sera toujours le même résultat alors pour nous ça veut dire si on appelle plusieurs fois sur la vente de créer la livraison à Leclerc à jamais qu'une seule livraison ça dire si la livraison a été créé par une nouvelle livraison pour la vente . 4
+12:29:000875:000875_3 : 12:28:56:215: Le résultat foot toujours d'avoir un système . 3
+12:29:000876:000876_4 : 12:28:59:540: L'autre avantage de ta part une cuve avec des marqueurs maman va pouvoir créer plusieurs . 4
+12:29:000877:000877_1 : 12:29:08:659: Beaucoup de voir cœur on va pouvoir le dispatcher sur différentes machines et donc augmenter la capacité de calcul facilement et à et à la vente et donc si on a des moments où on a plus besoin de réponse de travail on peut faire un CAP puis . 1
+12:29:000878:000878_2 : 12:29:30:785: Les tâches ont les travaille toujours aussi par litre de ricorde donc toujours pour profiter de la poésie . 2
+12:30:000879:000879_3 : 12:29:40:917: J'avance sur la gestion du cash . 3
+12:30:000880:000880_4 : 12:29:44:355: Lara mais par contre la chose qu'il faut faire attention . 4
+12:30:000881:000881_1 : 12:29:50:485: Notaire de QC qui vient mention Poste une tâche pour un ricard qui va qui a été supprimé bah il faut pas que . 1
+12:30:000882:000882_2 : 12:29:58:609: Plante parce qu'elle a d'autres Igor d'arrêter donc il faut filtre avant tout les records qui ont été supprimés . 2
+12:30:000883:000883_0 : 12:30:08:630: Et ensuite de le dernier. Si on fait un système de passage dans une pub . 3
+12:30:000884:000884_2 : 12:30:40:631: S'appelle la même méthode mais pas ça poste cet appel là dans le CUE donc c'est assez simple le code . 2
+12:31:000885:000885_3 : 12:30:50:763: Le code qu'on avait existant avant lol . 3
+12:31:000886:000886_4 : 12:30:54:886: Films de/ arriere train /. 4
+12:31:000887:000887_3 : 12:31:04:237: Passer sur l' assistance asynchrone . 3
+12:31:000888:000888_4 : 12:31:08:318: Voilà c'est tout . 4
+12:32:000889:000889_1 : 12:31:11:956: Direction . 1
+12:32:000890:000890_3 : 12:31:23:257: Vraiment c'est fini je crois . 3
+12:32:000891:000891_4 : 12:31:31:372: Ouais . 4
+12:32:000892:000892_4 : 12:32:05:244: La méthode prendre en compte ça prend en paramètre généralement le ricorde donc si si on crée la livraison pour une vente à des paramètres va être la vente . 4
+12:32:000893:000893_1 : 12:32:16:330: Une méthode d'instance et donc ce sera paramètres d'instance qui sera la vente donc ça s'écrit automatiquement mes identifiant unique et en fait . 1
+12:32:000894:000894_3 : 12:32:29:706: On va faire si on va regarder l'état . 3
+12:32:000895:000895_4 : 12:32:32:473: Pour la vente on va regarder qu'est-ce qu'on a déjà livré . 4
+12:34:000896:000896_2 : 12:32:38:755: Qu'est-ce qu'on devait normalement livret . 2
+12:36:000897:000897_3 : 12:32:42:199: Quantité c'est sur la vente et on va faire la différence et si on a une différence donc si elle est positif ça dire qu'on a pas livré suffisamment on va créer une nouvelle livraison de la . 3
+12:36:000898:000898_4 : 12:32:55:555: Et donc si on a déjà livré tout ce qu'il fallait faire quand on a on a rien à livrer donc on ne fait rien . 4
+12:36:000899:000899_2 : 12:33:54:499: Et donc je peux dire n'importe quoi . 2
+
+
+13:56:000002:000002_2 : --------
+13:57:000002:000002_2 : Rechargement du document
+
+
+
+13:58:000003:000003_4 : 13:57:43:386: Alors bonjour bienvenue pour cette conférence j'espère que vous allez avoir une transcription qui fonctionne. 4
+13:58:000004:000004_1 : 13:57:51:035: Alors est-ce que ça fonctionne . 1
+13:59:000006:000006_3 : 13:58:33:987: Ouais je pense savoir pourquoi le 2e micro et alu message à une interférence le 2e micro qui recharge il faut le laisser timbre donc là je l'ai éteint et c'est bon quoi en plus la langue n'est pas la bonne FR au lieu de US. 3
+
+Perte historique ou bien changement de maxchine
+
+
+
+A multi-core Python HTTP server (much) faster than Go (spoiler: Cython) Jean-Paul Smets
+
+16:35:000009:000009_1 : 16:34:30:285: Hello so I'm John Paul and so I will make it quite rough presentation of some work we did this year so please apologise this presentation is far from perfect I was actually in hospital last week and I didn't have much time to prepare it and I even forgot there was a meeting due to Anastacia which has some strange effect on my brain but I think the other presentation will be . 1
+16:35:000010:000010_0 : 16:35:03:413: So the work actually was not made by me made by young developer called Brighton like no not Brighton with H like their web browser Python. Brighton without h and so we gave him a challenge which was to try to make an HTTP server in Python that could scale as well as golang HTTP service and could handle as many request a second . 2
+16:36:000011:000011_4 : 16:35:42:507: So everything I'm going to . 4
+16:36:000012:000012_1 : 16:35:47:322: Talk about and especially the links can be found in the presentation if you take a picture of this QR code to get to link directly to the presentation so I leave her I give you a 10 seconds . 1
+16:36:000013:000013_3 : 16:36:12:071: Does the QR code work ok so we'll have the full path a brief introduction on next Saturday then we'll go directly to the conclusions then you can leave . 3
+16:37:000014:000014_4 : 16:36:30:712: Then if you want to know why in the hell within such a thing then we'll explain the rationale and show some coat . 4
+16:37:000015:000015_1 : 16:36:40:194: Even if you leave you can still use the QR code get the presentation . 1
+16:37:000016:000016_2 : 16:36:45:834: Next season now are more than 15 years old company president in Europe and Asia mainly it seems we are the largest Publisher free software neuropathy count the number of lines are number of products we made and we mainly do very big Enterprise application system that we build deploy and run for more than 10 years for large companies and we've always been profitable we have no . 2
+16:38:000017:000017_3 : 16:37:15:956: Capital we depend on nobody we do what we want as we want and we don't need to sell the company 24 . 3
+16:38:000018:000018_4 : 16:37:24:411: So the customers we have I like . 4
+16:38:000019:000019_0 : 16:37:29:537: Automotive industry aerospace industry now we are getting more and more automotive like PSA Mitsubishi Toyota we have chemical industry highways pretty big ones that are getting fed up by proprietary software so we are strict free software company and that's why for example my laptop is not a Mac that is proprietary. Proprietary in my opinion is morally evil. 1
+16:38:000020:000020_3 : 16:37:59:288: I have a laptop in which even the Bootloader is free software I just took a Chromebook recompiled it removed Google things and now I have something for you but still it's not fair enough for me so I'm currently building the Next Generation which not only be entirely free but you can also build it yourself and repair it yourself so we really care about free software and . 3
+16:39:000021:000021_1 : 16:38:37:891: More complex business model to do free . 1
+16:39:000022:000022_2 : 16:38:42:213: That's what we've been doing for 15 year patiently any building . 2
+16:39:000023:000023_3 : 16:38:47:792: We are mainly a python shop so you're B5 is entirely made in Python which is probably the only true cloud system that really works . 3
+16:39:000024:000024_4 : 16:39:01:450: It's entirely_ Made in Python from bottom to top . 4
+16:39:000025:000025_1 : 16:39:06:573: We have a low latency resilient network cold resist that can go through the Chinese great firewall officially with legal licence in . 1
+16:39:000026:000026_3 : 16:39:18:826: Can store petabytes of India rate single block for example 32 ND array stored in a distributed transactional database and we put for example 30 of them in a single database that the total of 1 . 3
+16:40:000027:000027_1 : 16:39:39:091: We are now completely unknown compared to 10 or 15 years ago because we focus more and more on our customers and less and less in conference like this one. 1
+16:40:000028:000028_2 : 16:39:52:855: One of our latest achievement is to move our entire cloud on open computer hardware so we felt hey can we be 3 times cheaper than ovh . 2
+16:40:000029:000029_3 : 16:40:06:807: Then we did it. 3
+16:40:000030:000030_1 : 16:40:15:794: handle more and more data and you need more and more cores to run many processes for example some of our systems need 100 Python processes deployed on a cluster you're pretty happy is 24 . 1
+16:40:000031:000031_3 : 16:40:36:070: 200 is what we charge 2000 is what you would need to pay for example at Amazon . 3
+16:41:000032:000032_4 : 16:40:44:034: This is how the company looks like . 4
+16:41:000033:000033_1 : 16:40:49:089: Let's go to the conclusion. 1
+16:41:000034:000034_3 : 16:41:00:866: And it's sequel at europython 2016 and it's marvelous because it shows that will you be loop . 3
+16:41:000035:000035_4 : 16:41:09:267: Second than . 4
+16:41:000036:000036_2 : 16:41:19:065: My current job so we played a bit with the cold . 2
+16:41:000037:000037_4 : 16:41:10:065: It then we compared . 4
+16:42:000038:000038_1 : 16:41:43:798: Then we compared the number of transattions per second. 1
+16:43:000040:000040_2 : 16:41:46:755: Maybe you'll be ok for the girl and case depending on how many characters are being sent back . 2
+16:43:000041:000041_3 : 16:41:56:100: India in the handler and we see that . 3
+16:43:000042:000042_4 : 16:42:48:458: I tried to do a hello world very stupid server you just connect by HTTP any chances hello world and we tried for that simplest possible server running on 4 cores in parallel but not single for hello world as the tools of 2016 presentation it's really multicore hello world in Python . 4
+16:44:000043:000043_1 : 16:43:15:598: Then we have async golang HTTP server, maybe 30/:/ to 2 times faster . 1
+16:44:000044:000044_2 : 16:43:24:371: It doesn't mean much but at least it's a first step showing that it is possible using a single Python process to completely use all cores Intel i7 and reach HTTP performance that is better than go round . 2
+16:44:000045:000045_3 : 16:43:47:472: Then we tried to do a bit more because they're returning hello world sounds a bit stupid though we programmed a Fibonacci function . 3
+16:44:000046:000046_4 : 16:44:01:159: And we checked how many requests per second each request doing a Fibonacci called couldn't small i7 machine handle with . 4
+16:44:000047:000047_1 : 16:44:12:293: Used to produce 3 and 4 . 1
+16:44:000048:000048_2 : 16:44:16:790: It scales linearly just like go along but a bit faster . 2
+16:44:000049:000049_3 : 16:44:22:353: Well so we decided to compare the kind of how many core routine . 3
+16:45:000050:000050_4 : 16:44:34:457: Born and execute in how much time . 4
+16:45:000051:000051_1 : 16:44:39:602: And we compared for example what can be done with I think I know I think I always use a loop give N Go routine and our little l 1 days protein in Python and you see the results so . 1
+16:45:000052:000052_2 : 16:44:55:606: Smoke machine I think I will take a total of about 10 or 8 seconds to spawn and run 500000 M People routine . 2
+16:45:000053:000053_4 : 16:45:09:339: L1 based library within its 1.49 . 3
+16:45:000054:000054_4 : 16:45:15:449: Michael and the largest time is taken in morning which does a lot of memory allocation using malloc which is . 4
+16:45:000055:000055_1 : 16:45:24:928: completly unoptimized. 1
+16:46:000056:000056_2 : 16:45:27:053: If you look at the 0.27 hear compared to 0. 39 year ago long it showed that there is a hope that we can get coroutine library that is as efficient as those in girl language when programming in Python . 2
+16:46:000058:000058_4 : 16:45:54:829: And in the future actually we don't use Python we use cython . 4
+16:46:000059:000059_1 : 16:46:01:911: Looks a lot like fighting that you can see see death instead of death in many parts of a cold and there's something called no GIL that releases the GIL very efficiently . 1
+16:46:000060:000060_2 : 16:46:16:364: Currently this first line see that class through No Deal . 2
+16:47:000061:000061_1 : 16:46:33:543: So that a function can create an instance of a single class like you do in Python transparently with a multi-core garbage collector and everything without ? . 1
+16:47:000062:000062_3 : 16:46:57:158: Performance similar to go language with a syntax that doesn't sound too weird to people who have practiced by Sam Smith . 3
+16:47:000063:000063_4 : 16:47:08:486: So I can find references for everything I've explained . 4
+16:47:000064:000064_0 : 16:47:17:073: First we studied what can be done in terms of using Python to handle all cores ... 1
+16:47:000065:000065_2 : 16:47:25:414: Article so everything is completely documented how we made the HTTP server if you click . 2
+16:47:000066:000066_0 : 16:47:33:946: All explanation and all code and if you go in the right part of the article you can find the whole source c
+16:48:000067:000067_3 : 16:47:34:946: Code in the repository so everything has like . 3
+16:48:000068:000068_4 : 16:47:49:021: In the references with added . 4
+16:48:000069:000069_2 : 16:48:07:785: And . 2
+16:48:000070:000070_3 : 16:48:10:899: I'm here . 3
+16:48:000071:000071_4 : 16:48:13:024: Funny thing about it and active is very interesting reference with you later because it provide . 4
+16:48:000072:000072_1 : 16:48:22:157: What kind of explanation how to do a good concurrent programming model for object languages that is unrelated to any kind of fashion and that can cover about any case of concurrent programming weather . 1
+16:49:000073:000073_2 : 16:48:39:324: I think I your tired your routines which ever actually rather than having to choose one you can have all of them if you read that article . 2
+16:49:000074:000074_3 : 16:48:50:644: Generalized . 3
+16:49:000075:000075_4 : 16:48:53:401: Concurrent object programming is a 30 years old and . 4
+16:49:000076:000076_2 : 16:49:02:060: Google point of view of Python today actually I choose Python for next Friday cos there was a nice book . 2
+16:49:000077:000077_3 : 16:49:10:833: 20 years ago that explain Python to beginners and why it was you that Ireland as a scripting language to do 3D animation I don't know if you . 3
+16:50:000078:000078_4 : 16:49:23:171: Read that book and what was bright in that book was that simple but easy to learn and a simple language . 4
+16:50:000079:000079_1 : 16:49:31:200: Today is the favourite language of developers according to some kind of statistics well that's good news but it is still extremely slow in terms of runtime 20 years ago it was acceptable because everybody was flowing scripting languages but today it's wanted to order of magnitude slower than competition . 1
+16:50:000080:000080_3 : 16:50:02:460: Like smashing suddenly got in the language to keywords Rupert rather than thinking about the true state of the art of object oriented concurrent programming it still unusable in the web browser . 3
+16:50:000081:000081_1 : 16:50:21:973: ?? JavaScript and go . 1
+16:50:000082:000082_2 : 16:50:26:078: Set alarm with a couple more and more traction among younger generation . 2
+16:50:000083:000083_3 : 16:50:34:218: Sorry that I told you can leave anytime you will get more and more depressed . 3
+16:50:000084:000084_4 : 16:50:42:338: Do we thought about moving up code to Python 3 then we thought what will it bring to a customer . 4
+16:51:000085:000085_3 : 16:50:53:687: I see absolutely no benefit for customer . 3
+16:51:000086:000086_4 : 16:50:57:973: Maybe only one is very small . 4
+16:51:000087:000087_1 : 16:51:01:094: Longer We Can Survive Candi . 1
+16:52:000088:000088_2 : 16:51:04:747: Except that I can tell you no idea . 2
+16:52:000089:000089_4 : 16:51:34:496: to make Python 3 compatible with the way Python tools working in terms of stream processing we already did it but we are going to maintain it it's lower despite what people say it requires more memory is getting needlessly complex for reasons I absolutely don't understand so we are going to have cost to explain new thing to us that every year and it added a model based on asyncio . 4
+16:53:000090:000090_1 : 16:51:59:607: Will eventually break all the transitionality our a system so it's terrible from my perspective which is different from Python community service . 1
+16:53:000091:000091_2 : 16:52:11:344: And if you look at industry adoption Instagram adopted python3 I think that's one of the rare 6s cases but Dropbox dropped it we actually been sponsoring for 1 year of Peace home just in time compiler we spend one man year trying to make it work and Dropbox dropped iPhone and when to go though they tried to do Python because they tried pie pie and it failed . 2
+16:53:000092:000092_3 : 16:52:41:459: Google prohibits using Python in production system as far as I know from my colleagues working inside Google YouTube Road to Python to go sun Chinese company doing cloud such as too new too new is a kind of drug box so I can buy in China they do and the others so it's a bit frightening and sometimes some Python community people who are giving the keynote in the presentation. 3
+16:53:000093:000093_4 : 16:53:11:592: Spent 30 minutes explaining why people should use Java big data they are part of actually Python data science lab . 4
+16:53:000094:000094_1 : 16:53:21:293: It's really really worrying for us. 1
+16:53:000095:000095_2 : 16:53:25:904: So we thought is it time to abandon Python 3 . 2
+16:54:000096:000096_3 : 16:53:30:804: Go language well too costly for us to migrate not very convenient when you need to interface with C libraries that's one of the Marvels of the python is that it's super easy to integrate any file fortran library to the CIA . 3
+16:54:000097:000097_3 : 16:54:01:132: JavaScript again to calculate for us to migrate we are not YouTube we are not Dropbox . 3
+16:54:000098:000098_4 : 16:54:09:125: Is concurrency model . 4
+16:54:000099:000099_1 : 16:54:13:247: is as bad as asyncio. 1
+16:54:000100:000100_2 : 16:54:16:386: So we tried to become more positive and we discovered your died who has heard about your diet . 2
+16:55:000101:000101_4 : 16:54:30:381: Your dad is a project from a dealer that brings . 4
+16:55:000102:000102_1 : 16:54:36:806: Jupyter notebook that running in webassembly in your browser it can run JavaScript it can run Python numpy it can run pandas and that means with a simple URL without installing any server you can provide a data science notebook to all your friends in one click . 1
+16:55:000103:000103_2 : 16:54:58:937: Louise been sponsoring now for 4 months your diet . 2
+16:55:000104:000104_3 : 16:55:05:115: Salt . 3
+16:55:000105:000105_4 : 16:55:07:241: Problem of running Python in the browser . 4
+16:55:000106:000106_1 : 16:55:11:074: The Python interpreter is very slow in the browser but the numpy libraries are nearly as fast as native and the combination of the two ways have compared to native the good side Iodile is that you can distribute say to 1 million people and notebook without purchasing a huge server so it's really a fantastic to . 1
+16:56:000107:000107_4 : 16:55:38:505: Stop the pressure . 4
+16:56:000108:000108_1 : 16:55:41:530: If you want to contribute to Mozilla Iodile you actually pay people to do it . 1
+16:56:000109:000109_2 : 16:55:49:102: I personally paid has been porting scikit learn to your diet and scikit-learn should be available within a month . 2
+16:56:000110:000110_3 : 16:55:58:208: Next step we made a kind of comparison between the different ways to get high performance in Python and what golang language provide so I'm not saying that it's impossible to do high performance system in Python we actually doing many of them . 3
+16:56:000111:000111_1 : 16:56:17:631: Play running the largest open source ERP with 500000 invoices and accounting and workflow process in 8 hours sleep should one . 1
+16:56:000112:000112_2 : 16:56:30:502: It has to be either based on multiprocessing or it has . 2
+16:57:000113:000113_3 : 16:56:37:094: On the support of the novel functions in this iPhone language . 3
+16:57:000114:000114_4 : 16:56:43:042: And whenever we need low latency high concurrency and perfect noted for execution with shared variable among the different thread . 4
+16:57:000115:000115_1 : 16:56:55:635: And whenever we can't use light or No Deal then go language is much better . 1
+16:57:000116:000116_2 : 16:57:02:419: This kind of comparison and we decided . 2
+16:57:000117:000117_3 : 16:57:07:390: Can we improove cython . 3
+16:57:000118:000118_4 : 16:57:11:261: People with but already existing pipes on a site on . 4
+16:58:000119:000119_1 : 16:57:17:375: Things to do in Admiralty chorus go language and get a very good concurrency model like Arctic and we've been now working on improving Python for about six months the first step where to make sure we could write a dynamic HTTP server in Python that can stand across all cores of a CPU within a single process . 1
+16:58:000120:000120_2 : 16:57:45:251: Second steps we wanted the same type of Scheduler it's called the work stealing Scheduler . 2
+16:58:000121:000121_3 : 16:57:53:288: Entitled without coroutine so that we can be sure that it will eventually scale up to for example 2448 . 3
+16:58:000122:000122_4 : 16:58:02:412: I don't know if you know but the process of Paris 7 university called Julie's trouble trick explained to me that one of the beauties in go language from currency is the Scheduler which is based on work feeling this is not like round Robin Hood traditional algorithm for scheduling any changes completely the scalability of operating system with work stealing you can scale a . 4
+16:59:000123:000123_1 : 16:58:31:561: So some code. 1
+16:59:000124:000124_3 : 16:58:39:725: In a first step of the project we studied which protein library already exist . 3
+16:59:000125:000125_4 : 16:58:49:243: cpc libtask lthread libdill libmill libcoy what's for example created by one of the developers of the go language . 4
+16:59:000126:000126_1 : 16:59:00:358: The first study we did and it up with a conclusion that none of them . 1
+16:59:000127:000127_2 : 16:59:08:488: one of them cover, say everything one would expect from a call routing library that's super strange we still don't have a good core routing library in the . 2
+17:00:000128:000128_3 : 16:59:55:158: So what we did it just reuse and L1 rugby teams title that's the beauty of python and fighting . 3
+17:00:000129:000129_4 : 17:00:07:301: The library zzz in girl language integrating the library is not as easy as one would expect . 4
+17:00:000130:000130_1 : 17:00:15:783: We use that strengths of the cython runtime . 1
+17:00:000131:000131_2 : 17:00:20:592: We can little by little by combining good CV library python . 2
+17:01:000132:000132_4 : 17:00:36:427: So the server is defined by defining a run function and defining handlers for example for the rules of the Fibonacci so it looks like one would do with a minimalistic application server framework in Python . 4
+17:01:000133:000133_1 : 17:00:54:556: Then the handler . 1
+17:01:000134:000134_2 : 17:00:59:149: looks a little bit C-ich . 2
+17:01:000135:000135_3 : 17:01:02:931: But not too difficult to read . 3
+17:01:000136:000136_1 : 17:01:12:189: So if we compare this kind of code . 1
+17:01:000137:000137_2 : 17:01:17:220: To what we would usually do in Python and we have in mind that by doing this we can occupy all cores of a server and get 10 to 100 time over 4 months I think the f word . 2
+17:01:000138:000138_3 : 17:01:34:929: A few functions like these a few classes like this is really worth the result . 3
+17:01:000139:000139_4 : 17:01:43:387: That's how we get this benchmark. 4
+17:02:000140:000140_1 : 17:01:48:505: Now look at the Fibonacci . 1
+17:02:000141:000141_2 : 17:01:51:637: Fibonacci that just item code . 2
+17:03:000142:000142_3 : 17:01:56:401: Done nothing new then the handler nothing much and we get scalability of a multiple core . 3
+17:03:000143:000143_4 : 17:02:05:907: Not so different from the Python we know but huge impact on performance and come . 4
+17:04:000144:000144_1 : 17:02:12:495: Thank you and again this is the QR code . 1
+17:04:000145:000145_1 : 17:03:52:590: Right for python programmers to get the performance of . 1
+17:04:000146:000146_3 : 17:04:00:273: Although we cheated what is interesting is . 3
+17:04:000147:000147_4 : 17:04:07:177: That . 4
+17:04:000148:000148_1 : 17:04:10:138: The day I show you the class . 1
+17:04:000149:000149_2 : 17:04:15:712: The day this kind of code becomes possible . 2
+17:04:000150:000150_3 : 17:04:22:408: The day you can write native Python classes . 3
+17:04:000151:000151_4 : 17:04:27:308: Then you can write Python code with object-oriented programming with a garbage collector . 4
+17:05:000152:000152_0 : 17:04:38:571: Not very very different from what
+17:05:000153:000153_2 : 17:04:45:614: We have the same time for the specific heat as the normal type . 2
+17:05:000154:000154_3 : 17:04:51:117: We have been writing a complete the application server framework will not be very difficult because those parts . 3
+17:05:000155:000155_4 : 17:05:02:884: Include c- type or . 4
+17:05:000156:000156_1 : 17:05:07:659: Look a little bit too much like to see . 1
+17:05:000157:000157_2 : 17:05:13:288: You want to see them anymore . 2
+17:05:000158:000158_3 : 17:05:16:578: Because they will be wrapped in base class is written in that way . 3
+17:06:000159:000159_4 : 17:06:06:250: For example just focus on the small set of features where concurrency and low-latency is needed like instant messaging or notification have this written a bit painful with Cedar Senegal and the . 4
+17:06:000160:000160_3 : 17:06:30:926: And you cut the integration so . 3
+17:07:000161:000161_1 : 17:06:45:213: Run super fast services that take a bit more time to write . 1
+17:07:000162:000162_3 : 17:06:56:063: The time we take to write the SAS services is compensated by the cost reduction in in . 3
+17:08:000163:000163_1 : 17:07:45:834: What prevents doing in hi-fi with no effort of rewriting code and benefits of just in time compiler . 1
+17:08:000164:000164_2 : 17:07:56:620: What prevents pipe I achieve the same types of performance as what we are showing Wi-Fi . 2
+17:08:000165:000165_3 : 17:08:06:934: So . 3
+17:08:000166:000166_4 : 17:08:09:595: It's so . 4
+17:08:000167:000167_1 : 17:08:14:713: I don't have a definite on Saturday because if I look at 5 pipe and if I run Hi-Fi on the rather small piece of code for example doing string processing we have a code that is used to process Apache logs and provides as a result a kind of ranking of the quality of the service . 1
+17:09:000168:000168_3 : 17:08:51:377: Box light by they get slower results . 3
+17:09:000169:000169_4 : 17:08:56:698: So . 4
+17:09:000170:000170_1 : 17:08:59:813: Well it's just a problem of working more on pi pi until we get the x 18 photo on Jungle for example . 1
+17:09:000171:000171_4 : 17:09:15:493: I thank you for a girly I can not have a definite answer but if you look at a track record we invested on piston not on . 4
+17:09:000172:000172_2 : 17:09:35:986: And one of the reasons why we invested in pissed on is because the . 2
+17:10:000173:000173_3 : 17:09:43:177: Bye bye doesn't solve the problem of . 3
+17:10:000174:000174_4 : 17:09:46:127: And make the integration of the libraries is a more complex or lessons . 4
+17:10:000175:000175_1 : 17:09:52:245: Part of the beauty of the python is the ease of integration of the library so I tend to be on the side of not believing that life I will remove the girls while keeping a garbage collector and easily into . 1
+17:10:000176:000176_2 : 17:10:12:460: But it's a belief . 2
+17:10:000177:000177_3 : 17:10:16:512: It's a great New Inn by 5 he Plus . 3
+17:10:000178:000178_4 : 17:10:21:632: Do you know the transactional memory part of pi pi I'm not sure it's a really . 4
+17:11:000179:000179_1 : 17:10:28:127: I resign . 1
+17:31:000180:000180_3 : 17:10:55:636: A huge part of the community has found a two-fold fighting that really helped them to write that code . 3
+17:31:000181:000181_4 : 17:11:04:612: Make sense to try to work for us to try to Leverage that tool not for data scientists . 4
+
+
+17:31:000281:000181_4 : --------
+17:31:000381:000181_4 : Rechargement du document
+Scaling Python to 1K QPS per server, not doing Hello Worlds Guillaume Gelin
+
+
+17:32:000184:000184_3 : 17:31:39:184: My way baby I can come off for today . 3
+17:33:000185:000185_2 : 17:32:32:625: So how everyone do you email well . 2
+17:34:000186:000186_3 : 17:32:42:438: For you today I'm going to talk about fitting lot . 3
+17:35:000003:000003_3 : 17:34:55:391: The Cure of to August 1st 11th hour clock is coming in . 3
+17:35:000004:000004_4 : 17:35:04:520: You start to be very very very long to Bob is completely out of the business . 4
+17:35:000005:000005_2 : 17:35:20:034: And everything is better for Bob . 2
+17:36:000006:000006_3 : 17:35:24:170: Alpha 12 if you are completely so there is a lot of locusts I never stop coming in . 3
+17:36:000007:000007_4 : 17:35:32:877: So there is a crisis meeting between Bob and his coworkers as a really don't know what to do with Bob at an idea but wants to use rabbit what is the use rabbit instead of the old computers . 4
+17:36:000008:000008_1 : 17:35:50:010: Info that you the robot and the source of much faster if you start to disappear so they're still there still more and more and more Motors but they can be thin . 1
+17:36:000009:000009_2 : 17:36:04:976: Put up at 13 yeah . 2
+17:36:000010:000010_4 : 17:36:16:228: To be continued . 4
+17:36:000011:000011_1 : 17:36:19:253: So I'm going to do my real thoughts of killing people song to one cake ups for server rack ups quote against not doing lol that's the main part of the dog is not doing in the world . 1
+17:37:000012:000012_2 : 17:36:35:373: To show what's what's killing what is killing an application of real real estate . 2
+17:37:000013:000013_3 : 17:36:43:221: Before we start with a quick summary so in your opinion with the locust . 3
+17:37:000014:000014_4 : 17:36:50:341: Yeah request yeah so we're both so inclined what's the desk and computer . 4
+17:37:000015:000015_1 : 17:37:03:019: Milk . 1
+17:37:000016:000016_2 : 17:37:06:510: It's a CPU . 2
+17:37:000017:000017_3 : 17:37:09:198: Sebab is the process so your applications that are serving and the robot can be a lot of things go for that later . 3
+17:37:000018:000018_4 : 17:37:20:323: So the first word about stealing is that . 4
+17:38:000019:000019_1 : 17:37:27:283: A lot of things to stay up there is a lot of a way of telling . 1
+17:38:000020:000020_2 : 17:37:34:388: There are some ways that are wasting pleasant others right so you really should when you want to tell you really really really should try to keep as simple as possible . 2
+17:38:000021:000021_3 : 17:37:48:528: Because like you to ls22 rewrite everything in see when you can just like took a process of the cast of that world . 3
+17:38:000022:000022_4 : 17:37:59:262: So the steps 02 steal something is to have something to scale right . 4
+17:38:000023:000023_1 : 17:38:05:910: So . 1
+17:38:000024:000024_4 : 17:38:35:194: Good words are not correct like to believe but not too good neither . 4
+17:39:000025:000025_1 : 17:38:43:326: Cookies . 1
+17:39:000026:000026_2 : 17:38:45:441: So we are going to to the . 2
+17:39:000027:000027_4 : 17:38:59:433: Digigov France and that we have and Jennings Nginx . 4
+17:39:000028:000028_1 : 17:39:09:394: In front of the application so the river Sports News just going to take every workers coming from both 82 to the portal . 1
+17:39:000029:000029_2 : 17:39:19:796: Papaya you delete application returning flask with sqlite sqlalchemy flask what the font size decrease . 2
+17:40:000030:000030_4 : 17:39:37:056: Is that you can register login logout list twits right nutrients list all users follow and unfollow other users . 4
+17:40:000031:000031_1 : 17:39:52:184: When you lose to it it's not illegal to it but obviously also The Twits of the people you follow . 1
+17:40:000032:000032_2 : 17:40:00:021: Limited for our application documents key to the top one before I was killing is to identify threats and define protocol . 2
+17:40:000033:000033_4 : 17:40:16:415: So . 4
+17:41:000034:000034_2 : 17:40:32:648: You can do it the same way but it's not as efficient . 2
+17:41:000035:000035_3 : 17:40:37:863: Phone Ruth we have the Twitter list was released and in right everything else . 3
+17:41:000036:000036_4 : 17:40:46:004: Singam time we want to try to guess in advance while going to be alright but in our case since the main goal is to look at other people place and to talk or two main exports are the twist The Twits list and the fact that you can write in the tooth . 4
+17:41:000037:000037_1 : 17:41:11:909: Twist plaits on red because most likely you want to eat a lot when you're on Twitter you you read much more than than WhatsApp waiting . 1
+17:42:000038:000038_2 : 17:41:24:049: I think that I read something that that's what things are on Twitter it was like a perfect 1 race you so you reach 5 you make 5 a read request for 1 rifle good . 2
+17:42:000039:000039_3 : 17:41:37:555: Barry know where you say you are going to . 3
+17:42:000040:000040_4 : 17:41:42:285: To define protocol which is a bit different than this 510 Russia the first of all we have to define rules for our benchmark because if we don't define who we can just like say ok I'm going to change that thing I'm going to phone 10 server so that a ya so the first rule is only one server so no worries I'm feeling . 4
+17:42:000041:000041_0 : 17:42:09:401: The response time she'll stay under 2 seconds for 95/:/ of the users all the time if it goes. . 1
+17:42:000042:000042_2 : 17:42:22:519: Empathy Lorraine should stay at 0/:/ free should I have like no failure at home if you have any further it's meant that our our scaling model is not be . 2
+17:42:000043:000043_3 : 17:42:35:227: So yeah . 3
+17:43:000044:000044_3 : 17:43:03:874: When your vacation but sometimes you don't have metric sometimes it's a good first step is to do metrics and see you know the threshold for here but here we are just like getting them so I'm guessing that there is like 10 times more people will lifting The Twits and people writing you to it and the others are like this . 3
+17:44:000045:000045_1 : 17:43:04:874: Which allows you to define this week . 1
+17:44:000046:000046_2 : 17:43:45:094: So let's surrender application with a simple Python rest API and we r v e y quimica great . 2
+17:45:000047:000047_1 : 17:44:36:371: The one called are you ok which is supposedly better performances than unicorn I didn't very tired . 1
+17:45:000048:000048_2 : 17:44:37:371: Completely motoring complete into the other to configure and the condition is not very good but if you take the time to Malta it has lot of . 2
+17:45:000049:000049_3 : 17:44:59:679: I can speak with Ann Jennings Knightley with the modulus upgrades of Advanced options like auto scaling . 3
+17:47:000050:000050_4 : 17:46:00:615: The only thing to to make sure your hair is that application statement what we call state for application is an application that remember previous interactions with users so far is on clothes that keeps account if I don't know the number of Twitter user application restarts then the council of the Lost and also if you have multiple processes of the same application you won't have a . 4
+17:47:000051:000051_1 : 17:46:27:741: Open sea between visayas state so you want to put the state somewhere else like that obeys or cache the kind of stuff in Hawick UK with 2 pi it works because we have lightly opticians but the station's flash stations are implemented play inside all the data is kept on the cookie of the client-side make the application status . 1
+17:48:000052:000052_3 : 17:47:05:088: You really should liver a drum which means that you should have as much . 3
+17:48:000053:000053_4 : 17:47:13:209: Dara Dara cleaner on because it's much faster to access and it's pointless to do to do accepting discs which are much slower if you have a lot of entry ramp so you should do everything you can to have your RAM almost full I just just keeping a bit of France for your application to her and for your camera to work with her . 4
+17:48:000054:000054_2 : 17:47:36:351: Also Beijing a repeating is very on like what do you do to navigate from page to page consistently when the data change the lot you can lost the the counting the index of where you are so very difficult but it's outside the scope of this talk . 2
+17:48:000055:000055_3 : 17:47:59:087: But that being said you should never return a full set of data that's pretty obvious but when I was so all your database queries full of a limit . 3
+17:48:000056:000056_4 : 17:48:09:672: Play older than Amazing switch implement indexes they all have some sort of unexplained feature . 4
+17:48:000057:000057_1 : 17:48:19:792: And if it helps you to understand what's happening and if the queries are you in the end so use it . 1
+17:49:000058:000058_2 : 17:48:26:912: I'm also massively davita international transaction log to keep track of everything that happens and you really really should monitor rate for long-running queries . 2
+17:49:000059:000059_0 : 17:48:41:054: That's where you can like evony book of changes if someone implement a new query was that not a tumor. that you you can do it in the UK that means of the most important thing to monitor in the world . 3
+17:49:000060:000060_4 : 17:48:53:185: So what say that our application was very bad at querying and we had zero indexed and that kind of stuff so we gain another 70 qps . 4
+17:50:000061:000061_4 : 17:49:32:553: Get your your dad are you first try to get it from cash if you don't have it from cash you get it from database and I know I know the function another Endpoint that right inside the data . 4
+17:50:000062:000062_1 : 17:49:33:553: Right and then remove the cash you are pigeons with saved to this is cache invalidation and this is all because if your dog Ashes are spread across several machines or if your crush is is . 1
+17:50:000063:000063_2 : 17:50:08:480: Sorry . 2
+17:50:000064:000064_4 : 17:50:29:806: Another way to ride the present example which I think my son is much more I am . 4
+17:50:000065:000065_1 : 17:50:37:939: Decorators into a . 1
+17:51:000066:000066_3 : 17:50:45:996: This is an example of what you could achieve with a lot of getting libraries . 3
+17:51:000067:000067_4 : 17:50:51:900: But you could tell me a application stateful right now if you if you just put the cash inside addict or something like your position is stateful and you will be you you you would be right and that's why you really want to use something like 9 kg which is basically your database in ramen very very simple that are based in RAM where you can put all your all your cash which is . 4
+17:51:000068:000068_1 : 17:51:20:020: But you could tell me a application stateful right now if you if you just put the cash inside addict or something like your position is stateful and you will be you you you would be right and that's why you really want to use something like 9 kg which is basically your database in ramen very very simple that are based in RAM where you can put It's a very good performance as well just in . 1
+17:52:000069:000069_3 : 17:51:38:203: For You by cashing rates we can like and write ups on top of that because . 3
+17:52:000070:000070_4 : 17:51:48:793: Free every Twitter list within that it's the most cold and points on August 8th so it's going much faster . 4
+17:52:000071:000071_1 : 17:51:58:931: The five not be arriving at funny things so you want to achieve come to Stoke-on-Trent it . 1
+17:52:000072:000072_2 : 17:52:07:052: What we call conference is that your application should never wear anything . 2
+17:53:000073:000073_4 : 17:52:25:326: How to do that there is mechanism and libraries like it even told you to to add concurrency to an existing program so I'm not talking about tornadoes all that kind of thing because they really require . 4
+17:53:000074:000074_1 : 17:52:45:456: To be sold for tonight from the beginning given with great with Germans that you really can take like any of location and just put it on top of it and it just works . 1
+17:53:000075:000075_3 : 17:53:18:706: But I think we're so confident by default . 3
+17:54:000076:000076_1 : 17:53:24:844: Project coming in on that subject there is quite which is basically we white off last night and that keeps exactly the same API . 1
+17:54:000077:000077_3 : 17:53:53:106: Actually be as gif protocol and was made by jungle guide . 3
+17:54:000078:000078_4 : 17:54:00:229: Do they have to do things that I think I'll definitely with his whatsoever and channels which is a lot of things that you cannot the jungle to the web for getting them canister . 4
+17:54:000079:000079_1 : 17:54:13:908: And I become with swag at the beginning the web server of Cloth the asynchronous web have recorded which now is the full project on the side . 1
+17:55:000080:000080_2 : 17:54:26:719: Sensitive so yeah you really want to monetize your application to see if it's CPU bound or unbound what we say when you say sit you down or lie about is . 2
+17:55:000081:000081_3 : 17:54:42:827: Easy for you to process can do to think it can do is a work so user CPU and we'll walk like a 5 amp hour calculator us to compare password when your user login . 3
+17:55:000082:000082_4 : 17:54:55:987: Also send a query to that above and just wait for the answer so when you send a query to get a basic input-output network but it's some sort of . 4
+17:56:000083:000083_2 : 17:55:26:727: In the database right here that his wife is really like the first thing you want to make conference so you want to have a concurrent database for example sqlite that is using 3 pi is not confirmed so it works at each request so it makes it harder for you have to implement all the converting mechanism in the application directly so good but pretty much all I can do that obeys like . 2
+17:56:000085:000085_4 : 17:55:59:981: So you just have to tell your application so every time there is a right do it on a separate green thread . 4
+17:56:000086:000086_1 : 17:56:09:668: Very lightweight form of thread . 1
+17:57:000087:000087_3 : 17:56:25:516: In the world step sex but WhatsApp sex like I think we've done pretty much everything right so right now or application looks very much like this there is a for CPUs are all screaming because of too many request we have cash we have come currency we have everything we can to to to make the answer factory . 3
+17:57:000088:000088_4 : 17:56:51:845: Last Resort with sister skills ethically right so just get better and better as is there with a better CPU or with more more more more CPU . 4
+17:57:000089:000089_1 : 17:57:06:975: If we go from the 4th PE28 CPU server well if I could be a bit better and we can get there one cake ups . 1
+17:57:000090:000090_3 : 17:57:21:099: Either as a conclusion . 3
+17:57:000091:000091_1 : 17:57:32:370: How to the tip UK by cities of your cervix during the fascinating but also very dangerous world of . 1
+17:58:000092:000092_2 : 17:57:43:515: Feeling in distributed systems . 2
+17:58:000093:000093_4 : 17:57:53:778: News when you benchmark do it with rigor and we'll UK's like I don't like every two weeks in Python we have a new web framework that I am the fastest way from work yeah ok cool but most of the time you up from work either is and the bottlemen off your . 4
+18:02:000094:000094_4 : 17:59:28:730: No thank you . 4
+
+18:08:000094:000094_4 : --------
+18:09:000094:000094_4 : Rechargement du document
+???????????
+
+18:10:000019:000019_1 : 18:10:38:449: Lancer c'est parti . 1
+18:12:000020:000020_3 : 18:10:53:486: Oui . 3
+18:12:000021:000021_4 : 18:10:55:608: Oui si . 4
+18:12:000022:000022_1 : 18:11:52:055: Tuto la classe . 1
+18:13:000023:000023_3 : 18:12:34:885: 90 collaborateurs et on compte dans le top 5 en fait des éditeurs en France en solution de gestion santé prévoyance . 3
+18:13:000024:000024_4 : 18:12:46:364: Les mutuelles des courtiers des assureurs est-ce qu'on fait pour eux c'est toute la chaîne de valeur l'application mobile les extranet le . 4
+18:13:000025:000025_2 : 18:12:55:507: Gestion le parcours de souscription enfin voilà toute la chaîne de valeur alors quand je suis allé voir deux équipes de Dave chez nous en python ils m'ont dit surtout parle pas trop longtemps de la boîte m'ennuie tout le monde donc je vais surtout pas . 2
+18:13:000026:000026_3 : 18:13:09:678: Ah ça déjà c'était il y a 5 ans on a choisi Python pour trois raisons majeures la première et je pense que je vais pas vous la prendre la données de santé à une énorme valeur sur le web . 3
+18:13:000027:000027_4 : 18:13:23:365: Comment faire au travers du Big Data de l'intelligence artificielle es vraiment de vent nous alors même s'il y a des expérimentations court d'ailleurs on en a une avec l'INRIA juste à côté nous aussi . 4
+18:14:000028:000028_4 : 18:13:43:841: J'étais déjà la deuxième chose c'est que la maintenabilité sert que pour nous choisir python c'était un langage . 4
+18:14:000029:000029_2 : 18:14:01:680: Sa compréhension avec une courbe d'apprentissage rapide donc plus facile à maintenir . 2
+18:14:000030:000030_3 : 18:14:07:137: Je te tuerai là-dessus . 3
+18:15:000031:000031_4 : 18:14:09:026: Faire que nous entend société éditeur on a tous le même problème dans l'informatique c recruter alors d'ailleurs . 4
+18:15:000032:000032_2 : 18:14:25:170: Il a tiré l'état . 2
+18:15:000033:000033_3 : 18:14:32:271: c'est . 3
+18:15:000034:000034_2 : 18:15:01:119: Là c'est bien . 2
+18:15:000035:000035_3 : 18:15:08:936: Salut . 3
+18:16:000036:000036_4 : 18:15:15:067: Si vous êtes déjà quatre ou cinq dernières années vous nous avez sûrement je l'espère rencontrer . 4
+18:16:000037:000037_1 : 18:15:27:237: Marketing qu'on a une agence on situe entre vous les gens nous les gens et des marques de des annonceurs une entreprise qui a envie de créer une relation entre vous et euh et du coup tout ça et ben il y a de lundi nearing engineering de la relation qui a créé à travers l'exploitation de la date a donc si vous pensez que la date c'est devenu quelque chose d'important si . 1
+18:16:000038:000038_2 : 18:15:57:368: Elle a de la valeur mais si vous pensez surtout que . 2
+18:16:000039:000039_3 : 18:16:03:259: Analyser regarder et qu'elle a de la pertinence dans un but . 3
+18:16:000040:000040_4 : 18:16:08:844: Donc c'est pour des gens et par des gens . 4
+18:16:000041:000041_1 : 18:16:12:977: Bah vous comprenez à peu près l'essence des enjeux contre êtes tous les jours parce que aujourd'hui effectivement on est un groupe international on a des bureaux dans dans plein dedans plein de pays mais . 1
+18:17:000042:000042_2 : 18:16:25:874: Manière dans ton faire de la TEC . 2
+18:17:000043:000043_3 : 18:16:29:999: Elle a une influence sur voilà le moyen une influence sur la fin donc forcément quand je dis marketing et advertising j'ai souvent des grands yeux comme ça et oubliez pas qui sont que ça fait par des gens et donc c'est les gens qui la composent qui peuvent avoir une influence sur comment ça se fait de la même manière que par la diversité de la communauté python on a une . 3
+18:18:000044:000044_4 : 18:16:50:126: Sur son développement sur son évolution et que c'est ça qui fait notre force et du coup ça s'applique en fête à tous les secteurs d'activité voilà donc si vous pensez que celui de la date est intéressant pour vous on sera ravi d'en discuter . 4
+18:18:000045:000045_1 : 18:17:06:274: Tout ce qu'on peut en faire en tout cas voilà non situe au milieu et on essaie d'en faire du sens . 1
+
+
+18:08:000094:000094_4 : --------
+18:09:000094:000094_4 : Rechargement du document
+Keynote #2 The emergence of consensus in the Python community — Julien Palard
+
+18:19:000050:000050_4 : 18:18:39:223: So if Are we there a printer . 4
+18:19:000051:000051_2 : 18:18:59:659: So you dressed don't have to do it because it's a lot of time . 2
+18:19:000052:000052_3 : 18:19:05:089: Her so what am I in a few seconds I'm biting cold little . 3
+18:19:000053:000053_4 : 18:19:13:227: Things that accommodation in French . 4
+18:19:000054:000054_1 : 18:19:17:357: A lot in a few places are super don't need to put the washing out of poos and if you want to find me I'm on Twitter I'm size of . 1
+18:20:000055:000055_0 : 18:19:29:480: Tomato Juliet paton. As I have some time the time to write timeline of fighting 2 . 2
+18:20:000056:000056_3 : 18:19:37:392: Translation of the documentation since one year are most we have a language feature in the documentation so you can change the language by reading the documentation before this the condition Warehouse tiered in different parts . 3
+18:20:000057:000057_4 : 18:19:54:185: And I miss education last year for the French translation we wear our light 25/:/ of time station and since yesterday thanks to this prince 32/:/ of them station Japanese translation is way faster than us . 4
+18:21:000058:000058_3 : 18:19:55:185: Are R s t oredein much longer is there a conference you suggest I should I use nose or bi test is there a consensus and she's so . 3
+18:22:000059:000059_2 : 18:21:36:857: Prequel to animated version if you used to use Jupiter please also try to Peter Rabbit Jupiter Jupiter . 2
+18:22:000060:000060_3 : 18:21:37:857: Eat right now . 3
+18:22:000061:000061_4 : 18:21:51:168: Pillars contract of Jupiter Labs so as I did I only get 10 years of data . 4
+18:22:000062:000062_1 : 18:22:02:275: As I have only got a few data points it tends to get Messi and and readable so I dropped it . 1
+18:23:000063:000063_4 : 18:22:24:649: Python project using a rest of the text and they're not using markdown falls out with me and everybody is using Spanx full documentation so everybody is using research set voice to text so I planned . 4
+18:23:000064:000064_1 : 18:22:42:778: Since I like five or six years service to drop with me on read me the text everyone before this was using her with me without extension and we switch like 5 years ago to read me the McDonnell respect I text . 1
+18:23:000065:000065_2 : 18:23:03:910: McDonald better yet MN winning so I don't have a great liberator forgot to text people are using it as a newspaper does not support it . 2
+18:23:000066:000066_3 : 18:23:17:402: I also tried to plot to commit messages so the frequency of commits messaging containing Knockdown of containing restore text . 3
+18:24:000067:000067_4 : 18:23:28:530: The red one is a quick text so it's going down the well I'm so blue one is not going out Miranda . 4
+18:24:000068:000068_0 : 18:23:39:835: I can hear you telling me better bye bye. Python.. Not super Smackdown so I don't want to use it yes but I buy guitar . 1
+18:25:000069:000069_3 : 18:24:10:076: It works so if you use McDonagh please just as a content type so it will render correctly and try educating please use Vanguard . 3
+18:25:000070:000070_0 : 18:24:49:529: What's a guy texts you ok for leaky for Direct Line documentation so I don't want to kill us with a text.. X is good . 2
+18:26:000071:000071_0 : 18:24:59:349: I tried to compare set of the TFG setup.py requirements pit viper 5 and here it's not very interesting in fact we just see and hear a zip file on people that look so I see a thing not everybody is committing is a pedophile of luck so please can meet your people. . 3
+18:26:000072:000072_4 : 18:25:28:703: Alliteration words sorry so far as a dependency management there is a lot of different philosophy on it really depends on what you are doing is I bet he's why we do not see how come some SIA independent are you packaging or library or are you packaging and application is it . 4
+18:26:000073:000073_1 : 18:25:54:843: Adidas equipped Xtra . 1
+18:27:000074:000074_3 : 18:26:28:079: Linked the present but really different . 3
+18:27:000075:000075_4 : 18:26:33:718: When is implementation of the spec of the other . 4
+18:27:000076:000076_2 : 18:27:11:948: Is GTA San . 2
+18:27:000077:000077_4 : 18:27:18:861: Sorry someone you still using those and I'm really sorry I don't know what to say but something else we do not see things a graph better with . 4
+18:28:000078:000078_2 : 18:27:47:105: Jaleco 5/:/ of project using test . 2
+18:28:000079:000079_3 : 18:27:52:124: I know commit messages so the numbers are really low because you know project not every comment or relating to test but we can see the rise in blue of Pi test so it looks like by test 1 . 3
+18:28:000080:000080_4 : 18:28:13:681: Flat nose is there thunder by the sea is rising I like this one . 4
+18:28:000081:000081_1 : 18:28:21:324: I like this one to . 1
+18:29:000082:000082_4 : 18:28:47:463: But I think it has been renamed so it may be an artificial fast . 4
+18:29:000083:000083_2 : 18:29:28:717: Deprecated and Ozzy . 2
+18:30:000084:000084_1 : 18:29:40:010: Two little ones about what year do we are used to store deichmann patients and we see that from to Susan I need a winner . 1
+18:30:000085:000085_2 : 18:29:52:153: And Boom app on home system to use for you and exactly the same for the test directory which makes sense I think we do not have one test I hope you have multiple test so please use your name father John . 2
+18:30:000086:000086_3 : 18:30:12:963: Ons from the beginning and apple sausage stew is a piano . 3
+18:31:000087:000087_1 : 18:30:22:199: Seems like only 35/:/ of people texting so please write test . 1
+18:31:000088:000088_2 : 18:30:30:195: About the fact of to ring an slc deactivate I think it's a no returns faulty project can see other languages . 2
+18:31:000089:000089_3 : 18:30:45:556: The most girls are most people use the SFC Jack Kelly was 10 years ago and there was only 25/:/ of project using a sausage activities and now there's nobody use NFC tag type so if you meditate . 3
+18:31:000090:000090_4 : 18:31:06:694: Susanna Saturday like I just put your project as packaging in the root of your project and eating out there is just very specific and little cases are we having any sausages burgers are typically when by tests when you used under any file is in your tests . 4
+18:32:000091:000091_3 : 18:31:39:084: It's pizza back to create and Saturday at 8 to avoid by test to import of packages while running in the contract so just about the sausages toys on a vendor I need files in your test I think . 3
+18:32:000092:000092_4 : 18:31:56:709: About she bangs I don't like this one because in this one we see that we are obligated to specify Python version is a shubunkin I don't like it I would like to just have a python is a she bangs . 4
+18:32:000093:000093_7 : 18:32:15:842: But there is something great is that the blue line Python 2.7 . 1
+18:32:000094:000094_2 : 18:32:21:961: So there was no epic . 2
+18:33:000095:000095_7 : 18:32:29:095: Have decided it was a good thing to specify I want is specifically Python 2.7 but there is she bangs Python free so it's ok I win her for Python free . 3
+18:33:000096:000096_4 : 18:32:43:237: Happy with it but I will prefer to just have by turn on the Titans free my shopping . 4
+18:33:000097:000097_1 : 18:32:50:393: My position is personal just use python is a Shiba . 1
+18:33:000098:000098_2 : 18:32:57:536: About licences . 2
+18:34:000099:000099_3 : 18:33:01:663: No population Sarah sorry if someone can explain this to me I would rate likely take the explanation as we see is a PSV licence for ring and the MIT license weaning and I don't know why it is switch for Muesli to close on the m80 licences are almost equivalent so if someone can explain me off or doing the question why is he switch Ok other . 3
+18:34:000100:000100_0 : 18:33:46:145: Illuminated choice there is two door licence. Conor asking you questions about a what you want and showing you which licence is the best for your project . 1
+18:36:000002:000002_2 : 18:33:58:319: I discovered that if you do not put a licence in your project Isabel convention is protecting you so you software will remain up and so so it works to is called licence free software and if you're interested about the subject is that a Wikipedia page about it feel free to document Joseph about this so it's ok if you completely forgot to put the licensing your software is an open source  When we think it turns off the plug I supported or so but they're not everyone is renaming class or class and Oscar to ILS so maybe just that with his son that k l a s s I don't know but I spotted this one . 3
+18:37:000004:000004_4 : 18:34:49:676: Next about version in packages of Medusa I see a lot of thing I see identification capitalised I see version Wizard and of course I really don't know so if someone know please tell me and . 4
+18:37:000005:000005_1 : 18:36:40:767: I love her and I try to say it next time I'm better now I really don't know why and I don't understand why am I choose winning RM8 is a great licence but I do not understand you switch between the two licences I personally was using busy to closes before . 1
+18:37:000006:000006_3 : 18:37:07:285: May be a source of inspiration yes maybe . 3
+18:38:000007:000007_2 : 18:37:28:288: The question is . 2
+18:38:000008:000008_3 : 18:37:34:421: Able to the slide just one is it better to put a single LEGO Ninjago need to file on the read it from this tablet UI file portable gas Galaxy tablet Wi-Fi file on the radiator from the Dordogne fight . 3
+18:38:000009:000009_4 : 18:37:51:535: Define consensus and his one my personal use age is to duplicate your version number on O2 files manually because I don't want the complex things that just to propagate an integer . 4
+18:38:000010:000010_1 : 18:38:03:679: So what are you doing myself . 1
+18:38:000011:000011_2 : 18:38:08:803: No steering . 2
+18:39:000012:000012_3 : 18:38:12:264: Define . 3
+18:39:000013:000013_4 : 18:38:15:207: Yes I was also project name the gas that help you bumping your Russians I tried it once but I did manage the project took . 4
+18:39:000014:000014_1 : 18:38:28:669: Also if you have questions about you male or yes you about consensus you will live like to have themselves to but I did not search for feel free to ask if there is enough questions I may do it again just another juice on U of the pics and do it next year with himself so if you can't pay as you questions during the Year FIFA to write me an email . 1
+
+
+

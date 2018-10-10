@@ -1,0 +1,329 @@
+ 
+
+10:02:000152:000152_2 : --------
+10:03:000153:000153_3 : Rechargement du document
+La gestion de version  en 2018: présent et future  Pierre-Yves David, Boris Feld
+
+10:04:000156:000156_3 : 10:03:51:311: D'ailleurs ceci est un test . 3
+10:04:000157:000157_4 : 10:03:54:978: Pas mal la captation . 4
+10:04:000158:000158_1 : 10:03:58:169: Je ne parle pas Klingon ça va prendre sa Sion et affreuse . 1
+10:05:000159:000159_3 : 10:04:14:715: Oui mais du coup je veux descendre . 3
+10:05:000160:000160_2 : 10:04:40:378: Y-a-t-il un admin dans la salle on commence . 2
+10:05:000161:000161_4 : 10:04:59:800: Bonjour à tous . 4
+10:05:000162:000162_1 : 10:05:06:907: Aujourd'hui on va vous parler de la gestion de version et puis Jacques te ment . 1
+10:05:000163:000163_2 : 10:05:12:797: Donc il faut que je parle pas ok on reprend . 2
+10:06:000164:000164_3 : 10:05:20:908: Aujourd'hui on va vous parler de gestion de version et des problèmes en Essonne version et en particulier on va s'intéresser aux problèmes qui arrive donc des problèmes qui sont Breizh pas complètement résolu et que vous utiliserez des solutions ou simplement dans les années qui viennent mais pas forcément aujourd'hui . 3
+10:06:000165:000165_4 : 10:05:43:021: Avant de parler du futur on va parler un peu du passé donc qu'est-ce que c'est l'action version c'est un domaine qui a ses vieux qui date de 1972 donc ça a 45 ans mainte0t et même si c'est assez vieux il y a en fait toujours des nouvelles choses qui arrivent généralement après par vague mais le gras c'est que vous avez à droite c'est le nombre de nouveau gestionnaire de la . 4
+10:06:000166:000166_1 : 10:06:07:141: Depuis 1972 donc voyez qu'il y en a toujours dit et Mercurial c 2005 c'est un peu près la la Bosque vers la droite mais même après ça il y a encore de nouvelles choses qui arrivent les gens qui crée des nouveaux vais faire deux versions pour résoudre des nouveaux problèmes . 1
+10:06:000167:000167_2 : 10:06:25:083: Ma 45 ans donc on pourrait imaginer que quand même ça fait 45 ans que je rentre avec dessus ce serait un problème résolu et . 2
+10:06:000168:000168_3 : 10:06:32:751: Mais c'est vraiment pas le cas en particulier il y a un certain nombre de faire de version . 3
+10:06:000169:000169_4 : 10:06:40:486: Par exemple subversion CVS Perforce qui sont quand même sentiment plus vieux que la génération Y . 4
+10:06:000170:000170_1 : 10:06:47:080: J'espère que je n'ai pas ce qu'il . 1
+10:07:000171:000171_3 : 10:06:52:221: Mairie de celui . 3
+10:07:000172:000172_4 : 10:06:53:997: Pas assez bien géré par la génération actuelle de la même manière la génération actuelle même . 4
+10:07:000173:000173_1 : 10:07:01:946: Et attendre d'hôtes gestionnaire de version . 1
+10:07:000174:000174_2 : 10:07:07:834: Existe encore à côté de b*** comme Mercurial ils sont activement développer et qui m'ont soutenu par la tombe de Jean et des nouveaux dessins de passion comme . 2
+10:07:000175:000175_3 : 10:07:17:939: Mots des sources de son propriétaire comme plastique s m . 3
+10:07:000176:000176_4 : 10:07:23:280: Quoi il y a pas juste une solution qui . 4
+10:07:000177:000177_1 : 10:07:27:483: Ben c'est un mélange de plusieurs choses à la fois les contraintes techniques sont assez compliqué sont plus ou moins bien gérer . 1
+10:07:000178:000178_2 : 10:07:35:228: En plus il y a des domaines qui ont des besoins société de très particulière et qui . 2
+10:07:000179:000179_3 : 10:07:42:598: Injection qui ont créé des nick et fils pendant longtemps mais . 3
+10:08:000180:000180_4 : 10:07:48:705: Rue des contraintes techniques ou des choses particulières il y a aussi le fait que le processus de développement et la manière dont on développe . 4
+10:08:000181:000181_1 : 10:07:57:743: Change avec une ligne à l'autre on a des nouvelles contraintes ma des nouvelles des nouveaux workflow et du coup les animations besoin de s'adapter à ça des fois même déclenche le genre de modification et au final il y a une question va bien . 1
+10:08:000182:000182_2 : 10:08:17:857: Vidéo dans les Landes les deux il y a des gens qui . 2
+10:08:000183:000183_3 : 10:08:22:977: Il y aura tout . 3
+10:08:000184:000184_4 : 10:08:25:802: Crée des nouveaux outils qui sont un peu pareil mais un peu différent pour avoir des nouvelles idées nouvelles choses et pouvoir . 4
+10:08:000185:000185_1 : 10:08:33:733: Alors une dépression de reparler contraintes techniques . 1
+10:08:000186:000186_2 : 10:08:42:843: Envoyez un peu plus en détail . 2
+10:08:000187:000187_3 : 10:08:45:612: MDM . 3
+10:09:000188:000188_4 : 10:08:47:487: Avec . 4
+10:09:000189:000189_1 : 10:08:51:592: Existence de l'ancienne génération c'est les questions de très grande base de code ou de volonté d'avoir de très grande . 1
+10:09:000190:000190_2 : 10:09:01:694: En particulier il y a un milieu qui . 2
+10:09:000191:000191_3 : 10:09:07:805: C'est l'idée de t'avoir à Manon Ribaux qui en fait exactement ce qu'on fait quand on a les pieds de rassembler tous . 3
+10:09:000192:000192_4 : 10:09:18:919: Pour avoir toutes les choses à maman alors ce qu'il faut voir c'est que quand on dit . 4
+10:09:000193:000193_2 : 10:09:35:911: Merci nickel . 2
+10:09:000194:000194_3 : 10:09:43:020: Donc les . 3
+10:10:000195:000195_4 : 10:09:47:857: Gonflement droit ça veut pas dire avoir un projet unique à un autre un unique blog ou tu te concerne même temps et les plantes dans tous les sens . 4
+10:10:000196:000196_1 : 10:09:57:101: Les séparés dans un dépôt de gestion de version identique avec des paquets qui sont . 1
+10:10:000197:000197_2 : 10:10:04:653: Je voulais qui sont dépouillés indépendamment et ce genre de chose l'idée générale c de s'impliquer la collaboration . 2
+10:10:000198:000198_3 : 10:10:12:767: Attends ça tombe davantage simplifie la recherche de dépendance quels sont les versions avec laquelle on doit être dépendant ça va un peu global permet . 3
+10:10:000199:000199_4 : 10:10:23:453: De standardisation comme vous avez tout même endroit vous allez pouvoir appliquer facilement les mêmes Dutti . 4
+10:10:000200:000200_1 : 10:10:29:551: Genre de chose vous pouvez utiliser les mêmes d'outils de build . 1
+10:10:000201:000201_2 : 10:10:35:635: Fatiguée avec un N config qui va être le bal pour partout et c'est aussi plus simple si tu t'es maman droit de regarder ce que les autres gens font . 2
+10:10:000202:000202_3 : 10:10:47:754: Avoir aller . 3
+10:11:000203:000203_4 : 10:10:49:886: Quel code est où . 4
+10:11:000204:000204_1 : 10:10:52:784: Un des gros avantages d'avoir un dépôt unique c'est laquelle se faire un changement qui est atomique sur toutes vos . 1
+10:11:000205:000205_2 : 10:11:04:557: Et du coup aussi de garder et de préserver un état cohérent et de revenir en arrière donc vraiment historique si vous avez un dépôt différents impliqué dans un projet . 2
+10:11:000206:000206_3 : 10:11:22:674: Vous avez un moment . 3
+10:11:000207:000207_4 : 10:11:30:921: vous avez un Historique . 4
+10:11:000208:000208_1 : 10:11:33:039: Ben quand le mec il a modifié telle fonction et ben il a lancé cette est sa passé et l'état général . 1
+10:12:000209:000209_2 : 10:11:43:837: Elle aussi quand je peux dire factoring vous pouvez modifier une librairie et tous éducateur d'un seul coup . 2
+10:12:000210:000210_3 : 10:11:51:954: Fichier avec qui va rentrer en premier qui va sortir . 3
+10:12:000211:000211_4 : 10:11:56:644: Et ça aide aussi du coup tout c'que intégration continue qui peut juste prendre un dépôt vérifier que tu m'as . 4
+10:12:000212:000212_1 : 10:12:04:021: Par contre le désavantage il y a plein de choses qui augmenten parce que à la place de porter votre petite valise . 1
+10:12:000213:000213_2 : 10:12:14:743: Et dépendance vous partez une valise qui compte . 2
+10:12:000214:000214_3 : 10:12:20:637: Est-ce qu'il peut faire beaucoup de choses on pouvait avoir beaucoup de fichiers un historique et très grand dans lequel ça devient plus difficile de chercher les choses . 3
+10:12:000215:000215_4 : 10:12:30:392: Vous avez avoir un état de stockage sur votre disque qui explose . 4
+10:12:000216:000216_1 : 10:12:36:753: Je vais changer de version de . 1
+10:12:000217:000217_2 : 10:12:39:898: Météo . 2
+10:12:000218:000218_3 : 10:12:42:003: un serveur centralJe parle . 3
+10:13:000219:000219_4 : 10:12:49:135: Le plus compliqué un autre élément qui . 4
+10:13:000220:000220_1 : 10:12:53:776: Faire passer le contrôle d'accès si vous avez une . 1
+10:13:000221:000221_2 : 10:13:00:862: Le crédit que d'autres et donc les gens ont un accès limité à certains aspects du pain si vous avez plusieurs Dépôts c'est assez facile de restreindre qui accède à quoi je l'ai plus qu'un seul Dépôt ça devient plus compliqué d'avoir un dépot accessible que partiellement . 2
+10:13:000222:000222_3 : 10:13:15:557: Donc une des solutions à peu près ce problème c'est de faire le permettre de faire des clown est roi ou denaro clown Despars clown déjà l'automne . 3
+10:13:000223:000223_4 : 10:13:29:938: On les appelle pour ça on a une définition de quelles sont les fichiers nécessaires pour faire fonctionner un projet . 4
+10:13:000224:000224_1 : 10:13:41:215: quand on fait un clone Récupérer tout l'historique et tous les fichiers et . 1
+10:14:000225:000225_2 : 10:13:46:009: Que les fichiers qui nous intéresse . 2
+10:14:000226:000226_3 : 10:13:49:673: Donc d'un côté on annule tous les inconvénients dans ton a parlé avant . 3
+10:14:000227:000227_4 : 10:13:57:358: Affaire auto . 4
+10:14:000228:000228_1 : 10:14:03:487: u aussi beaucoup plus . 1
+10:14:000229:000229_0 : 10:14:04:487: N historique
+10:14:000230:000230_2 : 10:14:05:837: Et on peut . 2
+10:14:000231:000231_3 : 10:14:08:545: Une partie du dépôt ça veut dire qu'on peut recommencer installer du contrôle d'accès qui empêche . 3
+10:14:000232:000232_4 : 10:14:15:992: À pouvoir avoir un repo tu t'en reste . 4
+10:14:000233:000233_1 : 10:14:24:680: Pas avoir les inconvénients du monde Henri . 1
+10:15:000234:000234_0 : 10:14:32:798: tout en gardant les avantages C'est-à-dire que si une équipe qui est très transversale elle va pouvoir avoir tous les deux. En même temps . 2
+10:15:000235:000235_3 : 10:14:40:610: ECO tous les 14 en même temps et tout ce qui intégration continue outil test vas pouvoir aussi fonctionnel sur toute la base de code c'est simplement sans avoir accès à plusieurs dépôt et on garde aussi l'avantage de communication . 3
+10:15:000236:000236_4 : 10:14:59:693: Boris va vous faire un exemple de à quoi ça ressemble interagir avec un . 4
+10:15:000237:000237_1 : 10:15:07:564: Avec la Royal parce qu'on fait du mal . 1
+10:16:000238:000238_2 : 10:15:11:810: Comme Pierre Yves vous l'a expliqué avoir un repo c'est bien avoir un iPod plusieurs centaines de Go avec plusieurs centaines de milliers de comics un peu plus compliqué quoi prendre un exemple on va dire qu'on a un gros un gros nez . 2
+10:16:000239:000239_3 : 10:15:35:522: Envoie est-ce que vous voyez bien d'ailleurs est-ce que je peux être plus grand . 3
+10:16:000241:000241_2 : 10:15:59:607: Ta . 2
+10:16:000242:000242_3 : 10:16:05:371: Donc on voit on a 40 changements sur 40 ficiers. 3
+10:16:000243:000243_4 : 10:16:16:516: Potentiellement ça pollue 40A pour être 40 millions et avec une échelle de grandeur de taille . 4
+10:16:000244:000244_0 : 10:16:26:628: On voit que on a . beaucoup de fichiers 1
+10:16:000245:000245_2 : 10:16:32:073: Espace facile d'interagir est mainte0t on va faire un clone narro au . 2
+10:17:000246:000246_3 : 10:16:40:907: Compass l'option . 3
+10:17:000247:000247_0 : 10:16:44:024: Et on va lui dire que on veut récupérer les fichiers uniquement du projet web def .
+10:17:000248:000248_0 : 10:16:45:024: on a récupéré 3 commits 4
+10:17:000249:000249_0 : 10:17:03:476: projet 1 seul ficjhier 2
+10:17:000251:000251_1 : 10:17:21:707: Cool . 1
+10:18:000252:000252_0 : 10:17:35:993: Problème on a que 3 fichiers au lieu de 40
+10:18:000253:000253_1 : 10:17:48:118: Il va aller automatiquement le récupérer , le metter sur votre working directory. 1
+10:18:000254:000254_3 : 10:18:06:163: Il était deux fichiers . 3
+10:18:000255:000255_4 : 10:18:11:275: Afficher sur 40 minutes . 4
+10:18:000256:000256_1 : 10:18:14:327: Où on a un clone qui est beaucoup plus . 1
+10:18:000257:000257_2 : 10:18:20:101: Laurent la parole à Pierre Yves . 2
+10:18:000258:000258_3 : 10:18:24:622: Un autre problème technique qui qui fait que des solutions quand même Perforce subversion existe encore c'est le problème des pieds qui ne sont pas du code source principalement en gestion de version ovationné du code source donc . 3
+10:19:000259:000259_4 : 10:18:44:150: _du texte qui Explique un ordinateur quoi faire avec des mots . 4
+10:19:000260:000260_1 : 10:18:49:255: C'est un problème qu'on gère assez bien on s'est bien le stocker cicas non c'est bien faire des 10 explication dessus mais il y a tant de choses qui ne sont pas du code source . 1
+10:19:000261:000261_2 : 10:18:58:930: pour le quel on est moins bon ça peut être soit des données de test qui vont être binaire soin des fichiers de bureautique qui sont aussi binaire et qui . 2
+10:19:000262:000262_3 : 10:19:07:797: Le des médias des images et des vidéos tous ces choses là qu'on a besoin pour faire fonctionner une application ou un projet ou quoi que ce soit mais qui sont pas purement du code source . 3
+10:19:000263:000263_4 : 10:19:19:138: Code source . 4
+10:19:000264:000264_1 : 10:19:21:884: ils ont des proprietes différentes ce qui fait que toutes les solutions fabuleuse qu'on a mis 45 ans à mettre en place pour gérer très bien le code source elles sont pas très intéressant de voir assez inefficace là-dessus en particulier . 1
+10:19:000265:000265_2 : 10:19:35:004: bonnes chises pour la comparaison de la comparaison et du maire . 2
+10:20:000266:000266_4 : 10:19:40:032: Mais faire un diff sur une vidéo il y a des trucs qui existent mais c'est pas aussi simple et universe Application universelle que faire du indice sur du teck . 4
+10:20:000267:000267_2 : 10:20:06:063: Go et plus ça va plus c'est gros donc tout ça ça fait que . 2
+10:20:000268:000268_3 : 10:20:13:181:l Devient un est différente des fichiers sources et pose problème j'espère . 3
+10:21:000269:000269_4 : 10:20:21:572: Fais-moi un problème sur la génération d'avant avec des thèmes centralisée parce que le stockage gta au niveau du serveur les échanges été relativement simple et du coup on pouvait se permettre plus facilement de prendre des gros fichiers binaires elle et je te . 4
+10:21:000270:000270_1 : 10:20:38:703: Rentre dans une version décentralisée comme dit-on Mercurial on a tout l'historique en local donc quand on est en train de faire un clown et qu'on récupère conversion d'une vidéo qui fait 10 Go c'est quand même relativement inefficace . 1
+10:21:000271:000271_2 : 10:20:57:832: Il y a certaines choses qu'on a été faite avec le temps pour gérer genre de choses soient des gestionnaires d'artefacts dédié qui vont gérer . 2
+10:21:000272:000272_3 : 10:21:08:637: Direction intégré dans . 3
+10:21:000273:000273_4 : 10:21:13:010: Une collaboration à ses portes avec le thème de Bill qui va voir des caches des choses comme ça mais qui sont pas . 4
+10:21:000274:000274_1 : 10:21:18:932: Ou des solutions directement donc soit avec les . 1
+10:21:000275:000275_0 : 10:21:24:055: Plus vachement se permettre de mettre n'importe quoi dans le même sac posé comme des problèmes divers solution. Avec le temps .mercurial ou git 2
+10:22:000276:000276_3 : 10:21:34:286: Un guide de j'en ai d'autre en tête mercredi allitération avant d'arriver actuelle le standard à peu près de nos jours c'est git LFS qui était lancée il y a à peu près 5 ans . 3
+10:22:000277:000277_4 : 10:21:52:407: EDF des définition qui sont extensible . 4
+10:22:000278:000278_1 : 10:21:57:596: Je pars d'autres projets qui ont besoin de faire des choses . 1
+10:22:000279:000279_2 : 10:22:04:330: Et à la fois définition et le protocole réseau et standard . 2
+10:22:000280:000280_3 : 10:22:09:819: La Plaza voir au monde un peu une solution dans l'entreprise et son garçon qui fait des trucs il y a un vrai Standard est implémenté par une dizaine de fde serveur differe 10 . 3
+10:22:000281:000281_4 : 10:22:20:151: EBay que on peut effectivement c'est . 4
+10:22:000282:000282_1 : 10:22:24:151: La dernière itération de la . 1
+10:22:000283:000283_2 : 10:22:31:790: Et comment on a fait un peu après on peut avoir une meilleure impl"mentation à . 2
+10:22:000284:000284_3 : 10:22:40:724: Je vais laisser la parole à Maurice pour vous montrer à quoi ça ressemble . 3
+10:23:000285:000285_4 : 10:22:47:336: Merci Pierre-Yves . 4
+10:23:000286:000286_1 : 10:22:50:454: Donc on _a un repo avec des données propriétaire . 1
+10:23:000287:000287_2 : 10:22:59:412: Un clone est là dans son lit pour un cheat unlock et du texte ASCII binaire qui fait 10 Mo est arrivé . 2
+10:23:000288:000288_3 : 10:23:10:548: Elle a un petit historique . 3
+10:23:000289:000289_4 : 10:23:15:676: Séminaire une fois une fois une fois une fois et du coup avec les laisser à ta gueule à la fois git é-mail par défaut et elle va stocker les copies de chacune de ces révisions . 4
+10:23:000290:000290_1 : 10:23:30:192: Du coup ça rend le Repo bâtiment . 1
+10:23:000291:000291_2 : 10:23:36:308: Parce que comme Pierre-Yves l'a dit on peut pas faire de DIF on peut pas faire de ****** . 2
+10:23:000292:000292_3 : 10:23:41:916: Malheureusement elle connaît pas de solution mieux donc elle va juste pousser ses . 3
+10:24:000293:000293_4 : 10:23:51:309: Sur un serveur . 4
+10:24:000294:000294_0 : 10:23:54:486: Envoyez 17 Mega ca prend du tem
+10:24:000295:000295_2 : 10:23:57:826: J'ai des fichiers de plusieurs centaines de méga voir des plusieurs j'ai . 2
+10:24:000296:000296_0 : 10:24:03:058: Collègue Bob qui connaît lui des solutions
+10:24:000297:000297_3 : 10:24:04:058: un chouia lent. 3
+10:24:000298:000298_1 : 10:24:20:106: Espace où il y a que trois 37 c'est ça serait gros . 1
+10:24:000299:000299_0 : 10:24:35:417: Parce qu'il est mineur
+10:24:000300:000300_3 : 10:24:36:417: ana t binaire mainte . 3
+10:25:000301:000301_0 : 10:24:37:417: LFS
+10:25:000302:000302_4 : 10:24:41:520: Donc il décide d'ajouter la conf nécessaire . 4
+10:25:000303:000303_1 : 10:24:49:134: là quand nécessaire à la sphère solaire . 1
+10:25:000304:000304_2 : 10:24:55:257: Attention par taille d'une part d'autre ici . 2
+10:25:000305:000305_3 : 10:25:04:769: Donc il va . 3
+10:25:000306:000306_4 : 10:25:10:161: Configuration . 4
+10:25:000307:000307_1 : 10:25:12:198: Le committer . 1
+10:25:000308:000308_2 : 10:25:15:336: Le pousser . 2
+10:25:000309:000309_4 : 10:25:20:627: Elias un collègue . 4
+10:25:000310:000310_1 : 10:25:24:874: Poulet . 1
+10:25:000311:000311_2 : 10:25:27:997: Une fois qu'elle va ajouter des gros fichiers Sanary . 2
+10:25:000312:000312_3 : 10:25:33:465: Vas-y c'est dommage on vient de commencer on a déjà 17 Mo de données dans le serveur . 3
+10:25:000313:000313_4 : 10:25:40:586: Et c'est là où hg implémente le problème . 4
+10:26:000314:000314_1 : 10:25:46:302: Convertir . 1
+10:26:000315:000315_2 : 10:25:50:529: En gardant le même âge . 2
+10:26:000316:000316_3 : 10:25:54:726: On a . 3
+10:26:000317:000317_4 : 10:26:00:841: Kb9 f82 peu près . 4
+10:26:000318:000318_1 : 10:26:05:701: Si . 1
+10:26:000320:000320_4 : 10:26:19:488: Que le chose on écrit avant on va convertis . 4
+10:26:000321:000321_1 : 10:26:27:604: Il va passer sur Salins comique et quand on regarde . 1
+10:26:000322:000322_2 : 10:26:32:789: notre repo convertir . 2
+10:27:000323:000323_3 : 10:26:35:666: DAB ne fasse 82 . 3
+10:27:000324:000324_4 : 10:26:39:821: Là on a exactement le même âge . 4
+10:27:000325:000325_3 : 10:26:56:787: nouveau collegue Charlie . 3
+10:27:000326:000326_4 : 10:27:01:340: Le Ripault combien de partir avec . 4
+10:27:000327:000327_1 : 10:27:08:649: 507 ok c'est normal . 1
+10:28:000328:000328_2 : 10:27:14:273: C'est vachement moins de 17 Mo c'est un peu et mainte0t si il se met à jour sur la tête . 2
+10:28:000329:000329_3 : 10:27:24:900: LFS va télécharger automatiquement lautner valise savoir si Directory Eva le stocker . 3
+10:28:000330:000330_4 : 10:28:07:731: Tu nous préviens que d'habitude quand on ajoute un gros un gros fichier bah ça prend la place et ça prend la mémoire . 4
+10:28:000331:000331_2 : 10:28:27:064: À 10 ans qu'on va voir . 2
+10:28:000332:000332_3 : 10:28:31:355: Qui dit que le fichier de 20 Mo . 3
+10:28:000333:000333_4 : 10:28:36:842: Qui est généralement sur des . 4
+10:28:000334:000334_1 : 10:28:42:225: disques dédiSSD une application . 1
+10:29:000335:000335_2 : 10:28:46:506: C'est vachement plus efficace pour distribuer des gros fichiers . 2
+10:29:000336:000336_4 : 10:28:52:643: Je disais que les has changer qu'est-ce que ça fait que Léa shampoing c'est qu'on a déjà des clones . 4
+10:29:000337:000337_1 : 10:28:59:582: Avec alice et Bob et comme . 1
+10:29:000338:000338_2 : 10:29:04:698: Faire que l'historique n'a pas été réussi alors qu'en avez-vous fait votre conversion . 2
+10:29:000339:000339_3 : 10:29:12:811: Stationnement là-bas . 3
+10:29:000340:000340_4 : 10:29:19:177: so demande à Bob Et on . 4
+10:29:000341:000341_1 : 10:29:24:058: Note x le monde était vachement vraiment différente Alice a uniquement les trois premières la vision du Fou un fichier pub à être propre . 1
+10:29:000342:000342_2 : 10:29:35:880: Esalia uniquement la dernière . 2
+10:29:000343:000343_3 : 10:29:40:525: Certains . 3
+10:30:000344:000344_4 : 10:29:46:610: Fichier binaire . 4
+10:30:000345:000345_1 : 10:29:49:787: Rendez-vous globalement toute opération plus rapide . 1
+10:30:000346:000346_0 : 10:29:55:575: Le tuer d'après qui donne des contraintes au niveau gestion de version c'est tout ce qui est performance ce que même sans aller chercher très loin l'épreuve de performance quand on s'occupe de simulation finissent toujours pas arrivé. De raison assez simple qui est que le temps va toujours dans un sens donc plus à vin
+10:31:000347:000347_3 : 10:30:23:690: Vous avez aussi un projet qui devient de plus en plus grand et de plus en plus gens qui travaille sur un projet même sans avoir plus de gens qui travaillent sur le projet si vous êtes trop à travailler sur un projet vous faites 30 commits par semaine et ben le nom de la continuer de grandir avec le temps et vous vous allez finir par avoir de problème de . 3
+10:31:000348:000348_4 : 10:30:44:997: Si vous êtes petits ils arriveront vraiment lentement mais il y a ce côté comme mon ange et de l'historique le problème sur lequel on travaille et toujours de en grand. 4
+10:31:000349:000349_1 : 10:30:58:416: Quoi qu'il arrive la seule manière que ça arrête de grandir c'est que le projet s'arrête que la boîte cool que les gens par faire autre chose mais c'est pas forcément des choses à Paris . 1
+10:31:000350:000350_2 : 10:31:11:629: C 1 vaste sujet donc on va passer assez rapidement dessus mais il y a un sens de problème qui sont plus ou moins bien résolu dans la BBC à l'autre par exemple la capacité d'avoir plusieurs serveurs qui . 2
+10:31:000351:000351_3 : 10:31:25:754: Faire du caramel si vous pouvez faire ça vous allez avoir des capacités de redondance savoir qui tombe continuer à servir vous pouvez passer à l'échelle parce que si vous avez 3 serveurs. 3
+10:32:000352:000352_4 : 10:31:39:621: Plus de gens que si vous n'avez qu'un seul c'est l'heure de choses une autre manière de passer à l'échelle c'est de réussir à cacher des données donc quand les gens demande d'information d'historique un peu à la manière de la les fesses on peut . 4
+10:32:000353:000353_1 : 10:31:54:304: Un café près distribuer pour que à la fois le serveur est pas besoin de faire de calcul pour fichier et aussi pour qu'il soit servi de manière plus local . 1
+10:32:000354:000354_2 : 10:32:05:425: Parce que . 2
+10:32:000355:000355_3 : 10:32:07:536: Quartier des choses différentes réussir à savoir . 3
+10:32:000356:000356_4 : 10:32:13:158: Ça reste des problèmes qui refuse - résolu DBSS à l'autre et qui sont plus ou moins sans fin aussi . 4
+10:32:000357:000357_1 : 10:32:22:495: Des choses purement local est-ce que vous pouvez réussir à avoir à travailler . 1
+10:33:000358:000358_2 : 10:32:29:357: Mais du même projet sans avoir besoin d'avoir le même clown chez les grands il y a pleins d'Aspe qui vont être un peu un peu à creuser pour pour chaque heure de version un autre aspect en plus de juste . 2
+10:33:000359:000359_3 : 10:32:46:475: Il y a pûrement des amis ration d'algorithme qui des fois son nouvel et des fois sont pas nouvelle un exemple rigolo CVT mercurial une commande qui s'appelle annotate qui on appelle souvent blingee qui permet de savoir . 3
+10:33:000360:000360_4 : 10:33:03:573: Recette a introduit quelle ligne de quel fichier donc qui a fait quel changement . 4
+10:33:000361:000361_1 : 10:33:09:216: Déjà rien que pour exploitation de base chez git regarder l'historique de ce fichier dans mozilla cdiscount alors que dans mercredi c'est 7 secondes et demi parce que l'implantation est un peu différent donc elle a de la marge mais en fait quand mercurial s'est mis à utiliser une astuce de stockage qui améliore son particulier qui existait déjà dans . 1
+10:34:000362:000362_2 : 10:33:37:325: Qui a 45 ans et ben on va prendre plus vite que qu'est-ce qui se faire donc d'un côté il y a plein de solutions avec existe ou qui sont inventé mais qui sont jamais tout même endroit c'est aussi pour ça . 2
+10:34:000363:000363_3 : 10:33:50:313: Une autre manière de passer à l'échelle dans des dans des cas . 3
+10:34:000364:000364_4 : 10:33:59:423: On appelle la télé mega réponse qui avoir chez google facebook mais même bah ça côtés déjà chez Mozilla plus petit mais classement Grand . 4
+10:34:000365:000365_1 : 10:34:10:562: collaboration avec le Noyau du système donc le premier niveau C à la place de parc le système de fichier voir ce qui a changé . 1
+10:34:000366:000366_2 : 10:34:18:338: Excusez-nous est-ce que ce fichier modifié quand est-ce que gagné par le temps mais quelque chose qui a été fait dans toutes les grosses boîtes à la place de . 2
+10:34:000367:000367_3 : 10:34:32:239: Cichlidés futur . 3
+10:34:000368:000368_4 : 10:34:34:852: Tout le monde a fini par bouger sur un siège fr de version qui est le système de fichier . 4
+10:34:000369:000369_1 : 10:34:42:955: Comment et quand vous demander un fichier ça va directement les stocker demander dans ce cas je vais faire de . 1
+10:35:000370:000370_2 : 10:34:50:241: en pasant par le noyau . 2
+10:35:000371:000371_3 : 10:34:52:355: À l'envers quand vous écrivez une nouvelle version le chien de version est déjà au courant que celui-ci a été modifié que potentiellement faudra faire enregistrer . 3
+10:35:000372:000372_4 : 10:35:03:474: Sous la Manche donc là c'est une solution qui a été fait j'ai google avec des technologies qui sont interne qui était facebook avec des technologies et microsoft . 4
+10:35:000373:000373_1 : 10:35:17:591: Mais c'est vraiment quelque chose ou tout le monde finit par y arriver par . 1
+10:35:000374:000374_2 : 10:35:23:665: Un peu là où tout le monde va . 2
+10:35:000375:000375_0 : 10:35:24:665: Mais peut-être que vous en aurez besoin dans 5 ans et que ça va très mature dans 5 ans mais c'est le genre de chose . que vous finir3
+10:35:000376:000376_4 : 10:35:25:665: Divisé par le mange . 4
+10:35:000377:000377_0 : 10:35:26:665: Er par utilise
+10:35:000378:000378_1 : 10:35:37:303: Une autre manière de gérer les problèmes de batterie ciel 700 degrés avec d'autres outils . 1
+10:35:000379:000379_2 : 10:35:46:425: Peter bukkit la . 2
+10:36:000380:000380_4 : 10:35:49:578: À la place . 4
+10:36:000381:000381_1 : 10:35:52:833: Arrête de faire un certain nombre d'opérations que vous allez pouvoir faire sans directement passer par devant soi faire des modification d'un fichier assez facilement directement en ligne ou accepter des changements qui vont du coup avec directement ligne des choses . 1
+10:36:000382:000382_2 : 10:36:11:969: Si vous passez par un autre outil 7 autres outils pour lui gérer les problèmes de latence ou des problèmes d'orchestration de quand est-ce que l'opération va être fait donc c'est aussi un facteur assez intéressant pour réussir à passer à l'échelle et on se retrouve avoir une intégration à ses portes du gel avec d'autres outils qui devient . 2
+10:36:000383:000383_3 : 10:36:33:625: En plus des problèmes purement technique . 3
+10:36:000384:000384_0 : 10:36:40:895: On a passé simple expliquer il y a aussi toute l'évolution du processus .de dev 4
+10:37:000385:000385_1 : 10:36:48:005: Le plus la même manière . 1
+10:37:000386:000386_2 : 10:36:53:129: Invitation pour changer beaucoup de choses mais rien que simplement internet ce genre de chose . 2
+10:37:000387:000387_0 : 10:36:54:129: tests intégration continue 3
+10:37:000388:000388_2 : 10:37:24:051: Écoute n'existais pas apparemment . 2
+10:37:000389:000389_0 : 10:37:28:824: Bâtiment standard . revue de code3
+10:37:000390:000390_4 : 10:37:34:699: Et ben simply que ça implique que le Cher de version . 4
+10:37:000391:000391_1 : 10:37:40:844: Essaie de faire . 1
+10:37:000392:000392_2 : 10:37:45:038: Passer le formatage automatique du code . 2
+10:38:000393:000393_3 : 10:37:49:448: Et qui est pas encore complètement st . 3
+10:38:000394:000394_4 : 10:37:55:570: Impaction de . 4
+10:38:000395:000395_1 : 10:37:58:436: Collaborer avec d'autres outils soit . 1
+10:38:000396:000396_2 : 10:38:03:714: Alizée dans genre de situation . 2
+10:38:000397:000397_3 : 10:38:06:828: Le formatage automatique de code c'est une manière d'avoir un outil qui vous dit ouais . 3
+10:38:000398:000398_4 : 10:38:15:544: ou mettre espace Violetta . 4
+10:38:000399:000399_1 : 10:38:19:657: La même chose . 1
+10:38:000400:000400_2 : 10:38:26:155: Les . 2
+10:38:000401:000401_3 : 10:38:30:273: Un autre côté ça ressemble . 3
+10:38:000402:000402_4 : 10:38:33:920: Un espace après . 4
+10:38:000403:000403_1 : 10:38:41:041: Bonne avancée . 1
+10:39:000404:000404_2 : 10:38:47:859: Il y a des langages rrecents du poumon intégrer directement dans la . 2
+10:39:000405:000405_3 : 10:38:52:175: Et puis il y a des outils qui parle de l'appliquer à des anciens et . 3
+10:39:000406:000406_4 : 10:39:01:448: black récemment sorti . 4
+10:39:000407:000407_1 : 10:39:06:586: Donc c'est une bonne amélioration . 1
+10:39:000408:000408_2 : 10:39:10:092: Réveil qui viennent mais ça fait des frictions parce que le pharmacie du Code ça veut dire quoi tous les fichiers à peu près n'importe quelle ligne partout . 2
+10:39:000409:000409_3 : 10:39:21:785: Elle est déjà LAFA vous le faites c'est un problème parce que les gens du travail . 3
+10:39:000410:000410_4 : 10:39:32:902: Et en plus nautique sur ma clé code . 4
+10:40:000411:000411_1 : 10:39:39:416: Aller sur le Nautica de la nouvelle version . 1
+10:40:000413:000413_2 : 10:39:45:524: Est-ce que il est configurable vous avez décidé que en fait . 2
+10:40:000414:000414_0 : 10:39:51:656: modifications énormes
+10:40:000415:000415_4 : 10:40:00:782: Envoyer sur le . 4
+10:40:000416:000416_1 : 10:40:04:843: Requin . 1
+10:40:000417:000417_2 : 10:40:08:362: Collabore avec amateur de Cannes ça simplifie beaucoup l'adoption de choses et . 2
+10:40:000418:000418_3 : 10:40:17:474: Dans le cas une extension Mercurial qui va aider à . 3
+10:40:000419:000419_4 : 10:40:25:129: Mercier effectivement partage de code s'est bien voir les mêmes avant-hier avec certains d'entre vous qui sont un peu réticent à laisser un outil choisir et au-delà de ce pas psy il y a u. 4
+10:40:000420:000420_1 : 10:40:41:241: Faire pour . 1
+10:41:000421:000421_2 : 10:40:47:564: Donc si on prend . 2
+10:41:000422:000422_0 : 10:40:52:663: On voit [d
+10:41:000423:000423_0 : 10:41:08:944: Mémo . demo en lice
+10:41:000424:000424_2 : 10:41:17:785: Donc je dis des beaux . 2
+10:41:000425:000425_3 : 10:41:23:430: Avec un fichier . 3
+10:41:000426:000426_4 : 10:41:27:214: Ce fichier c'est du Python . 4
+10:41:000427:000427_1 : 10:41:31:222: On va . 1 changement
+10:41:000428:000428_2 : 10:41:42:358: Créer un Claude . 2
+10:41:000429:000429_3 : 10:41:46:087: Est-ce que comme ça on est sûr . 3
+10:42:000430:000430_4 : 10:41:50:170: Fermer correctement . 4
+10:42:000431:000431_1 : 10:41:54:279: Trouve-moi un simple . 1
+10:42:000432:000432_0 : 10:41:58:177: il manquait des
+10:42:000434:000434_3 : 10:42:03:293: Les allocations . 3
+10:42:000435:000435_4 : 10:42:08:428: Qui Agricole . 4
+10:42:000436:000436_1 : 10:42:10:280: Donc on va comiter le fix . 1
+10:42:000437:000437_2 : 10:42:15:393: Brancher à quelqu'un d'autre . 2
+10:42:000438:000438_3 : 10:42:24:801: Décidé de . 3
+10:42:000439:000439_4 : 10:42:27:938: Formater le fichier python . 4
+10:42:000440:000440_1 : 10:42:30:779: Il va dire . 1
+10:42:000441:000441_2 : 10:42:32:641: Des blagues quand on black bien il va dire que ben on va rater tous les fichier python . 2
+10:43:000442:000442_3 : 10:42:42:074: Crée sa configuration sa configuration . 3
+10:43:000443:000443_4 : 10:42:51:609: Donc va sauvegarder un fichier dans le répertoire donc ça c'est équivalent après comme utiliser lire Hippolyte et en plus va fixer . 4
+10:43:000444:000444_1 : 10:43:04:723: Passé simple . 1
+10:43:000445:000445_2 : 10:43:10:526: Ce serait bien mais le problème c'est que du coup on a deux tête et qu'un moment faut les mers G7 donc si on fait un maire de Nice . 2
+10:43:000446:000446_3 : 10:43:21:562: Aller à qui vend un autre extension qu'il a bien . 3
+10:43:000447:000447_4 : 10:43:26:671: Faire passer . 4
+10:43:000448:000448_1 : 10:43:28:787: Mais là c'est qu'on est en conflit parce que forcément . 1
+10:44:000449:000449_2 : 10:43:33:567: Ça peut pas marcher . 2
+10:44:000450:000450_3 : 10:43:37:996: Et qu'est-ce que fait l'extension qu'on a développé justement pour Mercurol c'est que il va quand il y a un conflit de merge et apprendre C2 fiche . 3
+10:44:000451:000451_1 : 10:43:59:103: Viens de voir il y a pas eu de conflit tant mieux . 1
+10:44:000452:000452_2 : 10:44:04:230: Et si on regarde notre . 2
+10:44:000453:000453_3 : 10:44:10:027: Résultat on a bien le nouveau code qui est lui aussi directement dans . 3
+10:44:000454:000454_4 : 10:44:18:968: On formate . 4
+10:44:000455:000455_2 : 10:44:31:069: Un problème retirer rapidement des vous mettez loto pharmatic . 2
+10:45:000456:000456_3 : 10:44:39:177: Oh merci mon boss activement dessus on dit j'imagine qu'il doit y avoir des efforts dessus mais j'ai rien vu de aussi . 3
+10:45:000457:000457_4 : 10:44:48:843: Donc là on vient de voir une solution technique à un problème technique qui vient avec un changement de . 4
+10:45:000458:000458_1 : 10:45:02:738: Bien aussi des problèmes plus philosophiques qui vont avec des questions philosophiques du . 1
+10:45:000459:000459_2 : 10:45:11:855: Développement . 2
+10:45:000461:000461_3 : 10:45:14:975: Donc la revue de code c'est bien parce que de manière simple sa trace de Lognes mais ça fait pas que attraper de bug donc relire le code de code ça permet de brasser les compétences dans votre équipe que si les gens regardent le même code ils vont discuter . 3
+10:45:000462:000462_4 : 10:45:34:107: Échanger des techniques . 4
+10:45:000463:000463_1 : 10:45:39:222: La base de quad parce que la place d'avoir une seule personne qui a écrit du code . 1
+10:46:000464:000464_2 : 10:45:44:800: Nombre de personnes qui ont gardé ou trois en fonction . 2
+10:46:000465:000465_4 : 10:46:03:699: Pour laisser votre propre au cas où le pain est relié le code de vos collègues si vous . 4
+10:46:000466:000466_1 : 10:46:11:950: Après la rue Claudia plusieurs manières de le faire . 1
+10:46:000467:000467_2 : 10:46:17:064: Méthode qui est très populaire actuellement en particulier à cause de github c'est de mettre tous les choses ensemble et de regarder tout d'un coup et de dire que ça a l'air bon et puis voilà . 2
+10:46:000468:000468_3 : 10:46:29:560: personnellement j'Applique une technique plutôt basé sur une pile de petits changements qui vont petit à petit aller vers le but final en essayant de séparer les refactoring des changements réel . 3
+10:47:000469:000469_4 : 10:46:42:774: Plus simple à comprendre et plus simple à lire pour . 4
+10:47:000470:000470_0 : 10:46:47:458: Moi j'aime bien mais je suis pas le seul au final les gens de google france les gens du ionique France a legend facebook. font ca . 1
+10:47:000471:000471_2 : 10:46:58:764: Il y a pas longtemps quand même une bonne idée là-dedans . 2
+10:47:000472:000472_0 : 10:47:05:798: En particulier aussi c'est par exemple le début de nettoyage les et bien on peut le prendre et puis on verra les parties compliqué plus tard et pour réussir à bien marcher il faut avoir une bonne intégration qui permet de facilement créer ses petites unités et facilement les manipuler les modifiez ce genre de chose donc
+10:47:000473:000473_0 : 10:47:31:919: Il faut que l'outil . supporte bien ce qu
+10:47:000474:000474_1 : 10:47:35:057: Est-ce que si bon ok ça a l'air bien mais en . 1
+10:48:000475:000475_2 : 10:47:40:649: On va quand même mutine technique . 2
+10:48:000476:000476_3 : 10:47:45:771: Donc là vous donnez un exemple de faire défiler avec des angles de quand est-ce que c'est plutôt . 3
+10:48:000477:000477_4 : 10:47:56:901: Tabulation donc on a un repo et on a une future branche . 4
+10:48:000478:000478_1 : 10:48:03:558: Et on a . 1
+10:48:000479:000479_2 : 10:48:07:11vue qui est limité sur la future branche à quel endroit . 2
+10:48:000480:000480_0 : 10:48:13:194: Avec cette approche c'est que on peut du coup . facilement3
+11:01:000481:000481_1 : 10:58:19:621: On va passer aux questions . 1
+11:01:000482:000482_2 : 10:58:25:379: Prendra pas de question . 2
+
+

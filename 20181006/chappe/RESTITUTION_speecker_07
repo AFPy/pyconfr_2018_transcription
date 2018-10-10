@@ -1,0 +1,358 @@
+
+ 07_ La Crypto pour les devs Matthias Dugué
+ 
+
+16:29:000610:000610_1 : 16:29:06:856: Bonjour bienvenue je sais ouais tout le monde arrive à . 1
+16:29:000611:000611_2 : 16:29:21:976: Donc on va discuter un peu technologie de chiffrement je vais à la dis-moi il y a un micro qui est pas allumé qui devrait être allumé . 2
+16:29:000612:000612_3 : 16:29:32:415: Derrière le clavier sur le micro cravate ne fonctionne pas . 3
+16:30:000613:000613_4 : 16:29:38:565: Ah ça commence à faire beaucoup beaucoup beaucoup de micro system . 4
+16:30:000614:000614_1 : 16:29:47:484: Je suis réduit en CL . 1
+16:30:000615:000615_2 : 16:29:52:632: Économie de une économie de moyens qui est limite . 2
+16:30:000616:000616_3 : 16:29:57:768: Appeler . 3
+16:30:000617:000617_4 : 16:30:04:908: Ah oui c'est ça ouais . 4
+16:30:000618:000618_1 : 16:30:11:066: Non c'est bon . 1
+16:30:000619:000619_2 : 16:30:17:193: Super alors ah bah oui beaucoup mieux . 2
+16:30:000620:000620_3 : 16:30:22:800: Bonjour . 3
+16:30:000621:000621_4 : 16:30:28:942: On va discuter un peu chiffrement technologie de protection de données que cetera je ne vais pas faire de Python . 4
+16:31:000622:000622_0 : 16:30:38:619: Ooohhh Mais on va s'amuser quand même. Ahhhhh!! . 1
+16:31:000623:000623_2 : 16:30:43:769: Signe que je donne depuis 3 ans à peu près . 2
+16:31:000624:000624_3 : 16:30:48:309: Et je suis le premier surpris par la longévité de cette parce que la première fois que je l'ai donné il y avait assez peu demain qui se lever dans la salle quand je demandais qui vous ai déjà de la crypto un petit vraiment que c'était à refaire l'exercice truc qui fait déjà un peu de . 3
+16:31:000625:000625_4 : 16:31:04:448: Voilà et ben j'ai une statistique qui se monte à peu près 20 /:/ de la salle si je le fêterai habituel malgré tout mais qui est problématique parce que on a quand même des responsabilités en tant que développeur que concepteur de formation concepteur d'application . 4
+16:32:000626:000626_1 : 16:31:25:597: Donc avant de pouvoir parler chiffrement réellement . 1
+16:32:000627:000627_2 : 16:31:29:274: Chiffrage puisque ce titre est . 2
+16:33:000628:000628_3 : 16:31:33:417: Est-ce que j'appelle la responsabilité du développeur concrètement . 3
+16:33:000629:000629_1 : 16:32:36:737: Dont on a un rôle à céder Iron qui est un vrai rôle de protecteur j'ai un moment on est là avec ses données qui ne sont confiées en à l'intégralité de la du monde numérique et des GAFAM qui cherchent à mettre la main sur ces données et donc on a une vraie responsabilité pour pour éviter que ses données se retrouvent dans la nature . 1
+16:33:000630:000630_2 : 16:32:56:601: Concretement, l'outil le plus important qu'on puisse donner aujourd'hui à nom d'utilisateur pour essayer de protéger un peu leurs donné c'est un mot de passe . 2
+16:33:000631:000631_3 : 16:33:04:463: Sur le pré l'intégralité des services désactiver utiliser des mots de passe . 3
+16:33:000632:000632_4 : 16:33:10:604: Que . 4
+16:34:000633:000633_1 : 16:33:12:745: Les mots de passe ont une limite étant une interface . 1
+16:34:000634:000634_2 : 16:33:19:885: On a a peu prés tous entendu parler on se retrouve avec des utilisateurs qui ne savent pas gérer des mots de passe et on ne peut pas nous en tant que développeur le concepteur faire confiance là-dessus parce que on leur demande utiliser un mot de passe différent pour chaque service . 2
+16:34:000635:000635_3 : 16:33:37:006: Qui est compliqué a memoriser, qu'il faut changer parfois toutes les 12 semaines en utilisant pas un mot de passe déjà rentré dans les 24 derniers décès à sucer déconnant quoi on peut pas demander à Nosy 7h de faire cet effort la juste parce que c'est . 3
+16:34:000637:000637_4 : 16:33:58:138: On part si tu es parti de forme et surtout pas sur son email que c'était juste c'est pas possible quoi et elle a besoin de cet outil viel est content de s'en servir au quotidien. 4
+16:35:000638:000638_1 : 16:34:06:121: Je vois quand je dis ça et quand je dis "Eh, faites attention le mot de passe c'est une donnée critique il faut faire gaffe à ça" les gens disent "ouais moi je m'en fous en vrai j'ai un service on héberge pas donnée sensible on héberge pas de données critiques" . 1
+16:35:000639:000639_2 : 16:34:21:271: Mauvaise réponse dès le départ concrètement quand bien même votre service ça serait un service qui permet de faire du stockage de référence de livres en ligne pour gérer sa bibliothèque de façon numérique exetera oui on peut tendre à penser que on n'a pas de données critiques juste vous avez probablement de service système d'authentification avec un couple login mot de passe. 2
+16:35:000640:000640_3 : 16:34:47:399: Ce login est très probablement l'adresse mail de l'utilisateur parce qu'on fait ça veut dire que de base de données vous avez un couple mot de passe email pour chacun de vos utilisateurs qui est très probablement le mail qui utilisent déjà pour se connecter à l'intégralité des services et le même mot de passe qui utilise sur intégrité de leurs services, y compris la boîte mail . 3
+16:35:000641:000641_4 : 16:35:11:511: Nature d'un moment ou à un autre vous pouvez être persuadé que ça s'est terminé c'est un Game Over pour vous comme pour surtout pour euh d'ailleurs parce que parce que vous avez accès à la boîte mail et mot de passe donc vous pouvez tout modifier . 4
+16:36:000642:000642_1 : 16:35:28:649: Donc une seule solution pour faire face a ça, ça va être de chiffrer et vous n'avez pas le choix et et un moment on n'est plus en capacité de faire l'impasse là-dessus il faut protéger les utilisateurs et il faut les protéger correctement . 1
+16:36:000643:000643_2 : 16:35:44:115: Parce que quand je disais on est sur une bière d'informations ont des du tracking du data mining sur intégré l'intégralité de nos sites . 2
+16:36:000644:000644_3 : 16:35:55:251: Film de gestion d'identité numérique le rgpd rajoute une couche là-dessus pour s'assurer que vous êtes censé sur une protection dans les règles de l'art de vous données donc donc n'ai pas le choix la seule pour moi la seule façon de correctement définir sa qu'aucune donnée, sans cible ne devrait stocker . 3
+16:36:000646:000646_4 : 16:36:15:412: Après avoue d'ajuster le curseur sur qu'est-ce qui sensible qu'est-ce qu'il est pas . 4
+16:37:000647:000647_1 : 16:36:22:009: Mais la base c'est celle-là . 1
+16:37:000648:000648_2 : 16:36:24:976: Alors le chiffrement . 2
+16:37:000649:000649_0 : 16:36:27:903: Au départ je suis pas un expert en chiffrement, je suis pas mathématicien, je suis pas statisticien je suis à la base développeur front, personne n'est vraiment parfait en ce bas-monde, c'est mon vice donc donc je je j'ai passé cette qualité d'expertise. Et je prétends pas me présenter devant vous comme un expert en cybersécurité ou en chiffrement. Je ne prétends pas non plus qu'à la sortie de cette qu'on vous serez des experts de la protection de données ou juste je vous donne les billes que moi j'aurais aimé qu'on donne quand j'ai commencé à m'intéresser chiffrement que la première fois que j'ai commencé à regarder un peu de la doc sur du chiffrement j'ai fait à peu près cette tête la . 4
+16:37:000650:000650_2 : 16:37:16:248: Moi, petits développeur front, qui fait de l'interface je me retrouve à cette époque dans une start-up qui fait un club perso donc autant vous dire que ça nécessite de chiffres et protéger un peu les données et puis on s'intéresse à des question de vie privée exetera . 2
+16:38:000651:000651_3 : 16:37:32:500: Je commence à regarder je commence à regarder les algo et je commence à regarder les définitions des algo est-ce que c'est un truc de mathematicien quand même à la base . 3
+16:38:000652:000652_4 : 16:37:42:647: Donc donc je me dis c'est pas possible ça je sais pas comment je vais faire quoi est dû pas mal DCG pleurer des larmes de sang quoi . 4
+16:38:000653:000653_0 : 16:37:52:337: Juste, encore une fois, on était dans une situation ou moi je ne pouvais pas faire demi-tour il fallait que un moment on intègre du chiffrement.. Au sein de nos archi donc il fallait le faire et surtout il fallait le faire bien et si il y a une chose j'étais conscient c'était que on ne peut pas juste se dire "je vais faire de la crypto et puis je veux protéger" et faire un peu en mode Yolo quoi . 1
+16:38:000654:000654_2 : 16:38:12:463: Juste pas . 2
+16:38:000655:000655_3 : 16:38:14:583: Soit c'est le bordel et on ouvre des portes partout . 3
+16:39:000656:000656_4 : 16:38:18:191: Donc première chose la crypto qu'est-ce que ce n'est pas la crypto ça n'est pas tout ce qui est authentification sécurité révocation tout ça c'est ce qui découle de l'usage de la mise en application de la crypto . 4
+16:39:000657:000657_1 : 16:38:34:377: Le seul unique but de la crypto c'est se protéger protéger de l'information et s'assurer qu'elle est mise en lieu sûr de manière à ce que on puisse pas accéder à ces informations sont détournés . 1
+16:39:000658:000658_2 : 16:38:46:506: A2H du chiffrement un clip Sean je vais faire un temps d'échange de clé signature ça c'est la . 2
+16:39:000659:000659_3 : 16:38:59:641: La brique de base fondamentale à partir de là on va commencer à grimper à faire monter des techno qui s'appuie sur ces éléments la . 3
+16:39:000660:000660_4 : 16:39:08:259: Un autre élément que j'aurais aimé qu'on donne au départ quand j'ai commencé à regarder c'est que seule la clé est importante . 4
+16:39:000661:000661_1 : 16:39:15:403: Je veux dire n'importe quel algo de chiffrement et puis il y aller en disant que pour ça suffira bien ça protégerai bien nécessaire de correctement choisir son algo, de correctement choisir ce qu'on veut protéger en fonction de ce qu'on veut protéger, quelle technique utilise exetera mais si vous vous appuyez sur un système de chiffrement . 1
+16:40:000662:000662_2 : 16:39:34:537: Ne fais pas . 2
+16:40:000663:000663_3 : 16:39:39:662: si vous vous appuyez sur un algo de chiffrement qui vous dit le le seul la seule sécurité c'est le fait qu'il soit closed source, c'est une erreur . 3
+16:40:000664:000664_4 : 16:39:49:783: Que l'on sache pas comment il fonctionne c'est pas bon et la preuve la majorité des très bons gelcoat chiffrement M6 à peu près partout c'était source en tout cas tu es disponible . 4
+16:40:000665:000665_1 : 16:40:02:898: Le code peut être revu, corrigé validé par des experts en sécurité des mathématiciens et ça veut dire qu'à partir du moment où il y a cet accord là on peut utiliser cette techno plutôt dans des bonnes conditions et les conditions à peu près safe . 1
+16:40:000666:000666_2 : 16:40:17:027: Ça veut dire que la seule chose qui était protégé la seule chose qui est essentiel à partir du moment où vous êtes dans une action de chiffrement, c'est votre clé . 2
+16:41:000667:000667_3 : 16:40:24:141: Chiffrez vos données chiffrées vos données si vous protégez correctement la clé, vous etes protégé correctement . 3
+16:41:000668:000668_4 : 16:40:31:240: Alors je vous parle cryptographie c'est une introduction un peu longue mais voilà je vous parle cryptographie exceptionnelle is et le truc sexy je veux vous en parler aujourd'hui en 2018 à l'ère du numérique il faut que je fasse un petit un petit voyage dans le temps et que je remonte un peu avec l'histoire de la crypto. 4
+16:41:000669:000669_1 : 16:40:51:390: Je vous rassure je sais pas me sens en moi mais c'est quelque chose qui remonte assez loin . 1
+16:41:000670:000670_2 : 16:41:01:514: Ce moment était dans des contextes militaire un peu fort te dire grosso modo depuis que l'homme sur terre, a peu de choses pres. 2
+16:41:000671:000671_3 : 16:41:02:514: Et faire en sorte que ça ne puisse pas tomber dans des mains qui a un moment peut etre néfaste . 3
+16:42:000672:000672_4 : 16:41:16:611: Évitons comment ça veut dire qu'il faut protéger protéger ses enfants et on a 2 corps qui commence à se séparer les mathématiciens et même même il y a 1500 ans il y a de la l'autre cote, les cryptanalystes . 4
+16:42:000673:000673_0 : 16:41:31:750: Qui cherchent à péter les algo des autres et c'est une course perpétuelle et je veux faire de l'algo, je pète l'algo et je j'essaie de renforcer un peu plus et ainsi de suite. Donc il y a une vraie lutte acharnée là-dessus depuis le départ un des premiers algo chiffrement qu'on rencontre et vous le connaissez normalement tous si vous avez mangé . 1
+16:42:000674:000674_2 : 16:41:53:885: C'est ce qu'on appelle le code César . 2
+16:43:000675:000675_3 : 16:41:59:017: En anglais on l'appelle Shift Cypher. 3
+16:43:000676:000676_4 : 16:42:04:150: Comme ça vous avez deux alphabet alphabet alphabet tout ce que vous voulez chiffres et l'alphabet l'alphabet . 4
+16:43:000677:000677_1 : 16:42:13:286: Vous décalze, vous panezz votre alphabet à chiffrer par rapport au décalage . 1
+16:43:000678:000678_4 : 16:43:16:638: Qui a duré relativement longtemps même s'il y a eu des variantes entre les deux parce que juste parce qu'on arrive pas à trouver une solution plus intéressantes et puis à peu près à la moitié du 16e siècle on se retrouve avec un nouvel algo qui commence a prendre corps. 4
+16:44:000679:000679_1 : 16:43:32:780: Et ce qu'on appelle un algo de chiffrement polyalphabétique sert que d'un seul coup j'utilise pas me s'appelle le chiffre de Vigenère qu'on attribue volontiers alors que . 1
+16:44:000680:000680_2 : 16:43:46:914: On s'appuie sur non pas un code César mais sur 26 code César . 2
+16:44:000681:000681_3 : 16:43:52:414: Autant de César que il y a de lettres disponibles ça me donne une matrice . 3
+16:44:000682:000682_4 : 16:43:58:547: Elysée sais que je vais chiffrer mon texte en faisant une substitution polyalphabétique service pas forcément la même clé à chaque caractère que je veux substituer. 4
+16:44:000683:000683_1 : 16:44:11:671: Par exemple "ATTACKATDAWN" je vais utiliser un mot clé de chiffrement et non plus juste un index de décalage là j'ai pris "LEMONLEMONLE" . 1
+16:44:000684:000684_2 : 16:44:20:821: Ad mon mot de passe autant de fois que nécessaire pour avoir la même longueur a pas dès que le même verra chiffres et que le texte que je veux chiffres et donc je répète mon lemon lemon puisque et après je . 2
+16:45:000685:000685_3 : 16:44:33:954: Je substitue en utilisant l'alphabet donc je mets sur l'alphabet 'L' je substitut le A bah ça me donne ensuite je suis en . 3
+16:45:000686:000686_4 : 16:44:46:091: Noter un flash comics ensuite je refais le thé à nouveau masque ou 6 ans baisant sur l'alphabet m et là du coup je tombe sur un œuf est intéressant . 4
+16:45:000687:000687_0 : 16:44:57:212: On commence à tomber sur une substitution où le même caractère dans la chaîne chiffréé à la fin ne donne pas le même résultat. Pourquoi c'est intéressant parce que dans les mécaniques de substitution que soit le code César n'importe quel autre l'écriture les cryptanalystes ont souvent utilisé un truc qu'on appelle l'analyse de fréquence de documents et vous savez que . 1
+16:45:000688:000688_2 : 16:45:24:345: Et vous savez que les caractères le plus utilisé en français c'est le 'E' donc si vous avez substitution mono-alphabétique il y a de très grandes chances que le caractère qui reviennent le plus souvent dans le corpus chiffres et à la fin ça soit la lettre la plus souvent utilisé dans le corpus de la langue de référence . 2
+16:46:000689:000689_3 : 16:45:42:468: vous en trouvez quatre vous arrive à en déduire les autres et ca va très très très très vite . 3
+16:46:000690:000690_4 : 16:45:48:958: Fréquence un truc qui était terrorisée par des mathématicien arabe au troisième vous dire que ça quand même . 4
+16:46:000691:000691_0 : 16:45:57:101: C'est un truc qu'on utilise toujours aujourd'hui pour essayer de casser des algos. C'est un truc et extrêmement puissant et donc la substitution polyalphabétique elle permettait virtuellement tout cas de répondre à cette problématique la et à dire à partir du moment où vous n'avez plus le même caractère qui utiliser un peu partout pour représenter le même caractère initial ça rend les choses beaucoup plus difficiles. 1
+16:46:000692:000692_2 : 16:46:17:228: Passer plus tard on a quand même réussi à le casser en s'appuyant sur la liste des fréquences technique . 2
+16:46:000693:000693_3 : 16:46:23:363: Ca a quand meme ete robuste pendant un bout de temps. 3
+16:47:000694:000694_4 : 16:46:26:224: Est-ce qu'on peut en déduire c'est qui les répétitions en terme de chiffrement c'est le mal absolu en gros l'analyse de fréquence technique mais à la base de fréquence . 4
+16:47:000695:000695_1 : 16:46:39:360: Ça casse toutes les protections vous pouvez voir qui utilise un denominateur commun donc dès lors qu'il répétition incluse introduite dans votre . 1
+16:47:000696:000696_0 : 16:46:49:847: J'avance encore dans le temps je sais pas si certains reconnaisse certaine reconnaître cet élément c'est une machine Enigma. Enigma pour ceux qui ne connaîtrais pas une machine qui a été inventé machine de chiffrement. . 2
+16:47:000697:000697_3 : 16:47:03:989: Ça fait bien dit comme ça. 3
+16:47:000698:000698_4 : 16:47:07:131: Qui est inventé un ingénieur autrichien entre les deux grandes guerres et il a réservé la primeur de son invention au gouvernement allemand donc pendant la Seconde Guerre mondiale du gouvernement allemand utilise énormément le Enigma. 4
+16:47:000699:000699_0 : 16:47:22:189: Les SS utilisent énormément Enigma. C'est une machine qui se présente format clavier avec des systèmes de rotor et des systèmes de miroirs électriques à l'intérieur ça vient tout artiste qui vous fait pas le détail en gros vous positionner les rotors dans une certaine position au départ . 1
+16:48:000700:000700_2 : 16:47:38:335: Et puis vous tapez votre texte et la machine vous imprime la version chiffres et de votre . 2
+16:48:000701:000701_3 : 16:47:43:403: Virtuellement, Enigma est incassable. 3
+16:48:000702:000702_4 : 16:47:46:672: Et bien en train de faire seulement donc un moment on a réussi à sortir mais ça quand même pas été facile il a fallu d'une part que on réussit ça pique et les plans de la machine et que ça vienne jusqu'au mains des services secrets et ensuite il a fallu Turing . 4
+16:49:000703:000703_1 : 16:48:07:468: Pendant la Seconde Guerre, le Service de renseignement britannique embauche des mathématiciens Britanniques des statisticiens des logiciens exetera pour essayer de casser les communications chiffrées allemandes qui sont intercepté donc . 1
+16:49:000704:000704_2 : 16:48:26:623: Et donc on essaie de casser ses éléments là et c'est Turing qui va avoir la bonne idée et qui va commencer à mettre au point un énorme et calculateur électro-mécanique appeler les bombes . 2
+16:49:000705:000705_3 : 16:48:42:766: Et dans lesquelles on va injecter une énorme quantité de communication chiffrées par les Allemands pour essayer de déduire fr de l'analyse de fréquence automatisé de façon électro-mécanique et c'est comme ça qu'on va réussir à casser le code on va réussir à le cas c'est parce que normalement les opérateurs allemand sur le terrain ont obligation de choisir un mot clé différent donc une position de retour différente a chaque fois . 3
+16:49:000706:000706_4 : 16:49:04:908: Qu'ils envoient système de la procédure c'est vraiment un peu plus compliqué mais en gros il y a une première classe choisir il faut choisir une fois . 4
+16:49:000707:000707_1 : 16:49:14:940: Dans la réalité, quand vous êtes sur le terrain sous les bombes et tir de mitraillette et qu'on vous dit il faut envoyer un message qui ferait vous vous posez pas trop la question de trouver un nouveau mot de passe que vous auriez pas trouvé avant je vous rappelle ma grand-mère 85 ans, vous lui demandez de trouver un . 1
+16:50:000708:000708_2 : 16:49:28:050: Je vous assure qu'elle le fait pas donc donc les opérateurs avez tendance à réutiliser le même le même mot clé est le même le même motif . 2
+16:50:000709:000709_3 : 16:49:39:216: Ca, les anglais l'ont tres vite compris à partir du moment ou ils ont commencer à analyser les documents et c'est là-dessus qu'ils se sont appuyé pour développer les bombes pour les bombes parce qu'il savait très bien que . 3
+16:50:000710:000710_4 : 16:49:50:352: Que faire de l'analyse statistique et qu'ils ont pu s'en sortir le seul cas ou les statistiques éléments ont pas réussi à fonctionner c'est surtout les documents qui venait de la marine allemande . 4
+16:50:000711:000711_1 : 16:50:03:495: La marine avait un protocole qui était renforcé sur l'utilisation d'Enigma quand les bateaux où les sous-marins partez il partait avec un carnet de codes qui était un carnet de 20 mois et chaque jour il y avait un nouveau code à utiliser c'était le code unique pour les communications du jour et donc toutes les communications etaient chiffrées en utilisant ce code la. 1
+16:51:000712:000712_0 : 16:50:19:613: Et on a pas réussi à café tout ce qui arrive à ce qu'on avait pas un corpus suffisant pour pouvoir casser les éléments et il avait a priori réussi la seule fois on a réussi à casser le code c'est que c'est un coup dans un sous-marin allemand en descendant de nom habitant le carnet de connard montant par deux semaines de code devant nous. C'est une attaque brute force. 2
+16:51:000713:000713_3 : 16:50:38:343: Donc en gros et je reprends strip disques cd key pour moi un des meilleurs sur le sujet . 3
+16:51:000714:000714_4 : 16:50:49:469: On peut Picard portable dire ces chiffres avec une clé 4096 billetterie va jamais s'en sortir . 4
+16:51:000715:000715_1 : 16:50:58:588: La vraie vérité si tu prends 5 dollars tu vas chez Wal-Mart acheter une clé à molette et tu lui tapes sur la gueule jusqu'à qu'il te donne son code . 1
+16:51:000716:000716_2 : 16:51:08:711: Donc c'est la deuxième site deuxième fois c'est qui a aucun système qui suffisamment résistant en résiliant pour résister à une attaque perpétuel . 2
+16:52:000717:000717_0 : 16:51:19:851: Les portes coupe feu ne sont pas la pour arreter le feu mais pour le ralentir. C'est le seul but du chiffrement ça va être d'avoir un niveau suffisamment important pour que ça puisse désespérer les potentiels attaquant et que ils finissent par se lasser et renoncer à attaquer le systeme parce qu'il sera trop compliqué trop coûteux pour eux de la vraie bonne réponse la seule vraie bonne réponse a priori soit vraiment . 3
+16:52:000718:000718_4 : 16:51:44:986: À l'utilisation d'une clé unique et c'est un Saint-Graal et cela dit les Allemands avaient très bien compris juste ils ne savaient pas comment le mettre en place sur le terrain . 4
+16:52:000719:000719_1 : 16:51:54:920: Le numérique répond a priori à cette problématique-là . 1
+16:52:000720:000720_2 : 16:52:00:074: Puissance des ordinateurs peut-être qu'on va réussir à générer des clés aléatoire unique qu'on va pouvoir utiliser s en sorte que l'on ne puisse plus qu'à se laisser . 2
+16:52:000721:000721_3 : 16:52:10:197: Donc ça nous amène à vous parlez maintenant de numérique tout ça même si c'était un truc un peu fun de vous le faire à son historique c'est que mine de rien tout ça mène à tous les problèmes qu'on rencontre aujourd'hui numériquement dans le chiffrement c'est toujours le même problèmatique . 3
+16:53:000722:000722_4 : 16:52:24:341: Comment ça va être la problématique de hachage étalage en gros vous avez appartement où vous êtes sourds chiffrement de grands éléments techniques vous avez d'un côté . 4
+16:53:000723:000723_1 : 16:52:35:478: Qui en gros prend votre texte clair ou votre éléments de données claire, le passe dans une moulinette de chiffrement et vous avez un résultat et vous pouvez pas repasser dans l'autre sens et unidirectionnelle peux pas remonter depuis un texte clair c'est pas fait pour et puis vous avez du chiffrement qui permet de chiffrer dans un sens et des chiffres et de revenir . 1
+16:53:000724:000724_2 : 16:52:56:615: Premier cas tout ce qui est hachage. 2
+16:53:000725:000725_3 : 16:53:01:017: Le hachage c'est donc tout ce qui est obfuscation de données je prends une donnée en clair je la transforme j'obtiens un truc quasi illisible utilisable dans lequel ça n'a pas de vocation pour protéger de la récupérer pas de déchiffrement possible . 3
+16:53:000726:000726_4 : 16:53:19:156: En revanche, ça peut proteger des donnees auxquelles je n'ai pas besoin d'accéder typiquement un mot de passe à partir du moment où stocker des mots de passe de base de données tu as besoin de surtout pas besoin de l'air . 4
+16:54:000727:000727_1 : 16:53:30:277: Ou plutôt, ça fonctionne mais ça c'est plutôt hasardeux lisent et tout ce que vous avez tout ce dont vous avez besoin au moment où vous faites notification . 1
+16:54:000728:000728_2 : 16:53:42:411: Pour vérifier que c'est le bon mot de passe où j'ai juste besoin de contrôler que c'est bien le mot de passe qui a été saisi la première fois . 2
+16:54:000729:000729_3 : 16:53:51:002: Donc l'idée ça va être d'utiliser du hachage pour protéger le mot de passe en base mais pour de la comparaison quand même par rapport au mot de passe initial . 3
+16:54:000730:000730_4 : 16:54:01:770: Un des gros problème c'est que les premières technique de hachage qu'on a utilisé c c'est des techniques de somme de contrôle . 4
+16:54:000731:000731_1 : 16:54:10:799: MD5 SHA-1 SHA256 Vous les avez forcément croisé un moment à quand vous télécharger un truc sur le net vous avez une somme de contrôle qui est disponible pour contrôler que le binaire n'a pas été altéré télécharger à partir du moment où vous avez une somme de contrôle . 1
+16:55:000732:000732_2 : 16:54:28:933: Et Clément n'a pas été altéré la somme de contrôle ne bouge pas si le moindre bit à bouger la somme de contrôler est radicalement différente vous voyez tout de suite s'il eût un pépin ou pas . 2
+16:55:000733:000733_4 : 16:54:41:888: de contrôle c'est ça que je stocke et puis je peux pas remonter alors techniquement ouais je peux pas remonter juste un moment . 4
+16:55:000734:000734_1 : 16:54:54:016: Utiliser les mêmes algo de somme de contrôle et du coup se retrouver à utiliser avoir les mêmes résultats pour les mêmes mots de passe donner donc on a commencé à qu'on se voit ce qu'on a appelé des rainbow tables . 1
+16:55:000735:000735_2 : 16:55:06:149: J'étais belle correspond à la . 2
+16:55:000736:000736_3 : 16:55:11:282: SHA256 . 3
+16:55:000737:000737_4 : 16:55:15:067: Eva j'ai des grandes tables de données avec la correspondance j'ai un mot en clair et j'ai la somme de contrôle attendu c'est pas très compliqué à faire, c'est un dictionnaire . 4
+16:55:000738:000738_1 : 16:55:26:204: Ça veut dire que si votre base de données elle leake un mot, parc . 1
+16:55:000739:000739_2 : 16:55:30:333: Faut pas vous voulez quoi . 2
+16:56:000740:000740_3 : 16:55:34:468: Et donc il c c c cet instant-là qu'on attend . 3
+16:56:000741:000741_4 : 16:55:39:581: Donc à partir du moment ou notre base de donnee est sortie c'est hyper simple pour n'importe quel attaquant de prendre la somme de contrôle et de regarder la correspondance dans une raie de côté de . 4
+16:56:000742:000742_1 : 16:55:49:696: Retrouver avec des mots de passe qui sont hyper facile à trouver donc le seul moyen pour pouvoir protéger un peu plus les infos que vous rentrez, c'est de saler . 1
+16:56:000743:000743_2 : 16:56:00:806: Un élément aléatoire qui est injecté avec votre mot de passe au moment où vous faites le calcul de la somme de contrôle et qui va s'assurer que votre somme de contrôle elle va vraiment être unique parce que pour un même élément clair . 2
+16:56:000744:000744_3 : 16:56:13:761: Pour "password";, soit vous allez vous retrouver à partir . 3
+16:56:000745:000745_4 : 16:56:22:879: Radicalement différente de services en services et donc vous pouvez plus utilisé les . 4
+16:56:000746:000746_1 : 16:56:29:014: Donc il va te faire ça rajoute de l'entropie ça rajoute du bruit au moment où vous faites votre somme de contrôle . 1
+16:57:000747:000747_2 : 16:56:36:810: Répétition puisque il est censé être unique et donc il est unique et aléatoire j'ai pas un sel qui réutiliser partout sur tous les mots de passe de mon appli sinon la pétition pour chaque nouveau mot de passe . 2
+16:57:000748:000748_3 : 16:56:51:929: En cherchant un peu, j'ai trouvé des choses comme ça . 3
+16:57:000749:000749_4 : 16:56:55:060: On dit ouais bah si tu veut bien chiffrer tu fais un MD5 d'unet tu fais MD5, MD5 MD5 MD5 . 4
+16:57:000750:000750_1 : 16:57:08:198: Bref chercher pas inutilisable passer à ne pas utiliser surtout . 1
+16:57:000751:000751_2 : 16:57:15:332: ECI personne de les déchaînés dans le sens de remonter très simple qu'on se voit encore plus à partir du moment ou votre code est potentiellement open-source . 2
+16:57:000752:000752_3 : 16:57:25:460: Donc c'est facile de savoir comment chiffrer passer encore comment déchiffrer . 3
+16:57:000753:000753_4 : 16:57:30:702: Donc on fait pas ce genre de chose la seule vraie bonne technique pour faire du hash âge le mot de passe c'est celle-là Générale aléatoire vraiment aléatoire en utilisant . 4
+16:58:000754:000754_1 : 16:57:45:825: CSPRNG donc à cryptographicaly secure pseudo random-number generator . 1
+16:58:000755:000755_2 : 16:57:54:596: Il sont merveilleux . 2
+16:58:000756:000756_3 : 16:57:57:736: Decultot qui s'appuie sur un générateur aléatoire et qui va vous crachez un vrai chiffre qui potentiellement est réellement unique et réellement aléatoire. 3
+16:58:000757:000757_4 : 16:58:07:973: La seule vraie version la seule façon de tenir un . 4
+16:59:000758:000758_1 : 16:58:12:070: Ensuite on fait une dérivation cryptographique sécurisé sur le couple sur le couple sur le couple password et sel concaténer les deux et c'est ça qu'on fait passer dans votre méthode de dérivation vous n'utilisez pas des trucs qui sont cassés quand MD5 et comme SHA-1 qui sont cassés depuis super longtemps un truc comme . 1
+16:59:000759:000759_2 : 16:58:34:217: Le plus réputé à l'heure actuelle aujourd'hui est le plus solide . 2
+16:59:000760:000760_3 : 16:58:39:843: Il faut un truc qui soit en exécution lente pourquoi lente parce que ça va rajouter de la latence au moment du calcul de la somme de contrôle s'est rajouté 35ms où tu es extrêmement cher en CP vu parce que c'est des Halles Go qui bouffe énormément de ressources pour votre utilisateurs c'est transparent . 3
+16:59:000761:000761_4 : 16:58:56:977: Orange pour l'attaquant qui va chercher à faire du bruit de force 350 milli secondes de plus par mot de passe PC . 4
+16:59:000762:000762_1 : 16:59:04:097: Il va le sentir passer et il va pas aimer . 1
+16:59:000763:000763_2 : 16:59:07:866: Il y a pas vraiment de convention sur est-ce qu'on met du sel avant rappelle pas sourd généralement d'obligation une convention et m aprèm après parce que vous vous . 2
+16:59:000764:000764_3 : 16:59:16:854: Et tous ces éléments de base à savoir l'algo de dérivation vous avez choisi . 3
+16:59:000765:000765_4 : 16:59:22:481: Les paramètres son permis de l'initialisation le nombre de l'utiliser pour faire tourner l'algo . 4
+16:59:000766:000766_1 : 16:59:29:607: Le resultat de la somme de contrôle et le sel vous stockez tout ça dans un seul record de votre base de données . 1
+17:00:000767:000767_2 : 16:59:37:733: C'est pour protéger sa d'une éventuelle injection SQL chiffres et ça avec une signature à chaque . 2
+17:00:000768:000768_3 : 16:59:44:854: Je vais avoir à la fin donc une longue chaîne de caractère être un séparateur met-on de l'arrêt savoir dollars . 3
+17:00:000769:000769_4 : 16:59:55:993: Dollar theft nombre de grande que j'ai fait passer sur bcrypt pour initialiser Dollarama somme de contrôle suivi de mon sac . 4
+17:00:000770:000770_1 : 17:00:03:124: Au moment où vous voulez lire vous avez récupéré juste la fin le sel plus la somme de contrôle vous extrayers le sel a une longueur défini donc c'est simple et puis après vous vous rejouer sur le mot de passe qu'on vous a fourni que vous . 1
+17:00:000771:000771_2 : 17:00:19:271: Quel goût de chiffrement le nombre de round le sel associer au mot de passe qui vous a fourni normalement pour tomber sur la même somme de contrôle . 2
+17:01:000772:000772_0 : 17:00:26:756: Ça, c'est robuste. Le seul risque c'est qu'effectivement quelqu'un qu'on prenne comment ça fonctionne génère du coup une chaîne un payload suffisamment antique avec le même algo de chiffrement le nombre de grains exetera qu'il injecté dans votre base de donnee donc en plus où stocker dans un autre champ une signature h Mac Mac signature . 3
+17:01:000773:000773_4 : 17:00:47:823: Un peu plus tard de chiffrement tu utilise une clé qui est protégée à l'extérieur donc votre clé . 4
+17:01:000774:000774_1 : 17:00:54:975: Façon sécurisée parce que si jamais quelqu'un accédait à la base de données . 1
+17:01:000775:000775_2 : 17:01:01:102: Et puis chacun vous rentrez un nouveau mot de passe d'un nouveau payload avait que 50 chaînes de caractères prenez le tour au fait passer dans un hamac avec votre clé ça vous donner signature . 2
+17:01:000776:000776_3 : 17:01:11:233: Personne ne peut reproduire ce système de signature tant qu'il a pas votre clé . 3
+17:01:000777:000777_4 : 17:01:16:032: Aller dans un espace dédié de fasciste donc même si on injecte . 4
+17:01:000778:000778_1 : 17:01:22:148: Mot de passe un faux payload dans notre base de donnée on pourra jamais générer la signature qui va avec . 1
+17:01:000779:000779_2 : 17:01:28:957: Et donc au moment ou vous voulez déchiffrer le mot de passe le premier truc au fait c'est comparer la signature du Pays l'autre qui s'emballe avec celle qui était sorti par la méthode ajmak la signature est pas bonne section et donc n'utilisez pas ça . 2
+17:02:000780:000780_3 : 17:01:41:899: Donc à charge sans répétition en exécution Nantes ça limite la surface d'attaque . 3
+17:02:000781:000781_4 : 17:01:51:825: Ton protégé à peu près tout le monde il vaut désaxé . 4
+17:02:000782:000782_1 : 17:01:56:668: L'autre question l'autre partie du chiffrement, c'est la partie chiffrement des chiffres mon chiffre dans un sens je déchiffre . 1
+17:02:000783:000783_2 : 17:02:04:248: Vous avez 2 grandes familles de chiffrement chiffrement symétrique et chiffrement asymétrique et donc chiffrement symétrique vous avez de grandes familles une bière en Belgique . 2
+17:04:000784:000784_3 : 17:02:18:352: Chiffrement symétrique les deux grandes familles de chiffrement a commencé par bloc bloc comment ça fonctionne vous avez votre chaîne de données chiffrées prenez un bloc de cette chaîne de Néo dans une petite partie . 3
+17:04:000785:000785_4 : 17:02:37:492: Petit-fils 4 km et puis vous fais de la substitution de bloc . 4
+17:04:000786:000786_0 : 17:02:46:624: On revient exactement à ce qu'on fait avec le cas de César, hein. On prend un élément et puis ensuite on le substitue, blog un site . 1
+17:04:000787:000787_3 : 17:04:03:851: La possibilité de générer une clé à la volée en continu mais si vraiment vous générez la clé à la volée en continu elle grossit. 3
+17:04:000788:000788_4 : 17:04:12:993: Soit vous introduisez un billet et vous faites une répétition de mot de passe un peu comme on l'a fait sur le côté vert je prends mon mot de passe puis je le répète je le pc . 4
+17:04:000789:000789_1 : 17:04:25:893: La plupart de algo de chiffrement par flux le seul moyen de faire un vrai algo chiffrement par flux qu'il soit vraiment robuste et qui tiennent sur la durée essaie de le faire . 1
+17:04:000790:000790_2 : 17:04:36:019: et pour le moment on cherche encore à savoir ce que signifie quantique donc après un cancer du chiffrement par flux quantique peut-être un jour on y arrivera . 2
+17:05:000791:000791_0 : 17:04:46:209: Cet algo c'était la
+17:05:000792:000792_4 : 17:04:53:326: Connexion wifi . 4
+17:05:000793:000793_1 : 17:04:57:449: Tu es café justement en utilisant cette répétition du mot de passe de la clé de chiffrement à l'intérieur donc WPR passer à es depuis donc ça reste un beau rêve le chiffrement par flux juste c'est extrêmement compliqué à mettre en place sur des gros flux de données . 1
+17:05:000794:000794_2 : 17:05:15:594: Malgre tout y a des successeurs qui arrive Chacha 20 où Panama en sont deux . 2
+17:06:000795:000795_3 : 17:05:22:931: Je peux pas vous encourager à utiliser déjà ça demande des ressources délirante en terme de consommation de données cetera et surtout on n'est pas tout à fait sûr encore de la robustesse . 3
+17:06:000796:000796_4 : 17:05:33:878: Un jour ça sera bien mais pas tout de suite le gros problème de ça c'est que c'est nécessaire ça nécessite pour être vraiment robuste d'injecter une dose aléatoire une dose d'entropie au moment ou on fait le chiffrement. 4
+17:06:000797:000797_1 : 17:05:49:899: Le problème de nos machines c'est qu'elles ne sont pas aléatoire design de nos machines et notamment la conception de processeur fait qu'elles ont tendance quand elle cherche à reproduire des générer des motifs aléatoire à reproduire des messages et ça arrive fréquemment ce moyen d'avoir des dispositifs . 1
+17:06:000798:000798_2 : 17:06:07:031: Ici j'utilise le l'environnement extérieur à savoir la température l'hygrométrie exetera pour inclure du bruit d'un génération aléatoire ça coûte une blinde personne tous dotés de Saint-Just . 2
+17:06:000799:000799_3 : 17:06:18:171: Chercher à compenser ça . 3
+17:07:000800:000800_4 : 17:06:21:132: Pense en utilisant je m'appelle tout ce qui est les dynamiques de padding randomness de vecteur d'initialisation en gros ça consiste à dire j'ai besoin de données qui soit réellement des données imprévisible de façon à pouvoir injecter un vrai bruit aléatoire entre pig au salon côte chiffre . 4
+17:07:000801:000801_1 : 17:06:38:835: Donc je vais commencer par utiliser des méthodes de crypto toujours encore le toujours encore et toujours le CSPRNG et pas un accès à/ urandom directement alors on dit souvent ouais pourquoi tu utilises pas urandom donc random c'est un pseudo device dans le système UNIX retourner . 1
+17:07:000802:000802_2 : 17:06:55:974: Random directement la mère de la toi rester juste m'en parce que . 2
+17:07:000803:000803_3 : 17:07:02:113: Tu appuies directement sur le micro processeur pour pouvoir générer de l'aléatoire et que nos machines ne sont pas réellement aller à toi donc si vous n'avez pas le choix parce que vous êtes en bas niveau vous etes en C si vous avez le choix utiliser librairie crypto . 3
+17:07:000804:000804_4 : 17:07:17:233: C'est le chiffrement la sodo génération de la génération pseudo-aléatoire de votre éléments . 4
+17:07:000805:000805_1 : 17:07:23:153: Utiliser plutôt des méthodes de CSPRNG. 1
+17:08:000806:000806_2 : 17:07:26:298: Et puis utiliser dès qu'on appelle des vecteur d'initialisation donc un vecteur d'initialisation en gros c'est si je prends un algo de chiffrement par bloc et que je lui passe des chaînes de caractères il va avoir tendance à reproduire des motifs au niveau de substitution donc une bonne solution pour éviter ça c'est que je vais d'abord lui faire moulinet une chaîne aléatoire . 2
+17:08:000807:000807_3 : 17:07:47:455: Qui va me permettre de l' initialiser et quand j'ai initialisé mon amour mon aléatoirement 4 5 6 . 3
+17:08:000808:000808_4 : 17:07:56:561: Qui est un état qui va mais vraiment aléatoire tout cas normalement il vraiment unique qui va permettre de chiffrer mon contenu sans introduire normalement de pattern répété pourquoi parce que la plupart des algo chiffrement par bloc il faut pas un blog puis un bloc ensuite puis un bloc ensuite ensuite mets une dérivation qui fait que le bloc précédent . 4
+17:08:000809:000809_1 : 17:08:19:685: Vous avez un système de chaînage comme ça qui fait qui fait que si vous avez déja fait tourné votre algo trois quatre fois au départ vous l'avez initialisé un état que derrière ça va influer sur le reste de la FNAC . 1
+17:09:000810:000810_2 : 17:08:31:141: Ça c'est ce qu'on appelle les modèle de bloc opérationnels, ou operatoires . 2
+17:09:000811:000811_3 : 17:08:40:547: Très bizarre n'y en français donc c'est la façon c'est la façon vous allez initialiser votre algo de substitution par bloc quelle que soit la Go substitution par bloc il utilise plusieurs système de chiffrement par plusieurs modes de bloc aleatoires . 3
+17:09:000812:000812_4 : 17:08:57:223: Le plus connu été le CBC il y a très longtemps parce qu'en fait il a tendance à introduire une répétition qui fait quand on prend deux éléments . 4
+17:09:000813:000813_1 : 17:09:07:345: On obtient des systèmes de négatif et quand on croise on arrive à l'image initiale très bons de très bonnes explications là dessus en ligne. 1
+17:09:000814:000814_2 : 17:09:16:480: C'est trop c'est trop répétitif comme motif on se retrouve . 2
+17:09:000815:000815_3 : 17:09:21:606: Cesàro dont vous dire qu'il est cassé aussi le seul qui tient aujourd'hui à peu près . 3
+17:10:000816:000816_4 : 17:09:27:722: Périph de la paternelle s'appelle a l . 4
+17:10:000817:000817_1 : 17:09:32:870: Mode de bloc Frederiksborg plus robuste à l'heure actuelle qui est un type ahead autrement dit il va faire de la substitution et en même temps qu'il fait la substitution il fait de la signature à faire de la substitution pour s'assurer que aucun bloc n'est corrompu un moment et donc ça va induire une forme de bruit à l'intérieur qui sera réellement unique et qui éviterait répétition . 1
+17:10:000818:000818_2 : 17:09:52:017: Alors tout ça c'est bien beau mais alors ça s'applique au système de chiffrement par bloc et donc le point de système de chiffrement par bloc c'est les algos symétrique ou asymetrique ça veut dire que j'ai une clé a chiffrer et a dechiffrer. 2
+17:10:000819:000819_3 : 17:10:06:140: Normalement j'ai pas besoin d'aller bien loin pour vous expliquer que c'est introduit un vrai problème c'est que une clé ça peut être compromis si j'utilise la même clé pour chiffres et des chiffres et si j'envoie un message à quelqu'un en face je vais prendre mon ego je suis vraiment message envoyé le message il faut qu'il est la clé aussi il va déchiffrer le message . 3
+17:10:000820:000820_4 : 17:10:26:280: Il a même un moment la clé elle aura du transit et entre lui et moi . 4
+17:10:000821:000821_1 : 17:10:31:915: Transit il y a un transfert il y a un risque d' interception donc il va falloir protéger ce transit. 1
+17:10:000822:000822_2 : 17:10:39:050: Ca, on l'a tès vite compris . 2
+17:11:000823:000823_3 : 17:10:42:178: On l'a théorisé très très tôt en disant que le seul vrai moyen de pour se protéger c'était de faire du chiffrement asymétrique . 3
+17:11:000824:000824_4 : 17:10:51:310: 2e 35000 . 4
+17:11:000825:000825_0 : 17:10:54:453: C'est ce qui va vous permettre de protéger va système de clefs. typiquement vous allez utiliser non pas une clé mes deux clefs qui fonctionne pas refaire une clé qui publique qui distribue publiquement librement à l'intégrité de des gens qui en allemand qui cherchait l'obtenir et une clé privée qui part définition et . 1
+17:11:000826:000826_3 : 17:11:14:653: est privée, ** je sais que c'est dur mais quand même . 3
+17:11:000827:000827_4 : 17:11:20:795: Personne ne l'a à part vous si quelqu'un d'autre là clairement il y a un problème parce que c'est bien vous l'avez transférer comment ça marche quelqu'un peut m'envoyer un message . 4
+17:12:000828:000828_1 : 17:11:31:211: Public public il va chiffrer le message qui veut m'envoyer avec ma clé publique . 1
+17:12:000829:000829_2 : 17:11:39:362: C'est la seule clé qui est capable de déchiffrer ce message c'est la clé privée qui s'associe à la clé publique été utilisé pour le chiffrement et je suis le seul à l'avoir . 2
+17:12:000830:000830_3 : 17:11:49:218: Normalement ça me protège j'ai pas de soucis je suis seul à pouvoir déchiffrer Cetelem c c le principe derrière le . 3
+17:12:000831:000831_4 : 17:11:58:361: Partir du moment où vous en êtes là normalement vous êtes beaux vous arrivez à protéger correctement vous échange . 4
+17:12:000832:000832_1 : 17:12:05:210: Problème c'est que ce extrêmement couteux et c'est compliqué à tenir dans la durée . 1
+17:12:000833:000833_2 : 17:12:10:574: Ça me mène à vous parler des problématiques de gestion clé de gestion certificat et signature . 2
+17:12:000834:000834_3 : 17:12:16:608: Puisau'on a un probleme de sensibilité sur les clés il va falloir trouver un moyen d'échanger des clés et protéger des clés donc la clé symétrique j'ai vraiment déchiffrement ça va très vite se sont très rapide exécuter le problème c'est que . 3
+17:12:000835:000835_4 : 17:12:32:770: Au moment on a théorisé les cles asymétrique on a cherché un algo qui permet de remplir cette fonction là on a beaucoup de chercheurs américains . 4
+17:12:000836:000836_1 : 17:12:46:918: Et ils ont pas trouvé . 1
+17:13:000837:000837_2 : 17:12:49:606: Ils ont trouvé un système inte. 2
+17:13:000838:000838_3 : 17:12:53:644: J'ai le même . 3
+17:13:000839:000839_4 : 17:12:55:775: On est plus inventifs avec nos failles de sécurité c'est marrant . 4
+17:13:000840:000840_1 : 17:13:00:918: Et qui sert à protéger un échange de clé alors comment ça marche . 1
+17:13:000841:000841_2 : 17:13:05:698: Les deux individus qui cherche à se mettre d'accord sur une clé symétrique à utiliser mais il faut pas que cette clé symétrique circule sinon on risque de compromission interception tout ça donc il va falloir trouver une solution pour que chacun soit en position de la clé symetrique sans jamais se l'etre donnée. 2
+17:13:000843:000843_3 : 17:13:20:837: Normalement c'est un tour de magie sortir un lapin du chapeau alors comment ça fonctionne ils ont réussi à mettre au point assez rigolo mettre d'accord sur une commmune un élément disponible publiquement . 3
+17:13:000844:000844_4 : 17:13:37:979: Ils ont chacun à Secret privé . 4
+17:14:000846:000846_1 : 17:13:44:122: Dans le cas du A c'est la couleur orange dans le cas du B c'est la couleur bleue. 1
+17:14:000847:000847_2 : 17:13:48:065: Ça c'est privée . 2
+17:14:000848:000848_3 : 17:13:50:189: Partage . 3
+17:14:000849:000849_3 : 17:14:06:480: L'échange le résultat de ce mélange entre leurs clé privée secret partagé ils vont mélanger ce résultat avec leurs propres clé privée et la . 3
+17:14:000850:000850_4 : 17:14:07:480: Résultats de chaque côté tous les deux sur un résultat qui vont pouvoir utiliser comme une clé symétrique sans jamais se l'etre echangé . 4
+17:14:000851:000851_1 : 17:14:27:201: C'est cool quand même ça fait magie mais je vous assure que ça marche . 1
+17:15:000852:000852_2 : 17:14:32:350: Comment ça fonctionne . 2
+17:15:000853:000853_3 : 17:14:37:951: C'était très bien qui a des risques un secret partagé disponible publiquement il y a des risques de pouvoir du coup remonter parce que en plus on échange transfert réception . 3
+17:15:000854:000854_4 : 17:14:52:062: On savait que c'était pas hyper robuste mais sur l'usage unique c'est pas mal quand même et de fête ses skis utilisé dans te laisse te laisser la couche de protection qui protège notamment de connexion HTTP un coup . 4
+17:15:000855:000855_1 : 17:15:06:203: Et c'est exactement ce que tu dises . 1
+17:15:000856:000856_2 : 17:15:11:344: Faire que la première étape ses clients qui dit au serveur en face je veux communiquer on se met d'accord sur on a tous les deux des clé privée on se met d'accord sur un secret partagé on génère une clé symétrique chacun de notre côté et on va chiffrer tout après en symétrique en utilisant cette clé que personne n'aura vu passer puis chacun de notre côté . 2
+17:15:000857:000857_3 : 17:15:31:476: Et on fait ça à chaque fois qu'on lance une nouvelle requête . 3
+17:15:000858:000858_4 : 17:15:34:643: Quand il faut simplifier mais . 4
+17:16:000859:000859_0 : 17:15:38:788: Est-ce que ça le protocole plus que ça mais à la base l'idée c'est ça. Donc ça veut dire qu'à chaque nouvelle connexion avec un nouvelle clé symétrique. 1
+17:16:000860:000860_2 : 17:15:48:922: De pouvoir faire de l'analyse de fréquence dessus . 2
+17:16:000861:000861_3 : 17:15:51:779: Et après si vous voulez vraiment protéger d'autres possibilités c'était key wrapping, donc l'encapsulation ça veut dire que vous allez utiliser des paire de clé symétrique et asymétrique . 3
+17:16:000862:000862_4 : 17:16:05:916: Les chiffres et des grosses quantité de données ou de très longs messages monstrueux c pas utilisable . 4
+17:16:000863:000863_1 : 17:16:12:033: C'est pas utilisable au quotidien il faut quelque chose qui soit rapide . 1
+17:16:000864:000864_2 : 17:16:15:169: Pour protéger aussi donc l'idée c'est de faire du symétrique encapsulé c'est-à-dire que je vais générer une clé symétrique unique aléatoire . 2
+17:17:000866:000866_3 : 17:16:27:294: Est-ce que je vais chiffres avec mes clés asymétrique c'est la clé symétrique aléatoire les deux le message avec chiffre clé symétrique . 3
+17:17:000867:000867_4 : 17:16:38:418: J'envoie tout ça au destinataire et des chiffres d'abord la clé symétrique avec sa clé privée. 4
+17:17:000868:000868_2 : 17:16:54:695: Salaire très compliqué salé pas tant que ça va si vous n'utilisez pas encore . 2
+17:17:000869:000869_3 : 17:17:04:754: Asymétrique c'est qu'elle permettre un autre . 3
+17:17:000870:000870_4 : 17:17:09:541: La signature qu'est-ce que c c Arles encore je vais simplifier avec des gros pinceau les experts me pardonneront mais on va dire que c'est de la symétrique à verser dire que je vais chiffrer entre guillemets mon message avec ma clé privée clé publique va permettre de déchiffrer . 4
+17:18:000871:000871_1 : 17:17:29:692: Tout le monde peut déchiffrer le message, c'est con . 1
+17:18:000872:000872_0 : 17:17:32:790: L'avantage c'est que si vous pouvez déchiffrer message qui envoyer à l'aide de ma clé publique ça veut dire qu'il aurait été chiffré avec ma clé privé et comme je suis seul à la seule personne ayant été capable de chiff message c'est moi. C'est ma signature. 2
+17:18:000873:000873_3 : 17:17:45:211: Ça veut dire que vous garantissez l'expéditeur vous êtes sûr de la personne qui vous l'envoyer extrêmement pratique parce que ça degrés sécurité de confiance . 3
+17:18:000874:000874_4 : 17:17:59:348: Typiquement ok j'ai récupéré la clé publique de quelqu'un qu'est-ce que cette clé publique et bien saké public . 4
+17:18:000875:000875_1 : 17:18:07:489: Elle finit par quoi elle est signée par la clé privée de quelqu'un d'autre en qui j'ai confiance parce que lui-même est certifié par quelqu'un d'autre . 1
+17:18:000876:000876_2 : 17:18:15:639: C'est ce qu'on fait dans les crypto-party si vous n'avez jamais fait en gros vous générez vos clés privé-public que je peux vous donner les références de votre clé somme de contrôle . 2
+17:19:000877:000877_3 : 17:18:27:778: Et puis vous vous rendez le jour J Anacleto parti avec vos pièces d'identité vous pouvez vous êtes bien cette personne et les autres personnes présentes sur place parce qu'elle vous rencontrer physiquement et qu'ils ont pu vérifier votre identité de signer avec leur prix public . 3
+17:19:000878:000878_4 : 17:18:41:894: Monter un système décentralisée d'authentification extrêmement robuste ça fonctionne très bien pour les individus . 4
+17:19:000879:000879_1 : 17:18:52:042: Contexte industriel ou on peut avoir des gros acteur qu'on peut pas rencontrer physiquement exetera . 1
+17:19:000880:000880_2 : 17:18:59:164: Les certificats comment ça fonctionne et bah c'est un document qui contient une signature et qui vous dit oui cette entité elle a été certifié et associés à mon certificat de moi autant toute autorité reconnu certifié et moi je dis que oui cette personne est bien le titulaire de la clé publique présente donc c'est ce qui me permet de protéger vos différentes communications. 2
+17:19:000881:000881_3 : 17:19:27:305: Chica Santo serveur web c'est exactement ce système . 3
+17:20:000882:000882_4 : 17:19:34:437: Ça créé des chaînes de confiance . 4
+17:20:000883:000883_1 : 17:19:39:564: Comment se présente un souci puisque c'est pyramidal sinon vous vous corrompez le la pointe de la pyramide ça rend tout dégueulasse quoi . 1
+17:20:000884:000884_2 : 17:19:49:703: C'est ce qui s'est passé avec Blue compartiment de ta qui a 2 ans blue côté d'une société qui fait du qui vend des systèmes de . 2
+17:20:000885:000885_1 : 17:20:09:116: Sinon du coup tu le portefeuille de certificat SSL de Blue côté passer dans le portefeuille de certification on se retrouve donc certifié niveau . 1
+17:20:000886:000886_2 : 17:20:21:241: Vous inquiétez pas c'est séparer tu seras une grosse vague de révocation donc c'est un problème de chaîne de confiance . 2
+17:21:000887:000887_3 : 17:20:33:385: Évoquer des identités à partir du moment où l'autorité dit finalement lui je ne certifie plus haebalaki public n'est plus reconnue comme valise . 3
+17:21:000888:000888_4 : 17:20:42:515: Ils ont pas ça veut dire que vous pouvez facilement révoquer d'identité photocopie la . 4
+17:21:000889:000889_1 : 17:20:50:125: Donc l'idee c'est de protéger, protéger quoi? Tout ce qui réseau et ben ça passe par TLS donc les chaînes de confiance certificat tout ça tout ce qui est mot de passe sécurisé et tout ce qui va . 1
+17:21:000890:000890_2 : 17:21:05:240: Ça c'était la théorie dans la pratique comment ça marche alors si vous êtes au bas niveau et ben comme toujours vous êtes au bas niveau à part à part votre couteau il y a pas grand-chose de plus que vous avez dans votre poche donc j'utilise éventuellement les modules de crypto de votre OS. 2
+17:21:000891:000891_3 : 17:21:23:391: Où utiliser bibliothèque disponible du système . 3
+17:21:000892:000892_4 : 17:21:28:536: Avitel faire ou alors on peut directement ta peau au niveau du matériel dis-moi les processeurs Intel embarque un jeu d'instruction spécifique ce SNI . 4
+17:22:000893:000893_1 : 17:21:38:680: Les processeurs ARM ont le leur aussi . 1
+17:22:000894:000894_2 : 17:21:41:810: Même des co-processeur qui sont couplés aux microprocesseur qui permet de faire du chiffrement hardware directement mais fois que c'était à la machine quand vous êtes . 2
+17:22:000895:000895_3 : 17:21:50:926: Si vous êtes un peu plus haut niveau donc plutôt côté back-end exetera vous avez des libcrypto qui font ça pour vous qui font l'abstraction donc dites-moi si vous êtes en python . 3
+17:22:000896:000896_4 : 17:22:01:029: Go en rugby crbn SLK référence . 4
+17:22:000897:000897_1 : 17:22:08:153: En java bleuarhg la java JCE voilà ça fonctionne . 1
+17:22:000898:000898_2 : 17:22:16:284: On a dit Brito qui sont ensure qui sont vérifiés par des experts . 2
+17:22:000899:000899_3 : 17:22:22:421: Elles sont bien documenté particulièrement parce que c'est quand même des bons termes de documentation donc même pas de . 3
+17:22:000901:000901_4 : 17:22:33:549: Et donc il faut vraiment pas hésiter à s'en servir aller voir à les lire un peu les recommandations les autres . 4
+17:23:000902:000902_1 : 17:22:39:486: Côté navigateur . 1
+17:23:000903:000903_3 : 17:22:45:729: Aussi s'appelle le web crip Working Group qui voulait proposer des Halles Gotti vraiment directement dans navigateur que je connais très bien . 3
+17:23:000904:000904_4 : 17:22:56:857: Qui m'a dit on fait un truc on fait loi plutôt ça est-ce que c'est elle m'a dit ça moi j'étais comme ça . 4
+17:23:000905:000905_1 : 17:23:04:990: Quand j'ai lu la spec que j'étais comme ça j'ai énormément . 1
+17:23:000906:000906_2 : 17:23:12:126: Vite et je n'en ai jamais lu aucune qui soit aussi imbitable que celle-là c'est un truc d'expert . 2
+17:23:000907:000907_3 : 17:23:18:079: Et c'est un truc d'expert . 3
+17:23:000908:000908_4 : 17:23:25:201: Ça fonctionne comme ça et puis voilà et toi tu arrives à la fin du document . 4
+17:24:000909:000909_1 : 17:23:30:386: Vous m'avez perdu quand vous avez dit "algo" au départ après je sais plus extrême envie c'est quand même . 1
+17:24:000910:000910_2 : 17:23:38:525: Allez pas savoir qui gratte et puis passer en renvoyer candidat été correctement validé par depuis le groupe a été dissout. 2
+17:24:000911:000911_3 : 17:23:47:019: Alors comment ça fonctionne est belle exposés dans le même espèce crypto dans un samedi spécial Apple je pense que se passe-t-il . 3
+17:24:000912:000912_4 : 17:23:58:724: Microsoft avez déjà voulu introduire longtemps . 4
+17:24:000913:000913_1 : 17:24:03:853: On est les seuls à développer des trucs retrocompatible sur 25 ans donc il faut bien s'y adapter. 1
+17:24:000914:000914_2 : 17:24:08:993: Elle extrêmement puissante mine de rien effectivement elle fait du vrai chiffre dans mon navigateur c'est quand même assez forts avec des API browser donc c'est pas du . 2
+17:24:000915:000915_3 : 17:24:19:125: Le problème c'est que un elle n'utilise que des premiers . 3
+17:24:000916:000916_4 : 17:24:24:427: Système de première y a 3 ans c'était compliqué maintenant c'est un peu plus sur toi . 4
+17:24:000917:000917_1 : 17:24:31:559: Array buffer dans un sens, dans l'autre pouvoir passer une chaîne de caractère en binaire Lanko te l'a déposé la chiffrer le bordel . 1
+17:25:000918:000918_2 : 17:24:40:676: Je vous assure que ça fonctionne mais quand tu voulais utiliser à la main c'est ça un peu encore une chose un processeur du c dans le navigateur c'est un peu hardcore . 2
+17:25:000919:000919_3 : 17:24:49:808: ISEP top d'avoir un truc sur le jQuery de la crypto . 3
+17:25:000920:000920_4 : 17:24:55:922: De ce truc-là exetera et clairement fait le parking travailler uniquement aujourd'hui on a pas mal de libre dans navigateur qui permettent de le faire . 4
+17:25:000922:000922_1 : 17:24:56:922: Parce que la spec. 1
+17:25:000923:000923_2 : 17:25:10:202: Décris énormément d'algos supportés et il y en a une bonne dose mais les implémenter remonte obligation dans Play monter que les halles Go qui juge nécessaire . 2
+17:25:000924:000924_3 : 17:25:20:720: Pas forcément les mêmes . 3
+17:26:000925:000925_4 : 17:25:23:129: Et vous pouvez pas savoir c'est un peu c'est un peu comme gaine Playtex vous avez joué que une balise à Lapalisse vidéo . 4
+17:26:000926:000926_1 : 17:25:33:275: Navigateur une méthode qui s'appelle canplaytype et vous pouvez appeler cette méthode canplaytype MP4 et vous demander est-ce que tu peux lire la méthode . 1
+17:26:000927:000927_2 : 17:25:47:400: Oui je peux lire ou non je peux pas lire ou alors elle retourne une chaîne de caractère qui peut être maybe ou probably. 2
+17:26:000928:000928_3 : 17:25:54:528: Vous dire que ça apporte beaucoup de choses en fait ça répond juste au cas où navigateur ai dit moi je peux pas mais . 3
+17:26:000929:000929_4 : 17:26:06:351: une puce hardware à je crois donc peut-être normalement je sais pas essaie . 4
+17:26:000930:000930_2 : 17:26:13:533: Crypto c'est pareil quoi tu passes l'algo et puis dis à . 2
+17:26:000931:000931_3 : 17:26:20:647: Tu as aussi commence déjà par tester tous les alizés . 3
+17:26:000932:000932_4 : 17:26:28:367: Heureusement on a quand même des livres qui maintenant qui s'appuyer notamment la web crypto API. 4
+17:27:000933:000933_1 : 17:26:37:512: Sont bien elles sont faciles à utiliser envoie-le surtout le pré 7 et dans des bonnes conditions pour vous utilisez de la chiffrement navigateur le seul vrai problème c'est que ça reste du JS et que c'est facile de s'introduire dans du JS. 1
+17:27:000934:000934_2 : 17:26:49:631: Centre bien entendu un bon élément de réponse c'est probablement samedi mais je rentrerai pas dans le débat derrière . 2
+17:27:000935:000935_3 : 17:26:57:275: Je voulais éventuellement vous montrer une petite vidéo rigolote mais j'ai plus le temps donc je voulais passerai pas mais je pouvais voulez donner si vous voulez vous la verrez sur les slides derrière j'ai fait une un test de authentification par clé dans le navigateur sur la page de login de du produit sur le . 3
+17:27:000936:000936_4 : 17:27:13:397: De mot de passe pour ce que vous arrivez sur la page si vous aviez la clé privée vous pouvez rentrer directement . 4
+17:27:000937:000937_1 : 17:27:19:529: Donc je conclus et normalement qu'est-ce qu'on fait avec tout ça alors déjà vous vous improvisez pas cryptographe parce que c'est pas votre boulot c'est pas le mien non plus vous n'êtes pas mathématicien normalement . 1
+17:28:000938:000938_2 : 17:27:34:614: Ouais c'est ça demande quand même des gros niveau quoi donc donc vous inventez pas vos propres algos de crypto jamais vous faites pas confiance uniquement à vous-même vous appuyez sur le travail de spécialistes ils sont là pour ça . 2
+17:28:000939:000939_3 : 17:27:48:759: Mais pas la route surtout n'oubliez jamais que . 3
+17:28:000940:000940_4 : 17:27:54:878: Un cout et qui est inversement proportionnel à la simplicité d'utilisation plus vous allez renforcée et plus vous allez rajoute la sécurité du chiffrement oui ça sera compliqué utiliser pour . 4
+17:28:000941:000941_1 : 17:28:05:568: Ou Compliqué pour vous à développer, oufinancièrement . 1
+17:28:000942:000942_2 : 17:28:11:713: Crée des boîtiers exprès HSM . 2
+17:28:000943:000943_3 : 17:28:15:825: Un moment ça coûte mais vous n'avez pas le choix et surtout . 3
+17:29:000944:000944_4 : 17:28:22:962: Vous serez obligé à un moment de payer ce prix-là son utilisateur François financièrement encore une fois son temps mais il va falloir ajuster sur Sarlat et vous dire je peux pas tout protéger . 4
+17:29:000945:000945_1 : 17:28:34:951: Chiffrer ce qu'est réellement critique mais il va quand même falloir trouver ce qui est critique. 1
+17:29:000946:000946_3 : 17:28:43:088: Juste sur ça ça c'est un screenshot de Reddit qui a été qui a été récupéré au moment du leak Ashley Madison il y a 3 King Meetic aux USA . 3
+17:29:000947:000947_4 : 17:29:02:409: Et donc Ashley Madison la base de données de donnee d'Ashley Madison leak. 4
+17:30:000948:000948_1 : 17:29:08:855: Les infos des utilisateurs de Ashley Madison se trouve dans la nature et dites-moi ce poste arrivé merci qui dit "alors voilà moi j'étais aux US pour mes études je suis gay je me suis servi Ashley Madison pour pour rencontrer des gens et c'était très bien et très pratique très cool juste je suis de retour dans mon pays aujourd'hui l'Arabie Saoudite" . 1
+17:30:000949:000949_2 : 17:29:30:977: Il donnait d'acheter Madison viennent de mickey et aujourd'hui on peut facilement connaître mon nom mon adresse mon orientation sexuelle éventuellement les partenaires avec qui j'étais pendant ces dernières années quand j'étais aux États-Unis donc concrètement je crains sérieusement pour ma vie où est-ce que je peux aller pour être à peu près en sécurité . 2
+17:30:000950:000950_3 : 17:29:49:942: Par que les développeurs d'acheter Madison au moment où ils ont commencé à travailler sur leur base de données sur architecture d'infos ce soit dit le potentiel vous pouvez mettre en jeu la vie d'utilisateurs . 3
+17:30:000951:000951_4 : 17:30:00:047: N'empêche que . 4
+17:30:000952:000952_1 : 17:30:03:159: Je vous laisse juste méditer là-dessus . 1
+17:30:000953:000953_2 : 17:30:07:353: Je vous dirai après sinistre finition pas je m'appelle Mad je suis un dieu du web et je travaille chez always data en tant que tech evangelist . 2
+17:30:000954:000954_3 : 17:30:17:999: Reconnaissance . 3
+17:30:000955:000955_4 : 17:30:21:142: On est un hébergeur infogéreur est-il vivement sa problématique de sécurité on s'y intéresse beaucoup . 4
+17:30:000956:000956_1 : 17:30:27:290: Notre boulot c'est de s'assurer que les gens qui met des choses ne sont pas de façon . 1
+17:31:000957:000957_2 : 17:30:35:423: Foussier de sensibilisation des gens à la façon de bien protégé leurs infos. 2
+17:31:000958:000958_3 : 17:30:41:400: Si vous avez des questions je suis là une question si vous avez une question je suis là . 3
+17:31:000959:000959_1 : 17:30:48:575: J'ai vu une main se lever. 1
+17:32:000960:000960_0 : 17:31:13:119: Alors est-ce qu'il faudrait pas tout chiffrer frais pour pour prendre le parti comme ça de dire que
+17:32:000961:000961_1 : 17:31:41:379: Je dis pas que c'est pas possible on peut faire des index sur des données chiffrées juste c'est vachement coûteux en énergie en temps et pas forcément idéal . 1
+17:32:000962:000962_2 : 17:31:54:523: Son de la pseudonymisation est-ce que on considère que partir du moment où j'ai chiffres et tout ce qui était potentiellement critique on ne peut plus remonter à la personne au départ sur la base de données des infos qui ne sont qui reste en clair et qui se passe là encore c'est une vraie question oui plus vous pouvez chiffrer mieux c'est si vous voulez toucher frais . 2
+17:32:000963:000963_3 : 17:32:14:666: Idée de toute façon déjà j'ai envie de dire de ne fait déjà pas de tourner . 3
+17:32:000964:000964_4 : 17:32:21:790: Des services sur des machines qui par défaut ne sont pas elle-même chiffrer disque dur niveau carnet . 4
+17:32:000965:000965_1 : 17:32:30:918: Si jamais la machine sur ton la limande pas pendant qu'on a parlé disque dur . 1
+17:33:000966:000966_2 : 17:32:39:047: Un moment ça veut dire que vous protéger déjà tout ce qui attaque physique matériel sur site . 2
+17:35:000967:000967_3 : 17:32:45:172: Problématique c qu'est-ce qui se passe comme à base de données sur un maximum . 3
+17:36:000968:000968_4 : 17:32:52:298: Il a peur il faut réduire un peu quoi mais vaut peut-être mieux je suis d'accord commencer par 10 en chiffre un maximum et après si c'est trop compliqué marre des sens un peu le niveau sur à mesure c'était pas cher . 4
+17:36:000969:000969_1 : 17:33:06:050: Merci beaucoup . 1
+

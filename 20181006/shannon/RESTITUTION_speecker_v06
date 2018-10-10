@@ -1,0 +1,119 @@
+
+ 
+06_Développement d'applications avec le framework Anyblok et son écosystème d'outils et modules métier Franck Bret
+ 
+ 
+14:00:000840:000840_2 : 13:51:32:865: Ben je sais pas il faut voir ce que ça donne . 2
+14:03:000842:000842_3 : 13:51:44:576: Ça va mieux toi bon bah donc on y va avec celui-là . 3
+14:03:000843:000843_1 : 13:58:30:418: Automatiquement . 1
+14:03:000844:000844_2 : 14:00:54:306: Enregistrement . 2
+14:03:000845:000845_3 : 14:03:19:586: Donc . 3
+14:04:000846:000846_4 : 14:03:24:728: Là c'est bien ouais d'accord . 4
+14:04:000847:000847_1 : 14:03:28:122: Je pense que là c'est bien . 1
+14:05:000849:000849_2 : 14:03:33:266: Pas de problème . 2
+14:05:000850:000850_3 : 14:03:36:401: Ok . 3
+14:05:000851:000851_1 : 14:04:50:272: Alors si une conférence qui va pas être ultra technique rap avoir beaucoup de code autre chose comme ça ça va être un petit peu plus orienté autour de concepts et notamment de notion de Métiers et d'écosystème autour des nids bloc . 1
+14:05:000852:000852_2 : 14:05:06:832: Donc je m'appelle Franck Bret . 2
+14:06:000853:000853_3 : 14:05:13:981: Pas un profil du tout de développeurs à la base moi je viens de la sociologie des sciences de l'information de la communication je suis arrivé dans tout ça tu finis vers finalement la fin du 20e siècle autour de add interface homme-machine et du multimédia au fur à mesure de ma carrière j'ai mis les doigts dans le cambouis . 3
+14:06:000854:000854_4 : 14:05:37:108: Je suis également un ancien de la société Unibox qui . 4
+14:06:000855:000855_1 : 14:05:42:260: Ni d'où provient a initialement Lola le projet AnyBlok est actuellement je suis chef de projet back-end chez sensi qu'une start-up qui vend des lunettes de vue sur internet et dans le cadre de mon activité professionnelle on utilise on utilise Annie bloc lyon participe à son développement . 1
+14:06:000856:000856_2 : 14:06:09:203: Bon voilà un des lunettes si ça vous intéresse on fait notamment des . 2
+14:07:000857:000857_3 : 14:06:18:391: Verre pour les pour filtrer les lumières bleues les informaticiens voilà . 3
+14:07:000858:000858_4 : 14:06:24:835: AnyBloc c'est quoi donc c'est un framework une boîte à outils Python 3 dans l'idée générale de faciliter le développement d'applications . 4
+14:07:000859:000859_1 : 14:06:37:971: Techniquement le framework fourni un système de Waremme donc objecteur la chaîne site management donc on fait de la base de données relationnel en plus et on a une notion d'objet au sens python qui fait la glue entre la base de données et la PI pi . 1
+14:07:000860:000860_3 : 14:06:59:146: À une et particularités c'est que une application développée en AnyBlok va être dynamiquement surcharge à blanc c'est-à-dire que il y a des modules Python à l'intérieur de ses modules Python on verra tout à l'heure qui a une notion Blok et se bloque peuvent être installé désactiver exetera modifiez sans spécialement relancer le service . 3
+14:08:000861:000861_4 : 14:07:30:063: Enfant framework . 4
+14:08:000862:000862_1 : 14:07:35:415: Arrêter de me bloque c'est que il repose sur d'autres éléments il y a la . 1
+14:08:000863:000863_2 : 14:07:36:415: Donc il n'y bloc branche des librairies existante notamment est-ce que la limite pour la partie ORM et pyramide pour les parties HTTP que c'était . 2
+14:08:000864:000864_3 : 14:07:58:742: Donc on vient de dire les composants d'un projet Anyblok son appeler des Bloks voilà la petite abstraction qui a été utilisé pour désigner voilà un petit un petit ensemble on va mettre dans un projet . 3
+14:08:000865:000865_4 : 14:08:13:880: Allô . 4
+14:09:000866:000866_1 : 14:08:16:109: Une première chose c'est que . 1
+14:09:000867:000867_2 : 14:08:22:419: Tout est package Python bon mon projet va être un package Python à l'intérieur de mon projet je vais avoir différentes dépendance qui vont également être des paquets de Python et si je veux mettre donc des blocs fonctionnels dans mon projet et ça me bloque elle va c'est également des des plaquettes vous et distribution Python . 2
+14:09:000868:000868_3 : 14:08:46:068: Je sais que tout ça est déclarée dans une base de données donc c'est ce qui permet de faire un petit peu la magie et la manipulation débloque le système de dépendance exetera que c'était . 3
+14:09:000869:000869_4 : 14:08:57:002: L'écosystème unibloc . 4
+14:09:000870:000870_1 : 14:09:02:088: Qu'est-ce que c'est l'idée . 1
+14:10:000871:000871_0 : 14:09:06:215: J'ai beaucoup travaillé dans le domaine de le RP dans le domaine de l'e-commerce dans le domaine des des applications pour les entreprises et ben dans ces problèmes Annick là on a besoin les entreprises ont besoin de système plus ou moins l'intégrer qui vont adressé tout un tas de dimension de l'entreprise l'idée avec
+14:10:000872:000872_3 : 14:09:34:356: Un écosystème avec d'un côté des outils un autre marteau un autre tournevis plus spécialisés que celui qui vient dans la boîte à outils standard . 3
+14:10:000873:000873_4 : 14:09:47:479: Comment servir également donc des modules métiers qui ont eu vont avoir une dimension plus fonctionnel dans les outils très rapidement on va voir des outils qui vont correspondre protocole d'échange si je veux faire du httpd api-REST des choses comme ça du bus voilà . 4
+14:10:000874:000874_1 : 14:10:11:637: Port donc ça c'est tout ce qui va me permettre de bootstrap un projet de créer des bases de les manipuler la documentation lancer les tests exetera ya ya ya vraiment une écosystème assez complet pour pour démarrer . 1
+14:10:000875:000875_2 : 14:10:25:855: Alors qu'est-ce que c'est un module métier qu'est-ce que c'est des mots du métier qu'est-ce qu'on veut dire par là . 2
+14:11:000876:000876_3 : 14:10:35:319: Des modules métier en fait c'est donc les composants informatique qui permettent de modéliser . 3
+14:11:000877:000877_4 : 14:10:43:460: Et représenter concrètement une pratique d'un métier . 4
+14:11:000878:000878_1 : 14:10:48:605: typiquement si je dis je suis comptable l'application métier donc je vais avoir c'est un logiciel compta besoin c'est un logiciel de comptabilité Paris . 1
+14:11:000879:000879_2 : 14:10:59:459: Donc communément à on va retrouver . 2
+14:11:000880:000880_0 : 14:11:06:596: Des exemples de métiers on va voir tout ce qu'il va être là tu fais l'approvisionnement la vente gestion de la relation client exetera exetera exetera pour ceux qui ont une notion de ce qu'est un ERP
+14:12:000881:000881_3 : 14:11:07:596: ERP le but du jeu c'est effectivement de fournir le plus de composants métier comme ça d'une manière simple centralisée intégré . 3
+14:12:000882:000882_4 : 14:11:27:135: C'est évidemment une distinction entre les outils et le métier c'est-à-dire des modules qui vont servir la partie technique les couches techniques de communication de de persistance exetera et puis il est parti plus fonctionnel qui sont donc métier . 4
+14:12:000883:000883_1 : 14:11:50:103: C'est un projet qui a 3 4 ans maintenant je pense me bloque ça démarrait plus loin comme ça il y a quelques voilà c'est ça quand je sais plus . 1
+14:12:000884:000884_2 : 14:12:01:252: On s'en tu peux d'une chose on a été obligé de développer beaucoup beaucoup beaucoup d'outils pour pouvoir attaquer le métier . 2
+14:12:000885:000885_3 : 14:12:09:854: Alors . 3
+14:12:000886:000886_4 : 14:12:16:998: Voilà à quoi pourrais ressembler à un projet AnyBlok très rapidement donc au monde il est tout à l'heure on a notre framework . 4
+14:13:000887:000887_1 : 14:12:26:149: Hobbit qui profitent pardon de composants externe de de package Python externe pardon notamment est-ce que l'alchimie pour l'OM . 1
+14:13:000888:000888_2 : 14:12:38:234: Danse danse schéma envoie une séparation entre les librairies technique et les librairies métier qu'on appelle les business bloque ça en anglais . 2
+14:13:000889:000889_3 : 14:12:52:027: Donc je passe très très rapidement ici on voit avec les forme hexagonale ça correspond à des modules de notre écosystème et en fait on va avoir par exemple ici il est bleu pyramide qui va à manger à une erreur ok donc c'est cornici bon bref peu importe mais qui va profiter des fonctionnalités d'un composant python add une librairie Python et en fait le le le le petit mot du . 3
+14:14:000890:000890_4 : 14:13:22:179: Qui va permettre de le manipuler plus naturellement dans un projet me bloque . 4
+14:14:000891:000891_1 : 14:13:30:631: Ici on voit la représentation de notre projet proprement parler donc ça c'était un des exemples de ce matin dans la dans l'atelier qui est animée par Pierre et Jean Sébastien ou en gros on va faire de la réservation de salles dans un contexte Université un c'était pour pour l'exercice mais concrètement mon projet il est là et ça c'est un paquet python ce paquet python . 1
+14:14:000892:000892_2 : 14:13:53:778: Donc des dépendances qui sont des outils et il a également des dépendances qui sont des composants métier donc rooms booking je retrouve un composant métier qui va s'appeler ça lorrain rooms University exetera exetera et c'est vraiment autour de ces notions la présentation portant c c c autour de . 2
+14:14:000893:000893_3 : 14:14:17:938: Première chose . 3
+14:15:000894:000894_4 : 14:14:21:089: Ça ben je l'ai promis le monde développé spécifiquement pour mon projet de ce petit module mais je l'ai camisole University personne c'est pareil adresse . 4
+14:15:000895:000895_1 : 14:14:33:219: Réutiliser un bloc qui existent déjà est qui est générique pour correspondre à mes besoins donc je m'en suis servi . 1
+14:15:000896:000896_2 : 14:14:44:354: Alors les entreprises bah oui elles ont besoin de solution métier quand elle se pose genre de question elle se trouve elle se retrouve en général confronté à des choix mais qui est assez binaire puisque il s'agit soin de partir d'une solution générique existant . 2
+14:15:000897:000897_0 : 14:15:14:505: Sidéré d'entrée de jeu que notre métier et un petit peu spécial un petit peu différent et donc de partir d'une solution spécifique salir on part de pas grand-chose et puis et puis on monte
+14:15:000898:000898_3 : 14:15:15:505: dans tous les cas on est dans des milieux business où va la fiabilité la conscience l'adaptabilité et la souplesse sont les éléments qui font que on va prendre une piste en plus tôt . 3
+14:16:000899:000899_4 : 14:15:42:633: Précision sur le générique et le spécifique a . 4
+14:16:000900:000900_1 : 14:15:49:759: Comment sur des cas d'ERP qui vont fournir tout un tas de module des interfaces des voilà . 1
+14:16:000901:000901_2 : 14:15:57:880: On démarre si je suis peur il y a plein de choses mais au fur à mesure on va se rendre compte que on va être obligé de contourner tout un tas de comportement tout un tas de choses pour arriver au besoin donc finalement c'est intéressant de partir d'une d'une solution générique mais ça peut être un petit peu casse gueule . 2
+14:16:000902:000902_3 : 14:16:16:026: Allez solutions spécifiques, il y a des avantages et inconvénients également c'est-à-dire que back on part de rien il faut inventer beaucoup de choses . 3
+14:16:000903:000903_4 : 14:16:28:167: L'amener à remonter la roue Exeter . 4
+14:17:000904:000904_1 : 14:16:31:842: Donc ça peut être long risqué et donc cher . 1
+14:17:000905:000905_3 : 14:16:37:013: Donc notre idée est de développer un écosystème d'outils et de module métiers autour de ce framework AnyBlok . 3
+14:17:000906:000906_4 : 14:16:51:132: Les enjeux autour de ça s'est vu qu'on parle de métier on parle de d'expert métier c'est pas tous des développeurs viens si vous avez parlé avec un expert comptable les ifs l'effort et Alice affiche un petit peu pour autant si vous voulez développer et fournir une brique comme ça qui va dresser des problématiques relatives la comptabilité mais il va falloir comprendre la comtesse . 4
+14:17:000907:000907_1 : 14:17:17:287: Les anges autour de ça s'est vu qu'on parle de métier on parle de Dexter métier c'est pas tous des développeurs viens si vous avez parlé avec un expert comptable les ifs l'effort et Alice affiche un petit peu pour autant si vous voulez développer et fournir une brique comme ça qui va dresser des problématiques relatives la Donc il va faire problème parler avec des experts-comptables faire valider des choses s'assurer qu'on fait pas n'importe quoi . 1
+14:18:000908:000908_2 : 14:17:24:227: Bonjour important si on si on veut lancer un module c'est effectivement de s'assurer que d'un point de vue technique et d'un point du fonctionnelle on a de la cohérence . 2
+14:18:000909:000909_3 : 14:17:36:163: Également il y a une idée de de gouvernance de bonnes pratiques en a voilà de te fournir finalement un cadre de de développement et de pratiquant de manière à ce prévenir des dérives . 3
+14:18:000910:000910_4 : 14:17:52:263: Livre c de produire un module réutilisable soi-disant générique mais qui finalement va trop loin . 4
+14:18:000911:000911_1 : 14:18:00:778: Au lieu d'intéresser le plus grand nombre ça va commencer coincé dans certains cas . 1
+14:18:000912:000912_2 : 14:18:07:696: Le plus tout se dire on en fait le moins possible par contre c'est fiable c'est solide et ça bouge pas . 2
+14:18:000913:000913_3 : 14:18:14:282: Alors des pistes pour essayer d'atteindre ses objectifs . 3
+14:18:000914:000914_4 : 14:18:23:415: Il est l'objectif à la fin mais c'est qui le maximum évidemment d'utilisateur à la fois dans le point de vue technique et développeur que d'entreprise et d'utilisateur sinon . 4
+14:19:000915:000915_1 : 14:18:36:568: Il faut de la conscience et la fiabilité c'est important dans les applications d'entreprise voir fondamentale . 1
+14:19:000916:000916_2 : 14:18:44:296: On considère que c'est plus efficace d'avancer de contourner un petit peu la métaphore je faisais tout à l'heure j'ai plein de choses dans la main je veux faire un truc Ultra spécifique mais tout . 2
+14:19:000917:000917_3 : 14:18:45:296: Organisation qui m'est donné mais finalement me convient pas et l'effort pour la contourner il est lourd . 3
+14:19:000918:000918_4 : 14:19:04:002: L'idée avec l'écosystème c'est bon les outils on a compris hein ça nous fait si facile de la vie par contre côté métier il y a une notion de primitive métier c'est-à-dire de vraiment pas déplacé de données . 4
+14:20:000919:000919_1 : 14:19:24:164: Qui font bien et c'est avec ça qu'on va fabriquer un socle . 1
+14:20:000920:000920_0 : 14:19:33:018: Et on va spécialisé ces petites choses réutilisable. D'amis dans notre projet donc envoyez adapté pour mon cousin spécifique il y a pas d' entreprise qui a pas de besoin spécifique ça existe pratiquement des trucs ultra normalisé mais on voit l'activité j'ai vu que du spécifiquement et . 2
+14:20:000921:000921_3 : 14:19:56:159: Donc voilà je dis ne pas tomber dans la mythologie du Pôle M6 grated c'est vrai que bah quand on est développeurs on est content de tomber sur des solutions qui nous fournissent des interfaces par exemple des choses parce que ça va faire moins de travail et puis tout le monde aime pas développer des interfaces mais à la fin quand c'est trop trop trop intégré on a un manque de souplesse . 3
+14:21:000922:000922_4 : 14:20:17:301: Ok 10 minutes . 4
+14:21:000923:000923_1 : 14:20:25:426: Une à une autre dimension qu'il faut absolument donner au développement d'un module métier générique ans et de la souplesse et pour la spécialisation en gros c'est du Piton ça va mettre ça va fonctionner avec de l'héritage de la surcharge mais encore faut-il que ça puisse vraiment marché . 1
+14:21:000924:000924_2 : 14:20:50:081: Donc le but du jeu a minima pour un module métier dans l'écosystème Lenny bloque ça va être deux fournir une API Python solide en place que c'est vraiment lac tout commence après exposé à l'extérieur exposé à des interfaces si en bas c'est solide ça va être beaucoup plus simple . 2
+14:21:000925:000925_3 : 14:21:10:011: Alors on en est où aujourd'hui . 3
+14:22:000926:000926_4 : 14:21:16:285: Comme je disais on a passé une femme quand je dis on se voit là moi je participe un petit peu à ce projet il y a notamment les gens des niveaux que ça voilà toutes les personnes que ici avec le même t-shirt que moi voilà quand je dis je parle un petit peu tout le monde même si on travaille pas spécialement dans les mêmes société . 4
+14:22:000927:000927_1 : 14:21:37:427: Donc c'est une douzaine Dutti complémentaire o framework donc vraiment les outils donc ça c'est bien la passer cette phase c c cool et actuellement une demi-douzaine de de de module métier qui sont en incubation il y en a qui sont plus proche de . 1
+14:22:000928:000928_2 : 14:21:57:558: Active en production DOITRAND voilà actuellement pas grand-chose mais il y a un module pour faire de la normalisation d'adresse postale c'est un truc qu'on retrouve assez souvent . 2
+14:23:000929:000929_3 : 14:22:11:688: WMS base qui la gestion entrepôt logistique en WMF donc c'est warehouse management system . 3
+14:23:000930:000930_4 : 14:22:22:835: Actuellement le le le le le module le plus avancé il y a la présentation qui suit par Georges enraciné qui est en haut à droite en face de moi qui va être dédié qu'il a va être voilà si ça vous intéresse ou un petit peu la technique Dany bloc et l'implémentation de concepts là on a un gars dans la conférence à suivre qui est parfait . 4
+14:23:000931:000931_1 : 14:22:46:998: Pénible au producteur voilà qui est vraiment d'incubation gestion de catalogue produits pour la vente et ça hello kitty voilà concerne plus la vente les deux villes et bon de commande en . 1
+14:23:000932:000932_2 : 14:23:00:146: Donc tout ça vous avez le retrouver sur Github donc à la page racine de l'organisation Penny bloc . 2
+14:23:000933:000933_3 : 14:23:12:300: Trouver le framework . 3
+14:23:000934:000934_4 : 14:23:15:091: Hihi un livre qui en cours de rédaction notamment les deux jours de sprint a été dédié à ça donc ça ça va bien bien avancé là-dessus et ce matin il y avait donc un atelier autour du livre donc voilà il y a ya ya du contenu il y a il y a de quoi mettre le doigt dedans s'amuser essayer sans sans sans beurre sans risque . 4
+14:24:000935:000935_1 : 14:23:40:922: Non on retrouve également je l'ai je l'ai pas mis dans l'image mais je le dis rapidement mais voilà pour pour faciliter le fait de trouver des des des paquets . 1
+14:24:000936:000936_2 : 14:23:52:065: Tous les projets . 2
+14:24:000937:000937_3 : 14:23:56:208: Ski technique de ski et Métiers exetera . 3
+14:24:000938:000938_4 : 14:23:59:794: Évidemment . 4
+14:24:000939:000939_1 : 14:24:02:943: Bienvenue les grands classiques de l'open source . 1
+14:24:000940:000940_2 : 14:24:10:000: Voilà alors je sais pas en timing je le comment je suis mais je vous propose de passer au question s'il y a des questions il doit y avoir un micro il faut que je répète l'application si j'ai bien suivi donc est-ce que quelqu'un . 2
+14:24:000941:000941_4 : 14:24:28:547: Sur cette sensation . 4
+14:24:000942:000942_1 : 14:24:31:282: Bah écoutez . 1
+14:27:000943:000943_2 : 14:24:38:446: Le classique merci quelqu'un à suivre merci à tous . 2
+14:27:000944:000944_3 : 14:24:45:136: Donc on enchaîne avec Georges racinay ENI boulette . 3
+14:29:000945:000945_4 : 14:24:52:292: Ma présentation . 4
+14:29:000946:000946_2 : 14:27:17:180: Ok . 2
+14:29:000947:000947_3 : 14:27:24:324: Tu pense qu'il faudrait que . 3
+14:29:000948:000948_4 : 14:28:55:932: Ouais ok . 4
+14:29:000949:000949_1 : 14:29:00:963: Right . 1
+14:29:000950:000950_2 : 14:29:04:106: Moi je pense qu'il est temps de . 2
+14:29:000951:000951_3 : 14:29:40:039: Dégager un peu de Coin des . 3
+14:30:000952:000952_4 : 14:29:44:020: Enfin terrestre . 4
+14:30:000954:000954_2 : 14:29:50:452: Non pas du tout par contre je me dis que ça serait pas mal . 2
+
+

@@ -1,0 +1,239 @@
+
+Mask R-CNN in Lane Detection  Facundo Calcagno
+
+ 
+16:30:000028:000028_3 : 16:27:05:448: I'll try to speak slowly . 3
+16:31:000029:000029_3 : 16:29:39:981: 5e match . 3
+16:31:000030:000030_4 : 16:30:26:133: Taekwondo how can you I am actually working for Altran in Paris in . 4
+16:31:000031:000031_1 : 16:30:34:303: They made in conjunction with my school EISTI in order to move forward in computer vision problems and as a part of project at our house for an hour on the most vehicle and is one of the arguments that you are using right now . 1
+16:32:000032:000032_2 : 16:30:58:013: First of all I would like to start with some words of Andrew NG he's like number one number to nowadays in deep learning he has great courses they are in call Sarah and he says that artificial intelligence is the new electricity key saying that the changes that we've seen 100 years ago regarding or regarding electricity are going to be back again with artificial intelligence . 2
+16:33:000033:000033_3 : 16:31:26:173: What's the phone I would like to start with some words of Andrew NG he's like number one number to nowadays in deep learning he has great courses they are in call Sarah and he says that artificial intelligence is the new electricity key saying that the changes that we've seen 100 years ago regarding or regarding electricity are Just seen the start of the wave so the our lives 100 years with this Revolution coming coming to us . 3
+16:33:000034:000034_4 : 16:31:36:412: I will make a little introduction about image classification and image segmentation Towers in stocks information that is the perfect . 4
+16:33:000035:000035_0 : 16:32:53:517: IMage classification. We have images and we have the label of each of those samples of this of those images like the class in this case we have two classes cats and dogs are we have a lot of images of cats and dogs live so we feed them over into that we feed the moment with those images and after a lot of iterations and going back and forward you will be able to . 3
+16:34:000036:000036_4 : 16:33:21:662: Release new images that we are not in the data set with train with and waste I will get a result this case if we insert a cat will get a cat as a report that's the main idea image classification one object per image . 4
+16:34:000037:000037_1 : 16:33:39:809: So here's dad life is kind of more difficult than that it's like me saying the problem is like taking only one object . 1
+16:35:000038:000038_2 : 16:33:50:964: So we have a bunch of more difficult problems that computer vision specialist are dealing with the first one classification the one I've been talking about someone is classification of localization so that means adding a bounding box into each of the object in this case only one so it's kind of easy in some way we have one object with tag where it is and we say what it is . 2
+16:35:000039:000039_0 : 16:34:19:145: Bounding box and detecting more than one object music image example we might see two cats one dog and something that looks like a duck but it's plastic. So it's so that's not a dog we can do they know that that subject lead Edge detection put in a bounding box into each of the object . 3
+16:35:000040:000040_4 : 16:34:44:540: And the most difficult than the one we use here is adding a mask into the image and detecting exactly where the object if you can see sorry if I pass the camera . 4
+16:35:000041:000041_1 : 16:35:00:701: Pixels that are shared between different objects and that's not a problem for the other team you could detect that one pixel will be part of different objects that the idea . 1
+16:35:000042:000042_2 : 16:35:13:861: We are going forward . 2
+16:35:000043:000043_3 : 16:35:16:792: We're going to see some demos . 3
+16:35:000044:000044_4 : 16:35:19:943: Used in different types of models of all the four different problems that are you sure . 4
+16:35:000045:000045_1 : 16:35:26:511: The use yolo to. 1
+16:36:000046:000046_2 : 16:35:29:748: See what you are the cards that we are dealing so you imagined using this in Vegas ok . 2
+16:36:000047:000047_3 : 16:35:40:138: Let's go back to show the cards I need to take to accept which is the number that they are using . 3
+16:36:000048:000048_4 : 16:35:49:280: BBC biggest could be a little illegal made me but it would be really good for a machine to pay with you you'll understand when two player to win two player 7 those kind of problems . 4
+16:36:000049:000049_1 : 16:36:03:306: Taken this is a problem that a lot of medical people have been serving trying to deal with 3D images with 2D images . 1
+16:36:000050:000050_2 : 16:36:16:513: This is Radiography of heart . 2
+16:36:000051:000051_3 : 16:36:20:660: Real time . 3
+16:37:000052:000052_4 : 16:36:23:821: the idea is to detect where the heart is and where are they part of the heart are and create a 3D image of that with that in mind we could go forward and you take if there's any disease. 4
+16:37:000053:000053_1 : 16:36:38:973: Inside the inside heart or any issues that use a very deep convolutional neural for that I'm not going to spend it now but the idea is that with this type of networks we can deal with this kind of networds we can deal with very difficult problems . 1
+16:37:000054:000054_2 : 16:36:53:937: No problem . 2
+16:37:000055:000055_3 : 16:36:57:100: If dealing with emotions you can have a camera with a man and he will say if he's happy if you had to regret it if he's angry abNout something only seen the emotions of that person if we move forward there more interesting and we are surprised it's pretty awesome what you can do . 3
+16:38:000056:000056_0 : 16:37:25:076: So this
+16:38:000057:000057_1 : 16:37:32:221: We use Neural networks on this site here we are and we want to understand a bit more about how they work why are there so cool why they work so well what is the secret behind them . 1
+16:38:000058:000058_2 : 16:37:46:357: And the most basic idea is that we have inputs we have wait for those inputs with some them with button activation function and we say yes or no to those simple simple simple idea that we need to understand the perceptron that perceptron is multiplier of time but the main idea is that we try to generalize a feature in that never run then there will . 2
+16:38:000059:000059_3 : 16:38:15:468: Identify specific feature . 3
+16:39:000060:000060_4 : 16:38:19:635: And if we multiply a lot of time each of those narrow it's a perceptron we have a lot of features and they never will be able to understand different features to solve a problem with my visa card not a got it might be it said 2 or a 7 in in in the cards . 4
+16:39:000061:000061_1 : 16:38:42:776: But that sort of problems are kind of easy if you have five six different inputs . 1
+16:39:000062:000062_2 : 16:38:51:916: To deal with the calling all my information and that's where a composition another network or comments come dat . 2
+16:40:000063:000063_3 : 16:39:03:953: I need to be the way that we were working . 3
+16:40:000064:000064_4 : 16:39:08:106: Before deep learning, We have the images we hired we selected we deal with it specialist of future extractions of those images we generated tons of different kpis or key performance indicators in order to fit the model and then to detect if it's a car off another car like in this problem only change this idea he tries to get into the model of the feature extraction and live them all optimised in . 4
+16:40:000065:000065_1 : 16:39:41:254: How will they get into a car or no car decision that sorted everything into the mall everything to the most the side and optimises iterate that have good times until we get to a really good solution . 1
+16:40:000066:000066_2 : 16:39:59:643: Parts of the Goblet really quickly . 2
+16:40:000067:000067_3 : 16:40:03:808: The idea of the convolutional layer is that we have filter that's if it says it's in the middle of the of the two layers . 3
+16:40:000068:000068_4 : 16:40:15:957: Picture . 4
+16:41:000069:000069_1 : 16:40:18:109: Activated where the filter . 1
+16:41:000070:000070_2 : 16:40:21:638: Play Imagine we have a filter that will activate a specifically where the corners are so it will be in the output layer the one in blue it will be in higher numbers where the filter gets activated and in Lower numbers for the filter doesn't get activated that's the idea . 2
+16:41:000071:000071_3 : 16:40:41:980: To reduce the dimensionality of the outputs of those layers and you know that to be able to delete that in GPUs and CPUs and also to be able to after feet fully convolutional layer the promise that we can feel all the information into the fully convolutional layer when it's 3:02 layers to reduce the dimensionality . 3
+16:41:000072:000072_4 : 16:41:06:318: You can see we select the max of each of the different goals in the first light blue with a 7 because it's the max of those values same for the 9 and for the 8 and the 5 there are there putting layers but in this article is also . 4
+16:42:000073:000073_1 : 16:41:26:470: In the last layer . 1
+16:42:000074:000074_2 : 16:41:31:619: Soft max layert is really similar to the fully connected layer but we are very big difference in terms of probabilities . 2
+16:42:000075:000075_3 : 16:41:42:782: The idea in deep learning is to select the model are the result has a better probability in this case we have different images we will select the one with bigger probability that would be green . 3
+16:42:000076:000076_4 : 16:41:58:912: Natural not cat cat or dog in select the dog because I need you show me the last layer of work . 4
+16:43:000077:000077_1 : 16:42:07:763: We had nonlinearities as well because if not it's all over time we will you multiply matrices and adding on the artist has shown . 1
+16:43:000078:000078_2 : 16:42:19:920: Old cinema Network radio was introduced by Alex netting 2012 . 2
+16:43:000080:000080_2 : 16:43:02:954: The loss function comparing the reality of the data that we have with the output of the network so they did minimize the loss function as much as we can and to do that need an hour instead they used to be but nowadays they moved to other type of momentum and second grade momentum are the uses call Adam and it's pretty good now that use . 2
+16:44:000081:000081_3 : 16:43:36:110: More . 3
+16:44:000082:000082_4 : 16:43:39:279: Adam is pretty pretty good . 4
+16:44:000083:000083_1 : 16:43:43:934: Sometimes we do with problems of overfitting there are two ways that I used to register with fitting in this project we drop out there to eliminate some neurones with a probability maybe in iteration number 11 we have enabled like this . 1
+16:44:000084:000084_2 : 16:44:05:083: And maybe in iteration 12 this one doesn't get activated but this one . 2
+16:44:000085:000085_3 : 16:44:10:866: This and this one it is so it changes every iteration barrier to make the network understand that teachers should be learning different parts not only in the same part . 3
+16:44:000086:000086_4 : 16:44:24:978: Will be mixing this information every time and in mixing, and in mixing a situation that will be better for the learning of the model . 4
+16:45:000087:000087_1 : 16:44:35:949: That we used in this project also is called data augmentation . 1
+16:45:000088:000088_0 : 16:44:43:097: Useful when you had won't have a lot of samples for each class
+16:45:000089:000089_3 : 16:44:49:245: That's not very good for deep learning so very intelligent people developed a way to generate more images through the same images of we have you can get the decorator decorated engaged d h and with the same images will have more and that would make your mother you're better and get to better accuracy levels . 3
+16:45:000090:000090_4 : 16:45:12:378: That's pretty good that's pretty awesome but it's only for one object per image how do we deal with different objects in the same image and different boxes and all the stuff that's going on nowadays . 4
+16:45:000091:000091_1 : 16:45:30:295: What's call regional convolutional neural network . 1
+16:46:000092:000092_2 : 16:45:36:451: Which with different objects . 2
+16:46:000093:000093_3 : 16:45:40:174: Radius to generate a lot of bounding boxes in the middle there call proposal preparation and for each of them we imported into a moto . 3
+16:46:000094:000094_4 : 16:45:53:550: Will we have a class and a new class that is no object by we have all the remaining classes so we might have different results for the same image we have a person but also maybe we have a horse ok . 4
+16:46:000095:000095_1 : 16:46:08:704: The problem with this algorithm is that is very slow imagine having to prepare for only one iteration take part in a full bottle of wine image imagine for 2008 is pretty slow but it's a pretty good idea . 1
+16:46:000096:000096_2 : 16:46:26:359: Let's move to selected search in order to generate 2000 regional 2000 boxes . 2
+16:47:000097:000097_3 : 16:46:37:516: Do you . 3
+16:47:000098:000098_4 : 16:46:39:658: Search that generates . 4
+16:47:000099:000099_1 : 16:46:44:813: Neighbours in pixels and then they attach them one into another and today get to the number 2000 and if you . 1
+16:47:000100:000100_2 : 16:46:56:779: They use a CNN for his proposal they fix the size to 227 to 237 . 2
+16:47:000101:000101_3 : 16:47:05:121: Into a 4096 . 3
+16:47:000102:000102_4 : 16:47:09:299: features that would be the output . 4
+16:47:000103:000103_1 : 16:47:13:074: It would be the last layer until the output output usually say what you see message it's usually a 1000 classes and then they use ssbm to detect which is the actual class of the . 1
+16:47:000104:000104_2 : 16:47:28:207: Image . 2
+16:47:000105:000105_3 : 16:47:30:664: Weather . 3
+16:48:000106:000106_0 : 16:47:32:807: Interest we wrapped. Images which generate one pass for each of that image ratios . 4
+16:48:000107:000107_1 : 16:47:42:960: The class and we also have for my used for the bouding box that is very interesting because they are in this part . 1
+16:48:000108:000108_4 : 16:47:53:094: Will be 1.4 each of the points of the of depression so now instead of having Only One e mess we have five the four points for each of the corners of the image and the class . 2
+16:48:000109:000109_3 : 16:48:08:256: Well try to solve the issues dad is Arsene and had . 3
+16:48:000110:000110_4 : 16:48:17:404: Meaning came and decided to include something alright perception . 4
+16:49:000111:000111_0 : 16:48:24:203: To improve this problem of Speed. that R-cnn had . 1
+16:49:000112:000112_2 : 16:48:32:080: Set of passing the . 2
+16:49:000113:000113_3 : 16:48:36:235: This is a 4 bus 2000 times bigger Radio 1 competition their work and the pattern only one time and generated One future map that will have all the regions the region of interest to the pulling layer that solve the issue of Speed . 3
+16:49:000114:000114_1 : 16:49:00:425: Really fast it was a one hour one of the best I going to see this one a lot of competition and it was their state-of-the-art in the year 2014 . 1
+16:49:000115:000115_2 : 16:49:12:387: It had some issues let's see a little bit about how they did it . 2
+16:49:000116:000116_3 : 16:49:18:906: Leia uses the max pooling to combat a futures . 3
+16:50:000117:000117_0 : 16:49:25:421: Into a small Peter map but this this is a map is configurable is H . W
+16:50:000118:000118_1 : 16:49:26:421: But my weight you should you say configurable, usually 7 by 7 . 1
+16:50:000119:000119_2 : 16:49:38:324: And the idea of this is to train all of the network with onepass before in our CNN we have three different parts and those three parts wear trendy friendly the Revolution with fast rcnn came with the idea of training the same network with one with the tax laws and all from the start to the end without any stocks . 2
+16:50:000120:000120_3 : 16:50:04:484: H set with the same weight and the same as using the theory of evolution the market and the day of the image recognition and computer vision people . 3
+16:50:000121:000121_4 : 16:50:18:651: After that what's another . 4
+16:51:000123:000123_1 : 16:50:22:781: Ther CNN what's a little better . 1
+16:51:000124:000124_2 : 16:50:26:580: Improve the bounding box II Russian . 2
+16:51:000125:000125_3 : 16:50:30:905: Being the way that they generated the convolution for the National proposal network that's an invention of them they generated a network to generate the proposal instead of dealing with layer of the convolutional network generating a network and imported inside this multi multi proposal network . 3
+16:52:000126:000126_4 : 16:51:04:045: The first will be the class and the second will be the box . 4
+16:52:000127:000127_1 : 16:51:09:873: If object or not update use a simplified into the most basic stuff so that they will have to deal with that they rear box object or not objects super simple and then the idea of detecting which the objectives will be enough for the bus . 1
+16:52:000128:000128_2 : 16:51:31:428: Andy are you something that is really interesting that some of the people that talk before and they they mention it the different and Conquer boxes so did you hear is that the centre of the object is Key that the center of the ocean is the key part of any of the object because of with that centre if you move different bounding box is one of them will be good one of them were  Centre of the ocean is the key part of any of the object because of with that centre if you move different bounding box is one of them will Glad you're looking for . 3
+16:52:000130:000130_4 : 16:52:02:596: The monitor will can be configurable and you will have for each of the ankle boxes that you pass through the network it's 2K because it's 2 check or not object by 4K scores and also cake 4K because you have for . 4
+16:52:000131:000131_1 : 16:52:23:055: The point that detect the anchor . 1
+16:52:000132:000132_2 : 16:52:27:923: In faster CNN did they generated 9 anchor boxes so that you have a square and you have different rectangles of different sizes . 2
+16:53:000133:000133_3 : 16:52:38:464: And I was I was talking before to be able to train the network in one pass . 3
+16:53:000134:000134_0 : 16:52:47:620: Is the loss function then they use various. . 4
+16:53:000135:000135_1 : 16:52:53:119: Turn off the glass of detecting the object class and detecting the object box will be mixed into one loss function and that looks functions will be wait so that the two parts were the same it's equally important to detect the class of the option of the object of the bounding box . 1
+16:54:000136:000136_2 : 16:53:17:275: And after that we came to the model that we used is called mask rcnn . 2
+16:54:000137:000137_3 : 16:53:23:980: And the cool thing is that it adds a third step detecting the mask pixel by pixel to know where the object is. 3
+16:54:000138:000138_4 : 16:53:35:493: You have any questions whatsoever and now you can do it in french right now because it's I know it's kind of . 4
+16:54:000139:000139_2 : 16:53:53:888: I will go further question what if the mask is part of the detection of it's another part completely different . 2
+16:54:000140:000140_3 : 16:54:12:680: Why was saying that I . 3
+16:54:000141:000141_4 : 16:54:16:822: Part of the box section there is no way now in my skin and I will I will explain how it works it's a third part completely different ok . 4
+16:55:000142:000142_1 : 16:54:27:749: In the question is if it is done in the learning phase and suggest anything send an email on face and you getting face say yes to use images that are not part of the training set an exactly where the objects are . 1
+16:55:000143:000143_2 : 16:54:46:905: Well this will be the Architecture of the model you have a regional reports on network as we had before him faster rcnn . 2
+16:55:000144:000144_3 : 16:54:56:532: Annual golden call Roy I'm not happy for his dad . 3
+16:55:000145:000145_4 : 16:55:03:681: You detect the box but you detect the box in a little Square that is the approximation that they know what network gives to that box but then when you put it to the rear limited with the real size there was a little business alignment so right I'm hoping that way but I'll be saying more about that a later before the bounding box on the regulation class predictions simulator Factor . 4
+16:56:000146:000146_1 : 16:55:33:841: And the odd the beanery mass production . 1
+16:56:000147:000147_2 : 16:55:38:152: Prestige regional reports on network . 2
+16:56:000148:000148_3 : 16:55:43:229: Media to extract a high-level features from the input image you will end up with a tennis order of size m n and c m n are configurable and they are usually odd numbers . 3
+16:56:000149:000149_4 : 16:56:03:694: Number of kernael or features o that we use . 4
+16:56:000150:000150_1 : 16:56:08:313: Play the original purpose of life a window for the image . 1
+16:56:000151:000151_0 : 16:56:14:965: NY passing through the images he tries a
+16:56:000152:000152_3 : 16:56:22:116: It's comfortable in our protocol use 15 . 3
+16:56:000153:000153_4 : 16:56:27:425: What is an . 4
+16:56:000154:000154_1 : 16:56:30:362: 7 Different anchor boxes . 1
+16:57:000155:000155_2 : 16:56:33:141: So . 2
+16:57:000156:000156_4 : 16:56:36:304: 4K because we have four points for each of the images and took a as before because we have two different types of objective it is an update or not and k because of the angle boxes . 4
+16:57:000157:000157_1 : 16:56:51:033: This is Amer for the idea is that we sent to the object and we use of numbers to be able to sned so if M and n are not off we cannot we could never to have a centre will have something very difficult to calculate YP ankle boxes the idea is to have as much different types of boxes to take different types of objects I will ask them before they're too young for cake on . 1
+16:57:000158:000158_2 : 16:57:23:188: Minnie Mouse a the love punch . 2
+16:57:000159:000159_3 : 16:57:27:345: If you do a flat you could be configurable you could use a rest if you could you direct next . 3
+16:57:000160:000160_4 : 16:57:35:003: Complex and more deep . 4
+16:58:000161:000161_1 : 16:57:38:164: I will check with you say resnet in because of the restrictions that we had . 1
+16:58:000162:000162_2 : 16:57:44:494: And this is something that implemented that is kind of . 2
+16:58:000163:000163_3 : 16:57:50:241: Interesting to understand maybe you have images that are objects of different sizes you take a picture of a of a beach and you have a little people in the sea and you are very big people like in the picture so it shouldn't take the little people but it also will need to protect a big people that are in front of the camera so the idea is to generate predictions in different level of scale . 3
+16:59:000164:000164_4 : 16:58:19:401: it Will use the same window for example a 3 by 3 sliding window but it was make different sizing of the image so the idea is that in the first layer of prediction. 4
+16:59:000165:000165_1 : 16:58:36:375: It will get the bigger objects because the sliding Windows will be almost as big as the . 1
+16:59:000166:000166_2 : 16:58:45:690: A subject but then when we move back the sliding window will be the same and hope you will be very bigger so it was activate when samller objects appear and not with the big objects appear . 2
+16:59:000167:000167_3 : 16:58:59:839: And add someone into the other so we will take all of them not only one or the other . 3
+16:59:000168:000168_4 : 16:59:08:872: That's why it is it is a pyramid . 4
+17:00:000169:000169_1 : 16:59:13:884: After that comes the algorithm called RolAlign. 1
+17:00:000170:000170_2 : 16:59:18:034: Play we had some problems when fixing the the boxing to the object various to use file in your interpret interpretation to sample in Boots and to get a better approximation of where the box should be this is letter explaining the paper of my CNN I don't know if I have much time to get into it but maybe I can explain a little bit a later date is it to generate point exactly where there is anything that . 2
+17:00:000171:000171_3 : 16:59:50:166: The bounding box on the cat position prediction are pretty similar to the ones using faster rcnn her bounding box V Croatia that processes once for each corner of the bounding box and evaluate in the class of for the label set . 3
+17:00:000172:000172_4 : 17:00:12:121: And after that we have the binary maths prediction the problem with the binary maths prediction is that will you show me resize the images into the input of the network but when will resize again we use a lot of that information sites in our sizing . 4
+17:00:000173:000173_1 : 17:00:30:276: Sometimes it's really good and sentences that is what I'm good but it's a problem that is so then you're not another network a little bit further but it works reading mask rcnn so you can see that . 1
+17:01:000174:000174_2 : 17:00:47:452: In this part . 2
+17:01:000175:000175_3 : 17:00:50:614: Inside in rnn network on the final mask it's pretty good I need . 3
+17:01:000176:000176_1 : 17:00:57:791: Go to the initial object . 1
+17:01:000177:000177_2 : 17:01:02:105: And then I found so now instead of having to part with a 3 parts are in the mask and all of them some in the in the same as a function in the same way in the same proportion one thing to be clear about the mask only added when they detect the object correctly . 2
+17:02:000178:000178_3 : 17:01:21:870: When he doesn't detect the ox correctly so if it says background with a mask it doesn't count in the loss function . 3
+17:02:000179:000179_0 : 17:01:31:499: Well done to sum up still brand that out of the bath. I would stay object mask he changed their rightful from . 4
+17:02:000180:000180_1 : 17:01:45:270: R-cnn to realign 2/:/ to preserve day except special locations they separate mask and cloth predictions and you have a new Look function with three parts . 1
+17:02:000181:000181_2 : 17:01:59:028: Graphic America graphic of the mobile . 2
+17:02:000182:000182_3 : 17:02:04:185: That gets to the Future Maps that will be the bounding boxes for the model and then you have two parts one for that deals with the mask and another part completely different than that was your question before 11 . 3
+17:02:000183:000183_4 : 17:02:05:185: And the other one this with a regression and where the box is there a question saying the four values because they're numbers you should be a regression as a classification and the classification of the class . 4
+17:02:000184:000184_1 : 17:02:33:438: Stampy Todds . 1
+17:02:000185:000185_2 : 17:02:37:779: You can see that it works really good I'm going to lose weight . 2
+17:03:000186:000186_3 : 17:02:44:929: Examples . 3
+17:04:000188:000188_4 : 17:02:47:064: Disconnected object I need the disc the same object doesn't divided into 2 parts . 4
+17:04:000189:000189_0 : 17:02:53:997: Does having sec a bit of time and he doesn't detect the shakes here are subject it's understand that. Not an object . 1
+17:04:000190:000190_3 : 17:03:58:606: Included where the Lanes are when the village where and we have a mask so we came one image 1 mask with those for values and the other image that image saying where is specifically pixel by pixel the the Lanes where are we translated into four different images in order to be able to deal with some . 3
+17:05:000191:000191_4 : 17:04:25:551: So how far gases the four Lanes and the background we selected the image shape of 256 so everything was reshaped to 256 by 256 . 4
+17:05:000192:000192_1 : 17:04:40:717: ESA number photos or TV . 1
+17:05:000193:000193_2 : 17:04:44:322: Use 5 different encore scale like the maximum is 128 there will be a quarter of the image 128 by 128 and they married one is specifically because sometimes there are some names that are recorded so it's good to have also little . 2
+17:05:000194:000194_3 : 17:05:05:458: Length detected and we train with only one GPU . 3
+17:05:000195:000195_4 : 17:05:12:895: Song called that some details I know if you can see there is a good thing I was using numpy is that you can use think like any . 4
+17:06:000196:000196_1 : 17:05:24:050: And it's really quick to calculate that with GPU you sing here you can see the n e r d all the things that are circulated in only one operation instead of going position by position in the panda in numpy array you can do it all by in only one operation . 1
+17:06:000197:000197_2 : 17:05:46:146: Ok . 2
+17:06:000198:000198_6 : 17:05:51:284: The architectural what's using Python 3.6 and intensive deep learning tensorflow 1.9 with carers . 3
+17:06:000199:000199_4 : 17:06:02:559: Like to say thank NVDIA because of the grants they gave me to give me a brand new GPU to work with and that was really amazing we got like 30 times to the time of training because of the Titan They gave me so we were really grateful about that . 4
+17:06:000200:000200_1 : 17:06:25:701: We need 49 a box within 199 hours of 20 time getting to evaluation lots of points 57 . 1
+17:07:000201:000201_2 : 17:06:34:832: I will be the loss in training that's not really bad important the training loss cause important is with images that are not part of the training set includes the traffic so that you can see the difference between a training loss and evaluation Los . 2
+17:07:000202:000202_3 : 17:06:52:296: The best model is the duration number 41 . 3
+17:07:000203:000203_4 : 17:06:57:275: I decided to change their learning rate and things were really bad they went up so we decided to keep the small nothing is perfect in deep your name is really hard and it takes a lot of effort but the thing that you need to understand is that loss is the sum of all the other five losses . 4
+17:07:000204:000204_1 : 17:07:19:417: Times they just gets really good for one of the losses but really bad for the out for others so it's a trade-off that the mother makes every time like moving forward iteration by iteration . 1
+17:07:000205:000205_2 : 17:07:34:588: It's really important here till the . 2
+17:07:000206:000206_3 : 17:07:39:186: The loss of the bounding box . 3
+17:08:000207:000207_4 : 17:07:44:327: The mask it's important but not as much as the bounding box . 4
+17:08:000208:000208_1 : 17:07:52:473: Some results . 1
+17:08:000209:000209_2 : 17:07:55:638: In daylight can detect the two lines or the free lines really good . 2
+17:08:000210:000210_3 : 17:08:03:641: With traffic with obstacles detector for Lines free lines . 3
+17:08:000211:000211_4 : 17:08:09:790: Pretty good . 4
+17:08:000212:000212_1 : 17:08:12:503: When there are no no optical whatsoever he was almost perfect perfect perfect pdf The Four Lions do freelance . 1
+17:08:000213:000213_2 : 17:08:23:655: When they are carbs you text him and see here . 2
+17:09:000214:000214_3 : 17:08:29:536: This is not a straight line it's a curve and it works and you also have obstruction that cymatics a date at night that's a very difficult task . 3
+17:09:000215:000215_4 : 17:08:45:420: It doesn't work the same as night and day but in this image you can see it works really good . 4
+17:09:000216:000216_1 : 17:08:52:921: Also without circles the good thing about this is that it understands that there is a LN B be like . 1
+17:09:000217:000217_0 : 17:09:01:667: Let's refresh. . 2
+17:09:000218:000218_3 : 17:09:04:832: They're selling behind the optical . 3
+17:09:000219:000219_4 : 17:09:05:832: Output up cars that have different systems one that will detect cars and I want that would detect where the Lanes are that's pretty pretty interesting . 4
+17:09:000220:000220_1 : 17:09:19:688: Another one with the fractions or Sweden . 1
+17:09:000221:000221_2 : 17:09:23:837: Let's go to some demo. 2
+17:09:000222:000222_3 : 17:09:26:752: Sorry . 3
+17:09:000223:000223_4 : 17:09:32:881: some videos . 4
+17:09:000224:000224_1 : 17:09:35:396: Ok . 1
+17:10:000225:000225_2 : 17:09:43:547: So it works really good when the line is . 2
+17:10:000226:000226_3 : 17:09:49:705: It's employed by when there's no line here are some issues by the obstacles are . 3
+17:10:000227:000227_4 : 17:09:57:853: Send a . 4
+17:10:000228:000228_1 : 17:10:00:009: Another one . 1
+17:10:000229:000229_2 : 17:10:02:959: In the highway works Peterborough in doesn't matter if there a course or not . 2
+17:10:000230:000230_3 : 17:10:10:895: That he made a car valued understood that the rain stopped and VIII start again when the court finish it . 3
+17:10:000231:000231_4 : 17:10:29:722: He's understand when the rain starts . 4
+17:10:000232:000232_1 : 17:10:34:082: I never said something and everything goes smoothly it was perfect . 1
+17:11:000233:000233_2 : 17:10:41:235: Real life when off cycle cam The Upsetters a beer . 2
+17:11:000234:000234_3 : 17:10:47:395: Where artificial intelligence get to get better . 3
+17:11:000235:000235_4 : 17:10:52:057: Next video . 4
+17:11:000236:000236_1 : 17:10:55:795: You see the Ender guardian it work smoothly without any issues . 1
+17:11:000237:000237_2 : 17:11:07:501: The problem comes when you get to the light and there are no lines no lights nothing to interpret that's an issue that we should move for rent right on the sand how to improve . 2
+17:11:000238:000238_3 : 17:11:21:650: I would like to thank some people on some organisation that made this project possible for my school sEISTI. 3
+17:11:000239:000239_4 : 17:11:38:825: And they make a master degree in English about big data and data Science . 4
+17:12:000240:000240_1 : 17:11:45:359: The company I'm working with that allow me to make this project give me the machine give me the little eatery . 1
+17:12:000241:000241_2 : 17:11:53:478: NVDIAI to give me the CPU to be able to work faster . 2
+17:12:000242:000242_3 : 17:11:58:020: That but not least I would like to end with a fresh so fun and it has that technology pro automation and artificial divisions is definitely one of the most disruptive forces so there  Is that we need to improve you need to call more we need to get into different types of projects we need to learn more and we need to get into more technological stuff that's my advice my two cents all thank you that's my information you can have my email if you need a thing all the guys here it's free for you to take that might have
+17:13:000244:000244_1 : 17:12:40:446: I wanted to be and thank you for being here . 1
+17:13:000245:000245_2 : 17:12:46:148: You can do it in French also if you want it's ok . 2
+17:13:000246:000246_0 : 17:12:57:690: It's what I did I did more than iv30 and then I started to change. Because they're what's . 3
+17:13:000247:000247_4 : 17:13:09:790: Learn more dating the same level of learning so I started touching delivery rate doing some steps and things went better so I stopped there . 4
+17:13:000248:000248_1 : 17:13:23:954: Emily Watson the book M40 1gg narrative with the right it's got to a better place but after that he went deeply bad . 1
+17:14:000249:000249_2 : 17:13:35:131: The moment by well that's what he was . 2
+17:14:000250:000250_4 : 17:13:47:748: Yes . 4
+17:15:000251:000251_1 : 17:13:50:430: The future's off the car I'm sorry yes I didn't repeat the question I'm deeply sorry because you are safe in the training said we . 1
+17:15:000252:000252_2 : 17:14:07:574: In the middle of the Line movie as you saw in the videos there are some parts of the of the car that moves from Lane to Lane so in the Middle Earth some pictures taken on there and maybe he's in the middle or maybe a little too late Twice It's Alright it's made by bank room in China and he buys his have got into a car started taking pictures every 20 seconds driving his car . 2
+17:15:000253:000253_3 : 17:14:38:726: Manually collected the pictures it's amazing what he did and I'm grateful because we could move away with that . 3
+17:16:000254:000254_4 : 17:14:48:529: Yes the question was safe deposit was made for research or for specifically clients in our case I am working in a specific part of Ultron call icon t-shirt . 4
+17:16:000255:000255_1 : 17:15:18:675: They develop projects and proof of concept to be able to then move them into clients . 1
+17:16:000256:000256_2 : 17:15:18:675: Lolita earliest age to show that I can deal with deep learning and computer vision problems and then be able to send them to clients that's the idea it would this project there something going on around us a call that drive by myself not a partnership with Renault and they are trying to include some parts of the Marlowe not all of it only the lanes in the middle not the external Laing . 2
+17:17:000257:000257_3 : 17:15:56:994: The Great . 3
+17:17:000258:000258_4 : 17:16:01:163: And . 4
+17:29:000259:000259_1 : 17:16:20:316: All the question is if the how to deal with the fact that did Alison Navy biased because of the fact that the alleged should be almost the same time same direction as I understand that it's a bomb that we we did with the images are taking the same City by the same person it's not the perfect that I said I'm sure that it will be amazing if you could train with data taking for . 1
+17:29:000260:000260_2 : 17:16:55:504: Incontinence with different types of of lines different jurisdictions also because something's telling me it is yellow but sometimes it's white depending on the country and that will be really amazing to be able to deal with the image that we're going to test them in real life there will be a really interesting things to do in the future . 2
+17:30:000261:000261_3 : 17:17:20:654: Figura much . 3
+17:30:000262:000262_3 : 17:28:51:577: Commuting again . 3
+17:30:000263:000263_1 : 17:29:24:894: Official version of kiss kiss . 1
+17:35:000264:000264_2 : 17:30:02:045: I'm gonna . 2
+17:35:000265:000265_3 : 17:30:05:215: Analogous unknown . 3
+17:35:000266:000266_4 : 17:30:08:382: Not much for that I felt that is in Chichester hinstock today . 4
+ 

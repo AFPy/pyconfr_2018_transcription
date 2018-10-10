@@ -1,0 +1,203 @@
+
+
+05_The rise of Python in the data communities  Alexys Jacob
+
+
+14:51:000534:000534_2 : 14:44:16:453: Hello . 2
+14:51:000535:000535_3 : 14:44:34:610: Ok . 3
+14:52:000536:000536_4 : 14:50:24:253: Ok so hi everyone . 4
+14:52:000537:000537_1 : 14:51:21:375: About myself, I'm sorry if it's a repetition for all the games that we are here before you can find me about everywhere as trouble and I work out numberly we are sponsors of the seven and we've been on so she goes over Europe iTunes now and because we use and we use Python very much in an our industry and 3 and we are in the data in our industry which is why I felt of distorting the . 1
+14:52:000538:000538_2 : 14:51:53:509: I get back a bit to 3 player on that night while we use data to we are an agency with a receipt between people like us and you and and Company yum brands and Wii console them and we operate their marketing the digital marketing strategies so we had them communicate or create a relationship or entertain a relationship with you so that means the we menu create a lot . 2
+14:53:000539:000539_3 : 14:51:54:509: And we use a lot of data and to to to to do it properly and I insist on the property side of the town and . 3
+14:53:000540:000540_4 : 14:52:36:854: Sponsoring is about . 4
+14:53:000541:000541_0 : 14:52:40:928: To the community of course and we also use if you don't pay a lot of other open Source software we invest in them so we don't just use them we we we contribute to them where it says it's really important. Part of my own . 1
+14:53:000542:000542_2 : 14:53:00:081: Judgement comes from the gym being a Gentos Linux developer . 2
+14:53:000543:000543_3 : 14:53:06:219: Loris karius . 3
+14:54:000544:000544_0 : 14:53:08:592: So it makes use basic 82222 get into various open source packages. III many focus on clustering packages, Python packages as well as well and distributed databases . 4
+14:54:000545:000545_1 : 14:53:25:740: Rethinking what about Hans feder GB of course if you view how does it up to talk to you earlier . 1
+14:54:000546:000546_2 : 14:53:33:504: We're here to to talk about the rise of Python in the data Communities and as I said we are and I am part of these data driven industry so it's an opinion opinionated point of you obviously I'm part of it and maybe you are part of it and you may have a different point of view or not I so I'll be happy to share yours with with you and but it's a point of view of how . 2
+14:55:000547:000547_0 : 14:54:08:650: Has become it's main language the main. The main language we interact with data is python and I was asking myself and I've been in this industry for for more than 15 years now so I saw it and happened and I wanted to share a little bit about what I saw and how I felt about it and then maybe maybe it's a it's a value a bit . 3
+14:55:000548:000548_4 : 14:54:36:774: 202 talk to start this presentation I had I have one question for you actually, because we need to acknowledge a fundamental fact and and and this question is this one . 4
+14:55:000549:000549_1 : 14:54:53:918: Think of think of companies ok and all institutions who is Raven take over the last 10 years what kind of company do you think about . 1
+14:55:000550:000550_2 : 14:55:04:827: Google thank you . 2
+14:55:000551:000551_3 : 14:55:09:975: Only Google really . 3
+14:55:000552:000552_4 : 14:55:13:125: Uber . 4
+14:55:000553:000553_1 : 14:55:18:518: Facebook . 1
+14:55:000554:000554_2 : 14:55:20:644: Where things like that right so let's just a few . 2
+14:55:000555:000555_3 : 14:55:30:349: The question that comes with it is what do they have in common . 3
+14:56:000556:000556_0 : 14:55:35:321: Where do they get their values from ? 4
+14:56:000557:000557_1 : 14:55:38:466: Yeah yeah what they have in common is data . 1
+14:56:000558:000558_2 : 14:55:50:599: Because they first put on something that's free to use right, but there they are not when she's obviously so that means that if you use them they make something out of it . 2
+14:56:000559:000559_3 : 14:56:06:560: What it is is data that's what they have a you come from they come from the user base right how much use rhyme with daily use are they have because that means that how much people how much data can they get . 3
+14:57:000560:000560_4 : 14:56:23:459: so what's their data attraction . 4
+14:57:000561:000561_1 : 14:56:26:130: And it's pretty fundamental because yeah they also use open source and also contribute to open source Communities you hear a lot of them about it right it comes from Google . 1
+14:57:000562:000562_0 : 14:56:39:314: Yahoo.ie hadoop ecosystem comes from people at Yahoo and we have Kafka which is very strong in the Tech in the end of that I take a consistent men growing stronger come from in England now Microsoft but comes from London . 3
+14:57:000563:000563_4 : 14:57:00:280: Cloud . 4
+14:57:000564:000564_1 : 14:57:02:765: Venus . 1
+14:57:000565:000565_2 : 14:57:04:911: Armstrong that's a main driver has been Amazon . 2
+14:58:000566:000566_3 : 14:57:09:573: In Facebook you have Cassandra, Pytorch man and Roxy things like that we R Us Parkhead it says it struck storage file format for ACC FS not on your gfs and we're interestingly one of the main main thing has also been on the phone so it's not on the back in the day so it's also from sensitive and bootstrap have an oil diffuser few that came with it which influenced as we know it today . 3
+14:58:000567:000567_4 : 14:57:43:700: And Let's save the last 10 years has been I've been very interesting I think on this topic, we are living through this and now everyone knows that data has that you . 4
+14:58:000568:000568_1 : 14:57:57:781: And even the regulator of starting understanding it right here gdpr I mean so you can go to any anyone who is not take and tell you about data and hopefully they say they care or they start understanding that it has very . 1
+14:59:000569:000569_2 : 14:58:18:393: So they are big and there have been influencing touch because they are that are rich companies . 2
+14:59:000570:000570_4 : 14:58:32:543: Come song . 4
+14:59:000571:000571_1 : 14:58:34:918: Us and that means we have value and that's all so that the regulators have have have have understood they also need private companies that has a lot of data that have been dealing with loss of data great example this is sound for iPhone se nazar nazar they have not allowed to loss of data the scientific world has to deal with a lot of data so what is cool is that not only . 1
+14:59:000572:000572_2 : 14:59:07:062: Car valuations are you to . 2
+14:59:000573:000573_3 : 14:59:10:723: But Indian if you do get it . 3
+14:59:000574:000574_4 : 14:59:14:799: It's the data challenges that these companies are losing situations had to face over the last letter D case that has been reshaping and shaping or reshaping you name it they taking the 3 as a whole . 4
+15:00:000575:000575_1 : 14:59:32:327: So . 1
+15:00:000576:000576_2 : 14:59:34:460: In computing or collaborating for open Source at addressing their ability to process and make sense out of a larger and larger that I said only goes and it only grows right . 2
+15:00:000577:000577_3 : 14:59:52:608: Little bunnies damage by people and take his made by people at ease of today but it's still done by people . 3
+15:00:000578:000578_4 : 15:00:03:005: And it's a mix of talented people that have been influencing each other over the years with their own problems and sometimes the other of has had some Solutions and it's from them that they represent copies of people within these companies and within your company is my company not only the only drivers I hope and I believe you the conclusion to it . 4
+15:00:000579:000579_1 : 15:00:32:950: Who are the people who categories how are we split them in in in in 4 . 1
+15:01:000580:000580_2 : 15:00:40:075: Obviously there a software engineer . 2
+15:01:000581:000581_3 : 15:00:44:298: Over the year they opened it up and . 3
+15:01:000582:000582_4 : 15:00:51:431: Do the software engineer the programmer I like we used to say I was alone in his cave right there be thunder . 4
+15:01:000583:000583_1 : 15:01:04:568: The statute also to influence a lot of texting while doing so . 1
+15:02:000584:000584_2 : 15:01:10:382: Just I was out I see people like this song on the photo on Getty . 2
+15:02:000585:000585_3 : 15:01:19:538: JS explaining some JavaScript code so sorry I didn't say something something nice about a doughnut counter and looks pretty complicated to to come down that sing in Javascript I don't know then of course science . 3
+15:02:000586:000586_4 : 15:01:38:622: Good morning my data and a good crazy about it really really see you we're talking about the song before the lhc a Large Hadron Collider at CERN it would produce around 50 petabytes of data in 2018 50 petabytes of data Jersey . 4
+15:03:000587:000587_0 : 15:02:01:667: How can
+15:03:000588:000588_2 : 15:02:23:770: Basically takes orders 50/:/ spread It All Around the World in data centre of operating data centres to preach the word . 2
+15:03:000589:000589_3 : 15:02:34:910: It's pretty impressive if if there is a scale 2016 there was only material from cells made a great talk on this very topic so if you wanted to know more about her about this and computing grid I encourage you to to to to to hear and to look at distortion very impressive . 3
+15:03:000590:000590_4 : 15:03:02:967: C sharp sand near tops and the disk data have to be us it's somewhere at some point it has to be made available and and now more and more all around the world so . 4
+15:04:000591:000591_1 : 15:03:19:111: Distribution of data is also something very strong now and for this you need to rely on seasoned it up because they are the foundations of the dataflow Self . 1
+15:04:000592:000592_2 : 15:03:32:414: Last but not least the data analysis data as well you only when it's made river relevant . 2
+15:04:000593:000593_3 : 15:03:43:573: Bloody cold before this you need specialist people that knows how to look and what to do cats in the data that is what data analysis is all about so you name it I mean . 3
+15:04:000594:000594_4 : 15:03:58:695: 3 years Betty Kelly old the title . 4
+15:04:000595:000595_1 : 15:04:03:837: Rangers 3 started adding data so you have data scientist data engineer data analyst whatever . 1
+15:05:000596:000596_2 : 15:04:11:977: Doesn't matter how how you name it it's just just people looking at data and making sense out of it and that's actually a real Steel in a real job and that's what we see emerging Marmite acid has a very lot of traction . 2
+15:05:000597:000597_3 : 15:04:32:945: Data is the cornerstone of their relationship . 3
+15:05:000598:000598_4 : 15:04:37:993: That's really the centre of what they all have to deal with at some point so there why did became more and more that I wear in data-centric they had to interact more with each other and then they started influencing with each other but when you want me when you need to interact with people that are let's a friend to you ok you can you know the other before before the . 4
+15:05:000599:000599_1 : 15:05:07:127: Science world end of the software engineering world maybe was not that great at communicating with each other when you need to interact with other people that the phone to you you having a common language becomes important . 1
+15:05:000600:000600_2 : 15:05:24:752: This is bacon . 2
+15:05:000601:000601_3 : 15:05:27:223: Talking to you in English right ok this is the English track I could maybe talk to most of you in French . 3
+15:05:000602:000602_4 : 15:05:36:819: But the fact that I need a special things that can make me understood by everyone . 4
+15:06:000603:000603_1 : 15:05:46:454: Important . 1
+15:06:000604:000604_2 : 15:05:48:819: 12 just to make sure that we can interact properly and efficiently . 2
+15:06:000605:000605_3 : 15:05:55:821: You can stop seeing where I'm leading you write Python is this common tongue and has become this comment on how he's a good question and interesting question my sanity to me at least . 3
+15:06:000606:000606_4 : 15:06:10:118: So let's see how it happened . 4
+15:06:000607:000607_1 : 15:06:13:523: It started with a simple definition . 1
+15:06:000608:000608_2 : 15:06:17:688: Python is a general-purpose programming language . 2
+15:06:000609:000609_3 : 15:06:23:317: Meaning it's not a specialised . 3
+15:06:000610:000610_4 : 15:06:27:026: It has a simple sentence low low low low entry barriers which county is pretty easy to learn and share . 4
+15:07:000611:000611_1 : 15:06:36:461: YouTube way now sorry to to to to to be recognised as such and to be less I've even taught for children or students what is there an . 1
+15:07:000612:000612_2 : 15:06:51:008: Has a huge array of selasi library on PPI . 2
+15:07:000613:000613_3 : 15:06:56:591: She's very very very very strong is it . 3
+15:07:000614:000614_4 : 15:07:01:723: But I highlighted it because the term language to me is important for the double meaning it has and you can see it as a programming language but also as a tongue . 4
+15:08:000615:000615_1 : 15:07:16:809: Explain to a wider range of people in non-technical now you have non technical people we say we have an example later but using Python on a daily basis . 1
+15:08:000616:000616_2 : 15:07:29:920: Now let's see how these people are interacting how old is how old is . 2
+15:08:000617:000617_3 : 15:07:36:817: You had software engineer of course or the sake of this presentation will say OK they were fighting achieve or something at some point they were doing python and then you are GC Saab sonett ups guys most likely using bash a lot and Pearl which was very . 3
+15:08:000618:000618_4 : 15:08:01:956: Which has a lot of fractions in money paging file writing string so it's like a piece of string and it was pretty I want to say natural because of the syntax obviously but it was a fishing . 4
+15:08:000619:000619_1 : 15:08:18:541: Those guys started to . 1
+15:08:000620:000620_2 : 15:08:21:650: Birch House in 2009 you so and you said or maybe you remember about the devil structure and service-oriented architecture imagine it's a design it design . 2
+15:09:000621:000621_3 : 15:08:35:782: Where was before you had more you take things even . 3
+15:09:000622:000622_4 : 15:08:41:014: Discontinue seats already 9 years old right devops so depending on your company the size of your company of your future . 4
+15:09:000623:000623_1 : 15:08:53:158: Something that is already natural to you or that is in the process of becoming natural or at least you know that it has influenced any cheese and friends seeing how we interact with each other . 1
+15:11:000624:000624_2 : 15:09:08:298: Please wear under seat subs and maintaining his machine didn't care I didn't want to talk to the developer who had to run it somewhere over right . 2
+15:11:000625:000625_3 : 15:09:18:234: I hope I only see this . 3
+15:11:000626:000626_4 : 15:09:21:605: But it's starting to kick in and while doing so this guy started to . 4
+15:12:000627:000627_4 : 15:11:10:331: So they base their automation tool on it and it also benefited the software engineering with the CIA set everything behind the devil scripture . 4
+15:12:000628:000628_1 : 15:11:23:002: Then science science if they have been earlier adopters of fighting and one of the first move when they started on the wrong Python was on the numerical computing library we don't have started working on on this library called numeric at the time back in 1995 it's not new arrow . 1
+15:12:000629:000629_2 : 15:11:47:152: And here the main power of Python is its ability to interface with CNC processing right because all the Sciences they were sitting on the side of optimised are specialised c libraries and fighting gave them an interface to interact with easily but still while still being able to Leverage . 2
+15:12:000630:000630_3 : 15:12:13:075: Special libraries and they had great . 3
+15:12:000631:000631_4 : 15:12:17:838: And this liver Rico and it has evolved to watch with your hurting we know as numpy today . 4
+15:12:000632:000632_1 : 15:12:25:747: So should I get it I Python MMI to be a nurse and before doing my research I didn't even remember that it was so old . 1
+15:12:000633:000633_3 : 15:12:37:900: Numpy emails from numerical and it's got very amazingly quick development for the data Science it's now it's a cornerstone of data Science in . 3
+15:13:000634:000634_4 : 15:12:52:035: Item . 4
+15:13:000635:000635_1 : 15:12:54:171: Phone number is a 2006 . 1
+15:13:000636:000636_2 : 15:12:58:319: Nothing was found at 1009 . 2
+15:14:000637:000637_3 : 15:13:02:553: And you will understand why because there was or there is a nice correlation in here and then Focus it's annoying he funding not only Python Software but there any kind of a scientific library your project and to help in maintaining it for for long time so it spending £1 that's why I'm fine thank . 3
+15:14:000638:000638_4 : 15:13:26:693: All ready for you . 4
+15:14:000639:000639_1 : 15:13:58:779: They are by their training and they're Academy . 1
+15:14:000640:000640_2 : 15:14:05:961: They got close to science at first because they have a strong numerical background . 2
+15:14:000641:000641_3 : 15:14:13:109: 1200 that the scientific world was using but when they started they were using that are quite a lot of data actually . 3
+15:14:000642:000642_4 : 15:14:25:247: Call Ann . 4
+15:15:000643:000643_1 : 15:14:27:385: That was sent down down the main tools . 1
+15:15:000644:000644_2 : 15:14:33:183: Starting to interact and two statues starting to use the tools and the two things that are that the scientific world while I was developing was closer to them closer to their challenges and it was a . 2
+15:15:000645:000645_3 : 15:14:50:325: She pretty good and pretty strong so they started to adopt fighting as well while doing so here you see the the Days by data that is a ramification on the number for case against of kosher pizza which matches both of them that which is the best TV . 3
+15:15:000646:000646_4 : 15:15:11:475: Fitting . 4
+15:15:000647:000647_1 : 15:15:14:070: Frames in Python and . 1
+15:15:000648:000648_2 : 15:15:18:219: End of a project which is similar to that . 2
+15:16:000649:000649_3 : 15:15:22:720: Play Singing in the data analysis is that while doing so . 3
+15:16:000650:000650_4 : 15:15:28:968: Arise if it's the right word in English but apparently this and day as as well as they were doing this because the data set were larger they also had to operationalise themselves than add to go closer to operations because they had they had to stay . 4
+15:16:000651:000651_1 : 15:15:52:358: How to skin and this . 1
+15:16:000652:000652_2 : 15:15:58:501: Infrastructure and technology that arise with their own challenge we can see it as an evil being something of that we can call that helps . 2
+15:16:000653:000653_3 : 15:16:12:635: Basically the same thing as diverse but relating to the data . 3
+15:16:000654:000654_4 : 15:16:19:370: It's a damn that is . 4
+15:16:000655:000655_1 : 15:16:22:854: Pretty stitching . 1
+15:17:000656:000656_2 : 15:16:25:995: Reality it is pretty stitching . 2
+15:17:000657:000657_3 : 15:16:29:916: This infrastructure around later they are creating now to 22 nevendon kind of Architecture movies starting with service oriented architecture and we are seeing now move towards even driven architecture . 3
+15:17:000658:000658_4 : 15:16:46:834: Sing with that analysis they are actually good mix of what date is today there's if they can they can take and play with some dancing science and as well as strong engineering to make sense as more and more data so . 4
+15:18:000659:000659_1 : 15:17:04:969: Pretty attracting any it is no wonder that everyone wants to become a data scientist today . 1
+15:18:000660:000660_2 : 15:17:14:110: What's interesting as well as Python sitting here fighting 382 to desert how does science got into Python as well is it . 2
+15:18:000661:000661_1 : 15:17:44:924: You don't have to ask for it is when the new technology round later Rises you have its Python driver that comes with all that is very very very tight to the river lovely . 1
+15:18:000662:000662_2 : 15:17:59:082: And this has influenced . 2
+15:18:000663:000663_3 : 15:18:06:227: 53 has in France fighting over the years . 3
+15:18:000664:000664_4 : 15:18:11:023: 2015 data structure and even driven architecture we will we will get me a bit about the event driven architecture . 4
+15:18:000665:000665_1 : 15:18:21:235: Now on the data Ops . 1
+15:19:000666:000666_2 : 15:18:26:379: So want to be a letter of that ass and see if it works good . 2
+15:19:000667:000667_3 : 15:18:32:385: And we are there in retrospect we can see the 2009 was pretty cool I think we didn't see it happen but we can see it now if we turn back a bit and we look at it . 3
+15:19:000668:000668_4 : 15:18:51:440: It converts in 2009 and all of this coming and Python is now where it is at the centre of this . 4
+15:19:000669:000669_1 : 15:19:00:720: Food was here without knowing if it was a cure for for for for fighting . 1
+15:19:000670:000670_2 : 15:19:08:375: What's fascinating so this is a graph below know if you if you see it from The Economist . 2
+15:20:000671:000671_3 : 15:19:17:040: Fighting really good beyond the BIOS of programmers and it's not only back of the throat see that there is a 25/:/ growth of the wheel too long Python codecademy are also have some growing interest in the in the populations such as a that are not text me can achieve that says such as market College lecturers bank and Alice and journalist actually the guy from The Economist . 3
+15:20:000672:000672_4 : 15:19:48:196: Using Python daily as well in their in their work . 4
+15:20:000673:000673_1 : 15:19:53:377: Can you smoke widely teacher at school and . 1
+15:20:000674:000674_0 : 15:19:59:120: Often but not always hurt so it's a good to be
+15:20:000675:000675_3 : 15:20:07:269: For the first language that you you you are introduced to . 3
+15:20:000676:000676_4 : 15:20:14:074: Invicta le bateau mentioned it as well but now in the perfect item weekend on the Tube EE number three . 4
+15:20:000677:000677_1 : 15:20:24:231: Language in the world fighting achievement but you did it didn't happen out of thin air . 1
+15:21:000678:000678_2 : 15:20:31:916: Thanks to its community which Wi-Fi off and when I'm trying to make to make sense of how and what influence did . 2
+15:21:000679:000679_4 : 15:20:44:084: Never thought we'd be doing with you you you know it's it's you know him so since you resign as a PDF and it was also interest . 4
+15:21:000680:000680_1 : 15:20:55:435: Get your bike in the shower and I think a few hours before I give the torque I saw this and this article on the moon . 1
+15:21:000681:000681_2 : 15:21:07:555: French it's a French newspaper . 2
+15:22:000682:000682_3 : 15:21:11:705: NE12 an interview because he resigned as bgfl and so a lot of January came and started asking me things about him so you saw quite a good bunch of fighting related articles about ok whereabouts Tony's accept our food does the day before we do you gave his own . 3
+15:22:000683:000683_4 : 15:21:33:841: Lecture on his own point of view on how fighting god they're why did Tyson worth that much famous so . 4
+15:22:000684:000684_1 : 15:21:45:986: Put yourself in my shoes for over 4 seconds so you're going to do they talk about how Python got there and then a few hours before you you hear That's How We Do he says he is giving his own explanation price I was a bit sweaty later with what's conclusion . 1
+15:22:000685:000685_2 : 15:22:04:124: Ok so I would have really miserable if he wasn't saying something different from from me of you say I would I said ok man you miss the point don't go there free turn anything but just don't go there you didn't . 2
+15:22:000686:000686_3 : 15:22:21:278: So I can do it very high energy and I got mad and put on the slide just just just a few one hour before the 3rd so because I wanted to be able to say ok the stories we do approve . 3
+15:22:000687:000687_4 : 15:22:37:413: OK Google make me feel lyrics . 4
+15:23:000688:000688_1 : 15:22:43:571: When I find now fascinating is the title of the presentation is the rise of fighting in the data communities . 1
+15:23:000689:000689_2 : 15:22:52:705: Interesting as I can tell this sentence . 2
+15:23:000690:000690_3 : 15:22:57:368: Inside out to happen what is happening now . 3
+15:23:000691:000691_4 : 15:23:02:268: Explain a bit of shed a light on what happened and why we are here now let's see if I done this the rise of data in the size and community . 4
+15:23:000692:000692_2 : 15:23:15:402: Because I think my opinion that we are in this right now so by tonight influence the data communities . 2
+15:23:000693:000693_3 : 15:23:26:587: Play the adoption of fighting but now that they have adopted the shaping it . 3
+15:24:000694:000694_4 : 15:23:32:703: This is my conclusion . 4
+15:24:000695:000695_1 : 15:23:37:707: With the rise of data into Python community because we are different Communities I think if we try to see you at what what is everyone doing is in this room who would get very very diverse and answers . 1
+15:24:000696:000696_2 : 15:23:54:856: And is concerned . 2
+15:24:000697:000697_3 : 15:23:58:335: Is trading another need to take people maybe some of you are not tech people and you use actually also biting down on your daily work . 3
+15:24:000698:000698_4 : 15:24:10:421: As a as a data driven industry Guy . 4
+15:25:000699:000699_1 : 15:24:15:555: Highways . 1
+15:25:000700:000700_2 : 15:24:17:693: I'm a happy man because that are driven is now there it's finally coming I've been waiting 15 years for this month so and I've been advocating I've been trying to do things and trying to be the smartest as possible about how I dress this and now we are there I mean it's great but . 2
+15:25:000701:000701_3 : 15:24:41:855: Also it's what's interesting is now it's also full of pitfalls and I'm not talking about the gdpr and amazing finds that you can get if you if you don't behave a good writer but since now fighting has become so prominent to interact with data it has or has a lot of responsibilities . 3
+15:25:000702:000702_4 : 15:25:05:006: We then . 4
+15:26:000703:000703_1 : 15:25:07:137: I wanted you rest a bit before I get to the to the final sliding this because the final size would give you will try to shed light on what is coming and where are all the way over languages do that where Python is not good at today and why by having Python central in the data manipulation and data processing of data whatever you want to name . 1
+15:26:000704:000704_2 : 15:25:35:133: I don't want you to read the next size as we have to beat them we have to beat all these languages we have to be number one that you'll be number one and eradicating all the language diversity . 2
+15:26:000705:000705_3 : 15:25:51:498: We have a non-exclusive community so it's not about beating the other guys so it's not about framing and beating them . 3
+15:26:000706:000706_4 : 15:26:02:271: It's about having the choice and having the Tooling that allows you to do it properly within your own choices so if it's more if you fall for your use case it's more Potent and natural to do it in the scanner so be it and it should be so it's not a competition it's about let's look at what they do good . 4
+15:26:000707:000707_1 : 15:26:28:408: Ann has a community try to get good as well because this has become our responsibility this is what the next size down about right . 1
+15:27:000708:000708_2 : 15:26:41:148: Ok so the first one is . 2
+15:27:000709:000709_3 : 15:26:45:624: That we build and deploy apps and platforms changes . 3
+15:27:000710:000710_4 : 15:26:51:722: The big world today is ok and communities right so the challenges for python in this in this in this field and cloud-based things have used Levis the main challenges for python is its packaging which is to the mess we have now and authority you around this so maybe we are going to make progress with this is not something that very sundown write the one shining on this . 4
+15:27:000711:000711_1 : 15:27:15:864: Can't actually have the single binary that you can run anywhere and it has or it needs . 1
+15:28:000712:000712_2 : 15:27:23:999: I mean we don't have that . 2
+15:28:000713:000713_0 : 15:27:28:162: So distended on reading runtime has a lot of value in when you want to build and deploy application so maybe by thom to get there has the slightest have some normalise weight to it that she's a lot of thoughts on Titan conferences talking about packaging. I hope . 4
+15:28:000714:000714_7 : 15:27:47:943: Of course you hear it a lot it's a joke sometime it's not a joke sometimes whatever were making progress Python 3.7 has never been that fast but still performance we are still a bit far from the 8th and in the in the jar ecosystem and they are doing a great job with the just-in-time combining things they are doing a great job and we don't have that yet we have type I . 1
+15:29:000715:000715_2 : 15:28:15:077: Nndr doing a great job but if you're not the defacto visa for us right . 2
+15:29:000716:000716_3 : 15:28:22:823: And then distributed applications obviously this is a field that I am very wary about and j van Gogh our shining there are really shining them . 3
+15:29:000717:000717_4 : 15:28:37:957: Things I just want me is distributed database you wouldn't imagine creating a distributed database in Python write their existing Java of course and the amount allowed to go as well that means that they have the Tooling behind it to make it efficient and we don't have a community . 4
+15:29:000718:000718_1 : 15:29:03:396: And the scientific world operating data Science at scale and I insist he still not solved . 1
+15:29:000719:000719_2 : 15:29:14:757: Data conference if you go speak to his data scientists . 2
+15:29:000720:000720_3 : 15:29:20:651: This is not something that is done is still in progress the data community as a whole and data Science you still trying to find out the best ways . 3
+15:29:000721:000721_4 : 15:29:33:792: Find out where it would be too too too big but . 4
+15:30:000722:000722_1 : 15:29:38:458: Can of data Science really a scale is not is it it's not so . 1
+15:30:000723:000723_2 : 15:29:43:682: Of course Google you're doing it and that is sad because Google is doing in that it's alright since when we can do it as well that it will be part of the Tooling that we have . 2
+15:30:000724:000724_3 : 15:29:58:032: Going here . 3
+15:31:000725:000725_4 : 15:30:00:179: Fatalities already shining you in in English kind of feel that this is not always operating that has anti scale the challenges as production environment and runtime integration basically all the data Science they rely on software that runs of ecosystem that runs on Jay and I do not . 4
+15:31:000726:000726_2 : 15:30:21:331: Olatunji how old is ecosystem runs in json here is how we integrate with him we won't replace them ok it's not the point but can we integrate better . 2
+15:31:000727:000727_3 : 15:30:37:465: I think so as a community we could do where could you should be more simple we have we we have the training to do this but it's not done yet then of course performance that is a distributed computation framework the main one that is shining is in written in scala stack . 3
+15:31:000728:000728_4 : 15:30:59:606: And it is the way to scale data data and data processing . 4
+15:31:000729:000729_1 : 15:31:06:307: In this in this scope of course performance and scanning and distributed commission . 1
+15:31:000730:000730_2 : 15:31:14:457: Tartine starting to be adresse bye bye d'Ascq what if you want to do parque example the way . 2
+ 

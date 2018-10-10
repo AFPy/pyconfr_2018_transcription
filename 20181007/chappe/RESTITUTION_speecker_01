@@ -1,0 +1,291 @@
+
+
+01_Python and PostgreSQL: let's work together! Dimitri Fontaine
+
+ 
+10:01:000025:000025_0 : 10:00:56:609: Anyway so that's a good listener and currently I'm working at height is data what we do is distributed postgresql so if you take care and you have too many transaction hour or two too many days are in 2/8 chicken nugget in many different server and each one of them is going to have only a part of the day that the same scheme everywhere but only a part of the data. It's called the sharding. 1
+10:01:000026:000026_2 : 10:01:19:744: And I mean that in a transit traduction away so it's quite nice . 2
+10:01:000027:000027_3 : 10:01:26:058: But if you have troubles with a scaling out for the rest will have a look inside you later with a nice things . 3
+10:01:000028:000028_4 : 10:01:34:367: Most of the examples I'm going to to peek here today come from the book I wrote last year it's called are mastering postgresql in application Development so it's a book about meant to be read by Lopez . 4
+10:02:000029:000029_1 : 10:01:49:513: And . 1
+10:02:000030:000030_2 : 10:01:51:644: Petrobras grand hotel like . 2
+10:02:000031:000031_3 : 10:01:57:785: Stop lines of code into a simple as queries . 3
+10:02:000032:000032_4 : 10:02:01:902: Most of the time the Ripper's they don't know what to do with really with a sequel what is possible to do even so it's all about that and you have a discount if you want to use it . 4
+10:02:000033:000033_1 : 10:02:13:046: Cause we love python . 1
+10:02:000034:000034_2 : 10:02:17:172: Decipher code you will have to do this comes . 2
+10:03:000035:000035_3 : 10:02:22:154: For those of you who are not using postgresql yet check out a bit louder he can do a formulation in one command line as you do digital there . 3
+10:03:000036:000036_4 : 10:02:37:287: I've just ordered to be is the connection string of the target of the ways which must be possessed girl and eat a tomato everything as commodity indexes constraints everything is migrating to one come and so it's really easy so . 4
+10:03:000037:000037_1 : 10:02:52:427: Cancel that you have no excuses if you're not using postgresql yet you just one command line and then you can use it so no issues ok . 1
+10:03:000038:000038_2 : 10:03:02:191: Bolivia started now . 2
+10:03:000039:000039_3 : 10:03:05:027: Why would anyone use a relational database management system RGB MSC tomoko it's complexity complex to use . 3
+10:03:000040:000040_4 : 10:03:15:170: About it . 4
+10:04:000041:000041_1 : 10:03:17:301: The meaning to Reigate from the repairs when we talk to be there it's like it's for . 1
+10:04:000042:000042_2 : 10:03:24:461: What is serialisation pizza place to save data everybody knows how to open a file for writing year 4 reading so sleeping late I don't need another device management system for doing that right if you just want to save data open the file . 2
+10:04:000043:000043_3 : 10:03:44:606: And that is done during by deciding to be XML because that's what they do in may be doing more json XML so maybe something to be . 3
+10:04:000044:000044_4 : 10:03:59:755: The Prime of saving a file data storage so . 4
+10:04:000045:000045_1 : 10:04:04:885: A lot of odds to reach . 1
+10:05:000046:000046_2 : 10:04:08:017: Concurrency undulation . 2
+10:05:000047:000047_3 : 10:04:11:463: Continue accessing the data from several active connections that the time they say you're doing a web front end in vein in Python so there is what do you call the claim code when we look at things from the database the time code is going to be your back-end coding Python write . 3
+10:05:000048:000048_4 : 10:04:35:614: Going to have a multiple instances running in parallel off your back and cold let say if you to web service you will have one back and active there are currently connected user so you will have many uses may be doing things concurrently and you want your system to be consistent at all time that's why not you use a relational database management system the system is going to answer that . 4
+10:05:000049:000049_1 : 10:05:02:746: You are safe and consistent for everyone to use in parallel in a concrete way so let's dig into that a little . 1
+10:05:000050:000050_2 : 10:05:14:329: Currency in the greatest damage begins with the famous a seed a little so everybody's heard about ACS . 2
+10:06:000051:000051_0 : 10:05:24:432: There were going to talk about you. You told her in a practical the way home to be a CD need to be at to make . 3
+10:06:000052:000052_4 : 10:05:33:370: The really important thing about that seed is that most of us that's all we learnt about the Audi BMS and when we got started at school or maybe elsewhere to develop and so it's something we can trust that it is really so I get back to the side when you pick . 4
+10:07:000053:000053_1 : 10:05:54:510: database management system solution there are many many out there today and most of them are not a seed because there are two if you're free drop one of the letters is going to be much easier to implement likes getting out there are things with you teach us actions so we should take us another example do you have a CD or not to . 1
+10:07:000054:000054_2 : 10:06:19:653: Have you but you don't you're going to be in trouble I like to pick a number to be because it's so easy so which ones have the letter does not going to be as in acid while he doesn't have transactions so you will see a and you lose the I write it deletes a schematic design so that means you cannot undo consistency used knows nothing about the data definition is Converse . 2
+10:07:000055:000055_0 : 10:06:43:802: Used to be an adorable ok 04 a little bit may be ok for your application to deal with her and she said that has nothing to do with a seat but you need to remember that either have it or you don't stand there what it means when you write the code so a to make mince to control back so when you send the commit message to the device
+10:07:000056:000056_4 : 10:07:10:924: Send a commit message you are supposed to check that the messages that you get back is actually a commit and not a rollback ok so for example if you select 1 ÷ 0 . 4
+10:07:000057:000057_1 : 10:07:25:534: We are evaluating division by zero we can we don't know how to do that and so then you can say come it let me say to roll back . 1
+10:08:000058:000058_2 : 10:07:34:661: The transaction when the weather in the world before ok . 2
+10:08:000059:000059_3 : 10:07:40:800: Like when you ask for a country to use pytest Amy's full . 3
+10:08:000060:000060_4 : 10:07:45:033: Section read and write something and then when you commit a message you get back his back so sorry about that you can continue reading the data but not write into it and it's because when you have that . 4
+10:08:000061:000061_0 : 10:08:01:166: This process continues running until you make some room for it so maybe you have decided that mean by that is like one terabyte big and so when you are faced semi sweet you please follow you delete decided which schools did it to me for a reason so you did it and then you can continue working and supple then the next day
+10:08:000062:000062_2 : 10:08:24:291: I need works very well with a bus Bristol to remember that transactions when you write Python code may be you and I don't really need that but then think about that what happens if a system is food in the middle of your transaction . 2
+10:09:000063:000063_3 : 10:08:39:386: And are you supposed to be writing to things and in between the two fi system is full what's next if you're using cosmic girl you don't care because you just have a roll back instead of a comets and you can continue OK . 3
+10:09:000064:000064_4 : 10:08:54:406: Stance mean that . 4
+10:09:000065:000065_1 : 10:08:57:816: Are we going to back to consistent in a minute but consistency is that you know what you have in your daddy later that you can trust your data so you know what you having the data set you need to have a schema so you need to be clear your intention that let you do when you write yours if you want to write nice code you need to declare your intention of the ways people . 1
+10:09:000066:000066_2 : 10:09:17:932: Off to work we will continue every single line of code you wrote it and it's the same thing so you have a structured data model that you can use . 2
+10:10:000067:000067_3 : 10:09:29:943: Got it and see . 3
+10:10:000068:000068_4 : 10:09:34:055: Ireland data types we are very large set of the two types there are in the default voicemail setup 72 that it's ok it's not just into json text going to have points you can have so many things . 4
+10:10:000069:000069_1 : 10:09:51:065: The first thing is that the data looks like would you choose look like so that's the type constraints like not . 1
+10:10:000070:000070_2 : 10:10:01:206: And some people who think that I recorded relief allowed because there is more in his that's not true so the thing about it that way we going to get back on the relations and whether you are in sequel the fact that you have a friend he has nothing to do with the fact that we call it a relational database and it was so we get back that feels . 2
+10:10:000071:000071_3 : 10:10:24:344: Call to . 3
+10:11:000072:000072_4 : 10:10:26:481: And so in the room who likes to write circumference . 4
+10:11:000073:000073_1 : 10:10:31:097: Does many of us ok that's fine my hope is that by the end of the more people we are so that the sound . 1
+10:11:000074:000074_2 : 10:10:42:232: And meet me closer you have a review of the system of the rule system that is running at the movie of it in postgresql database in your Python code usually you are implementing user workflow so you're doing things for one user at a time so it's easy to undo that whatever you do is come to stand for one user but I do you make it consistent for the rule system I keep your . 2
+10:11:000075:000075_3 : 10:10:43:232: Stop system . 3
+10:11:000076:000076_4 : 10:11:12:590: One day I can buy the last item but not two of them because there is only one . 4
+10:11:000077:000077_1 : 10:11:19:743: Review of the whole system is going to be like today that allows management system to handle that . 1
+10:11:000078:000078_2 : 10:11:27:180: I in ACID is for isolation . 2
+10:11:000079:000079_3 : 10:11:31:081: It is it . 3
+10:11:000080:000080_4 : 10:11:34:212: Mix atomicity and alliteration it's the other side of the same thing . 4
+10:12:000081:000081_1 : 10:11:40:805: Things that bring your own protection you begin you can do whatever you want . 1
+10:12:000082:000082_2 : 10:11:47:927: How to make mince nobody sees what you're doing it until you come it . 2
+10:12:000083:000083_3 : 10:11:52:569: Minster you have a choice of whether you want to see what the other guy did or that during your own selection did you done for example so it's a logical backup of your database . 3
+10:13:000084:000084_0 : 10:12:04:996: Nazi whatever happens so when you be a Beautiful Day begin and then select from tables and it wants to see the same Snapchat of the database during all its processing so it's going to say I don't I don't want to see anything that happens if someone is ringing in certain commits in between I do to select from this table and select
+10:13:000085:000085_1 : 10:12:27:121: I want to have a consistent backup and so did you don't be going to a start a transaction in either as serializable mode or read repeated mode but your Python code to is going to have the same man set up so you can choose for your back and application to be in a week committed or the default is submitted is not your fault or reputable read which means that if I do a select and . 1
+10:14:000086:000086_2 : 10:12:55:254: I'm going to see exactly the same data as long as I am in the same transaction right by default if you do a select GunStar from the table then someone else doesn't insert and then then you select can start again you see 1 more ok don't plus one account you have one more but you should say I'm in a repeatable read you don't see the other guy doing the insert so you're . 2
+10:14:000087:000087_3 : 10:13:18:372: Define deposit for the whole process if your deranged invoicing your Financial Reporting or things like that maybe it's important that your application code only sees the same Snapchat of the data for each and every query is running so that is elation is it it's another part of the as a SEAT dealer and then dribble so do you know this test with the soket plug . 3
+10:14:000088:000088_4 : 10:13:45:519: Call a python client that will do I insert into database begin insert commit and the end client code you can't women in society and why the test is running you unplugged the power sockets from the server from the postgresql server in the middle of the district don't like it then you bring it again and I was going to be like over there was a crash I'm going to recover . 4
+10:14:000089:000089_1 : 10:14:10:650: Can you do the count again everything you counted in on the client you must have eaten on the server if you don't it's not the rabble . 1
+10:14:000090:000090_2 : 10:14:18:596: Whippet rescue if the count don't matter to either because you have a bug in your application you can pick things that we're not known to be committed so you do discount on many times to send the commit message and not to meet and you received it that's the trick or is because it's me some is configured or maybe there is a bug in postgresql that . 2
+10:15:000091:000091_3 : 10:14:41:721: Edinburgh to test so it would be surprising that mosquito plug-ins that area and if you think that is not the Ribble . 3
+10:15:000092:000092_4 : 10:14:50:867: Maybe throw it away and I set up another one because it's usually not what you want . 4
+10:15:000093:000093_1 : 10:14:57:305: So that was a more control and then lets you OK to use that in your application code . 1
+10:15:000094:000094_2 : 10:14:58:305: IPhone so . 2
+10:15:000095:000095_3 : 10:15:09:677: For the main thing about consistency is that . 3
+10:15:000096:000096_4 : 10:15:13:819: Python code the bike and he's going to Employment issues or a walk through so the most of the code you write . 4
+10:16:000097:000097_1 : 10:15:20:966: Tied to one use Arduino something . 1
+10:16:000098:000098_2 : 10:15:24:797: Have a good way to see to that database management system is that is it going to end of the woods system all the transactions that are happening in parallel are going to be handled into a single system that can be the system of Proof and it's going to implement the business rules and the constraints that you need when you when we think about conference we think that's something that . 2
+10:16:000099:000099_3 : 10:15:50:953: hard to handle because nobody wants to have constraints I do want to be free and everyone it's easier so another way to say it is that and then naming them conference you can wear around his . 3
+10:16:000100:000100_4 : 10:16:05:093: PGSQL is going to guarantee that the data you put into it makes sense for your application as for your business for your users and for every situation you are so you can say for example in this table makes sense to have . 4
+10:17:000101:000101_1 : 10:16:21:240: If there is another one in this other table I want to guarantee the strong guarantee buy this EastEnders whatever I do in the application code this constraint or this reaction to produce a month is true at every time someone that for you and I remember so that's a quote for from the 70s I think . 1
+10:17:000102:000102_2 : 10:16:46:384: Rugby . 2
+10:18:000103:000103_3 : 10:16:48:521: Were recently I was working a lot in in the early days if Unix in the 70s and did many interesting things in an 80s and 90s and it's about writing code in C in the 70s but it's still true today in 2 minutes if you have to send the right data structures and organise things well the other team will almost be self-evident that does not allow programming in python programming . 3
+10:18:000104:000104_4 : 10:17:16:677: You pick your order tax returns on your classes and like to try rights then all the code is going to be so easy to read and maintain that nobody is going to ask questions and just the part of postgresql whether it requires a schema at the Beginning when you don't really know what you're doing your I'd prefer to you know just do some json documents and a cigarette out . 4
+10:18:000105:000105_1 : 10:17:37:828: So sometimes it's so boring to say that I need to specify exactly the schema to draw but he provides a lot of clarity about your intention of going to handle and what are the situations do you want to be on Lincoln what are the situation that should not happen in your application you can see all that just by looking at the sequel schema so . 1
+10:18:000106:000106_2 : 10:17:59:546: Design your own you coats in terms of data structures or classes in investing what is the same month old model that we can apply to the schema . 2
+10:18:000107:000107_3 : 10:18:10:865: Let's hear some examples practical examples with so we going to see lots of data queries on Titan Centre . 3
+10:18:000108:000108_4 : 10:18:23:643: I think that because the data is easily available . 4
+10:19:000109:000109_1 : 10:18:29:627: Year of the scheme either . 1
+10:19:000110:000110_2 : 10:18:32:767: So you said something like that so we are the names . 2
+10:19:000111:000111_3 : 10:18:44:913: Text because Carmarthen things to talk but we are are not actually using text you're so the next thing we do is a single alter table statement that is going to change the type of 3 gallons and so it begins and we using this kind of expressions to transfer on the text that are received into something that for postgresql looks like numbers and that you can actually you . 3
+10:19:000112:000112_4 : 10:19:10:051: So we knew you could do a 3 . 4
+10:19:000113:000113_1 : 10:19:16:191: Sing of Gods into a single Archer table statement so that that mean to enter a single table with white and are using Leica replace substrings and things like that you could use a regular expressions and the splits and whatever so when you would do that in sequel OK when you're so nice so . 1
+10:20:000114:000114_2 : 10:19:17:191: I think people called . 2
+10:20:000115:000115_3 : 10:19:44:542: Picture of Chloe language and it's a declarative so . 3
+10:20:000116:000116_4 : 10:19:50:693: Prolaser programming language right maybe not mean you think of it that way but she called is programming language it happens to be decorative so rather than explaining to the computer how to do the things what you doing sequels you explain the results you want to have . 4
+10:20:000117:000117_1 : 10:20:07:829: The result you need and postgresql is going to figure out how to make it happen so one of the things that are difficult for programmers I used to do in programming oriented programming is that they are not having the real this time they just expressing their needs and that's how to do it so when are the equations you really is a . 1
+10:21:000118:000118_0 : 10:20:30:981: Implementation is it going is it going to use the Google read them when I do this. Sorry about that . 2
+10:21:000119:000119_3 : 10:20:40:591: Can read that maybe can you read out near . 3
+10:21:000120:000120_4 : 10:20:46:741: Single event or any reason so we going to take the 10 lines with the bigger numbers so you can see the result on the on the right of the of this idea ok so it's time I want to date on the maximum number and I want the 10 most numbers . 4
+10:22:000121:000121_1 : 10:21:08:891: Inviting it easy to do you do if you . 1
+10:22:000122:000122_0 : 10:21:13:691: Ok and then you use this method. So it's going to maintain an app off only 10 elements and its time there is a bigger outer element is going to keep it in memory and you only have 10 elements in memory at all times are running the program is to have 1 million lines of input only after 9 that the time in to the doctor ok that's what you want you don't want to load 1 million . 2
+10:22:000123:000123_3 : 10:21:39:822: Research them all and then I find out the 10 greatest so you let reading the file and you keep only 10 lines in memory so that if you for you interest and if so you just import if you need to do and at the end you get the 10 largest from the UK so it's really easy to do in Python so . 3
+10:22:000124:000124_4 : 10:22:05:613: Google . 4
+10:22:000125:000125_1 : 10:22:07:750: It's even easier just say . 1
+10:22:000126:000126_2 : 10:22:12:179: Please sort them by your Arsenal won the first then and that's it but . 2
+10:23:000127:000127_3 : 10:22:20:327: The Disco the button if you want to do it and seek with you it's done that way you make sure that it's actually going to do the same thing as though he'd sort we implemented by hands before wear if you using postgresql you do an explain . 3
+10:23:000128:000128_4 : 10:22:37:480: Brompton bicycle . 4
+10:23:000129:000129_1 : 10:22:41:618: Show me the options and Eliza balls and before and then you continue with the career asunder previous light and that's the outside and one of the because it's variables so because it's analyse it going to actually run the query and me are everything and then I give you the answer of this year 1 something music on it and you can sort that used only 25 kilobytes of memory . 1
+10:24:000130:000130_2 : 10:23:11:767: Limitations before in Python . 2
+10:24:000131:000131_3 : 10:23:15:169: Is that if this amount of memory that you did a top 1000 each other or something like that if it doesn't fit anymore anymore postgresql we know to Spill to disk and then use physical go resin from clothes from the 80s that is called the tape sort and it's going to use that to merge files on disk and Elaine the pain in the right order to drop which would be like complex to write in 5 . 3
+10:24:000132:000132_4 : 10:23:43:365: We want to do that but impossible to write a smart algorithm that fitting memory but they speak to this when it asks you at 8 or are you just need to write all devices list that's it that's all you need to do . 4
+10:24:000133:000133_1 : 10:23:58:018: Any question so far . 1
+10:24:000134:000134_2 : 10:24:01:426: Good . 2
+10:24:000135:000135_3 : 10:24:03:558: Tour de . 3
+10:24:000136:000136_4 : 10:24:05:694: The first assignment you out with a financial that he dies to do reports so it's a little boring but let's do a monthly report untaxed connect to use it in peace so you can . 4
+10:24:000137:000137_1 : 10:24:18:835: This way . 1
+10:24:000138:000138_2 : 10:24:20:958: Used to using as a PC call command line just play around with it it's very nice you can even though you have to come and backlash be like you tour and you can associate it to your favourite I don't know you can edit your queries inline NPC clothes using your . 2
+10:25:000139:000139_3 : 10:24:43:100: So you can run the query again and again with your friends date and things like that . 3
+10:25:000140:000140_4 : 10:24:49:230: So that's a really easy curry right everybody would be able to ride that . 4
+10:25:000141:000141_1 : 10:24:57:362: It's really cold 101 and it looks like this so no surprise here . 1
+10:25:000142:000142_2 : 10:25:06:499: Of course I speak to worry because otherwise it's not ok and we only have 19 rules for 28 days we have like gaps in your because there were days in the data without activity so maybe we want to feel that licks you that we want the monthly report . 2
+10:25:000143:000143_3 : 10:25:27:515: All the days so we bring to use a colander and iterate in the calendar and if there is no data were going to use your right . 3
+10:26:000144:000144_4 : 10:25:37:338: It's really a simple python programming and so now we have all the days in February . 4
+10:26:000145:000145_1 : 10:25:43:894: When there is no activity . 1
+10:26:000146:000146_2 : 10:25:47:024: Can you do that you need to think about something where is that chords going to be used if it's only in one program then sign sure but know if you have that and maybe user dashboard maybe in the admin panel boards may be in the back office make me in the financial and reporting activity may be in several places you need to do the same thing again and again so . 2
+10:26:000147:000147_3 : 10:26:12:973: That would be that it would be written directly in the sequel query so do you know how to implement days with no activity in sequel . 3
+10:27:000148:000148_4 : 10:26:23:394: Oh dear sorry about that . 4
+10:27:000149:000149_1 : 10:26:28:523: So we can tell the rest well please generate 1 months . 1
+10:27:000150:000150_2 : 10:26:35:000: With a 1 day interval in between each step of the Surrey CC troops for 1 days type 11 the other day so we said one day from the start to the end in the early start plus 1 month but meanest one day because we don't want to step into March with want to stay in February so that's 1 month is Monday ok so we do it generates a reason we do a Corsa left left join because we want . 2
+10:27:000151:000151_3 : 10:27:03:132: I remain a reference people to do what is going to be the days from February and Fourth Estate I'm going to pick up do I have data to go with it if I have I use it and if I don't answer College Avenue . 3
+10:27:000152:000152_4 : 10:27:17:991: Your PC Currys . 4
+10:27:000153:000153_1 : 10:27:21:324: This function is if I have new as soda you have as many parameters as you want to the function and it will pick the first one of the parameters that is not new . 1
+10:27:000154:000154_2 : 10:27:33:469: What is . 2
+10:28:000155:000155_3 : 10:27:35:614: Zurich Insurance you also it's true is not know it will keep her as if it's new it will take 0 instead . 3
+10:28:000156:000156_4 : 10:27:45:288: We could have written this sequel without in college lecturer in engineering series . 4
+10:28:000157:000157_2 : 10:27:53:443: Ok so that's life sequel from the from the 80s guy you could do that thing in the 80s already so if you don't know what to do that you don't know sequel at all it's like it's not even the basics are we going to get into interesting things later but this this thing that you did not even see what it's like any thing in the world so if you don't like sequel but you don't know how to do that . 2
+10:29:000158:000158_3 : 10:28:16:563: Like it because you didn't turn out so please learning and then have an opinion but for now you can . 3
+10:29:000159:000159_4 : 10:28:23:692: Put the lottery that should be like at snap my fingers like you're all I need to do that contract don't really it's not interesting and the results look like this of course the Weasel Zeros instead of all the numbers when you don't have them and we are the 2128 rules and what nice about it is that you don't need to know that she is only 28 days long is us a 1 month and postgresql . 4
+10:29:000160:000160_1 : 10:28:51:825: Put the lottery that should be like at snap my fingers like you're all I need to do that contract don't really it's not interesting and the results look like this of course the Weasel Zeros instead of all the numbers when you don't have them and we are the 2128 rules and what nice about it is that you don't need to know that she is only 28 days long is us Any day is the reason this month because you're going to attack with the plus sign here so when we say that the consistency of the date of the first thing we use for that is the data types . 1
+10:30:000161:000161_2 : 10:29:03:087: We are the date and month and then Tyrol sorry and of the plus sign is it in postgresql does a plus sign is it like if you were Victorian tea programming in Python and you have two classes and you implement and operate in between the two classes same thing so depressed nine year is not the same implementation of course if it's two integers or a date on an interval or two . 2
+10:30:000162:000162_3 : 10:29:25:221: Ciara the point in a circle or an IP address in an IP address round draw things like that so the subject oriented programming year and you can actually implement run over darling what if you want to and you can't even do that in Python weather API Python if you need to do so first learn sequel but then if you have like if you want to share more code in between your back in . 3
+10:31:000163:000163_4 : 10:29:50:346: SQL processing then you can quickly import your Python code directly in your database server if you need to it's easy to do . 4
+10:31:000164:000164_1 : 10:30:00:437: Sorry nothing we want from this query and then we're going to be going to begin to do some sequel . 1
+10:31:000165:000165_2 : 10:30:08:673: Vbulletin so you can see the result we want like this one day Wednesday we did 10/:/ less than the one before this Wednesday 7th . 2
+10:32:000166:000166_4 : 10:31:35:882: It's using a window function . 4
+10:32:000167:000167_1 : 10:31:39:698: Lag . 1
+10:32:000168:000168_2 : 10:31:41:853: We're going to partition the data by Isabel which means day of week like Monday is one Tuesdays to with strap and a bit of course some people will say that Monday is too because Sunday is one and some people say no you crazy Sunday is your Monday is one so we need to agree on the standard and so there is an easel stand out to figure out which day is which number and so we . 2
+10:32:000170:000170_4 : 10:32:12:610: Step behind and one step behind in the dataset is going to be there with the same day of week number is going to be one week before the Wednesday before for example ok so it's really . 4
+10:33:000171:000171_0 : 10:32:27:756: Where you can see the data from last week when your processing. Ro when you you could do that in sequel ok that's equal from the 90s this time it's from 90 to 1892 which means that mean . 1
+10:33:000172:000172_2 : 10:32:45:903: When they added to the standard ok . 2
+10:33:000173:000173_3 : 10:32:51:733: And I've got the results I look like this I just add to colour Ready to copy paste from the terminal I just let you come caress for you to be easier to read . 3
+10:33:000174:000174_4 : 10:33:03:538: Foreigner a 92 to the 10th term dates from 2016 and the way to read the number after the sequel naming the song IDS that any person that was issued before that he's consoled it's not valid anymore you if you say equal start . 4
+10:33:000175:000175_1 : 10:33:25:678: Other one is deprecated ok so if you know what to do sequel 1999 most people learn sequel when they called 8989 some people are . 1
+10:34:000176:000176_2 : 10:33:41:834: NG20 we are too early in 2016 in terms of physical standards ok . 2
+10:34:000177:000177_3 : 10:33:48:419: Before you say I don't like sequel and I can do nothing in sequel I need to write back on instead . 3
+10:34:000178:000178_4 : 10:33:55:554: Remind about what it means to be doing sequel in like this year is 2018 I guess so maybe sequel from the 80s it's not . 4
+10:34:000179:000179_1 : 10:34:06:682: Sold within sequel . 1
+10:34:000180:000180_2 : 10:34:09:818: If you were . 2
+10:34:000181:000181_3 : 10:34:11:950: We said is a declarative party shopping so if you look at the distance that Unix they say everything is a side it's not exactly true . 3
+10:35:000182:000182_4 : 10:34:22:092: He's not well integrated Radio Plus in between two objects in due to the Winter Garden advert it doesn't work activities but they say that everything . 4
+10:35:000183:000183_1 : 10:34:36:204: More than just objects or your packages move your glasses that that's the kind of thing you need to think about when you think in terms of Python so how do you want all the thinking in sequel or do you think it's equal you need to think about the relations so what are relations in sequel . 1
+10:35:000184:000184_3 : 10:34:52:388: British and it comes from the mass of it right so in mathematics relation is a set of elements that have the same properties that is in circulation is a set of data that are the same . 3
+10:36:000185:000185_4 : 10:35:11:518: Domino tributes under the main values . 4
+10:36:000186:000186_1 : 10:35:17:671: What he means it's the number of filaments you having to call if you have a need to know if you have only three to 3 people if you don't know the Number 82 portable ok so you have many of them and each one of them you know exactly the type of it and then you have a ball and then you can play with them and say that they are relations . 1
+10:36:000187:000187_2 : 10:35:40:820: Electric worry he's going to be a relation ok do the things you do when you wait when you do a select query in sequelize describing the relationship so you have any tricks to say where to pick the data from under the sea liked . 2
+10:36:000188:000188_4 : 10:35:58:973: Repeat of the syntax is the prediction query because it describes the output ok it's the projector Prix in operation . 4
+10:36:000189:000189_1 : 10:36:07:461: Define the attributes domain when doing that from introduces relations but as we saw before does the front can be a subselect . 1
+10:36:000190:000190_2 : 10:36:17:471: The output of a select is a relation and from . 2
+10:37:000191:000191_3 : 10:36:22:177: Relations and then what can you do in between relations well you can join them with inner outer and other kind of drugs so who knows the difference between inner and outer join . 3
+10:37:000192:000192_4 : 10:36:34:699: When I was about lateral drone joy . 4
+10:37:000193:000193_1 : 10:36:39:798: So maybe we'll see that ok and you can also in operation with wheelsets because a relation is almost like a set the main difference is that usually when you have a certain mathematics you don't have to buy . 1
+10:37:000194:000194_2 : 10:36:57:930: Nobody cares about duplicate so you may you may have duplicated or you may not have them that's why it's important to have a primary key that is not to say that it doesn't make sense for example as soon as you have a primary key on top of . 2
+10:37:000195:000195_3 : 10:37:13:060: That has nothing to do with the data like for example us Ariel games what you don't have a primary key anymore because the fact that just got another one and this one as beautiful as a one and the other one as a to it means nothing about the data so you will have many duplicates but with different numbers at the Beginning nice ok so it's not a penny more in the . 3
+10:38:000196:000196_4 : 10:37:36:208: Discovery is just to show a relation so we have a year we use a city called the case that we are going to reuse in from somewhere from . 4
+10:38:000197:000197_1 : 10:37:52:347: Can't remember about issues everywhere . 1
+10:38:000198:000198_2 : 10:37:57:150: Yes drivers results racing again yes and left join lateral so we have a natural subquery that is using a join the result of the subquery is going to be a relation and lateral allows you to refer the case within the subquery so you can order ready case Ltd Free by Queen somebody going to fetch the three drivers that are the most point in the history of Formula 1 by the . 2
+10:38:000199:000199_3 : 10:38:30:301: Look like this so in the fifties 12 unreal . 3
+10:39:000200:000200_4 : 10:38:35:437: Jokes . 4
+10:39:000201:000201_1 : 10:38:37:572: They're just to say that don't like a fund you come from there . 1
+10:39:000202:000202_2 : 10:38:42:442: Sunderland and you can keep roast and maybe tomorrow is more well-known the reason I mean tennis stuff so that's the kind of career you use and so did the front part of the corries introducing relations so every step in the corries a different relation and you can mix and match them together with operators and you hurt her she's like a left join lateral that an operator . 2
+10:39:000203:000203_3 : 10:39:03:586: Let's ride strap . 3
+10:39:000204:000204_4 : 10:39:07:068: So that's the way to think about a sequel so she got his coat right but rather than explaining the operation in detail what you do is explain the output you want to have in terms of relations that sell your programming sequel . 4
+10:39:000205:000205_2 : 10:39:23:232: But if you say that's equally is called when you write Python code you out unit testing integration testing maybe you are . 2
+10:40:000206:000206_4 : 10:39:32:541: Ring around the fact that you write Python so can you have that in there a sequel . 4
+10:40:000207:000207_1 : 10:39:39:691: Console . 1
+10:40:000208:000208_2 : 10:39:42:012: The thing that I like to do is when I do when I used cycling in an application is that I'm using cicode Files write your files that are food that guy because it's the forecast in Plymouth uni Python so I fell into my source code . 2
+10:40:000209:000209_3 : 10:40:00:136: It's good to I don't want to want to be handling like strings . 3
+10:40:000210:000210_4 : 10:40:05:242: They play run with an n son to postgresql it's a very bad way to write code . 4
+10:40:000211:000211_1 : 10:40:12:403: So you would have a pay for a sequel phone like this but no you want to do as unit testing regression testing you want to have parameters you want to have xcode right . 1
+10:40:000212:000212_2 : 10:40:24:198: You can use a new sequel as there are other Solutions but it's the way to find a silly and picked . 2
+10:40:000213:000213_3 : 10:40:33:105: If the . 3
+10:41:000214:000214_4 : 10:40:35:750: If you have this file used eco file you see there are two Coreys there with her they have a . 4
+10:41:000215:000215_1 : 10:40:42:651: Well it's really easy query I'm at the venue going to be there no sequel to can run the queries and then use them by the name as if there were some samples and you got to give them arguments and parameters and things . 1
+10:41:000216:000216_2 : 10:40:57:777: So it's really easy to until she calling to your Source Code and where did it and then you can have a diff and you can review a pull request where are you overdose on the sequel and you can think about it it's not just a different beans to string differently and it has no meaning and you don't know what to compare adjust the difference between two equal sides it's going to be . 2
+10:41:000217:000217_0 : 10:41:17:925: How to undo and
+10:42:000218:000218_4 : 10:41:24:054: Maison . 4
+10:42:000219:000219_1 : 10:41:26:195: Those internally for its owner regression testing you're a very simple you have queries and parameters so you run the queries with the Commodores and you check that the output is the same as the one that is expected so it's really really easy to implement and it looks like this when you using it so you are expected I would and plants drought areas in the plans you have yellow . 1
+10:42:000220:000220_2 : 10:41:50:353: Things to parameters that you want to associate with the chorus because you are either fighting sequel that can handle parameters and then you have the expected signs when you run PC quality of it so you rent if you have a you say . 2
+10:42:000221:000221_0 : 10:42:10:469: And then you run degrees are getting a new you do a difference between the output that was expected on the output directory as so your brother contestants that's it it's really you can do that like in half an hour and bass on if you want so just for Kicks on FIFA implemented eating go because I wanted to see what he will be like to
+10:43:000222:000222_4 : 10:42:30:638: I got no weed in the day you have it . 4
+10:43:000223:000223_2 : 10:42:33:987: Sequel as code including in your idiot or supports because you know you are there a sequel fires and regression testing and chips and it's writing your daily programmer life . 2
+10:43:000224:000224_3 : 10:42:53:832: Any question so far we're going to see more interesting sequel now . 3
+10:43:000225:000225_4 : 10:42:59:653: So why I told you that im possible so we have 72 different data types by default so maybe that's not enough so let's hear some of the ones . 4
+10:43:000226:000226_1 : 10:43:12:792: Easy to install an extension and then play around with it . 1
+10:44:000227:000227_0 : 10:43:16:913: When extension. I like is IP addresses round so did you know you could do to your location with a single logical query . 2
+10:44:000228:000228_3 : 10:43:27:056: So that that is my IP address and is operator so it looks of it all going right it looks trans but if you think about it using greater than sign or equal sign it something that doesn't make any sense to just that we got used to it right the fact that we used to Alton Towers to say that values are equal to each other and something . 3
+10:44:000229:000229_4 : 10:43:52:187: So the way to read news when is contains the IP range contains is IP address ok . 4
+10:44:000230:000230_1 : 10:44:01:430: And just with that you're going to have a Joe location where is so maybe you're thinking about that I can do that in the python coding the interweb back and I have many back and sit easy to spin up new server if I have so more load why you would I do that in sequel well maybe you have made it that are that you want to associate with the IP address like we do here we actually use . 1
+10:44:000231:000231_2 : 10:44:28:577: And we join against another table with more data . 2
+10:45:000232:000232_3 : 10:44:33:059: What we could do to is the computer distance in between a boy . 3
+10:45:000233:000233_4 : 10:44:38:179: Another one so let's say that this is an IP address you may be the one of your phone right now or your computer . 4
+10:45:000234:000234_1 : 10:44:49:099: And you're going to use that and you're going to find the Ender story find every pub around like The Descent Elizabeth so it security . 1
+10:45:000235:000235_2 : 10:45:03:223: And supporters Maria tran surname she's expecting from openstreetmap project Free TV to fetch in Upper Street the list of all the pubs in France or out for you that's first for a conference in Ireland in Dublin so I loaded all the birds from . 2
+10:45:000236:000236_3 : 10:45:22:353: And supporters Maria tran surname she's expecting from openstreetmap Project Free TV to fetch in Upper Street the list of all the pubs in France or out for you that's first for a conference in Ireland in Dublin so And the IP address for the IP address that you got in your tail of the conference and it is the greatest simple security . 3
+10:45:000237:000237_4 : 10:45:32:604: And you have the list of pubs around with the distance in miles it is just a sequel query . 4
+10:45:000238:000238_1 : 10:45:41:750: And . 1
+10:45:000239:000239_2 : 10:45:43:881: And agree that the truth . 2
+10:45:000240:000240_3 : 10:45:47:999: You're testing . 3
+10:46:000241:000241_4 : 10:45:51:141: Come out your . 4
+10:46:000242:000242_1 : 10:45:54:268: Strong . 1
+10:46:000243:000243_2 : 10:45:56:391: Product it means that you're going to have as many lines as the first table x the number of lines of the other tables you going to do a full Cartesian product of the Two tables but it's ok why . 2
+10:46:000244:000244_3 : 10:46:11:714: Xindak table with IP ranges . 3
+10:47:000245:000245_4 : 10:46:16:026: The constraint impossible squirrel that you can implement that says that that forbids to have overlapping runs is so I didn't put on the slides to hear how to write it but it's in the documentation is really easy to find so you can have a table containing all the IP ranges that are given to you by your educatgeolocationion provider and you can say to postgresql at the range is your . 4
+10:47:000246:000246_1 : 10:46:39:214: They are so we don't hear and read only tune IP address for The Range is that we are in the database . 1
+10:47:000247:000247_2 : 10:46:46:308: I have a guarantee that they are not overlapping which means that Discovery because we have a single IP address is going to return a single rooms we know that because there is no overlap allowed so any given IP address on the heating to 1 runs that's what it means that you have a constraint that there is no overlaping ranges and that's why I told you that constraint . 2
+10:47:000248:000248_3 : 10:47:07:437: Think about them it's guarantees you have a guaranteed to strong guarantee that this where is going to win 10 . 3
+10:48:000249:000249_4 : 10:47:18:585: 1 rules which means that covers and protects you that's not a problem because you x 1 . 4
+10:48:000250:000250_1 : 10:47:26:496: Much right . 1
+10:48:000251:000251_2 : 10:47:29:465: Did you order by and limit if you would you explain of the courier you would see that it's implemented using what we call the KNN search UK is the number error code is 10 and nn8 for nearest neighbours so we want the nearest neighbours and so when you write other buy this one is in a metre distance to order by distance limit is implemented into a single index scan and . 2
+10:48:000252:000252_3 : 10:48:00:614: Who's going to stand in Wrexham order and only the index can you going to be used to be able to order buyer position the distance in between the position of the pub and your location to meet then it's a single index scan . 3
+10:48:000253:000253_4 : 10:48:16:505: Efficient . 4
+10:48:000254:000254_1 : 10:48:18:699: Lovely kind of thing you can do in postgres not even a week without extension your way using two extension the one that knows how to do . 1
+10:49:000255:000255_2 : 10:48:29:834: Operation in between IP ranges and IP addresses and the other one is called the Earth distance and it's pretty to providing this distance operator that is expressed in miles without it . 2
+10:49:000256:000256_3 : 10:48:41:980: We would use only this one but it would be on there like a Cartesian distance because you are coordinates and you'd like but you didn't end in across room . 3
+10:49:000257:000257_4 : 10:48:52:143: And you would have a like your number is it doesn't mean anything but with your assistance the two points are actually considered as a location on the Earth and then you can see directors fear and then you do the more complex calculation and because an American did it you have the resulting nice but it is to convert m to kilometres in ok . 4
+10:49:000258:000258_1 : 10:49:12:042: Another one that I did like his . 1
+10:49:000259:000259_2 : 10:49:15:165: It's from the mother to be article where there were also happy to show that they're there no add aggregate so when you hear about that produce for example that produces a kind of an aggregator creating equal in the seventies already ok so . 2
+10:50:000260:000260_3 : 10:49:33:307: Stop it and the optical was really long and full of examples and things and they said so this is a quote from the article interesting fact the registrar so it's really important defensive rebounds . 3
+10:50:000261:000261_4 : 10:49:52:940: Tries to score the point and . 4
+10:50:000262:000262_1 : 10:49:57:088: Im getting to it and then he goes out but then you pick the ball from the opponent and you score so it's really very good statistics for a basketball when you follow it and that sound as they said this interesting fact . 1
+10:50:000263:000263_2 : 10:50:12:229: The aggregate query that you wouldn't need to run to find it so it was a juicer price on like a little bit in sequel . 2
+10:50:000264:000264_3 : 10:50:19:520: The set of all the games for the word story of the NBA it's open data you can find that and ok today dies in Jason and I didn't realise it . 3
+10:51:000265:000265_4 : 10:50:34:657: Strange but anyway just for Blood by jang ready . 4
+10:51:000266:000266_1 : 10:50:43:787: Fish from the gate does the start of the games the team that hosts the guest I'm going to find them see who wins and here we going to find . 1
+10:52:000267:000267_2 : 10:50:55:732: See the moon over nothing it's a window function to be so that before so it means that you will get Ender quarry every line but also with every line you will see the minimum number of defensive rebounds R/:/B the difference so the meaning of them that is output from the . 2
+10:52:000268:000268_3 : 10:51:16:870: NBA in the kids and then you can see a show me all the games with the statistics that are the minimum number of differences Ribbons if I go back one side you say it's exactly the question that is asked you so I just know that is written in English this is the same thing written in sequel that that's about it so when you have a struggle writing a sequel query tried to . 3
+10:52:000269:000269_4 : 10:51:43:024: Single sentence in your native language because it is you're making it into a single sentence if you can make it into a single sentence than writing the secret is going to be easy and it was the 36/4 games the minimum number of runs is 14 and there are four days that happens to a number of different reasons and the team that won the game so I don't know what . 4
+10:52:000270:000270_1 : 10:52:11:172: But if you was progress credit is really easy to do and you have the result of fast enough see you for the movie story of the NBA . 1
+10:52:000271:000271_2 : 10:52:20:310: And to finish the . 2
+10:52:000272:000272_3 : 10:52:26:322: Sunseeker careers that I like this one Instagram . 3
+10:53:000273:000273_4 : 10:52:32:454: So she gave it to you to read it again . 4
+10:53:000274:000274_1 : 10:52:36:757: You know about MVC model view controller so you can do that into your sequel if you want to that's the model that is a controller That I Love You So the model 36 from the game . 1
+10:53:000275:000275_2 : 10:52:51:433: Do you hear is Sir it's going to be a like a horizontal bar is to run better because the side of the screen is not so why did so I only have 30 days to review and the controller . 2
+10:53:000276:000276_3 : 10:53:11:236: I'm using is a with bucket so I'm going to have Instagram but you know what that works is to run right you are like when you go to the market and you buy tomatoes are apples depending on the size of the Apple there are in different baskets right because there are there is no international normal size of the Opera . 3
+10:54:000277:000277_4 : 10:53:34:380: Container on the others of the same category write to same thing . 4
+10:54:000278:000278_1 : 10:53:41:530: The numbers of different Ribbons that you have in a in a game so most of the games in the NBA history between 25 and 35 differences Ribbons ok . 1
+10:54:000279:000279_2 : 10:53:54:677: Super Glue that you can see you're so you can do that like in a couple minutes of course nobody is going to write that I like it when sitting so you're going to write maybe if that first and then are you going to play around with this because I take some time to have it exactly right and then maybe you don't know how to make an integral around with different values include one as . 2
+10:54:000280:000280_3 : 10:54:20:875: And then you would buy bucket so you need to do something with locators Russell there is a lot of playing around with it but then you . 3
+10:55:000281:000281_4 : 10:54:31:983: You play around with joining the other parts of the queries together and etc and then you have that is enough like you have lunch break like 5-minutes and you have a nice sized Duran Duran like advances or whatever to do the drawing for you when you know it's easy . 4
+10:55:000282:000282_1 : 10:54:53:116: Any questions . 1
+10:55:000283:000283_2 : 10:54:55:489: I want to ask me a question I I I like question so who wants to ask questions . 2
+10:55:000284:000284_3 : 10:55:01:485: Yes . 3
+10:55:000285:000285_4 : 10:55:06:636: I'm going to try to pick the slide . 4
+10:55:000286:000286_1 : 10:55:16:900: This one . 1
+10:55:000287:000287_2 : 10:55:20:032: Today . 2
+10:55:000288:000288_3 : 10:55:24:169: Yeah so I need to repeat the question because for the recording . 3
+10:56:000289:000289_4 : 10:55:30:321: You're using so what does it mean to join using so it means that the name of the guys it's what you were you guessed the name of the Colonial kg exist in both tables Bloxham location so rather than two blocks location that look at the ideas using . 4
+10:56:000290:000290_1 : 10:55:51:528: Same thing it's another way to write it so it's nice . 1
+10:56:000291:000291_2 : 10:55:57:638: The great dark in your code you need to make sure that everybody in the team knows about it otherwise they are they will have no difficulty with you in it and they will not like you because they need to learn some more because I can before they can we do the patch so depending on your team difference that . 2
+10:56:000292:000292_3 : 10:56:12:790: Another question . 3
+10:56:000293:000293_4 : 10:56:16:924: Yes so the question is using you just eat feta if you wanted to macro that is going to be expended . 4
+10:56:000294:000294_1 : 10:56:17:924: Find the Two tables that have the same account name . 1
+10:57:000295:000295_2 : 10:56:33:810: So they don't you ever ever message back . 2
+10:57:000296:000296_3 : 10:56:38:247: Yes . 3
+10:57:000297:000297_4 : 10:56:42:370: Yes so the question is about using Python code in the back-end in postgresql itself so it's called the pl fighting and you have to version of it's appeal in your past credit means programming language or pluggable language you can plug in your programming language whereabouts in postgresql create extension build python eating and then you can write Python code that is executor . 4
+10:58:000298:000298_1 : 10:57:11:519: In the context of a query so I've been using that before in very specific circumstances when project for example we greeted data . 1
+10:58:000299:000299_2 : 10:57:22:658: The user so it was a little crazy but because they used bicycles I didn't have much processing for were so they did they sterilize Folkestone to put a gif format into the database and so the database on the attic and ID and the port above which contains three columns actually it was completely crazy and so what I did is load binary data into postgresql and then right . 2
+10:58:000300:000300_3 : 10:57:47:813: Vitamin A function that with this I realise the photograph later and then I could use that to transfer to the real cause list all tables so in some cases it's really nice to use another I use cases when you want to import some code that you wrote in Python already and you want to use it for example in a join like this you could join and use the Euro an operator that you wrote . 3
+10:59:000301:000301_4 : 10:58:09:920: Because it is eating the back and code and there now it makes sense in postgresql and so you could export Python library and use it as possible to an operator and it works pretty nice . 4
+10:59:000302:000302_1 : 10:58:26:524: The thing I would say about it is the first make sure that it's really hard or impossible to do in sequel to do it and sequel and if it fails or and or if you actually very much need the same code to run as in the earlier the back-end application maybe see your photo pl python . 1
+10:59:000303:000303_2 : 10:58:47:649: Do we have them for another question that one wants to ask the last question . 2
+10:59:000304:000304_4 : 10:59:03:726: Yeah that's a very nice question I love it so . 4
+10:59:000305:000305_1 : 10:59:14:854: So the question is which book would I recommend to answer call and for those of you guys because it's morning . 1
+10:59:000306:000306_2 : 10:59:24:988: Just want you guys . 2
+10:59:000307:000307_3 : 10:59:28:103: A little bit before to use . 3
+11:04:000308:000308_4 : 10:59:32:243: How to use this field right . 4
+11:04:000309:000309_1 : 10:59:36:456: That wasn't very very very nice the last question . 1
+11:04:000310:000310_2 : 10:59:42:586: Remember sofa beds are . 2
+

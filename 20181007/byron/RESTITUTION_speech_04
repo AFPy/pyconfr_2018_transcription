@@ -1,0 +1,119 @@
+ 
+
+04_REx: Implémentation d'un DSL Alexis Benoist
+
+
+12:07:000495:000495_0 : 12:06:42:331: oui tout bien bon bah bonjour à tous je m'appelle Alexis Benoist chez azaé est le but de ce toc CO2 vous montrer de vous expliquer ce que c'est qu'un DSL et pour qu'on en est de montrer une toute petite implémentation d'un DSF donc c'est que du code . 4
+12:08:000496:000496_1 : 12:07:10:485: Isatis est-ce que c'est qu'un DSL lever la main DSF ok donc un dsl ça veut dire domaine . 1
+12:08:000497:000497_3 : 12:07:21:628: Un dsl ça veut dire au domaine spécifique sandwich et donc c'est un c'est un langage qui spécifique un domaine métier déterminé à dire que c'est pas un langage qui peut tout faire ses Palanga générique par exemple c'est un langage qui générique il est ouvert avec mes seins DSL on peut faire que des choses très spécifique avec il est spécialisé donc là je vois y a plusieurs exemples . 3
+12:08:000498:000498_4 : 12:07:51:900: Par exemple un DSL qu'on peut avoir ses dot dot c'est un DSL qui permet de représenter des graphes donc c'est un langage on peut pas faire de calcul avec on peut juste représenter des grains donc là par exemple on a la reprends dation en d'hôtes dans une molécule d'éthane . 4
+12:08:000499:000499_1 : 12:08:15:020: Qu'on peut trouver ces Gherkin . 1
+12:09:000500:000500_2 : 12:08:19:244: Qu'est-ce qui permet de montrer des de décrire des fonctionnalités dans une application donc il a des mots clés il a un des . 2
+12:09:000501:000501_3 : 12:08:30:825: Avec des mots clés scénario given when then et donc en fait à peine de spécifié dans une syntaxe . 3
+12:09:000502:000502_0 : 12:08:39:948: Dans votre application et qu'après date d'application puisse le parfait et faire tester l'application par exemple mais avec un langage comme ça on pourra que tester une application est pas faire d'autre chose c'est en usage qui est très réduit aussi et un autre ds l qu'on peut voir ses par exemple Markdown le Markdown si c'est
+12:09:000503:000503_1 : 12:09:04:057: Il peut être parsé de manière automatique par l'éditeur quand il voit un dièse il voit bien que c'est un titre et quand il voit des . 1
+12:09:000504:000504_2 : 12:09:15:723: 2 étoiles il fait une liste donc en fait ça c'est un DSL qui est spécialisée dans pour afficher deux documents . 2
+12:10:000505:000505_3 : 12:09:25:374: Une question c'est pourquoi est-ce qu'on fait des DSL pourquoi est-ce qu'on fait des dsl . 3
+12:10:000506:000506_0 : 12:09:32:498: Est-ce qu'il recevra ok donc en fait un DSL leurs principales fonctionnalités c'est qui sont plus simple qu'un véritable langage et en fait ça on pourrait dire ouais c'est un problème je peux pas tout faire en fait c'est pas un problème c'est une de leur force de pas pouvoir tout faire ça veut dire qu'en gros ils sont simples donc un utilisateur du métier qui pas informaticien 4
+12:11:000507:000507_1 : 12:09:57:630: est capable de les utiliser et donc pourquoi il est caves du site de l'utiliser il peut l'utiliser facilement parce que c'est des langages qui sont super simple et qui s'apprennent très très facilement parce que n'ont pas tous les mots clés à prendre toutes les choses qui sont spécialisés . 1
+12:11:000508:000508_0 : 12:10:18:766: Et une autre chose c'est que on pourrait dire ouais ok mais pour qu'il puisse ouvert on leur donne tout Java où tous les langues toutes un langage Python où tout ou toute un langage comme ça ils pourront tout faire le problème c'est que si on donne la possibilité un utilisateur d'utiliser un véritable langage et ben ça tu
+12:11:000509:000509_3 : 12:10:41:892: recoder un noyau Linux il peut recoder python il peut faire n'importe quoi et l'envoyer dans le petit champs texte qui est sensé ou censé son comportement métier et sa logique donc ça c'est un gros problème parce que en plus si il peut faire ça il va faire n'importe quoi des choses qui sont passés au disque dur . 3
+12:11:000510:000510_4 : 12:11:02:022: Dis par exemple accidentellement et ça ça peut planter la véritable application en production alors qu'elle est DSL moi j'ai bossé dans une application qui faisait de la détection de fraude pour l'assurance auto . 4
+12:11:000511:000511_1 : 12:11:18:189: On fait ce qu'on voulait c'était que les experts métier qui était expert de tête de détection de fraude puisse écrire leurs règles donc une règle on a on a un exemple de règle ici . 1
+12:11:000512:000512_2 : 12:11:29:797: La tête il . 2
+12:11:000513:000513_3 : 12:11:33:254: L'accident est la nuit . 3
+12:12:000514:000514_4 : 12:11:36:448: La mental hospital est plus grand que le temps de spital le temps de hôpital faut des milles et en fait la . 4
+12:12:000515:000515_1 : 12:11:46:658: Très pratique c'était que c'était des utilisateurs eux-mêmes qui pouvait l'ai rempli . 1
+12:12:000516:000516_2 : 12:11:52:353: Permis spécial donc ça c'était un aucun métier cécile a un permis spécial et où que on est dans ce câlin et en fait on avait pas besoin nous en tant que développeur de gérer ça et c'est le métier directement qui pouvait changer comme il voulait les leurs règle le métier . 2
+12:12:000517:000517_3 : 12:12:10:469: Il prend plein de cas possibles et plein de d'opérateur y a l'opérateur 'et', y a opérateur 'ou', il y a le plus 'petit que' il y a la multiplication et en fait moi ce que je vous propose c'est que pendant cette tentation avec un module qui s'appelle paille parking on va implémenter un tout petit langue l'âge qui obsède de suis là et qui va avoir . 3
+12:12:000518:000518_4 : 12:12:34:534: Multiplier il sera capable de par céder entier des plus et démultiplier . 4
+12:13:000519:000519_1 : 12:12:41:298: On a je suis dans un autre fichier qui est la présentation . 1
+12:13:000520:000520_2 : 12:12:50:386: Aimantation la fonction qu'on va causer . 2
+12:13:000521:000521_3 : 12:12:54:429: Situation rouge grosse . 3
+12:13:000522:000522_4 : 12:12:57:777: Alors c'était . 4
+12:14:000523:000523_1 : 12:13:04:911: Ok vous voyez bien ? . 1
+12:14:000524:000524_0 : 12:13:14:025: Donc là en fait là. Fonction qu'on a c'est un helper qui va nous permettre de faire votre implémentation la 2e fonction c'est la fonction qu'on va implémenter réellement donc c'est un compute...il prend une string et il va retourner un entier . 2
+12:14:000525:000525_3 : 12:13:31:454: Sans doute uno test on voit par exemple que l'on utilise compute sur les strings un sur la string does he ho sur des additions et sur émulsification est sur une combinaison des donc on va commencer par le premier cas qui est le plus simple qui est si j'ai une things I en entrée je dois retourner une un chiffre 1 donc en fait ce que notre langage il va faire c'est que quand . 3
+12:15:000526:000526_0 : 12:13:59:582: Le string un littéralement il retourne un donc on va faire on va dire que un homme beurre pour l'instant c'est égal à un littérale un littérale c'est quelque chose que le langage que le parce que notre programme avoir littéralement ça dire il le voit pour de vrai dans la string il voit un donc il voit un littérale il voit le
+12:15:000527:000527_0 : 12:14:25:699: Faire une addition et cette action ça va simplement être être de retourner un un et on va retourner en fonction dans quelle partie 1 L peur donc on va retourner notre number et s'en va retourner cette expression de number qu'un littéral avec notre action qui est de retourner à notre langage il est hyper simple pour l'instant c'est
+12:15:000528:000528_2 : 12:14:52:811: Et là on parse notre string donc là si je fais tourner les tests envoie les tests on voit que je t'ai tout parce number one ça passe donc si on prend notre deuxième cas notre deuxième 15 saisons - 2 pour se rendre de on va le faire on va le faire tourner la on a un problème on voit qu'on a un problème sur notre affaire de Galles compute deux et à ce qui nous dit c'est que . 2
+12:15:000529:000529_3 : 12:15:17:921: Qui t'attendais à voir c'était un caractère 0 c'est normal notre langage il comprend pas qu'on peut avoir des littérale deux donc ce qu'on va lui dire c'est que soit c un littérale . 3
+12:15:000530:000530_4 : 12:15:30:482: Mettre un littérale deux donc reprends tout est parti là et on va la mettre à la fin donc soit c'est un littérale un, soit c'est un littérale deux . 4
+12:16:000531:000531_1 : 12:15:39:254: Donc là on va changer notre un par un deux dans la 2e partie donc là j'ai un peu le réécrire Lyon va l'appeler One et lui on va l'appeler . 1
+12:16:000532:000532_2 : 12:15:52:090: Donc en fait là c'est assez simple c'est . 2
+12:16:000533:000533_1 : 12:15:57:189: héros le littéral reconnaît le littoral deux c'est le même à part que ils vont A12 retourne un deux donc l'enfer tournée note est et là tu passes tout marche bien . 3
+12:16:000534:000534_4 : 12:16:12:624: On rajoute le cas du 3 donc en fait on pourrait faire ça sur tous les chiffres mais ça très long donc en fait ce qu'on va faire c'est que on va écrire une fonction qui parse pour n'importe quel on va déjà écrit un autre fonction qui parse pour n'importe quel entier donc ce qu'on va dire c'est que notre number notre one one one c'est . 4
+12:16:000535:000535_1 : 12:16:38:239: Et on va dire que soit éteint littérale un . 1
+12:17:000536:000536_2 : 12:16:42:855: Sois sens littéral de . 2
+12:17:000537:000537_0 : 12:16:45:958: Et on va changer notre action... notre action on va faire un sept pains un parfum teger on va faire une . 3
+12:17:000538:000538_0 : 12:16:55:071: Girl qu'est une signature qui ont correspondance avec cette par ce Axione donc il prend une string une location' est la chose qui vous intéressait c'est des token dans les token ce qu'on
+12:18:000539:000539_1 : 12:17:13:182: Le premier token le token c'est une autre part sœur il va subdiviser notre string en différents petits morceaux en différents mots de sens donc là quand on va voir hein hein il va avoir une liste avec un seul token qu'une seule unité de sens qui est la string un donc on va prendre notre token on prend le premier et ça c'est une string donc pour le changer en intérieur . 1
+12:18:000540:000540_2 : 12:17:38:785: On a plus besoin de notre retour donc là en fait on a un groupe qui parfois littérale un soin littérale 2 et après qu'il fait l'option La qui fait l'action parfum donc la note est il continue de marcher on va un peu Factory Online . 2
+12:18:000541:000541_0 : 12:17:56:924: Ok donc là notre numbers et soins un soin d'eux et on va passer au cas 3 le 4. On pourrait juste rajouter un ou littérale 3 mais en fait c'est un peu gros donc on va utiliser une fonction dans taille Martinique elle peur qui s'appelle one of one of Squeezie c'est que en fait on prend un des choix suivant.... 2...... 6 7 8 9 . 3
+12:18:000542:000542_4 : 12:18:25:074: Du littérale de . 4
+12:18:000543:000543_1 : 12:18:27:774: On peut même on peut faire ton les tests donc tous nos tests passe . 1
+12:19:000544:000544_2 : 12:18:33:272: Donc, on arrive au cas suivant si on a un nombre avec plusieurs chiffres . 2
+12:19:000545:000545_3 : 12:18:38:312: Pour traiter un nombre avec plusieurs chiffres parce que la nôtre implémentation pour l'instant elle s'attend avoir qu'un seul littérale 1 2 3 4 5 6 7 8 9 . 3
+12:19:000546:000546_4 : 12:18:48:144: Il attendait la fin du texte donc en fait on va dire que on a un mot un mot c'est juste un ensemble de ces string et le mot il y a pas d'espace entre les caractères du mot . 4
+12:19:000547:000547_0 : 12:19:03:266: Ok donc là on est capable de parser la notre lang... on a écris un petit langage qui va pouvoir parser n'importe quel chiffre même un ou plusieurs nombres maintenant le nouveau la nouvelle chose qu'on va faire c'est que on va ajouter notre première opération notre première opération s'est le plus donc on a une expression c'est un nombre suivi d'un littérale plus suivi d'un nom . 1
+12:19:000548:000548_2 : 12:19:29:390: Soit c'est ça . 2
+12:19:000549:000549_3 : 12:19:32:507: C'est juste un nombre avant juste . 3
+12:20:000550:000550_4 : 12:19:37:754: Soit c'est ça soit c'est juste un homme beurre . 4
+12:20:000551:000551_1 : 12:19:41:879: Ok est où le tard c'est un homme beurre on passe une expression . 1
+12:20:000552:000552_2 : 12:19:47:573: Et là on a un petit problème c'est que oui en fait on a oublié notre 7 mars actionne là il retourne juste quand il voit cette partie-là Virton juste une liste avec avec . 2
+12:20:000553:000553_0 : 12:20:01:514: Mais en fait cette liste il faut la processer
+12:20:000554:000554_4 : 12:20:07:647: Plus . 4
+12:20:000555:000555_1 : 12:20:09:770: Donc notre parse "plus "qu'est-ce qui va faire il va faire la somme des chiffres et en fait le truc c'est que les chiffres il faut en prendre un sur deux parce que ça à faire un plus un est le plus on va faire la somme de plus donc on va juste l'exclure donc on va faire un token sur deux . 1
+12:21:000556:000556_2 : 12:20:30:524: Ok on problème . 2
+12:21:000557:000557_3 : 12:20:34:786: Un thé sous ton pied de plus et oui c'est pas sympa Pineau cette personne donc il faut qu'on appelle notre parce plus . 3
+12:21:000558:000558_4 : 12:20:43:518: Non on a tout qui passe et maintenant on a un nouveau car on a le cas où il y a 3 ça c'est un nouveau cas et en fait on pourrait juste faire un ou mais on va utiliser un L peur parce que en gros une une addition qu'est-ce que c'est . 4
+12:21:000559:000559_1 : 12:21:02:104: Nombre plus un nombre plus un nombre mais en fait c'est un nombre et toute cette partie-là le plus un nombre on voit qu'elle poste répéter elle peut se répéter 01 plus de . 1
+12:21:000560:000560_2 : 12:21:18:216: Donc là on va mettre un 0 or more . 2
+12:21:000561:000561_3 : 12:21:23:747: Que il faut en avoir plusieurs . 3
+12:21:000562:000562_4 : 12:21:28:014: Ok . 4
+12:22:000563:000563_1 : 12:21:30:736: Et du coup là on à hôtesse qui passe et du coup vu qu'on a 0 remorque un nombre c suivi d'un ensemble de un plus de 20 et d'un nombre qu'on voit zéro en plus d'une fois on peut enlever notre premier nombre . 1
+12:22:000564:000564_2 : 12:21:49:080: Ok ça passe toujours . 2
+12:22:000565:000565_3 : 12:21:52:551: Ensuite on a un nouveau car c'est le cas du x le cas du multiplier je vais vous le faire directement pour les deux car en fait c'est assez similaire au plus parce que c'est juste un nombre plus zéro ou une fois . 3
+12:22:000566:000566_4 : 12:22:10:051: Nombre 0 8 x 1 note nombre donc ça veut dire que on a un nombre on a des multiplier et qui va changer là-dedans c'est notre part ce Axione ça va être un parseMult . 4
+12:22:000567:000567_1 : 12:22:23:123: Parce que . 1
+12:22:000568:000568_2 : 12:22:25:244: Ok il lui qu'est-ce qu'il fait il a un résultat qui à la base = 1 on fait une boucle surtout no token . 2
+12:23:000569:000569_3 : 12:22:36:338: Tu no token un père comme d'hab pour pas avoir nos signes . 3
+12:23:000570:000570_4 : 12:22:42:396: Là on fait un result = notre qui petit token et ensuite on retourne juste notre "result" . 4
+12:23:000571:000571_1 : 12:22:52:507: Ok donc on a on a nos deux tests qui passe . 1
+12:23:000572:000572_2 : 12:22:58:373: Envoie que sur cette ligne C je ferme et est-ce qu'on verra mieux donc sur cette ligne on a soit une addition soit une multiplication. 2
+12:23:000573:000573_3 : 12:23:07:607: mais en vérité ce qu'on va faire c'est les deux . 3
+12:23:000574:000574_0 : 12:23:12:601: Ce qu'on va faire c'est les deux c'est avoir une multiplication une addition et des multiplications en même temps on veut. J'irai de câlins mais le truc c'est que dans ce cas là on a une problématique c'est que on a la précédente des opérateurs la présidence des opérateurs qu'est-ce que c'est c'est juste quand on a 1 2 x 3 on fait pas ça on fait pas 2 3 ça c'est pas . 4
+12:24:000575:000575_1 : 12:23:37:748: Ça fait on a commence par appliquer celui là et ensuite on rajoute 2 . 1
+12:24:000576:000576_2 : 12:23:44:008: Donc là en fait on va dire dans un premier cas c'est que toute cette expression on va la sortir dans une multiplication . 2
+12:24:000577:000577_3 : 12:23:54:421: En fait la somme de x il y a des noms qui se multiplient ces personnes chez leurs produits et ben ça ça rend dans un terme donc un terme c'est ça et ensuite dans l'expression on reprend chacun des termes et on les additionne . 3
+12:24:000578:000578_1 : 12:24:11:567: Et là on a bien tout noté ce qui passe . 1
+12:25:000579:000579_2 : 12:24:15:331: Pour revenir alors on va arriver sur la conclusion donc ce qu'on a vu c'est qu'on a vu comment implémenter un mini langage un mini langage qui a déjà été utilisé 7 7 d'un langage utilisé en prod . 2
+12:25:000580:000580_0 : 12:24:33:465: Les différentes à venda gilet raison de faire un DSL c'est que ils sont simples ils sont sécurisées et en plus ça on l'a pas trop vu. Si on l'a vu ? Métier on aurait pu se voir en parlant de tout ce qui est le vocabulaire commun avec le métier de comment élaborer . 3
+12:25:000581:000581_0 : 12:24:54:135: Active on aurait avec ce petit langage c que ce qu'il engagement on aurait pu implémenter des nouvelles fonctionnalités dont on a fait monter une nouvelle fonction et Excel diviser on aurait pu faire le moins on aurait pu faire du parenthésage par exemple et en plus on aurait
+12:26:000582:000582_1 : 12:25:17:218: Aussi un autre truc dont j'ai pas parlé parce que j'avais pas le temps c'est qu'on aurait pu faire un abstract syntax pris un abstract syntax tree qu'est-ce que c'est un arbre qui représente le langage un arbre ça peut symboliser mes seins très simple avec des listes en fait c'est un arbre on dit que quand on a un plus quelque chose . 1
+12:26:000583:000583_2 : 12:25:39:344: Élément Keynote multiplication donc c'est quelque chose qu'on aurait pu implémenter en plus pour d'autres fonctionnalités un autre langue . 2
+12:26:000584:000584_3 : 12:25:48:475: Si je pourrais écoute ce que vous avez des questions . 3
+12:27:000585:000585_3 : 12:26:45:441: Alors pour la question c'est au pourquoi a pas respecté les différentes phases classiques dans la . 3
+12:27:000586:000586_4 : 12:26:46:441: Comme le lexique le parsing le . 4
+12:27:000587:000587_1 : 12:26:56:634: Crée la pâtisserie pourquoi est-ce qu'on a pas fait ça en fait c'est principalement en gros on a quand même dans notre langage une vision de la grammaire CE1 si on oublie les 7 personnes c'est assez proche c'est presque une image la grammaire BNF de langage et ensuite c'est vrai que par rapport à un projet classique de langage et ben on a fait toutes les couches en même . 1
+12:28:000588:000588_2 : 12:27:24:760: Et en fait on fait un langue un langage c on fait un peu reduce sont réduits petit à petit notre arbre au lieu de le garder et on fait toutes les faces en même temps en fait la raison de faire ça c'est principalement que c'est le temps c'est en fait aussi en plus de montrer comment le paquet de marche en 25 minutes c'était vraiment pas possible c'est pour ça que je le . 2
+12:28:000589:000589_3 : 12:27:48:887: Une évolution du langage possible c'est quelque chose qui est intéressant de faire . 3
+12:29:000590:000590_4 : 12:27:55:010: Au final pour cette implémentationn là on a pas besoin mais c'est vrai que ça l'empêche évolue dans le futur et ça peut être un problème dans le future il y avait une fonction été par exemple de capable de ressortir notre opération sous forme de JSON pour le faire manger à notre système ben oui avec ce langage un on peut pas le faire . 4
+12:29:000591:000591_1 : 12:28:18:131: Mais au pour les besoin qu'on a juste exprimer qui est de calculer une valeur ça marche parfaitement . 1
+12:29:000592:000592_0 : 12:28:25:591: Alors la question c'est est-ce que j'ai envisagé utiliser python comme un DSN interne alors le truc qui était assez marrant c'est que à la base des trade-off d'utiliser python comme un DSC la sécurité c'est un gros problème c'est que si on écrit du Piton on peut rentrer n'importe quoi et on peut faire les opérations sur l'eau
+12:30:000593:000593_0 : 12:28:58:720: Mais en fait dans le projet que j'évoquais c'est à la fin un truc qu'on a vraiment fait dans le langage et on avait une partie qui marchait comme ça et pour une autre besoin de un autre une autre partie du projet on avait fait le langage que je présente il est assez simple que je sais que c'est presque un sous-domaine du Piton
+12:30:000594:000594_4 : 12:29:23:844: Qui transformé en été qui signifie délester et qui faisait Val à la fin du . 4
+12:30:000595:000595_2 : 12:29:31:975: Mon premier ça marchait pas du tout et c'est plus intéressant d'avoir un vrai a été à la . 2
+12:30:000596:000596_4 : 12:29:48:279: Non en fait ouais tu sais c'est même un truc qu'on avait fait en fait on a implémenté un visiteur qui se balader dans la St Python et au cabinet white is opérateur . 4
+12:31:000597:000597_1 : 12:29:49:279: Vendée 10 x 10 multiplié les comparaisons bah là il faut et il empêcher la semaine de rentrée donc ça ça me permettait de sanitiser est-ce que ça prendrait plus de temps en fait . 1
+12:31:000598:000598_2 : 12:30:31:932: J'aime personnellement j'aime bien dans cette tentation est cette manière de faire c'est que ça c'est un langage qui a un sale tête de python mais avec ce système de grammaire on pourrait faire des choses même qui correspondent pas à la grammaire Python et faire des langages et ça ça ouvre d'autres possible pour moi et ça super intéressant . 2
+12:31:000599:000599_3 : 12:30:52:281: Location . 3
+12:31:000600:000600_1 : 12:30:56:415: Ah oui oui oui ça en fait tous les opérateurs par là c'est que du bizar signe qu'on fait . 1
+12:31:000601:000601_2 : 12:31:12:268: GPS a été claire dessus mail à tous les opérateurs c'est que du bipartisme c'est le frère de la librairie qu'on utilise pour faire toute la flemme que j'ai montré du parking . 2
+13:57:000602:000602_3 : 12:31:26:374: Bonne fête c'est pas comme ça qui marche c'est-à-dire que il fait tourner taille . 3
+13:57:000603:000603_4 : 12:31:34:894: Email parser c'est qui la BNF à partir de la BNF on est capable de passer . 4
+14:23:000604:000604_0 : 12:31:40:445: Ok. Merci . 1
+
+
+
+ 

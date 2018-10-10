@@ -1,0 +1,321 @@
+ 
+
+05_WeasyPrint : 8 ans de la première ligne à la version stable Guillaume Ayoub
+
+
+
+
+14:00:000735:000735_3 : 13:58:37:673: Bonjour . 3
+14:01:000736:000736_4 : 13:58:43:784: Bienvenue . 4
+14:02:000737:000737_2 : 13:58:55:078: Céfixime transforme du HTML en PDF . 2
+14:02:000738:000738_3 : 13:59:02:849: Les documents des rapports locatifs . 3
+14:03:000739:000739_4 : 13:59:07:164: Bonjour . 4
+14:04:000740:000740_3 : 14:00:32:937: On va bien attendre cinq minutes . 3
+14:05:000741:000741_1 : 14:01:50:555: Sur un fond du . 1
+14:05:000742:000742_2 : 14:02:27:025: On attend 2 minutes. 2
+14:05:000743:000743_4 : 14:02:55:600: Si débarrasser des grands comptes . 4
+14:05:000744:000744_3 : 14:03:48:269: Voyage . 3
+14:05:000746:000746_2 : 14:04:06:961: Un micro ça va te . 2
+14:05:000747:000747_4 : 14:04:54:595: Le premier c'est comment on créer un programme à partir d'une idée stupide et comment on arrive à construire quelque chose de marrant . 4
+14:06:000748:000748_1 : 14:05:04:752: Ah pardon . 1
+14:06:000749:000749_3 : 14:05:16:027: Plus fort . 3
+14:06:000750:000750_4 : 14:05:19:144: J'ai pas dire comme ça pendant 50 minutes mais je vais on va essayer . 4
+14:06:000751:000751_0 : 14:05:25:280: FLE facebook comment on peut partir d'une idée et avec 8 ans arrivé à construire quelque chose qu'on peut appeler une application stable même si l'application stable ça veut pas dire grand-chose et la deuxième chose que je voulais faire avec vous c'était parler de série et parler de personnage de série et faire un blind test
+14:06:000752:000752_2 : 14:05:46:406: Plutôt envie de faire des blind test que de regarder des conférences donc si ça vous ira on va mélanger un petit peu les deux et voilà vous me faites signe si vous avez envie de plus de blind test . 2
+14:06:000753:000753_3 : 14:05:58:435: Je vais essayer de mélanger un peu les deux si il faut que je sois pas totalement perdu comme ça au milieu de tout mais on verra ce que ça donne . 3
+14:06:000754:000754_4 : 14:06:05:976: Je vais commencer par le blind test du coup . 4
+14:06:000755:000755_1 : 14:06:10:101: On va partir un petit peu cette histoire de comment on part de weasyprint qui a un outil qui va permet de transformer du HTML et CSS en PDF donc en gros ça permet de générer des documents des rapports . 1
+14:06:000756:000756_2 : 14:06:22:338: Et on va partir du tout début du projet pour voir comment ça se construit et voir comment on est arrivé à faire quelque chose de sérieux à partir d'une idée totalement débile . 2
+14:07:000757:000757_3 : 14:06:35:295: est-ce que voulez-vous donner des noms des équipes . 3
+14:07:000758:000758_0 : 14:06:38:132: On va faire deux équipes comme ça on va faire un match. Comment voulez vous appeler ? 4
+14:07:000759:000759_1 : 14:06:44:695: weasyprint _rry Zinal les huîtres très bien les huîtres . 1
+14:07:000760:000760_2 : 14:06:52:115: Les moules . 2
+14:07:000761:000761_0 : 14:06:55:516: Les moules contre les huitres. Je pense que ça va bien se passer forcément . 3
+14:08:000762:000762_4 : 14:07:01:647: Donc maintenant ça va être de trouver à partir j'ai pas que j'allais ensemble mais normalement je fais des tests de voir chez je veux passer un petit morceau de musique la reconnaître la série générique normalement début c'est facile c'est pour vous participiez . 4
+14:08:000763:000763_1 : 14:07:16:772: Après ce sera plus dur peut-être . 1
+14:08:000764:000764_3 : 14:07:25:321: On est parti pour le premier . 3
+14:08:000765:000765_4 : 14:07:32:084: Il y a plus de son . 4
+14:08:000766:000766_3 : 14:07:54:698: The big bang theory . 3
+14:08:000767:000767_4 : 14:08:01:454: Ça fait un/zéro pour les moules, du coup tout le monde est d'accord, parfait . 4
+14:09:000768:000768_1 : 14:08:08:738: Ah merci . 1
+14:09:000769:000769_0 : 14:08:22:931: Bah du coup est ce que c'est bien ? Le micro marche ? 3
+14:09:000770:000770_0 : 14:08:35:061: Est-ce que tu veux parler de Penny du coup ? 1
+14:09:000771:000771_0 : 14:08:40:792: Pas spécialement. L'idée c'était parler de l'insouciance. Il faut gnagner mais maintenant qu'on a un point il faut bien de réussir à parler, autrement je peux en parler . 2
+14:09:000772:000772_3 : 14:08:50:151Ça inspire quoi Penny ? l'insouciance, rien du tout, pas grand-chose . 3
+14:09:000773:000773_4 : 14:08:59:274: A au moins vue vaguement non c'est une série ou en gros il y a un groupe de personnes qui sont des scientifiques qui habite en face d'une fille qui est actrice et qui connaît rien du tout à la science parents les scientifiques sont pas très bon pour tout ce qui est relations humaines et elle par contre totalement l'habitude de la pop culture et va essayer un petit . 4
+14:10:000774:000774_1 : 14:09:19:401: de les sortir de leur trou de scientifiques donc situation assez drôle . 1
+14:10:000775:000775_2 : 14:09:24:511: Elle donc l'actrice principale qui joue le rôle . 2
+14:10:000776:000776_0 : 14:09:28:328: Cette personne qui ne connaît rien à la science, est une fille normale en fait comparée aux scientifiques et totalement insouciante. Elle n'a pas vraiment de boulot, elle n'a pas vraiment d'argent mais elle arrive toujours à s'en sortir et en gros ce qui lui permet de tirer sa force et son caractère c'est cette capacité à ne pas comprendre les choses qui sont compliquées ou à . 3
+14:10:000777:000777_4 : 14:09:29:328: Ne pas vouloir comprendre . 4
+14:10:000778:000778_2 : 14:09:53:922: Et dans la création weasyprint en fait c'est comme ça que ça se fasse et je vais vous raconter au début la petite histoire donc ça revient dans une entreprise informatique s'appelle et on voulait faire des factures et pour faire des factures c'était compliqué au début on a essayé de faire ça en utilisant SVG qui a un format c'est pour faire Finale y a des moments où ça marche pas très bien . 2
+14:11:000779:000779_0 : 14:10:18:591: Il faudrait faire c'est tous nos documents on pourrait les générer en fait plutôt que de faire tout à la main à chaque fois dans un traitement de texte ou plutôt que d'essayer de trouver des trucs qui permet de faire des dessins on va directement utiliser HTML et CSS qui sont super bien pour faire des sites mais en fait les siphons peux très
+14:11:000780:000780_4 : 14:10:37:714: Ça tombe bien des logiciels libres qui font navigateur et ils connaissent HTML et CSS à l'époque . 4
+14:11:000781:000781_1 : 14:10:46:829: Naviguez copine qui était à la base dans firefox il y a des Weppes qui était encore dans Chrome . 1
+14:11:000782:000782_2 : 14:10:54:130: Bah on a juste a pas de chez Gecko . 2
+14:11:000783:000783_3 : 14:10:58:209: Aller à inclure les fonctionnalités qui manquent en gros ce qui manquait c'était couper les pages . 3
+14:12:000784:000784_1 : 14:11:04:335: Gros boulot moi j'y d'Aman quand on rentre dans le code de gecko dans le code de webkit en fait c'est décédé code gigantesque on comprend rien du tout . 1
+14:12:000785:000785_0 : 14:11:14:430: Des trucs horribles et bon qui semble être à la base une bonne idée on se dit ouais ça va peut-être prendre un mois mais bon finalement ça sert révéler totalement désastreux, on essaie de changer de 3 lignes on essaye de continuer 2
+14:12:000786:000786_3 : 14:11:31:898: Ah peut-être que ça marche et non ça plante voilà en gros ça s'est arrêté là au bout de quelques semaines on se dit que c'était pas possible de travailler comme ça . 3
+14:12:000787:000787_4 : 14:11:39:475: À l'époque j'avais un autre projet qui s'appelle KHTML qui est l'ancêtre de webkit et ses ancêtres là il commençait à rajouter des fonctionnalités pour faire des pages donc on s'est dit "trop bien on va pouvoir récupérer ça" . 4
+14:12:000788:000788_1 : 14:11:39:000: Le Petit des fonctionnalités donc on voulait et en plus qu'à acheter mais c'était donc on se taper tous les problèmes qu'on a la vendeuse c'est gigantesque c c . 2
+14:13:000790:000790_3 : 14:12:12:117: Et là on a fait Penny ok on va faire notre propre moteur de rendu ce sera mille fois plus simple que de repartir de l'existant . 3
+14:13:000791:000791_4 : 14:12:21:652: Elle est née vraiment de cette insouciance de dire faire un moteur de rendu ça doit pas être si compliqué que ça très sincèrement si des petites boîtes comme Apple ou comme Google ou comme Mozilla sont capable de le faire nous avec nos petits bras on est totalement capable de faire un moteur de rendu nous-même voilà . 4
+14:13:000792:000792_1 : 14:12:42:761: Et on a commencé à réfléchir à l'époque la personne qui portait le projet . 1
+14:13:000793:000793_2 : 14:12:49:392: Alors très vite on a écrit ce bout texte au début pour dire on est fou on est insouciance on a ce côté-là où on réfléchit pas mais quand même même quand on réfléchit finalement il y a pas tant de travail que ça à faire faire un moteur de rendu quand on découpe tout ça . 2
+14:13:000794:000794_3 : 14:13:08:763: Normalement . 3
+14:14:000795:000795_4 : 14:13:11:903: Pas de toute façon même si ça marche pas au pire on arrêtera autant qu'on se lance dans cette histoire là et on réfléchira plus tard . 4
+14:14:000796:000796_0 : 14:13:20:243: On a agi et après on a réfléchi et ça se passe toujours bien dans ce genre de situation donc comme vous voyez on est arrivé au bout de ce qu'on voulait presque. On est en 2011 et en 2011 il doit y avoir quelques centaines de lignes de code et ça fait tellement rien . 1
+14:14:000797:000797_0 : 14:13:38:896: Et c'est là qu'on arrive au 2ème chapitre et donc on va repartir sur le blind test. Allez les huîtres vous allez pouvoir égaliser, on va partir sur le 2ème. 2
+14:14:000798:000798_3 : 14:13:51:004: Avec un chef . 3
+14:14:000799:000799_4 : 14:13:55:462: À partir sur le deuxième morceau musique . 4
+14:14:000800:000800_1 : 14:14:00:005: Monter le suspense. 1
+14:14:000801:000801_2 : 14:14:03:880: Ça va aller vite . 2
+14:15:000802:000802_1 : 14:14:23:350: La . 1
+14:15:000803:000803_2 : 14:14:30:582: Elle se passe dans l'espace . 2
+14:15:000804:000804_3 : 14:14:35:548: Battlestar Galactica . 3
+14:15:000805:000805_0 : 14:14:46:792: C'est gentil merci beaucoup. Est-ce que tu veux nous raconter ce que c'est Battlestar Galactica ? Et en particulier nous parler de Laura Roslin; un des personnages principaux . 1
+14:15:000806:000806_0 : 14:15:00:140: Qui est-ce qui a répondu ? 2
+14:15:000807:000807_0 : 14:15:05:312: Personne n'a répondu ? En fait c'est toi qui a répondu ! 3
+14:16:000808:000808_4 : 14:15:11:160: Ok . 4
+14:16:000809:000809_1 : 14:15:14:268: Exactement ouais . 1
+14:16:000810:000810_0 : 14:15:17:633: C'est savoir l'histoire en gros c'est des gens qui sont sur des planètes et qui se font détruire par des robots. On va allez très vite hein. Ils se font détruire par des robots et il se trouve qu'il reste quelques vaisseaux spatiaux qui sont dans l'espace et que du coup il dit bah voilà il reste plus beaucoup d'humain il va falloir qu'on survive et ils remontent à la petite échelle une société humaine de quelque vaisseaux. 2
+14:16:000811:000811_3 : 14:15:37:772: Une société humaine et elle elle est au gouvernement américain à l'époque mais elle est très très loin dans le gouvernement mais comme c'est la seule qui reste elle se retrouve à être présidente de des humains qui restent . 3
+14:16:000812:000812_0 : 14:15:49:933: Personnage au début qui est beaucoup décrier parce qu'elle est jugé comme étant une prof totalement l Venise de l'enseignement totalement décorrélée des jeux politiques et incapable d'avoir une vision et quelque chose de construit pour son état et en fait très très vite elle va prendre le lead surtout ce qui va
+14:17:000813:000813_1 : 14:16:13:049: Qu'est-ce qu'elle a imposé elle va être touché un moment par une vision mystique. 1
+14:17:000814:000814_0 : 14:16:16:829: Elle va réussir à emmener le buter d'emmener d'arriver à emmener les humains sur une terre qu'ils pourront coloniser et l'histoire du film c'est à partir de cette idée il faut que j'amène les humains sur une planète diable c'est le seul but le seul. Qu'elle va fixer et grâce à cette vision elle va tirer une force incroyable pour réussir à rémi a amené tout ce qui reste d'humanité . 2
+14:17:000815:000815_3 : 14:16:39:951: Faire reproduire et reconstruire à l'humanité . 3
+14:17:000816:000816_4 : 14:16:44:371: Là tu es un peu la même chose qui s'est passé pour nous même si elle est moins d'étoiles et moins de vaisseaux spatiaux . 4
+14:18:000817:000817_1 : 14:16:51:355: L'idée c'était de se donner des règles super simples parce que on allait pas non plus tout faire et les récupère simple c'était on veut HTML et CSS on transforme en PDF ça c'était la règle de base et à partir de ça on va pouvoir s'asseoir sur quelque chose de concret. 1
+14:18:000818:000818_0 : 14:17:07:180: et léger . On voulait que ça soit important qu'on n'aie pas à installer un milliard de trucs ou alors à avoir des usines à gaz formidables aller sur des serveur que généralement utilisé sur les serveurs . 2
+14:18:000819:000819_3 : 14:17:19:287: Les standards parce qu'on ne veut pas se comporter comme d'autres entreprises qui font des navigateurs et qui elles ne respectent pas toujours les standards . 3
+14:18:000820:000820_4 : 14:17:27:194: Et dans les sois fort qu'on s'était mis au début c'était pas de javascript parce que faire un moteur de rendu HTML et CSS au tampon en 2 minutes on peut faire ça autant faire du JavaScript concrètement ça me semblait plus compliqué c'est pas vrai tu as pas pris deux minutes . 4
+14:18:000821:000821_1 : 14:17:41:272: Donc ça c'était la vision et c'est une vision qui a l'air facile à tenir mais en fait tu es pas si facile à dire souvent on va être tenté de dire on va supporter d'autres langage pourquoi on n'accepterait pas d'avoir du XML un peu bizarre en fait pourquoi on inclurait pas un petit peu de javascript pourquoi on essaierait pas faire des choses comme ça mais ça c'est une vision claire . 1
+14:18:000822:000822_2 : 14:18:01:390: Un objectif et grâce à cette vision là on va pas repeupler l'humanité on va juste d'arriver à sortir des documents PDF . 2
+14:18:000823:000823_0 : 14:18:09:266: Jusque-là tout va bien ? 3
+14:18:000824:000824_4 : 14:18:12:369: C'est la partie 3 sur la logique . 4
+14:18:000825:000825_1 : 14:18:18:992: La ça va aller très vite normalement attention . 1
+14:18:000826:000826_2 : 14:18:24:135: 50 minutes . 2
+14:18:000827:000827_3 : 14:18:33:804: Je sais pas encore . 3
+14:19:000828:000828_4 : 14:18:36:927: Répondu c'était la . 4
+14:19:000829:000829_0 : 14:18:39:193: Tu veux nous parler d'X Files du coup ? 1
+14:19:000830:000830_2 : 14:18:44:285: Sur la partie logique . 2
+14:19:000831:000831_3 : 14:18:49:904: La vérité est ailleurs . 3
+14:19:000832:000832_4 : 14:18:53:181: Exactement et Scully par rapport à en fait ils sont deux et Scully par rapport à son . 4
+14:19:000833:000833_1 : 14:19:03:312: Le Gard et ils sont deux et il y en a un qui croit vraiment a paranormal et qui va inventer les théories un petit peu olé-olé par rapport à tout ce qui va être . 1
+14:19:000834:000834_2 : 14:19:04:312: Tire-lait les médecins elle est hyper rationnel et LCL qui va en gros amener toute la partie logique a quelqu'un qui manque clairement de logique . 2
+14:19:000835:000835_3 : 14:19:29:344: C'est parti logique en fait ça a été le moment ou à partir du moment où on avait pas réfléchi on s'était dit on va y aller c'est le moment on se . 3
+14:20:000836:000836_4 : 14:19:37:770: Tu donnes des idées sur ok . 4
+14:20:000837:000837_1 : 14:19:40:900: On va comment va découper les différentes âge pour arriver à faire contre . 1
+14:20:000838:000838_2 : 14:19:45:552: Donc il est de sa . 2
+14:20:000839:000839_3 : 14:19:48:079: Aller à Célie tu l'as eu . 3
+14:20:000840:000840_4 : 14:19:50:536: Vous arrivez à lire là ou pas ? Ok donc là c'est le moment il va falloir se concentrer donc pour les gens qui dorment réveillés, c'est le dernier moment où on va parler de technique. 4
+14:21:000841:000841_0 : 14:20:11:356: L'idée c'est de vous expliquer en très très gros comment marche un navigateur c'est bon tout le monde connait ?
+14:21:000842:000842_3 : 14:20:20:892: Pour un navigateur on prend du HTML en entrée donc du HTML c'est un langage vous avez tout jusque ce que c'est du HTML à peu près et du CSS aussi donc je pars partir là-dessus donc il essaie on a des feuilles de HTML et on a des feuilles de CSS qui existe sur un ordinateur ou sur un serveur . 3
+14:21:000843:000843_1 : 14:20:38:043: On va avoir du CSS. 1
+14:21:000844:000844_2 : 14:20:40:535: Et le transformer en un arbre qui va contenir les différents éléments de ces html en gros ça s'appelle "parser HTML" comprendre comment marche parce que elle prend le fichier texte en mettant des étiquettes avec intérieur des blocs DWG . 2
+14:22:000845:000845_3 : 14:20:56:671: elle est fait par une bibliothèque qui s'appelle html5lib et elle existe déjà donc ça c'est déjà fait passer plutôt . 3
+14:22:000846:000846_4 : 14:21:04:430: De la même manière quand on a du HTML après on va trouver des liens vers du CSS donc il va falloir aller chercher du 16 le CSS c'est pareil il va falloir apprendre le fichier texte et comprendre à l'intérieur ce qu'il y a il y a des sélecteur il y a des attributs des choses comme ça et du coup le texte en ligne structure logique qui permet de représenter que sont les différentes . 4
+14:22:000847:000847_0 : 14:21:24:551: Là-dessus malheureusement il y avait pas de souci qui nous convenait pour faire cette partie-là et donc on a été obligé de faire cette partie dans une bibliothèque qui s'appelle tiny CSS passer le premier boulot. . 1
+14:22:000848:000848_2 : 14:21:36:672: Une fois qu'on a nos 6 arbre HTML et CSS il va falloir mélanger tout ça en gros il faut prendre la règle qui va dire que là on a le body on sait que le body il a un attribut s'appelle ma grande et que ça va être rouge qui veut dire que le font du body va et du coup il va falloir . 2
+14:22:000849:000849_3 : 14:21:55:801: Quand on a "body" comme sélecteur ça veut dire que c'est le temps qui s'appelle body si . 3
+14:23:000850:000850_4 : 14:22:02:870: Il faut associer toutes ses règles aux différents nœuds qui existent dans notre arbre HTML et appliquer les différentes propriétés. 4
+14:23:000851:000851_1 : 14:22:14:999: Les classes des identifiants il y a des pseudos sélecteurs, c'est compliqué de savoir à quel type de noeud on s'applique et puis en terme de propriété derrière et des propriétés qui vont s'écraser les unes les autres conseils si on a un sélecteur qui est plus spécifiques il a prendre le dessus sur un sélecteur . 1
+14:23:000852:000852_2 : 14:22:33:118: À une boîte elle est rouge mais si je dis la boîte avec cette Heidi là elle va être bleu comme la vie va être plus spécifiques que juste dire une boîte et ben du coup à la boîte avec la vie stable . 2
+14:23:000853:000853_0 : 14:22:46:634: Rien du tout et donc la deuxième boulot. Faire travailler sur l'outil qui s'appelle CSS select . 3
+14:23:000854:000854_4 : 14:22:53:748: Règles acheter des règles CSS a L'ARBRE HTML et pouf ça nous applique le CSS sur le html . 4
+14:23:000855:000855_1 : 14:23:00:680: Et là on arrive à cet arbre là avec les propriétés qui sont attachées à chacun . 1
+14:24:000856:000856_2 : 14:23:09:800: et l'étape d'après qui va permettre de créer des petites boîtes donc on a notre arbre avec les différents tags à l'intérieur du HTML . 2
+14:24:000857:000857_3 : 14:23:18:706: il sait faire et grâce à ça on va pouvoir créer des vrais boîte qui sont les boîtes logique de nos structures on nage en général une boîte par petits tag qu'on a la gauche tu as dit à ton papa . 3
+14:24:000858:000858_4 : 14:23:29:790: On va couper une boîte pour la Dive mais des fois c'est pas le cas il y a des boîtes qui vont disparaître par exemple si on médicinales sur un élément la boîte elle va pas être visible on va pas créer de boîte pour cet outil donc y a pas une correspondance . 4
+14:24:000859:000859_1 : 14:23:43:917: 1-1 entre le HTML et les boîtes qu'on va sortir pareil on peut mettre par exemple before et after qui vont permettre de rajouter des boîtes à l'intérieur ça c'est des choses qui vont créer des boîtes qui n'existe pas dans le HTML . 1
+14:24:000860:000860_2 : 14:23:56:494: Il est fait par la première partie de . 2
+14:25:000861:000861_3 : 14:23:59:918: La 2e parti weasyprint elle va permettre de pouvoir créer le layout une fois qu'on a nos boîtes logique conseil en gros quels sont les types de boîtes qu'on va devoir affichez maintenant il va falloir décidé de on va les positionner un rapport aux autres . 3
+14:25:000862:000862_4 : 14:24:14:039: Créez de nombreuses boîte n'existait pas avant par exemple quand vous avez un texte et super long d'un point de vue logique si tu le texte est dans un pays vous allez avoir une boîte te faire le dessin il va falloir dessiner une boîte par ligne . 4
+14:25:000863:000863_1 : 14:24:29:161: Créez de nombreuses boîte n'existait pas avant par exemple quand vous avez un texte super long d'un point de vue logique si tu le texte est dans un pays vous allez avoir une boîte te faire le dessin il va Permet de pouvoir dire là on va découper sa fin de boissons plusieurs petites boîtes à l'intérieur et tu travailles de dire où est-ce qu'on va les mettre où est-ce qu'on va les mettre si on fait le plus gros du travail c'est à partir des règles du CSS qu'on va pouvoir dire là cette boîte ça elle va envoie gauche et droite et le texte qui se suit les lettres elles sont toutes . 1
+14:25:000864:000864_3 : 14:24:48:389: Travailler c'est ça le plus gros du travail et c'est ça qui est toujours très compliqué . 3
+14:25:000865:000865_4 : 14:24:55:214: L'avant-dernière parti c'est la partie qui est assez évidente une fois qu'on a un autre modèle logi conseils toutes les boîtes où elles sont il va falloir les dessiner dessiner ça veut dire va faire des traits remplir mes de la fleur dessinée du texte c'est parti là on utilise déjà des bibliothèques qui permettent de faire ça pour nous parce que faire la partie dessin c'est très compliqué . 4
+14:25:000866:000866_1 : 14:25:16:341: Utiliser une bibliothèque qui s'appelle cairo permet de faire du défunt donc là c'est lui dis tiens dessine cette boîte . 1
+14:26:000867:000867_2 : 14:25:25:133: La même chose avec du texte, tu lui dis dessine ce texte à dessine ce texte . 2
+14:26:000868:000868_3 : 14:25:29:791: cairocffi C'est le petit bout de code qui va permettre de pouvoir utiliser ces bibliothèque La qui sont assez de pouvoir les utiliser en python ça ça existait Paris on a dû le faire . 3
+14:26:000869:000869_4 : 14:25:40:043: Et la dernière étape c'est une fois qu'on a fait une autre dessin on va pouvoir générer notre PDF en ajoutant à l'intérieur de trois petits trucs par exemple y a des métadonnées dans le PDF on va dire qui est l'auteur on peut mettre des 6 étiquettes . 4
+14:26:000870:000870_1 : 14:25:52:962: On peut aussi choisir de mettre des fonds perdus si on veyt faire de l'impression . 1
+14:26:000871:000871_2 : 14:25:56:708: La elles sont faites après c'est fait à moitié par WEASYprint et à moitié parc et Rouky aujourd'hui propose des outils pour pouvoir modifier les métadonnées . 2
+14:26:000872:000872_3 : 14:26:05:920: Salut réfléchir à ça c'est le moment où on arrêtait de plus réfléchir et on a réfléchi et maintenant c'est bien parce que nous on va voir aussi arrêter de réfléchir . 3
+14:26:000873:000873_0 : 14:26:15:787: Est ce que vous avez des questions là dessus peut être ? 4
+14:27:000874:000874_1 : 14:26:18:341: Oui . 1
+14:27:000875:000875_2 : 14:26:20:458: Ouais . 2
+14:27:000876:000876_3 : 14:26:28:591: Alors en gros ce que ce que propose chiro comme un pays civ remède dessiner des primitives ça va être généralement des rectangles des carrés des lignes des choses comme ça et donc on appelle directement ses fonctions là depuis depuis . 3
+14:27:000877:000877_4 : 14:26:45:737: C'est tout . 4
+14:27:000878:000878_1 : 14:26:49:351: Exactement ouais il faut faire correspondre ah ouais quand on a un truc qui avec une bordure et ben il faut dire ah oui une bordure c'est des lignes au début on croit que c'est un rectangle mais en fait c'est pas vrai parce que chacune des lignes en haut en bas à gauche à droite elle peut être différente avec des tirets elle peut avoir des couleurs, des coins arrondis. 1
+14:27:000879:000879_2 : 14:27:10:470: Moi que c'est difficile il y a tellement de cas particulier à gérer que faire le dessin c'est une partie qui est aussi . 2
+14:28:000880:000880_4 : 14:27:21:016: PDF ces un format qui est documenté . 4
+14:29:000881:000881_1 : 14:27:32:053: Exactement . 1
+14:29:000882:000882_2 : 14:27:36:571: C cairo c'est une . 2
+14:29:000883:000883_3 : 14:27:39:571: C'est qui Rocky à tout en lui il a une partie vraiment qui prend en effet d appel de fonction type je dessine une ligne je dessine un rectangle mais ça va pas dessiner directement dans le PDF ça va dessiner dans une structure en mémoire et après ça va générer du Bel-Air ça peut générer d'autres formats ça peut générer du svg qu'on utilise aussi beaucoup pour faire des . 3
+14:29:000884:000884_4 : 14:27:40:571: Générer aussi du SVG ça peut aussi générer du hip-hop clip ça peut générer beaucoup de formats différents . 4
+14:29:000885:000885_3 : 14:28:50:356: Oui . 3
+14:30:000886:000886_0 : 14:28:56:483: Est-ce que tu veux nous parler How I meet Your Mother ? 4
+14:30:000887:000887_0 : 14:29:07:224: Bah le thème c'est la patience. Donc peut-être que tu peux expliquer ? 1
+14:30:000888:000888_3 : 14:29:22:034: Je crois que c'est la meilleure description, je l'aime . 3
+14:30:000889:000889_4 : 14:29:31:171: Ted Mosby (How I met Your Mother) qui va pendant 8 saisons va nous raconter l'histoire de comment il a rencontré sa femme et il a raconté enfants et évidemment on va se rendre compte que il a attendu 800 il est très romantique qui raconte des histoires incroyables sais pas c'est toujours des tonnes de choses et c'est forcément . 4
+14:30:000890:000890_1 : 14:29:51:639: Et au bout de huit saisons on arrive enfin avoir la mère parce que pendant sept saisons bah là quand même temps nous dire qui c'est la merde écran veut dire est-ce qu'on va la voir est-ce qu'on va avoir des fois on voit . 1
+14:30:000891:000891_2 : 14:30:03:777: Et on la voit jamais il a fallu attendre la fin de la saison 7 pour voir . 2
+14:30:000892:000892_3 : 14:30:09:406: Qui est patient et ça nous apprend la patience aussi donc si voulez apprendre à être patiente peux regarder cette série surtout si vous l'avez regarder en live vous avez pas regarder les épisodes d'après . 3
+14:31:000893:000893_4 : 14:30:20:533: À partir de qu'on a vu avant . 4
+14:31:000894:000894_2 : 14:30:24:931: C'est simple de État-Unis CSS pour passer CSS et pouvoir comprendre qu'à danser la 2e étape c c c select pour appliquer CSS sur la acheter . 2
+14:31:000895:000895_3 : 14:30:39:270: Se faire aussi pour vous permettre d'utiliser Cairo en python . 3
+14:31:000896:000896_4 : 14:30:43:973: Après on va pouvoir faire weasyprint. 4
+14:32:000897:000897_0 : 14:30:46:397: Pour de vrai quand on a fait une ligne directrice la qui vient de la vision et quand on a découpé les choses en plus petite tache grâce à notre capacité de réflexion on peut se dire je vais avoir la patience de faire les uns après les autres parce que je sais où je vais et concrètement c'est ce qui s'est passé. Au début ça va doucement parce qu'il faut lire beaucoup de doc et il faut essayer de con . 1
+14:32:000898:000898_0 : 14:31:10:527: Pour de vrai quand on a fait une directrice la qui vient de la vision et quand on a découpés les choses en plus petite tache grâce à notre capacité de réflexion on peut se dire je vais avoir la patience de fer c. Les uns après les autres parce que je sais où je vais et concrètement c'est ce qui s'est passé au début ça va doucement parce qu'il faut lire beaucoup Et puis finalement plus le temps passe et plus on arrive à voir le bout du tunnel donc la patience c'est vraiment quelque chose de super intéressant pour arriver au but et pour avoir la patience avoir une bonne vision et avoir un peu de réflexion c'est plutôt une chose . 2
+14:32:000899:000899_3 : 14:31:26:801: Le but ce n'est pas lire ce que j'ai marqué là, le but c'est comprendre que c'est trop grand et que c'est trop chiant . 3
+14:32:000900:000900_4 : 14:31:32:963: Ventes affaires CSS on va faire du CSS2 qui était à l'époque à peu près la base du CSS et c'est la specificiation, elle est grande elle est longue et . 4
+14:32:000901:000901_1 : 14:31:44:082: Et le problème c'est que quand on a commencé à bosser dessus c'était le moment où ils sont dit on va faire CSS3 qui est l'évolution de css2 il va faire plein de module différent pour gérer pleins de trucs différents et d'un coup ça devient on passe de un document long et chiant à vin document long et chiant et c'est douloureux d'arriver à ce moment là parce que vraiment très long . 1
+14:33:000902:000902_2 : 14:32:03:195: Respect de ses fesses 2 et si on s'était lancé 5 ans avant on se répète aller super vite parce que là on est vraiment arrivé au moment où en fait il va falloir gérer maintenant des choses super bien pour les fonds pour les couleurs pour une colonne pour la . 2
+14:33:000903:000903_3 : 14:32:19:332: Pour les affiches comment transformer milliards de fonctionnalités flexbox grid et j'arrête là quoi . 3
+14:33:000904:000904_4 : 14:32:28:197: Là il faut de la patience il faut dire . 4
+14:33:000905:000905_1 : 14:32:31:422: On va les prendre les uns après les autres il n'y a rien de compliqué d'accord je vais me prendre un document de 50 pages pour comprendre comment marche text box pourquoi pas j'ai que ça à faire . 1
+14:33:000906:000906_2 : 14:32:43:677: On essaie de comprendre et après on commence à coder évidemment ça marche pas on s'énerve on se calme et on continue petit à petit on fait des tests alors il y a des suites de test qui sont qui existent pour c'est des tests sadique donc évidemment on est content on a un truc qui marche on passe les tests il y en a pas un qui passe . 2
+14:34:000907:000907_3 : 14:33:06:056: J'ai bossé des semaines et des semaines pour faire un truc qui ne marche pas mais c'est pas grave je sais où je vais. 3
+14:34:000908:000908_4 : 14:33:13:960: La patience pour arriver votre taxi à construire . 4
+14:34:000909:000909_1 : 14:33:17:895: Patient et calme . 1
+14:34:000910:000910_2 : 14:33:21:443: Et la presse et la loyauté c'est le moment où la patience c'est bien mais ça suffit pas . 2
+14:34:000911:000911_0 : 14:33:29:138: Est-ce que tu veux nous parlez de Stargate SG-1 et de la loyauté de ? 4
+14:35:000912:000912_2 : 14:33:56:586: Exactement c'est un peu claire message extraterrestre qui est dominée par des petites bestioles qui vont affecter le corps des humains et il se la bah c'est le bras droit des méchants et un moment il comprend que en fait il faut aider les gentils et du coup il se met à aider les gentils et il abandonne sa femme ses enfants il abandonne tout et il y a une chose qui est plus grand . 2
+14:35:000913:000913_3 : 14:34:26:700: Et qu'il va falloir que je serve c'est une chose dans laquelle je crois c'est . 3
+14:35:000914:000914_4 : 14:34:32:852: Laquelle je veux me battre toute ma vie et c'est plus important que tout le reste et sinon qu'il fasse aller aux humains alors que lui ai pas eu ma pour arriver à défendre le bien des Américains . 4
+14:36:000915:000915_1 : 14:34:43:981: Comment ça se rapporte à notre petite histoire et ben c'est assez simple quand on a été très patient qu'on a commencé à implémenter des choses qu'on arrive à les trucs chouettes on a eu des filateurs et tout ça on arrive un moment où ça devient difficile et il faut faire un pacte avec soi-même et avec le logiciel en disant petit logiciel j'ai travaillé pour toi . 1
+14:36:000916:000916_2 : 14:35:08:146: Il est temps que je t'avoue quelque chose je vais dédié ma vie à toi voilà j'exagère à peine derrière ça se . 2
+14:36:000917:000917_3 : 14:35:18:640: Après au logiciel c'est plus que juste ce qu'on doit à une création c'est qu'on doit a quelque chose qui est plus grand que le logiciel qui commence à fonctionner et qui commence à avoir des utilisateurs on n'est plus maître du logiciel . 3
+14:36:000918:000918_4 : 14:35:33:835: Je ne sais pas si vous avez vu la keynote ce matin mais elle était vraiment bien et ça aussi l'important c'est pas moi qui crée ce logiciel l'important c'est le logiciel qui me tire pour même pour grandir et pour avancer encore plus qu'on a compris ça on décide être loyal au logiciel on lui dit si jamais un jour je suis pas le bon développeur pour toi et ben je te donnerai à quelqu'un d'autre c'est pas grave d'ailleurs . 4
+14:36:000919:000919_1 : 14:35:54:963: Et c'est comme ça qu'on arrive à . 1
+14:36:000920:000920_2 : 14:35:59:051: Avec un peu de patience beaucoup de choses . 2
+14:36:000921:000921_3 : 14:36:03:700: Dans weasyprint il y à 14 mille lignes de code . 3
+14:37:000922:000922_4 : 14:36:06:681: Il y a 14 mille lignes de test vitesse avec l'EBA la partie la plus drôle si vous avez vu tout ce qu'il y avait avant pour faire du code il faut lire des tests il y a des test c'est pas la partie la plus . 4
+14:37:000923:000923_1 : 14:36:17:024: Afficher les tests plus afficher les tests derrière . 1
+14:37:000924:000924_2 : 14:36:20:898: Mon patient et loyal pour ça . 2
+14:37:000925:000925_3 : 14:36:23:526: Une partie de très spécifications CSS si vous n'avez jamais lu une spécification CSS, allez un jour ou même juste les premières lignes et vous comprendrez que c'est pas forcément génial et il y a une fille de 10000 de 10000 test qui existent qui est fait par l'organisme qui créez CSS . 3
+14:37:000926:000926_4 : 14:36:43:944: Ils ont toutes une série de tests donc c'est plein de fichier HTML et CSS avec plein de conduire on doit avoir manuellement si ça passe aussi ça passe pas qu'on a semi-automatique c'est parti là mais concrètement des fois le soir je m'amuse avoir une petite interface où je dis ça passe, ça passe pas, ça passe . 4
+14:37:000927:000927_1 : 14:37:06:073: ça passe . 1
+14:38:000928:000928_2 : 14:37:09:192: Ça c'est possible pas parce que je suis totalement masochiste c'est juste possible parce que ce logiciel il me plaît j'adore faire des le voir avant se rajouter des fonctionnalités et du coup ok si il faut faire ça pas de problème j'ai le but en fait je sais où on va je vois que ça progresse et je me dis c'est génial je vais pouvoir apporter ma petite pièce est l'édifice petite . 2
+14:38:000929:000929_3 : 14:37:30:320: Grâce à ça même si il faut passer par 10 mille tests à passer à la main je me passerai les 10 000 tests à la main et j'arriverai à quelque chose à 20 degrés j'ai fait les limites et c'est quand même génial petit logiciel . 3
+14:38:000930:000930_1 : 14:37:45:073: J'aurais peut-être dû le dire, c'est fait en python . 1
+14:38:000931:000931_2 : 14:37:52:188: Exactement pas ouais c'était dans les lignes directrices il y avait si vous les tests et générer du activez du PDF mais il y avait pas faire de la faire sinon je pense que . 2
+14:38:000932:000932_3 : 14:38:06:855: On a pas commencé . 3
+14:38:000933:000933_4 : 14:38:10:013: Aprilia déliement Tsuki conférence éclaire au Congo c'est du ciné ouais tu le code c'est du pipeau et du coup c'est long . 4
+14:39:000934:000934_1 : 14:38:20:003: Thérapie c'est quand même des . 1
+14:39:000935:000935_2 : 14:38:23:463: Exactement ouais l'avantage c'est que les cas d'usage généralement c'est la génération de document soit quand on fait des très grands documenst bah ça peut être faire en 10, 20, 30, 50 minutes . 2
+14:39:000936:000936_3 : 14:38:37:655: Je veux aller quoi c'est pas la même chose qu'un navigateur qui doit rendre super vite les pages donc c'est vrai que on a quand même l'avantage de pas devoir bourriner comme des fous on peut se permettre d'être un petit peu lent et on se taper sur les doigts par Laetitia . 3
+14:39:000937:000937_4 : 14:38:51:772: Baraki . 4
+14:39:000938:000938_1 : 14:38:55:894: Oui il y a le CPU qui coûte cher mais même là ce qui coûte cher c'est surtout les cas d'usage les factures à la volée par exemple on a pas envie d'attendre. 1
+14:39:000939:000939_2 : 14:39:05:875: Une vraie question mais on verra peut-être à la fin on en reparlera je pense . 2
+14:39:000940:000940_3 : 14:39:10:920: Avec kinemaster . 3
+14:40:000941:000941_4 : 14:39:14:034: Les fonctionnalités donc là on arrive à la fin du projet on est aujourd'hui petit à petit et les fonctionnalités qu'on a rajouté aujourd'hui c'est les fonctionnalités . 4
+14:40:000942:000942_1 : 14:39:24:341: Il y avait avant flexbox ça reste une fonctionnalité de plus c'est une specs de plus implémenter et on a rajouté le supporter flexbox dans la version . 1
+14:40:000943:000943_2 : 14:39:34:174: Lumières se perdent Windows CIO comment faire des utilisateurs pleins pleins de partout il y a beaucoup de . 2
+14:40:000944:000944_3 : 14:39:42:315: Ce qui est bien c'est qu'on commence à avoir des contributeurs sous Windows . 3
+14:40:000945:000945_4 : 14:39:48:037: Prendre le boulet de gérer cette partie-là pour leur pull-requests et apporter des modifications pour les autres utilisateurs et on a des gens qui sont hyper enthousiastes et qui adorent Windows autant que moi Linux et qui du coup sont prêts et aussi par loyauté par passion à passer des heures à des voeux gay pourquoi ça marche pas et nous apporter des solutions . 4
+14:40:000946:000946_1 : 14:40:10:160: Ça c'est quand même vraiment bien. 1
+14:41:000947:000947_2 : 14:40:13:791: Ça fait maintenant ça marche un peu smack aussi mais il y a bien les visiteurs sous Mac . 2
+14:41:000948:000948_3 : 14:40:21:524: On essaie de faire en sorte que ça marche de partout. 3
+14:41:000949:000949_4 : 14:40:26:497: Les accès D compteur cible on a en gros ajouter le sud le fait de pouvoir dans des bouquins avoir des liens genre voir chapitre 2 avec le nom du chapitre et un lien qui emmène directement sur le chapitre regarde avoir en haut du bouquin il y a souvent le chapitre actuelle ou le sous-chapitre actuelle tout ça se defoncer rajouter qui permettent aujourd'hui clairement des bouquins qui . 4
+14:42:000950:000950_1 : 14:40:48:621: Faire aujourd'hui avec pudding sans trop de souci mon cœur on attend quelque chose de plutôt pas mal sur sujet . 1
+14:42:000951:000951_2 : 14:40:56:371: On a supporté python3 quasiment depuis le début et supporter Python2 et Python 3 c'est pas si compliqué dans notre cas mais dis donc ça nécessite toujours de réfléchir à chaque fois qu'on fait quelque chose est-ce que je suis pas en train de casser Python 2. 2
+14:42:000952:000952_3 : 14:41:12:455: dans 2 ans en même pas; un an et demi; et ben du coup on se dit on va arrêter python 2 et puis tant pis si les gens veulent continuer à utiliser . 3
+14:42:000953:000953_1 : 14:41:30:731: On peut l'installer ouaisc'est un paquet python standard qui s'installe avec PyPi . 1
+14:42:000954:000954_2 : 14:41:38:128: Serveur il y a pas encore beaucoup de savoir sur le même des gens sur serveur qu'il demande Cetelem plus sur serveur parce que finale sur client on a toujours moyen d'un python a la rage dans un coin sur serveur c'est plus compliqué donc c'est plus des gens qui utilisent sur serveur professionnel . 2
+14:43:000955:000955_4 : 14:42:07:417: Bref c'est compliqué compliqué de d'avoir des serveurs c difficile d'avoir des utilisateurs qui sont tous sur Python 3 et même si pendant longtemps on a supporté Python 2 c'est vrai qu'aujourd'hui ça devient compliqué et on préfère lire des tests et appuyer sur oui non supporté encore . 4
+14:43:000956:000956_1 : 14:42:30:533: Non l'arrêt du support officiel c'est dans un an et demi c'est du 1er janvier 2020 . 1
+14:43:000957:000957_2 : 14:42:41:073: Ça c'est bientôt . 2
+14:43:000958:000958_3 : 14:42:43:503: En terme de communication si on a changé beaucoup de choses parce que weasyprint apparaître un logiciel qui est pas forcément sexy équipe si on a eu des gens qui ont commencé à nous envoyer des exemples incroyable . 3
+14:44:000959:000959_4 : 14:42:56:876: Donc ils font mal de plus en plus des trucs incroyables des alors des gouvernements DDD oui là qui utilise pour faire des documents un petit peu rébarbatif en a pleins et on a eu plein d'exemples comme ça mais alors des boîtes qui font toute la partie comme qui font la génération de rapport qui présente de partout avec weasyprint on a eu des documents qui était . 4
+14:44:000960:000960_1 : 14:43:19:006: Et on dit non en fait c'est vrai si on fait super beau on ira d'autres gens que juste les gens qui veut le faire du texte pourri quoi et donc on on commence maintenant à avoir des exemples qui sont beaucoup plus sexy et on explique aux gens comment ça marche pour qu'eux aussi puissent faire du sexy dans leur projet . 1
+14:44:000961:000961_0 : 14:43:36:134: Faire une nouvelle numérotation aussi pendant longtemps on a été zéro. Quelque chose et maintenant qu'on va être stable on va suivre le type de numérotation, on va partir à 43, 44, 45 . 2
+14:44:000962:000962_3 : 14:43:47:683: Ça va grandir vite pour qu'on fait ça moi j'ai trouvé quand les navigateurs ont changé la numérotation je trouve ça totalement stupide . 3
+14:45:000963:000963_2 : 14:43:55:807: Différente que les autres il pourrait avoir une 1.21.2 fois mais non et en fait on s'est rendu compte que Ben à chaque version stable sac nouvelle version cassé beaucoup de choses et donc en fait c'est normal que quand on casse quelque chose on change la version majeure de la version . 4
+14:45:000964:000964_1 : 14:44:13:933: Un speaker entre chaque version on risque de casser la payer un petit peu . 1
+14:45:000965:000965_0 : 14:44:19:236: Mohamed exemple. Mais des témoignages on accueille des contributeurs donc si jamais vous voulez contribué c'est avec grand plaisir que je passerai du temps vous expliquer comment ça marche il y a des trucs beaucoup moins cher que ce que je vous ai présenté à faire . 2
+14:45:000966:000966_3 : 14:44:33:355: Qui est plutôt sympa il y a plein d'exemples qu'on peut faire et si vous avez des connaissances HTML CSS ce serait avec grand plaisir on a cure et vos propositions et puis si jamais vous voulez mettre les mains dans le cambouis . 3
+14:45:000967:000967_4 : 14:44:46:486: Et quand même tout petit par rapport à beaucoup de logiciel en plus c'est du Python donc c'est assez lisible si jamais vous voulez vous intéressez au truc je serai super content de pouvoir discuter et puis on réfléchit à des sources de financement pour pouvoir voter . 4
+14:45:000968:000968_0 : 14:45:00:276: Parce qu'on utilise beaucoup interne mais j'aimerais faire ça à plein teps
+14:46:000969:000969_2 : 14:45:07:791: Vous voulez vous voulez contribuer, proposer de nouvelles choses orienter un petit peu le développement il y a des systèmes de ciment de financement aujourd'hui qui existent kilomètres de prendre le pouvoir et vous dire bon j'aimerais bien qu'on voit sur cette fonctionnalité . 2
+14:46:000970:000970_3 : 14:45:21:455: Je vais aller plus vite c'est bientôt terminé . 3
+14:46:000971:000971_4 : 14:45:25:575: C'est la progression la progression ça va aller assez vite je sais pas si vous allez trouver l'exemple le petit morceau de musique que je vous ai fait on va voir . 4
+14:46:000972:000972_1 : 14:45:36:091: Penser à quelqu'un qui progresse 13 . 1
+14:46:000973:000973_2 : 14:45:39:818: Partir de très très bas pour aller très très haut . 2
+14:47:000974:000974_1 : 14:45:59:813: Assez dur là c'est pas Battlestar galacticta . 1
+14:47:000975:000975_2 : 14:46:12:213: Série . 2
+14:47:000976:000976_3 : 14:46:14:038: Avec trois saisons. 3
+14:47:000977:000977_0 : 14:46:19:780: Gladiator, c'est presque ça oui. C'est Spartacus va te rapporter des poissons équipe . 4
+14:47:000978:000978_2 : 14:46:42:034: Donc Spartacus pour la faire très vite c'est quelqu'un qui commence esclave et qui va réussir à monter une armée pour se rebeller contre le monde entier . 2
+14:47:000979:000979_0 : 14:46:54:153: Une fois qu'on a mis toutes ces petites briques les unes après les autres qu'on saitoù on va et qu'on a réussi à découper et qu'on a réussi à être loyal avoir vendu une autre vie et nos rêves à logiciel maintenant il faut qu'on arrive à se motiver et la motivation c'est la progression comment on fait des petits trucs ça marche on est
+14:48:000980:000980_4 : 14:47:17:285: Faire des boîtes autour du texte si c'est trop bien après on commence à couper le texte automatiquement dis c'est trop bien et c'est trop bien c'est trop bien c'est trop . 4
+14:48:000981:000981_1 : 14:47:24:418: Cela vous voyez ce que ASID 2 . 1
+14:48:000982:000982_2 : 14:47:27:625: Pour les gens qui savent pas c'était un test fait pour vérifier que les navigateurs supportais la spécification CSS c'est une petite image comme ça mais en fait c'est plein de petites boîtes les unes à côté des autres avec plein de règles c'est super compliqué . 2
+14:48:000983:000983_3 : 14:47:44:373: 14 mois en partant de strictement rien on est arrivé à va-t-il dc62 alors que pendant très très longtemps les gens se . 3
+14:48:000984:000984_4 : 14:47:52:097: Maniebat ces deux minutes pour essayer de faire passer le 7 A62 à l'heure Internet Explorer 13 14 . 4
+14:48:000985:000985_1 : 14:48:01:218: Pour de vrai c'est compliqué ça c'est une étape qui est vraiment importante et après on a souvent on rajoute des fonctionnalités il y a des gens qui disent tous les jours et c'est vraiment trop chouette que vous faites . 1
+14:49:000986:000986_2 : 14:48:15:153: Ferme on a plein . 2
+14:49:000987:000987_3 : 14:48:18:136: 2 commentaires qui sont arrivés assez récemment . 3
+14:49:000988:000988_0 : 14:48:23:210: On se rend compte petit à petit qu'on arrive a mieux connaître les gens avec qui on travaille on arrive à connaître mieux nos utilisateurs et du coup ils nous disent et ça c'est une source de satisfaction incroyable on voit que d'un petit truc dont tout le monde se fout on arrive à avoir des logiciels où les gens sont super
+14:49:000989:000989_1 : 14:48:42:392: Qu'on passe plein plein plein on a des gens de plus en plus importants qui nous écrivent écrire des messages de plus en plus gentil des fois tu . 1
+14:49:000990:000990_2 : 14:48:51:162: C'est pareil au début on fait une tech2tech 3 texte existait qu'on voit tout ce qu'on gère et on dit mais c'est génial j'ai l'impression que ce projet grandi tout le temps. 2
+14:49:000991:000991_3 : 14:49:02:288: C'est un peu comme un enfant . 3
+14:49:000992:000992_4 : 14:49:06:019: Et plus ça grandit et plus il y a des sources de satisfaction repense à ce qu'on avait fait il y a 5 ans et on dit hein c'est bien quand on avait fait c'était bien éclatés il y a 4 ans pareil c'était bien qu'on aille fait là et du coup quand on regarde en arrière il y a de plus en plus . 4
+14:50:000993:000993_1 : 14:49:19:407: Super fait de dire waouh on était là et maintenant on est là mon les autre navigateurs ils sont tous là-bas mais petit à petit on arrive quand même à grandir et on a plus en plus de gens qui nous aime et ça c'est quand même super choix . 1
+14:50:000994:000994_2 : 14:49:32:875: Le dernier chapitre c'est le chapitre de la civisme ça c'est une chose très importante qu'on a eu chez nous dès le début mais je pense que vous commencez à comprendre que les gens ont dû trouver qu'on était bizarre au début . 2
+14:50:000995:000995_3 : 14:49:46:153: Sensei français . 3
+14:50:000996:000996_4 : 14:49:52:867: Ah ça fait mal . 4
+14:50:000997:000997_1 : 14:49:56:992: C'est la plus grosse audience en France possible imaginable avant . 1
+14:50:000998:000998_2 : 14:50:02:390: Non . 2
+14:50:000999:000999_3 : 14:50:04:438: Elle elle éclata chaque fois qu'elle fasse même les matchs de foot . 3
+14:50:001000:001000_4 : 14:50:10:411: Non non non . 4
+14:51:001001:001001_1 : 14:50:16:270: Lança-t-elle atypique plus belle la vie ça vous dit rien la meilleure série du monde entier quoi . 1
+14:51:001002:001002_2 : 14:50:24:390: Ah non non . 2
+14:51:001003:001003_3 : 14:50:31:208: Non . 3
+14:51:001004:001004_4 : 14:50:33:716: Sur France 2 ou France 3. 4
+14:51:001005:001005_1 : 14:50:41:836: Alors elle va alors . 1
+14:51:001006:001006_3 : 14:50:54:756: Ça vous dit rien . 3
+14:51:001007:001007_4 : 14:51:05:499: Capitaine Marleau . 4
+14:51:001008:001008_1 : 14:51:09:631: De France 3 mais elle éclate tout tout vraiment tout . 1
+14:52:001009:001009_2 : 14:51:15:493: Ouais . 2
+14:52:001010:001010_3 : 14:51:17:399: Ça a été fait comme . 3
+14:52:001011:001011_4 : 14:51:21:520: Vous voyez elle a pas trop les gendarmes et elle a pas trop la tête d'un gendarme elle arrive LED bar café ou coucou ça va comment ça va ouais ça va aller standard et c'est ce qui fait que tout le monde a . 4
+14:52:001012:001012_1 : 14:51:37:646: L'idée c'est qu'on arrive petit petit à petit tiret 7 pc là quelque chose qui fait qu'on va être vraiment intéressant pour les gens on est petit parmi les grands qui fait que si les gens veulent comprendre comment marche le web il peut utiliser vie privée et contribuer ils vont avoir un point d'entrée beaucoup plus simple . 1
+14:52:001013:001013_2 : 14:51:55:769: Superficie par rapport au logiciel généraliste qui fait que on peut apporter quelque chose que les autres n'importe compas en gros on est dans une partie que personne là où personne ne veux aller et donc on va tirer un petit marché de niche comme ça avec des gens qui vont pouvoir nous ils vont pouvoir nous aimer . 2
+14:53:001014:001014_0 : 14:52:13:219: Je vais finir sur cette citation à cette citation là elle était à PyConFR en 2012 donc ça fait déjà un petit moment qu'on avait rencontré Daniel Glazman. Daniel Glazman c'est quelqu'un qui a été coach Harman du c c Sporting en gros c'était le grand chef de CSS permet . 3
+14:53:001015:001015_1 : 14:52:31:356: Un petit peu de carrure est un petit peu de l'histoire c'est un mec Briand incroyable je sais plus ce qu'il a fait comme études je sais plus . 1
+14:53:001016:001016_2 : 14:52:42:491: Acheter les cas . 2
+14:53:001017:001017_3 : 14:52:45:032: Oui mais il a inventé parce qu'il a fait les choses incroyables . 3
+14:53:001018:001018_4 : 14:52:46:032: Alors franchement vous arrivez au moment de CSS3 donc autant vous dire votre histoire assez totalement mort vous allez jamais arrivé à chaque fois . 4
+14:53:001019:001019_1 : 14:53:00:674: Et en plus on fait le moteur de rendu SVG vous-même parce que oui avant que mon voulais faire du SVG pour les factures on a aussi c'est un moteur de rendu avec ça sert . 1
+14:53:001020:001020_2 : 14:53:10:223: Et en plus votre moteur de rendu SVG ici paf le texte sur les chemins qu'on peut décider du texte qui suit un chemin comme ça sinon elle avait un paiement . 2
+14:54:001021:001021_3 : 14:53:18:469: Bon il nous a dit "vous êtes des malades" ça marchera jamais votre truc . 3
+14:54:001022:001022_4 : 14:53:22:118: Quelqu'un . 4
+14:54:001023:001023_2 : 14:53:24:267: Arrivée à être à la tête du CSS Working Group kiné spécifications les plus utilisés dans le monde un mec qui reconnu par ses pairs comme étant . 2
+14:54:001024:001024_3 : 14:53:32:868: Comprend le plus de choses sur tes spécifications là qu'est devenu un gros quelqu'un d'hyper important avec ses accompli des choses auxquelles il pouvait sans doute pas croire quand il était petit quand tu dis c'est pas possible ça chose qu'il faut entendre c'est possible . 3
+14:54:001025:001025_4 : 14:53:49:701: Monter au début on est partis quelque chose qui était pas possible et on l'a rendu possible et ça c'est possible évidemment parce qu'on était insouciant . 4
+14:54:001026:001026_2 : 14:54:00:967: Ok est-ce qu'il y a des questions . 2
+14:54:001027:001027_3 : 14:54:11:318: Oui . 3
+14:55:001028:001028_4 : 14:54:14:441: Merci . 4
+14:55:001029:001029_1 : 14:54:22:555: Ouais il y en a maintenant ouais mais pareil on a pas d'exemple donc quand on rajoute des fonctionnalités . 1
+14:55:001030:001030_2 : 14:54:36:667: Ah d'accord ok et ben maintenant il y a possibilité de le faire mais comment mais pas d'exemple les gens le savent pas donc c'est notre faute et maintenant il y aura des exemples avec des traits de coupes donc . 2
+14:56:001031:001031_3 : 14:54:47:084: Ouais ouais j'imagine . 3
+14:56:001032:001032_4 : 14:54:51:788: Et ben ils sont donc je viendrai t'expliquer ça . 4
+14:56:001033:001033_0 : 14:55:01:917: C'est normal que ouais j'ai un peu escamoter cette partie la plus sinon on aurait trois heures de discussion. En gros l'idée c'est que dans CSS qui a tout ce qu'il faut pour faire de la pagination couper les trucs en page il y a des fonctionnalités qui existent médiateur elles sont pas ou très peu implémenter parce que le but de chrome c'est gagné une milli seconde à l'appel . 1
+14:56:001034:001034_2 : 14:55:28:033: Annuler la site intéressant par contre implémenter le fait que l'on coupe pas entre un titre et le paragraphe en dessous ça ça m'intéresse pas du tout et alors gérer tous les trucs de numéro de page d'avoir des haies dehors des fouteurs enfin bref tous les trucs qui existent pour le prince . 2
+14:57:001035:001035_0 : 14:55:43:156: Ouais quand je dis couper c'est-à-dire on arrive en bas de la page vous coupez pas brutalement au milieu des lettres quoi il faut savoir où est-ce qu'on va couper gérer les veuves et les orphelines Sombreffe gérer toute la partie typographique intéressantes qui se fait un peu et là il
+14:57:001036:001036_4 : 14:56:01:288: Et ben très sincèrement moi je . 4
+14:57:001037:001037_1 : 14:56:11:404: Libra j'utiliserai carrément la solution parce que je pense que il aurait il aurait sans doute c'est beaucoup plus de choses à nous apporter que nous on aurait alors importer mais je pense que l'outil il peut être intéressant juste ça pour comprendre comment marche un moteur de rendu donc même si demain le l'outil devient obsolète au final c'est pas très grave tout ce que . 1
+14:57:001038:001038_2 : 14:56:33:539: la chose la plus importante c'est a appris en appeler m'entends l'outil plus que l'outil et à aucun moment je regretterai les meilleures applications même au contraire je me dirai pas voilà il y a d'autres gens qui ont suivi vais plus loin . 2
+14:58:001039:001039_3 : 14:56:48:673: Franchement l'insouciance c'est facile il suffit juste de dire que . 3
+14:58:001040:001040_4 : 14:56:58:362: Non c'est beaucoup de génération de facturer de documents et pour la génération de document il faudra des numéros de pages déjà ça donnait compliqué Solène . 4
+14:58:001041:001041_1 : 14:57:09:340: Alors pour le développement là moi c'est moi qui développe seule commande 4 days v2 webdesigner en plus de l'équipe commerciale marketing . 1
+15:00:001042:001042_3 : 14:57:27:556: Alors il y a les deux il y a des gens qui font que du HTML que pour faire des documents et il y a des gens qui l'utilise pour transformer des si directement en PDF et il y a tout ce qu'il faut dans CSS pour gérer les deux avec la même feuille de style avec du CSS qui s'applique que pour le prix donc il y a les deux cas d'usage qui sont totalement possible . 3
+15:03:001043:001043_4 : 14:57:51:126: Ou la la la la . 4
+15:04:001044:001044_2 : 14:58:02:915: Ah si si en fait le w4w KTM RC8 . 2
+15:04:001045:001045_3 : 14:58:10:764: Mais c'est basé sur les webkit et du coup même s'il y a beaucoup de choses amélioré par rapport à petit ça reste quand même un moteur qui est pas fait pour la pagination et qui du coup va avoir tous les problèmes qu'on avait vu . 3
+
+ 
+
+
+

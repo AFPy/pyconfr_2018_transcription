@@ -1,0 +1,324 @@
+ 
+04_Calculer la QOS de vos infrastructures avec Asyncio Nicolas Crocfer, Anthony Olea
+
+
+
+11:34:000401:000401_3 : 11:33:34:931: C'est très bien . 3
+11:34:000402:000402_4 : 11:33:56:043: Ça marche . 4
+11:34:000403:000403_1 : 11:33:58:381: Vous allez bien . 1
+11:34:000404:000404_2 : 11:34:00:701: En tout cas . 2
+11:35:000405:000405_3 : 11:34:05:349: Bon bah c'est parti bonjour à tous on est très heureux d'être présent parmi vous donc pour vous faire notre conférence qui va porter évidemment sur Racine caillou c'est la seule qui délire ce matin retour d'expérience de comment ça s'est passé la migration de l'une de nos applications . 3
+11:35:000406:000406_4 : 11:34:24:477: Qualité de service de notre infrastructure est donc d'en déduire la qualité de service de nos clients comment s'est passé la migration en fait d'une application sténopéique étant flask API qui se retrouve . 4
+11:35:000407:000407_1 : 11:34:35:615: Bon rapidement on se présente ma fille Nicolas crois que faire chilitec du projet je suis ton pipi dans une année et je suis sur ce projet depuis 6 mois maintenant je suis OVH et Antho nous a rejoint il y a entre 6 - 1 ans pour justement bosse également sur ce projet . 1
+11:35:000408:000408_2 : 11:34:52:256: Je vais te laisser le présenter au vert je pense que vous connaissez tous OVH . 2
+11:35:000409:000409_3 : 11:34:57:236: Alors ben oui du coup il y a un micro bah je le fasse . 3
+11:35:000410:000410_4 : 11:35:01:427: Représenter OVH je pense que je sais pas si vous connaissez auberge voilà un hébergeur camping . 4
+11:36:000411:000411_1 : 11:35:10:559: L'équipe web hosting et c'est cette équipe là en fait qui a fait le projet d'hab c'est qui va nous permet de calculer la qualité de service donc une/ arriere train /ouais c'est un pourcentage est-ce que ça va bien est-ce que ça va bien . 1
+11:36:000412:000412_2 : 11:35:22:700: Muthu alors on va bosser anciennement hébergement mutualisé tu sais quoi c'est le premier c'est le leader européen hébergement web Le Liseur français et on gère un tiers du web français c'est pas juste pour faire les malins qu'on dit ça c'est juste pour montrer quelques chiffres en fait . 2
+11:36:000413:000413_3 : 11:35:42:563: Les 3000000 sites web c'est trop mignon de site web et ses amis en s'asseyant on doit leur donner une qualité de service d'un projet récent . 3
+11:36:000414:000414_4 : 11:35:50:692: On rentre un petit peu dans les notions de Big Data . 4
+11:36:000415:000415_1 : 11:35:54:832: Termignon 3000 ans sont répartis sur 14000 serveurs ça peut être de serveur de stockage ce qu'on appelle la ça peut être de serveur de base de données des saveurs de Maël des serveurs un petit peu tout ce qu'on veut et tout ça . 1
+11:36:000416:000416_2 : 11:36:07:951: Et donc voilà pourquoi ça s'appelle dépanne un petit cœur . 2
+11:37:000417:000417_3 : 11:36:14:516: J expliquer en fait le projet de Manatee checker c'est calculé la qualité de service de notre infraction c'est-à-dire de nos 14000 serveur et grâce à tous en fête dans définir une qualité de service pour chacun de nos 1500000 client . 3
+11:37:000418:000418_4 : 11:36:29:649: 14h c'est pas évident que des complexité qui rentre manger notamment en fait on doit réussir à prendre un graphe de dépendance pour ses clients . 4
+11:37:000419:000419_1 : 11:36:41:791: Également calculer la qualité de service à dire en fait c'est bien on allait 14e serveur c'est quoi la qualité de service . 1
+11:37:000420:000420_2 : 11:36:50:816: Un commentaire . 2
+11:37:000421:000421_3 : 11:36:54:939: Tu fais pas clair des thés aucun problème . 3
+11:37:000422:000422_4 : 11:36:57:958: La technologie qu'on utilise es Seynod forgé c'est une base de données . 4
+11:37:000423:000423_1 : 11:37:04:207: C'est vraiment top on est tombé amoureux de cette cette base de données . 1
+11:37:000424:000424_2 : 11:37:09:521: Comment fait cadeau data base qui sont tous les deux de dépendance ici on a un serveur de stockage . 2
+11:38:000425:000425_3 : 11:37:20:011: Viens avoir un problème automatiquement le client il a impacté ils sont si toi n'est plus disponible Générale . 3
+11:38:000426:000426_4 : 11:37:27:153: Ça ça nous a permis de créa graf et en fait c'est Kafka qui nous permet en fait de pousser pour nos producteurs de pousser des messages dans quel cas de manière très résilient est derrière nous on a un compte fumeurs qui va aller Populaire notre nouveau forfait donc le graphe se remplit Tati c'est en real time en a des centaines de nos clients . 4
+11:38:000427:000427_1 : 11:37:45:288: Donc il faut que ce soit react . 1
+11:38:000428:000428_2 : 11:37:48:635: Ça c'est pour la partie comment gère mot dépendance c'est pas la Cassine caillou rentre ensemble c'est après dans le calcul de l'action . 2
+11:38:000429:000429_3 : 11:37:55:772: Moi ça se voit la semaine exotique c'est les messages qu'on envoie dans le caca mou ils sont parfaits ils sont validées sont traités et on en créant fait des ne comme là-bas va dire qu'ils sont en fait on voit qu'on a un serveur qu'il y a un costard . 3
+11:39:000430:000430_4 : 11:38:09:284: Comme ça dans le nez au forgit ça c'est le nouveau forfait Brother c'est le MySQL phpMyAdmin . 4
+11:39:000431:000431_1 : 11:38:17:421: Mais bien évidemment on a limité à 300 ans et on a 8 millions d'années actuellement ça c'est le Brother donc on a limité à 300 . 1
+11:39:000432:000432_2 : 11:38:27:514: Et donc voilà ce qui vous intéresse pour vous c'est la partie de calcul de qualité de service c'est là où en fait on va faire entrer as in Cayo parce qu'on a eu des problèmes on va aller montrer des problèmes de scalabilité . 2
+11:39:000433:000433_3 : 11:38:38:632: Comment on peut calculer la qualité de service de nos clients ça dire l'heure . 3
+11:39:000434:000434_4 : 11:38:44:766: Mais en fait c'est pas si évident que ça la première idée qu'on aille en fait c'est faire un cœur sur les 3000000 sites web et puis de voir ce que ça ne répond C200 tout va bien si ces 500 ça va pas mais vous vous imaginez il y a des problèmes c'est pas possible en terme de performance de scalabilité il faut faire ça toutes les minutes et puis . 4
+11:39:000435:000435_1 : 11:39:04:907: On aura Céline 500C peut-être pas de notre faute . 1
+11:39:000436:000436_2 : 11:39:10:032: Veut dire qu'en fait peut-être que le script PHP temal formater peut-être que j'ai un problème avec lâcheté access peut-être qu'en fait la connexion à la base de données le client t'es trompé dans son config et du coup il y a une . 2
+11:40:000437:000437_3 : 11:39:21:177: Donc ça c'était pas possible on est parti du principe qu'en fait tous nos serveurs les 14000 qu'on vous a présenté . 3
+11:40:000438:000438_4 : 11:39:29:373: On a une sonde de ceux qui tourne cette somme-là s'appelle . 4
+11:40:000439:000439_1 : 11:39:34:498: Et en fait cette sonde elle fait plein de choses elle va t-il le CPU la charge CPU la . 1
+11:40:000440:000440_2 : 11:39:43:616: Le dises qui commence à être un serveur de stockage qui commence à être full automatiquement ça va impacter les clients ils pourront pas mettre fichier STEP exetera donc voilà c'est beaucoup beaucoup de choses vraiment . 2
+11:40:000441:000441_3 : 11:39:56:751: Par type de serveur ça va faire des choses spécifique si c'est un radis je sais pas je viens de connerie ça va ça va checker le nombre de clés la taille du raid ici c'est un constat . 3
+11:40:000442:000442_4 : 11:40:09:889: Et 7 font l'amour envoie des statuts Yoko 200 tout va bien 300 ça va plus c'est une convention qu'on se donner . 4
+11:41:000443:000443_1 : 11:40:18:673: Ces 14000 serveurs on va faire en fait un chèque au coup dessus et toutes les minutes toutes les deux minutes on va envoyer ça dans une base de données time series de base données quand on va des grâces en fait il évolue c'est simplement ça . 1
+11:41:000444:000444_2 : 11:40:32:406: Quand 63100 et bah en fait baisser la qualité de service de nos serveurs . 2
+11:41:000445:000445_0 : 11:40:37:527: Scie sabre exemple qui arrive et c'est un mail
+11:41:000446:000446_4 : 11:40:44:232: En fait c'est un mail à août c'est-à-dire que là pendant c'était le 25 septembre c'est un vrai incident qu'on a eu nos clients pendant une heure ou deux ils sont plus accès en fait alors merci d'envoyer des mails c'était il y a pas de souci . 4
+11:41:000447:000447_1 : 11:40:56:367: On doit le répercuter répercuter sur la qualité de service . 1
+11:41:000448:000448_2 : 11:41:00:195: Ça s'est bien passé . 2
+11:41:000449:000449_5 : 11:41:03:329: Mais on voit ici que la qualité de service de ce serveur elle était de 98.5 sur la semaine . 3
+11:41:000450:000450_4 : 11:41:10:442: S'adapter c'est qu'on va pas très bien . 4
+11:41:000451:000451_1 : 11:41:14:303: On peut voir qu'en fait ici on retrouve . 1
+11:41:000452:000452_2 : 11:41:18:085: Voyons retrouve en fait là on a mis un très chaude à 300 et on dit tout ce que tu te 300 tu me fais baisser la qualité de service de ce serveur . 2
+11:41:000453:000453_3 : 11:41:26:339: Les 300 . 3
+11:42:000454:000454_4 : 11:41:28:965: 63 . 4
+11:42:000455:000455_2 : 11:41:31:132: Comment calculer la qualité de service . 2
+11:42:000456:000456_3 : 11:41:35:369: La jusque-là tout allait bien . 3
+11:42:000457:000457_4 : 11:41:37:892: Et les autres équipes de vaches sont arrivés en disant ah c'est cool calculer la qualité de service et comment je peux le faire baver vous mettez en place vocaux et puis ça marche . 4
+11:42:000458:000458_1 : 11:41:52:009: Doit-on dit moi j'étais pas envie de te descende un petit peu plus spécifiques qui font pas partie intégrante donc je voudrais créer des échecs en faite par exemple j'ai déjà dans ma tête . 1
+11:43:000459:000459_2 : 11:42:08:128: J'ai déjà des métriques à analyser pourvoi en fait si ça se passe bien une part donc j'ai déjà une fin en fait avec le réponse et je veux dire que si ça va pas très bien . 2
+11:43:000460:000460_3 : 11:42:22:248: Sûr qu'on va créer un système de règles échecs on appellerait par exemple une règle Server free plusieurs tchèque tchèque . 3
+11:43:000461:000461_4 : 11:42:32:364: Honoré par exemple 3 qualité de service la qualité de service du Pin du CPU de la RAM et tout ça on aurait l'agrégation pour avoir une qualité de service pour le serveur . 4
+11:43:000462:000462_1 : 11:42:44:488: Une fois qu'elles sont faites on fait la vraie pour avoir la qualité service du serveur . 1
+11:44:000463:000463_2 : 11:42:50:603: Ici c'est pour Mutu donc toujours notre règle serveur avec notre tonneau qu on en a qu'une et là on a une autre équipe chez nous qui s'appelle débat de service ils sont arrivés chez nous ils ont dit bah moi j'aurais en fait trois chèques à faire je vais aller checker mon CPU le Pilat en fonction des réponses que j'aurais bien ou pas . 2
+11:44:000464:000464_3 : 11:43:08:442: Et on a trouvé la solution pour justement pouvoir les accueillir la solution ça a été dit on utilise sellerie si vous connaissez c sellerie qui nous a fait chier en fait on était bien au début mais après Tournai en fête . 3
+11:44:000465:000465_4 : 11:43:23:573: Distribuer vous allez pouvoir Sky les deux manières horizontal en fait c'est-à-dire on s'en fout de la la puissance du du du du du PC du GPS de la du serveur d'instance docteur ce qu'on veut on peut en faire des boires cœur qui sont en fait à différents endroits donc on scale horizontalement . 4
+11:44:000466:000466_1 : 11:43:42:696: On fait ce qu'on appelle un camp de Wass . 1
+11:44:000467:000467_2 : 11:43:46:808: Un camp de base qui s'appelle chaude une fonction Python cette fonction python argument apparemment . 2
+11:44:000468:000468_3 : 11:43:57:919: Si par exemple j'ai dans ma régler si si j'ai trop hâte chèque je vais avoir 3 fonctions exécutives ont exécuté en parallèle sur différentes instances de faire ça va plutôt bien se passer une fois qu'elles sont finies va le temps d'exécution ce sera le temps du chat le plus long . 3
+11:44:000469:000469_4 : 11:44:17:027: Fonction de call back qui récupère les résultats en entrée de ces trois précédents de fonction et qui vont en faire la vraie souvenez-vous ici . 4
+11:45:000470:000470_1 : 11:44:24:958: Et si on a trois qui ouest 99 98 97 et bah là là là vraiment fait ici on verra une tueuse de . 1
+11:45:000471:000471_2 : 11:44:35:072: Donc céleri c'est vraiment excellent ça nous a beaucoup servi on utiliser un broker Régis qui est en local donc c'était vraiment rapide et des instances docker . 2
+11:45:000472:000472_3 : 11:44:44:523: Alors je fais la démo tout de suite . 3
+11:45:000473:000473_4 : 11:44:49:124: Je la faire juste après je voulais en fait là ce sera plus intéressant avec . 4
+11:45:000474:000474_1 : 11:44:54:912: Ça c'est super bien les équipes de base ils sont arrivés en disant j'ai que 3 choses à faire en parallèle plus une fonction callback là où ça s'est bien passé . 1
+11:45:000475:000475_2 : 11:45:04:649: Elle nous a dit maman en fait je vais aller regarder la qualité de service de mes différents registres chez OVH quand vous passez mutuelle quand vous prenez un site web . 2
+11:46:000476:000476_3 : 11:45:13:778: Et bah en fait les registres ils sont plus ou moins long à répondre à ces demandes en fait de création de domaine . 3
+11:46:000477:000477_4 : 11:45:24:327: On a l'équipe domaine qui a déjà envoyé vers métrique le temps de réponse de chaque registre et il voulait que tu lui en fait la qualité de service de la SMIC . 4
+11:46:000478:000478_0 : 11:45:34:264: Sauf qu'en fait on a beaucoup beaucoup et là on les a mis en fait en CLD il y avait plus de milk-shake à faire en parallèle donc en fait on aurait eu de la qualité de service de ovh.fr . 1
+11:46:000479:000479_2 : 11:45:47:376: Tout ça en parallèle les milles et à la fin on récupère ses me le résultat et on en fait la BRED . 2
+11:46:000480:000480_3 : 11:45:53:609: Sénégal et les mecs hantise utiliser interface en fait il bloqué tous les utilisateurs parce que imaginé quand fête on a d'Ivoire cœur céleri qui tourne et là on a mis le taf exécuter . 3
+11:47:000481:000481_4 : 11:46:07:735: 990 dans la cuve à 1990 . 4
+11:47:000482:000482_1 : 11:46:14:843: Même pas une seconde et ben ça on reprend dis donc 999 sens 89100 79160 . 1
+11:47:000483:000483_2 : 11:46:23:962: Tu nous voir car céleri sont-ils à dire que les autres équipes pas l'utiliser . 2
+11:47:000484:000484_3 : 11:46:29:078: La solution qu'on a perdu sa ligne horizontale mais ça a tenu un moment et ça ça ça coûte et méchant donc on a arrêté et on a dit on va Isa son . 3
+11:48:000485:000485_4 : 11:46:40:242: Et c'est où tout ça pour en revenir à son TUC comment ça marche . 4
+11:48:000486:000486_2 : 11:46:53:992: Du coup . 2
+11:48:000487:000487_4 : 11:47:17:285: EBP son chien . 4
+11:49:000488:000488_1 : 11:47:23:416: Bah du coup c'est cool parce que nous avons dit d'être se fait-il Mans et moi je vais essayer de vous passez une caillou il y a de gens qui ont fait l'évangélisation avant mais je vais quand même parler peut-être . 1
+11:49:000489:000489_2 : 11:47:39:144: Et c'est peut-être bien en faire une piqûre de rappel donc vraiment concept derrière un signe caillou CDI ou non bloquant donc éviter les temps d'attente ce que pourrait faire avec du Code synchrone donc c'est très pratique pour DFCO justement on va aller enquêter DAP externe pour aller rechercher time series pour aller se connecter à une base de donnée par exemple . 2
+11:50:000490:000490_3 : 11:48:04:258: C'est vraiment une boucle qui fait le skate douleur pour les tâches et kimono stresser c'est très important de garder sa lessive parce que si vous commencez à faire du quad synchrone avec du code afin qu'on vous avez bloqué c'était vente location . 3
+11:50:000491:000491_4 : 11:48:19:389: Et en fait c'est pour ça que il y a les CP vous ne sais vraiment votre code qui va consommer du du processeur cgr m'ont conseillé de le mettre dans un process poule aux Fraises séparer pour éviter justement de bloquer cet exemple et par contre pour les hi ho boun c'est là où c'est vraiment la quintessence de . 4
+11:50:000492:000492_1 : 11:48:42:504: Mégane vraiment performance donc faut vraiment garder ça l'esprit parce que avec asin cailloux mais malheureusement la personne si vous avez suivi la conférence sur trio malheureusement vous avez toujours un peu les ventes loup qui a frappé ça peut arriver à oublier . 1
+11:50:000493:000493_0 : 11:49:01:622: Consommateur et vous avez perdre le bénéfice donc ce qu'il faut savoir c'est qui avant que ça soit standardisé il y avait des framework is it et puis si tu sais plus pour
+11:50:000494:000494_0 : 11:49:37:878: Concurrencer de dayono quand les c'est pareil en cure python donc là c'est pour montrer un fait un exemple vraiment de code à 5 ans et bénéfice de quoi donc là c'est le code request donc c'est juste on va alerter OVH.com on va aller rue qu'est-ce qui se passe le problème c'est que vous allez attendre la réponse . 4
+11:50:000495:000495_1 : 11:50:04:016: En fait dans l'arrêté je sais pas qui va terminer en premier mais ce que je sais c'est que ce code la la réponse la réponse de attendu que ces deux . 1
+11:51:000496:000496_2 : 11:50:18:136: Accéder site répondre pour récupérer Cuperly ça j'en suis certain se passe par contre qui permet de filmer en version . 2
+11:51:000497:000497_0 : 11:50:29:248: Vous avez pas tant que ouvert. Com réponds . 3
+11:51:000498:000498_0 : 11:50:32:997: Je veux pas m'envoyer de morsure OVH.com vous ai envoyé sur Python et ensuite vous allez pouvoir attendre les de réponse et là vous aurez votre code vous aurez récupérer le contenu HTML . 4
+11:51:000499:000499_1 : 11:50:46:021: Envoyer au . 1
+11:52:000500:000500_2 : 11:50:47:541: Vous devez mettre si vous voulez vraiment que le code s'exécute dans votre interpreteur par exemple donc ce qui se passe en python en fait comment Séné c c . 2
+11:52:000501:000501_3 : 11:50:59:654: Vous devez mettre si vous voulez vraiment que le code s'exécute dans votre interpreteur par exemple donc ce qui se C'est d'abord il y a eu en 2011 départ avec une pep's a vraiment fonctionner il y a eu un reboot tout de suite après avec guidon en 2012 et en fait dans ce contexte en 2012 pour bien comprendre d'abord possible donc je disais mais ça existe pas du tout sur . 3
+11:52:000502:000502_4 : 11:51:16:837: En fait ensuite il y avait aussi quand même notre jet ski été extrêmement Populaire donc avec du JavaScript quand même un langage asynchrone très bien fait pour le web . 4
+11:53:000503:000503_1 : 11:51:29:916: Donc ensuite il y avait d'ailleurs si sortir ajouter des mots-clé async await . 1
+11:53:000504:000504_0 : 11:51:38:485: C'était en fait python c'était un peu à la traîne à ce niveau-là en fait arrêter donc c'est arrivé quand même avec python 3. Caté et ça s'appelait le pack de package il s'appelle ah si vous pouvez aussi boire Loctudy ça a été utilisé pendant un temps pour nommer en fait le projet . 2
+11:53:000505:000505_3 : 11:51:59:603: Et alors l'idée si il y a il y a des Kullback vous pouvez enfin enfin vous pouvez en faire si vraiment aimé ça je pense pas mais en fait dans une classe de transport par exemple vous pouvez avoir des coups de bague de vous pouvez arriver à voir par exemple pour vous avez un transport et vous écrivez sur . 3
+11:53:000506:000506_4 : 11:52:21:740: 7 7 places la fin si vous attendez pardon bon après dans arrêté quand ça a été facile que ça a pas été pensée pour faire des coups de Bachs sur . 4
+11:53:000507:000507_0 : 11:52:31:869: Je pense à suicidaire et en fait est-ce qu'ils ont pensé quand ils ont fait à Sin cailloux sur Python ils ont ils ont été dans l'idée de faire des coups routine ont vraiment écoute INSEE du code qui s'exécute qui peut être suspendu qui peut être résume et cetera donc
+11:53:000508:000508_2 : 11:52:57:022: 3 4 il y a une utilisation en fait ça a été utilisé générateur donc on pourrait voir si vous chercher sur internet . 2
+11:53:000509:000509_3 : 11:53:07:161: Poutine pardon baise . 3
+11:53:000510:000510_4 : 11:53:10:907: Si . 4
+11:54:000511:000511_1 : 11:53:14:451: Littérature et en fait derrière comment s'était fait il y avait un décorateur vous mettiez donc ce décorateur sur votre fonction qui doit être . 1
+11:54:000512:000512_2 : 11:53:22:570: Comme ça et ensuite après pour l'appeler vous faisez pouvez faire une femme donc en fait ça réussisse finalement le mot-clé mot pays des fringues qui existe et même en python avant avant Python 3 4 3 3 . 2
+11:54:000513:000513_3 : 11:53:37:701: Ils ont mis le mot Kia Cee'd async await se coupe de mots clés qui était d'ailleurs si ça existait JS en fait . 3
+11:54:000514:000514_1 : 11:53:48:824: E34 voyez là vous faites des fois où déclarer . 1
+11:55:000515:000515_2 : 11:53:57:338: Fonction routine et il voilà après évidemment vous avez la louve où vous devez un peu . 2
+11:55:000516:000516_3 : 11:54:04:463: C'est pour son code parce que là vous êtes dans une portion de synchroniser qt5 donc là vous faites un Renault une complice pour dire là c'est mon code attention donc . 3
+11:55:000517:000517_4 : 11:54:19:584: Contrat 5 vous avez juste à faire un signe de ouais c'est devenu des mots clés CACC plus élégant personne ment je trouve ça plus élégant quand même donc ça c'est assez pratique il y a des évolutions qui ont suivi en trois sets avant tout la logique de la Simca Jochen par exemple qui remplace finalement c'est vrai Le Louvre . 4
+11:55:000518:000518_1 : 11:54:41:722: Get running nous c'est assez pratique est-ce que en fait ce qui se passe . 1
+11:55:000519:000519_2 : 11:54:49:112: Pour savoir ce que c'est pas prédictif c'est-à-dire que là s'il est vendu n'existe pas il va à la craie pour une source d'erreur . 2
+11:56:000520:000520_3 : 11:55:01:247: Savais que la louper le ciel existe . 3
+11:56:000521:000521_4 : 11:55:05:396: Et au pire je peux faire si vous faire une Runtime Error donc à vous quand même . 4
+11:56:000522:000522_1 : 11:55:11:383: Mais au moins vous savez que il vous donnera celle qui existe et il vous en créera pas une sous le manteau et en fait c'est aussi à la mer à Sion de la documentation parce que ça c'est assez pratique ils ont ils ont quand même au fait des choses et c'est vrai que c'était peut-être un petit . 1
+11:56:000523:000523_2 : 11:55:27:522: Enseignement family avec ses concepts et en Python 3 8 il y a le système de mercerie justement que la personne d'avance de Tryo disais et donc qui je rappelle c'est en fait c'est une exécution de bloc asynchrone est-ce qui est bien c'est que c'est un with vous faites un oui vous avez c scope dans lequel vous avez faire beaucoup et à la fin de cela vous allez pouvoir vous êtes sûr que tu l'as . 2
+11:56:000524:000524_3 : 11:55:51:667: Vous avez pouvoir faire en fait équivalent Deezer vous allez récupérer toutes les réponses votre . 3
+11:56:000525:000525_4 : 11:55:59:105: Pour parler de la migration . 4
+11:56:000526:000526_1 : 11:56:04:241: Montrer du coup d' abcès à quoi ça consiste c calculer l'infrastructure de notre service client si vous êtes client chez nous à terme on pourra vous fournir en fait l'évolution de votre qualité de service qu'on espère . 1
+11:56:000527:000527_2 : 11:56:23:251: Et du coup vous fournir des chiffres . 2
+11:56:000528:000528_3 : 11:56:27:713: Et on vous a montré qu'en fait avant on était utilisé au céleri donc un pour faire tout ça veut dire combien en parallèle les fameux tchèque qui aller en fait c'est à chacun une requête donc c'est de la yoboon ça allait faire une requête en fait sur une base de données de time series . 3
+11:56:000529:000529_4 : 11:56:41:294: Tu as récupéré tous ces résultats tout ça ça pouvait s'exécuter en parallèle esa Angers une moyenne . 4
+11:57:000530:000530_1 : 11:56:46:868: On va vous montrer qu'en fait . 1
+11:57:000532:000532_2 : 11:56:49:217: Racine de mon live à la . 2
+11:57:000533:000533_3 : 11:56:51:862: Si ça marche pas vous l'expliquer . 3
+11:57:000534:000534_4 : 11:56:55:039: La . 4
+11:58:000535:000535_1 : 11:56:57:506: On va montrer un petit peu mais quand même préparé . 1
+11:58:000536:000536_3 : 11:57:19:181: Je vous expliquer céleri en fait ça fonctionne avec des brokers c'est-à-dire qu'en fait c'est ça s'est aime le/ arriere train /on envoie des messages et derrière en fait les produits sœur envoie des messages dans une Piou ça peut être dû rabbitmq ça peut être dur et 10 . 3
+11:58:000537:000537_4 : 11:57:41:313: Celery worker sellerie qui sont instancier un petit peu partout si tu à pense être sur le même broker bon récupérer ses messages et les traités c'est comme ça qu'on arrive à faire du parallélisme . 4
+11:58:000538:000538_1 : 11:57:51:293: On a choisi . 1
+11:58:000539:000539_2 : 11:57:53:423: On va faire tourner Heredis là-haut . 2
+11:58:000540:000540_3 : 11:57:56:885: Et en fait ici la celui-ci on va simuler en fait il n'a pays de base données time series Sadir qu'imaginer vraiment notre chèque il va faire un call HTTP GET sur une base de nice time series on a par reproduit un opentsdb un . 3
+11:59:000541:000541_4 : 11:58:17:024: Petit papillon va vous montrer le code source . 4
+11:59:000542:000542_2 : 11:58:23:344: Il faut que je mange le code comme ça du foie . 2
+11:59:000543:000543_3 : 11:58:29:769: Allez vous la payez elle est là voilà tout simplement là en fait on a ici créer un être bonne qui s'appelle le slash TLD dans lequel on a fait venir à un point envoyer un point fr un point com exetera normalement chez nous danser on va arrêter une time series on a des dates . 3
+11:59:000544:000544_4 : 11:58:49:918: Ça t'a fait ça va ça fait ça et on convertit tout ça . 4
+11:59:000545:000545_1 : 11:58:56:042: Lorsqu'on fait ici c'est qu'on renvoie directement ici un tableau ça contient déjà une/ arriere train /West qui a déjà été calculé on a voilà on a vraiment fait un truc fake . 1
+11:59:000546:000546_2 : 11:59:07:163: Portes ouvertes d'ailleurs c'est . 2
+12:00:000547:000547_3 : 11:59:10:297: Voilà un petit peu pour la pays donc c'est celle qui tourne . 3
+12:00:000548:000548_1 : 11:59:19:214: Je vais vous montrer le cas tout à l'heure souvenez-vous quand ça se passait bien quand on était content de tous ces lorsqu'on fait l'équipe des berges de service est arrivé qu'elle nous a dit moi pour voir la qualité de service de mon serveur je l'ai vérifié trois choses le ping je sais plus la rame donc y a juste Galerie voilà ça s'est lancé la . 1
+12:00:000549:000549_2 : 11:59:40:576: La ce sera mon premier marqueur et après je vais voir parce qu'elle est déjà faut savoir quel riz lorsqu'on fait il se il se lance il a un prefork qui est par défaut A4 te dire qu'en fait il serait donc quatre vérités là c'est comme si j'avais 4 instance de série qui tourne . 2
+12:00:000550:000550_3 : 11:59:55:110: On va faire je m'en . 3
+12:00:000551:000551_4 : 11:59:56:851: On va faire une démo vas envoyer ça . 4
+12:00:000552:000552_1 : 12:00:00:634: Heure du coup c'est pas le bon ici ça c'est non va envoyer . 1
+12:00:000553:000553_0 : 12:00:05:635: Envoyez suis en fait on va juste prendre 3 check d'accord sur notre
+12:01:000554:000554_3 : 12:00:15:688: Donc là on va faire . 3
+12:01:000555:000555_4 : 12:00:24:332: Une tâche qui définit qui s'appelle exécute tchèque je voulais expliquer le principe normalement de cette de cette fonction là c'est de faire une requête ici vers une base de l'intérêt d'aller chercher . 4
+12:01:000556:000556_1 : 12:00:40:478: Nous la simplement ça va aller taper sur la télé KPI qui a déjà la cuvette de précompte . 1
+12:01:000557:000557_2 : 12:00:48:380: On a ici notre fameux short souvenez-vous des slides de tout à l'heure . 2
+12:01:000558:000558_3 : 12:00:52:528: Qu'est-ce qui prend en premier en premier élément première premier paramètres il prend une liste de 3 fonctions qui va exécuter en parallèle en parallèle C3 fonction là ce sera le 1er TLD . 3
+12:01:000559:000559_4 : 12:01:06:665: ARP la et Abarth . 4
+12:02:000560:000560_1 : 12:01:10:053: Une fois que ça ce sera fait en parler ça veut dire qu'en fait c'est ça cette fonction là il va être instancier trois fois elle va être exécuté trois fois avec trois TLD différence des différents chaque fois une fois qu'elles sont faites une fois que c'est le . 1
+12:02:000561:000561_2 : 12:01:29:195: Un reçu par contre la vraie vie en fait c'est là le résultat des trois chèques précédent et vous voyez si on fait la Lemine et là on utilise oignon piqué la moyenne d'accord . 2
+12:02:000562:000562_3 : 12:01:39:635: C'est quand tout se passait bien je lance ici . 3
+12:02:000563:000563_4 : 12:01:42:929: Démo céleri ça va s'afficher la donc là ça va commencer à bosser on va envoyer quelque chose dans Red et le voir cœur lui et lui il va . 4
+12:02:000564:000564_1 : 12:01:52:777: Donc ça c'est fait c'est déjà fini ça c'est vous et ça c'est fini très rapidement . 1
+12:02:000565:000565_2 : 12:01:58:436: Donc là . 2
+12:02:000566:000566_3 : 12:02:01:026: C'est qu'on va pas bien c'est petit mais . 3
+12:03:000567:000567_4 : 12:02:06:335: On peut voir que j'aurais dû mettre . 4
+12:03:000568:000568_1 : 12:02:15:447: Ah là ça a commencé son taf . 1
+12:03:000569:000569_2 : 12:02:24:071: Agence qui plus petit que ça commence à son boulot donc la clé de 69 6 . 2
+12:03:000570:000570_3 : 12:02:33:208: Je sais plus où on les trouve vraiment là il y en a une de 35 7 exetera et la global tu es elle est de 35 il a fait la vraie de juin et donc le temps total que ça a pris la c'était 08 franchement c'est acceptable un camp des services ils sont venus 08 c'était vraiment acceptable on faisait ça s'est bien passé . 3
+12:03:000571:000571_4 : 12:02:53:092: Je repars dans le code source de l'application et puis bah là en fait il y a domaine qui arrivait avec ses milk-shake la . 4
+12:03:000572:000572_1 : 12:03:02:853: Ici donc là on a vraiment les milons Valence et en fait je l'ai m me dit je veux lancer le comput de mail mil check et ensuite tout s'est mis là tu me les récupérer tu fais là bridge . 1
+12:03:000573:000573_2 : 12:03:13:636: Radis stop au volant savoir cœur la . 2
+12:04:000574:000574_3 : 12:03:18:055: Si je vais faire ça parce que c'est intéressant on voit les guêpes qui sont faits sur l'abbaye on va voir ça va pas être évident . 3
+12:04:000575:000575_4 : 12:03:26:528: Abdallah j'ai envoyé dans . 4
+12:04:000576:000576_1 : 12:03:30:518: On a en fait envoyer dans le pro du surf un dans leur ai dit là lui il contient 1000 clés c'est pas bon il contient les dates . 1
+12:04:000577:000577_2 : 12:03:40:645: Premier il est tout seul il a un prêt Fred mais il est tout seul à bosser en fait ça va pas très très vite la vérité notre team domaine là c'était Megalon en fait d'avoir COS de c'est quand vous voulez . 2
+12:04:000578:000578_0 : 12:03:56:776: Du produit Domaine La le. C. Center et Oussama ici la seule façon qu'on avait avec céleri the sky les 7 secondes cute c'était en fait d'ajouter des nouveaux marqueurs ici j'en ajoute un 2e . 3
+12:04:000579:000579_4 : 12:04:11:170: Direct ça va un petit peu plus vite là-bas . 4
+12:04:000580:000580_1 : 12:04:15:190: J'en rajoute encore hein on va être à 12 ça va aller encore un petit peu plus vite on voit là-bas que ça sera un peu plus mais c'est déjà . 1
+12:04:000581:000581_2 : 12:04:25:848: Un quatrième et ça va encore un peu plus vite on fait ça parce que pour pas duré 15 ans . 2
+12:05:000582:000582_3 : 12:04:32:429: On va attendre que ça arrive oz . 3
+12:05:000583:000583_4 : 12:04:33:429: La solution pour vraiment faire . 4
+12:05:000584:000584_1 : 12:04:40:694: Je dirais même il d instance de cœur ça coûte pas très cher nom des schémas rassure marathon . 1
+12:05:000585:000585_2 : 12:04:47:813: CDU tout ça et la team conteneur gueule un peu quand on se caille trop donc il a fallu trouver une autre solution . 2
+12:05:000586:000586_3 : 12:04:55:539: C'est bientôt arrivé l'an Neo Z là ça y est c'est fini . 3
+12:05:000587:000587_4 : 12:05:01:378: Les milk-shake en parallèle et une fois qu'ils ont été fait il y a une fonction de call back qui a récupéré c 1000 résultat il y en a fait la vraie vie avec une pipe j'avais mis un logger critique Alan pour le voir ce que va c'est l'un des quartiers de France est passée . 4
+12:05:000588:000588_1 : 12:05:16:416: Voilà c'est le . 1
+12:05:000589:000589_2 : 12:05:20:667: Et la voilà on peut voir que voilà on est dans le colback il y a eu 1535 plaques niveau . 2
+12:05:000590:000590_3 : 12:05:30:080: 1535 qui se sont effectués . 3
+12:06:000591:000591_4 : 12:05:33:911: 1500 de celle qui se sont effectués . 4
+12:06:000592:000592_1 : 12:05:42:038: Prix . 1
+12:06:000593:000593_2 : 12:05:43:845: J'aurais voulu dire . 2
+12:06:000594:000594_3 : 12:05:46:594: Un truc que j'aurais pas dû . 3
+12:06:000595:000595_4 : 12:05:49:755: Ça m'a pris ça m'a pris il faudrait savoir combien de temps ça m'a pris . 4
+12:07:000596:000596_1 : 12:05:58:873: Hassiba voilà 90 secondes après une minute trente pour faire ça . 1
+12:07:000597:000597_3 : 12:06:08:009: Un loir cœur mais en fait là il y a écrit écrit total time 90 là on a de la chance j'arrive pas à remonter 90 secondes pour faire les milles . 3
+12:07:000598:000598_4 : 12:06:19:125: Barker band on en avait une vingtaine mais c'était chiant quand même parce que pendant ce temps-là en fait tous les voir cœur taf et personne d'autre si quelqu'un d'autre essaie de faire le compte d'un autre serveur ou quoi ça fonctionnait pas en fait . 4
+12:07:000599:000599_1 : 12:06:30:748: Viable et c'est vraiment à ce moment là quand on a eu un problème avec céleri qui fonctionnait pas été dit qu'il fonctionne bien emmerdé quand même aller régulièrement si vous allez en fait sur . 1
+12:07:000600:000600_2 : 12:06:42:886: Sur les issues c'est une horreur en fait de temps en temps on a des tâches qui se perdent et parce que là on montre milk-shake mais non on avait des minions à faire chaque nuit et c'était le bordel il y a un outil qui s'appelle flower qui permet en fait de monitorer céleri ça sert à rien ça se passe si c'est bien . 2
+12:07:000601:000601_3 : 12:07:00:938: Crédit . 3
+12:07:000602:000602_0 : 12:07:04:068: En tout cas. Tu te casses jusqu'à non c'était pas top top . 4
+12:08:000603:000603_1 : 12:07:08:194: Si je monterai en fait le pendant de tout ce qu'on vient de faire là on a fait une caille . 1
+12:08:000604:000604_2 : 12:07:13:279: Donc déjà au niveau des trois souvenez-vous tout à l'heure en fait ça faisait montrer que en fait 0 8 avec céleri juste pour trois chèques pour des de service . 2
+12:08:000605:000605_3 : 12:07:26:167: Ici si je le lance voilà bah ouais c'est déjà fini la passer pour passer à acigne caillou juste pour un tout petit peu c'est pas en état 08 on est tombé à 07 un peu mieux mais franchement . 3
+12:08:000606:000606_4 : 12:07:48:301: C c quand il y a vraiment beaucoup beaucoup de chaque . 4
+12:08:000607:000607_1 : 12:07:51:673: Et du coup on va le faire avec les milles donc comme avant avec céleri sauf sauf que en fait tout ça on l'oublie il aller les voir cœur on a aucun voir à faire c'est-à-dire on a juste une instance qui tourne c'est notre API . 1
+12:08:000608:000608_2 : 12:08:05:798: On a rien d'autre à faire quoi vraiment il y a pas de d'ailleurs on a pas besoin d'avoir un broker rien du tout le code source je vous avais montré le code source de céleri celui de il est sensiblement la même chose ici on a tout le bordel pour créer notre ajouter . 2
+12:09:000609:000609_3 : 12:08:24:920: On peut faire sa manière beaucoup plus simple mais ici en fait on va créer une tâche . 3
+12:09:000610:000610_4 : 12:08:34:051: Ici en fait on créer une session ça nous évite de techline session RDP d'ailleurs on a vu tout à l'heure . 4
+12:09:000611:000611_1 : 12:08:43:173: Accusé dans chacun de notre . 1
+12:09:000612:000612_2 : 12:08:46:239: Et pour tout l'été elle des cons as à dire les milles ou mille . 2
+12:09:000613:000613_3 : 12:08:51:852: Pour 1500 là on va en fait justement créer une future en fait appel exécutions lui passe la session et elle exécute chèque et vous vous reconnaissez ça tout à l'heure . 3
+12:09:000614:000614_4 : 12:09:06:965: On vérifie que le statut de sang si c'est le cas récupère la la la la ça c'est vraiment tout à l'heure . 4
+12:10:000615:000615_1 : 12:09:17:092: Et comment tout à l'heure on peut faire le système du Ford à la sellerie stagiaire de tâches parallèle une callback et bah là en fait on fait nos tâches par la vessie et on lui fait de la colle bah c'est déjà prévu dans la semaine caillou donc tout notre Ron va s'effectuer en vérité une autre Ron c'est un plein plein . 1
+12:10:000616:000616_2 : 12:09:34:215: On arrive dans c'est quoi la fonction launch roule cuir et on arrive ici je peux . 2
+12:10:000617:000617_3 : 12:09:39:204: On fait un copier-coller de la fonction de rien d'accord on fait le laverai d'une piscine . 3
+12:10:000618:000618_4 : 12:09:45:129: Regarder commence place à des potes quand même ce qui fait chier là le bottleneck sais même plus . 4
+12:10:000619:000619_1 : 12:09:57:082: Normalement en théorie donc là ça nous a pris combien 9 secondes 9 secondes plutôt tout à l'heure 90 secondes avec 4 cœur céleri et après fort que de 4 à tout le monde peut se permettre de voir . 1
+12:11:000620:000620_2 : 12:10:13:204: Vous avez vu j'aurais pu avoir vraiment une grosse daube en fait ça aurait fonctionner quand même la c'est-à-dire que là c'est que de la yoboon les milles en parallèle c'est vraiment juste tu lance une requête et attends quand fait derrière . 2
+12:11:000621:000621_3 : 12:10:28:007: Timeo je t'appelle metric system sérieux quand on te bombarde . 3
+12:11:000622:000622_4 : 12:10:35:017: Et vous voyez à 10 ans je vous dis la normale . 4
+12:11:000623:000623_1 : 12:10:43:279: Les fake data qu'on avait fait là ici vous voyez là en fait on s'en sert on dit que c'est une cuve où est mon sang sert aussi pour faire un slip voilà le point State . 1
+12:12:000624:000624_2 : 12:10:55:408: Ça a été de 66 8 et du coup pour pour un petit peu émuler la latence du réseau 11 et un slip de 06168 et en fait quand on a généré . 2
+12:12:000625:000625_3 : 12:11:06:536: On a pris entre 0 et 1 pour ça que j'ai des petites on a pris entre 01 donc en fait en théorie lorsqu'on en traîneau Miele exécute chèque en parallèle le résultat ça devrait être juste la plus grande le le le temps le plus long la Roquette la plus longue imaginer qu'en fait une requête il y en a une qui dure 8 secondes ma sauterelle en fait qui sera le temps passe . 3
+12:12:000626:000626_4 : 12:11:07:536: La pourquoi ça milliseconde et non pas une comme on pourrait s'y attendre je vous dis derrière nous flasque en fait il est pas on le voyait un canton lancer . 4
+12:12:000627:000627_1 : 12:11:38:892: Lance le bazar . 1
+12:12:000628:000628_2 : 12:11:41:208: Ici on le voit il est pas galère un petit peu quoi c'est vraiment lui là nous la solution qu'on a pris en fait je sais en fait pour justement se passer de flasque manteau va l'expliquer Sonic Sonic en fait c'est un projet qui . 2
+12:13:000629:000629_3 : 12:11:59:348: Créer des habits et toute à 50 basé sur Racine caillou . 3
+12:13:000630:000630_4 : 12:12:04:169: Voilà pour la démo . 4
+12:13:000631:000631_1 : 12:12:06:580: Ça marche . 1
+12:13:000632:000632_2 : 12:12:08:506: Franchement s'attendait pas . 2
+12:13:000633:000633_4 : 12:12:11:423: Fallait la faire . 4
+12:13:000634:000634_2 : 12:12:49:551: Quand elle scope . 2
+12:14:000635:000635_4 : 12:13:15:863: Ok du coup moi je vais vous parler . 4
+12:16:000636:000636_1 : 12:13:24:971: On fait . 1
+12:16:000637:000637_2 : 12:13:34:091: Il y avait une notion qui étaient les sources . 2
+12:16:000638:000638_3 : 12:13:37:886: Et ici . 3
+12:17:000639:000639_4 : 12:13:39:726: Et au final . 4
+12:17:000640:000640_3 : 12:14:12:827: Mets dans la dans la . 3
+12:18:000641:000641_1 : 12:16:33:575: J'aimerais . 1
+12:18:000642:000642_2 : 12:16:37:691: Interpolé . 2
+12:18:000643:000643_4 : 12:16:51:157: Qu'on a fait le choix aussi juste pour compléter ce que tu disais Nico on a fait chaud aussi décès d'afficher quand même tu es un peu à tout prix entre guillemets après notre objectif aussi c'est peut-être de dire effectivement la attention à attendre degré d'incertitude tu vois les choses comme ça . 4
+12:18:000644:000644_1 : 12:17:13:264: Chips et ça affiche un chef mais est-ce que finalement ça cache pas derrière la réalité tu vois donc c'est vrai que mais nous on essaie quand même d'afficher une QoS parce que en fait aussi on a un gros problème tu vas de fréquence de faire un tu peux avoir une sonde qui remonte à toutes les X secondes note toutes les . 1
+12:18:000645:000645_0 : 12:17:34:402: Décale exetera donc avec Panda on a fait le choix quand même de décès de intelligemment faire un calcul et mettre tout ça dans un dans une cuvette après effectivement si si des fois c'est parce que tu as peut-être passer de précisions sur ta sont situe si dure longtemps. Tous les jours et que tu estimes que là c'est là que c'est pas bien et que tu me manques . 2
+12:19:000646:000646_3 : 12:17:58:539: Ah peut-être c'est qu'il fallait pas . 3
+12:19:000647:000647_4 : 12:18:03:148: Meilleur . 4
+12:19:000648:000648_2 : 12:18:14:036: Champery . 2
+12:19:000649:000649_4 : 12:18:38:089: En fait on se voit on était super EP exetera par accident caillou et en fait au camp de migration effectivement c'est toujours . 4
+12:19:000650:000650_1 : 12:18:51:035: Le plus réaliste aussi en fait . 1
+12:19:000651:000651_2 : 12:18:57:163: Place qu'est-ce que qui me . 2
+12:19:000652:000652_3 : 12:19:03:281: Céleri . 3
+12:19:000653:000653_4 : 12:19:10:922: Toutou C7 a finalement se retrouver à devoir La Minerie parce que on avait pas qu'on . 4
+12:19:000654:000654_1 : 12:19:17:775: Et avant drivers bloquant un indice qui va nous bloqué à chaque fois qu'on va faire un casque utiliser rue couette exetera donc aucun sens de migrer . 1
+12:19:000655:000655_2 : 12:19:28:891: Ah donc on a choisi Sonic parce que justement c'est like . 2
+12:20:000656:000656_3 : 12:19:34:413: Mais c'est à ça ressemble vraiment à flasque après derrière c c de la synchro ses outils . 3
+12:20:000657:000657_4 : 12:19:44:480: Remplacement un drop in . 4
+12:20:000658:000658_1 : 12:19:49:529: La loupe . 1
+12:20:000659:000659_2 : 12:19:51:639: Qui fait . 2
+12:20:000660:000660_3 : 12:19:53:490: Qui peut en plus avoir des personnes beaucoup plus élevé en Haïti des Dino à place Destiny avec as in psg donc là c'est un IRM donc . 3
+12:20:000661:000661_4 : 12:20:06:063: Et qui qui remplace . 4
+12:20:000662:000662_1 : 12:20:10:033: Ensuite apprendre à utiliser Eurydice pour Élise et iOS . 1
+12:20:000663:000663_2 : 12:20:15:840: NRJ . 2
+12:20:000664:000664_3 : 12:20:18:595: Et on a pas du tout c séries en fait donc . 3
+12:20:000665:000665_4 : 12:20:25:790: Aller chez Laurent cassis et Laura danse à Nicolas . 4
+12:21:000666:000666_1 : 12:20:31:933: Pendu Sonic . 1
+12:21:000667:000667_2 : 12:20:35:883: Casting la . 2
+12:21:000668:000668_3 : 12:20:38:114: Donc ensuite par contre Dino . 3
+12:21:000669:000669_4 : 12:20:47:232: En fait ce qui peut arriver en fait que vous me graisser vraiment vous aurez . 4
+12:21:000670:000670_1 : 12:20:54:186: Forcément balai même outils ça c'est clair . 1
+12:21:000671:000671_2 : 12:20:58:307: Zino ça reprend un peu la . 2
+12:21:000672:000672_3 : 12:21:03:343: Quand même de la limite après derrière c'est quand même à Sète Hérault codezero c c pas est-ce que elle qui me . 3
+12:21:000673:000673_4 : 12:21:11:459: La philosophie . 4
+12:21:000674:000674_1 : 12:21:15:589: L'idée est un peu la même mais peut-être par exemple vous allez arriver à pas forcément faire exactement la même chose qui me faisait Andino . 1
+12:21:000675:000675_2 : 12:21:26:709: École . 2
+12:21:000676:000676_3 : 12:21:29:067: Roulé . 3
+12:22:000677:000677_4 : 12:21:33:189: Ça aussi ça malheureusement . 4
+12:22:000678:000678_1 : 12:21:35:436: Faut-il . 1
+12:22:000679:000679_2 : 12:21:45:553: En fait ça c'est vrai que ça arrive dans la simca you assez fréquemment . 2
+12:22:000680:000680_3 : 12:21:51:113: Nous avons . 3
+12:22:000681:000681_4 : 12:21:55:237: Je veux parler des difficultés . 4
+12:22:000682:000682_1 : 12:21:58:899: Parce que effectivement je vais monter . 1
+12:22:000683:000683_2 : 12:22:02:078: Mais vraiment les difficultés qu'on a rencontré c . 2
+12:23:000684:000684_0 : 12:22:07:295: Ça c'est plus exotiques peut-être le premier. Mais c'est vrai que ça peut être intéressant à noter c kan python l'aime bien des fois Poké truck des choses rapidement du code dans l'interpréteur oh bah en fait il faut quand même une . 3
+12:23:000685:000685_4 : 12:22:21:841: C'est ainsi qu'à Jochen si vous êtes en Python 3 3 7 mais en fait dans arrêter c'est pas aussi c'est un peu moins simple un peu moins facile de le faire directement d'interpréter après ah non c'est parce que maintenant et jupyter notebook . 4
+12:23:000686:000686_1 : 12:22:36:967: Pixabay loto . 1
+12:23:000687:000687_2 : 12:22:40:101: Je voulais juste t'écrire un signe des Alouettes et votre code en fait il s'exécute comme si CDI synchrone vous avez pas du tout écrire louper ça c'est pratique c'est tout récent . 2
+12:23:000688:000688_3 : 12:22:53:694: Vous expliquer tout à l'heure et vous avez-vous retrouvé finalement a migré peut-être ben nous on ne sait arrivé on se retrouver à migrer beaucoup chose et vous allez essayer . 3
+12:23:000689:000689_4 : 12:23:08:821: Capitaliser sur le code que vous avez donc après . 4
+12:23:000690:000690_1 : 12:23:12:559: Vraiment le coup de migrer autant de choses je sais pas qu'est-ce que vous avez mais voilà donc aussi il faut penser aller vente loupe ça c'est à Cynthia . 1
+12:23:000691:000691_2 : 12:23:23:517: Vidéo . 2
+12:24:000692:000692_3 : 12:23:25:347: Deezer du Waze ça encore syntaxe mais avant c'était un peu plus . 3
+12:24:000693:000693_1 : 12:23:33:472: Et en fait après le. 1. . 4
+12:24:000694:000694_1 : 12:23:38:242: Je sais pas pour toi Nico mais la maturité de certaines librairie si vous l'ai clairement python asynchrone async et vous allez les plats . 1
+12:25:000696:000696_3 : 12:23:54:297: Dino désolé mais il y a beaucoup moins de temps qu'il fait une bonne doc mais vous assure ta cover . 3
+12:25:000697:000697_4 : 12:24:01:397: Un copier-coller du code de cet accord et en fait ça c'est un vrai problème honnêtement parce que vous allez vous retrouver des fois peut-être même à refaire du Code un peu ça dire je vous avez par exemple vous avez une bibliothèque qui est super bien enfin Crohn et en fait vous dit c'est quand même . 4
+12:25:000698:000698_1 : 12:24:22:245: Chaussures en maillot . 1
+12:25:000699:000699_2 : 12:24:25:967: Comment on fait en fait vous pouvez faire du il y a une fonction s'appelle run executor donc passée t'appelle bloquant exetera . 2
+12:25:000700:000700_1 : 12:25:04:894: Le plus connu de Cassandra il y a il y a aucune roadmap articuler en stock en 2016 on avait aucune ce qui se passait qu'il y a quelqu'un il a fait un rappeur rappeur faire avec un Fred c'est pareil donc en fait . 1
+12:26:000701:000701_2 : 12:25:19:040: Finalement donc après à . 2
+12:26:000702:000702_3 : 12:25:22:785: Oublie the white ça peut arriver . 3
+12:26:000703:000703_4 : 12:25:28:914: Sinon vous avez . 4
+12:27:000704:000704_1 : 12:25:36:075: Gueule dessus au moins vous voyez direct donc en fait . 1
+12:27:000705:000705_0 : 12:25:43:216: Je sais très bien à 5 route par exemple pour des besoins vous êtes gentil qui habitait bah comme on a eu un DAB c'est très très bien et le problème c'est le ticket d'entrée donc ah si on était resté par exemple sur un câlin. On avait quelques chèques exécuter pour des bases exetera peut-être on serait resté sur de la . 2
+12:27:000706:000706_3 : 12:26:04:351: Et en fait à vous de réfléchir si . 3
+12:27:000707:000707_4 : 12:26:09:090: Le faire le pas que votre projet existe déjà il tombe bien exetera va-t-il en flash peut-être vous avez déjà dit mille requête et ça vous suffit là c'était très bien en fait je vais pas vous dire faut migrer absolument je suis pas comme ça donc . 4
+12:28:000708:000708_1 : 12:26:28:220: Regarder la STAC que vous avez déjà voir qu'est-ce que je pourrais adopter si je devais aujourd'hui changer en asynchrone et essayer de voir à pondéré . 1
+12:29:000709:000709_2 : 12:27:29:167: Se cache pas que ça craint effet tunnel quand tu dis pendant plusieurs jours semaine je suis en train de migrer un mec il va passer fil va peut-être . 2
+12:29:000710:000710_3 : 12:27:44:292: Classique et du coup effectivement ça fait peut-être un effet tunnel après . 3
+12:29:000711:000711_4 : 12:27:52:423: Massassi . 4
+12:33:000712:000712_1 : 12:27:56:418: Tuto tout ou rien après saucisse aussi tu fais le pari de faire ouais . 1
+12:33:000713:000713_3 : 12:28:11:701: Sofa faire plein de René exécutoire isolé dans deux frères un peu l'intérêt cc ça reste pour éviter de . 3
+12:33:000714:000714_2 : 12:28:56:045: Si tu vas bloquer bloquer . 2
+12:33:000715:000715_4 : 12:29:13:376: La côte belge en fait c'est principalement le problème des délires comme qui sont bien mais qui sont quand même qui sont peut-être difficile à migrer parce que je pense la côte mais ça doit être énorme et c'est vrai que c'est peut-être pas aussi ça . 4
+12:41:000716:000716_1 : 12:29:45:501: Bon après . 1
+13:53:000717:000717_1 : 12:33:22:521: Il y a une équipe . 1
+
+ 
+
+

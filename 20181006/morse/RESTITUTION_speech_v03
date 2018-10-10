@@ -1,0 +1,181 @@
+ 
+
+
+Convolution Network  in vanilla Python  Prakhar Srivastava
+
+
+11:33:000313:000313_3 : 11:32:17:804: Hello . 3
+11:33:000314:000314_0 : 11:33:13:921: So what am I am brother how are so I'm from India I am o Mere Lake Cumberland student finally underground I'm going to be doing research with a lighter daily in the field of computer vision vol so I cold sore problems and you can find me as PRS are.my if you were . 4
+11:34:000315:000315_1 : 11:33:37:116: So what are you talk about this talk is basically about computer vision so do you know what computer vision is anyone of you . 1
+11:34:000316:000316_2 : 11:33:49:258: Short and so this would be explaining the television I would be giving you a call so that you can learn and explore record yourself that would understand everything yourself so and everything would be hard coded in Python and numpy so no no library is only thing it is recorded in fighting so that you can understand what I said and relate to the code itself ok . 2
+11:35:000317:000317_3 : 11:34:24:403: Choose a topic so because I'm in too deep learning are we scared so everybody is like using some kind of library chaos tensorflow something and they are late just getting away with the Jewellery so it is very important if you want to explore what the problem is and if you want to deliver a good solution to the problem so people people usually don't understand this . 3
+11:35:000318:000318_4 : 11:34:54:545: Help you to understand what computer vision really is so some good Show of Hands how how many of you are new to machine learning . 4
+11:35:000319:000319_1 : 11:35:07:319: Oh I feel that great so so anybody who is here to explore machine learning and Alex tell me what machine learning is in their own voice . 1
+11:35:000320:000320_2 : 11:35:19:635: Want to answer . 2
+11:35:000321:000321_3 : 11:35:23:772: So . 3
+11:36:000322:000322_4 : 11:35:25:902: What is machine learning machine learning it's basically I'm watching this way to learn from experience with respect to some class C and this is very happy and very high definition to understand I would break it down something simple sew machine learning is just fancied on for quitting quitting mathematical Sophie so it is just a fancy word for coughing is basically mathematic . 4
+11:36:000323:000323_1 : 11:35:55:062: Eid building College mathematics code . 1
+11:36:000324:000324_2 : 11:36:05:207: Song for the problems that deals to Sol . 2
+11:36:000325:000325_3 : 11:36:10:353: Vision or natural language processing reinforcement learning the new restaurants around and everybody's watching to machine learning deep learning I guess you are all here to jump on the board for that are so let's focus on the computer vision part of the whole scenario so why is it important thing you can tell me . 3
+11:36:000326:000326_4 : 11:36:36:309: Important . 4
+11:36:000327:000327_1 : 11:36:39:158: Exactly . 1
+11:37:000328:000328_2 : 11:36:44:302: What do you what do you reply vision for . 2
+11:37:000329:000329_3 : 11:36:50:465: From 3000 from driving Cars 2 Reading to medical imaging capturing everything you require hand eye coordination is also an important part vision is almost everywhere so if you're trying to make an EA play some if you're trying to create a robot vision will be an important part of that so so what are the different task in vision how do we define what are the different for  Computer Vision . 4
+11:37:000331:000331_1 : 11:37:25:893: There are three major task classification detection and instance segmentation for this is very visual . 1
+11:38:000332:000332_2 : 11:37:37:042: And you need to determine whether the objective c o b . 2
+11:38:000333:000333_3 : 11:37:43:180: Navigation plus localisation you have to tell whether an objective C of E and your hotel where in the picture is the objectives identification localization detection then this object detection . 3
+11:38:000334:000334_0 : 11:37:59:318: The position of heavy objects and you're prepared for the object is and then we have in segmentation this is like how humans perceive everything for instance segmentation I can focus any part of this room with my eyes. How about is how advanced are region is I can focus their anger everything all I can hear is in my vision so that is the epitome of problems instance segmentation is the . 4
+11:38:000336:000336_0 : 11:38:31:642: For Problem. We need to crack in computer Vision . 2
+11:38:000337:000337_3 : 11:38:36:774: How are you doing today was a famous . 3
+11:39:000338:000338_4 : 11:38:40:899: Today's many difficulties in computer vision first of all computer doesn't understand like how we perceive images only understand binary 1010 we have to break it into pixels numbers . 4
+11:39:000339:000339_1 : 11:38:55:041: Converted into pixels then there are a lot of problems like with Vodafone station because we need to convert images to fix a big big . 1
+11:39:000340:000340_2 : 11:39:07:165: The War of the competition is beautiful beautiful . 2
+11:39:000341:000341_3 : 11:39:13:313: Why use before a very inefficient so identify done before so if you guys know about decision trees FM Ghana visa all the letter everybody try to Salvation but it was not very efficient and I'll follow follow for many years which was literally where was not registered with us how do you . 3
+11:40:000342:000342_4 : 11:39:42:454: You do a lot of competition in the deep learning is so there's a very famous competition code imaging it mean if you have already bought a meeting . 4
+11:40:000343:000343_5 : 11:39:52:979: Images of skill competition held annually and you have 1/4 of 1.5 million images of 15 million . 1
+11:40:000344:000344_2 : 11:40:07:125: A lot of companies . 2
+11:40:000345:000345_3 : 11:40:14:255: I try to get a . 3
+11:40:000346:000346_4 : 11:40:18:399: Indesit competition so there was there was this result and you can see in 2012 that every drop significantly so you can see . 4
+11:41:000347:000347_1 : 11:40:31:536: Turn down for what happened in 2012 so the answer is convolution neural a box . 1
+11:41:000349:000349_3 : 11:40:43:839: With this new model Court Coleraine Alex and basically and it just a shadow the competition it was a big big events the time I think about it and everybody was like oh yeah we short AI and everything like that so before before getting into corners . 3
+11:43:000350:000350_4 : 11:41:05:971: So I mean if you were trying to get into machine learning so I'll tell you from the side so here is the link and you can go to the link and . 4
+11:44:000351:000351_1 : 11:41:19:716: Run the chords . 1
+11:47:000352:000352_4 : 11:43:41:798: If you want to play galio notebook there any video so this is a good platform to have physio . 4
+11:47:000353:000353_1 : 11:44:00:190: Order stuff . 1
+11:47:000354:000354_3 : 11:46:59:113: Hello . 3
+11:47:000355:000355_4 : 11:47:06:250: I thought . 4
+11:47:000356:000356_1 : 11:47:16:398: Google colab . 1
+11:48:000357:000357_0 : 11:47:20:539: Discussing such a basis they are only a few fundamentals of machine learning models so you have your data that is also available with you then you have to pay the hypothesis function and you have to have a lot of things which would check the hypothesis function of it is performing and then you have optimizer so you have to
+11:48:000358:000358_3 : 11:47:47:709: Thought it's or Alexa work of three functions with the every more Elizabeth II functions are so like you to God and you have in logistic regression so what is it like this situation was the secret question is a fundamental classification models that everybody likes Motors where you get introduced to when you enter in the film where she learnt a lot this dictation is Batman . 3
+11:48:000359:000359_4 : 11:48:13:862: Thought it's or Alexa work of three functions with the every more Elizabeth II functions are so like you to God and you have in largest aggression so what is it like this situation was the secret question is a fundamental classification models that everybody likes Motors where you get introduced to when you enter in the film where she It's a basic or more for classification is it does binary classification so you are like I showed you that scored linear classification codes and you can basically go there so this is the sigmoid function is basically the law function yeah I told you what three functions late I'll introduce here for this is a lung function then you have your hypothesis function . 4
+11:49:000360:000360_1 : 11:48:42:071: It has all the right here so you can see it and buy it is obvious that you need to edit the parameters and then you have your . 1
+11:49:000361:000361_2 : 11:48:53:196: I thought it takes the output from sigmoid functions and I can't be what the losses and then you have gradient gradient reading order St . 2
+11:49:000362:000362_3 : 11:49:05:610: What do mice chew through the gradient descent you . 3
+11:50:000363:000363_4 : 11:49:11:753: That is how you learn so you need to look like you need you need to know your loss and then you can adjust the parameters so that it . 4
+11:50:000364:000364_1 : 11:49:23:899: The card fits the data so I'll explain that in more that so this is from so the situation so forward propagation here forward propagation is here so we are reporting that feeling extremely tired and 3 labels and and we have the random bits in Italy visa in Australia and then we have now been put some random numbers then we take out a loss then we calculate the Greedy . 1
+11:50:000365:000365_2 : 11:50:04:045: Obesity . 2
+11:50:000366:000366_3 : 11:50:08:118: Pardon me it just of random ways we introduce first so so it's like a fitting an equation but why you through the code so . 3
+11:50:000367:000367_4 : 11:50:21:263: So you did or 4 of propagation read ingredients list of us going . 4
+11:51:000368:000368_1 : 11:50:32:396: You are here for deep learning, here is the network. 1
+11:52:000369:000369_0 : 11:50:40:525: Give me a relief. They also have those three fundamental concepts of max value your loss loss function basically and you have concerns of those players for propagation backpropagation I would be a fine girl so concept of non-linearity so can't separate nonlinearities the data you get from the World Is Not linear linear Innocence like if not already the progress is in one . 2
+11:52:000370:000370_0 : 11:51:09:666: Give me a relief. They also have those three fundamental concepts of max value your loss loss on shins basically and you have concerns of those players for propagation backpropagation I would be a fine girl so concept of non-linearity so can't separate nonlinearities the data you get from the World Is Not linear linear like It goes from one 5:10 sometimes Go 1 5 25 I'm just telling you in the form of streaming of number if you get the data so there is not always linear you get known we made it out and to fit nonlinear data or to get out equation which recently needed you need to have some non-linearity in your models so how do we get that non-linearity the answer is softmax; softmax basically gives you . 3
+11:52:000371:000371_4 : 11:51:09:666: Fashion in your model said that you can fit nonlinear data basically and we have value for nonlinearity Concepts in forward propagation so far take forward propagation is basically the term used when your data is inserted into your model so your data is inserte into model you get some output and then that is your fault propagation the new basics then then there is backward propagation. 4
+11:52:000372:000372_1 : 11:52:13:153: Get your data you do the loss you calculate the loss of what what is the loss loss is the data that the answer the output data generated by your train by your model and original answer the actual fact the answers that the label that you have so it's the difference between them to losses how far away is your answer from the actual answer that is a loss basically so we have different loss functions . 1
+11:52:000374:000374_3 : 11:52:44:536: Los Burning . 3
+11:53:000375:000375_4 : 11:52:47:510: I saw logical progression is basically a linear model so why does linear model fails . 4
+11:53:000376:000376_1 : 11:52:55:612: I already given alongside why does the Leani more to feel anyone anyone . 1
+11:53:000377:000377_0 : 11:52:55:612: Linear model
+11:53:000378:000378_2 : 11:53:02:116: Psychic because the data that you get from the World Is Not linear if there is only so . 2
+11:53:000379:000379_0 : 11:53:12:262: Interesting facts about 5. If you need plugs basically fill on the first sheet ask off . 3
+11:54:000380:000380_4 : 11:53:22:414: And that is because . 4
+11:54:000381:000381_1 : 11:53:26:574: There were a lot of problems and the problem is Curse of dimensionality so I initially I told you every image is to be separated in the film pixels and we take the pixel count so just imagine you have 28 by 28 that's the height and width of a single image 84 28 by 28 size images and how many different images can you get from a 28 by 28 pixel images . 1
+11:54:000382:000382_2 : 11:53:59:283: Audition combination if anybody knows . 2
+11:55:000383:000383_3 : 11:54:03:438: We are we have three values of pixels RGB weight and each pixel can be tuned somehow or two that says that the three pixel values can be changed so if you have 28 by 28 that is 784 pixels late 28 by 28 is 784 pixels and each pixel can we can have three different values which each value of UV filter can we change from 0 to 255 so that gives us 256 into 256 to 256 to 56 . 3
+11:55:000384:000384_4 : 11:54:47:590: $74 a lot and it's 2028 images of for the images that you take from your camera or the how a lot of people like that a lot bigger than 20 by 28 feet so the Curse of dimensionality is images sizes are increasing and you need to somehow a computer such big amount of images and deep neural networks take on pixel values and then they did to mine so it's unscalable at such a big range . 4
+11:56:000385:000385_1 : 11:55:24:732: Curse of dimensionality is that datasets sizes increase in feature number and at some point it becomes . 1
+11:56:000386:000386_0 : 11:55:24:732: Infeas
+11:56:000387:000387_1 : 11:55:34:859: Other ways than to just use EPO labels because at some point it becomes invisible so we have conversation the Olympics so what problems do convolution neural a Vauxhall I would go for that they Think It's th is social worker citypoint translation invariance palomitas shading and highlighting feature training learning so what is translation invariant . 2
+11:56:000388:000388_3 : 11:56:05:004: If you can see this as a cashier . 3
+11:57:000389:000389_4 : 11:56:09:175: What is in the centre of the image on the second image the cat is bit farther from the Sun from the centre court at 8 and 4 for your computer it cannot understand it cannot believe what I type is it so it has to go to fix pixel by pixel so we need a winner algorithm an algorithm with somehow they don't mind that this is a god and that is also a card but doesn't read the . 4
+11:57:000390:000390_0 : 11:56:36:340: Great Russell. Translation invariance because we can have cat anywhere in the picture and we need a model so that it can detect cats anywhere in the pictures I took a base object here or in the corner or Insider or some . 1
+11:57:000391:000391_2 : 11:56:52:490: I saw you transfer ingredients so . 2
+11:57:000392:000392_4 : 11:57:08:625: They are Are ugly Jimmy circle circle dot circle can be transformed into a tyre . 4
+11:58:000393:000393_1 : 11:57:23:953: Call Toya or in fact your eyes if you can draw good so I decided to think about our girl features you build a thing from ground up so you can take it so good and you can draw out tire on it or you can draw eyelashes are on it as it it becomes I write this article features you start from the basic structure of triangles circles cylinders and then you try to combine it in Sochi . 1
+11:58:000394:000394_2 : 11:57:55:092: That it runs out into something believable or something at that you can call human or car are hierarchical features right so are we need an algorithm which detects basic features inside an image and then tries to combine the information it gets from the image and then fight so basically what the . 2
+11:59:000395:000395_0 : 11:58:22:237: So that it was really is so here we can see you later in the text very cool features like lines and shapes that. . 3
+11:59:000396:000396_1 : 11:58:32:381: Find me come to parameter sharing so each pixel get a parameter of its own so if you are 74 pixels we have 784 video palomitas little things a little biased so if no no we want sum Adam metres for each image so if you have a 28 by 28 image of you somehow we don't need 74 hour meters but we no need of some assembly 114 into 14th para Meetha so that we have left . 1
+11:59:000397:000397_2 : 11:59:15:727: It would be done . 2
+12:00:000398:000398_3 : 11:59:18:663: so coming back to convnet I can't move no fee I'll explain you how the corners does it in real time so whenever I told you right now it's basically image processing or feature feature lodging so what about does a Koala koala do is it takes the image and exciting features and it goes back of an array of popular numbers and I'll be called as features extracted . 3
+12:00:000399:000399_4 : 11:59:49:789: These features Are the features go into your logistic regression remember that was the basic basic fundamental model of machine learning to call me so nothing but feature learning . 4
+12:00:000400:000400_1 : 12:00:02:930: Are models so it was learnt the features it throws out some features and then you get a feature adding which would be processed by some kind of classify at the end so that section of convnet corners has a small boxes or kilometres or metres which shade all over so that is how you do Power metres Shearing and then you have side side lick each let me show you so if you are so . 1
+12:01:000401:000401_2 : 12:00:03:930: Image . 2
+12:01:000402:000402_3 : 12:00:36:289: If you assume that is our image and yellow box is a power metre box and it is basically multiplying a 3 digit in the red inside the yellow box and bring the sum of all the multiples . 3
+12:01:000403:000403_4 : 12:00:37:289:  So a parameter box gets every part of the image . 4
+12:02:000404:000404_0 : 12:01:02:624: 3 part of the image you get a source of sum of products and it gets no fear into NEXO part of the image and then you have pool layers. Pool layers is basically some things are basically a compressor image to you take for pixel compressor and create a single pixel . 1
+12:02:000405:000405_2 : 12:01:29:761: this is how pool layer work to take full pictures from an image you can compress them now it's on you to how how to compress them you take four pixels and take the highest amount of a number for pixel and we take it into the next up part of the image so we get from 1156 we take the 6th part of the A66 number from the image as if you forward . 2
+12:02:000406:000406_3 : 12:01:56:899: So we have nonlinearities because data is non linear in the sense in the same speaker only me ideas is basically a very quiet everywhere because it is not linear so we have to pay for fighting non linearities we have leave a special functions . 3
+12:02:000407:000407_4 : 12:02:17:042: The rest of the next regular leg regular in the same I told you you can use logistic regression svm decision trees and everything like that so convnets, it is basically image processing but it's fancy image processing and then you have rest rest of the rest of . 4
+12:03:000408:000408_1 : 12:02:38:173: Let's go to a cool visualisation I have it here . 1
+12:03:000409:000409_2 : 12:02:51:306: How do I switch . 2
+12:03:000410:000410_3 : 12:03:00:444: I draw an input here. 3
+12:03:000411:000411_4 : 12:03:14:571: I drew a 2 here And if it is an input basically right then there's this condition your hair so it tries to extract some features out of the image this is a first layer then you have done something that is a feeling that I told you about so it so you can see the image get School . 4
+12:04:000412:000412_1 : 12:03:37:709: So . 1
+12:04:000413:000413_2 : 12:03:40:852: Nice compression layer and then we have another convolution layer it does the same thing its sides does palomitas over and over again and tries to learnt few different features which are important and then you know you get another downsampling you get another you get fully connected layers just to It's like you're like a lot of circulation basically so fully connected layer . 2
+12:04:000414:000414_3 : 12:04:09:006: regular deep deep networks so and then you have fully connected layer number two and then finally there's an outputput it . 3
+12:04:000416:000416_4 : 12:04:23:145: floor just to touch by digital . 4
+12:04:000417:000417_1 : 12:04:24:145: All this:04:30:298: You're Work. 1
+12:04:000419:000419_2 : 12:04:33:441: Ok . 2
+12:04:000420:000420_4 : 12:04:36:637: Turn . 4
+12:05:000421:000421_1 : 12:04:40:783: Lol just distrubute the link of this so you know so you can check it out yourself and then have a . 1
+12:05:000422:000422_2 : 12:04:53:914: A test in Keras, I have it here. 2
+12:05:000423:000423_3 : 12:05:01:667: And . 3
+12:05:000424:000424_4 : 12:05:21:579: AH Sonic so . 4
+12:05:000425:000425_1 : 12:05:32:987: Are . 1
+12:05:000426:000426_0 : 12:05:38:108: The fuzzy image. I . 2
+12:05:000427:000427_3 : 12:05:46:278: Model and what is compiling . 3
+12:06:000428:000428_4 : 12:05:51:477: area in real time so this is the world calling . 4
+12:06:000429:000429_0 : 12:05:51:477: It'all done in real time
+12:06:000430:000430_1 : 12:05:57:620: the pooling is down Sampling basically . 1
+12:06:000431:000431_2 : 12:06:00:763: What does a 93322 minutes training right now so let It Rain for a few minutes and . 2
+12:06:000432:000432_3 : 12:06:15:232: So I can tell you about this model stop won the competition the competition I started . 3
+12:07:000433:000433_1 : 12:06:24:368: 2012 Arena with the defenders in the pillow for computer vision for this is AlexNet it broke the record and by the way current record is held by a company somewhere in China and Company basically brother label 21.1 1.3/:/ so if . 4
+12:07:000434:000434_2 : 12:06:51:519: The human error is somewhere around 5/:/ so that makes it are you when you're giving 100m are you meant would classify 5 images wrong but the model does it only a single time we have in the human . 2
+12:07:000435:000435_3 : 12:07:11:644: She looked ossification for now this is tofu good for coming years so this so you can see the train I hear the layers are less then the next will win at the layers are more and in 2015 the layers so basically a lot so people as a starting place where are layers and layers and layers to just get to the point where they break the records so . 3
+12:08:000436:000436_4 : 12:07:41:790: From a single talk you can basically understand the lack of the Architecture is because they're just . 4
+12:08:000437:000437_1 : 12:07:51:942: Stacking the layers again and again so you can just understand a single concept and you can understand a lot of models I so . 1
+12:09:000438:000438_0 : 12:08:04:946: The barrier to entrance is really low.
+12:09:000439:000439_3 : 12:08:04:946: Is a lot so that is why you need to try to understand it and yeah that's about it thank you for your attention and any questions you may . 3
+12:09:000440:000440_4 : 12:08:24:263: I don't wish . 4
+12:09:000441:000441_2 : 12:08:50:650: Are you wanting away if you only choose to view to 256 . 2
+12:10:000442:000442_4 : 12:09:19:017: Why do we use the filter like 256 and and then 128 ? . 4
+12:10:000443:000443_0 : 12:09:28:148: Forbidden results like that so is there a picture of an ziegler images Michael images of different dimension it was but it was differently today Andrew NG basically told about this so he was like are not talking about different sizes so that was because of the processing inside the computer because it makes the most efficiently so that was something that that was discovered after
+12:10:000444:000444_2 : 12:09:59:272: A lot of similar images and then there we came to the result that to 53 by 256 cm you can use 303323 A-Team by Ed and . 2
+12:10:000445:000445_3 : 12:10:16:406: Something that people follow as a trend, so . 3
+12:11:000446:000446_4 : 12:10:23:544: Or something like that because you can always with you say it . 4 Hi fellow tran
+12:11:000448:000448_1 : 12:10:29:673: Scriber Ok . 1
+12:11:000449:000449_2 : 12:10:45:790: So you gonna . 2
+12:11:000450:000450_3 : 12:11:07:952: So that's the question was if you have a different size of image that would that be want to feed into the AlexNet or something standard next . 3
+12:12:000451:000451_4 : 12:11:21:107: Am I right? . 4
+12:12:000452:000452_0 : 12:11:25:266: you are what you can do it if the images or smaller than 200 - 200 pixel image so what we can do is we can do or padding that zero padding so we can just put a border around the image and model ignores the border because it doesn't know what the water board or is she just ignores that so we can put up the car 227
+12:12:000453:000453_2 : 12:12:01:450: Are so that we can see to 27 by 227 image but it would be cabin zero padding around image . 2
+12:12:000454:000454_3 : 12:12:11:585: So it is I don't want the image it's not under architecture . 3
+12:12:000455:000455_4 : 12:12:18:719: Yes we take . 4
+12:13:000456:000456_0 : 12:12:22:864: Are you have a 200 by 200 pixel image right then I then what I do is
+12:13:000457:000457_2 : 12:12:37:990: So I don't suppose 27 pixels the pixel amount would be zero so we put with black like for you and for the computer it will be presenting information so it would leave that part and refocus on the image part . 2
+12:13:000458:000458_0 : 12:12:58:125: Much more bigger. So, you can stride basically you can take different parts of the image so we can do what we can do is we can create to 27 by 227 window and then we can straight over the window to find to detect object . 3
+12:13:000459:000459_4 : 12:13:20:264: Yeah it's that bad as I doubt if it is done in . 4
+12:14:000460:000460_0 : 12:13:27:417: Localisation of detection techniques you use this because you are you a feel like I said driving cars late so Raven girls have basically no pixel Arma back they don't have standard values ways can everything window by window and that isn't very fast. so, you are so, when when when there's somebody . 1
+12:14:000461:000461_2 : 12:13:50:557: Twitter scan the whole team of window by window and just when it detects so . 2
+12:14:000462:000462_3 : 12:13:57:684: The I can tell you about it but it would get a lot a lot longer . 3
+12:14:000464:000464_2 : 12:14:23:177: So the question was how do we choose a particular . 2
+12:15:000465:000465_3 : 12:14:29:308: Look for 4 tonight so it is all depending on the image it is it is the opinion that asks so far object or object detection and classification the usual go to model is GGG because it is much simpler to understand . 3
+12:15:000466:000466_0 : 12:14:47:458: Then you go to the complex model Satan like a resonator and other more basic start or go to model is VAT and then you go to racenet and find other other things. Anna Cartoon Network send a lot of things so it is like that depended they are not image different . 4
+12:15:000467:000467_2 : 12:15:11:631: Thank you . 2
+12:16:000468:000468_0 : 12:15:13:748: So the question is do I have to
+12:16:000469:000469_4 : 12:15:28:912: So the question is how do we decorate a corner accommodation late so I told you Lucia neural network is basically feature engineering the regularization park comes in the classification so you can use you can use your draw boats and L2 regularization techniques in the classification you do anything inside the corner there's one of people called normalisation which we do inside the . 4
+12:16:000470:000470_1 : 12:16:12:045: Russian Roulette book for Dartford . 1
+12:16:000471:000471_2 : 12:16:16:198: Different part of the week or sometimes we leave nationalisation because it does like it does regularize the thing what we can get away with using a video about at the end and it just what . 2
+12:16:000472:000472_3 : 12:16:36:346: Thank you for the . 3
+12:17:000473:000473_4 : 12:16:41:483: Sorry . 4
+12:17:000474:000474_1 : 12:16:48:621: Number of epochs so the question is how do we use either few hyperbolic number of epochs and things like that so again it is not dependent . 1
+12:17:000475:000475_2 : 12:17:06:750: You start with 10 or 24 or whatever works fine and let him in you'll see if it is overfitting or not if it is not overfitting you generally done for a few more epochs it is basically hidden file IO palomitas like a fox and . 2
+12:17:000476:000476_3 : 12:17:24:900: Running late and all you didn't raise but since we had a lot of people are doing deep learning right now so there are few standard hyperballad so . 3
+12:18:000477:000477_0 : 12:17:39:049: Are any of the optimizer you can get a particle you
+12:18:000478:000478_2 : 12:17:47:215: RJ45 to 10 then check your validation testing go and if it is overfitting than you might start from the and video support . 2
+12:18:000479:000479_3 : 12:18:06:506: Simulation . 3
+12:18:000480:000480_4 : 12:18:09:881: Justin . 4
+12:19:000481:000481_1 : 12:18:20:008: Good . 1
+12:19:000482:000482_3 : 12:18:46:105: Ghost cases to II e-610 it is all opening 2 with the higher probability even though it is in the left corner . 3
+12:19:000483:000483_4 : 12:18:59:248: Yeah this is Kosovo . 4
+12:19:000484:000484_2 : 12:19:13:598: Directions off on the topic but I know so I suppose the question was how do we . 2
+12:19:000485:000485_0 : 12:19:23:729: For the dick a detecting a particle of object name it's right from here in the Call of War in addition to classification what are the different techniques that we do for detection rate so so one part One Pilots like you use and the windows window take me there. I told . 3
+12:19:000486:000486_4 : 12:19:46:887: What . 4
+12:20:000487:000487_1 : 12:19:51:019: Exactly so u v . 1
+12:20:000488:000488_2 : 12:19:55:156: Go and her point so there are they like to be select hyperbaric windows . 2
+12:21:000489:000489_3 : 12:20:04:301: Text rectangular boxes over like a lot of rectangular boxes over the image and 20 rectangular box over time is Saturday cover every part of the image and you feed it to the condition and network in in up in a parallel fashion so everything gets groped and fit inside inside 20 live so you feel at 20 out of 20 Windows so it goes into 2 in inside the countries in the world . 3
+12:21:000490:000490_4 : 12:20:33:442: Inditex are 20 different Windows as a as new images basically so if you draw a lot of boxes are somehow they would be a box which would get the major part of 2 knot in entire time number 2 multimedia part of you and then it would try to look Local eyes so that box becomes the local . 4
+12:21:000491:000491_0 : 12:20:57:586: So that is what I do with old are in the setting object detection is somewhat good instance segmentation instrumentation was like if I have to so I can afford proper pixel by pixel identification and that is the epitome of the problems we face in computer vision so that is not
+12:22:000492:000492_2 : 12:21:24:708: Faster rcnn it sounded a lot of which are trying to solve the problem you're talking about like pixel to pixel masking of the particular object what we are trying to track down people are working to correct that it is not a problem that is all right now but the detection could be done later you draw a lot of boxes and some other some part of the box or tails that ok the . 2
+12:22:000493:000493_3 : 12:21:53:830: Here is a lot more than propagating of getting a 2 in the upper part somewhere that is how it was . 3
+12:25:000494:000494_4 : 12:22:05:967: Any other way . 4
+12:25:000495:000495_1 : 12:22:12:103: Thank you . 1

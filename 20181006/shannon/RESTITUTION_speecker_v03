@@ -1,0 +1,160 @@
+
+03_Manager un parc avec SaltStack Anthony Martinet
+
+11:04:000344:000344_3 : 11:03:22:388: Et ben bonjour bienvenue à tous moi je veux présenter un temps qui s'appelle manager un parc avec sol STAC donc ça va durer environ 2025 minutes j'espère suivant le timing et puis du coup il y aura du temps pour les questions après . 3
+11:04:000345:000345_4 : 11:03:37:332: Kimo je m'appelle Anthony martinet avec lui que vous croiserez ici dans la conférence on a créé avec qui vit à bientôt 5 ans . 4
+11:04:000346:000346_1 : 11:03:45:476: On fournit des services pour les petites entreprises petit c'est mon entreprise de l'Internet la téléphonie sur IP WIFI la location de poste infogérance l'idée c'est vraiment de faire un package total pour fournir l'entreprise une facture mensuelle sur laquelle on externalise son lac mais Renault à nos moutons aujourd'hui on va parler de manager un parc avec sac . 1
+11:04:000347:000347_2 : 11:04:06:991: Combien faire un résumé en I fly comme ça vous vous savez c'est pouvez faire du téléphone pour la présentation si ça vous intéresse pas le résumé en à site de cette présentation c solsac c'est cool voudrais regarder comment ça marche et utiliser pour voir ce que vous pouvez faire avec on va . 2
+11:05:000348:000348_3 : 11:04:23:145: La problématique pour nous chez activez manager un parc ça veut dire quoi ça veut dire manager Linux principales maladies des postes Windows et dépenses OS X on a pas encore trop de poste Linux chez les clients malheureusement . 3
+11:05:000349:000349_4 : 11:04:38:191: C'est par la partie serveur Linux donc c'est un peu près la plus simple . 4
+11:05:000350:000350_1 : 11:04:44:321: Il y a un outil qui s'appelle gestion de configuration et ça marche très bien donc effectivement c'est ce qu'on a fait au début au début on a commencé avec pépette qui était à l'époque ce qu'on connaissait le mieux et donc on est parti sur fait mais on est en python en python la communauté elle est plutôt active et on a eu la chance d'aller à la paille connu en 2016 auxquels on a 6 . 1
+11:05:000351:000351_2 : 11:05:07:450: Qui faisait un peu l'état de l'art de des différentes solutions de gestion de configuration et le monsieur nous a convaincu de jeter un œil à solsac donc du coup ni une ni deux on a regardé comment ça marchait et du coup on a migré de pépette à Solta l'espace de 3 mois . 2
+11:06:000352:000352_3 : 11:05:23:570: Vous allez me dire mais en python qu'est-ce qu'on utilise ansible c c un de chose de plus connues donc on va faire un petit état de l'art kiné ne se veut pas complet donc en gros en gestionnaire de configuration en rugby peux pas été chef sont un peu les acteurs principaux en python on ansible sur le sac et aussi fabrique et donc on va justifier pourquoi on a fait 10 . 3
+11:06:000353:000353_4 : 11:05:47:710: Donc la différence principale avec ansible sais que ansible tout se passe par ssh alors que ce sac il y a un agent sur la machine qui s'appelle un minion . 4
+11:06:000354:000354_2 : 11:05:56:860: Alors pourquoi ça sert à ça il y a alors autres avantages de Saussac sais qu'il est compatible avec toute une flopée dopé rating system notamment ceux qui nous intéresse Windows et Mac qui n'est pas le cas je pense dans cible pour mangui Windows ça va être compliqué . 2
+11:07:000355:000355_0 : 11:06:13:271: Tu la chose qui est bleu quand c'est que la plupart de nos clients ils sont derrière la connexion internet ils sont des fois itinérant et si on veut connaître ip publique pour le manager son poste ben on l'a un peu dans l'os mais ça qu'il y a un petit agence sur la machine et ben du coup on peut l'interroger de n'importe où est ça marche tout le temps
+11:07:000356:000356_0 : 11:06:31:415: Donc voilà un autre avantageux solsac sais qu'il y a la partie gestion de configuration mais aussi d'autres choses qui s'est très très bien faire il y a de l'orchestration donc la station c'est quand vous configurer une machine mais avec des interdépendances sur d'autres machines il y a de l'exécution à
+11:07:000357:000357_1 : 11:06:51:512: C'est tout ce qui est automatisation orienté autour d' évènements le cœur de sol ça qui a un bus d'événements et avec ce bus événement on peut faire des réactions en chaîne qui sont assez incroyable et presque sans limite . 1
+11:07:000358:000358_2 : 11:07:03:476: Donc niveau de l'architecture solsac comment ça se passe il y a ma sœur qui s'appelle le seul ma sœur qui commande une flopée de minions qui s'appelle des sacs mignon et la communication entre les deux se passe par un bus 0 équipée qui permet de scalabilité nous on a quoi entre 100 et 200 million sur notre centre de parc il y a des exemples qui marche avec 10000 million ils sont . 2
+11:07:000359:000359_3 : 11:07:25:606: Moi je dis mignon et d'avoir un retour en moins en moins d'une seconde c'est plutôt pas mal . 3
+11:08:000360:000360_4 : 11:07:32:049: Donc on va dire la partie gérer les serveurs Linux c'est assez facile check on va passer maintenant à la partie Poste Windows configurer un poste de Windows de manière automatique c'est censé être facile . 4
+11:08:000361:000361_1 : 11:07:48:056: Agence le sac qui est sur la machine et puis euh du coup en faire un peu de magie PowerShell . 1
+11:08:000362:000362_2 : 11:07:53:465: Pour comprendre un peu comment ça marche du coup il faut comprendre un petit peu l'architecture de sol sac . 2
+11:08:000363:000363_3 : 11:08:00:210: Il manque un slide mais c'est pas grave a donc du coup on va partir de cas concret et ensuite on va se dérouler un petit peu pour savoir comment ça se passe donc atypique d'usage pour un Windows on veut créer un nouvel utilisateur sur la machine . 3
+11:08:000364:000364_4 : 11:08:13:948: Alors la vidéo a peut-être pas censé mais je la mi la sol STAC à tout de suite Nice de module intégrer des mots de l'exécution donc il y en a toute une flopée vraiment pas mal et dans cette liste du coup on peut faire des actions interrogé docker MySQL déposerai gérer iptables vraiment énormément de choses qui sont bean et c'est chouette donc il y a des modules pour Windows . 4
+11:09:000365:000365_1 : 11:08:38:077: Une flopée et vous pouvez créez votre . 1
+11:09:000366:000366_2 : 11:08:41:816: Et donc dans cette liste de module pour créer isat heure et ben on a justement un module qui s'appelle win useradd donc du coup ça c'est la doc que vous voyez allez et Cie le site web . 2
+11:09:000367:000367_3 : 11:08:53:961: Applique les options et tout ça c'est extrait du code la doc dans le code et elle générée automatiquement et je trouve que c'est aussi une société qui est vraiment cool gensalt sais que vous avez pas un accès Internet vous avez accès à toute la doc une fois que c'est installé et ça c'est vraiment chouette . 3
+11:10:000368:000368_0 : 11:09:10:092: 2e partie c'est le déploiement d'applications donc typiquement quand on nous on a un nouveau passe Windows install toute une flopée l'application dessus comment ça se passe donc chez So le sac il y a une sorte de repositories qui en gros déficit hindia qui sont dans un dans dans Harry pot guide qu'on clown et ça nous permet de
+11:10:000369:000369_1 : 11:09:32:245: Ça définit un installeur les flaques pour l'installer comment les installe est-ce que c'est un fichier mais si les locale et du coup ça nous permet de faire ensuite avec le paquet install on fait pkg install le paquet qu'on veut il fait tout le boulot il installe le paquet . 1
+11:10:000370:000370_2 : 11:09:49:170: Autre chose qu'on fait aussi fréquemment sur Windows c'est con modifier le Registre donc même même combat il y a un module pour gérer les registres du qu'on peut écrire les clés lire les clés faire ce qu'on veut avec et du coup au travers d'une interface initié qui est celle de Salt . 2
+11:10:000371:000371_3 : 11:10:06:104: Un peu plus tricky c'est les imprimante sous Windows donc j'irai les influences Windows c'est un peu merdique typiquement vous pouvez passer les une imprimante de manière automatique si vous n'êtes pas connecté au réseau ça marche pas et heureusement et Porsche à la rescousse donc sur les anciennes versions Windows c'est un peu plus délicat mais à partir de Windows X . 3
+11:11:000372:000372_4 : 11:10:26:235: Va dans le bon sens Ovadia et donc à coup de commande qu'on exécute JDC on écrit inscrit Porsche elles ont des pas sur la machine on lance et il fait son boulot donc chez nous pour les imprimantes on a un petit script qui tchek cils Paris existe pas on crée un coup de cette commande imbitable créez imprimante qui va marcher uniquement si l'imprimante elle est sur réseau . 4
+11:11:000373:000373_1 : 11:10:47:366: Et en fait du coup on installe d'imprimante . 1
+11:11:000374:000374_2 : 11:10:51:193: Avec une autre commande Rundll avec tout plein de paramètre avec des fichiers de driver conduire à fournir l'avance et s'installe imprimante donc du coup on peut faire du déploiement d'applications et à ce moment là on est limité juste par PowerShell qui devient de plus en plus on peut faire presque tout et PowerShell dans les voiles Ursanne Windows et du coup c'est trop cool . 2
+11:12:000375:000375_3 : 11:11:11:320: Donc voilà pour la partie Poste Windows comment légère ça c'est fait maintenant passons à oui 6 6 6 baise avec un noyau un petit peu modifié de baiser et OS X permet d'avoir SSH donc à partir du moment où on a un point d'entrée c'est ça on va pouvoir faire ce qu'on veut . 3
+11:12:000376:000376_4 : 11:11:33:456: OSI que je sais pas si vous êtes là fait de la CLI . 4
+11:12:000377:000377_2 : 11:11:38:583: Vente pour lancer un agent RD qui permettent reprendre la main distance sur un Mac leur se dit je sais pas qui c'est qui l'a fait venant du monde Linux c'est un peu habitable donc un kyste exemple juste pour dire pour le lancer la guerre des dons kickstart on activate en configure All Access on mais on lui dit les utilisateurs tu peux le faire en restart un agent habitable . 2
+11:12:000378:000378_3 : 11:12:00:702: Des gens qui pense à ces flaques cellier on demande pourquoi ça existe . 3
+11:13:000379:000379_2 : 11:12:05:881: Donc prenant un cas concret comme souris Windows avec notre réussite on veut installer des utilisateurs créditeur tout comme sous Windows il y a un module qui gère l'installation sous Mac donc on voit ici handball à Yzeure pour être ça va être la même commande et c'est ça qui est intéressant sous-sol tu sais que si vous faites un user Associer Windows si vous le faites sur un Mac il va charger automatiquement le modules associés au Mac . 2
+11:13:000380:000380_3 : 11:12:35:003: Gestion des modules es vraiment bien fait suffisant flexible dans ce cas précis on voit que la doc elle a pas été écrite donc c'est le cas les la majorité des modules unique s'ils sont vachement bien fait Windows c'est assez bien documenté pour Mac c'est pas encore ça ça vient petit à petit . 3
+11:13:000381:000381_4 : 11:12:50:572: 2e partie de toi mon application donc c'est Max et drag and drop sur ces marchés bien on va le faire principalement à coup de rester sage je sais pas si vous connaissez get max en gros c'est les scripts shell qui . 4
+11:13:000382:000382_1 : 11:12:51:572: Un endroit et ça fait le boulot Broué gérer donc on peut faire des brew install de manière automatique ce genre de chose . 1
+11:13:000383:000383_2 : 11:13:12:253: Il y a aussi une initiative sur Github qui s'appelle sur le taux et 6 qui consiste à faire des modules mieux fait en se basant sur Python de l'équipe c'est pour pouvoir avoir une interface plutôt chouette pour faire des tables de réglage sur le système mais à chaque nouvelle version de SX ça change un petit peu donc on a jamais eu des besoins spécifiques là-dessus mais ça vaut le coup de regarde . 2
+11:13:000384:000384_3 : 11:13:31:415: C'est votre buzz . 3
+11:14:000385:000385_4 : 11:13:34:523: Donc voilà comment gère les postes OS X . 4
+11:14:000386:000386_1 : 11:13:39:528: Maintenant là une problématique c'est que quand on a un parc de travail il y a un nouvel utilisateur qui arrive il aime bien avoir ses disque dur réseau . 1
+11:14:000387:000387_2 : 11:13:49:119: Et chez nous on utilise son bail OpenLDAP donc comment faire pour dire j'ai un nouveau 17h sur ma machine crée-moi le partage crée-moi l'utilisateur de mal mot de passe ainsi de suite donc on va introduire une nouvelle fonction en solde sac l'orchestration passe principalement parce qu'on appelle un renard . 2
+11:14:000388:000388_3 : 11:14:08:249: Que faire pour solde un script faire une succession d'actions et le tu écris en python . 3
+11:14:000389:000389_4 : 11:14:17:387: Ça permet de faire dans le cas précis on va interroger le sais . 4
+11:15:000390:000390_1 : 11:14:22:514: Windows par exemple on va récupérer ses utilisateurs . 1
+11:15:000391:000391_2 : 11:14:26:240: On va ensuite interroger le serveur en disant ok est-ce que tu connais cet utilisateur la oui non s'il le connais pas il va le créez avec un mot de passe aléatoire qui va renvoyer à la machine pour le mettre au bonne endroit on va demander à Sembat est-ce que tu allais partage pour cet utilisateur oui non si ils sont pas il va aller créez et une fois qu'ils sont créer un . 2
+11:15:000392:000392_3 : 11:14:44:377: À la machine Windows bah c'est bon ils sont créées montre-moi un coup de net use montre-moi le disque dur partagé le tout en un seul script plutôt chouette une autre partie de sol qui est vraiment cool parce qu'avec sert honneur lol man il y a pas de limite il va sûrement en existait en fonction de vos utilisation mais en terme de . 3
+11:15:000393:000393_4 : 11:15:05:514: On peut vraiment faire énormément de choses . 4
+11:15:000394:000394_1 : 11:15:08:912: Donc voilà comment on malade je ne pars chez nous Linux Windows OS X et cool mais j'ai un parc c'est pas uniquement ça nous en plus du coup on a des fois . 1
+11:15:000395:000395_2 : 11:15:20:068: Angers à Rodez switch sur les canaux déclarer des Velan et gérer les choses comme ça et on fait aussi la téléphonie sur IP donc on a besoin de gérer les téléphones sur IP donc on va regarder coup qu'est-ce qu'on peut faire avec sol pour gérer ce genre de direct . 2
+11:15:000396:000396_3 : 11:15:34:125: En Beauce quasiment exclusivement avec du PSN . 3
+11:16:000397:000397_4 : 11:15:39:266: Baiser . 4
+11:16:000398:000398_1 : 11:15:41:404: Yahoo installer un minion sur un text plutôt chouette ça nous donne accès à tous les modules tu marches pour baiser pour crée tout ce qu'on veut sur le PSN oui mais . 1
+11:16:000399:000399_2 : 11:15:52:507: Ce qui connaissait sense ils ont vu la configuration APN c'est un gros fichier XML un peu dégueu et du coup par exemple quand on crée un utilisateur si pour une raison X ou Y le faire évoluer route il sera plus là . 2
+11:16:000400:000400_3 : 11:16:06:657: Mais casse la tienne on a écrit un module Python PSN ce qui par exemple pour les clés se sache il va les mettre au bonne endroit donc dans le petit et en plus il va le lire la config XML il va regarder où sont les clés se sache il va faire le boulot pour le décoder parce que c'est en base64 il faut le décoder compagnie il va remettre la nouvelle clé se sache il va se . 3
+11:16:000401:000401_4 : 11:16:26:794: Ça nous permet de vraiment . 4
+11:17:000402:000402_1 : 11:16:30:921: T'aime comme voudrais qu'il soit finale et donc aujourd'hui c mon parc de pff on arrive en une command installer une nouvelle clé se sache pour un nouveau collaborateur de partout avec une commande . 1
+11:17:000403:000403_2 : 11:16:43:903: Pourquoi il fallait vol c'est ok . 2
+11:17:000404:000404_3 : 11:16:47:835: On va passer maintenant switch switch plutôt délicat une petite machine il y a des petits os on peut pas se laisser sur le mignon dessus donc comment on fait pour gérer avec son sac un switch . 3
+11:17:000405:000405_4 : 11:17:01:460: Recette de proxy mignon . 4
+11:17:000406:000406_1 : 11:17:05:179: Si mignon ça va être un minion qui va parler avec des device qui parle pas sur lequel on peut pas installer salt donc les divas ce qui parle quand elle n'est tu le dis di valse qui parle qu'avec des protocoles bizarre on va pouvoir faire au travers d'un sol proxy . 1
+11:17:000407:000407_2 : 11:17:20:014: Le seul proxy du coup il faut une machine qui soit pas loin de la device à gérer donc pour nous c'est facile c'est un firewall mais rien ne vous empêche de mettre ça sur une raspberry ça marche très bien et du coup chez vous pourrez par exemple avec un seul proxy si vous avez plein d'objets connectés avec un seul proxy vous allez pouvoir . 2
+11:17:000408:000408_3 : 11:17:39:170: HTTP . 3
+11:18:000409:000409_4 : 11:17:41:253: Donc pour . 4
+11:18:000410:000410_1 : 11:17:44:401: Au proxi ça marche . 1
+11:18:000411:000411_2 : 11:17:48:540: Ça marche vous avez une 10h on doit gérer les switch on doit j'aurai du réseau il y a une librairie python qui se mêlent napalm qui permet de faire des trucs super chouette c'est cool oui mais c'est pas comme ça que ça marche et nous on a pas des machines SYSCOA 2002 1000 € le switch au minimum au travail souvent avec des machines comme ça donc assez type sur laquelle . 2
+11:18:000412:000412_3 : 11:17:49:540: C'était le net mais on peut pas trop faire l'action juste le lycée et la plupart du temps on AXA une interface web qu'on peut uniquement manipuler avec un navigateur donc car elle . 3
+11:18:000413:000413_4 : 11:18:17:916: Et du coup il faut se démerder avec sa qu'est-ce qu'on a fait on a fait un peu de rivière Saint-Junien python donc ça peut sembler fancy mais pas du tout en gros on a ouvert un outils developpeur on a regardé les requête GET post et on les a 38 ans request . 4
+11:19:000414:000414_1 : 11:18:34:748: À l'aide de sa du coup on a un joli script Python qui nous permet dans l'autre cas d'usage nous c'est principalement des sous tu peux en couple parfait on le remet ça redémarre the device et c'est cool . 1
+11:19:000415:000415_2 : 11:18:45:247: Donc pour la partie switching on est presque bon on doit un peu lier des barres mais du coup c'est possible de le faire . 2
+11:19:000416:000416_3 : 11:18:53:035: Pour la partie téléphonie sur IP va finalement ça peut pas la même chose de téléphone du coup ils sont sur le réseau ils ont l'interface web on va pouvoir les interroger . 3
+11:19:000417:000417_1 : 11:19:23:336: Donc voilà avec ça on est capable de résoudre le problème à tique qui était un téléphone marche pas trop 900 / 10 ans Leboutte ça marche ça marche donc on a tous les scribes et là il me manque juste le lien pour mettre dans le proxy et c'est ce qu'on est en train de faire parce que c'est un peu nouveau pour . 1
+11:20:000418:000418_2 : 11:19:39:488: Donc voilà comment on gère c'est parti là chez nous . 2
+11:20:000419:000419_3 : 11:19:44:862: Maintenant un petit peu de comment dire pour vous donner envie d'utiliser salt quelques exemples de commande qui marche bien . 3
+11:20:000420:000420_4 : 11:19:52:898: Valeur d'exécution à distance on peut avec salt interrogé l'ensemble du parc et faire des accents dessus . 4
+11:20:000421:000421_1 : 11:20:00:350: La manière dont ça fonctionne c'est qu'on doit cibler les minions qu'on veut donc on peut les ciblés par non on peut les ciblés par os et globalement vous pouvez laisser des parce que vous voulez pour faire votre lit ce qui correspond donc en prendre trois exemples admettons que vous voulez connaître l'ensemble de Windows sur votre parc donc . 1
+11:21:000422:000422_2 : 11:20:20:485: Windows je vais faire la fonction je vais appeler le module Grace donc le maudit le bus les grains on se le sac c'est en gros tout ce qui en dur sur la machine l' OS le CPU la mémoire tout ce qu'on est capable de lire sur la machine de passe . 2
+11:21:000423:000423_3 : 11:20:35:627: Retenir l'Ouest full name ça va au lycée le nom de tous vos mignon avec la version de Windows qui a installé dessus . 3
+11:21:000424:000424_4 : 11:20:44:712: 2e cas d'usage il y a quelques temps déjà on a vu que le mot de passe root sur les os x c'était le même pour tous et du coup c'était une grosse faille alors disons je reçois ça je dois changer le mot de passe root de tous les machines mange chez nous c'est pas le cas à chaque fois c'est aléatoire au démarrage mais admettons voulais faire ça en une commande . 4
+11:21:000425:000425_0 : 11:21:04:497: OS X on le lance une commande la BCL localhost password root sans lui donne un nouveau password il va interroger l'ensemble de Meymac il va changer de mot de passe route. De résolues il y a pas si longtemps il y avait la feuille du coup sale partout . 1
+11:21:000426:000426_2 : 11:21:21:630: Tu mets Debian pkg install OpenSSL avec un petit est égal trop pour qu'il prenne la version papier OpenSSL est passé derrière il faut rester tous les services qui utilise OpenSSL pour ce soit pris en compte mais comme allemand en quelques commandes on passe un parc de 50 cent milles 10000 machines assez facile . 2
+11:22:000427:000427_3 : 11:21:40:759: Donc voilà un peu ce qu'on peut faire avec sol sac et donc si on veut prendre du recul dans tout ça . 3
+11:22:000428:000428_4 : 11:21:48:907: Deck on utilise salt ça nous permet d'avoir . 4
+11:22:000429:000429_0 : 11:21:54:299: De API fier je sais pas si ça te dit mais en gros d'avoir une interface unique pour aller interroger l'ensemble de vos device donc souvent il va falloir coder les modules pour lui dis bah si particulière mais du coup on peut faire d'orchestration assez poussé la manière dont salt écris tous les modules sont disponibles donc vous
+11:22:000430:000430_2 : 11:22:14:478: C'est clair c'est super simple de prise en main et c'est très très modular donc vraiment là on a fait je vous ai parlé de même pas le haut de l'iceberg 5 5 /:/ de sol qui peut faire le reste est à découvrir il y a beaucoup de choses ça change tous les jours . 2
+11:22:000431:000431_3 : 11:22:33:596: Je pense qu'il y a pas de limite vraiment ce qu'on peut faire avec s'écrit en python c malléable c'est plutôt bien écrit donc résumé va essayer le haut - pour si vous avez plein de serveur et vous galérer avec vos clés c'est ça je pourrai déployer les choses comme ça . 3
+11:23:000432:000432_4 : 11:22:49:720: Un truc assez simple . 4
+11:23:000433:000433_1 : 11:22:52:645: Voilà . 1
+11:23:000434:000434_2 : 11:22:54:795: Moi j'ai fini . 2
+11:23:000435:000435_3 : 11:22:58:931: Merci pour l'écoute merci alors garer aux bénévoles et puis bah du coup si vous aider question scellement . 3
+11:23:000436:000436_4 : 11:23:06:012: Ouais . 4
+11:23:000437:000437_1 : 11:23:19:140: Opnsense . 1
+11:23:000438:000438_2 : 11:23:25:431: Ouais . 2
+11:23:000439:000439_3 : 11:23:28:032: Alors . 3
+11:24:000440:000440_4 : 11:23:30:483: Opnsense on a testé parce que ce qui nous intéresse et c'était avoir une API opnsense ils ont une appli intégré mail un pays elle fait à rien on peut rien faire avec les nuls . 4
+11:24:000441:000441_1 : 11:23:42:608: Donc on a testé un petit peu on n'est pas aller plus loin que ça je sais qu'il y a des conflits en termes de licence et depuis que ça été racheté par la boîte la PS and chip electrical . 1
+11:24:000442:000442_2 : 11:23:53:639: On a testé mais vu qu'on a tous notre part compte SNC qu'on maîtrise ce qu'on fait avec regarde avec . 2
+11:24:000443:000443_3 : 11:24:00:557: Arles la pays . 3
+11:24:000444:000444_4 : 11:24:05:679: SNCA un paquet qui s'appelle . 4
+11:24:000445:000445_1 : 11:24:09:553: API qui permettent d'interroger la conf mais ensuite du coup la confie folle à lire il faut la digérer il faut l'art modifié il faut la repousser donc c'est ce qu'on fait nous ont par exemple pour la clé SSH on gère les fichiers sur le PSN et en plus à côté en parallèle on prend la conf on injecte on l'a modifie comme on veut et on l'a reçu regarde . 1
+11:25:000446:000446_2 : 11:24:29:706: Les bonnes actions . 2
+11:25:000447:000447_3 : 11:24:32:108: Il y a un peu de quoi faire mais du coup on arrive à faire ce qu'on veut vraiment . 3
+11:25:000448:000448_1 : 11:24:45:672: Ah ça c'est une bonne question il y a notamment avec le time-out souvent on a des postes qui en sortant timeout donc on a pas encore résolu ils disent le master dit que mignon de réponds pas mais en fait il fait les actions ça prend plus de temps que prévu et du coup la communication elle se coupe et ben pour les parce qu'ils sont éteints . 1
+11:26:000449:000449_2 : 11:25:08:798: Kit fonction qui conduit au démarrage d'un poste un poste il lance un événement sur le but soldes le master il prend l'événement en disant ok il y a un nouveau pote qui vient de booter sur le réseau j'exécute la fonction de bootstrap au démarrage et du coup il fait des petites chaque . 2
+11:26:000450:000450_3 : 11:25:26:933: Besoin et du coup si on a besoin de modifier il suffit de du côté master on rajoute un chèque en plus dans le bout de frappe il catch l'événement le poste viens de démarrer ok s'exécuta il l'envoie la commande effectuée derrière donc encore une fois le système de réaction par événement il est vraiment super puissant admettons vous avez une ferme de serveur . 3
+11:26:000451:000451_4 : 11:25:47:043: Claude un peu partout l'événement pour monter dans cette master qui est capable de Booter la partie provisioning mais il parle avec tous les problèmes dans de Claude il peut vous bootstrapper des machines et donc du coup on peut facilement en disant ma ferme de serveur aller sur chargé je le déteste je déploie savoir tout seul je le configure parce que du coup . 4
+11:26:000452:000452_1 : 11:26:06:169: Il parle avec tout le reste et c'est parti donc vraiment c'est c'est vraiment chouette . 1
+11:26:000453:000453_2 : 11:26:12:064: ca gere les proxmox j'aurais tendance à dire oui on peut regarder tout de suite si elle me dit. 2
+11:27:000454:000454_3 : 11:26:18:368: Proxmox . 3
+11:27:000455:000455_4 : 11:26:24:330: On dois pouvoir le faire ça ouais il peut promener donc là est toute la partie sol Claude que j'ai pas du tout aborder permet de parler avec les différents provider pareil ça fonctionne stand de module donc tout a 2 modules existant mais si vous avez votre solution à vous . 4
+11:27:000456:000456_1 : 11:26:46:457: Avec Salt sur les ProxMox . 1
+11:27:000457:000457_3 : 11:26:57:736: Ouais . 3
+11:28:000458:000458_4 : 11:27:05:855: Donc là on a parlé des modules d'exécution donc c'est quand on lance une commande . 4
+11:28:000459:000459_1 : 11:27:20:640: L'equivalent Ansible ça va être l'Estate 07 dans les recettes on va écrire ok je veux quel fichier ils sont à présent avec tes l'utilisateur tel template est-elle variable donc ça ça permet de faire plus ou moins la même chose que sur ansible et les variables s'appelle des pilards donc les Pilar c c stocker du côté master donc c'est là où vous allez mettre tel machine son rôle c'est ça . 1
+11:28:000460:000460_2 : 11:27:43:776: Donc ça n'a pas été l'application le mot de passe MySQL on veut que ça soit ça et le Pilar il est stocké sur un fichier sur le master il peut être en base de données il peut être en vol qui peut tout ce que vous voulez globalement c'est aussi modulable et donc voilà . 2
+11:28:000461:000461_3 : 11:27:57:525: Cc du . 3
+11:28:000462:000462_4 : 11:28:02:656: Tout à fait par du temps et les fichier de conf ils sont templater en Jinja et Célia mail . 4
+11:28:000463:000463_1 : L11:28:10:493: Pardon . 1
+11:28:000465:000465_3 : 11:28:18:567: Avec un seul master ouais donc forcément si vous avez beaucoup de mignon il faut un gros master . 3
+11:29:000466:000466_4 : 11:28:24:697: On sait par nos machines à nous qui sont sur un master à part et machine des clients qui sont sur un master elle met les deux parle ensemble et les pour l'instant on lance pas trop d'action en haut parce que globalement ça fait son boulot mais c'est une petite machine et ça marche bien . 4
+11:29:000467:000467_1 : 11:28:41:844: Or sur un sol . 1
+11:30:000468:000468_3 : 11:28:48:996: Soldat UNAPEI donc on peut lancer des commandes y a le client ADAPEI soldes en python s'appelle Pepper malin . 3
+11:30:000469:000469_4 : 11:28:48:996: Console qu'on veut dire se taper il a donc de n'importe où modulo l'authentification sur un local soit peu Yaldabaoth que vous voulez quoi il y a plein de d'authentification possible avec une gestion des Halles qui est plutôt fixe donc on peut lancer de n'importe où se . 4
+11:30:000470:000470_1 : 11:29:16:258: Pehli on aimerait le faire pouvoir l'interface graphique donc basse en interne sur un outil qui agresse les différentes API de manière à pouvoir dire ok mon téléphone il est là dans salt la partie OVH elle est la la partie monitoring elle est là elle vient de habbix la partie factuel et là je viens de doux pour avoir une sorte de l'écran de contrôle unifié uniquement on se balance . 1
+11:30:000471:000471_0 : 11:29:16:258: Ah si ça s'appelle solstyce et c'est payant on l'a jamais essayé on a eu une version démo abandonné mais on n'en n'avez pas trop l'utilité surtout que c'est assez cher il faut savoir que c'est juste la surcouche à ça il y a pas de module en plus tout ce que soldes fait c'est assez active dans la communauté c'est tout Open Source
+11:31:000472:000472_3 : 11:30:07:653: Il casse pas trop les choses . 3
+11:31:000473:000473_4 : 11:30:10:761: Chouette . 4
+11:31:000474:000474_1 : 11:30:13:257: Alors sur les sweats ça va être déclaré Levy Lasne redémarrer les ports PEE principalement au jour pour des redémarrer de borne wifi juste comme ça et sur le téléphone ça fini ton RIB ou deux pour l'instant parce que proviso nigérien en amont et juste comme ça . 1
+11:31:000475:000475_0 : 11:30:44:178: Alors si on lance la commande depuis le master on a un résultat mais du coup il est pas trop par sable dès qu'on lui dit qu'elle exit script Viala pays local on peut faire tout ce qu'on veut on peut les lancer en batch en série de 2 ans série pourcentage un parent tous ensemble on choisit on peut passer les résultats s'il y a les erreurs
+11:31:000476:000476_4 : 11:31:22:351: Anti balle ce qu'il faut aussi l'idée se décrire des recettes qui sont un peu omnipotence te dire qu'on la lance une fois ou 10 fois si il doit faire des choses il va aller faire mes se doit rien faire il va exécuter en disant si je suis déjà ok ça marche . 4
+11:32:000477:000477_1 : 11:31:36:245: Ok . 1
+11:32:000478:000478_2 : 11:31:42:041: Là ça va se passer en mode dans votre it on va capter 4G l'erreur il suffit de faire une boucle et c'est reparti quoi c'est pas automatique ouais c'est une autre gestion . 2
+11:33:000479:000479_3 : 11:31:55:080: Ok cool merci . 3
+11:33:000480:000480_4 : 11:31:58:444: Alors . 4
+11:33:000481:000481_1 : 11:32:55:453: Ok parfait . 1
+11:33:000482:000482_2 : 11:32:57:890: Ouais . 2
+11:33:000483:000483_3 : 11:33:05:795: Taille . 3
+11:33:000484:000484_4 : 11:33:09:925: Météo est-ce que ça cache voilà c'était la . 4
+11:33:000485:000485_1 : 11:33:15:741: Et du coup . 1
+11:33:000486:000486_2 : 11:33:19:239: Souvent du coup si sinon . 2
+11:33:000487:000487_3 : 11:33:23:869: Est-ce que c'est mieux ça y est j'ai pas de taxe toute façon j'ai pas vraiment de texto je pense que ça devrait . 3
+11:33:000488:000488_4 : 11:33:30:633: Ça devrait faire l'affaire . 4
+11:33:000489:000489_1 : 11:33:33:336: Je pense que . 1
+11:33:000490:000490_2 : 11:33:38:128: Allons-y . 2
+11:34:000491:000491_3 : 11:33:41:275: Je sais pas . 3
+11:34:000492:000492_4 : 11:33:49:063: Alors à 35 . 4
+11:34:000493:000493_1 : 11:33:54:294: Bah écoute je pense que l'on va faire comme ça aussi . 1
+11:34:000494:000494_2 : 11:34:00:426: Parce que ça devrait aller . 2
+11:34:000495:000495_3 : 11:34:04:379: Moi . 3
+11:34:000496:000496_4 : 11:34:07:508: Oui tout à fait alors il faut Nikos . 4
+11:34:000497:000497_1 : 11:34:14:657: Ouais ça marche . 1
+11:34:000498:000498_2 : 11:34:19:800: j'en ai ramené deux je sais pas qui c'est tous ces gens . 2
+11:34:000499:000499_3 : 11:34:24:933: Regarde ça plaît toujours la . 3
+11:34:000500:000500_4 : 11:34:28:472: Comportement tard ouais ouais carrément . 4
+

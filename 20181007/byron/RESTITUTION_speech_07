@@ -1,0 +1,233 @@
+ 
+
+
+07_Pythonic monads in real life Vincent Perez  ??
+
+
+
+
+15:47:000017:000017_3 : 15:46:46:133: Ok is good . 3
+15:50:000030:000030_1 : 15:49:31:872: Ok so today we need to talk about Titanic Minehead . 1
+15:50:000031:000031_2 : 15:49:49:780: And so . 2
+15:50:000032:000032_3 : 15:49:53:731: This was going to be doing so I will quickly put on myself so my name is xanthan . 3
+15:50:000033:000033_4 : 15:50:02:858: Google stop . 4
+15:50:000034:000034_2 : 15:50:05:010: Alien base on for almost 4 years now . 2
+15:50:000035:000035_3 : 15:50:11:399: I'm a big fan of functional programming . 3
+15:50:000036:000036_4 : 15:50:16:541: Shouldn't be a surprise given the typical Bluetooth . 4
+15:50:000037:000037_1 : 15:50:21:092: Window audience knows about when I . 1
+15:50:000038:000038_2 : 15:50:28:206: What is the weather like in Rome . 2
+15:51:000039:000039_3 : 15:50:34:614: Just talking to my daughter in a module in this talk I will show that no not even know where the Equator in the developing world . 3
+15:51:000040:000040_4 : 15:50:48:760: Simple Concepts and legends . 4
+15:51:000041:000041_1 : 15:50:49:760: The Range in Python . 1
+15:51:000042:000042_2 : 15:50:58:299: Philip stop is an example . 2
+15:51:000043:000043_3 : 15:51:05:719: So I don't know if you were you able to calculate . 3
+15:51:000044:000044_4 : 15:51:12:561: I know how to do this . 4
+15:51:000045:000045_1 : 15:51:38:614: Lights . 1
+15:52:000046:000046_2 : 15:51:43:741: Enter fullscreen Audi . 2
+15:52:000047:000047_3 : 15:51:48:864: Earth without his way . 3
+15:52:000048:000048_4 : 15:51:52:989: Let's imagine that you want to have some functions and you want to take the time evolution of this sentience . 4
+15:52:000049:000049_1 : 15:52:03:269: The weight of . 1
+15:52:000050:000050_2 : 15:52:07:410: It would be to use a function decorator like this . 2
+15:52:000051:000051_3 : 15:52:14:538: Before it would you think of say about your situation and then you start the time out and see what diseases does a slight return of the result of the Ascension and the time of visitors . 3
+15:53:000052:000052_4 : 15:52:31:169: So now listen to say no bench very simple functions like that . 4
+15:53:000053:000053_1 : 15:52:39:302: So my question is how can I buy Blinders functions to give . 1
+15:53:000054:000054_2 : 15:52:46:407: I love yous way do this I would just call it action the functions when I've told you about and at each step of the pipeline and biting . 2
+15:53:000055:000055_3 : 15:53:01:521: Remember how it functions as we done in both value and the time of visitation . 3
+15:53:000056:000056_4 : 15:53:08:706: And yeah I forgot to mention it but I also want to get the total time of Execution so I just need to . 4
+15:53:000057:000057_1 : 15:53:19:841: Good at each depth of the baby . 1
+15:53:000058:000058_2 : 15:53:24:258: So . 2
+15:53:000059:000059_3 : 15:53:26:390: The question is what could be improved you . 3
+15:53:000060:000060_4 : 15:53:30:369: First we need to build it delivered and I think value and the time . 4
+15:54:000061:000061_1 : 15:53:39:246: Oh at each step of the pipeline . 1
+15:54:000062:000062_2 : 15:53:43:300: Euro shoe that you that you need to eat the destination logic so let's mention that you will be found in many places in York races . 2
+15:54:000063:000063_3 : 15:53:57:423: Open new functions in the want to try to do to the time of visitation you will have to be paid is summation in many places in your kidneys . 3
+15:54:000064:000064_4 : 15:54:07:742: Who . 4
+15:54:000065:000065_1 : 15:54:10:861: Not to circumvent this issue I will put you say buying something so divine sanction page to pound it out the disaster is . 1
+15:55:000066:000066_2 : 15:54:23:981: Is a value and timer cooker so we . 2
+15:55:000067:000067_3 : 15:54:24:981: Translate I had before and the same time it also functions as which construed as a simple value and and Returns A value and the time of visitation so you can see this as being one of the central line . 3
+15:55:000068:000068_4 : 15:54:49:244: Accident the goal of the Binding site is to manage to apply to do if function to the South tablet so the way to the right is simply . 4
+15:55:000069:000069_1 : 15:55:02:351: Speak the value from the data today in applied to functions and back do do do . 1
+15:55:000070:000070_2 : 15:55:13:472: Can I tell me the news art and design of the time evolution of Earth and the time that I have accumulated so far so valien Time Square Batman . 2
+15:56:000071:000071_3 : 15:55:29:408: In this way I can I can revise the pipelines as default like this so yes it is that you play . 3
+15:56:000072:000072_0 : 15:55:41:540: The first function 0221 Susie's UGG Boots at April which I find to the functions related
+15:56:000073:000073_1 : 15:55:55:676: Then I buy this new paper to the O2 from . 1
+15:56:000074:000074_2 : 15:56:00:429: So it's nice guys that do the volume entire books and development diamond boxing and summation legit are included once in Dubai in function I need to tell that than you know . 2
+15:56:000075:000075_3 : 15:56:17:994: You could argue that nesting banks like that is a bit harder to me so let's see if we can try to work to adaptively denotation . 3
+15:57:000076:000076_4 : 15:56:31:138: To do that I'm going to introduce x values . 4
+15:57:000077:000077_1 : 15:56:40:253: Which there is simply a rabbit sound . 1
+15:57:000078:000078_2 : 15:56:41:253: So far as many places to go to bed now I'm going to to manipulate instances of this class to identify smile banking with . 2
+15:57:000079:000079_3 : 15:57:01:502: Which responds to return value . 3
+15:57:000080:000080_4 : 15:57:05:661: It's party play do the same thing as if it's just I just replaced turn in wing by . 4
+15:57:000081:000081_1 : 15:57:14:780: Henley . 1
+15:57:000082:000082_2 : 15:57:17:055: And so of course I want to use this . 2
+15:57:000083:000083_3 : 15:57:24:179: This class instead of little Kelly I need to adapt the decorator are there to help you shop so it's the same thing except that end in December instead of a water birth . 3
+15:58:000084:000084_4 : 15:57:37:157: And now I can revise Night by plane like this . 4
+15:58:000085:000085_1 : 15:57:43:598: So we can get the same advantage as before but you could argue that it's movie the bird because it's like . 1
+15:58:000086:000086_2 : 15:57:55:736: Lightweight an object dissertation in Sheffield on A22 Caterham . 2
+15:58:000087:000087_3 : 15:58:04:186: Ann ever sponsor you might argue that ok this is cool but I could have just defined when did functions with which just does order pipeline and just signed this function . 3
+15:59:000088:000088_0 : 15:58:21:114: What is it different ages. Is that a loser . 4
+15:59:000089:000089_1 : 15:58:29:242: Do I lose the time 13 year of the smaller function which may not be where I want cos maybe I want to consider abysmal functions as a small bins in Bloxwich can be combined independently and X Factor live in Enfield . 1
+15:59:000090:000090_2 : 15:58:46:461: Are you having the advantage of using this bank approach is that in fact we could do something else than 10 x emissions in Bangor we could arrange the time we could take you know any other sister's . 2
+15:59:000091:000091_3 : 15:59:09:583: So what did we do . 3
+15:59:000092:000092_4 : 15:59:16:705: 23 minute . 4
+15:59:000093:000093_1 : 15:59:19:831: Return value Plus . 1
+15:59:000094:000094_2 : 15:59:22:955: Don't need an expression is what is a minute . 2
+15:59:000095:000095_3 : 15:59:28:438: So . 3
+16:00:000096:000096_4 : 15:59:31:573: To meet with very simple design designer Minaj's new way to compose functions and . 4
+16:00:000097:000097_1 : 15:59:46:718: Define function . 1
+16:00:000098:000098_2 : 15:59:51:446: So when are they receive a player I found useful is that you can see a magic value as a boxer volume . 2
+16:00:000099:000099_3 : 16:00:04:568: If I don't text in after is it was the Venue inside with time of visitation . 3
+16:00:000100:000100_4 : 16:00:13:641: What is it good for . 4
+16:00:000101:000101_1 : 16:00:19:773: Can make composition of functions easier . 1
+16:00:000102:000102_2 : 16:00:25:156: Houses to avoid repeating computational patterns . 2
+16:01:000103:000103_3 : 16:00:32:222: Endura immaculate in spatele La allow useful when we are we have a pipeline of functions to apply to let it was the days before I was the . 3
+16:01:000104:000104_4 : 16:00:45:343: Connect how to design a minute . 4
+16:01:000105:000105_1 : 16:00:53:472: You need to define the type so it's not sticking so sorry but . 1
+16:01:000106:000106_2 : 16:01:00:589: Most of the times I really wanted for the final time in Alberta takeaway . 2
+16:01:000107:000107_4 : 16:01:12:103: You literally find a unit function so we're seeing each other is light duties SuperValu . 4
+16:01:000108:000108_1 : 16:01:26:233: The monetary value suicide . 1
+16:01:000109:000109_2 : 16:01:33:003: Who . 2
+16:01:000110:000110_3 : 16:01:37:135: The biggest . 3
+16:02:000111:000111_4 : 16:01:39:263: Who do the words just take some more value and beauty Concepts and complex . 4
+16:02:000112:000112_1 : 16:01:50:351: And in the days of the . 1
+16:02:000113:000113_2 : 16:01:56:472: Member of the time value class we could have defined do you do you need function exists just turning the conservatory standard you do you need to ensure that . 2
+16:02:000114:000114_3 : 16:02:11:597: NB nowadays when was Dr Blake playing we will start with the time . 3
+16:02:000115:000115_4 : 16:02:18:345: Who are we also need to design design function . 4
+16:02:000116:000116_1 : 16:02:27:203: Sing the song . 1
+16:02:000117:000117_2 : 16:02:31:340: This is a . 2
+16:02:000118:000118_3 : 16:02:36:467: Do I need to define functions . 3
+16:02:000119:000119_4 : 16:02:40:591: Yes you . 4
+16:03:000120:000120_1 : 16:02:45:723: Potato . 1
+16:03:000121:000121_2 : 16:02:48:861: Who plays function which Returns amplified volume . 2
+16:03:000122:000122_3 : 16:02:54:973: And then we want to pay you some seaside value and just . 3
+16:03:000123:000123_4 : 16:03:01:100: Pair Bluetooth on . 4
+16:03:000124:000124_1 : 16:03:02:100: Because the singer of water match the next train to play . 1
+16:03:000125:000125_2 : 16:03:13:371: Why do humans . 2
+16:03:000126:000126_3 : 16:03:41:516: Related only through . 3
+16:04:000127:000127_4 : 16:03:44:649: Find each other hand . 4
+16:04:000128:000128_1 : 16:03:51:776: Take the value found from the box from the context . 1
+16:04:000129:000129_2 : 16:03:56:888: Andreas it's easily said feasible you to do something that you want to bright . 2
+16:04:000130:000130_3 : 16:04:04:019: Sometimes we will send you to design a map function which is pretty similar to bind but . 3
+16:04:000131:000131_4 : 16:04:20:132: Depends when you got indifference with which band . 4
+16:04:000132:000132_1 : 16:04:26:249: Bangla function continuous function which takes . 1
+16:04:000133:000133_2 : 16:04:32:390: Best value wine map . 2
+16:05:000134:000134_3 : 16:04:37:522: In which state is SuperValu and outputs . 3
+16:05:000135:000135_4 : 16:04:43:233: So let's say for instance that you just want to make you fly to the value of your video of late but not affect switch on television . 4
+16:05:000136:000136_1 : 16:04:55:370: You will you will just use the map of the item . 1
+16:05:000137:000137_2 : 16:05:02:505: Play some sense we don't care about the don't know about the moana . 2
+16:05:000138:000138_3 : 16:05:10:622: Evangeline Fruit Ninja . 3
+16:05:000139:000139_4 : 16:05:17:017: 2 hour is how we do anything until that are dependent example . 4
+16:05:000140:000140_1 : 16:05:24:912: Regency let me just get down that ended with the assumption that play The Very . 1
+16:05:000141:000141_2 : 16:05:32:950: Ok so now let's . 2
+16:05:000142:000142_3 : 16:05:36:089: Whenever compare . 3
+16:06:000143:000143_4 : 16:05:38:995: So let's say we are putting some kind of social network . 4
+16:06:000144:000144_1 : 16:05:48:130: What's new features . 1
+16:06:000145:000145_2 : 16:05:52:250: Are you friends . 2
+16:06:000146:000146_3 : 16:05:59:371: We want to do the friends of the best friend of this user so you can imagine this as a pipeline . 3
+16:06:000147:000147_4 : 16:06:07:842: Beds are the taxes is that . 4
+16:06:000148:000148_1 : 16:06:08:842: Love the way you can get none values . 1
+16:06:000149:000149_2 : 16:06:17:146: So . 2
+16:06:000150:000150_3 : 16:06:20:276: The way you will crave engine code for more cash in your and accessing your next submit to the number you is to put gloves at every step of the time . 3
+16:06:000151:000151_4 : 16:06:32:075: So I as I just said we we have everything that every step . 4
+16:06:000152:000152_1 : 16:06:42:192: A man out . 1
+16:07:000153:000153_2 : 16:06:46:327: Sawyer sweeten and the Minotaur that is . 2
+16:07:000154:000154_3 : 16:06:54:444: Maybe monad . 3
+16:07:000155:000155_4 : 16:06:57:563: Sujaidr is a wisdom 80 minutes . 4
+16:07:000156:000156_1 : 16:07:02:674: UK to value used in a box . 1
+16:07:000157:000157_2 : 16:07:07:812: Examples of books . 2
+16:07:000158:000158_3 : 16:07:12:942: Rainbow squishies food which contains a value and members which is Which is entered and then she burst and Saudi . 3
+16:07:000159:000159_4 : 16:07:24:087: Things not . 4
+16:08:000160:000160_1 : 16:07:26:201: What the manager of Rangers managers . 1
+16:08:000161:000161_2 : 16:07:33:345: Anytime I Get None results at one Peppa Pig compilation . 2
+16:08:000162:000162_3 : 16:07:42:465: In the house of the empty box and if I have the answer but I just don't care about the next steps of the NED the next step of the pipeline I just found the answer but I don't even try to go to a play the next episode of the pipeline . 3
+16:08:000163:000163_4 : 16:08:00:151: So if you wanted to do in transition by van . 4
+16:08:000164:000164_1 : 16:08:08:294: Could replace this . 1
+16:08:000165:000165_2 : 16:08:12:416: Simple constrictor and unique method . 2
+16:08:000166:000166_3 : 16:08:16:348: So did not advise . 3
+16:08:000167:000167_4 : 16:08:22:473: You self value is 9 then return self this is what I just explained is that . 4
+16:08:000168:000168_1 : 16:08:31:591: At some point I have the empty bags to empty value I just don't care anymore . 1
+16:09:000169:000169_2 : 16:08:40:720: So if cell value is . 2
+16:09:000170:000170_3 : 16:08:48:841: Map . 3
+16:09:000171:000171_4 : 16:08:50:982: Between the banking app mobile juice video on how to apply the Samsung S . 4
+16:09:000172:000172_1 : 16:08:57:836: Home now if you come back to our Christmas exam but first let me quickly do signs of any help with takes a list and Status the statement of the list items . 1
+16:09:000173:000173_2 : 16:09:17:953: Now we can we can visit our pipeline like this . 2
+16:09:000174:000174_3 : 16:09:23:246: So it looks the other than using that instead of banned because . 3
+16:10:000175:000175_4 : 16:09:33:370: Sangria which I am opening the way I'm not aware of the minute I just trying to access some properties of the given the fact . 4
+16:10:000176:000176_1 : 16:09:44:971: And the . 1
+16:10:000177:000177_2 : 16:09:50:082: What night is the potential function without graphing without telling you about . 2
+16:10:000178:000178_3 : 16:09:58:208: Problem with this program will never crash because of trying to access . 3
+16:10:000179:000179_4 : 16:10:06:351: Tell me more concise than that . 4
+16:10:000181:000181_1 : 16:10:13:954: In which we can now we can try to be more complex than that by just designing your helper function know which London street names under which . 1
+16:10:000182:000182_2 : 16:10:14:954: Do do do poop particles come into their ship's name . 2
+16:11:000183:000183_3 : 16:10:34:927: So . 3
+16:11:000184:000184_3 : 16:10:45:189: No. 3 Rooms . 1
+16:11:000185:000185_2 : 16:10:48:302: Do you have a basic understanding of man that's what I'm going to show he has not this is said to be 300 minutes but is just like saying this because it's not occur when is better . 2
+16:11:000186:000186_3 : 16:11:07:447: When's the new Dyson finger to show . 3
+16:11:000187:000187_4 : 16:11:11:570: So let's get back to the time that you example where we do the function . 4
+16:12:000188:000188_1 : 16:11:21:712: Evans ladies and Simon the time at the end . 1
+16:12:000189:000189_2 : 16:11:26:254: What if we don't have a Genie app a plane . 2
+16:12:000190:000190_2 : 16:11:34:387: Dissertation I should be so he only tells about the output of the Assumption but what if we need to compute something which also depends on the assumption save you some kind of the pipeline so fine stands what is where did I want to learn to do they do that through to the output of 5.2 . 3
+16:12:000191:000191_4 : 16:12:02:534: So let's take you to the moon and version of this . 4
+16:12:000192:000192_1 : 16:12:15:408: If I wanted to do that I will have to meet with you find closure on a crow sound on the output of Fast And nest signs and then the Range in maths tutor Magic by the values . 1
+16:12:000193:000193_2 : 16:12:32:503: You can see that it's a little bit less I know and understand that . 2
+16:13:000194:000194_3 : 16:12:40:417: Who is can we can we find can we find a syntax this is . 3
+16:15:000195:000195_4 : 16:12:48:209: Let me take you to talk about this . 4
+16:15:000196:000196_1 : 16:12:55:962: Please can be seen as a man who finds you all know the map the map function know what does Feliz . 1
+16:15:000198:000198_2 : 16:13:07:960: So if I wanted to . 2
+16:15:000199:000199_4 : 16:15:00:749: Fill out what is interesting about this contention is that it finds . 4
+16:15:000200:000200_1 : 16:15:10:799: Planet . 1
+16:15:000201:000201_2 : 16:15:16:150: Will it . 2
+16:15:000202:000202_3 : 16:15:21:281: So . 3
+16:15:000203:000203_4 : 16:15:24:396: Motivation is the news valuable valuable . 4
+16:15:000204:000204_1 : 16:15:31:539: Can you add value which is designed in the same things out the phone you can use both X and Y . 1
+16:16:000205:000205_2 : 16:15:43:181: Do the value of the top of the destination the news . 2
+16:16:000206:000206_3 : 16:15:51:299: Who are . 3
+16:16:000207:000207_4 : 16:15:55:436: List syntax allows us to . 4
+16:16:000208:000208_1 : 16:15:59:567: Context that we get our graduates with each . 1
+16:16:000209:000209_2 : 16:16:04:680: Sorry this isn't exodus list contention some text looks actually like your great comments . 2
+16:16:000210:000210_3 : 16:16:13:822: Wake me up in 280 . 3
+16:16:000211:000211_4 : 16:16:16:947: What's the catch is that in Python you can you cancel All Roads Lead function syntax . 4
+16:16:000212:000212_1 : 16:16:27:057: Ok . 1
+16:16:000213:000213_2 : 16:16:34:194: So I didn't know . 2
+16:17:000214:000214_3 : 16:16:41:306: Indie list comprehension to be written in terms of signs and units companies Murad intensive . 3
+16:17:000215:000215_4 : 16:16:52:432: Would you like to come crashing and the rest . 4
+16:17:000216:000216_1 : 16:16:53:432: Call spinal unit like this . 1
+16:17:000217:000217_2 : 16:17:02:293: Magento 2 . 2
+16:17:000218:000218_3 : 16:17:06:413: Docker example anyway we don't need to understand and since then . 3
+16:17:000219:000219_4 : 16:17:14:207: What metals is this that these conventions in the Express in terms of wine units . 4
+16:17:000220:000220_1 : 16:17:22:334: Converse exercising difference between a list comprehension and training of wine in units engine . 1
+16:18:000221:000221_2 : 16:17:33:446: So now I am now as all of the days of these conventions by 6 pence pieces are there any other times you buy the new functions . 2
+16:18:000222:000222_3 : 16:17:46:573: Belize convention syntax I can borrow descendants . 3
+16:18:000223:000223_4 : 16:17:52:563: How can I do that and . 4
+16:18:000224:000224_1 : 16:17:56:925: So yeah yeah that's a good . 1
+16:18:000225:000225_2 : 16:18:06:058: Which contains function syntax . 2
+16:18:000226:000226_3 : 16:18:09:865: We compared to go to get arrested . 3
+16:18:000228:000228_1 : 16:18:18:151: How to do the little patience in texting to do the Binding you need to fix patient data area . 1
+16:18:000229:000229_2 : 16:18:25:272: Listen to the new code reader Bangor expression . 2
+16:19:000230:000230_3 : 16:18:31:971: And through it the way I use producer I stayed on summertime to your function decorator . 3
+16:19:000231:000231_4 : 16:18:43:101: Play me some Foo Fighters good . 4
+16:19:000232:000232_1 : 16:18:51:239: Suicide ever ever function which is the guys with the old Sunday night and the middle-class families are . 1
+16:19:000233:000233_2 : 16:19:00:233: The function of the Dance . 2
+16:19:000234:000234_0 : 16:19:05:363: And thought you said you save this is it gonna be safe. When you . 3
+16:19:000235:000235_4 : 16:19:14:487: Are we have two dogs eat of Assumption is maybe . 4
+16:19:000236:000236_1 : 16:19:20:631: Adidas Ace . 1
+16:19:000237:000237_2 : 16:19:24:765: Go to Central because we are sending and wilderness is the NCL . 2
+16:19:000238:000238_3 : 16:19:32:956: If we take her around with the name . 3
+16:19:000239:000239_4 : 16:19:39:101: Again do is ignore list but thank value . 4
+16:20:000240:000240_1 : 16:19:46:301: Send . 1
+16:20:000241:000241_2 : 16:19:48:439: As the old swan Valley . 2
+16:20:000242:000242_3 : 16:19:53:662: Euro quick compression . 3
+16:20:000243:000243_4 : 16:19:58:778: I hope that are so that's Minaj Super concept I'd list not serious when they use in . 4
+16:20:000244:000244_1 : 16:20:07:907: Superman adaptor to ensure . 1
+16:20:000245:000245_2 : 16:20:13:056: Relieve very simple payment . 2
+16:20:000246:000246_3 : 16:20:16:538: 3 billion as me things that science of example Example . 3
+16:20:000247:000247_4 : 16:20:23:665: Njd bonuses despite on providing syntax home energy consumption and this is what it is so with the least common sense . 4
+16:21:000248:000248_1 : 16:20:37:787: Google lots of unexplored territory so you can use my nest to do I do I think he's funny . 1
+16:21:000249:000249_2 : 16:20:46:906: Somebody x is so . 2
+16:21:000251:000251_4 : 16:20:56:158: You can find the code of the day . 4
+16:21:000252:000252_1 : 16:21:02:275: Angie tab . 1
+16:21:000253:000253_2 : 16:21:05:416: Cineworld . 2
+16:21:000254:000254_3 : 16:21:07:540: As I said if I rotate Little Star . 3
+16:21:000255:000255_4 : 16:21:11:678: Who is to make sure patients and other things in France easier and cheaper . 4
+16:21:000256:000256_1 : 16:21:21:896: And we are hiring and not easy take to dry . 1
+16:22:000257:000257_1 : 16:21:52:467: Ok . 1

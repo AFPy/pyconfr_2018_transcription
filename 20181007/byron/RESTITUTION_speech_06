@@ -1,0 +1,132 @@
+ 
+
+06_Présentation, l’approche itérative Pierre-Yves David
+
+
+15:01:000750:000750_3 : 15:00:11:353: Code reading de Dominique Spinelli ce qui vous donne plein de trucs pour lire du Code malheureusement code reading c'est beaucoup donc si j'ai un livre qui date de 2006 qui prend effectivement l'open source com com contexte mais également multi language donc c'est pas forcément que . 3
+15:01:000751:000751_4 : 15:00:32:057: Merci pour votre attention je suis ouvert ou question Sénat encore le temps en tout cas de mon timer c'est bon . 4
+15:01:000752:000752_1 : 15:00:41:184: Si j'ai 20 minutes de question j'ai 2 minutes pour vous montrer dans ma recherche photos j'essaie trouver un outil pratique pour facilement prendre une base de code et je suis tombé sur deux trois un plugin mes sources grâce a retenu mon attention . 1
+15:01:000753:000753_2 : 15:01:14:298: Donc tapper sourcegraff Sur Google vous pouvez en avoir avoir plus d'information je sais pas qui a déjà essayé source . 2
+15:01:000754:000754_3 : 15:01:22:397: D'accord donc ici une personne l'a déjà essayé mais on peut voir que . 3
+15:02:000755:000755_4 : 15:01:31:466: Pratique là je suis sur Github je suis pas sur un logiciel un particulier juste installer donc je vois que je peux naviguer sur un symbole . 4
+15:02:000756:000756_1 : 15:01:42:911: Visite à voir directement les docks . 1
+15:02:000757:000757_2 : 15:01:46:998: Directement cliquez sur go to définition et puis je vais directement aboutir à la définition de ma classe e peut revenir en arrière simplement dans le navigateur donc c'est vraiment du du browsing très très simple . 2
+15:02:000758:000758_4 : 15:02:06:122: Je peux me rendre au olalala page github avec faire en un clic sur view reposer . 4
+15:02:000759:000759_1 : 15:02:14:183: Donc là j'ai une nouvelle vue qui va s'ouvrir avec un une recherche multi 6 . 1
+15:03:000760:000760_2 : 15:02:21:948: Fonction du nombre de ce que je recherche . 2
+15:03:000761:000761_3 : 15:02:26:065: HTTP . 3
+15:03:000762:000762_0 : 15:02:29:184: Faut que je peux ici aller faire des recherches très ciblé tout en restant sur Github ça me permet de découvrir en projet centre au travail en local au départ ok ensuite vous pouvez avec vos propre gentil clown et le réveil le projet si vous avez déterminer qui vous intéresse si vous voulez commencer à expérimenter et
+15:03:000763:000763_1 : 15:02:58:299: Essayer d'écrire les tests unitaires pour vérifier que vos hypothèses sont corrects et cetera et cetera donc essayer sourcegraff . 1
+15:03:000764:000764_2 : 15:03:07:413: Et puis je vous invite à essayer . 2
+15:03:000765:000765_3 : 15:03:14:547: Il y a pas de question ? . 3
+15:03:000766:000766_4 : 15:03:20:251: Forcément besoin d'aide en plus . 4
+15:04:000767:000767_3 : 15:03:41:682: Alors bon au début c'est un petit peu la panique . 3
+15:04:000768:000768_4 : 15:03:46:297: Le premier effet . 4
+15:04:000769:000769_1 : 15:03:49:570: Mais une fois qu'on a appris alors concrètement j'utilise mon ton début par apprendre à chercher au début on met en place un certain nombre d'outils qui permet de rechercher quelque chose et ensuite on peut y aller dans le contexte en cours toujours par une thematisation . 1
+15:05:000770:000770_0 : 15:04:08:693: Donc je sais pas grave tu seras riche en différentes structures de données par exemple et puis je fais des recherches assez assez bête au début simplement si je sais je veux étudier les arbres et comment les manipule je recherche par nom de structure de données tree ou graph ... . 3
+15:05:000771:000771_4 : 15:04:27:009: Et puis je vais voir dans le code OK ou j'arrive mais surtout redevenez finalement une structure de donné c'est assez stable dans projet à l'autre mais l'implémentation dans les détails peut varier donc déjà très rapidement on arrive à quelque part dans une base de code avantage . 4
+15:05:000772:000772_1 : 15:04:51:135: Donc peut-être elle va se fonctionnement Basso dispatcher sur une 2e 3 classe mais pa plus. 1
+15:05:000773:000773_2 : 15:04:58:260: En plus ma abstraire beaucoup facilement ses données sont déjà là on commence à des exemples on va facilement avec le pouvoir emmener quelque part on va avoir du succès et ça on étudiant qui commence à avoir un ou deux petits succès va prendre confiance volontiers . 2
+15:06:000774:000774_3 : 15:05:18:373: Chercher des choses un petit peu plus fouiller essayer de même d'apporter ses premières modifications et en pratique ça se passe assez bien les étudiants arrive assez bien à amener leurs petites modifications à droite à gauche c'est souvent pas des choses qui ont un intérêt du point de vue de la contribution au début même si c'est une petite idée même si c'est modifier . 3
+15:06:000775:000775_4 : 15:05:37:507: Simplement une chaîne à un endroit donner mais on vient vite plus ambitieux et je me dis que sur un travail de fin d'étude sur un travail de master on travaille dans un contexte chez moi en Suisse on parle de Batchelor et de Master uniquement . 4
+15:06:000776:000776_1 : 15:05:56:633: là on pourrait plutôt que finalement implémenter quelque chose from scrash pourquoi pas se dire de contribuer à un projet ça peut être cadre et on sait quand c'est pas non plus en mastodonte un projet où on a pour objectif de rajouter une fonctionnalité éventuellement on pourrait cadre en allant dans la liste des bug qui sont ouvertes dans le projet . 1
+15:06:000777:000777_2 : 15:06:20:756: Ça me donne un objectif et on essaie de le résoudre . 2
+15:08:000778:000778_0 : 15:06:25:043: Ça nous donne éventuellement une contribution potentiel et personnellement je dis qu'une pour s à la fin d'un travail pourquoi pas un rapport effectivement sur mon travail mais une pull-request sur un projet qui a de
+15:08:000779:000779_4 : 15:06:43:169: Est-ce il y a d'autre question ? . 4
+15:08:000780:000780_1 : 15:06:48:717: Oui << est ce que faire des PR ce fait beaucoup avec les étudiant ?>>. 1
+15:08:000781:000781_2 : 15:07:55:919: Alors . 2
+15:08:000782:000782_3 : 15:08:00:172: Or nous ont fait simplement de sa pas sur des projets de vraiment fin d'étude pour l'instant sur la plupart du temps comme si l'ingénieur non prochaine de l'industrie . 3
+15:08:000783:000783_4 : 15:08:13:313: base de code existante le projet de fin d'étude mais pas nécessairement sur un projet open source où ça arrive mais c'est pas systématique par contre effectivement dans les dans les projets . 4
+15:08:000784:000784_1 : 15:08:29:444: Le cursus en cours de parkour ils font ces modifications par contre c'est assez rare que j'usqua maintenatnt non on pouvait pas aller chercher à une poule Vicwest par exemple . 1
+15:09:000785:000785_2 : 15:08:40:572: Dis-moi que vous dites que on pourrait aller par un bus qui quoi se demander à la personne ne serait-ce que de vendre sa pull request . 2
+15:11:000786:000786_3 : 15:08:49:701: Stream . 3
+15:11:000787:000787_4 : 15:08:52:828: Tellement allez en parler sur les canaux dédié à cette bibliothèque ou un set techno ça peut être quelque chose d'intéressant et l'aspect social l'Aspé collaboratif travail en groupe mais l'aspect vendre son travail est intéressantes . 4
+15:11:000788:000788_1 : 15:09:10:957: Présentation en toi qui m'ont donné de . 1
+15:11:000789:000789_4 : 15:10:58:040: Réveil à 15h . 4
+15:12:000790:000790_4 : 15:11:39:992: Alors alors ok . 4
+15:12:000791:000791_1 : 15:11:46:936: Télécharger donc celui-ci est chargé . 1
+15:12:000792:000792_2 : 15:11:53:640: Parler bien au milieu . 2
+15:12:000793:000793_3 : 15:11:57:897: Comme ça . 3
+15:12:000794:000794_4 : 15:12:02:326: Ok . 4
+15:13:000795:000795_2 : 15:12:12:623: Ça marche . 2
+15:13:000796:000796_3 : 15:12:14:752: Oui . 3
+15:13:000797:000797_2 : 15:12:33:206: Ouais ouais mais comme il est doux ça que on commence à 15h j'attends que . 2
+15:13:000798:000798_4 : 15:12:46:957: Si on peut raconter des choses en attendant que ça démarre . 4
+15:14:000800:000800_0 : 15:12:47:957: Rechargement du document
+15:15:000801:000801_1 : 15:13:04:678: Qui a déjà fait des conférences ? . 1
+15:15:000802:000802_2 : 15:13:08:048: Qui a déjà hésité à donner des conférences ? . 2
+15:15:000803:000803_1 : 15:14:51:210: Un homme . 1
+15:15:000804:000804_2 : 15:14:55:323: On va commencer donc . 2
+15:15:000805:000805_3 : 15:15:09:979: Donc bonjour je m'appelle Pierre-Yves de manière générale je travaille sur d'avion de version comme mercurial en particulier Mercurial je travaille dans une societe de service aujourd'hui . 3
+15:16:000806:000806_4 : 15:15:26:113: Parler de comment faire une conférence et faire une conférence juste avec le temps que vous avez . 4
+15:16:000807:000807_1 : 15:15:32:956: L'écran de l'autre côté . 1
+15:16:000808:000808_0 : 15:15:43:096: Donc le but de cette conférences et de pouvoir facilement et sans trop de leur se retrouver à faire ça donner une conférence intéressantes un public intéressé et sans y passer forcément trois semaines c'est pas trois semaines nous mettre à jour c'était pas trois jours et avoir un truc qui sera quand même intéressant et donna bleu sans
+15:17:000809:000809_3 : 15:16:06:238: La premiere etape pour pouvoir donner une conférence est de proposer une conférence et de répondre à un appel à participation . 3
+15:17:000810:000810_0 : 15:16:13:084: Qu'est-ce que c'est qu'une conférence quand des gens disent on organise un ensemble de conférence proposez nous des sujet les gens qui vont aller faire des conférences là-bas ce qu'ils vont faire c'est que ils vont présenter oralement a priori à part les gens qui sont muet tout le monde ici c'est parler parce que vous êtes begue vous avez Aller quand même parler. ça pourrait être pire de pour y avoir un accent français en anglais mais donc le côté parler normalement vous maîtrisez . 1
+15:17:000811:000811_2 : 15:16:46:457: Sujets intéressants a priori il se passe des choses dans votre vie et il y a des trucs qui sont plus ou moins intéressant mais vous avez des choses intéressantes et vous avez faire ça pendant un temps défini . 2
+15:17:000812:000812_3 : 15:16:47:457: e pense que dans votre vous avez déjà gérer l'exercice de vous avez un temps limité pour faire quelque chose et vous avez déjà réussi . 3
+15:17:000814:000814_4 : 15:17:05:732: Donc à priori vous avez toutes les compétences requises pour faire une conférence . 4
+15:18:000816:000816_0 : 15:17:23:244: Le temps que vous avez c'est pas magique je suis pas en train de vous dire en 2 minutes vous présenter une conférence en kg tapis. Fr êtes-vous devient l'expert du Forex . 2
+15:18:000817:000817_3 : 15:17:35:272: Plus vous passez de temps sur une conférence mieux elle sera donc il y a pas de miracle si jamais il y a un enjeu particulier donc par exemple une conférence dans un cas professionnel parce que l'on a payer pour cette conférence il faut prévoir le temps adapté à la qualité nécessaire à cette participation . 3
+15:18:000818:000818_4 : 15:17:55:398: Adapter assez grand chose si vous maîtrisez pas le sujet sur lequel vous avez parlé il faut aussi prendre le temps de maîtriser sujet est d'etre capable de faire une conférence correction il y a beaucoup de littérature sur ce genre de question savoir si . 4
+15:18:000819:000819_1 : 15:18:12:512: Comment faire une conférence le mieux possible en les passant beaucoup de temps généralement postez chose là elles sont écrites par des gens qui donne des très grandes conférences qui sont très bien et sont très bien organisé de recommence le . 1
+15:18:000820:000820_2 : 15:18:23:641: ou ce genre de chose . 2
+15:19:000821:000821_0 : 15:18:25:749: Ce qu'il faut voir c'est que ces gens-là c'est une partie importante de leur travail de faire des conférences et ils passent énormément de temps c'est pas forcément adapté à vos besoins et à ce que vous faites pour vous faites une conférence opposer. Fr . 3
+15:19:000822:000822_0 : 15:18:41:879: Mais ça prend du temps sur votre temps de vie personnelle de préparer sur de conférence qui sont intéressantes à faire mes différences. Je sais pas si vous connaissez le petite video . 4
+15:19:000823:000823_1 : 15:18:54:004: qui s'appelle Wat qui présente des caractéristiques rigolotes de Ruby ou de javascript ce genre de chose c'est une conférence qui est très efficace qui est très bien fait que faire à Calgary Bernard qui sait aussi d'autres conférence il a fait des clignotants Picon qui était fabuleuse mais cette personne-là en fait son boulot c'est de faire des vidéos et de faire des conférences et donc il est . 1
+15:19:000824:000824_2 : 15:19:17:128: Qui s'appelle W qui présente des caractéristiques rigolotes de rugby ou de javascript ce genre de chose c'est une conférence qui est très efficace qui est très bien fait que faire à Calgary Bernard qui sait aussi d'autres conférence il a fait des clignotants Picon qui était fabuleuse mais cette personne-là en fait son boulot c'est de faire des vidéos et de faire Qui passe beaucoup de temps avec ses son travail principales si il y a que des gens comme ça qui parle et puis quoi faire et ben on aurait beaucoup moins de diversité et confiance beaucoup moins intéressant donc c'est important est intéressant que les jeux le plus de gens possible pour plus de chez possible . 2
+15:20:000825:000825_3 : 15:19:33:336: La première chose qu'il va vous falloir pour faire une conférence c'est de trouver un sujet . 3
+15:20:000826:000826_4 : 15:19:47:666: L'avantage c'est que en fait vous avez déjà plein de sujet dans votre tête et donc c'est pas tellement trouver un sujet, c'est choisir un sujet . 4
+15:20:000827:000827_1 : 15:19:56:030: Qui va falloir pour faire facilement une conférence intéressantes c'est qu'il faut choisir un sujet personnel donc soit une expérience qui vous est arrivé . 1
+15:20:000828:000828_2 : 15:19:57:030: J'ai découvert solutionnaire de fenêtre ou cette bibliothèque ou un retour d'expérience j'ai passé tout mon code de Python 2 vers Python 3. 2
+15:21:000829:000829_3 : 15:20:20:166: Il faut quand même prendre un sujet relativement notable si vous parlez de choses où il y a assez peu de profondeur vous n'allez pas réussir à faire une conférence intéressantes ça veut pas dire que c'est très compliqué si par exemple vous dîtes conférence sur la semaine dernière j'ai fait une salade de tomates par contre si vous faites une conférence sur. 3
+15:21:000830:000830_4 : 15:20:43:292: faire une salade de tomates en novembre pourquoi est-ce que j'avais des tomates en novembre tiens d'où ça vient mes tomate en novembre eh ben subitement où est la profondeur sans avoir été chercher quelque chose qu'il donnera le petit verre et vous pourrez me donner une conférence . 4
+15:21:000831:000831_1 : 15:20:55:833: Plus vous prendrez un sujet qui est frais, pour prendre un sujet qui est frais dont quelque chose qui vous avez récemment et vous avez en tête que sera facile d'avoir une sensation que naturel et fluide sans avoir vu passer trop de temps et sans avoir de prendre trop de risques à ce niveau-là . 1
+15:21:000832:000832_2 : 15:21:10:969: Réfléchis à ce que vous avez fait l'anné dernière et trouver le sujet qui vous semble le plus pertinent qui vous est proche qui vous semble intéressant et que vous êtes bien en tête . 2
+15:22:000833:000833_3 : 15:21:20:674: Au niveau comment organiser et comment vraiment choisir son sujet je trouve que c'est bien de prendre un sujet relativement équilibre et vous voulez quelque chose qui soit pas trop concret et pas trop abstrai . 3
+15:22:000834:000834_4 : 15:21:33:211: Donc si vous juste à vous dites âge passer de Python 2 à python 3 donc j'ai dû changer ce texte-là dans mon fichier c'est pas très intéressant . 4
+15:22:000835:000835_1 : 15:21:42:325: Messi bouquet donner quelque chose de plus un peu plus la revoilà d'un point de vue concept comment j'ai dû réorganiser mon application ça c'est plus intéressant lancer dans un truc très apprécié les applications qui sont compliquées puis du coup il y en a qui sont moins simple vous alles perdre des gent . 1
+15:22:000836:000836_2 : 15:22:00:439: De la même manière si vous êtes trop simple j'avais pas parti au grand chose à vous . 2
+15:22:000837:000837_3 : 15:22:05:554: Ça vous dit à ta grand-mère aux gens qui écoutent votre confiance et vous êtes trop détaillées ça va être assez difficile de . 3
+15:23:000838:000838_4 : 15:22:14:679: Vous êtes stressé pas même public et ça va être plus difficile à de produire quelque chose relativement rapidement sans y passer énormément de temps . 4
+15:23:000839:000839_1 : 15:22:25:600: Une autre question importante c'est bon je préfère une confiance mais pourquoi j'irai faire une conférence que ça reste ça prend du temps ça fait du stress faut se déplacer qu'on peut pas les voir d'autres conférence moment ce genre de chose . 1
+15:23:000840:000840_0 : 15:22:41:731: C'est intéressant de transmettre votre expérience parce que vous avez des choses à dire replay les gens sont contents de les entendre c'est aussi assez intéressant de prendre du recul dire tiens ce truc là c'est un truc intéressant qui m'est arrivé si vous faites une conférence sur quelque chose qui vous êtes arrivé
+15:23:000841:000841_3 : 15:22:59:859: Lieu-d réfléchir de l'organiser de le formuler assainissement et ça c'est impossible intéressant pour vous parce que vous allez mieux comprendre ce que vous avez fait l'année dernière . 3
+15:23:000842:000842_4 : 15:23:10:988: Et après vous allez pouvoir échanger avec d'autres gens si il y a des gens vous avez un problème comme ça je l'ai rencontré d'autres gens qui ont un problème . 4
+15:23:000843:000843_1 : 15:23:19:106: On est . 1
+15:24:000844:000844_2 : 15:23:21:219: Conférence . 2
+15:24:000845:000845_3 : 15:23:23:286: Donc la grande question maintenant que vous avez un peu réfléchi à un sujet que vous vous êtes dit ah oui ah ok j'ai fait ça l'année dernière on va prendre ça et puis on va parler de ça, on va parler ce sujet qu'est-ce qu'il va falloir faire ?. 3
+15:24:000846:000846_4 : 15:23:42:417: Il y a trois éléments de Moissac d'avance globalement il va falloir que vous racontez votre vie donc ça c'est assez simple d'un côté donner une conférence c'est un peu comme prendre l'apéro avec des amis . 4
+15:24:000847:000847_1 : 15:24:00:544: Conférence a des tocs que veut dire parler et donc place à côté une conférence de 20 minutes c'est un peu comme si vous aviez un sujet intéressant et que tu commençais à en parler et puis les personnes avec qui vous avez pris l'apéro arrête de parler pour vous écouter pendant que vous parlez de vos vacances ou de votre aventure . 1
+15:24:000848:000848_2 : 15:24:19:680: raconter sa vie c'est quand même assez simple . 2
+15:25:000849:000849_3 : 15:24:22:481: Par le faire de manière un peu organisé pour avoir une structure et que vous transmettiez l'information efficacement et il va failloir le faire dans le temps imparti parce que si vous faites trop long et ben on aura pas la fin de notre histoire complète et c'est une différence par rapport à l'apéro à 19h10 . 3
+15:25:000850:000850_4 : 15:24:40:611: Donc pour gérer tout ça il va falloir avoir un espèce de socle commun de préparation initiale pour lequel moi j'ai une espèce de petite recette qui marche bien, que je trouve qu'il marche bien et que je vais vous annoncer ici. 4
+15:25:000851:000851_1 : 15:24:56:468: Ça commence forcément par la première étape avant tout conférence qui est soumetre sa . 1
+15:25:000852:000852_2 : 15:25:03:792: Proposition s'il vous plaît proposition vous avez pas de temps pour se met ta proposition . 2
+15:25:000853:000853_3 : 15:25:10:911: Regarder, en parler un peu, et regarder à réfléchir à quelque chose . 3
+15:25:000854:000854_4 : 15:25:15:688: Je parle et qui parlera des gens il vous faut un plan de manif pour un peu d'écrire faire une description de conférences et c'est aussi important pour savoir si l'idée que vous avez au fond de la tête en fait vous avez réussi à en faire quelque chose si vous vous forcer un peu réfléchir ah oui et si je parle de ça je pourrais dire ça puis si puissant oui si enfaite série . 4
+15:25:000855:000855_1 : 15:25:35:823: Vous allez jamais tenir 20 minute vous avez pas réserver votre penser à toi . 1
+15:26:000856:000856_2 : 15:25:41:947: Faites un plan minimal et prenez une conférence court parce que . 2
+15:26:000857:000857_3 : 15:25:47:076: parler 50 minutes si au final vous n'êtes pas sûr de ce que vous faites c'est assez compliqué alors que parler pendant 20 minutes c'est relativement simple . 3
+15:26:000858:000858_0 : 15:25:55:342: Même si vous avez un grand bravo vous avez. après vous allez en conférence . 4
+15:26:000859:000859_0 : 15:26:05:469: Ben ça va coûter vous avez déjà une conférence vous allez parler un sujet que vous connaissez et comme vous connaissez sujet même mon sont plus rien à partir de là vous pouvez vous retrouvez ça c'est une audience et parler de manière relativement intéressante du sujet pendant 20 minutes avoir des questions à la fin que les gens aient appris des choses
+15:27:000860:000860_2 : 15:26:24:602: Ce sera pas la meilleure conférence j'en ai vu des comme ça c'était pas les meilleurs mais j'en ai vu qui était très bien organisé témoin d'intéressant dans que ça vous avez bien choisi votre sujet quelque chose . 2
+15:27:000861:000861_3 : 15:26:38:721: Sur quelle que vous maîtrisez bien vous êtes capable de venir les mains dans les poches et d'en parler pendant 20 minutes et que ça soit pas une adresse . 3
+15:27:000862:000862_4 : 15:26:47:034: C'est quand même mieux d'organiser un peu et de planifier un peu sa présentation pour avoir des choses de meilleure qualité parce que plus on y passe du temps, mieux ça va alnous falloir un peu de plan et d'organisation . 4
+15:27:000864:000864_1 : 15:26:59:603: Pour faire mon plan je réfléchis aux idées principales que je veux transmettre je les marques sur un papier ou ailleurs . 1
+15:28:000865:000865_2 : 15:27:06:727: Un peu les points importants je peux parler par thématique qui vont faire des parties et vous articuler ces thématiques . 2
+15:28:000866:000866_3 : 15:27:15:868: C'est un processus relativement simple vous pouvez y réfléchir dans la douche et puis un jour il faut se mettre devant un papier vous écrivez vos idées vous les mettez par thématique vous avez un petit arbre et après le boulot en partance et de répartir votre temps vous avez que 20 minutes vous avez des parties des thématiques vous avez fini une quantité de temps de bon ça c'est plus important . 3
+15:28:000867:000867_4 : 15:27:35:003: Ça c'est le moins important, on va y passer moins de temps et en fonction du temps vous avez un contenu, ça va définir ce que vous allez pouvoir mettre dans vos slides et aussi faire en fait en général et vous avez aussi vous rends compte si vous avez une idée mais où retrouver avoir que deux minutes à lui mettre dessus en fait il faut un peu ou si vous avez . 4
+15:28:000868:000868_1 : 15:28:01:134: À réfléchir à d'autres idées à maître de conférence . 1
+15:28:000869:000869_2 : 15:28:04:216: Quand même commencer à faire des slides réfléchissez à "de quoi vous voulez parler" combien de temps vous voulez en parler et vous faites une structruc sur qui devrait plus trop bouger au niveau de votre conférence . 2
+15:28:000870:000870_0 : 15:28:14:773: Donc là bravo vous avez une 2e étape maintenant vous avez un plan même minimal et vous pouvez même venir sans rien vous savez de quoi vous voulez parler dans quel ordre commence à s'articuler combien de temps et vous pouvez encore venir les mains dans les poches avec juste un petit papier qui se plomb et avoir un discours qui est plus intéressant que j
+15:29:000871:000871_4 : 15:28:34:899: Mais vous êtes déjà capable de faire quelque chose . 4
+15:29:000872:000872_1 : 15:28:39:735: À partir de là on va essayer d'avoir un support parceque quand même manière moderne c'est plus sympa d'avoir des slides et Cassin présente en ce moment de la vente . 1
+15:29:000873:000873_2 : 15:28:50:660: On va passer maintenant qu'on a un sujet qu'on a organisé sujet on va réfléchir un autre discours comment est-ce qu'on présente le sujet . 2
+15:29:000874:000874_3 : 15:28:58:424: On peut réaliser une partie de la littérature plus générale je recommence à comment faire des slides pour faire simple une idée c'est à peu près un slide par minute, un slide c'est à peu près une minute même si parfois il y a des idées qui sont plusieurs slides qui ont duré plus longtemps mais ça donne à une bonne lignes directrices commencé comme ça si vous avez prévu 3 minutes dans la section d'avant . 3
+15:29:000875:000875_0 : 15:29:20:551: 3 minutes pour parler d'une d'une partie et que vous avez qu'un slide ça va pas le faire. si vous avez de 10 minutes et un slide vous avez prendre un problème commencer par vraiment descendre vous avez une idée ça correspond à quelques mots vous le mettez sur slide si jamais il y a un autre chose de vraiment plus compliqué fait un support visuel tout de suite mais vous pouvez . 4
+15:30:000876:000876_1 : 15:29:41:683: visuelle plus tard . 1
+15:30:000877:000877_2 : 15:29:44:810: De manière générale vous avez un plan vous êtes organisé vous êtes capable de parler devant des gens pendant un certain temps ça devrait aller . 2
+15:30:000878:000878_0 : 15:29:54:944: Qu'il faut voir c'est que tout ce qui est support visuel ou chaud dans le contraire c'est des choses qui sont incompressible si vous voulez faire une démo ben il va falloir faire ça s'improvise pas il va falloir qu'elle soit prête qu'elle roule que vous l'ayez préparer que vous l'ayez enregistrer en vidéo vous avez un outil pour le faire tout seul.
+
+ 

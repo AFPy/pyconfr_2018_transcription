@@ -1,0 +1,247 @@
+ 
+
+06_Software Heritage: The Great Library of (Python) Source Code Nicolas Dandrimont, Stefano Zacchiroli
+
+
+
+
+15:05:001046:001046_2 : 15:03:46:417: Ok so I'm sticking with a q r d . 2
+15:05:001047:001047_3 : 15:03:56:359: We're going to speak in English we also speak French so if any time with questions in English or French . 3
+15:05:001048:001048_4 : 15:04:06:486: Which is an archival project and we were both the product itself and what it is to do with fighting and with vital source code . 4
+15:05:001049:001049_0 : 15:04:18:514: I've been doing a free software and open source for almost 20 years now and I made a fair to say that these days I can we have a little bit at least a free software in every product we use softer ASDA 373 softer in there is not entirely. That's a shame for me but it's it's it's really something that you never i t crowd that
+15:06:001050:001050_2 : 15:04:42:642: And we usually think about that piece of software that we all collectively publish and develop together as something which is quite functional so we usually think at free software as something that it's made and suffering general to make a computer do something for you be a game machine something . 2
+15:06:001051:001051_0 : 15:05:05:776: What is important here in A13 like today is that in feet after and specifically can Source Code which is worth. It allows you to see modify share and Sonic forces also a knowledge so that you can see and read us some information there which might be very very novel in a couple of example here so when example is from the source code of quake . 3
+15:06:001052:001052_0 : 15:05:33:911: Network in Linux end in itself they're not. But what I'm going to say about these is that they were very novel technique it was not known before or at the time . 4
+15:07:001053:001053_1 : 15:05:49:046: Ways of rendering 3D . 1
+15:07:001054:001054_2 : 15:05:53:171: Which was something we should my been presented as a computer science conference on 3D rendering . 2
+15:07:001055:001055_3 : 15:06:02:310: Lyrics for actually deliver a package packages metapackages is very house very high throughput which was not known at the time so pretty much as we cherish novel discoveries scientific conferences we need to understand that we might have the same level of novelty and of knowledge in Source Code itself so even if you do not trust her so she might be valuable The Peace of God exist . 3
+15:07:001056:001056_0 : 15:06:29:433: Learn something from it another example if you wanted you know the decision which maybe we can be deferred innovation which we no longer have any pictures of their kids 50 years now because maybe touring pitches in 4 months and we will not know how to decode them 100 years 50 years from now if you had a piece of course is able to decode
+15:08:001057:001057_1 : 15:06:57:560: Make a specific issues they can tell you because someone down the line out resume . 1
+15:08:001058:001058_2 : 15:07:06:693: Here is that we are collecting the development and you kind of Commons which didn't exist like one of the year in the bath ok so every time we publish with a line under a free license we are collectively contribute into a piece of knowledge which is here it is here to last is not something that people that do not know programming know how to exploit but if something's . 2
+15:08:001059:001059_3 : 15:07:31:813: Do know people that can learn for me will be able to use in the future . 3
+15:08:001060:001060_4 : 15:07:38:935: Look at this thing is being called this offer essentially is a collective Good Witch tech people and developers are creating together every time they do a git push for every time they publish his back at work creating . 4
+15:09:001061:001061_1 : 15:07:56:051: If we agree that is something important the question is are we taking good care of this offer such as we care about anything and . 1
+15:09:001062:001062_2 : 15:08:08:175: Keeping you safe spots or areas or a Call of Duty all that kind of stuff we need to care about this . 2
+15:09:001063:001063_3 : 15:08:16:300: Be possible if this is a share the source if it is a comment that you may need to enter text people can access and should be able to benefit from where is the place where you can go and actually do something with his collective body of knowledge what is the place where you can search all the libraries all the programs that you care about ok but not all this was casino . 3
+15:09:001064:001064_4 : 15:08:45:429: Time . 4
+15:10:001065:001065_1 : 15:08:48:570: Not all this is on github at Speen parish and we'll be publishing the future so if you want a single place where you can browse and look for something which has been discussed you don't have this play . 1
+15:10:001066:001066_2 : 15:09:02:356: Even more so . 2
+15:10:001067:001067_3 : 15:09:05:501: Places that are used to collectively develop source code was cold and tooth abscess can disappear for various reasons with being some commercial services been destroyed by a tax fine catering services used to be called spaces with seen a natural business decision which of the shutdown of 4 years ago I was very excited because . 3
+15:10:001068:001068_4 : 15:09:35:644: Places that are used to collectively develops was cold and tooth abscess can disappear for various reasons with being some commercial services been destroyed by a tax fine catering services used to be called spaces with seen a natural business decision which of the shutdown of 4 years ago The doughnuts previous Appearances been bought by get up and with everyone because of inability time frame left but should still do something with your code is actually pretty small and Google Code went away as well, so Google was offering this whole thing and service for for free and some point they decided that he couldn't make money out of it . 4
+15:10:001069:001069_1 : 15:09:58:859: You can no longer a push to the repository Donnelly some point inside the well you can still access to call but your just talk anymore and it's . 1
+15:11:001070:001070_2 : 15:10:10:986: Shutdown computer . 2
+15:11:001071:001071_3 : 15:10:14:113: It's fine it is there digital my decision but we might have lost something in the process . 3
+15:11:001072:001072_4 : 15:10:22:242: You have services that archive other staff references need . 4
+15:11:001073:001073_1 : 15:10:29:375: If a single get up you prefer Siri or a single rear coilovers the entire Austin place for software Source Code goes away . 1
+15:12:001074:001074_2 : 15:10:39:521: So I'm kind of in computer science and kind of curvy time use of my colleagues in physics which are good at essentially building shared her research infrastructure that they can use together think of the lxc you think of the big telescope in the atacama desert . 2
+15:12:001075:001075_3 : 15:10:58:655: Paula use a mosasaurus is built built shirts activities which are usually even hated by international agreements and Wear NE4 research you can disappear for sometime of using their sauces go the experiment and when you're done someone else is going to use the same as when I'm . 3
+15:12:001076:001076_4 : 15:11:17:778: I dream of a place where I can go maybe some other sources and you don't do an experiment mean doing a big glass on all this as good as ever been published see if my phone is cracked and then you know about myself and someone else we just use the same without needing to recreate the same . 4
+15:13:001077:001077_1 : 15:11:40:906: Essentially this answering these use cases is what we have been doing at the Sofware Heritage over the past couple of weeks . 1
+15:13:001078:001078_2 : 15:11:52:040: Is essentially a project with a mission of collecting preserving and sharing all this was girl that has ever been published with the word and anyone who needs to accept . 2
+15:13:001079:001079_3 : 15:12:04:067: What we want to do is actually super support different use cases so we had this mission of collecting and preserving insurance was good and we do that for various reasons the first one is preservation for preserving our technical knowledge an hour contract so we Claim that was not binary . 3
+15:14:001080:001080_4 : 15:12:26:197: We do not want to do it even if you are not useful for anything else even just doing the preservation for proficiency would be something very bad so it's actually really care about the research you scared which I just described so we want to enable researchers to adjust the office on the entire body of swords . 4
+15:14:001081:001081_1 : 15:12:49:330: Patient UK especially if you follow the computer science curriculum you know these are not at school using ontology and other disciplines are we don't tell me no place where we go and go through the evolution of implementation techniques for specific and we do that . 1
+15:14:001082:001082_2 : 15:13:07:452: Reference to real code and how you know techniques 36 and the simulation of a bowl of their time so we believe the something like a big caboose of Source Code can be the basis on which it ok to still this kind of ontologies for . 2
+15:14:001083:001083_3 : 15:13:23:579: Ok for some industrial use cases specifically it's very hard for all the companies that are embedding free sofa in their products to know which specific version of library of a snippet or whatever they are embedded in a . 3
+15:15:001084:001084_4 : 15:13:39:696: I'm free software to cheat on girls on diesel emissions in your car's how do you know which specific version of the library of you sexually you know it called your mother's from the market when someone catch you for that reason so if we can do if you have a huge cars you can give out as identifiers . 4
+15:15:001085:001085_1 : 15:14:00:817: Ship Inn n e a t crowd following some very strong design principles not a BTEC Level in sorry but at the institutional and and management level if you want so first of all we are doing all this in Italian Italian open approach to believe the mission is important enough for doing that ain't out using for softer . 1
+15:15:001086:001086_2 : 15:14:26:966: Archiving rendering and preserving and Siri searching on the kodi it's entire different softer and we are trying to use the you know the usual models with learn from comments Wars collectors and someone you know that you've been doing that yourself for quite a while I'm guessing . 2
+15:15:001087:001087_3 : 15:14:47:099: Something which is meant to exist in a very long term . 3
+15:16:001088:001088_4 : 15:14:53:229: Sing we can to maximise the chances that nothing would be lost so of course it's a very simple back as level what you want to do is having as many copies as possible so the idea that they we don't want to have a single copy that is under our control we going to have a worldwide network which is under control of different entities which keep copies of your card so that no single . 4
+15:16:001089:001089_1 : 15:15:16:342: Nothing given institutional change in law that might make it difficult to do presentation will be an Appaloosa . 1
+15:16:001090:001090_2 : 15:15:25:473: Nothing given institutional change in law that might make it difficult to We're creating this as a non-profit introduced to not be good for profit in East either bad or anything but because the goals of companies and corporation changed much more quickly than the goal of non-profit organisation dedicated to a single mission so this is going to be and forever going to be a non-profit . 2
+15:16:001091:001091_3 : 15:15:45:336: Let me give you some more details of what you're doing . 3
+15:16:001092:001092_4 : 15:15:51:466: Reserve swash got together with the history of its development want to be able to people to enable people to FIFA version control system or if your sister disappear want to enable them to reconstruct the full list of development and rate of development from that pocket so what that means that we go around looking for places where do Skoda CZ develop for this or disabled . 4
+15:17:001093:001093_1 : 15:16:17:601: We go there and we archive all the following formation the content of all the Source Code side sweetheart . 1
+15:17:001094:001094_2 : 15:16:27:726: Postcode treat if I should eat at any point . 2
+15:17:001095:001095_3 : 15:16:33:854: Medium . 3
+15:17:001096:001096_4 : 15:16:35:971: African so we are coming or Limited . 4
+15:18:001097:001097_1 : 15:16:41:103: Specific comments we've been tagged as being an important my from the project and in addition we store all fitting information so where and when we archive any one of those different type of artefacts found in the way we do that using . 1
+15:18:001098:001098_2 : 15:16:59:216: Which is able to store the details of a git repository of a parable of a dado stack edge of a pipe I archive or observation in a single people migrate to PC . 2
+15:18:001099:001099_3 : 15:17:01:216:  We will not have to be now we Are What We DO NOT archive is everything else like we do not archive back racking systems reviews . 3
+15:18:001100:001100_4 : 15:17:29:527: Website and try and support because they're not imported we know they're very important for development purposes but we feel that already the mission of archiving sauce with is quite challenging so we do not want a piece of this stage to go through some sort of Mission creep and stress yourself and still doing to play well with ours is making it possible to pinpoint any artefact . 4
+15:19:001101:001101_1 : 15:17:54:640: So that you are doing while others are archiving those kind of things they can usually do some cross matching and say hey it was this project back in 2018 called Daddy and now we're in 3040 doesn't . 1
+15:19:001102:001102_2 : 15:18:10:785: Share this with Twitter accounts are as a heritage . 2
+15:19:001103:001103_3 : 15:18:15:913: Do some Street some sort of a big Wikipedia softer but for now we are not focusing on doing that our self . 3
+15:19:001104:001104_4 : 15:18:26:056: Similar to a web crawler but we start from a selected list of what you waiting list of art so we have a semi-automated listing which you can say there is a force there which is of a specific type or there is a package manager repository there a specific type and Perry go through all this distribution play any single places . 4
+15:19:001105:001105_1 : 15:18:52:175: List all the softer hygiene certificate findings on github it's something like something that can list all the git repository Debian is something you can do sausages to do this . 1
+15:19:001106:001106_2 : 15:19:09:312: Ready for the . 2
+15:20:001107:001107_3 : 15:19:13:440: Leeds departure status of the hygiene might need a URL of a specific . 3
+15:20:001108:001108_4 : 15:19:14:440: Packaging as managing substantially the same thing on the Orient themselves using different components which are colours . 4
+15:20:001109:001109_1 : 15:19:15:440: Go and find new stuff that you've never heard before with respect to the state-of-the-art eyes every time I load of visitor specifics of the heart and it will look at everything that is there any . 1
+15:20:001110:001110_2 : 15:19:47:913: Call the Comet store diseases and Sons support . 2
+15:21:001111:001111_3 : 15:19:53:028: Nrk everything that is new . 3
+15:21:001112:001112_4 : 15:19:57:161: What is been archived in the past . 4
+15:22:001113:001113_1 : 15:20:01:302: When did that was in itself is a Big Mac attack saying that the structure with finding itself in blockchains and speak about these days so I guess you can't see much of the little thing with this projection but essentially is that is a big marker structure in which have leaves which are just accountant of the fight without any name identified by Jackson ok if I'm out . 1
+15:22:001114:001114_2 : 15:20:27:429: Body of additional checks on to avoid collisions . 2
+15:22:001115:001115_4 : 15:20:32:554: Directors in cells and you go up your valuable with the revisions which are comets you got up again at 2 objective record Nexus which are essentially the full state of a given repository or or sausages so for instance think of the case of Gates net worth of a git repository is a picture in which we have for each branch for each tag object it's What is this interesting is that even is the git repository deleted or if you have changed the Easter in somebody Stratford Manor doing repairs or treating grandson as if we never remove the old maps so if you remove stuff you can still have the picture of their thoughts before your mobile so you will be able to find stuff that maybe you deleted by mistake and left on . 4
+15:22:001116:001116_1 : 15:21:24:934: Vrv the shape of the equivalent of a small calendar that for each softer hygiene tells you when we visited it and for each time someone with this is it points to a snapshot which allows you to retrieve everything accessible from from that visit with . 1
+15:22:001117:001117_2 : 15:21:42:050: Something that exist for real it's been going on in the Beano cutting stuff for the past couple of years so we ever get tired more more than 5 billion unique to Ascot fight because we did everything thanks to the structure with more than 1 billion unique me coming from more than 80 million projects . 2
+15:23:001118:001118_0 : 15:22:03:170: SE1 each difficulty with a project which package is a project and so on so far
+15:23:001119:001119_4 : 15:22:18:297: Melted for bike on the fair that it also covers Piper so we periodical archive all the back of Their Own by looking finding you version of stuff . 4
+15:23:001120:001120_1 : 15:22:30:402: India cafe . 1
+15:23:001121:001121_0 : 15:22:34:520: One-off experiments so we have archived in tiger tiger shark I've been tired Google call. Thanks to collaboration with both the internet archive and Google itself archive the one shot the release of the moon . 2
+15:24:001122:001122_3 : 15:22:50:640: Working on archiving bitbucket so it's ready today the largest source codec ID that exist in the world it's big it's not that big compared to your video project is something else of 20 terabyte in terms of content and the structure is not a base which is something I see if you look at the graph itself . 3
+15:24:001123:001123_4 : 15:23:16:762: The grass is 10 billion notes and more than 100 billion edges so it's pretty interesting been scanned of challenging to to the width and is growing daily so periodically we add new origins of weird news for new version . 4
+15:24:001124:001124_1 : 15:23:35:879: Stan Getz and account . 1
+15:24:001125:001125_2 : 15:23:40:032: What can you do with this today to do the weather be like that you can use watch me navigate to The Rock that is not a wine API which is made to . 2
+15:25:001126:001126_3 : 15:23:52:152: Scale analysis of the content of their side but starting from any point so you can do stuff like ok tell me all the visits you ever forgive of Origin will give you that allow you to go through the graph down to the individual . 3
+15:25:001127:001127_0 : 15:24:08:283: You can find it the commander Data archive society.org any point which is both for the . 4
+15:25:001128:001128_1 : 15:24:16:386: And also for our interface you can download so here is my post been deleted for whatever reason can you can you give me the entire state of the repository at the last visit you use . 1
+15:26:001129:001129_2 : 15:24:36:505: It's not practical to use the API to do that because you will have to be not download every single upset one by one . 2
+15:26:001130:001130_3 : 15:24:44:619: Something hated you fall in which you can say ok I'm interested in this Snapchat or maybe this directly that you like I can you please handle it up for me can you create a turbo for it so can you create a git bundle and it will do that are secretly he will contact back it will contact you back when it's done you will be able to download a terrible or for now to support . 3
+15:26:001131:001131_4 : 15:25:08:726: Can you can import the kit bundle Darcy locally and you start developing from there and the last way with opened up a few months ago for navigating through is actually a proper web interface so it's you are familiar with the internet archive wayback machine is something which is very similar so you start from the URL of your software version that you can find using some Foo . 4
+15:26:001132:001132_2 : 15:25:31:845: Can you can import the kit bundle Darcy locally and you start developing from there and the last way with opened up a few months ago for navigating through is actually a proper web interface so it's you are familiar with the internet archive wayback machine is something which is very similar so you start from the URL of your software version Also access to a calendar to show you every time with visited it and use you pick a visit and then you ever get up like interface allows you to navigate through the fire to the comments and Swansea and that is accessible starting from our kind of traitor . 2
+15:27:001133:001133_3 : 15:25:55:228: That's it for a general overview and Nicolae Guta will tell you more about the fire . 3
+15:27:001134:001134_1 : 15:26:19:471: Christopher Nolan an overview of WhatsApp to attach those and I'm gonna drink down and some details of what we actually do you remember the day and the data flow . 1
+15:27:001135:001135_2 : 15:26:35:587: Archive and then big mess in the Middle with . 2
+15:27:001136:001136_3 : 15:26:42:706: BBC list of that create regions in the database and crawler loaders that will allow the origins so . 3
+15:27:001137:001137_4 : 15:26:54:812: What we're doing for the Beta distribution . 4
+15:27:001138:001138_1 : 15:27:01:708: Stop is actually sting order Python modules that exist on the baby are cats so . 1
+15:28:001139:001139_2 : 15:27:09:831: Inside the swh list all modules Python as well so what is software heritage listed as basically it pros and ounces of cream cheese and turns that list of projects into regions that are low dose can understand and can work on . 2
+15:28:001140:001140_3 : 15:27:33:605: Loading tasks that are fed into the schedule mechanism to actually lose their contents of . 3
+15:28:001141:001141_4 : 15:27:41:724: The most of the credit goes to have you got man who did the list of scaffolding so all the base layers for the implementation and I'll send you . 4
+15:28:001142:001142_1 : 15:27:53:846: Implementation . 1
+15:29:001143:001143_2 : 15:27:55:963: So . 2
+15:29:001144:001144_3 : 15:27:59:080: Pictures of is very simple and simple API you hit this Endpoint and you get to 7 by Tiesto for the projects that exist on the on the bike . 3
+15:29:001145:001145_4 : 15:28:13:189: Into the documentation it's the only Endpoint that's not going to be difficult you soon slow wedding that so it's ready and HTML file with a list of links and you follow this link and you'll get data about the projects . 4
+15:29:001146:001146_1 : 15:28:31:300: If I say heritage he turns into a region which is basically type and are you are out for wear with a lot of data and . 1
+15:29:001147:001147_2 : 15:28:43:767: Routine tasks which has a few items of metadata that I'm going to go into the moment but basically you say that it's origin which is called jingle and you can find . 2
+15:29:001148:001148_3 : 15:29:00:903: The navigable pages that bye bye bye ta ta ta chita single limited data in json input . 3
+15:29:001149:001149_4 : 15:29:11:033: That's to the next component in Little China and we do it for older by TGV all switches . 4
+15:29:001150:001150_1 : 15:29:22:142: 50k . 1
+15:31:001152:001152_2 : 15:29:24:257: I'm just getting . 2
+15:31:001153:001153_3 : 15:29:29:381: The next number that is a chain is acidity of drops so this is again a python module is the biggest killer . 3
+15:31:001154:001154_4 : 15:29:38:182: Sweet records free cramps in one shot tasks so we can do a task that I can do again and again so for instance . 4
+15:31:001155:001155_1 : 15:29:39:182: Regularly to make sure that we get updates from France . 1
+15:31:001156:001156_1 : 15:30:44:461: Takes on github everyday because that's a waste of resources to do is that every time does a change in a repository Wigan decrease the interval between traps and if there's no changes were imprisoned in the end up being very stable system very active regions are being checked more often than dead origins that are being changed once every quarter or what's the . 1
+15:31:001157:001157_2 : 15:31:18:089: So how do we do it will be the phone trusted Python tools with celery . 2
+15:32:001158:001158_3 : 15:31:19:089: Kyrene middle where . 3
+15:32:001159:001159_4 : 15:31:29:361: And we use it for the worker management framework which is almost reasonable . 4
+15:32:001160:001160_1 : 15:31:36:496: Do we have three in the middle and then we have a compliment that does the schedule in . 1
+15:32:001161:001161_2 : 15:31:43:600: From the database and we have a component that listens to the seventh circuit and updates the database in the back in . 2
+15:32:001162:001162_0 : 15:31:52:747: And then we have some kind of batch job. Archives and upstairs and adapts into an elasticsearch index so that we can keep the Data Base are small and . 4
+15:32:001163:001163_1 : 15:32:10:866: Western Union jobs but when the beat drops to end completely what does loading a python package look like . 1
+15:32:001164:001164_2 : 15:32:27:687: What's a python source package anyway . 2
+15:33:001165:001165_3 : 15:32:31:815: Love two kinds of distributions that are available in Dubai in by PIA . 3
+15:33:001166:001166_4 : 15:32:38:941: Toolstation . 4
+15:33:001167:001167_1 : 15:32:43:059: Also a diploid cell containing the postcode for the module . 1
+15:33:001168:001168_2 : 15:32:48:181: These days are mostly wheels that you I don't have . 2
+15:33:001169:001169_3 : 15:32:55:303: Is Python you can have universal wheels if your mother has . 3
+15:34:001170:001170_4 : 15:33:02:430: An extension that need to be late for the bunch of targets . 4
+15:34:001171:001171_1 : 15:33:09:545: What's going to be only Luca is this even though we know that's not binary distributions for python modules actually complains full skirt with a look at sourcing Solutions . 1
+15:34:001172:001172_2 : 15:33:22:983: The current format for SD is unspecified implementation specified . 2
+15:34:001173:001173_0 : 15:33:32:107: Probably get stubble and maybe there's a setup.py somewhere right now I think we house does enforced that there's a package info inside the . 3
+15:34:001174:001174_0 : 15:33:45:220: As I didn't have submitted it about the project everything is concede generated by The Searchers when you do setup.py this . 4
+15:35:001175:001175_1 : 15:33:57:978: At some point 45 17 will be implemented which is a bit system independent format for sous 30517 does is basically comes train make machine-readable or the metadata that's used . 1
+15:35:001176:001176_0 : 15:34:19:112: Certification package building so instead of her setup.py with arbitrary code you have a fire at the top level directory where you can actually have machine readable data about your business term in your package and other metadata so if you want this to happen . 2
+15:35:001177:001177_3 : 15:34:39:233: They are really keen to getting some help actually pushing it through . 3
+15:35:001178:001178_4 : 15:34:47:216: So now that we know pretty much how by cancel speakers . 4
+15:35:001179:001179_1 : 15:34:54:322: Load it into the cellar heritage archive so again we have a specific module forwarding by PIA packages . 1
+15:36:001180:001180_2 : 15:35:05:435: This module built upon a template for logos that does basically always the same thing when it does is it goes to the original it looks at the metadata about Quran versions of the project so indicated a git repository to get the list of branches in the case of said you were going to do if you hit the json API and you get list of oceans and for each version you get a list of files . 2
+15:36:001181:001181_3 : 15:35:37:562: The Diary of . 3
+15:36:001182:001182_4 : 15:35:39:726: Rudies files when we go through the fire Screen Filter only dissociative mutants and . 4
+15:37:001183:001183_1 : 15:35:48:871: Set of Russians that are available for the package . 1
+15:37:001184:001184_2 : 15:35:53:831: We looked at the Savoy Hotel cave and the previous iterations of loading and we do it it's basically between what we already have and West new . 2
+15:37:001185:001185_3 : 15:36:05:558: Free download and process motivations that we didn't already have and will do the new data into the archive play some Foo Fighters nothing about it . 3
+15:37:001186:001186_4 : 15:36:19:683: Stages of stream json endpoints gives us latest sort out so that we know we can check that we already have loaded the original table and if there's a new publication of the same person with a different apple we're gonna lose it again so that if someone misses up and goes wrong reviews and then releases again with the same version number find it out and recognise any of . 4
+15:38:001187:001187_1 : 15:36:52:817: Stages of stream json endpoints gives us latest sort out so that we know we can check that we already have loaded the original table and if there's a new publication of the same person with a different apple we're gonna lose it again so that if someone misses up and goes wrong reviews and then releases again with the same version number What we do is we pass and save the metadata from the packaging for 5 . 1
+15:38:001188:001188_2 : 15:37:00:078: There's a bunch of pictures that have multiple ASDA's Franklin some packages separate the documentation into a different than the main coach hire and we archive them in separate branches in odata model . 2
+15:38:001189:001189_3 : 15:37:17:105: When we look at Snapchat social remember in the day tomorrow it's the top most . 3
+15:38:001190:001190_4 : 15:37:26:222: I correct that we saw in the archive . 4
+15:38:001191:001191_1 : 15:37:31:345: 7 interested and Fire and list of branches which are the releases so the version numbers available for each of those releases with points to another object which is currently revision DC should be a relief as an action release of the piss out of circulation of the current day tomorrow we're gonna use it soon and then we have a pointer an alias for the different version . 1
+15:38:001192:001192_2 : 15:38:02:441: That's what I Pa Ti Jesus so you can have a different version but you can still points to a different version as a previous video . 2
+15:39:001193:001193_3 : 15:38:15:764: So we store using beta right offer dates capital Xtra . 3
+15:39:001194:001194_4 : 15:38:25:876: The type of thing between ported with a turbo . 4
+15:39:001195:001195_1 : 15:38:29:995: Any point to a directory the directory is the root directory of the table and then within that there's ordinator that's been loaded . 1
+15:39:001196:001196_2 : 15:38:42:117: In the metadata Fields we passed the packaging for data so we have the name of the project and the author summary with all the description version number Xtra Xtra . 2
+15:40:001197:001197_3 : 15:38:55:734: Set files from trove . 3
+15:40:001198:001198_4 : 15:38:59:853: The original artifacts the table that we've loaded so we don't store the table itself however we store any information that we could gather about the table and when doing a comparison between the previous loading and unloading we can use the shirt 56 which is published from the bite pik to compare if we've actually loaded the same as fact or if you need to load it again . 4
+15:40:001199:001199_1 : 15:39:29:967: Disregard that this has been synthesized Bicester heritage so it's not something it's not a revision that existed in a version control system it's something that's been invented from some metadata The Twits past inside the data . 1
+15:41:001200:001200_2 : 15:39:49:080: That's it . 2
+15:41:001201:001201_3 : 15:39:50:080: The next step is so if you want to get involved in . 3
+15:41:001202:001202_4 : 15:40:06:330: What we'd like to do in the future so lucky with the new taps by Counting House we have a browsing so basically we have implemented the wayback machine for Sofia Source Code we've also started implementing stuff like depositing source code for instance researchers when they provide papers they can attach Source Code and Source Code is being pushed by the archive into softer . 4
+15:41:001203:001203_1 : 15:40:35:440: Tom preservation . 1
+15:41:001204:001204_2 : 15:40:38:570: How to ask us to safeguard now so now is Victor the medical you go to interface to type of you out if it's something that we already know we can schedule the next round of loading and if we don't then there's a wasting process that your origin goes through before it gets loaded and then at some point systems you get yourself . 2
+15:41:001205:001205_3 : 15:41:06:689: Are we still have a lot of very interesting and very challenging to do is pregnant for the accountant . 3
+15:42:001206:001206_4 : 15:41:15:814: You can do everything that you can imagine on the largest Source Code archive . 4
+15:42:001207:001207_1 : 15:41:24:959: Everything is just you just need to look at it . 1
+15:42:001208:001208_2 : 15:41:32:489: All or developing processes open you can go to a photo Society chill to all its of fabricating instance you can join us on a mailing list of sea . 2
+15:42:001209:001209_3 : 15:41:45:621: Send a lot of stuff that we want to crowdsource from the community of course the project meets . 3
+15:42:001210:001210_4 : 15:41:54:748: We also need to know about so scared that endangered so if you know of a Source Code hosting place that's been shut down . 4
+15:43:001211:001211_1 : 15:42:05:875: So we can try to get in touch with the add mince and get them before the code is a bit . 1
+15:43:001212:001212_2 : 15:42:14:996: The recruiting but regularly . 2
+15:43:001213:001213_3 : 15:42:20:112: Please you're looking for jobs for internship we have some internship positions open you can have a look like . 3
+15:43:001214:001214_4 : 15:42:30:226: Reference archive off all the available free software international non-profits neutralise infrastructure accessible to all the service of the community and Society coming . 4
+15:44:001215:001215_1 : 15:42:48:316: So we have ample time for questions . 1
+15:44:001216:001216_3 : 15:43:06:611: The question is how to deal with malware . 3
+15:44:001217:001217_4 : 15:43:15:731: How does malware everywhere . 4
+15:44:001218:001218_1 : 15:43:19:850: Expand repositories on github as well surely we don't have a automatic process of removal for this kind of things of issues . 1
+15:44:001219:001219_2 : 15:43:34:978: Respect know if there's something that needs to be taken down there Life Processes to do so we don't do anything automatically and we don't want to put like processes in place that make a judgement on the value of code that is not automatically we can decide if something is important or something is not important . 2
+15:44:001220:001220_0 : 15:44:02:095: We
+15:44:001221:001221_4 : 15:44:08:569: Yes so . 4
+15:44:001222:001222_1 : 15:44:12:684: When to keep them . 1
+15:45:001223:001223_2 : 15:44:17:800: Try not to judge nothing but . 2
+15:45:001224:001224_3 : 15:44:23:921: Sentido notice we will take that . 3
+15:45:001225:001225_4 : 15:44:28:709: Turn . 4
+15:46:001226:001226_1 : 15:44:31:847: We provide infrastructure and do we have any guarantee that they will keep on providing the . 1
+15:46:001227:001227_2 : 15:44:54:972: So we with a bunch of sponsoring the institutions that started Portuguese International Centre in France for the size of a bunch of other for-profit sponsors or even the state so it's actually there are no guarantee they will be on forever what you're doing is it . 2
+15:46:001228:001228_3 : 15:45:13:096: Standard no traffic modelling which web bunch of different ways of being funded and trying very hard not to ever single you know sponsor that will kill the Prodigy if it goes away . 3
+15:46:001229:001229_4 : 15:45:25:211: Maximise the chances in 14 . 4
+15:46:001230:001230_2 : 15:45:38:018: Sorry we are working on setting up a company infrastructure which essentially would be a mirror of your guys in there is a generic going to be a generic infrastructure for me mirrors which are coupled to some on-demand cloud in which the researcher will be there . 2
+15:47:001231:001231_3 : 15:46:03:131: Changing the data for everyone in the UK this is used and mirrors to . 3
+15:47:001232:001232_2 : 15:46:26:209: Right so we never say strategic plan on the project which is available . 2
+15:47:001233:001233_3 : 15:46:35:341: Interest . 3
+15:48:001234:001234_4 : 15:46:37:461: Nothing today . 4
+15:48:001235:001235_1 : 15:46:40:581: Ok to come out in force at a point of view because you need to have different infrastructure does not communicate or you might imagine people doing softer Astros of depositing source code for the acquisition of a kind of stuff so . 1
+15:48:001236:001236_2 : 15:46:57:707: Agent Ashley archive Pakistan visa for tomato we started with the future . 2
+15:48:001237:001237_1 : 15:47:23:166: The question is how about systematic classifying and categorising the soporific yes so did there is a lot of research in the last year on essentially doing . 1
+15:49:001238:001238_2 : 15:47:40:268: Working on that as well kind of challenging enough of this game but it is diversity because even work I always get up you have any kind of thing you can even supposed to be speaking so we are starting . 2
+15:49:001239:001239_3 : 15:47:58:388: A part of that . 3
+15:50:001240:001240_4 : 15:48:02:110: We can do everything else else but so we're working in party on starting to do some of that we're playing with doing some . 4
+15:50:001241:001241_1 : 15:48:11:843: MI5 and see what happens if what kind of clusters of . 1
+15:50:001242:001242_2 : 15:48:17:959: Something we've been working at a naming other anyone any researcher in the Woods playing this would be a way . 2
+15:51:001243:001243_1 : 15:49:14:290: Celebration is does it make sense in 2012 Skoda baby doesn't make sense at all in 2018 . 1
+15:51:001244:001244_2 : 15:49:29:648: Are the differences between us because we're . 2
+15:51:001245:001245_4 : 15:50:33:492: How would you be able to contribute to the storage problem of . 4
+15:51:001246:001246_1 : 15:50:43:888: The rise of . 1
+15:51:001247:001247_2 : 15:50:47:002: We're not working on this is currently but we are looking into . 2
+15:51:001248:001248_4 : 15:51:09:283: You give a check of space and then doing to tackle status . 4
+15:52:001249:001249_1 : 15:51:17:529: Yes I think that's something that I can look into the future and that's the easy way to write involved in the project . 1
+15:52:001250:001250_2 : 15:51:31:649: Play Absolute 80s . 2
+15:52:001251:001251_3 : 15:51:39:785: Computer procedure . 3
+15:52:001252:001252_4 : 15:51:43:899: Democratizing CDN . 4
+15:53:001253:001253_1 : 15:51:49:007: Guaranteeing archive Imagine Dragons and wanting to add some guarantees that movies going to be available forever . 1
+15:53:001254:001254_2 : 15:51:59:140: This is very hard to say I want to go on to the right place and copies of death and you know it they're not someone is going to come up and get some copies . 2
+15:53:001255:001255_3 : 15:52:10:252: Build your own thing on top of those . 3
+15:54:001256:001256_4 : 15:52:16:049: In my reflection Dewey a detached service free works well for large file because you can check them and then it's really easy to keep track of how many copies of each time there is currently we have 5 billion fingers and very very small things and think of . 4
+15:54:001257:001257_1 : 15:52:40:158: Is Freddie a challenge just like making sure that every single object as the September of 2 pieces had already so that we have to work on strategies to actually bundle up objects and . 1
+15:54:001258:001258_3 : 15:53:03:431: The question is about how we deal with duplication of code across different origins of the software so . 3
+15:54:001259:001259_4 : 15:53:14:253: You been to the data model is having food education at every level so every single level of the data model content directory is revision think we are all identified by intrinsic cryptographic identifiers and so the patient is free because that's intrinsic to the Data Mobile with extended data model basically and so you should do a fork a repository on github and we see . 4
+15:54:001260:001260_1 : 15:53:46:365: Do you have a bunch of provision for that we really have we only going to dododex mode improvements that you've done for instance if you're doing a pull request something but we are going to keep the data that was under . 1
+15:55:001261:001261_2 : 15:54:04:481: We have already . 2
+15:55:001262:001262_3 : 15:54:07:110: 1000 copies of . 3
+15:56:001263:001263_4 : 15:54:13:225: It's just not a single point Are Forever disorder . 4
+15:56:001264:001264_1 : 15:54:19:347: Single point . 1
+15:56:001265:001265_2 : 15:54:55:640: Yes yes . 2
+15:56:001266:001266_3 : 15:55:01:752: Sofa bed settee with a short answer is added to the biggest city population of this morning this week . 3
+15:56:001267:001267_4 : 15:55:10:875: Funding as much as possible to avoid on a single . 4
+15:56:001268:001268_3 : 15:56:05:630: Let me take this month so the question is is there any collaboration with for Takedown notices . 3
+15:57:001269:001269_4 : 15:56:17:750: Romantic . 4
+15:58:001270:001270_1 : 15:56:20:875: Not wearing cancellation because you know the disease ok no overreach incorporates so no there is a variation variation of thing down . 1
+15:58:001271:001271_2 : 15:56:33:837: Even realise a little bit probably in most cases we don't even archive what steak and out there that are independent . 2
+15:58:001272:001272_3 : 15:56:45:558: Could no feature is available for things that are at risk . 3
+15:58:001273:001273_4 : 15:56:52:689: Save God knows featuring the main . 4
+15:59:001274:001274_1 : 15:56:56:816: Images for web pages stuff on the on position when you click save page now and then it's ok to take it down from you need to go through . 1
+16:09:001275:001275_1 : 15:58:02:309: So we taking others that we are in touch with some French national archives . 1
+16:10:001276:001276_0 : 15:58:11:446: Even offline periodic I know what's. I've been something which is hotter Green or whatever . 2
+16:13:001277:001277_3 : 15:58:20:572: What's beautiful . 3
+16:13:001278:001278_4 : 15:58:27:708: Round for coffee to . 4
+16:14:001279:001279_3 : 15:59:27:840: Read . 3
+
+ 
+ 
+ 
+
+
+

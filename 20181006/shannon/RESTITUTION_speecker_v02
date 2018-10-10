@@ -1,0 +1,179 @@
+
+
+02_L'écosystème Nix pour développer en Python, et au delà Julien Dehos
+
+
+10:36:000169:000169_3 : 10:35:41:321: Donc les problèmes de configurer un projet on n'a pas abouti s'il y a plusieurs langage bah ça complique encore la chose si j'ai besoin d'une base de données ou d'autres services et ben il faut que il faut que j' ai ras la main puis j'aimerais bien faire tout cette façon un peu reproductible on peut reproduire mon ma confirmation projet sur machine j'aimerais bien pour . 3
+10:36:000170:000170_4 : 10:36:02:454: Projet il y en a qui veut utiliser lotissement isolé j'en ai plus qu'assez l'autre . 4
+10:36:000171:000171_1 : 10:36:10:569: Exécution installation et en espèces disque console . 1
+10:36:000172:000172_2 : 10:36:15:176: X** à la base c'est un système de gestion de Pâques est basé sur le principe de fonctionnement . 2
+10:36:000173:000173_3 : 10:36:24:313: Utilité Dr à épices à donner lieu va mal de projet open source des petits projets 150 minutes et . 3
+10:37:000174:000174_4 : 10:36:32:447: Qui est sorti s'inspirer beaucoup de NYX . 4
+10:37:000175:000175_1 : 10:36:37:754: Bah c'est une dérivation en gros c'est un bout de logiciel que je vais rajouter sur le logiciel pour typiquement c'était une nouvelle . 1
+10:37:000176:000176_2 : 10:36:51:905: Je donne les sources ça fait des sources local c'est pas des sens distante et et puis bah c'est tout en fait les directives de compilation d'installation si cette façon classique par exemple . 2
+10:37:000177:000177_3 : 10:37:04:044: Pas de les terminer automatiquement raison qui sait que faire un point configure Mecque Mekka installer qui t'a . 3
+10:37:000178:000178_4 : 10:37:09:690: Dans tout ça mais après je peux utiliser différentes commandes de Nick Cernix bulle c'est pour tous compiler je peux installer dans mon environnement localex est sûrement je peux changer un X avec celle avec toutes et dépendance je répare NYX avec cette commande ok différence Duty qui s'associe à . 4
+10:37:000179:000179_1 : 10:37:10:690: Ça marche on a pas de système de Faliraki standard PC clinic on a pas répertoire . 1
+10:37:000180:000180_2 : 10:37:32:024: Tu t'es fait dans un xthor . 2
+10:38:000181:000181_3 : 10:37:37:144: Dès qu'on a une version de notre logiciel débattre il y a un T2 chachki calculer et tu t'es mis dans cet . 3
+10:38:000182:000182_4 : 10:37:46:277: Il y a un autre dossier qui va être créez installation sera fait là-dedans . 4
+10:38:000183:000183_1 : 10:37:51:394: Assistant là il est partagé tout le monde peut il peut l'utiliser c c récupéré par contracture ça donc on a quand même leur publication mais on l'a dit et ensuite si je veux partir de . 1
+10:38:000184:000184_2 : 10:38:05:514: Les différents de ceux qui vont bien il aura le version qui vont bien dans la vie . 2
+10:38:000185:000185_3 : 10:38:13:646: Météo . 3
+10:38:000186:000186_4 : 10:38:16:766: Trotinette où ça va ça va être mixer le langage de description de paquet donc . 4
+10:38:000187:000187_1 : 10:38:21:890: Nice le langage mais c'est aussi l'ensemble les outils pour gérer tout ça . 1
+10:38:000188:000188_2 : 10:38:26:820: Quand on écrit tout un tas de dérivation on obtient Logitech en fait et c'est le projet X pkg si j'ajoute un système d'unités un système de gestion de services Sébastien distribution Linux . 2
+10:39:000189:000189_3 : 10:38:38:957: Système complet avec une description de service ha ha ha et ça c'est une super s je montrais un petit exemple si . 3
+10:39:000190:000190_4 : 10:38:47:099: Pour développer alors un petit script Python tout simple . 4
+10:39:000191:000191_1 : 10:38:51:241: Je définis fonction qui va renvoyer qu'il afficher une matrice aléatoire et j'ai besoin d'une pipe pour faire ça . 1
+10:39:000192:000192_2 : 10:38:58:378: Je veux faire ça sur un système classique par exemple Debian et ben c'est tout simple lance-t-elle le paquet qui va bien 80 bis St-Martin Python 3 et puis voilà je peux écouter montrer et ça fonctionne . 2
+10:39:000193:000193_3 : 10:39:10:123: Ça marche pas quand il faut que j'y suis soir tu allais si j'installe il faut que j'installe et du coup bah il faut que j'aille droit de souci . 3
+10:39:000194:000194_0 : 10:39:19:262: Également les paquets mais il faut qu'il faut qu'il soit je reste il y a pas de pays dans Debian. Prévoyez mais si c'est un paquet plus exotiques également il faut que correspond de spécial . 4
+10:40:000195:000195_1 : 10:39:33:390: En fait c'est mon passe-temps virtuel . 1
+10:40:000196:000196_2 : 10:39:39:532: Je l'exécute mon slip sur mon système de base c'est pas installer numpy donc ça marche pas donc je t'envoie un environnement virtuel . 2
+10:40:000197:000197_3 : 10:39:48:663: Il me fait une initialisation tu peux l'activer ici on se sent le pipi chez qui va bien et ensuite je peux installer tout logiciel que je lui en tant qu'utilisateur dans mon . 3
+10:40:000198:000198_4 : 10:39:59:800: Et bah ça fonctionne et j'ai le résultat qui s'affiche désactiver sortir de mon virtuel ce qui s'est passé et . 4
+10:40:000199:000199_1 : 10:40:10:934: Ça fonctionne par contre c'est pas isolé je peux toujours aller dans ce dossier là et puis tout cassé . 1
+10:40:000200:000200_2 : 10:40:20:066: Si je te le créer un autre projet à côté avec son environnement virtuel et qu'il a exactement la même version d'une pipe . 2
+10:40:000201:000201_3 : 10:40:27:180: Et c'est un peu parce que là il faut que je l'environnement à la main . 3
+10:41:000202:000202_4 : 10:40:34:315: Il faut que j'aille dans pour utiliser mon code . 4
+10:41:000203:000203_1 : 10:40:38:240: Michel ça permet de on peut utiliser Linux shell pour profiter ça la commande de ma Scénic Chelles et je peux spécifié des dépendances j'ai besoin . 1
+10:41:000204:000204_2 : 10:40:49:379: J'ai besoin de ce package Python 3 d'une pipe et sois jaloux je peux travailler dans tu sois je peux écouter une commande directement avec l'option donne-moi donc là c'est ce qu'il fait ici récupère toutes les dépendances il était une fois terminé et . 2
+10:41:000205:000205_3 : 10:41:08:504: Ça n'a pas été dans Turbé parler puisque là uniquement pour ça existe . 3
+10:41:000206:000206_4 : 10:41:14:643: Donc voilà pour un module point c'est tout simple intention de faire des modules peu plus compliqué alors typiquement mon fichier de maths ici je l'ai mis dans un dossier projet et je vais faire un paquet de python avec ça j'ai fait un petit pichet 7 pour payer . 4
+10:41:000207:000207_1 : 10:41:29:772: Il y a juste mon dossier qu'il faut pas 4G et la dépendance N'Py et que j'indique . 1
+10:42:000208:000208_0 : 10:41:36:744: Connais-tu d'accueil IP virtuelle envie si j'ai mon projet garçon c'est toi. Payer avec dans un environnement virtuel je l'active . 2
+10:42:000209:000209_3 : 10:41:46:868: Pages sources le petit-fils et que dans . 3
+10:42:000210:000210_4 : 10:41:50:725: Poids je pense tu allais avec PIP parce que j'ai un certain point P grec PIP install le nom de mon projet il est installer numpy il exécute mon . 4
+10:42:000211:000211_1 : 10:42:02:845: Et si j'exécute un python et que j'emporte maintenant ma biho take a priori j'ai appelé ma fonction . 1
+10:42:000212:000212_0 : 10:42:11:984: Comment peut faire ça avec mix et bah on va créer une diversion donc c'est un fichier ici d'épaule. Nick ce que je mets à côté du setup.py dans le dossier je change la logique . 2
+10:42:000213:000213_3 : 10:42:23:112: Et je vais appeler cette fonction là qui permet de créer un piteux par un package python avec mix non plus automatiquement il faudra regarder dans le fichier . 3
+10:43:000214:000214_4 : 10:42:32:246: Comment va ta gueule j'ai mon logiciel est dans ma dérivation campus de lui dire faire plaquer python je donne le nom le répertoire et sous répertoire courant et les dépenses j'ai besoin qui sont fournis cette fois par non pas par pays télécharger mais il va les récupérer depuis . 4
+10:43:000215:000215_1 : 10:42:48:727: Non comment ça s'utilise bah comme d'habitude avec Nice . 1
+10:43:000216:000216_2 : 10:42:53:867: Je vais dans mon dossier pour jeune X je lance mon échelle j'exécute à une commande Python pour qu'il va avoir récupéré les dépenses automatiquement et paquets de mon projet est donc maintenant je peux apporter mon projet de la fonction comme tout à l'heure . 2
+10:43:000217:000217_3 : 10:43:09:993: Pour utiliser module alors il m'a dit non à côté de mon projet un projet 2 avec juste un script et puis pareil un fichier de configuration . 3
+10:43:000218:000218_4 : 10:43:18:609: J'apporte mon projet et puis j'appel de fois la fonction qui te définit . 4
+10:43:000219:000219_1 : 10:43:23:971: Par contre j'ai besoin de mon prochain ici je ne dépense au projet donc si je veux faire ça avec avec maison virtuelle je vais récupérer toujours mon virement que j'avais crée tout à l'heure on voit que pour installer directement . 1
+10:44:000220:000220_2 : 10:43:42:114: Prestige exécuter script . 2
+10:44:000221:000221_3 : 10:43:47:234: Fonction et tu vas bien . 3
+10:44:000222:000222_4 : 10:43:49:637: Avec Nekfeu créer un projet afficher configuration pour mon projet dissident projet de j'ai mis mon fichier défaut de Pornic et je peux réutiliser les fichiers de configuration des autres projets donc là par exemple dans le . 4
+10:44:000223:000223_2 : 10:44:14:881: Qui joue dans mon ours et je définis à dépendance à projet est automatiquement du coup il va récupérer il va les voir à ce cas dans ce projet récupérer dépendance qui a pour ce projet . 2
+10:44:000224:000224_0 : 10:44:24:698: Sephora si je vais dans mon projet 2 il y a mon fichier des poils. Ici si le reste de mon code en XL je lui demande exécuter rendre de Point P y avoir dans projet a tout ce qu'il faut . 3
+10:45:000225:000225_4 : 10:44:38:860: Téléchargement des parents c'était pour ta g complétion si on a exécuté a priori ça fonctionne . 4
+10:45:000226:000226_1 : 10:44:44:600: Un vrai package comme on a dans le DJ Technics est dans le . 1
+10:45:000227:000227_0 : 10:44:49:747: Pôle installé dans le système de paquets de basse à Julie je suis dans le dossier courant et je veux installer automatiquement il va regarder le fichier des fautes. Nick télécharger tout ce qu'il faut et ça fonctionne . 2
+10:45:000228:000228_3 : 10:45:02:889: Comment de la donc là il marche tout ce qu'il avait maintenant système de base mon programme il existe . 3
+10:45:000229:000229_4 : 10:45:12:039: C'est gérer comme les packs habituelle donc pas de souci . 4
+10:45:000230:000230_1 : 10:45:19:164: Alors là où ça va commencer à devenir intéressant c'est pour gérer plusieurs langage . 1
+10:45:000231:000231_2 : 10:45:27:301: Ameli non maintenant je vais faire un module ans et plus plus pour mon affichage de matrice donc là c'est du côté plus plus l'utilisabilité gueule . 2
+10:45:000232:000232_3 : 10:45:36:436: Fonction cplusplus exporte avec boots python sous le même nom et je voudrais récupérer sa dent pour faire ce serait de la . 3
+10:46:000233:000233_4 : 10:45:47:562: J'ai défini maintenant c'est plus . 4
+10:46:000234:000234_1 : 10:45:50:700: Nom qu'on peut faire des extensions avec . 1
+10:46:000235:000235_2 : 10:45:53:840: Juste à rajouter une extension cplusplus ici le code source cplusplus j'ai besoin la bibliothèque Python pour faire le repassage j'ai besoin aussi de bibliothèque avec les en-têtes donc j'ai pas besoin . 2
+10:46:000236:000236_3 : 10:46:08:977: Et pour ça je vais a besoin de pkg-config fourni au niveau du système également dans les outils que je peux récupérer . 3
+10:46:000237:000237_4 : 10:46:20:112: Ça marche bien . 4
+10:46:000238:000238_1 : 10:46:23:270: Il y a pas mal de dépendance déjà au niveau des package Python me faut pkg-config donc je peux l'ajouter dans un fichier de plus en plus il faut que j'installe sûrement système . 1
+10:46:000239:000239_2 : 10:46:34:416: L'océan . 2
+10:46:000240:000240_3 : 10:46:37:255: Une commande comme ça à exécuter si j'ai pas le logiciel faut que je les installe aka bibliothèque . 3
+10:47:000241:000241_4 : 10:46:44:393: Télécommande . 4
+10:47:000242:000242_1 : 10:46:46:538: Une étape ici il faut installer le package Python the pkg-config avant de pouvoir installer mon prochain . 1
+10:47:000243:000243_2 : 10:46:55:686: Avantages du coup avec NYX c'est que bah tout ça c'est naturel si je veux pas qu'elle a créé appelle sa fonction bulle de python package et dépendance mais on s'en fiche en fait que ce soit du Piton ou chose à son . 2
+10:47:000244:000244_3 : 10:47:14:834: J'ai besoin de Fairy config system cotation . 3
+10:47:000245:000245_4 : 10:47:20:969: Les pacs python j'ai besoin de booster de la partie pkg-config de Python pour pouvoir faire mon petit script d'installation mais juste . 4
+10:48:000246:000246_1 : 10:47:30:109: Élancourt pareil je demande exécuter . 1
+10:48:000247:000247_2 : 10:47:39:256: Vidéo et cette fois il va vraiment récupérer toutes les dépendances système plus python véritable de compilation donc . 2
+10:48:000248:000248_3 : 10:47:50:386: La commande mix build on peut voir un peu ce qui fait toutes les compilations . 3
+10:48:000249:000249_4 : 10:48:03:516: Que je pourrais regarder pour voir bah qu'est-ce qui lettre r = également en fait pour mon . 4
+10:48:000250:000250_1 : 10:48:12:648: Il y a mon script Python si il y a tout le packaging python il y a la bibliothèque qui a été compilé pour mon extension cplusplus et tout ça en fait c'est tout ce que je . 1
+10:48:000251:000251_2 : 10:48:24:781: Il a été exécuté par . 2
+10:48:000252:000252_4 : 10:48:28:914: Alors donc . 4
+10:48:000253:000253_1 : 10:48:32:058: Web lui laisser une liste des acteurs de films et puis si je clique dessus et ben ça m'affiche la distribution donc sur chaque année combien ces facteurs la tournée SIM . 1
+10:49:000254:000254_2 : 10:48:43:208: Montre un exemple de déploiement . 2
+10:49:000255:000255_3 : 10:48:46:053: Application web en python flask il y a un module cplusplus c Puy du bouton sais pas quoi . 3
+10:49:000256:000256_4 : 10:48:55:204: Une base de données derrière et je voudrais voir comment je fais pour construire sa et le déposer sur une machine virtuelle avec les outils NYX . 4
+10:49:000257:000257_1 : 10:49:03:165: Alors au niveau de mes fichiers bah j'ai pas grand chose de compliqué hein j'ai mon extension cplusplus kaisi j'ai les données de ma base de données ici donc avec la liste de film les acteurs exetera configuration . 1
+10:49:000258:000258_2 : 10:49:16:312: Gossip Girl à l'exemple E3 que je rentre à tout à l'heure il y a du cplusplus du Piton Sergent pas le droit après le type fichier de configuration de Python est le code de mon serveur serveur qui a priori ça marche en local avec Sophie fait des fautes je peux faire un . 2
+10:50:000259:000259_3 : 10:49:37:465: Il faut bien sûr que j'ai configuré terrain à base de données avec les bonnes donné qu'ils vont bien dans . 3
+10:50:000260:000260_4 : 10:49:43:459: Mais je veux si jamais je veux déposer sa tasse automatique et ben je peux créer un autre donc c'est . 4
+10:50:000261:000261_1 : 10:49:51:600: Tutitu langage Nice mais où je vais continuer d'écrire mon environnement lui c'est donc mon déploiement je l'appelle web server dedans je récupère les logiciels ici . 1
+10:50:000262:000262_2 : 10:50:01:736: Jessica je récupère le défaut de panique de mon projet local donc en local je vais tester ça marche je peux le récupérer ici et ensuite je peux activer tout un tas de service pour pour mettre en marche . 2
+10:50:000263:000263_3 : 10:50:14:872: J'ai besoin d'exporter le Doubs vert import un port sur le firewall . 3
+10:50:000264:000264_4 : 10:50:22:593: J'ai besoin d'activer une base de données après j'ai activer le service pose SQL je lui passe le slip de provisionnement donc il va regarder le donner là dedans il va lancer le initialiser et ensuite . 4
+10:51:000265:000265_1 : 10:50:35:754: Il va faire tourner sa . 1
+10:51:000266:000266_2 : 10:50:39:870: Nassim chose à faire c'est de Dany quelle est la cible des parents donc là je dis bah on va créer VirtualBox es dedans tu vas me mettre tous les logiciels danger spécifié est tous les services que j'ai décrit une fois qu'on fait ça . 2
+10:51:000267:000267_3 : 10:50:54:018: Créer une image virtuelle que j'appelle vienne à partir de suis chez les . 3
+10:51:000268:000268_4 : 10:51:01:144: Lance le déploiement ici et il a créé toutes les machines virtuelles gestion installer paquet de dents compiler si il faut compiler activer les services et toi c'est comme il . 4
+10:51:000269:000269_1 : 10:51:12:287: Disponible machine virtuelle disponible donc il fournit narcissique que je peux discuter sur le port 5000 ai-je accès au site . 1
+10:51:000270:000270_2 : 10:51:21:432: Ça marche pour des machines virtuelles on peut aussi déposer sur des services de club cassis que je amazon google . 2
+10:52:000271:000271_3 : 10:51:28:151: Pour conclure NYX ça permet de gérer des paquets aussi bien au niveau logiciel que niveau service . 3
+10:52:000272:000272_4 : 10:51:38:270: Productible composable isolé ça peut travailler au niveau des paquets je peux créer des paquets mes jeux pour grouper différents paquets faire des conteneurs il y a moyen de faire des conteneurs docker . 4
+10:52:000273:000273_1 : 10:51:49:414: Ensilage ou des services je peux me faire des machines virtuelles complète l'opposé on peut déposer des micros service fille qui se fait ça aussi je le connais pas . 1
+10:52:000274:000274_2 : 10:51:59:547: Application tu sois du Piton des gros projets en python chose ou sur l'épicerie puis ça peut être intéressant quand même pour reproductibilite . 2
+10:52:000275:000275_3 : 10:52:09:288: La phase d'apprentissage importante . 3
+10:52:000276:000276_4 : 10:52:14:425: Avant les fichiers sur Internet début faut qu'on met apprendre à écrire les fichiers NYX et utiliser les outils . 4
+10:52:000277:000277_1 : 10:52:24:569: Parce que comme on modifie pas les anciens package crée de nouveaux pour pas les perturber du coup ça peut gonfler rapidement régler commande pour nettoyer mais il faut pas oublier de les exécuter . 1
+10:53:000278:000278_2 : 10:52:37:706: Cloud . 2
+10:53:000279:000279_3 : 10:52:40:818: Bon pour avoir une machine mix et puis j'envoie un conteneur dessus direct ou le logiciel tous mes services et ça fonctionne mais il y a peu de service qui propose en fait . 3
+10:53:000280:000280_1 : 10:52:49:969: Vieille donc sur internet le synonyme soleil saison 1 wiki depuis pas très longtemps tous les codes que j'ai montré ici ils sont sur ce dépôt là et . 1
+10:53:000281:000281_2 : 10:53:02:240: Si votre question . 2
+10:53:000282:000282_3 : 10:53:05:092: Alors donc le pourquoi utiliser Nice pour faire du reproductive désolé plutôt que docker . 3
+10:53:000283:000283_4 : 10:53:28:244: Herdegen X en fait on peut l'installer j'ai pas forcément animé on peut l'installer sur n'importe quel système je pensais dessus . 4
+10:54:000284:000284_1 : 10:53:38:441: Mon système UNIX es con quelle est l'histoire de service et tout et il y a du coup ça marche bien pour les applications graphiques docker une sonnette et puis je renvoie LibreOffice un document LibreOffice foutu en fait . 1
+10:54:000285:000285_2 : 10:53:50:204: Mais c'est pas mission plus biberon fête Pâques bon . 2
+10:54:000286:000286_3 : 10:53:51:204: Du coup . 3
+10:54:000287:000287_4 : 10:53:57:538: C'est pas l'utilisation fait ça que c'est bien pour faire un petit logiciel comme ça pour les récupérer un truc tout va bien pour la passion . 4
+10:54:000288:000288_1 : 10:54:09:059: Ouais . 1
+10:55:000289:000289_2 : 10:54:15:176: Ben non . 2
+10:55:000290:000290_3 : 10:54:30:995: Moi j'ai une tortue mais elle mange pas faire pour parler là mais effectivement en fait c'est différent du cœur ça me Maryse et c'est parti pour certains . 3
+10:55:000291:000291_4 : 10:54:51:140: Utilisateurs il y a pas envie de t'embêter tu parles truc ça marche donc ça peut être pas mal pour déposer des services à papa l'orchestration c c pas mal aussi . 4
+10:55:000292:000292_1 : 10:55:02:281: L'avantage de ça c'est que c'est en facile de faire du logiciel faire plein de service exetera ça se rend pas mal moi c'est qui qui permettent justement . 1
+10:55:000293:000293_2 : 10:55:14:408: GPS de pouvoir faire . 2
+10:55:000294:000294_3 : 10:55:19:542: Avec ça on peut en fait faire un compteur d'eau cœur à partir d'un d'une dérivation nique à partir de la gestion de services c'est pas aussi simple je connais pas bien donc c'est un peu dommage . 3
+10:55:000295:000295_4 : 10:55:33:667: Mal de cœur ou ferme docker composé sais comment ça se complique effectivement niveau isolation reproductibilité c'est en fait au début d'un truc . 4
+10:56:000296:000296_1 : 10:55:46:795: Mais vraiment lecture seule complète et on peut pas la location en fait . 1
+10:56:000297:000297_2 : 10:55:51:676: J'ai répondu . 2
+10:56:000298:000298_3 : 10:55:54:793: Je chante panier rajoutes pas là tout de suite . 3
+10:56:000299:000299_4 : 10:56:01:909: Oui . 4
+10:56:000300:000300_1 : 10:56:05:678: Pourquoi pour déployer des services web . 1
+10:56:000301:000301_2 : 10:56:13:378: Ouais . 2
+10:56:000302:000302_3 : 10:56:18:442: Ouais justement il est midi aussi parce que une fois qu'on a fait ses fichiers là ça configurant local ok on peut développer on peut mettre ça sur la machine à collègues et puis . 3
+10:56:000303:000303_4 : 10:56:30:554: Mais justement induction aussi parce que si la machine à supporter ce soit le début . 4
+10:57:000304:000304_1 : 10:56:39:685: Et bah si mais en fait il y a le/ arriere train /partout . 1
+10:57:000305:000305_2 : 10:56:44:815: Matemal de l'intégration continue images dedans justement j'envoie . 2
+10:57:000306:000306_3 : 10:56:51:953: Pitbull dans le docteur j'ajoute et puis c'est bon . 3
+10:57:000307:000307_4 : 10:56:58:099: Ouais . 4
+10:57:000308:000308_1 : 10:57:03:597: En fait il y a bien de configurer il y a moins de l'installer en fait et de mettre 100 production et des gens qui font . 1
+10:57:000309:000309_2 : 10:57:17:729: Système elle est faite viande à je peux le montrer là elle est faite viens si j'ai un fichier de configuration . 2
+10:57:000310:000310_3 : 10:57:26:705: Fréro productive configuration tu le fais attention sur ta machine à l'aide de Bastien matin je récupération exactement comme . 3
+10:58:000312:000312_1 : 10:57:41:850: C'est pas ça . 1
+10:58:000313:000313_2 : 10:57:47:238: Ça c'est le fichier pour faire à son système de base bien voir avec le . 2
+10:58:000314:000314_3 : 10:57:57:376: C'est que des options que j'active que je spécifie exetera donc le noyau bootloader . 3
+10:58:000315:000315_4 : 10:58:06:511: Pour tout le monde moi j'en ai mis un peu beaucoup c'est très propre de faire ça mais on peut on peut prendre par derrière . 4
+10:58:000316:000316_1 : 10:58:13:965: Mais si par exemple j'étais parti sur la montée je peux le faire ici activer . 1
+10:58:000317:000317_2 : 10:58:20:096: Voilà parti réseau ben je peux la faire ici l'âge activer des firewall par exemple regarde des pensions firewall activer les services imprimante . 2
+10:58:000318:000318_3 : 10:58:31:223: Moi je préfère dans la question . 3
+10:58:000319:000319_4 : 10:58:35:358: Complètement . 4
+10:59:000320:000320_1 : 10:58:43:486: Téléchargement mais installer Uniqlo est-ce que faire des étudiants parce que j'en avais marre de j'allais Debian avec tout ça donc . 1
+10:59:000321:000321_2 : 10:58:52:610: Ils ont . 2
+10:59:000322:000322_3 : 10:58:54:738: Afficher configuration que je récupère de partitionnement . 3
+10:59:000323:000323_4 : 10:59:01:872: Sam et après ça marche pas pour la confiance en système souvent en fait on passe aussi par un fichier utilisateur donc dans le point config . 4
+10:59:000324:000324_1 : 10:59:12:988: On va donner les paquets pour injecteur peux mettre . 1
+10:59:000325:000325_2 : 10:59:21:129: Est-ce que ça va tout casser au pire c espace disque . 2
+11:00:000326:000326_3 : 10:59:25:972: Faut s'y mettre un truc c'est que jamais le potentiel . 3
+11:00:000327:000327_4 : 10:59:36:785: Oui si . 4
+11:00:000328:000328_1 : 10:59:44:914: Je vois tout casser . 1
+11:01:000329:000329_2 : 10:59:59:557: Ah ouais . 2
+11:01:000330:000330_3 : 11:00:51:686: Tout à fait . 3
+11:02:000331:000331_4 : 11:00:54:891: Essai de la résolution du coup . 4
+11:02:000332:000332_1 : 11:00:59:015: Bah non ça va faire venir même . 1
+11:02:000333:000333_2 : 11:01:19:711: Résolution . 2
+11:02:000334:000334_1 : 11:02:08:108: J'ai mis que 2 images donc ça doit aller . 1
+11:02:000335:000335_2 : 11:02:25:874: Allons-y alors je vais en se taper un . 2
+11:02:000336:000336_3 : 11:02:32:770: Aller . 3
+11:02:000337:000337_4 : 11:02:36:897: Sac . 4
+11:03:000338:000338_1 : 11:02:41:163: 1 rue . 1
+11:03:000339:000339_2 : 11:02:44:311: Très très bonne . 2
+11:03:000340:000340_3 : 11:02:47:440: Smooth compte . 3
+11:03:000341:000341_4 : 11:02:54:020: Halal . 4
+11:03:000342:000342_1 : 11:03:13:946: Aller à la Halle . 1
+11:03:000343:000343_2 : 11:03:19:080: Allez ohlala mangeons du halal . 2

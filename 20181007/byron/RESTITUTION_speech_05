@@ -1,0 +1,146 @@
+ 
+
+05_Vers une littérature pythonique: je lis, donc j'apprends! Thierry Chappuis
+
+
+
+14:36:000608:000608_1 : 14:34:46:080: Bonjour . 1
+14:36:000609:000609_4 : 14:35:39:189: On attend quelqu'un c'est bon en même temps j'ai la concurrence de la quitte là-bas donc merci d'être venu . 4
+14:36:000610:000610_2 : 14:35:52:352: Aujourd'hui c'est de voir comment est-ce qu'on peut utiliser la base de code existantes pour soi se perfectionner . 2
+14:36:000611:000611_3 : 14:36:00:926: soit essayer de progresser vous d'aller vers travailler vers le travail vers des projets réel et professionnel . 3
+14:36:000612:000612_4 : 14:36:11:052: Dans notre pratique quotidienne de pi . 4
+14:36:000613:000613_1 : 14:36:16:606: De l'enseignement je suis professeur à la haute école d'ingénierie de Fribourg en Suisse à côté de ça je suis un menteur Python et la TNT sur une plate-forme formateur indépendant . 1
+14:37:000614:000614_5 : 14:36:33:725: donc je fais du pydon depuis depuis l'année 2000 donc à l'époque c'était du python 1.5.0 . 2
+14:37:000615:000615_3 : 14:36:45:867: Transformation d'un python ça fait quand même pas mal d'années que je suis dans ce milieu-là . 3
+14:37:000616:000616_4 : 14:36:52:210: Les étudiants sont principalement des ingénieurs ingénieur dans le domaine du procédé ici on voit dans quoi il travaille je dise Python pour faire de la modélisation pour prédire ceux qui vont faire c'est socialement donc du travail d'ingénierie du calcul scientifique ne mets pas que et on essaie d'apprendre à coder au plus proche des bonnes pratiques au plus proche de . 4
+14:37:000617:000617_1 : 14:37:18:348: Qui va être fait dans des projets réel ils apprennent à être opérationnel très vite sur des projets d'entreprise et donc pour être très vite opérationnelle sur des projets d'entreprise il leur faut très rapidement voir du vrai code et pas simplement du Code jouet . 1
+14:38:000618:000618_2 : 14:37:38:479: Tutoriel par exemple donc l'idée c'est le point derrière ce tutorial c quels sont les besoins d'un point de vue de l'enseignement par rapport à l'utilisation de code queel sont les manque . 2
+14:39:000619:000619_3 : 14:37:51:609: Donc le premier réflexe quand on . 3
+14:40:000620:000620_4 : 14:37:56:256: Va sur Github lorsqu'on fork son repo o son clone sorry pourrais quand commence à arriver à l'intérieur du code . 4
+14:40:000621:000621_0 : 14:38:05:393: Dans cette situation là on a l'impression qu'il y a plein de fichiers partout exetera qu'il y a pas forcément de de structure évidente sais pas par où commencer
+14:40:000622:000622_0 : 14:39:54:535: Clair que ça prend du
+14:40:000623:000623_3 : 14:40:01:223: Comment vous dire que vous passer beaucoup de temps à apprendre à coder vous apprenez beaucoup de temps à côté mais le temps que vous passez à côté et à peine en dixième du temps vous passez à lire du code . 3
+14:40:000624:000624_4 : 14:40:14:107: Dans ça vie de développeur Il est accepté qu'on passe 10 fois plus de temps à lire du code et découvrir du Code Kako des . 4
+14:40:000625:000625_1 : 14:40:22:973: Chose surprenantes quand on discute avec des collègues . 1
+14:41:000626:000626_2 : 14:40:27:606: on a tous l'impression qu'on parle de ce sujet de code reading rentrer dans une base du canoë mes mots codés moi je sais pas de problème je rentre dans du Code pas de problème mais combien de temps tu as passé à étudier comment . 2
+14:41:000627:000627_3 : 14:40:42:727: En fait dans la plupart des universités du monde c'est le cas de l'université au travail on passe mon passé a commencé à l'introduire maintenant on passait 0 minute . 3
+14:41:000628:000628_4 : 14:40:54:206: À apprendre à rentrer dans un projet réel . 4
+14:41:000629:000629_1 : 14:40:58:618: L'aspiration derrière ce toc c'est notamment en livres de 2010 spinalis code reading qui regorge de truc intéressant de petit Rick et de choses à rechercher dans un code pour nous aider à pratiquer . 1
+14:41:000630:000630_2 : 14:41:15:749: La référence à la fin en talk de Suzanne Tan Pycon 2016 qui elle va . 2
+14:42:000631:000631_3 : 14:41:23:882: Détails dans le code de request et vous montrer une sorte de chemin pour essayer de rentrer dans cette base de code de la musique request ici je vais pas aller dans le détail du code d'une bibliothèque en 25 minutes c'est difficile je resterai un petit peu plus large . 3
+14:42:000632:000632_4 : 14:41:43:994: Idée si vous voulez effectivement approfondir essayé une fois de vous plonger de manière guider dans une base de code dans une bibliothèque reconnu pour son API pro . 4
+14:42:000633:000633_1 : 14:41:56:460: Une personne qui a déjà fait des preuves Benjamin rise et quelqu'un qui a déjà développé beaucoup de choses en python notamment python Rekord C d'autres bibliothèque donc essayer d'aller dans du code qui a une certaine reconnaissance en terme de qualité et là on va être nourrice en bonnes pratiques . 1
+14:42:000634:000634_2 : 14:42:16:601: Quels sont les outils . 2
+14:43:000635:000635_3 : 14:42:19:453: Tout d'abord je dirais qu'il faut trois outils essentiels il faut un outil de recherche capable de faire de la recherche multi fichier je vais vous parler de source graff mais sinon il y a grap hack votre éditeur possède certainement également ce type d'outile . 3
+14:43:000636:000636_1 : 14:42:38:574: Heure de VAM donc vingrep me convient parfaitement votre aide et y possède également quelque chose qui permet à une commande Tomac également parfaite pour rechercher une chaîne de . 1
+14:43:000637:000637_2 : 14:42:54:643: YouTube fichiers bref notre . 2
+14:43:000638:000638_3 : 14:42:58:709: Et d'utiliser l'outil pour viser quelque chose de particulier dans une base de code et pouvoir commencer quelque part . 3
+14:43:000639:000639_4 : 14:43:09:570: Pouvoir identifier la cible . 4
+14:43:000640:000640_1 : 14:43:13:166: Une autre chose quand on aura besoin ou dans ton a besoin de manière générale dans une lecture de code on a toujours besoin de passer d'un appel de fonction d'un appel de méthode a une définition pour voir ce que fait la fonction . 1
+14:43:000641:000641_2 : 14:43:29:965: Beauty . 2
+14:43:000642:000642_3 : 14:43:31:855: Vous familiariser avec la fonctionnalité go to définition . 3
+14:43:000643:000643_4 : 14:43:37:889: On fait un contrôle bracket . 4
+14:43:000644:000644_1 : 14:43:41:860: Ils ont également de SITAG . 1
+14:44:000645:000645_2 : 14:43:45:287: Produire en index des différents symboles d'un autre projet . 2
+14:44:000646:000646_3 : 14:43:51:666: Comment faire t'avais dit comme sublime text ce sera plutôt . 3
+14:44:000647:000647_4 : 14:43:56:802: Comme pycharm on va simplement cliquez sur un symbole . 4
+14:44:000648:000648_1 : 14:44:02:079: Comme vs code pour débloquer un atelier cet après-midi pour monter sa star vs code on a en F12 . 1
+14:44:000649:000649_2 : 14:44:11:668: Et on a également La possibilité de faire un contrôle clique ou quleque choses comme ça l'essentiel c'est de connaître son outil de travail et en tant que développeur son travail c l'ai dit mais l'éditeur ne sert pas que à écrire du code mais également le lit . 2
+14:45:000650:000650_3 : 14:44:29:242: Enfin un outil qu'on sous-estime souvent notamment par le fait que mes étudiants pour une raison que j'ignore son des fans du print . 3
+14:45:000651:000651_4 : 14:44:45:361: utilise très peu volontiers en debugger . 4
+14:45:000652:000652_1 : 14:44:50:227: Debugger c'est pratique ça vous permet de mettre en point d'arrêt quelque part dans le code en ayant fait une supposition et tout d'un coup vous lancez votre votre programme et vous regarder où se . 1
+14:45:000653:000653_2 : 14:45:04:391: Vous êtes dans ce point . 2
+14:45:000654:000654_0 : 14:45:06:933: Vous allez pouvoir avancer pas à pas dans votre
+14:45:000655:000655_4 : 14:45:15:071: Et tout ça et tout ça et pour utiliser à debugger il y a pas besoin d'avoir Pycharme on peut utiliser aussi PUDB ou simplement pdb donc on a des interfaces dans le terminal . 4
+14:45:000656:000656_1 : 14:45:30:192: L'outils qui permettent de debug et de fixer des points d'arrêt . 1
+14:46:000657:000657_2 : 14:45:36:319: Également pour découvrir une base de Cote et pas uniquement pour débloquer son propre code ça c'est une . 2
+14:46:000658:000658_3 : 14:45:46:011: Dans quel que . 3
+14:46:000659:000659_4 : 14:45:49:153: Ok j'aurais "def get" savoir j'aimerais voir dans un projet comme request j'ai utilisé si l'utilitaire à qui a une sorte de version moderne de grep donc dans à que je peux faire AC tiret tiret Python et chercher mon terme je vois d'ici toute une liste de l'Orée qui apparaît en voilà le GET que je cherchais ils ont ça prend quelques secondes de le faire pour même si j'ai pas . 4
+14:46:000660:000660_1 : 14:46:14:288: Particulier à je peux toujours me replier sur le terminal . 1
+14:47:000661:000661_2 : 14:46:18:796: On outils que j'aime bien que vous connaissez peut-être pas ses sources graph . 2
+14:47:000662:000662_3 : 14:46:26:228: Grave c'est un plugin pour pour Chrome ou Firefox que vous pouvez directement appeler donc installé sur votre navigateur et lorsque je vais sur Github je peux directement naviguer dans le source CO2 github . 3
+14:47:000663:000663_4 : 14:46:42:375: Vous pouvez le faire sans utiliser l'outil particulier l'avantage de Akissi sais que j'ai réellement une recherche de symboles une recherche de fonction et hier elle m'en empare sœur pour votre langage qui va d'analyser qui va essayer d'aller trouver une fonction ou une méthode pour vous . 4
+14:47:000664:000664_1 : 14:47:01:205: Le si personne ne rentrez . 1
+14:47:000665:000665_2 : 14:47:03:664: Source graph vous permettra dont vous allez rentrer dans un code . 2
+14:47:000666:000666_3 : 14:47:11:755: Tant que vous l'ayez cloné en local je suis sur Github j'ai envie de naviguez j'ai ici à la fois une recherche multi Tissier et en gros tu définition direct . 3
+14:48:000667:000667_4 : 14:47:26:773: Je vois que viktor à fini . 4
+14:48:000668:000668_1 : 14:47:32:552: Je suis toujours sur source graff Source gratuit si je vois aussi que directement depuis github . 1
+14:48:000669:000669_2 : 14:47:44:687: Papa super à l'écran je suis sur Lille porte de la classe request si simplement en survolant request avec ma souris je vois que j'ai une lettre modèle qui s'ouvre avec une possibilité de lire la docstring associé à cette classe mais également directement une possibilité à l'intérieur du github de faire un go to définition éventuellement de faire démonter iPhone 6 . 2
+14:48:000670:000670_3 : 14:48:17:806: Je vais pouvoir un pour une casse classe abstraite voir à quels sont les classes qui hérite de ces dernières exetera exetera donc sans avoir besoin de cloner un local mon projet je peux vraiment faire de la recherche ciblée à l'intérieur de ma base de code . 3
+14:49:000671:000671_4 : 14:48:37:595: Donc les outils on les a . 4
+14:49:000672:000672_1 : 14:48:40:724: Maintenance que vous allez découvrir . 1
+14:49:000673:000673_2 : 14:48:44:856: Rentrer dans les ressources que je vais vous donner à la fin dans le livre et la présentation que je vais vous recommander vous allez découvrir que lire une base de code ce n'est pas un processus linéaire ce n'est pas un beau roman qu'on commence au chapitre 1. 2
+14:49:000674:000674_1 : 14:49:21:419: Certaines personnes ça m'arrive parfois dans le train aime bien lire du code pour lire du Code découvrir de nouvelles structures de données et tout ça . 1
+14:50:000675:000675_2 : 14:49:30:202: D'avoir un objectif c'est qui _quelque chose de plus efficace vous pourriez vous dire . 2
+14:50:000676:000676_3 : 14:49:31:202: Une fonctionnalité volant programme que j'exécute en ligne de commande j'aimerais bien lui ajouter nouvelle option où j'aimerais bien modifier le fonctionnement de cette option ne serait-ce que ici j'aimerais bien qui apparaissent comme ça je trouve le chemin . 3
+14:50:000677:000677_1 : 14:49:55:499: Un objectif aussi petit soit-il va vous aider à rentrer dans cette base de code et au passage . 1
+14:50:000678:000678_3 : 14:50:08:528: Alors mon point c'est dans point de vue pédagogique de ne pas hésiter à utiliser les bases de Cotte ça vous permettra d'apprendre les choses suivant . 3
+14:50:000679:000679_4 : 14:50:24:635: Je ne compte plus les étudiants qui écrivent sur Github un readme qui va à peine faire une ligne . 4
+14:51:000680:000680_1 : 14:50:34:576: Donc déjà je peux trouver sur Github comment écrire en bon oui dit . 1
+14:51:000681:000681_2 : 14:50:41:953: Je peux trouver sur Github comment écrire une bonne documentation qu'est-ce qu'il faut documenter quelles sont les fonctions que je décolle tu m'entends détaillée quelles sont celles que je ne document . 2
+14:51:000682:000682_3 : 14:50:53:483: Malade également pouvoir apprendre à vous constituer une boîte à outils . 3
+14:51:000683:000683_4 : 14:50:59:495: Sont les outils qui sont utilisés par les vrais projets dans la vraie vie . 4
+14:51:000684:000684_1 : 14:51:04:196: Moi je vois toujours quel sont les tutoque je dois utiliser pour faire ce tuto cetera machin truc . 1
+14:51:000685:000685_2 : 14:51:09:684: Dans la vraie vie qu'est-ce que je vais pouvoir utiliser que de quoi j'ai vraiment besoin de quoi j'ai pas besoin qu'est-ce qui la poudre aux yeux qu'est-ce qui est également voir ici . 2
+14:51:000686:000686_3 : 14:51:20:579: Comment réaliser des états-unis tu . 3
+14:51:000687:000687_4 : 14:51:23:732: Donner une conférence hier sur une biblioteque qui s'appelle hipotesis qui génère automatiquement des tests unitaires pour nous dans un contexte d'enseignement . 4
+14:52:000688:000688_1 : 14:51:34:854: Si je vais dire dans le code dans des vrais projets et que je regarde qu'est-ce que ces gens test . 1
+14:52:000689:000689_2 : 14:51:42:353: Je veux apprendre à écrire des bons test unitaire ou de voir en tout cas qu'est-ce qu'est-ce que je dois tester qu'est-ce que je dois pas testé qu'est-ce que est-ce que est-ce que je peux me permet d'avoir est-ce que je dois en avoir . 2
+14:52:000690:000690_3 : 14:51:57:463: Question la . 3
+14:52:000691:000691_4 : 14:51:59:635: France très peu dans les tutos en ligne on les trouve pas du tout dans les mots que j'ai vu donc dans un projet réel vous pouvez simplement vous . 4
+14:52:000692:000692_1 : 14:52:10:777: Dans le fichier de répertoire test du projet et vous avez des tests unitaires en veux-tu en voilà j'ai plus qu'à regarder comment est-ce qu'ils sont conçus . 1
+14:52:000693:000693_2 : 14:52:23:910: ça vous permetra également vous permettra de découvrir de nouvelles structures de données . 2
+14:52:000694:000694_3 : 14:52:29:086: La liste je connaisse dictionnaire mais que vous avez déjà vu un abstract syntax tree . 3
+14:52:000695:000695_4 : 14:52:36:245: Dégrafe vous avez déjà vu les . 4
+14:52:000696:000696_1 : 14:52:40:026: Déjà vu vous découvrirez de nouvelles implémente à . 1
+14:53:000697:000697_2 : 14:52:44:841: ça vous donnera peut être de nouvelles idées . 2
+14:53:000698:000698_3 : 14:52:47:523: À s'arrêter sur les structures de données dire mais qu'est-ce qu'elle a le particulier moi je l'ai vu dans un cours dalgo mais qu'est-ce qu'il a fait . 3
+14:53:000699:000699_4 : 14:52:57:679: Est-ce que c'est une implémentation naÎve vous vraiment il y a une forte dose d'optimisation qui est . 4
+14:53:000700:000700_1 : 14:52:58:679: Est-ce que j'aurais pu faire plus simple . 1
+14:53:000701:000701_2 : 14:53:08:086: D'où vient la complexité qui a l'air d'être devant moi donc je vais être découvrir de nouveaux algorithme finalement de nouvelle organisation architecture peut-être que je vais rentrer dans un projet django et je vais voir que la personne elle organise pas comme moi pourquoi est-ce que le fait comme ça et pas autrement . 2
+14:53:000702:000702_3 : 14:53:28:099: Si vous avez eu l'occasion De faire du Django et que vous avez parcouru le livre tous coupes sont Go où il y a d'autres manières d'organiser en projet django que simplement . 3
+14:53:000703:000703_4 : 14:53:40:232: Il va sortir de Django admin . 4
+14:54:000704:000704_1 : 14:53:44:163: Finalement si on fait de l'objet on va découvrir des implémentations de différents . 1
+14:54:000705:000705_2 : 14:53:51:298: Patron conception en français . 2
+14:54:000706:000706_3 : 14:53:55:422: Ou les algo je l' Deux fois et j'ai pas vu . 3
+14:54:000708:000708_4 : 14:53:58:289: Bon voilà en excellent envie de me . 4
+14:54:000709:000709_2 : 14:54:02:439: Celui de request avec une intro . 2
+14:54:000710:000710_3 : 14:54:07:771: La photo c'est de la poudre aux yeux mais c'est pas désagréable et ensuite des instructions sur comment installer comment faire mais simplement déjà de regarder une montre comment faire . 3
+14:54:000711:000711_4 : 14:54:20:556: Je suis directement sur Github de Grasse également donc voilà une implémentation de queu donc une file . 4
+14:54:000712:000712_1 : 14:54:28:810: Découvrir qu'est-ce que fait déjà 7 implémentation essayer de la mettre en perspective de la mettre en relation avec mes cours éventuellement si je suis étudiant . 1
+14:54:000713:000713_2 : 14:54:39:474: Qu'est-ce que c'est un hash. 2
+14:55:000714:000714_3 : 14:54:45:596: Je regarde . 3
+14:55:000715:000715_4 : 14:54:48:705: Ok c'est des algorithmes de chiffrement . 4
+14:55:000716:000716_1 : 14:54:53:572: Hashtable une table de hachage déjà là je peux thématiser différentes choses . 1
+14:55:000717:000717_2 : 14:55:02:103: De manière générale vous verrez que les tests unitaires sont d'excellents point d'entrée parce qu'il constitue vos de mini exemples d'utilisation d'une méthode ou d'une classe . 2
+14:55:000718:000718_3 : 14:55:18:229: Non seulement . 3
+14:55:000719:000719_4 : 14:55:20:348: Unitaire mais utiliser les tests unitaires pour identifier des points d'entrée identifier des pratiques et voir quelles sont les fonctions qui sont importantes . 4
+14:55:000720:000720_1 : 14:55:29:463: Également très pratique pour rentrer dans une base de côte . 1
+14:56:000721:000721_2 : 14:55:32:893: Finalement read the f****** manuel . 2
+14:56:000722:000722_3 : 14:55:38:886: Ok on peut le lire sur Github dans le répertoire Doc ou la vraie doc mais lorsqu'on essaie de voir Reda prends le fonctionnement d'une une fonction dans comprendre éventuellement aiyé toujour la doc à coté . 3
+14:56:000723:000723_4 : 14:55:52:704: Que de lire design l'algorithme déjà essayé de comprendre globalement qu'est-ce que la fonction est censé faire qu'est-ce que j'attende de 7 fons qu'est-ce que j'attends de cette méthode qu'est-ce que j'attends de cette place . 4
+14:57:000724:000724_1 : 14:56:05:204: Finalement rien de tel que de mettre les mains dans le cambouis on n'aime tout sur des projets on est tous des personnes qui aimons résoudre des problèmes donc plutôt que de faire un énième jeu du pendu . 1
+14:57:000725:000725_0 : 14:56:21:701: Pourquoi pas essayer de chercher comprendre en. Voire même de contrôler nos hypothèses influencer nous-même en algorithme essayer de modifier le fonctionnement et ensuite de lancer des testes sous d'ajouter des tests unitaires qui vont vérifier fonctionnement une approche expérimentale . 2
+14:57:000726:000726_3 : 14:56:41:714: Donc dans un cursus ingénieur on pourrait très bien supprimer les projets classique et puis essayer d'avoir un projet qui est plus d'ajouter une mini fonctionnalité a quelque chose qui existe déjà . 3
+14:57:000727:000727_4 : 14:56:57:191: Bref soyez actif je sais pas mais quelques kilos en trop qui joue pour moi c'est pour ça que j'ai choisi une . 4
+14:57:000728:000728_1 : 14:57:11:207: Bien plus fine pour montrer l'activité mes idées de et le dire ici lorsqu'on vie du code on essaie d'être actif . 1
+14:57:000729:000729_2 : 14:57:21:289: Café des hypothèses faire des . 2
+14:57:000730:000730_3 : 14:57:25:395: C'est qu'on a que . 3
+14:57:000731:000731_4 : 14:57:28:512: Tout ça ça va vous aider à comprendre et de maîtriser la base de code sur laquelle vous travaillez . 4
+14:58:000732:000732_1 : 14:57:37:366: En conclusion donc la lecture de code . 1
+14:58:000733:000733_2 : 14:57:43:282: Entrer dans un projet peut-être un outil d'enseignement et d'apprentissage efficace et que je dis apprentissage je pense pas juste à l'école à l'école d'ingénieurs mais dans ce métier-là on apprend toute sa vie . 2
+14:58:000734:000734_3 : 14:57:56:419: celui qu' Il me dit qu'il a 15 ans d'expérience Angot . 3
+14:58:000735:000735_4 : 14:57:59:939: J'ai pas le prendre trop au sérieux . 4
+14:58:000736:000736_1 : 14:58:04:925: Jeux de techno qui arrive essaie techno viennent souvent avec leurs pratiques l'heure bonne pratique donc même si j'ai 20 ans d'expérience il y a pas de miracle si je veux être un pro avec ce framework où se framework je vais devoir me familiariser avec les pratiques et se familiariser que c'est pratique c'est peut-être déjà de regarder comment s'organise des . 1
+14:58:000737:000737_2 : 14:58:30:051: Dans ce langue aussi ça s'apprend . 2
+14:59:000738:000738_3 : 14:58:34:832: Et ça s'apprend donc c'est dommage de ce point de vue-là de trouver 0 minute de lignes de code dans la plupart des cursus . 3
+14:59:000739:000739_4 : 14:58:42:511: Se presser professionnalisant bien plus que de faire des moules ou des tutos sur le web . 4
+14:59:000740:000740_1 : 14:58:51:818: Ça donne objectifs concrets et au final le résultat peut éventuellement être une contribution au projet sur lequel vous allez pouvoir éventuellement amener des nouvelles fonctionnalités voir DECOREX . 1
+14:59:000741:000741_2 : 14:59:08:357: Donc la contribution n'est pas le but en soi mais peut-être en résultats . 2
+14:59:000742:000742_3 : 14:59:14:912: de cette demarche . 3
+14:59:000743:000743_4 : 14:59:16:913: Les ressources pour le faire tout d'abord c'est d'essayer . 4
+15:00:000744:000744_1 : 14:59:22:645: Essayer fait leur rentrée dans le code source de Django très intéressant de voir comment fonctionne le ORM voir comment fonctionne différents aspec ne serait-ce que le système des formulaires . 1
+15:00:000745:000745_2 : 14:59:36:760: Moi ce que je gère mes template le moteur de template essayer de voir comment le parseur du moteur de template fonctionne toujours un objet qui . 2
+15:00:000746:000746_3 : 14:59:48:863: Je vais essayer d'aller voir comment ce que le moteur de template fonctionne comment il fait le lexique exetera je veux vraiment essayer . 3
+15:00:000747:000747_4 : 15:00:02:000: je vous inviRegarder . 4
+ 

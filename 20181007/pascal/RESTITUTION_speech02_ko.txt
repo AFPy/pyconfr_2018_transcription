@@ -1,0 +1,933 @@
+
+--------
+14:05:000003:000003_0 : Rechargement du document
+
+
+14:06:000028:000028_1 : 14:05:49:623: On va pas se mentir c'est pas hyper cool cependant on a des stacks hyper intéressantes avec donc concer0t python on a des projets en godet projet aiohttp et après on travaille en collaboration très très fort avec DBA des gens qui s'occupe du fond des gens de l'archi exetera CD équipe de 5 6 personnes très agiles . 1
+14:06:000029:000029_2 : 14:06:15:749: En terme de déploiement de gestion produit exetera et on s'oriente de plus en plus vers du . 2
+14:07:000030:000030_3 : 14:06:24:622: Microservices tout ce que ça serait pas vrai en tout cas d plusieurs Zap de moyens service et c'est très intéressant et on est tous là et on recrute en python JavaScript . 3
+14:09:000002:000002_1 : 14:06:46:984: Remote un peu partout voilà merci beaucoup . 1
+14:09:000003:000003_2 : 14:06:54:123: On fait du machine-learning . 2
+
+
+14:09:000004:000004_0 : Rechargement du document
+14:09:000005:000005_3 : 14:09:08:578: Adult Street . 3
+14:09:000006:000006_4 : 14:09:19:721: On my back that he doesn't like home by bus if you want to rock you on . 4
+14:10:000007:000007_1 : 14:09:28:845: Avec . 1
+14:10:000008:000008_2 : 14:09:36:874: Retrouver dans le coin là-bas qui s'est occupé de l'événement avec des autres . 2
+14:11:000009:000009_3 : 14:10:09:285: Faisons aussi de l'héberger avec du club datacenter du cloud Server et nous utilisons si nous offrons TeleService outils collaboratifs parce que nous sommes revendeur officiel des solutions Microsoft Office en France et qu'est-ce que je peux ajouter . 3
+14:11:000010:000010_4 : 14:10:29:409: Avion pour nous c'était de nous rencontrer en fait de rencontrer plutôt et passionnée des développeurs des passionnés de Python parce que le pack toute notre Sessùn au service est basé sur le langage Python donc ne sont toujours à l'affût de nouvelles technologies et de nouveau process autour du langage Python c'était aussi une occasion pour nous faire connaître par vous et vous dire que nous . 4
+14:11:000011:000011_0 : 14:10:50:531: Dis-moi d'embauche beaucoup donc si vous avez envie de découvrir le monde de la télécommunication je vous invite à aller regarder le site sewan.jobs si vous voulez plus connaître si vous avez vous voulez avoir plus d'infos sur Sewan aller sur sewan.jobs et nous sommes si vous voulez plus ce contenu nous sommes disponible sur tous les réseaux sociaux voilà donc je vous . 1
+14:12:000012:000012_2 : 14:11:12:651: Au pays bonne journée . 2
+
+10H11H  Releasing OpenStack: feedback from the field Haïkel Guémar
+11H11H30  Containers for developers Sami Makki, Vincent Maillol
+11H30 12H30  Design Patterns pour Python Micro-services Michael Bright
+
+
+
+
+
+
+
+14:10:000004:000004_0 : Rechargement du document
+
+
+Keynote #3 The CPython community: how to get more contributors? — Victor Stinner
+
+14:12:000013:000013_3 : 14:11:15:713: Bonjour à tous je m'appelle Hector Stinner je travaille pour la société RedHat je vous parlez de comment avoir plus de contributeur à Python ou autrement dit à la technique et simple humain est compliqué alors je préviens il y a des propos violents dans la conférence donc si ça dérange certains n'hésitez pas à quitter la conférence . 3
+14:12:000014:000014_4 : 14:11:55:588: Et après si vous l'êtes sympa ce qui son extrémité poussez-vous un petit peu pas mal de gens debout la banque Saint-Palais c'est l'heure de la place . 4
+14:12:000015:000015_0 : 14:12:05:260: En guise de prélude il y a beaucoup de gens qui considère que le projet Python n'est que du code la jaurie de vous dire. Python et avant tout des personnes . 1
+14:12:000016:000016_2 : 14:12:16:790: Et je vais commencer par parler du burn-out ce qui s'est passé c'est quand février dernier . 2
+14:13:000017:000017_3 : 14:12:23:903: Je suis très très active dans le projet Python qui travaille dessus depuis plus de 10 ans et ben j'ai décidé de me désinscrire de tout les lycée diffusion python que je t'inscris donc cette liste jeux j'ai fermé toutes mes poules request j'ai désactiver toutes les notifications où je les héros diriger vers des venu pour ne jamais les recevoir . 3
+14:13:000018:000018_1 : 14:12:57:304: Merci également été arrêté pour . 1
+14:14:000019:000019_3 : 14:13:08:824: J'ai passé pendant leur non mais c'est que j'ai réalisé que j'étais vraiment trop impliqués émotionnellement dans le projet alors tous mes amis me disent non mais tu es bête c'est juste un projet ce jeudi c'est juste un boulot tu as qu'à changer de boulot de projet . 3
+14:14:000020:000020_1 : 14:13:45:094: Penser que je travaille sur le produit depuis 10 ans sur Python et il y a quelque chose qu'on appelle l'affect qui fait que je suis relié émotionnellement à ce projet et beaucoup de gens à tendance à penser qu'il y a pas de la sexe et purement du code et ben moi je vous dis que si il y a de l'affect et ce qui s'est aussi passé c'est que je m'en suis pas Musée dans le projet Python petit à petit c'est pas d'un coup je suis devenu responsable de tu sais que petit à petit je travaille un peu sur la sécurité un peu sur le mentoring exetera et à la fin juste trop c'est trop quoi et j'ai aussi calculer que je peux travailler 13h par jour et 13h par jour ça commence à avoir pas mal d'incidence sur la vie. 1
+14:15:000021:000021_1 : 14:14:35:396: Voilà ce que j'ai vu c'est deux mesures pour que j'ai choisi pour essayer de t'expliquer un peu ce phénomène c'est que si on regarde le nombre de tickets ouverts dans Python on voit que ça croit de manière constante et si on regarde les nouveaux core développeurs promus chaque année c'est plutôt le cours de descendants graphiquement il commence de 2011 à février dernier . 1
+14:15:000022:000022_2 : 14:14:59:523: TD statistique depuis 2007 donc ça couvre comme une grosse période . 2
+14:15:000023:000023_3 : 14:15:04:508: On peut voir l'évolution non si on peut se regarder le nombre absolu qui sont aussi intéressant c'est que il y a plus de 6700 tickets ouvert il y a 900 poules request ouvert à Chantonnay passer à 2 ans il me semble et les corps développeurs il y a différentes métrique pour les compter mais moi j'ai décidé de . 3
+14:15:000024:000024_4 : 14:15:23:630: Plan sur Github parce que c'est quand on veut contribuer à Piton de nos jours il faut avoir un compte sur Github et là on peut voir tu n'as 93 core développeurs qui sont dessus . 4
+14:16:000025:000025_2 : 14:15:45:778: La définition de inactif reste encore sujet à débat donc je vais pas rentrer dans les détails . 2
+14:16:000026:000026_3 : 14:15:52:375: J'ai trouvé une BD que je trouve très intéressante sur le site commit strip qui donne un petit peu une une autre vision de ma problématique là ce qu'on peut voir c'est que c'est une équipe de personnes ils ont plutôt l'air d'être heureux il y a même quelqu'un que tu la prends du café ils ont l'air de travail en journée il y a des fanions c'est la fête il y a des gens qui te . 3
+14:17:000027:000027_1 : 14:16:25:548: Et on peut voir dans la deuxième casque . 1
+14:17:000028:000028_2 : 14:16:31:182: C'est pas vraiment la réalité la réalité c'est plutôt une personne tout seul on peut voir il y a juste son chat qui l'accompagne selon l'horloge il est 3h du matin donc c'est quelqu'un qui travaille la nuit qu'on suppose que c'est pas pas payer pour ça mais elle s'est plutôt selon son temps libre . 2
+14:17:000029:000029_3 : 14:16:50:471: Navigation ah ça c'est que souvent quand on y a des gens qui se plaignent de l'absence de review sur Python vas répondre oui mais on est tous des volontaires . 3
+14:17:000030:000030_0 : 14:17:02:725: Veut dire des volontaires ça veut dire que en fait c'est des personnes qui décide de prendre leur temps libre et de le donner à python il faut bien essaie de comprendre qu'est-ce que ça implique de donner son temps libre le temps libre ça peut être la soirée ça peut être là le weekend pour certaines personnes ça peut même être une partie de la
+14:17:000031:000031_1 : 14:17:23:862: Mainte0t c'est quelque chose de limiter c'est une ressource limitée qui coûte très cher il y a un des gens qui disent le temps c'est l'argent et quand on va prendre du temps libre ben en fait c'est du temps qu'on va prendre la famille aux amis qu'on va prendre loisirs donc les gens qui vont travailler sur le projet Python ils vont se sacrifier pour le projet . 1
+14:18:000032:000032_2 : 14:17:44:071: Il y a peu d' employeur qui accorde les jeux les contributeurs à passer du temps sur le projet Python . 2
+14:18:000033:000033_3 : 14:17:51:020: Troyes aujourd'hui . 3
+14:18:000034:000034_1 : 14:18:13:279: Steve . 1
+14:19:000035:000035_2 : 14:18:15:390: Quelle est la société Dropbox qui emploie notre ancien PDF est la Guilo vanrossomme à lui donne si un jour par semaine je suis pas certain que c'est un jour c'est peut-être deux jours et demi mais bon ça change pas fondamentalement le résultat qui est que quand on additionne toutes ces journées de travail et ben on arrive à 2 developers à payer à plein temps presse . 2
+14:19:000036:000036_3 : 14:18:36:509: Un joint que vous essayez de mètres sans perspective sais que d'un côté il y a 900  request de l'autre côté deux développeurs . 3
+14:19:000037:000037_4 : 14:18:46:653: IDC que il y a un site internet tu mets sur la popularité des langages qui s'appelleTIOBE index m'a récemment python est passé au rang du 3e langage le plus populaire au monde c'est le langage lui Populaire et on a 2 developers payer à plein-temps . 4
+14:19:000038:000038_1 : 14:19:02:508: Pour expliquer pourquoi les pull request ne sont pas mergees j'ai ce qu'il faut y a le bref canal qui a trouvé une métaphore assez intéressant tu sais que vous pouvez voir une poule avec Waze comme un chiot le chiot ben c'est quelque chose de super mignon c'est une chose merveilleuse qu'on vous donne sur un plateau d'argent . 1
+14:20:000039:000039_2 : 14:19:24:179: Votre perception à vous mais encore développement il peut avoir une vision différente il peut voir un chiot comme une décennie d'alimentation des promenade quotidienne des factures de vétérinaire . 2
+14:20:000040:000040_3 : 14:19:36:942: Tout ce que j'ai mis en gras c'est que quand tu auras cliquez sur le bouton de merge request je prends une pull request on va devenir responsable du code on va gérer les régressions on va gérer les problèmes de cassage n'a API et on va gérer tout le . 3
+14:20:000041:000041_4 : 14:19:52:881: Gérer pour les 10 années à venir et quand on a une quantité de temps limité pressure python parfois le choix le plus simple on a god mainte0ce ma c'est juste de ne pas mère j'ai même si le changement RIB dans pour vous bah c'est hyper important parce que ça bloque votre production . 4
+14:21:000042:000042_2 : 14:20:14:147: Impôt augmenter le nombre de core développeurs de contributeur rapid on a déjà fait des actions par le passé c'est qu'on a déjà écrit un Guide du développeur qui explique long et en large comment contribuer à python on est passé de Mercurial à Git sur Github alors c'est pas juste changer de repository c'est surtout tu le l'outillage qui autour pour simplifier les contributions . 2
+14:21:000043:000043_4 : 14:20:51:742: Test automatisé qui vont être lancée avant qu'on clique sur mer j'aille Linux et Windows qui va te lancer avant et ça c'est une grosse évolution parce qu'avant ont poussé le code et quelques heures après peut-être ça marchait peut-être ça marche pas si ça marchait pas fallait poussée de correctifs donc c'était plus de travail . 4
+14:21:000044:000044_1 : 14:21:11:222: Est-ce qu'on peut voir se que avoir de la doc avoir des outils sais bien mais les core devs reste toujours le goulot d'étranglement et il y a une citation que j'aime bien qui explique ce phénomène sais que vous ne pouvez pas résoudre des problèmes humains avec logiciel . 1
+14:22:000045:000045_2 : 14:21:27:487: Et mainte0t pour expliquer le pourquoi on a du mal à trouver des du monde je vais parler des problèmes de diversité . 2
+14:22:000046:000046_3 : 14:21:35:551: La diversité ben c'est simple étant donné qu'il y a jamais personne qui se plaint qu'on est train de diversité s'il y a pas de public il n'y a pas dire il n'y a pas de . 3
+14:22:000047:000047_4 : 14:21:45:754: J'ai trouvé un tweet de Maria ta vie rien qui me corps developpeur python qui est assez lourd de sens c'est que quand une femme par le diversité de communauté elle est pénalisé étiqueter comme nom technique certaines femmes choisissent de ne pas parler à cause de ça nous ne serons pas réduite au suivant . 4
+14:23:000048:000048_1 : 14:22:06:900: D'expliquer ce tweet qui de prime abord n'est pas évident . 1
+14:23:000049:000049_2 : 14:22:11:570: Un déjà ce qu'il faut savoir c'est que quand on traîne sur une mailing-list depuis plusieurs années il y a certains comportements fait qu'ils vont passer naturel parce que tout le monde se prend pour de la même manière et disons parfois dans les discussions ça peut être un petit peu ça peut être un peu un peu costaud les insultes ou les vocabulaire utilisé . 2
+14:23:000050:000050_3 : 14:22:35:936: Est-ce que j'appelle la toxicité dans une communauté sais que par exemple quand quelqu'un va venir avec une idée au lieu de rester au niveau de l'argumentaire de parler arguments contre arguments malheureusement certaines personnes vont plutôt attaquer attaquer la personne qui propose le changement plutôt que de . 3
+14:23:000051:000051_4 : 14:22:57:073: Les attaques de se faire au niveau public sur les mailing liste sur Twitter exetera ça peut également être privé dans la sphère privée . 4
+14:23:000052:000052_2 : 14:23:14:749: Compétition . 2
+14:24:000053:000053_3 : 14:23:17:856: Y a un procédé expliquer le titre de mariage je vais vous donner un exemple récent qui m'est arrivé moi même le mois dernier c'est que ça vis-à-vis la diversité il y a j'ai vu des discussions sur la . 3
+14:24:000054:000054_4 : 14:23:31:947: Live en français peuvent se traduit littéralement permettre esclaves et disons que mon esclave au 20e siècle il a un peu connoter quand même et cela va je sais pas quelque chose de super positif . 4
+14:24:000055:000055_0 : 14:23:43:907: Si j'ai regardé le code source de Python il y a des endroits où vraiment le terme n'est pas approprié et d'autres T1 peuvent être plus précis donc j'ai modifié les lignes ou vraiment le terme on peut le changer on peut le remplacer son ça change le sens et que le le remplacement et puis précis comme par exemple quand on fait un
+14:24:000056:000056_2 : 14:24:03:011: Quand on parle de réseau on va plutôt parler de client-serveur que deux clients Master et pour le projet Bill bonnes mains Le Cervin but slime en fait se déprécier ça fait plusieurs années que dans la documentation officielle ils sont passés à BUILD WORKER qui je pense et plus explicite . 2
+14:25:000057:000057_3 : 14:24:21:148: Ainsi que les changements sont uniquement dans la documentation et dans les commentaires c'est pas dans les API c'est pas dans quelque chose qui va . 3
+14:25:000058:000058_0 : 14:24:30:034: Il s'est passé quelque chose que j'avais pas du tout prévu c'est que il y a un journaliste du site de register qui a écrit un article pour parler de mon changement et la l'information été reprise sur rue Châteaudun Ibrahim bars qui sont plutôt des sites politique également sur Developpez.com Hacker News motherboard is Slashdot sortir . 4
+14:25:000059:000059_1 : 14:24:55:163: Il y a eu des articles en anglais en russe en japonais en mandarin en allemand en français entier et l'ensemble des articles a mentionné mon nom complet et mon employeur comme et ont vraiment associé le changement à ma personne morale et pas à la communauté Python en entier et pour vous donner une idée de l'ampleur de ce phénomène qui s'est passé en l'espace d'une semaine . 1
+14:25:000060:000060_2 : 14:25:18:322: Article Slashdot été publié il y a eu 1200 commentaires en 2 jours alors je sais pas comment font les gens pour poster aussi rapidement mais c'est que il y a un certain volume quand même de commentaire . 2
+14:26:000061:000061_3 : 14:25:31:041: Et pour vous donner une idée un exemple de retour de flamme ça c'est un des commentaires que j'ai pris hors contexte par rapport aux changements sur les sept ligne que j'ai changé . 3
+14:26:000062:000062_4 : 14:25:44:751: Ya Zina me . 4
+14:27:000063:000063_2 : 14:26:52:806: Écrivez j'ai reçu des mails privés et je pense que j'ai eu beaucoup de chance parce que moi je suis un homme européen blanc je vous laisse imaginer ce que ça donne si on parle une femme une personne transgenre ça passe à l'échelle d'après, quoi . 2
+14:28:000064:000064_3 : 14:27:08:453: Et mainte0t qu'on a vu un petit peu les problèmes de diversité je vais essayer plutôt de parler des pistes pour l'améliorer . 3
+14:28:000065:000065_4 : 14:27:15:912: Je parlais de d'humains ben il faut savoir que l'épreuve de diversité c'est pas un problème technique on peut pas le résoudre avec un debugger c'est plutôt la psychologique va nous aider ici et la première éléments c'est ce qu'on appelle le biais inconscients qui sont des stéréotypes sociaux à propos de certains groupes de personnes qu'un individu forme de sa propre conscience . 4
+14:28:000066:000066_1 : 14:27:40:034: Alors dis comme ça c'est une définition un peu compact: stéréotype sociaux qu'on a des préjugés sur certaines personnes et hors de sa propre conscience est quelque chose qu'on ne contrôle pas donc même si on est bienveillant qu'on est sensibilisé diversité même si notre éducation nous a demandé à ne pas être assistante de préjugés . 1
+14:28:000067:000067_2 : 14:28:01:179: Plus fort que vous voulez c'est quelque chose d'inconscient c c comme ça et j'ai trouvé un exemple qui a ses parlant c'est que aux états-unis la police commencer à utiliser le machine learning et décès de détecter un petit peu la . 2
+14:29:000068:000068_3 : 14:28:15:858: Essaie de les aider dans leur travail quotidien le principe du machine-learning c'est que il y a un logiciel en disant des données en entrée pour apprendre logiciel comment traiter les données . 3
+14:29:000069:000069_4 : 14:28:26:983: Analyse en fait c'est qu'ils ont donné plein plein de dossiers de criminels et après ils ont donné des dossiers neutre de personnes qui n'ont jamais été inculpé et pour regarder un petit peu le comportement du machine-learning est-ce qu'ils ont vu c'est que les couleurs les gens de couleur noir de peau sont plus souvent suspecter de criminalité que les gens de couleur blanche de peau . 4
+14:29:000070:000070_1 : 14:28:47:096: Ce qui veut dire qu'en fait la machine est raciste et une autre explication pour ça c'est que moi je vois ça comme la machine learning quand-même comme toi miroir qui nous qui ne jette à la gueule que ce qu'on à nous-mêmes et l'inconscient qu'on essaie de rejeter ben le machine learning nous le renvoie en pleine face quoi . 1
+14:29:000071:000071_2 : 14:29:06:236: Un œuf trop phénomène psychologique qu'on voit c'est le syndrome de l'imposteur alors honnêtement je n'avais jamais entendu parler avant l'an dernier et quand on a commencé m'en parler je lui dis ah mais en fait je pense que je suis aussi victime de ce syndrome alors qu'est-ce que c'est c'est un schéma psychologique dans lequel un individu doute de ses réalisations il y a une peur . 2
+14:29:000072:000072_3 : 14:29:28:386: Musée de découverte un fraudeur . 3
+14:30:000073:000073_4 : 14:29:31:513: Définition un petit peu difficile à comprendre . 4
+14:30:000074:000074_1 : 14:29:35:635: Doute de ses réalisations qu'est-ce que ça veut dire c'est que quand on est de la peur on va dire son travail n'est pas de bonne qualité par exemple et la peur intériorise peur permanente à intérioriser dire que c'est une peur qu'on va voir au quotidien qui va . 1
+14:30:000075:000075_2 : 14:29:49:896: D'être découvert comme fraudeurs c'est-à-dire que ben on considère qu'on travaille mal et que si on se fait attraper ben on respire taper sur les doigts on peut même se faire licencier quoi et c'est quelque chose que et qui difficile de lutter contre surtout quand on ne sait pas que ça existe . 2
+14:30:000076:000076_3 : 14:30:05:804: Trouver une explication qui est assez parlante pour ce phénomène sais que aujourd'hui on vit tout ça a l'air du des réseaux sociaux a l'air d'Instagram avec les personnes qui nous montrent leurs photos de leur superbe voyage dans les îles de leur super soufi's aux fraises qui ont bu hier . 3
+14:31:000077:000077_1 : 14:30:22:937: Ce qui se passae avec la culture actuelle et les réseaux sociaux et les entreprises qui j'allais réseaux sociaux nous encourage fortement à ne jamais montré nos défauts à ne jamais montré nos faiblesses . 1
+14:31:000078:000078_2 : 14:30:37:213: Chercher à donner la photo du meilleur profil le meilleur de nous-mêmes et le souci avec ça c'est que des psychologues on dit que les réseaux sociaux gens des gens plus anxieux plus depressif . 2
+14:31:000079:000079_3 : 14:30:49:370: Ce qu'il y a se compare le meilleur de nos de nos amis on le compare à à cause du syndrome de l'imposteur au pire de nous-mêmes en fait on va comparer le meilleur travail de nos collègues parce que les collègues notice appareil vont montrer le meilleur de nous-même demain ils vont un petit peu de mentir où cacher leur faiblesse . 3
+14:32:000080:000080_1 : 14:31:16:864: Par rapport à la toxicité il y a quelque chose qui s'appelle le code de conduite, le code de conduite c'est un contrat social qu'on a passé entre les membres d'un groupe . 1
+14:32:000081:000081_2 : 14:31:28:740: Avant les logiciels libres dans les communautés il y avait pas ça mais on a réalisé qui avait quelques problèmes qu'il fallait mettre les choses au clair par écrit et quand on met les choses par écrit c'est beaucoup plus simple de gérer la modération et de décider si on peut exclure une personne on peut rectifier le comportement d'une personne donc là PSF a écrit un code pour Python . 2
+14:32:000082:000082_1 : 14:32:27:028: Code de conduite et on a besoin de faire aider pour savoir quelle est la bonne réaction à apporter . 1
+14:33:000083:000083_2 : 14:32:33:831: Comment qu'on à cause de conduite écris je pense que c'est seulement la première étape mainte0t la l'étape en cours c'est plutôt la la discussion sur comment gérer les incidents et les bannissements . 2
+14:33:000084:000084_3 : 14:32:45:453: J'ai beaucoup parlé diversité mais je pense que ça reste encore assez obscur pour certaines personnes de quelle est la finalité en fait d'apporter la diversité dans un projet . 3
+14:33:000085:000085_4 : 14:32:55:757: C'est plutôt des développeurs dans la salle donc ce qu'il faut essaie de comprendre c'est que la diversité c'est la diversité des points de vue c'est que y a des gens qui sont plus axés sur la documentation le compteur de référence et la compatibilité la cohérence du langage . 4
+14:34:000086:000086_1 : 14:33:11:946: Est-ce qu'on a la solution la plus simple pour aller à l'objectif plutôt que tu as des solutions tarabiscoté est-ce que on a réfléchi au cas limite est-ce qu'on a pensé au performant que le CPU la mémoire est-ce que manger à la sécurité est-ce qu'on a pensé à gérer le cas de paille paille pour que pour être sûr qu'il arrive aussi à Clémentine soluce . 1
+14:34:000087:000087_2 : 14:33:30:063: Et ce qu'on voit c'est qu'en fait le spectre des points de vue en fait et très large et en fait une seule personne ne peut pas cumuler toutes ses capacités on ne peut pas être expert en tout donc en fait on a vraiment besoin de cette diversité pour que Python devienne le meilleur langage monde . 2
+14:34:000088:000088_3 : 14:33:46:603: La diversité des cas d'utilisation parce que Python peuvent être utilisé de manière très différent dans des cas d'usage très différent par exemple d'outil en ligne de commande qui se lancer en moins d'une seconde . 3
+14:34:000089:000089_4 : 14:33:59:510: Plan de lancement qui importe ou alors ça peut être un serveur lancer plusieurs jours là ce qu'il va plutôt primer mais c'est la consommation mémoire éviter que ça crache . 4
+14:34:000090:000090_1 : 14:34:08:801: Les applications graphiques machine leraning des serveurs reste des jeux vidéo exetera . 1
+14:34:000091:000091_2 : 14:34:14:465: Pour donner un exemple encore plus concret sais que Naoki nada et c'est promis comme Cordée Lauper il y a 2 ans et en fait il a été choisi de le nommer Billy Eiffel delegates donc c'est la personne qui prend une décision sur une pompe il a été bête sur la . 2
+14:34:000092:000092_3 : 14:34:32:575: À quoi ressemble à l'eau cassé et sur la PEP 540 qui qui introduit un nouveau module UTF-8 . 3
+14:35:000093:000093_4 : 14:34:41:253: Choisis un Aoki plutôt que quelqu'un d'authentique bizarrement les anglophones il se satisfassent très bien de l'ascii parce que en anglais il y a que des il y a 26 lettres et ça suffit à pour tout le monde mais . 4
+14:35:000094:000094_1 : 14:34:54:275: Une personne au Japon . 1
+14:35:000095:000095_2 : 14:34:57:440: Magical Chinese Japanese qui sont des langues beaucoup plus complexe que les langues européennes qui ont des idéogrammes beaucoup plus élaboré des règles de mise en font plus compliqué et disons qu'au Japon les problèmes d'encodage et de local ils l'ont juste tous les jours . 2
+14:36:000097:000097_4 : 14:35:25:216: Notre manière d'apporter plus de Man sur le projet Python c'est le mentorat et on va commencer par les actions positives c'est que il y a 2 ans et Kanye West Guy dauphin de ressemble à encourager les femmes à le contacter pour dimanche il a m'entourer Mariottat Vijaya qui est devenue la première . 4
+14:36:000098:000098_1 : 14:35:45:279: Et Katy suivi de la promotion de Carole meaning en mai 2017 et le mois dernier de l'Yser Auch et Émilie mort . 1
+14:36:000099:000099_2 : 14:35:56:908: Dépasser de zéro femme il y a 2 ans à deux femmes l'an dernier et pour le moment 4 fin de cette année peut-être plus 400 pour developpeur . 2
+14:36:000100:000100_3 : 14:36:07:036: Positive envoie-moi un résultat qu'on fait c'est con augmenter la diversité au moins un nombre de femmes . 3
+14:36:000101:000101_4 : 14:36:13:167: Par rapport à mon burnout j'ai réalisé sais que je travaille 13h par jour et j'ai beau me donner du mal je ne peux pas être avec plus que 13h par jour ça devient un petit peu limité . 4
+14:37:000102:000102_1 : 14:36:25:268: J'ai trouvé une station qui se parlant tu sais que si tu donnes un poisson à un homme il mangera un jour si tu lui apprends à pêcher il mangera toujours . 1
+14:37:000103:000103_2 : 14:36:35:056: Appliquer sais que Ben plutôt que de travailler plus c'est de d'enseigner python à d'autres personnes pour simplement avoir plus de monde sur le point . 2
+14:37:000104:000104_3 : 14:36:45:209: Pour ma part j'ai mentoré Pablo Salgado de janvier à juin 2018 et ce qui s'est passé ce qu'il était premier courant juin et on peut voir que le mentoring a duré pas très longtemps quand on sait que quelques personnes attendre depuis deux trois ou quatre ans pour devenir developpeur moi c'est que le mans Thorigné vraiment efficace pour promouvoir des gens au niveau de . 3
+14:37:000105:000105_4 : 14:37:11:333: Je pense qu'une bonne explication ah ça c'est que un logiciel libre avant tout une relation de confiance encore une fois le il faut pas avoir le logiciel comme du Code un logiciel comme un groupe de personnes et pour être capable de travailler faut vraiment avoir une relation de confiance comme par exemple quand j'ai proposé à la promotion de Pablo ce qu'on m'a dit c'est que . 4
+14:39:000002:000002_1 : 14:37:33:453: On fait les deux tours de le port ne connaissais pas Pablo mais il me connaissait moi parce que je suis impliquée sur le projet Python depuis l'année et en fait il me faut il me faut confiance à moi et ils me font confiance que moi-même je fais confiance à Pablo c'est là où je parle d'un réseau de confiance . 1
+14:39:000003:000003_2 : 14:37:50:439: Et pour finir . 2
+14:40:000004:000004_3 : 14:37:54:559: Du collecteur développeur sur le goulot d'étranglement du de la vélocité du projet Python nous sommes au courant que python à des proches a des soucis humains on travaille dessus . 3
+14:40:000005:000005_4 : 14:39:38:857: Étape par étape avec des petites étapes qui dure une ou deux heures un qui sont faciles à faire et j'ai juste fait les premières étapes mais j'ai pas encore fini parce que idéalement le tutoriel devrait vous prendre par la main depuis la compilation python jusqu'à devenir encore des vapeurs . 4
+14:40:000006:000006_1 : 14:39:56:198: Et c'est tout merci . 1
+
+14:10:000004:000004_0 : Rechargement du document
+
+Serverless Python dans le cloud ou on-premise Michael Bright
+
+
+14:47:000007:000007_3 : 14:43:52:667: Et . 3
+14:49:000008:000008_1 : 14:49:08:562: D'accord . 1
+14:50:000010:000010_2 : 14:49:30:274: Ok . 2
+14:51:000011:000011_3 : 14:49:35:406: D'accord du coup vous allez me fascine à quel moment . 3
+14:51:000012:000012_3 : 14:49:57:984: Ah non j'ai une double quand même . 3
+14:51:000013:000013_4 : 14:50:07:658: Ok . 4
+14:51:000014:000014_1 : 14:50:55:049: Ok on va y aller sur l'amitié access industries . 1
+14:51:000015:000015_2 : 14:51:06:167: Un de vos chats qui permet d'affirmer qu'un . 2
+14:51:000016:000016_3 : 14:51:12:304: Ok . 3
+14:51:000017:000017_4 : 14:51:15:164: Donc en français . 4
+14:51:000018:000018_0 : 14:51:18:277: Si vous présenter sur CBS béton à Sélestat façon générale mais avec un exemple. Python . 1
+14:51:000019:000019_2 : 14:51:26:847: Face . 2
+14:51:000020:000020_4 : 14:51:38:914: Ok . 4
+14:51:000021:000021_1 : 14:51:42:037: Bla bla . 1
+14:52:000022:000022_2 : 14:51:44:330: Blablabla docker python . 2
+14:52:000023:000023_4 : 14:51:55:563: S'il vous plaît . 4
+14:52:000024:000024_1 : 14:51:58:905: Ok donc j'ai parlé de service python Qt . 1
+14:52:000025:000025_2 : 14:52:05:893: Qu'est-ce que sait faire les tabacs . 2
+14:52:000026:000026_1 : 14:52:16:134: Après les offres Givors Sainte-Foy-Sillery il y a des offres de service provider . 1
+14:52:000027:000027_4 : 14:52:32:637: Je sens qu'on va . 4
+14:53:000028:000028_1 : 14:52:36:337: All lit plateforme pour tous ceux qui sont disponibles regarder un peu de toi et puis je vais faire des . 1
+14:53:000029:000029_3 : 14:52:53:938: FIFA dit de montrer à Cha les Landes à puisque déjà c'est Amazon qui a créé . 3
+14:53:000030:000030_4 : 14:53:04:061: Ça existait bien avant qu'il en selle Honda mais c'est quand même de l'arc ça ça vraiment . 4
+14:53:000031:000031_1 : 14:53:12:516: Et puis Calais . 1
+14:53:000032:000032_2 : 14:53:16:542: Librairie de Paris facilement . 2
+14:53:000033:000033_3 : 14:53:21:089: Avec Alain . 3
+14:53:000034:000034_4 : 14:53:24:196: Ok donc est-ce que c'est Seb lève pas d'abord . 4
+14:53:000035:000035_1 : 14:53:30:938: L'équipe foot ça va bien sûr que non en fait c'est surtout que du coup . 1
+14:54:000036:000036_3 : 14:53:39:054: Ça enlève cette responsabilité du serveur de la part de la . 3
+14:54:000037:000037_1 : 14:53:55:992: Toute l'armée allemande langage ou haute . 1
+14:54:000038:000038_4 : 14:54:06:723: Belgique logique matinée . 4
+14:54:000039:000039_1 : 14:54:11:597: Si je vois ça un peu comme ultimate . 1
+14:54:000040:000040_3 : 14:54:23:082: La Vie épisode . 3
+14:55:000041:000041_1 : 14:54:37:320: Créez du coup ce très léger ce qu'il a vraiment très facile . 1
+14:55:000042:000042_3 : 14:54:48:548: Philippe sur Isère la limite . 3
+14:55:000043:000043_3 : 14:55:11:460: Donc je déballe . 3
+14:55:000044:000044_4 : 14:55:17:535: Ensemble de fonction qui est fanée son décès tragique et ils puis back-end service en gros quelque part hier quand même des saveurs et des vêtements il y a des services . 4
+14:55:000045:000045_1 : 14:55:30:412: Donc là Samsung service c'est quand même logique de glue . 1
+14:55:000046:000046_2 : 14:55:37:530: Robin à déployer . 2
+14:55:000047:000047_3 : 14:55:40:590: Ah ben la seule chose que j'aime pas dans le nombre c c que Beyoncé . 3
+14:56:000048:000048_0 : 14:55:50:727: . com est . 1
+14:56:000049:000049_2 : 14:55:54:841: J'aime pas qu'il y a une boîte . 2
+14:56:000050:000050_3 : 14:56:00:500: Montage . 3
+14:56:000051:000051_4 : 14:56:06:617: Qu'est-ce que c'est donc c'est vrai . 4
+14:56:000052:000052_1 : 14:56:11:728: J'arrive aussi à avoir t'aime quelle forme jusqu'à ici c'est vraiment Ateca . 1
+14:56:000053:000053_2 : 14:56:25:840: Agediss les nouvelles infos sur l'application et . 2
+14:56:000054:000054_3 : 14:56:34:968: Film . 3
+14:56:000055:000055_4 : 14:56:37:105: Fabrication du service il fait tout . 4
+14:57:000056:000056_2 : 14:56:47:097: C'est que . 2
+14:57:000057:000057_3 : 14:56:52:212: Typiquement légal Pride . 3
+14:57:000058:000058_1 : 14:56:56:344: Lydia je crois qu'on l'a typiquement . 1
+14:57:000059:000059_2 : 14:57:02:707: Location de fonction a pas moi qui ai gâteau . 2
+14:57:000060:000060_1 : 14:57:21:319: Investissement on achète pas le cours de l'action . 1
+14:58:000061:000061_2 : 14:57:30:429: Dirt 4 par mois donc passée sur son . 2
+14:58:000062:000062_3 : 14:57:36:415: Sapés beaucoup d'innovations beaucoup de visiter . 3
+14:58:000063:000063_4 : 14:58:16:360: Donc c'est une grosse elvenar qu'une seule . 4
+14:58:000064:000064_1 : 14:58:26:505: Un temps typiquement les fonctions va être un bouquet . 1
+14:59:000065:000065_3 : 14:58:40:763: La fête aussi des choses Dewey Cox fête des . 3
+14:59:000066:000066_4 : 14:58:45:457: Créez Galaxy . 4
+14:59:000067:000067_1 : 14:58:47:692: Git push WAP push on peut mettre . 1
+14:59:000068:000068_2 : 14:58:59:252: Et toi . 2
+14:59:000069:000069_3 : 14:59:04:371: Ça a été assez duré . 3
+14:59:000070:000070_4 : 14:59:08:779: Plan stade du L World quand même temps . 4
+14:59:000071:000071_1 : 14:59:14:694: Envoie juste envoyer . 1
+14:59:000072:000072_2 : 14:59:19:810: Leclerc . 2
+14:59:000073:000073_3 : 14:59:27:921: Husky qui . 3
+14:59:000074:000074_4 : 14:59:32:064: Des fichiers après être . 4
+15:00:000075:000075_2 : 14:59:50:961: Ça peut être aussi . 2
+15:00:000076:000076_4 : 14:59:50:961: Un SMS au numéro voilà quand même beaucoup de possibilités . 4
+15:00:000077:000077_2 : 15:00:18:286: Amazigh jusqu'à . 2
+15:00:000078:000078_3 : 15:00:25:979: Route . 3
+15:00:000079:000079_4 : 15:00:33:128: Atypiquement centaines de 12h52 . 4
+15:00:000080:000080_1 : 15:00:39:502: Et il fait partie m'en approprié . 1
+15:01:000081:000081_2 : 15:00:48:627: Mettez . 2
+15:01:000082:000082_3 : 15:00:50:520: Périodique . 3
+15:01:000083:000083_1 : 15:01:00:816: Banque Postale banque en tout cas . 1
+15:01:000084:000084_2 : 15:01:03:938: Pressing du genre à . 2
+15:01:000085:000085_3 : 15:01:08:585: Vacances de chèque ou donc avant la fin de journée fin de semaine fin de mois que ce genre de processus est déclenchée . 3
+15:01:000086:000086_1 : 15:01:29:811: Active pour les banques il y a même pas de souci de temps doit être enceinte et Clément . 1
+15:01:000087:000087_3 : 15:01:43:450: Objet direct facile . 3
+15:02:000088:000088_4 : 15:01:46:568: Bien que . 4
+15:02:000089:000089_1 : 15:01:48:657: I'm . 1
+15:02:000090:000090_2 : 15:01:51:773: Donc le leader c'est clair c'est . 2
+15:02:000091:000091_4 : 15:02:05:248: Donc là à cette sortie en Bessin novembre 2014 donc c'était . 4
+15:02:000092:000092_1 : 15:02:15:369: Envoyez une vanne toute cette année-là . 1
+15:02:000093:000093_2 : 15:02:18:500: Comme comme ça tu sais pas si on va t'aller comme ça mais ça existait comment sait-on quand même depuis une dizaine d'années d'ailleurs il me semble que active mais c'est vraiment . 2
+15:02:000094:000094_3 : 15:02:33:120: Appelle Hamza . 3
+15:02:000095:000095_4 : 15:02:35:282: Et beaucoup de succès bien qu'il paraît . 4
+15:03:000096:000096_3 : 15:02:52:257: Bien sûr c'est là-bas . 3
+15:03:000097:000097_1 : 15:03:00:589: Typiquement les cassandre seriously . 1
+15:03:000098:000098_2 : 15:03:06:707: Lancer cocaina allô volet pour chaque fonction qui est critique man on va essayer quand même de utiliser les fonctions . 2
+15:03:000099:000099_3 : 15:03:19:836: Application est une . 3
+15:03:000100:000100_1 : 15:03:27:090: Fatim Tamara . 1
+15:03:000101:000101_2 : 15:03:33:213: ECOFAC donc le langage c porte lame de aujourd'hui . 2
+15:04:000102:000102_3 : 15:03:42:337: JavaScript node JS . 3
+15:04:000103:000103_4 : 15:03:45:716: Citez deux et toi mais toi sur java 8 . 4
+15:04:000104:000104_1 : 15:03:55:849: Et donc au dernier vivant Bizanos . 1
+15:04:000105:000105_3 : 15:04:06:119: Mise au travail donc . 3
+15:04:000106:000106_2 : 15:04:20:466: Go passer quand de cendres minimale . 2
+15:05:000107:000107_4 : 15:04:31:709: Amazon . 4
+15:05:000108:000108_1 : 15:04:37:843: Réveil à 7 espace . 1
+15:05:000109:000109_3 : 15:04:50:540: Norman . 3
+15:05:000110:000110_2 : 15:05:08:204: Portail . 2
+15:05:000111:000111_3 : 15:05:22:338: Au revoir quand même que quand même ou pas microsoft maison quand même expérience . 3
+15:06:000112:000112_1 : 15:06:00:405: Google Cloud . 1
+15:06:000113:000113_3 : 15:06:12:680: Un peu de canaliser . 3
+15:06:000114:000114_4 : 15:06:17:807: La pomme . 4
+15:06:000115:000115_1 : 15:06:20:931: Avec Axel n'empêche . 1
+15:06:000116:000116_3 : 15:06:27:048: Aïkido . 3
+15:06:000117:000117_4 : 15:06:32:181: Apk . 4
+15:07:000118:000118_1 : 15:06:37:120: PIB mal Foch ce qui différencie VM d3o c'est aussi la carte . 1
+15:07:000119:000119_2 : 15:06:50:796: C'est qui qui sont sur base au plus haut . 2
+15:07:000120:000120_3 : 15:06:56:890: Land . 3
+15:07:000121:000121_4 : 15:06:59:445: Coque iphone fini . 4
+15:07:000122:000122_2 : 15:07:13:774: Élancé Détroit . 2
+15:07:000123:000123_3 : 15:07:18:692: Et donc il se passe à ce langage . 3
+15:08:000124:000124_1 : 15:07:38:006: Avec qui . 1
+15:08:000125:000125_2 : 15:07:40:528: Et puis les candidats je suppose que l'intégration . 2
+15:08:000126:000126_3 : 15:07:46:780: Allez moi-même donc ils sont curieux . 3
+15:08:000127:000127_2 : 15:08:14:839: L'équipe . 2
+15:08:000128:000128_3 : 15:08:21:952: Et là on voit pas bien mais . 3
+15:08:000129:000129_4 : 15:08:30:784: Ouais c'est juste te parler dans les . 4
+15:08:000130:000130_1 : 15:08:37:890: SkyStar de la date . 1
+15:10:000131:000131_2 : 15:08:41:001: Meilleur dans tout ça toutes ces tâches lecture il y a pas mal de service ta maison je crois qu'il essaie . 2
+15:10:000132:000132_3 : 15:08:49:539: Lame de scie . 3
+15:11:000133:000133_4 : 15:10:50:065: Hello aussi qui se Jacques avec Madame quand même du Loch et . 4
+15:11:000134:000134_3 : 15:11:10:758: Liste Super . 3
+15:11:000135:000135_4 : 15:11:15:871: La liste . 4
+15:12:000136:000136_1 : 15:11:19:098: Température fait en temps de choisir sa vie et ils ont . 1
+15:12:000137:000137_2 : 15:11:27:359: Ou peut-être c'est aussi c'est plus simple façon on peut choisir le service Amazon . 2
+15:12:000138:000138_1 : 15:11:51:472: Yahoo à Saint-Cloud . 1
+15:12:000139:000139_2 : 15:11:59:349: Bar-sur-Seine . 2
+15:12:000140:000140_3 : 15:12:01:631: Je sais que ça existe pas assez j'ai dit que . 3
+15:12:000141:000141_1 : 15:12:11:473: Mettez . 1
+15:12:000142:000142_2 : 15:12:14:587: Une base commune de t'aime dans le . 2
+15:12:000143:000143_1 : 15:12:37:504: FIFA 16 . 1
+15:13:000144:000144_2 : 15:12:43:142: Arnaudies qui a fait intéressant . 2
+15:13:000145:000145_3 : 15:12:46:229: Appelle mais de déployer Amazon . 3
+15:13:000146:000146_1 : 15:13:29:257: Mets-moi . 1
+15:13:000147:000147_2 : 15:13:33:990: Ouvrez-la du temps . 2
+15:14:000148:000148_3 : 15:13:41:113: J'ai du mal à la fois je modifie ton . 3
+15:14:000149:000149_4 : 15:13:46:487: Donc . 4
+15:14:000150:000150_1 : 15:13:52:628: Rapidement . 1
+15:14:000151:000151_3 : 15:14:03:207: Faciliter le dépendant d'autres langage que ce . 3
+15:14:000152:000152_1 : 15:14:13:982: Lapin le supporter un aliment . 1
+15:14:000153:000153_2 : 15:14:21:100: Donc ça existe ça laisse tomber . 2
+15:14:000154:000154_3 : 15:14:30:400: Créer équipe aller de faire . 3
+15:15:000155:000155_4 : 15:15:08:074: Chalet . 4
+15:15:000156:000156_1 : 15:15:11:187: Juste pour aller danser . 1
+15:15:000157:000157_2 : 15:15:19:262: Zara aussi performant . 2
+15:16:000158:000158_3 : 15:15:30:384: Facilement je vais faire des mots rapides . 3
+15:16:000159:000159_1 : 15:15:48:317: Ah ok donc je suis dans . 1
+15:16:000160:000160_0 : 15:15:57:712:
+15:16:000161:000161_3 : 15:16:26:186: Plus simple n'existe pas à la base . 3
+15:16:000162:000162_4 : 15:16:34:016: Adobe Flash titre . 4
+15:16:000163:000163_2 : 15:16:43:300: Protection j'ai rien de plus . 2
+15:17:000164:000164_3 : 15:16:47:936: Créez je sais . 3
+15:17:000165:000165_4 : 15:16:50:366: Ça va déployer ça donc il y a deux façons de déplorer . 4
+15:17:000166:000166_1 : 15:16:56:529: Spécialiste local . 1
+15:17:000167:000167_4 : 15:17:12:911: Régiment hello je t'aurais Candice . 4
+15:17:000168:000168_1 : 15:17:18:066: Je teste comme l'autre que c'était . 1
+15:17:000169:000169_2 : 15:17:22:541: Installer le code GTA minuscule . 2
+15:17:000170:000170_3 : 15:17:27:794: Ok je peux aller . 3
+15:17:000171:000171_4 : 15:17:36:921: Juste pour montrer . 4
+15:18:000172:000172_1 : 15:17:46:042: Norma ça . 1
+15:18:000173:000173_3 : 15:17:53:824: Test . 3
+15:18:000174:000174_1 : 15:18:10:066: Mettez un but c'est justement shake . 1
+15:18:000175:000175_2 : 15:18:14:469: Mal au mic parce que j'ai fourni . 2
+15:18:000176:000176_4 : 15:18:24:153: Qualité . 4
+15:19:000177:000177_2 : 15:18:34:025: Peppa cherche rencontre je passerai d'entendre dessus . 2
+15:19:000178:000178_3 : 15:18:41:958: Donc il a déployé dans Amazon . 3
+15:19:000179:000179_1 : 15:18:57:289: Et donc je parle et ça directement . 1
+15:19:000180:000180_1 : 15:19:16:896: S'il vous plaît . 1
+15:19:000181:000181_2 : 15:19:21:228: Donc les patrons Beaufort . 2
+15:19:000182:000182_3 : 15:19:31:013: Plaque les choses devient . 3
+15:19:000183:000183_4 : 15:19:34:137: Envoyer un . 4
+15:20:000184:000184_2 : 15:19:42:366: Tant qu'il y a 7 ans de plate-forme qui sont ces explicitement pour qui venait . 2
+15:20:000185:000185_4 : 15:20:00:935: Venez de ta peau line . 4
+15:20:000186:000186_1 : 15:20:05:630: As-tu brise tbm . 1
+15:20:000187:000187_2 : 15:20:11:441: Programme . 2
+15:20:000188:000188_3 : 15:20:17:320: Nucléo qui aime plateforme . 3
+15:20:000189:000189_4 : 15:20:27:448: Vraiment . 4
+15:21:000190:000190_1 : 15:20:30:572: Éducation . 1
+15:21:000191:000191_2 : 15:20:34:689: C'est de l'eau . 2
+15:21:000192:000192_4 : 15:20:49:879: Je vais parler donc je couds a juste au cas alors open face . 4
+15:21:000193:000193_3 : 15:21:14:596: Surtout du bunker . 3
+15:21:000194:000194_1 : 15:21:27:533: Mango je vis de blocage . 1
+15:21:000195:000195_2 : 15:21:32:167: Bien pas de outside . 2
+15:22:000196:000196_3 : 15:21:40:225: Portail . 3
+15:22:000197:000197_4 : 15:21:43:369: Ariana . 4
+15:22:000198:000198_2 : 15:21:54:624: Au Brésil . 2
+15:22:000199:000199_3 : 15:22:02:521: Travail m'endormir près de ton cœur . 3
+15:22:000200:000200_4 : 15:22:07:999: C'est le plateforme peut-être le plus innovation ou jeudi . 4
+15:22:000201:000201_1 : 15:22:18:112: Pas de déploiement est-ce que je sache . 1
+15:22:000202:000202_2 : 15:22:22:680: Donc on verra donc . 2
+15:23:000203:000203_4 : 15:22:35:120: Regarde un film qui tombe sur la tête . 4
+15:23:000204:000204_1 : 15:22:41:231: C'est facile à démarrer ceci dit . 1
+15:23:000205:000205_3 : 15:22:57:716: Tuto que je loue mon windows . 3
+15:23:000206:000206_4 : 15:23:04:873: Comité . 4
+15:23:000207:000207_1 : 15:23:13:976: Blog post application créer sur . 1
+15:23:000208:000208_4 : 15:23:31:515: Livebox lac . 4
+15:24:000209:000209_4 : 15:23:55:260: Un dimanche c'est du découpage de vidéo en tram . 4
+15:24:000210:000210_1 : 15:24:02:072: Colonisation et puis reconstitution du vidéos de sécurisation d'images qui est fait en utilisant donc ces modèles déjà établi . 1
+15:24:000211:000211_4 : 15:24:35:796: Sinon . 4
+15:25:000212:000212_2 : 15:24:53:031: Des applications commun nslookup . 2
+15:25:000213:000213_4 : 15:24:57:153: Sur Toulouse surtout pas une map que je vais demanderai ici mais . 4
+15:25:000214:000214_1 : 15:25:05:278: Qui a quand même ça dans ma flexibilité . 1
+15:25:000215:000215_2 : 15:25:10:424: Ok donc je demande ce qu'une face . 2
+15:25:000216:000216_3 : 15:25:16:537: Alors je vais commencer juste en montrant que donc là je tourne de aussi un docker stop sur ma machine . 3
+15:25:000217:000217_1 : 15:25:33:585: Dentiste à Tom Jerry qui tourne . 1
+15:26:000218:000218_1 : 15:25:58:938: Ceci dit ah voilà si Julie problème avec le Gateway je suis pas du tout pourquoi . 1
+15:26:000219:000219_2 : 15:26:06:560: Ma fille très bien chez moi c'est toujours ça a mis en bois déjà là dans la sortie de . 2
+15:27:000220:000220_4 : 15:26:27:895: Ok donc . 4
+15:27:000221:000221_2 : 15:26:45:672: Entraîneur qui a service qui réalise chaque fonctionne qu'on va exploser là c'est plutôt des éléments du . 2
+15:28:000222:000222_3 : 15:27:50:940: Réveil montre . 3
+15:28:000223:000223_4 : 15:27:54:564: Porno maman je devrais pouvoir . 4
+15:28:000224:000224_1 : 15:28:00:911: Avocat . 1
+15:28:000225:000225_1 : 15:28:30:605: Recette . 1
+15:29:000226:000226_2 : 15:28:33:716: Donc les outils . 2
+15:29:000227:000227_3 : 15:28:38:797: Juste . 3
+15:29:000228:000228_4 : 15:28:42:162: Orange faire une vague à bien sûr je peux faire un casque . 4
+15:29:000229:000229_2 : 15:29:02:473: Crédit . 2
+15:30:000230:000230_3 : 15:29:06:607: ENI banque du . 3
+15:30:000231:000231_1 : 15:29:21:624: En fait . 1
+15:30:000232:000232_0 : 15:29:33:956: Envoie le résultat de polarité adeo. . 3
+15:30:000233:000233_3 : 15:30:05:636: Donc c'est juste pour montrer un peu la facilité de la femme . 3
+15:30:000234:000234_1 : 15:30:15:878: Ah oui non . 1
+15:30:000235:000235_3 : 15:30:32:005: Je peux faire aussi . 3
+15:31:000236:000236_4 : 15:30:45:107: Donc j'ai un petit ce que tu . 4
+15:31:000237:000237_1 : 15:30:50:675: Que j'ai . 1
+15:31:000238:000238_2 : 15:30:53:552: Donc j'ai ça c'est plus facile pour une fois si ça c'est plus facile pour toi si je suis une anglais JDG une image de stag sauf que . 2
+15:31:000239:000239_1 : 15:31:16:888: Juste python web server que j'utilise pour me slide donc j'apprends des choses que je vais faire c'est juste vérifier que je puisse accéder à sa . 1
+15:31:000240:000240_2 : 15:31:28:003: Il faut vérifier . 2
+15:32:000241:000241_3 : 15:31:31:122: Ah oui non il a tellement fait la quête ok donc j'ai pris du web . 3
+15:32:000242:000242_4 : 15:31:39:233: Il va faire un poste vers la fonction que as déjà fait . 4
+15:32:000243:000243_1 : 15:32:19:165: Comment on fait . 1
+15:32:000244:000244_2 : 15:32:22:203: Fameux synonyme négatif . 2
+15:32:000245:000245_3 : 15:32:26:311: Avoir quelque chose qui marchent façon correcte . 3
+15:33:000246:000246_4 : 15:32:31:141: Mais voilà je voulais surtout montrer la facilité de la plate-forme alors où j'ai un autre problème . 4
+15:33:000247:000247_1 : 15:32:42:254: Mais je vais vous montrer avec ma maman je devrais pouvoir baiser une application de déployer déployer veut dire . 1
+15:33:000248:000248_2 : 15:32:54:370: Des feuilles de menthe open face faire une poche dans carrément le mot que district . 2
+15:33:000249:000249_3 : 15:33:03:493: Redoute ah oui . 3
+15:33:000250:000250_4 : 15:33:07:623: Télécharger template the default language donc ça j'arrive pas à le tourner au moins depuis sociale mais je l'avais déjà occupé . 4
+15:33:000251:000251_1 : 15:33:20:739: À l'ensemble de langage que . 1
+15:33:000252:000252_2 : 15:33:23:583: Sécurité . 2
+15:34:000253:000253_4 : 15:33:31:802: Je vais montrer la template AXA folie pour Python 3 . 4
+15:34:000254:000254_3 : 15:33:59:256: Une femme aime pour bouteille à 7h donc c'est même pas la peine que je modifie la fonction mais je peux montrer le template folie déjà . 3
+15:34:000255:000255_4 : 15:34:09:999: Tout ce qu'il faut pour faire son propre fonction dans le langage choisi . 4
+15:35:000256:000256_3 : 15:34:38:637: Ok I'm . 3
+15:35:000257:000257_1 : 15:34:52:127: Installer d'autres applications ici mais bon ça changer . 1
+15:35:000258:000258_3 : 15:35:03:856: Donc . 3
+15:35:000259:000259_4 : 15:35:10:982: Voilà c'était une demande un peu limité . 4
+15:35:000260:000260_1 : 15:35:15:886: Donc enfants mais je dirai que c'est vrai ça reste toujours . 1
+15:35:000261:000261_2 : 15:35:24:369: Technologie assez jeune . 2
+15:35:000262:000262_1 : 15:35:35:920: Mais il peut pas . 1
+15:36:000263:000263_3 : 15:35:48:175: Réduction poussette à combien d'autres exemples de mauvais sur . 3
+15:36:000264:000264_4 : 15:35:55:945: Afin de voir c'est quand même tous les clubs de 6 mètres il y a quand même . 4
+15:36:000265:000265_1 : 15:36:04:059: The framework aucune force acier abouti donc c'est comme ça va être vraiment vraiment important Ayadi vrai possibilité de réduction de coûts de texte de CAPEX OPEX parce que voilà . 1
+15:37:000266:000266_3 : 15:36:27:734: Je dirais juste une chose de plus et que donc ça rime anciens Ikea Walking tu . 3
+15:37:000267:000267_0 : 15:36:37:852: Il y a beaucoup d'implantation sablée
+15:37:000268:000268_1 : 15:36:45:962: Ils ont pas forcément les mêmes définition de type de vêtements ce genre de choses et donc c'est si bien que le CFC la dent et j'attends boire comment ça avance . 1
+15:37:000269:000269_2 : 15:36:59:087: Voilà je m'arrête là désolé que le démonter un peu limité . 2
+15:37:000271:000271_2 : 15:37:21:047: Oui la question était est-ce que j'ai essayé l'outil service à . 2
+15:38:000272:000272_3 : 15:37:29:309: Papa d'animaux ça je dis rien si moi quelque chose comme ça et j'arrive juste essayer avec lamda où ça marche très bien et j'avais aussi essayer avec azur en fait . 3
+15:38:000273:000273_4 : 15:37:44:414: Quel projet sur Github sais plus si c'est celle de sa faiblesse quelque chose comme ça . 4
+15:47:000274:000274_2 : 15:38:08:667: Mais déjà si il y a une centaine de plugin c'est que il y a quand même beaucoup le monde des . 2
+
+
+
+Watchghost : surveillance asynchrone de serveurs Arthur Vuillard & Sam
+
+
+15:47:000275:000275_1 : 15:38:29:382: Ok merci beaucoup . 1
+15:48:000276:000276_3 : 15:47:25:455: On va commencer par se présenter donc je m'appelle Arthur Vuillard je travaille dans une entreprise qui s'appelle HashBang qui fait essentiellement développement web sur mesure donc par ailleurs il faut qu'on héberge certains des services qu'on développe et c'est pour ça qu'on a besoin d'un outil de monitoring. 3
+15:48:000277:000277_4 : 15:47:45:022: Zone . 4
+15:48:000278:000278_1 : 15:47:48:168: Donc . 1
+15:48:000279:000279_3 : 15:48:01:510: Donc on va vous parler de WatchGhost, vous expliquer un petit peu pourquoi WatchGhost, pourquoi est-ce qu on a eu besoin . 3
+15:48:000280:000280_4 : 15:48:14:492: On vous parlera des fonctionnalités puis ensuite l'installation la configuration on parlera un peu technique, si on a le temps faire une démo et puis vous part de la suite de ce projet . 4
+15:48:000281:000281_1 : 15:48:27:627: Commençons par WatchGhost qui est issu d'un collectif d'entreprise lyonnaise donc à la fois je m'en font partie collectif donc c'est le collectif s'appelle local Ghost chat Nrj en fait . 1
+15:49:000282:000282_2 : 15:48:44:759: Bidon parce que du coup on était plusieurs d'entreprise de . 2
+15:49:000283:000283_3 : 15:48:51:192: Maman qui font qui font de l'hébergement . 3
+15:49:000284:000284_4 : 15:48:58:298: Et du coup . 4
+15:49:000285:000285_3 : 15:48:59:298: Collectif le cargo c'était déjà y a . 3
+15:50:000286:000286_2 : 15:48:58:298: Chez Kozea c'était Nagios, chez . 2
+15:50:000287:000287_3 : 15:50:02:015: Shinken et les deux en fait font preuve d'une complexité d'un installation et configuration . 3
+15:50:000288:000288_1 : 15:50:03:015: Et puis on a aussi Qui nous semblait un petit peu bizarre vu nos échelle dans le dans le dans la supervision dans le monitoring . 1
+15:50:000289:000289_2 : 15:50:22:551: Et puis donc le côté sans agent c'était pour ne pas avoir à installer quelque chose encore en plus sur les serveurs et puis éviter éviter la complexité d'installation donc je disais c'est vraiment d'avoir . 2
+15:51:000290:000290_3 : 15:50:35:490: Simple basique et qui répondre à ce beau . 3
+15:51:000291:000291_4 : 15:50:40:759: Donc en terme de fonctionnalités voilà ce qu'on a défini dès le départ donc si décès tester le fonctionnement d'un service réseau . 4
+15:51:000292:000292_1 : 15:50:48:874: Et surtout le bon fonctionnement d'être alerté quand il y a quelque chose qui se passe mal ou quand y a quelque chose qui redevient dans le bon état . 1
+15:51:000293:000293_2 : 15:50:59:476: On voulait aussi avoir une une console Web un petit peu moderne qui se mette à jour en temps réel . 2
+15:51:000294:000294_3 : 15:51:08:427: Donc voilà la console Web . 3
+15:52:000295:000295_3 : 15:51:38:090: Efficace . 3
+15:52:000296:000296_4 : 15:51:49:192: Merci . 4
+15:52:000297:000297_1 : 15:51:54:312: D'avoir un framework assez léger on va pouvoir utiliser la saison bloquant au niveau des qu'on va effectuer . 1
+15:52:000298:000298_2 : 15:52:02:427: On a la partie WebSocket . 2
+15:52:000299:000299_3 : 15:52:05:445: On utilise également asyncio qui est dans la librairie standard Python et enfin on utilise également d'autres librairie FTP et tu as un caillou . 3
+15:52:000300:000300_4 : 15:52:17:574: Serveur . 4
+15:52:000301:000301_1 : 15:52:21:719: Le paquet est dispo sur PyPI, install classique légalement disponible pour pour arc Linux et pour lancer pour lancer . 1
+15:53:000302:000302_2 : 15:52:34:509: Le pré Talence . 2
+15:53:000303:000303_0 : 15:52:38:445: L'édition aussi de la configuration pour pouvoir et intégrer les différents serveurs pour surveiller et les différentes actions et services qu'on va faire et ensuite on le lance la console dans un navigateur. Au niveau de la configuration . 3
+15:53:000304:000304_4 : 15:52:54:579: Les 4 types d'objets qu'on va mettre en place donc on va voir les serveurs et savoir qui voit une groupé . 4
+15:53:000305:000305_1 : 15:53:04:576: Je me permets . 1
+15:53:000306:000306_2 : 15:53:07:443: Aller . 2
+15:53:000307:000307_3 : 15:53:09:619: Le premier fichier : là on a le serveur tu vas être identifié par un nom qui est son identifiant unique pour qu'elle ait une IP à son IPv4 et IPvV6 si elle est disponible un exemple avec . 3
+15:54:000308:000308_4 : 15:53:29:318: Ensuite les regrouper . 4
+15:54:000309:000309_0 : 15:53:42:577: Et ensuite on va configurer les Watchers. Donc les watchers qui sont responsables d'une action de surveillance on peut les donc l'appliquer sur un serveur en particulier fois un groupe . 2
+15:55:000310:000310_3 : 15:54:35:133: L'évêché à vendre monter une . 3
+15:55:000311:000311_4 : 15:54:41:009: Donc on peut définir un certain nombre d'essais avant de remonter une alerte . 4
+15:55:000312:000312_2 : 15:54:56:946: Donc on a par défaut la console de WatchGhost . 2
+15:56:000313:000313_0 : 15:55:03:378: Qui n'a pas réussi, mais on peut aussi paramétrer l'envoi de SMS ou l'envoi d'e-mails lorsque il y a une alerte à remonter. Là je vais laisser la parole à Arthur. 3
+15:56:000314:000314_4 : 15:55:46:306: Comment . 4
+15:57:000315:000315_4 : 15:56:04:295: Tout s'installe . 4
+15:57:000316:000316_4 : 15:57:04:904: On a aussi la possibilité de voir assez rapidement que ben là le service s'il il est passer du rouge au vert ça c'est vraiment quasiment en temps réel et donc quand on 600 particulier . 4
+15:57:000317:000317_1 : 15:57:25:034: Tous les ans . 1
+15:57:000318:000318_2 : 15:57:28:161: Tous les tous les détails toutes les infos sur . 2
+15:57:000319:000319_3 : 15:57:33:669: Qu'est-ce qui se passe qu'est-ce qu'on a comme résultat . 3
+15:58:000320:000320_1 : 15:57:40:641: De la même manière pour le ping aura des infos un petit peu différentes parce que du coup on utilise la commande ping pour réaliser cette chat qui . 1
+15:58:000321:000321_2 : 15:57:51:788: Là j'ai configurer un nom de domaine qui n'existe pas et donc . 2
+15:59:000322:000322_3 : 15:57:59:920: Il me dit que le certificat n'est pas valide . 3
+15:59:000323:000323_4 : 15:58:04:054:  pour ce nom de domaine. 4
+15:59:000324:000324_1 : 15:58:07:293: Et donc si j'arrête à nouveau mon serveur ça passe très rapidement au rouge . 1
+15:59:000325:000325_2 : 15:58:52:640: Donc en ce qui concerne la suite du projet donc . 2
+15:59:000326:000326_4 : 15:59:08:377: notamment . 4
+15:59:000327:000327_1 : 15:59:12:355: Une console en vue JS donc je les ai déjà celle que je vous ai présentée à l'instant . 1
+15:59:000328:000328_2 : 15:59:21:486: Consultez actuellement disponible avec le projet est un petit peu plus . 2
+16:00:000329:000329_2 : 15:59:43:005: C'est du code qui a été fait par des gens qui apprenez l'asynchrone aussi et puis avec . 2
+16:00:000330:000330_3 : 15:59:50:773: Par un petit peu de complexité inutile donc on va essayer de simplifier un petit peu ça . 3
+16:00:000331:000331_4 : 15:59:56:873: Et puis on va essayer de changer quelques quelques termes qui nous plaisent pas trop . 4
+16:00:000332:000332_1 : 16:00:04:191: Ensuite WatchGhost fait partie en fait d'un ensemble d'outils qui sont en cours de développement dont la de qui s'appelle le brocante l'objectif fournir une interface qui va pouvoir nous permet de . 1
+16:00:000333:000333_2 : 16:00:19:687: Plusieurs . 2
+16:00:000334:000334_3 : 16:00:21:551: Photos de . 3
+16:01:000335:000335_4 : 16:00:24:660: Passer de définir la faire face qu'on pourrait mettre en place pour qu'elle soit utilisable aussi par des non-techniques . 4
+16:01:000336:000336_1 : 16:00:33:510: Et toujours justement un des points qui me permettrait de mettre en place aussi cette interface ce serait de d'implémenter une database timeserie tu as une série donc d'écrire longueur qui va nous permettre spotted historiser tous et à toutes les mesures pour pouvoir justement les afficher . 1
+16:01:000337:000337_3 : 16:01:01:774: Je crois qu'on a fait le tour voilà merci . 3
+16:02:000338:000338_3 : 16:01:02:774: Donc . 3
+16:02:000339:000339_4 : 16:01:41:615: En fait on l'utilise sans être trop taquin. 4
+16:02:000340:000340_1 : 16:01:46:450: avec les services à dire que je pense moi les plus fréquents je l'ai fait toutes les minutes parce que en fait j'ai pas besoin de . 1
+16:02:000341:000341_2 : 16:01:57:475: Toujours sur la démo le chèque il était tout les deux . 2
+16:02:000342:000342_0 : 16:01:58:475: L check
+16:02:000343:000343_4 : 16:02:07:721: Je pense que c'est juste quelques requête . 4
+16:02:000344:000344_1 : 16:02:13:291: Ça reste quand même assez léger après effectivement moi j'ai quelques checks qui passent par SSH qui sont un peu lourds du coup il faut effectivement pas faire n'importe quoi . 1
+16:02:000345:000345_2 : 16:02:26:899: Quand on fait des efficace . 2
+16:03:000346:000346_4 : 16:02:38:289: Alors la question c'est est-ce qu'on utilise test infra . 4
+16:03:000347:000347_1 : 16:02:43:407: J'ai vaguement connaissance du projet mais non je l'ai pas utilisé . 1
+16:03:000348:000348_2 : 16:02:48:361: Samira ne connaît pas non plus . 2
+16:03:000349:000349_3 : 16:02:54:476: Il faudrait un service de monitoring pour surveiller en fait . 3
+16:03:000350:000350_4 : 16:03:08:599: J'ai un onglet en permanence dessus dans mon navigateur . 4
+16:03:000351:000351_2 : 16:03:17:783: On s'est dit que c'était trop méta et qu'on n'en n'avez pas besoin . 2
+16:03:000352:000352_0 : 16:03:18:783: Avait
+16:03:000353:000353_3 : 16:03:23:269: Ouais . 3
+16:04:000354:000354_4 : 16:03:31:388: Alors non . 4
+16:04:000355:000355_1 : 16:03:39:521: Ah oui répéter la question donc la question c'était un des intérêts de Shinken et de faire du monitoring décentralisée et est-ce qu'on a prévu ça dans la route . 1
+16:05:000356:000356_2 : 16:03:51:637: On a pas prévu ça dans la roadmap parce que en fait nous notre besoins correspond pas à ça et notre envie c'est de rester très simple de fait le si on commence à décentraliser ça va rendre le projet beaucoup plus compliqué . 2
+16:05:000357:000357_0 : 16:04:35:484: Donc la question c'est : 2
+16:05:000358:000358_3 : 16:04:45:603: Dans le système de d'alerte est-ce qu'on a prévu des cas où des cas un peu plus intelligent que juste binaire ça marche ça marche pas donc la réponse est non on n'a pas trop prévu ça car bah c'est pareil ça va complexifier beaucoup beaucoup le projet, ça correspond pas du tout au besoin c'est vraiment . 3
+16:06:000359:000359_4 : 16:05:14:717: De de de faire quelque chose de simple à faire facilement rapidement configurable châtiment et d'éviter d'avoir des notions trop complexe c'est vraiment . 4
+16:06:000360:000360_1 : 16:05:28:689: C'est de mettre un pied dans le monde du monitoring . 1
+16:06:000361:000361_4 : 16:05:58:238: La question c'était : est-ce qu'il y avait par exemple un mécanisme pour intégrer des plugins tel que ioredis c'est ça . 4
+16:06:000362:000362_1 : 16:06:15:705: Pour l'instant on n'a pas prévu de système de plugin serait intéressant pourquoi pas . 1
+16:06:000363:000363_2 : 16:06:23:840: TPC s'acheter qu'on utilise et mes . 2
+16:06:000364:000364_3 : 16:06:29:459: Après tout en restant si possible en quelque chose d'assez . 3
+16:12:000365:000365_4 : 16:06:35:320: Ajouter . 4
+16:12:000366:000366_1 : 16:06:39:454: Mais . 1
+16:12:000367:000367_2 : 16:06:43:576: Merci . 2
+16:15:000368:000368_3 : 16:12:31:614: Comme ça . 3
+16:16:000369:000369_4 : 16:12:37:733: S'il collègue il veut prendre la parole . 4
+16:16:000370:000370_1 : 16:12:42:113: Ouais je sais pas si elle est question séance il faudra se passer . 1
+16:16:000371:000371_3 : 16:15:48:867: Ah tu vois c'est pour rire . 3
+16:16:000372:000372_1 : 16:16:07:236: Full streaming . 1
+16:16:000373:000373_3 : 16:16:20:266: 1920 par 1080 . 3
+16:17:000374:000374_1 : 16:16:29:030: Lycée l'interface web . 1
+16:17:000375:000375_2 : 16:16:32:130: Le faire comme ça . 2
+16:17:000376:000376_2 : 16:17:24:730: Ce sont . 2
+16:18:000377:000377_3 : 16:17:28:893: Tu n'as pas trop chaud . 3
+16:18:000378:000378_4 : 16:17:34:196: Changer le fond peut-être . 4
+16:18:000379:000379_2 : 16:17:47:097: Bien si tu veux quand c'est mieux . 2
+16:18:000380:000380_3 : 16:18:26:037: Profil du creep . 3
+16:19:000381:000381_2 : 16:18:44:923: Envoie des choses à . 2
+16:19:000382:000382_4 : 16:18:53:947: Sissi pour moi je dis que faire mainte0t . 4
+16:19:000383:000383_2 : 16:19:09:660: Non il n'a pas pris en compte . 2
+16:19:000384:000384_3 : 16:19:13:449: Ah c'est bien ça . 3
+16:19:000385:000385_4 : 16:19:18:554: Si je reprends un nouveau profil . 4
+
+
+OpenSVC: Orchestration de stacks applicatives, avec ou sans containers Christophe Varoqui
+
+
+16:31:000389:000389_3 : 16:28:37:164: Si ça y est . 3
+16:36:000390:000390_2 : 16:30:18:567: C'est bien . 2
+16:36:000391:000391_4 : 16:31:01:061: Rajouter des légendes . 4
+16:36:000392:000392_4 : 16:36:14:536: Récession nous allons discuter de poney c c . 4
+16:36:000393:000393_3 : 16:36:31:166: Michel progr 2000 . 3
+16:37:000394:000394_4 : 16:36:34:627: Attends je suis fière nous verrons et je m'occupe . 4
+16:37:000395:000395_2 : 16:36:39:754: Dimension . 2
+16:37:000396:000396_3 : 16:36:43:868: Notre notre session va s'articuler en 2e phase une petite dizaine de slide ans assez rapide et ensuite on passe sur une une partie de démo s'en va suivant screencast impôts . 3
+16:37:000397:000397_1 : 16:37:06:759: Lancer la solution open SBC qu'est-ce que c'est . 1
+16:37:000398:000398_2 : 16:37:14:884: Doudou composants principaux on a d'une parce qu'on va appeler l'agence . 2
+16:37:000399:000399_4 : 16:37:28:569: Et on a d'autres parents une partie collector qui est un . 4
+16:37:000400:000400_1 : 16:37:35:175: Centraliser portail . 1
+16:37:000401:000401_3 : 16:37:43:874: Partie agent . 3
+16:38:000402:000402_4 : 16:37:46:707: Un socle une boîte à outils qui va nous permettre de modéliser . 4
+16:38:000403:000403_1 : 16:37:53:722: Envoyer sur une infrastructure . 1
+16:38:000404:000404_2 : 16:37:57:832: Quel que soit le modèle d'intégration qui est du conteneur qui en est par . 2
+16:38:000405:000405_3 : 16:38:04:433: C'est vraiment assez assez souple et très ouvert pour s'adapter aux besoins de chacun . 3
+16:38:000406:000406_4 : 16:38:11:338: Masquer . 4
+16:38:000407:000407_3 : 16:38:39:494: Donc ils vont être amené à implémenter . 3
+16:39:000408:000408_4 : 16:38:46:554: Agence . 4
+16:39:000409:000409_0 : 16:38:51:668: Daudet. . 1
+16:39:000410:000410_2 : 16:38:54:178: Appeler le service . 2
+16:39:000411:000411_4 : 16:39:07:047: Je te rapporter . 4
+16:39:000412:000412_2 : 16:39:15:595: DK derrière ce collecteur . 2
+16:39:000413:000413_3 : 16:39:19:696: Global . 3
+16:39:000414:000414_4 : 16:39:21:806: Et des fonctions qui sont servi sur une infrastructure informatique . 4
+16:39:000415:000415_1 : 16:39:28:215: Se connecter en c c install MariaDB avec du web toupie avec du riz 10 avec Jean x et aujourd'hui on a fait une chouette implémentation full docker . 1
+16:40:000416:000416_2 : 16:39:42:941: Agrégé toutes les informations en prove0ce des agents qui sont déployés sur . 2
+16:40:000417:000417_3 : 16:39:48:210: Il apporte un certain nombre de fonctionnalités de filtrage d'audit sur les actions qu'on a été menée sur les herbiers . 3
+16:40:000418:000418_4 : 16:39:57:091: Faire des analyses sur ce qui s'est passé sur la production . 4
+16:40:000419:000419_1 : 16:40:01:961: 06 de point central pour distribuer tout ce qui est . 1
+16:40:000420:000420_2 : 16:40:07:663: Il propose aussi . 2
+16:40:000421:000421_4 : 16:40:23:811: Appeler monter dans le lecteur . 4
+16:40:000422:000422_1 : 16:40:28:446: Voilà pour la vue globale . 1
+16:40:000423:000423_2 : 16:40:29:446: En détail . 2
+16:40:000424:000424_3 : 16:40:36:306: Leclerc de ce que ça fait comment ça marche . 3
+16:41:000425:000425_4 : 16:40:40:225: Faut qu'on a bientôt 10 ans d'existence dans la structure nos produits et open source et on maintient . 4
+16:41:000426:000426_1 : 16:40:49:095: Idé python 2 et Python 3 . 1
+16:41:000427:000427_2 : 16:40:53:197: Il y a des raisons pour ça c'est bien sûr l'âge du projet qui commence à être . 2
+16:41:000428:000428_3 : 16:40:59:302: Disant ça commence à être sérieux il y a une autre vraie raison c'est que les clients à qui on s'adresse c'est . 3
+16:41:000429:000429_4 : 16:41:08:428: J'ai des grands comptes qui ont des cycles de vie en terme de l'Opéra Team System qui sont très long . 4
+16:41:000430:000430_1 : 16:41:15:563: La vieille distribuer unique qui sont encore en service aujourd'hui et pour lesquels nous on . 1
+16:41:000431:000431_2 : 16:41:23:191: Maintenir notre vie opérationnelle sur ces solutions . 2
+16:41:000432:000432_3 : 16:41:27:709: On est obligé de couvrir un spectre aussi l'argent . 3
+16:42:000433:000433_1 : 16:41:37:682: Plaque email et téléphone . 1
+16:42:000434:000434_2 : 16:41:43:342: Site URL slack si vous voulez nous rejoindre si vous avez envie d'en savoir davantage sur . 2
+16:42:000435:000435_3 : 16:41:51:442: Avec grand plaisir . 3
+16:42:000436:000436_4 : 16:41:55:243: Manon comment . 4
+16:42:000437:000437_1 : 16:42:01:346: Se former . 1
+16:42:000438:000438_2 : 16:42:03:099: Créez de l'ambition se lâcher les différents clients emmènent avec eux cet outil et nous font connaître . 2
+16:42:000439:000439_3 : 16:42:12:239: Donc le le le spectre couverture fonctionnelle dirait du produit de la jeunesse et . 3
+16:42:000440:000440_4 : 16:42:23:770: Bousquet Technomedia Legacy traditionnelle historique . 4
+16:42:000441:000441_1 : 16:42:31:332: L'implémentation de . 1
+16:42:000442:000442_2 : 16:42:36:082: One base de données . 2
+16:43:000443:000443_4 : 16:42:47:994: Chaussures opensvc . 4
+16:43:000444:000444_1 : 16:42:51:101: Le service en terme de Thau Pôle . 1
+16:43:000445:000445_2 : 16:42:56:587: Donc c'est le reste à l'agence sur un serveur et on va faire un petit service . 2
+16:43:000446:000446_3 : 16:43:04:916: Beyoncé Sabazan Cesson on s'envoie . 3
+16:43:000447:000447_4 : 16:43:08:271: Une alternative viable et sympathique système D . 4
+16:43:000448:000448_1 : 16:43:13:943: Vous avez eu quelques difficultés système bcc plutôt sympa de décès . 1
+16:43:000449:000449_2 : 16:43:23:491: Tonnelle . 2
+16:43:000450:000450_3 : 16:43:26:281: On a aussi d'autres types de topologie service quand on vient rajouter des ne a des clusters . 3
+16:44:000451:000451_4 : 16:43:33:638: Continue avec des services qui bascule avec des topologie lover non actif passif ou des topologie active active . 4
+16:44:000452:000452_1 : 16:43:42:353: On a encore des services de type quelle heure ce qu'on appelle à quelle heure donc il va capable de grandir en terme de nombre d'instance . 1
+16:44:000453:000453_2 : 16:43:53:424: La Houssoye la baisse ou manuellement bien entendu . 2
+16:44:000454:000454_3 : 16:43:58:275: Lancer service . 3
+16:44:000455:000455_4 : 16:44:01:382: On va . 4
+16:44:000456:000456_1 : 16:44:06:507: Groupe et un certain nombre de ressources . 1
+16:44:000457:000457_2 : 16:44:10:343: La liste exhaustive qui a besoin pour que l'application fonctionne la STAC fonctionne . 2
+16:46:000459:000459_3 : 16:44:15:992: Ep 10 volumes groupe DL system des lanceurs applicative . 3
+16:47:000460:000460_4 : 16:44:16:992: Fleur de la mobilité de service on prend en considération tout les problématiques qui peut y avoir lors des incidents . 4
+16:47:000461:000461_1 : 16:46:56:495: Les fonctionnalités de . 1
+16:47:000462:000462_2 : 16:46:59:415: Anne qu'on appelle des arbitrator chez nous on a different types de arbitres pour monitorer échanger des états des services entre les deux . 2
+16:47:000463:000463_3 : 16:47:10:831: Des algorithmes . 3
+16:47:000464:000464_1 : 16:47:19:976: De perte de réseau des pertes de disque . 1
+16:48:000465:000465_3 : 16:47:32:048: Lancer . 3
+16:48:000466:000466_2 : 16:47:58:024: Téléphone . 2
+16:48:000467:000467_4 : 16:48:09:064: On a des mon nom sur la machine on vient lui soumettre des actions et on a synchrone ça va être le balajan qui qui effectue les actions . 4
+16:48:000468:000468_2 : 16:48:25:917: Matériaux technologie moderne à l'intégration de tout ce qui est techno de containerisation . 2
+16:48:000469:000469_4 : 16:48:37:978: Fleur de type zone Solaris des choses comme ça . 4
+16:49:000470:000470_4 : 16:48:56:999: Docker . 4
+16:49:000471:000471_1 : 16:49:00:189: On a des fonctionnalités de gestion de registre ebooker aussi intégrer dans le collecteur . 1
+16:49:000472:000472_2 : 16:49:06:303: T-shirt ce qui est pas pris en standard chez le docteur dans le sens où . 2
+16:49:000473:000473_3 : 16:49:11:673: En tous ces choses-là ont été intégré dans le collecteur . 3
+16:49:000474:000474_4 : 16:49:17:760: On a aussi vous allez voir dans dans la démonstration solution à proposer sur tout ce qui est réseau Internet parce qu'on étale de . 4
+16:49:000475:000475_1 : 16:49:29:628: Moi me reposer et détruire des containers . 1
+16:50:000476:000476_1 : 16:49:50:026: Conteneur pour qu'il puisse discuter entre dans le . 1
+16:50:000477:000477_1 : 16:49:59:282: La finalité c'est quand même que des clients puissent venir se connecter à notre service . 1
+16:50:000478:000478_2 : 16:50:04:222: Gâteau . 2
+16:50:000479:000479_3 : 16:50:10:348: Une ip publique et route et les connexions des clients externe vers les services de notaire . 3
+16:50:000480:000480_4 : 16:50:16:898: Notion si de méta service qui permettent de décrire des complexes avec dépendance entre démarrage de service . 4
+16:50:000481:000481_1 : 16:50:25:354: Voilà pour la théorie donc un petit un petit message . 1
+16:51:000482:000482_2 : 16:50:31:386: Ça peut intéresser . 2
+16:51:000483:000483_3 : 16:50:35:490: N'hésitez pas à nous contacter . 3
+16:51:000484:000484_3 : 16:51:00:539: Désolé pour les couleurs on a dû jouer un petit peu avec les . 3
+16:51:000485:000485_1 : 16:51:12:377: Alors le ce que vous voyez à l'écran . 1
+16:51:000486:000486_2 : 16:51:18:368: MX speed . 2
+16:51:000487:000487_3 : 16:51:21:372: Qui droite on va voir . 3
+16:51:000488:000488_1 : 16:51:26:597: HL sous la main voilà envoie une . 1
+16:51:000489:000489_2 : 16:51:32:721: De commande qui vont être passé avec des commentaires . 2
+16:52:000490:000490_3 : 16:51:38:081: Sur la partie gauche en haut à gauche on va avoir la commande service monitor donc une commande opensvc qui permet d'avoir . 3
+16:52:000491:000491_4 : 16:51:49:562: Global de de son cluster en terme de fonctionne . 4
+16:52:000492:000492_2 : 16:52:12:669: La zone qui est en bas à gauche on en parlera un stade à peux plus avancer dans la démo . 2
+16:52:000493:000493_3 : 16:52:22:357: Alors mon livre l'agent opensvc un sous forme de package pour différents différents os on a repository public qui est dispo pour ça . 3
+16:52:000494:000494_4 : 16:52:34:073: Install a droit tension . 4
+16:52:000495:000495_1 : 16:52:37:562: Système qui s'appelle note tiret 13-1 . 1
+16:53:000496:000496_2 : 16:52:41:917: Appeler mon ange . 2
+16:53:000497:000497_4 : 16:52:51:793: Qu'est-ce qu'on peut voir sur cette partie en haut à gauche on voit pour l'instant les Red . 4
+16:53:000498:000498_3 : 16:53:07:290: On est réellement sur un cluster stand alone insomnie . 3
+16:53:000499:000499_1 : 16:53:22:237: Différents services . 1
+16:54:000500:000500_4 : 16:53:33:860: Euromillion . 4
+16:54:000501:000501_1 : 16:53:35:934: Des notions de scoring donc ça ça va nous servir lorsqu'on est dans sur des typologies de service où on a besoin de savoir où démarrer un service de manière optimale . 1
+16:54:000502:000502_2 : 16:53:48:050: On va pouvoir des scores parle au sein du cluster pour dire bass only les plus appropriés pour démarrer mon service que cet automne . 2
+16:54:000503:000503_3 : 16:53:57:467: Un petit peu vide à gauche on a . 3
+16:54:000504:000504_1 : 16:54:06:538: On a passé la commande GSM j'ai donc Service Manager le nom du service et créez . 1
+16:54:000505:000505_2 : 16:54:14:673: Dentiste ensemble de commande avec avec ses services . 2
+16:54:000506:000506_3 : 16:54:24:122: La plupart des commandes supporter output informatique . 3
+16:54:000507:000507_4 : 16:54:33:222: La manière élégante avec . 4
+16:55:000508:000508_1 : 16:54:37:667: On a enfin une commande qui s'appelle une status . 1
+16:55:000509:000509_0 : 16:54:46:523: Statue saint sur le service SVC à combien degrés et qui est un petit peu vie d'un commis a aucune ressource de danser. . 2
+16:55:000510:000510_3 : 16:54:53:554: Une coquille vide sans intérêt réel . 3
+16:55:000511:000511_2 : 16:55:10:021: Dont le rôle va être de l'ancien interpreteur Python 3 . 2
+16:55:000512:000512_3 : 16:55:14:897: Le module HTTP Server et donc écouté sur le port . 3
+16:55:000513:000513_4 : 16:55:20:021: Pour la modification d'un fichier d'une fiche service ça peut se faire de cette manière-là mais ça peut se faire . 4
+16:55:000514:000514_1 : 16:55:25:766: Mail avec un éditeur . 1
+16:55:000515:000515_2 : 16:55:28:474: J'ai besoin de la démo qu'on fait tout en ligne de commande . 2
+16:55:000516:000516_4 : 16:55:36:430: Configurer le service et pour le moment . 4
+16:56:000517:000517_1 : 16:55:44:548: Prise de sang . 1
+16:56:000518:000518_2 : 16:55:47:278: Mondial agenda voilà service maman les Presles démarrer . 2
+16:56:000519:000519_3 : 16:55:53:854: Pour la . 3
+16:56:000520:000520_1 : 16:56:04:565: Alors il est toujours dans le parce que on a pas spécifié dans nos services que il devait être démarré de manière automatique donc c'est tout à fait normal c'est un comportement attendu . 1
+16:56:000521:000521_2 : 16:56:16:688: Affiche simple c'est pour ça que l'on vient de démarrer manuellement notre notre source applicative . 2
+16:57:000522:000522_1 : 16:56:44:557: Commande restart qu'il avait enchaîner un stop insta . 1
+16:57:000523:000523_2 : 16:56:50:671: Omar qui constate l'État déjà stopper donc il ne fait pas le stop et il redémarre l'application . 2
+16:57:000524:000524_3 : 16:56:58:336: Envoie . 3
+16:57:000525:000525_4 : 16:57:03:146: Gauche note service Keops donc le grand o majuscule vert indique voilà je suis ope sur le 13 tirer un . 4
+16:57:000526:000526_1 : 16:57:13:894: Viendra sur l'utilité du petit du petit chapeau un petit peu plus tard . 1
+16:57:000527:000527_2 : 16:57:19:913: On a fait un prince status sur notre notre service on voit que l'affichage c'est un petit peu enrichi . 2
+16:57:000528:000528_3 : 16:57:26:536: On a pas ressources donc là il faut qu'on en a qu'une seule à l'état de cette ressource . 3
+16:58:000529:000529_2 : 16:57:46:946: La même chose au format JSON toujours pour . 2
+16:58:000530:000530_3 : 16:57:51:994: Capable de passer sa facilement . 3
+16:58:000531:000531_4 : 16:57:55:140: Ça tu donnes est le prix une config au format season . 4
+16:58:000532:000532_2 : 16:58:29:333: Enfin pour terminer on vient faire une petite request request sur notre serveur Web et on constate une serre des fichiers pour que ça fonctionne telle que celle que c'est censé . 2
+16:59:000533:000533_1 : 16:58:51:611: Voilà c'est ce qui s'appelle notre 13-2 sur la BM . 1
+16:59:000534:000534_2 : 16:59:01:073: Bien déclaré . 2
+16:59:000535:000535_3 : 16:59:09:131: Ni plus ni moins qu'un canal de communication qui va servir à échanger des états de service entre les deux . 3
+16:59:000536:000536_1 : 16:59:27:737: Enfin on revient chercher sur le ne 13-1 le secret . 1
+17:00:000537:000537_3 : 16:59:40:938: Commission on a récupéré le secret sur le nos deux on fait un Damon d'urine avec le secret et on précis de serveur sur lequel on peut se connecter . 3
+17:00:000538:000538_4 : 16:59:53:556: À gauche . 4
+17:00:000539:000539_3 : 17:00:11:438: Il s'est passé des choses . 3
+17:00:000540:000540_4 : 17:00:19:132: Plan viens de dire en fait . 4
+17:00:000541:000541_1 : 17:00:22:253: Le service un sur ma peau non plus connus que d'une un nœud 13 ans mais aussi de l'autre . 1
+17:00:000542:000542_2 : 17:00:30:699: Composition d'un paramètre en lui disant bah je veux que le service puisse être démarré surtout les nodules Store avec une référence à Call adjuster note . 2
+17:01:000543:000543_4 : 17:00:43:811: Sac en haut à gauche on a vu des . 4
+17:01:000544:000544_1 : 17:00:47:935: Des choses arrivé sur le note 2 note 13 deux dons Croix-Rouge qui veut dire le service n'est pas . 1
+17:01:000545:000545_2 : 17:00:55:853: I love sur le numéro 1 . 2
+17:01:000546:000546_3 : 17:01:00:544: Voilà là on vient d'utiliser une comment il s'appelle switch . 3
+17:01:000547:000547_1 : 17:01:10:683: Ça a été ça a été un petit peu vite en argent à stopper le service sur le nom et la redémarrer sur le sur le . 1
+17:01:000548:000548_3 : 17:01:27:013: Pouvoir parler ici il a des petits chapeaux . 3
+17:01:000549:000549_4 : 17:01:33:121: Syndic un problème de placement qu'est-ce que ça veut dire le placement quand on va définir un service en avoir envie de déterminer quel est le nom prioritaire pour faire démarrer service . 4
+17:02:000550:000550_1 : 17:01:46:223: La priorité défini dans l'ordre des ne . 1
+17:02:000551:000551_3 : 17:01:55:214: En premier lieu de ronces . 3
+17:02:000552:000552_4 : 17:01:59:081: Le service sur le note 2 qui n'est pas le leader de placement . 4
+17:02:000553:000553_3 : 17:02:27:955: Problème on se voit . 3
+17:02:000554:000554_4 : 17:02:30:508: Ensuite on définit pour ce service I fly qui s'appelle orchestre Orchestra . 4
+17:02:000555:000555_1 : 17:02:38:438: Achat pour aller visiter . 1
+17:02:000556:000556_2 : 17:02:42:594: Peut-on dis simplement . 2
+17:03:000557:000557_4 : 17:02:47:742: À toi-même les décisions sur le ce qu'il faut faire de service ou démarrer ou l'arrêter . 4
+17:03:000558:000558_2 : 17:02:59:715: La machine . 2
+17:03:000559:000559_3 : 17:03:01:838: Où est-ce que le service est en train de redémarrer sur Le Mans . 3
+17:03:000560:000560_1 : 17:03:13:492: Guitare échanger entre entre les ne permet . 1
+17:04:000561:000561_2 : 17:03:19:103: Changer lorsque on peut remarquer que ici le petit défaut de placement il a disparu mainte0t le service il est revenu sur le sur son apparte0ce nominal . 2
+17:04:000562:000562_3 : 17:03:35:321: Voilà Lombard démarrer . 3
+17:04:000563:000563_4 : 17:03:40:823: Le numéro 2 . 4
+17:05:000564:000564_3 : 17:04:38:364: Une face au cours de laquelle il rejoint cluster mais il va attendre de recevoir les informations de des autres ne du cluster à pour être sûr de pas prendre de mauvaises décisions . 3
+17:05:000565:000565_4 : 17:04:50:913: Un éventuel ramener des éventuels redémarrage de service . 4
+17:05:000566:000566_2 : 17:05:04:864: Le clonage de service . 2
+17:05:000567:000567_0 : 17:05:08:802: Différent. Config au format gisone d'un service qu'on a déployé . 3
+17:05:000568:000568_4 : 17:05:14:319: Créez de service et on vient surchargé tout ce qui est . 4
+17:05:000569:000569_1 : 17:05:19:887: Au niveau du service . 1
+17:05:000570:000570_3 : 17:05:30:857: Voilà là on a dupliquer le service on écoute mainte0t sur le port 8 1000 RSV C2 . 3
+17:06:000571:000571_4 : 17:05:37:831: Et comme on a une valeur d'orchestration kihouu dispo le moniteur à tout de suite démarrer le service sur le 13e . 4
+17:06:000572:000572_1 : 17:05:47:982: Et là si vous voyez la dernière commande qui est passé on a inversé le leader de placement pour le service SVC 2 . 1
+17:06:000573:000573_2 : 17:05:56:598: Équipement je veux que le numéro de soi le leader de placement du service de . 2
+17:06:000574:000574_1 : 17:06:13:513: Centre de rendre . 1
+17:06:000575:000575_2 : 17:06:22:671: Le propriétaire grâce à la commande give back . 2
+17:06:000576:000576_4 : 17:06:32:565: Pour . 4
+17:07:000577:000577_1 : 17:06:35:837: On est à nominal sur le . 1
+17:07:000578:000578_3 : 17:06:45:608: Là on enchaîne avec la création d'un service 3 sur le même la même méthode . 3
+17:07:000579:000579_4 : 17:06:55:378: On va changer la topologie du service . 4
+17:07:000580:000580_1 : 17:07:02:338: Si vous avez remarqué à gauche là on est dans les topologies fait là on vient de spécifier je veux faire un service de Flex Flex . 1
+17:07:000581:000581_2 : 17:07:12:457: Là je spécifie mainte0t à droite je veux que le nombre minimum l'instant . 2
+17:07:000582:000582_3 : 17:07:23:556: De type actif actif soit égale au nombre de nom du Christ . 3
+17:08:000583:000583_4 : 17:07:29:141: Une fois que je défrise mon service le moniteur se met en route il va respecter les contraintes que j'ai définir savoir démarrer deux instances de ce service . 4
+17:08:000584:000584_1 : 17:07:42:020: Musique on a de web server sur le port 8002 / 1 / 20 / note . 1
+17:08:000585:000585_3 : 17:07:57:601: Le fait de capable de faire des upgrade de Cestac logiciel production ouverte . 3
+17:08:000586:000586_4 : 17:08:07:817: On imagine the avec des services qui fonctionne avec des clients qui sont connectés . 4
+17:08:000587:000587_1 : 17:08:14:955: Un peu désinstaller réinstaller la jambe sans que cela vienne impacter la production et service 42 style . 1
+17:09:000588:000588_3 : 17:08:26:319: Guillaume rastal du RPM l'envoie cycle le numéro de est en train de passer en face de bred . 3
+17:09:000589:000589_4 : 17:08:33:140: Voilà il redémarre il va rejoindre le Play Store . 4
+17:09:000590:000590_3 : 17:08:55:752: Donc là on lance un chat dans le sur le numéro deux ou qu'on voit . 3
+17:09:000591:000591_1 : 17:09:10:273: Ma chérie la présentation pose . 1
+17:09:000592:000592_1 : 17:09:35:121: Un homme qui vois qui c'est qui s'est invité la au niveau du service 3 . 1
+17:10:000593:000593_2 : 17:09:41:529: Modifier une contrainte d'avoir deux instances de mon service opérationnel . 2
+17:10:000594:000594_3 : 17:09:48:398: Actuellement donc ça se présente un problème de conforme . 3
+17:10:000595:000595_4 : 17:09:54:867: Non moi vu qu'il nous reste une instance le service reste . 4
+17:10:000596:000596_1 : 17:09:59:781: La France est . 1
+17:10:000597:000597_1 : 17:10:24:789: La session interactive si vous avez des choses . 1
+17:11:000598:000598_2 : 17:10:36:926: Lac la question c'est . 2
+17:11:000599:000599_3 : 17:10:49:282: Un algo de consensus qu'est-ce que tu entends par consensus . 3
+17:11:000600:000600_4 : 17:10:56:404: Keep . 4
+17:11:000601:000601_1 : 17:11:00:169: Alors en fait il y a donc la question c'est est-ce qu'il y a plusieurs . 1
+17:11:000602:000602_2 : 17:11:09:184: Nokia il faut qu'il faut voir s'il y a bien un agent qui va tourner par nos et donc tu as a Fred qui va prendre des décisions d'orchestration sur ses services . 2
+17:11:000603:000603_3 : 17:11:22:002: Ration fonction de l'état du service tel que le dis . 3
+17:11:000604:000604_4 : 17:11:28:129: Lenny entre Mons et changer une structure de . 4
+17:12:000605:000605_4 : 17:11:59:071: Problème je redémarre je prends la décision de redémarrer . 4
+17:12:000606:000606_1 : 17:12:04:922: Donc c'est vraiment . 1
+17:12:000607:000607_3 : 17:12:17:092: Je vais essayer de voir tes réponses à tes questions sous un angle un peu différence . 3
+17:13:000608:000608_4 : 17:12:24:228: Je pense que ce que tu voulais dire c'est . 4
+17:13:000609:000609_1 : 17:12:29:710: Ration avec des produits existants que tu connais déjà mieux comme ça . 1
+17:13:000610:000610_3 : 17:12:59:961: Picasso Picasso en passant par des tiers beaucoup de redondance au niveau des échanges entre chaque de du cluster et on a pas de notion de la symétrie . 3
+17:13:000611:000611_1 : 17:13:23:353: Récupérer données . 1
+17:13:000612:000612_2 : 17:13:27:243: Lyon va bien . 2
+17:14:000613:000613_3 : 17:13:30:015: Quand est limité aux alentours de 16h . 3
+17:14:000614:000614_2 : 17:14:00:764: Ok . 2
+17:14:000615:000615_1 : 17:14:01:764: Poster . 1
+17:14:000616:000616_3 : 17:14:29:365: Heure de replacer les services là où ils doivent être de manière nominal . 3
+17:14:000617:000617_4 : 17:14:36:483: Le numéro de . 4
+17:15:000618:000618_1 : 17:14:40:833: Venir là qu'il fallait voir c'est que c'est pas parce que nous rejoins cluster et que c'est lui le maître nominale d'un service qui reprend tout de suite le service . 1
+17:15:000619:000619_2 : 17:14:51:316: Tu aurais dû dans the time induit pour les utilisateurs . 2
+17:17:000620:000620_3 : 17:14:56:008: Donc il rejoint cluster mais il reprend service qu'au moment où on lui demande explicite donc c'est clairement une opération sysadmin qui . 3
+17:17:000621:000621_4 : 17:15:06:510: Bac pour . 4
+17:18:000622:000622_4 : 17:17:37:841: Clip et de services c'est dans une oncle l'État globale du service s'est arrêtée on va mainte0t . 4
+17:18:000623:000623_1 : 17:17:51:022: Simon voir que moniteur Val Val des marées . 1
+17:18:000624:000624_3 : 17:17:55:154: Bah non seulement démarrer l'adresse IP . 3
+17:18:000625:000625_4 : 17:17:59:630: Une autre application Bell pic . 4
+17:18:000626:000626_1 : 17:18:04:762: Nouvelle démonstration de Lidl potence des actions . 1
+17:18:000627:000627_2 : 17:18:10:504: Ou après avoir une frisé . 2
+17:18:000628:000628_3 : 17:18:13:620: Démarrer le service c'est un démarrage manuel et malgré ça . 3
+17:18:000629:000629_4 : 17:18:19:740: Passion . 4
+17:18:000630:000630_1 : 17:18:22:790: Au niveau global . 1
+17:18:000631:000631_2 : 17:18:24:893: Envoie un étape . 2
+17:18:000632:000632_3 : 17:18:28:823: Pour le 13 . 3
+17:18:000633:000633_4 : 17:18:30:927: Et pour chacune des ressources humaines étape égal . 4
+17:18:000634:000634_1 : 17:18:36:038: Cantine petite request HTTP au niveau de l'adresse IP du service et ça nous montre que ça répond correctement . 1
+17:18:000635:000635_2 : 17:18:44:485: On écoute bien sur la vie . 2
+17:19:000636:000636_3 : 17:18:47:578: Encore un switch du service . 3
+17:19:000637:000637_4 : 17:18:51:634: Au niveau du nez configurer l'adresse IP . 4
+17:19:000638:000638_2 : 17:19:04:575: Vivaservices . 2
+17:19:000639:000639_3 : 17:19:06:956: 13 élégant et très facile en terme de mise en œuvre un pour basculer DIP . 3
+17:19:000640:000640_4 : 17:19:16:599: Laon pas passer sur . 4
+17:19:000641:000641_1 : 17:19:22:704: Association d'un service . 1
+17:19:000642:000642_2 : 17:19:26:823: Complexe qui est plus représentatives de ce qu'on va trouver dans la vraie vie . 2
+17:19:000643:000643_3 : 17:19:34:709: Un petit peu vite sur le côté droit . 3
+17:20:000644:000644_4 : 17:19:37:402: On est partie d'un temple est . 4
+17:20:000645:000645_1 : 17:19:41:761: Ma config nom d'un fichier complète sur lequel on aura bien entendu fait une face de design auparavant . 1
+17:20:000646:000646_2 : 17:19:48:178: Mail à l'agence en charge complète instants sucrés le service est bien provisionner service donc là concrètement CD disques cd création . 2
+17:20:000647:000647_3 : 17:20:00:774: Création de logical volume c'est du formatage de fac système . 3
+17:20:000648:000648_4 : 17:20:05:861: Donc sur la droite on a un petit prince status difficile du service pardon il a un petit peu . 4
+17:20:000649:000649_1 : 17:20:16:122: Un petit peu parce qu'il n'a pas été encore démarré donc on a beaucoup de beaucoup d'achats je vois la . 1
+17:20:000650:000650_2 : 17:20:22:775: Lamanon qu'il ait démarrer . 2
+17:20:000651:000651_3 : 17:20:25:642: On a un service donc un peu plus sérieux avec des loups disque une amie et de services un volume group 3 packs système . 3
+17:20:000652:000652_4 : 17:20:33:855: Data base de zap serveur . 4
+17:21:000653:000653_2 : 17:20:42:044: De l'après-midi . 2
+17:21:000654:000654_3 : 17:20:47:655: Donc là on passe sur une partie de la démo où on va déployer . 3
+17:21:000655:000655_4 : 17:20:58:098: Donc là on vient de créer un service c'est un service de service c l'enveloppe assez l'enveloppe avec toutes les ressources . 4
+17:21:000656:000656_1 : 17:21:12:977: Modéliser toutes ses ressources de mon IP de mon régime et systèmes Meylan siccatif . 1
+17:21:000657:000657_2 : 17:21:34:666: EBay privé . 2
+17:21:000658:000658_3 : 17:21:37:917: Pourquoi utilise pour sa CNI . 3
+17:22:000659:000659_4 : 17:21:45:136: Networking interface donc si haï qu'est-ce que c'est c'est . 4
+17:22:000660:000660_1 : 17:21:52:283: Délibéré Despec sur . 1
+17:22:000661:000661_3 : 17:22:04:837: Mounir de l'infrastructure réseau sur des conteneurs . 3
+17:22:000662:000662_4 : 17:22:13:277: Plan on a fait le choix d'utiliser oui oui je te le plugin qui va s'appuyer sur sienne . 4
+17:23:000663:000663_4 : 17:22:36:062: Plan de délibérément ami toutes les commandes 1 pour la configuration . 4
+17:23:000664:000664_2 : 17:22:53:181: Quel réseau with . 2
+17:23:000665:000665_3 : 17:22:56:127: Et encore la mise en avant des how to design . 3
+17:23:000666:000666_4 : 17:23:02:503: Plan bien spécifié en terme de configuration que le service 3 on va lui ajouter une adresse IP de type Chennai . 4
+17:23:000667:000667_1 : 17:23:12:186: Approvisionner dans le réseau qui s'appelle with . 1
+17:23:000668:000668_2 : 17:23:15:959: Voilà donc là . 2
+17:23:000669:000669_4 : 17:23:24:150: Le premier ne ne ne une première adresse IP sur le sur le dos une seconde adresse IP . 4
+17:23:000670:000670_1 : 17:23:31:045: Météo qui a été attribué . 1
+17:24:000671:000671_2 : 17:23:34:296: Partir de ce réseau de back-end . 2
+17:24:000672:000672_3 : 17:23:38:587: La notion qu'on a pas encore abordé qui expliquent la présence de en bas à gauche du petit rectangle c'est la fourniture de services de nommage au sein de Secret store . 3
+17:24:000673:000673_4 : 17:23:53:185: On va dans un premier temps comment voit en bas à droite configurer et dire au cluster . 4
+17:24:000674:000674_3 : 17:24:15:470: Auchan nouveau serait apparue qui s'appelle DNS . 3
+17:24:000675:000675_4 : 17:24:19:088: Voilà on va propager 7 4 configuration ohne XIII-2 en faisant aurais dû à une du cluster . 4
+17:24:000676:000676_1 : 17:24:28:017: Voilà là ça a été un petit peu vite . 1
+17:25:000677:000677_3 : 17:24:35:641: Aller sur la socket Unix maintenu par l'agent . 3
+17:25:000678:000678_4 : 17:24:40:537: Interroger truc est là il nous nous raconte qui c'est du cluster donc on retrouve toute les adresse IP qu'on a défini dans l'eau dans nos différents . 4
+17:25:000679:000679_1 : 17:24:53:047: C'est parce bien qu'on est con cartographie 1 finalement tout ce qui est présent en terme de l'adressage IP est dommage dans le castor . 1
+17:25:000680:000680_3 : 17:25:12:743: Service qu'on a . 3
+17:25:000681:000681_4 : 17:25:15:850: Tu appuies sur des docker PowerDNS . 4
+17:25:000682:000682_1 : 17:25:21:373: Comment démarrer service envoie le service au DNS et démarrer sur le 13 ans et 13 2 . 1
+17:25:000683:000683_2 : 17:25:33:238: L'on vient . 2
+17:25:000684:000684_3 : 17:25:35:645: Mairie . 3
+17:26:000685:000685_4 : 17:26:02:179: Je suis là en utilisant mots clés comme quoi on expose un port TCP dans servi . 4
+17:26:000686:000686_1 : 17:26:09:261: Le service C3 si vous souvenez à l'association n'avait surchargé la variable environnement avec le port 8002 . 1
+17:26:000687:000687_3 : 17:26:18:811: Enregistrement SRV . 3
+17:26:000688:000688_4 : 17:26:23:074: Tu t'es mis à jour automatiquement . 4
+17:26:000689:000689_1 : 17:26:25:992: Par rapport à ce qu'on avait défini dans ses services . 1
+17:27:000690:000690_3 : 17:26:46:612: Tribunal . 3
+17:27:000691:000691_1 : 17:26:49:751: Service de type quelle heure on se le service SVC 4 . 1
+17:27:000692:000692_2 : 17:27:02:971: Voilà donc là il s'est passé des choses ou Instantiel service SVC 4 avec un homme d'instance à zéro . 2
+17:27:000693:000693_4 : 17:27:17:760: Plan bois que le moniteur est en train de d'instance . 4
+17:27:000694:000694_1 : 17:27:21:871: Est-ce qu'on voit . 1
+17:27:000695:000695_2 : 17:27:32:137: Sédition bas gauche on a les enregistrements est servie qui se sont mis . 2
+17:28:000696:000696_3 : 17:27:38:099: Bonjour juste après l'instanciation . 3
+17:28:000697:000697_4 : 17:27:41:767: Vraiment vraiment voir ça en terme de jusqu'à il est mon service à la hausse parce que j'ai besoin de croissance interne de performance sur ce que je veux servir . 4
+17:28:000698:000698_1 : 17:27:51:645: Donner mes nouveaux conteneur j'ai mis à jour mes Maps DNS donc là je veux avoir une greffe capable de parenté des nouvelles requête client verser nouveau compte . 1
+17:28:000699:000699_2 : 17:28:02:005: Pour absorber mon fils de charge . 2
+17:28:000700:000700_3 : 17:28:04:862: L'étape d'après on va faire un scan en fait on écrit sur les sur les enregistrements DNS qui serve le service 4 donc là on est bien à 5 . 3
+17:28:000701:000701_4 : 17:28:20:978: Aller à la baisse un . 4
+17:28:000702:000702_1 : 17:28:24:749: Automatiquement des provisionner ce qu'on a déployé on va on va trouver . 1
+17:29:000703:000703_2 : 17:28:30:871: Service cat on voit qu'il est revenu à une seule instance . 2
+17:29:000704:000704_3 : 17:28:35:389: Et de même on a le nombre d'enregistrement et servez qui est passé de 5 à 11 sur sur la . 3
+17:29:000705:000705_1 : 17:28:51:091: La partie suivante c'est . 1
+17:29:000706:000706_2 : 17:28:59:145: C'est le déploiement d'une grasse gâteau . 2
+17:29:000707:000707_3 : 17:29:03:583: Donc c'est Ingrid gâteau . 3
+17:29:000708:000708_4 : 17:29:07:507: Go between . 4
+17:29:000709:000709_1 : 17:29:10:633: Immigration . 1
+17:29:000710:000710_2 : 17:29:14:764: Et c'est grâce à elle est capable de fournir en entrée on porte une adresse ip publique routable où les clients vont venir se connecter pour consommer note service . 2
+17:29:000711:000711_3 : 17:29:28:677: De l'autre côté ça va route et ça sur toutes les . 3
+17:29:000712:000712_4 : 17:29:33:779: Conteneur et tous les services confondus dans le back-end de notre . 4
+17:30:000713:000713_3 : 17:29:50:420: Exposé voilà le port 8003 concerts en interne dans le back-end je dis si que je veux l'exposé sur le port 80 03 sur l'adresse public on en l'occurrence c000 toutes les adresses . 3
+17:30:000714:000714_1 : 17:30:10:319: Conteneur docker à nous qui vient qui va faire la translation des événements qui se passe dans le cluster qui vient configurer ingress Gateway automatiquement . 1
+17:30:000715:000715_2 : 17:30:20:938: Combien faire une connerie sur l'adresse de service sur le port 80 03 dans les bien servi par rapport à un des conteneurs du bac . 2
+17:31:000716:000716_1 : 17:30:42:991: J'ai déjà installé . 1
+17:31:000717:000717_2 : 17:30:47:104: Bien sûr que c'est des marées . 2
+17:31:000718:000718_3 : 17:30:52:249: La solution opensvc en fait ta porte des facilités de management sur sur le docteur . 3
+17:31:000719:000719_4 : 17:31:04:018: On a . 4
+17:31:000720:000720_1 : 17:31:06:205: Demande implémentation suis tout le monde . 1
+17:31:000721:000721_2 : 17:31:09:738: J'ai un démon docker . 2
+17:31:000722:000722_4 : 17:31:20:465: Seconde moitié dire je veux un démon docker privé par service opensvc . 4
+17:31:000723:000723_1 : 17:31:28:600: Intérêt lorsque vous avez des gros système avec des environnements mutualisé entre plusieurs développeur . 1
+17:32:000724:000724_2 : 17:31:35:339: Ça permet de travailler chacun sur son docker s'en aller casser les images où les conteneurs des autres . 2
+17:32:000725:000725_3 : 17:31:42:324: Combien créer un premier service SVC 6 . 3
+17:32:000726:000726_4 : 17:31:51:611: On va mettre en avant l'utilisation . 4
+17:32:000727:000727_2 : 17:32:01:636: Qui est simple dans le sens . 2
+17:32:000728:000728_3 : 17:32:05:094: Dupliquer de naissance réseau de l'hyperviseur sur lequel on est . 3
+17:32:000729:000729_4 : 17:32:10:137: Effacer un premier type de de cet à présent qu'on supporte . 4
+17:32:000730:000730_1 : 17:32:17:530: Envoie ici . 1
+17:32:000731:000731_2 : 17:32:19:651: L'argument au docteur Demon One est égal host . 2
+17:32:000732:000732_3 : 17:32:24:801: On conduit comment les réseaux et on utilise celui-ci dans notre service . 3
+17:33:000733:000733_4 : 17:32:31:717: Le conteneur qui est utilisé pour la démo c'est un petit conteneur Hello World en entier et qui affiche même lorsqu'on vient lui . 4
+17:33:000734:000734_1 : 17:32:43:837: Voilà c'est la requête HTTP . 1
+17:33:000735:000735_2 : 17:32:49:318: Butinette raison d'une autre aide il nous répond qui s'appelle non 13 place un peu simpliste comme cette présence normale mairie de fonctionner mais on va partager tout l'espace . 2
+17:33:000736:000736_3 : 17:33:02:466: Docker . 3
+17:33:000737:000737_4 : 17:33:05:589: Fabrique de Kerzerho avec le spawn de conteneurs et toute une bonne tambouille de port mapping pour . 4
+17:33:000738:000738_1 : 17:33:12:656: Pour répondre à tout ça . 1
+17:34:000739:000739_4 : 17:33:28:389: Produit produit Cassandra c'est une base de données distrib . 4
+17:34:000740:000740_1 : 17:33:36:174: Nous pour éviter justement de gérer toute cette cette embrouille de porte Mappy on m'a proposer des solutions . 1
+17:34:000741:000741_2 : 17:33:47:297: Ferme de cette au présent donc il va permettre d'avoir au sein des conteneurs docker que vous utilisez que vous déployez une prise direct sur le réseau sur le lac sur le segment réseau sans avoir de porte mapping utiliser . 2
+17:34:000742:000742_4 : 17:34:15:891: Et la seconde étape 7 dire je rajoute une adresse IP de service . 4
+17:34:000743:000743_1 : 17:34:22:018: Qui va être bloqué sur un bridge que j'ai configuré sur la machine est ce bruit du bien sûr et vu sur le réseau sur Le Lann . 1
+17:34:000744:000744_3 : 17:34:40:536: Spécifie ici . 3
+17:35:000745:000745_0 : 17:34:43:540: Ma manette = conteneur de. Nom du service. Containers. 0 . 4
+17:35:000746:000746_1 : 17:34:49:510: Explicitement je veux que le conteneur allô world Eric de la réseau de notre conteneur 0 qui est connecté sur le bridge . 1
+17:35:000747:000747_2 : 17:34:58:460: À droite le démarrage du service dans ce dans ce mode de configuration et on a ici toutes les commandes IP line qui sont qui sont passées messenger pour s'accrocher dans le même space et configurer la STAC . 2
+17:36:000748:000748_2 : 17:35:33:429: Enfin on a . 2
+17:36:000749:000749_3 : 17:35:38:385: Dernier service . 3
+17:36:000750:000750_3 : 17:36:08:167: Gifi que on doit pas de cœur des Monts privé mes paramètres donc on utilise le démon de cœur du système . 3
+17:37:000751:000751_0 : 17:36:37:305: Que cette fois-ci
+17:37:000752:000752_3 : 17:36:46:773: Bien ici lui donner le nom d'un IP Desvres concrètement on a un interface physique sur la machine on va dire donner cette interface physique dans le même space docker . 3
+17:37:000753:000753_4 : 17:36:59:163: Ça c'est pour les gens qui ont des contraintes un peu particulière qui vole des type d'interface physique spécial dans leur contenu utiliser . 4
+17:37:000754:000754_1 : 17:37:11:014: À partir du moment où on va démarrer le service . 1
+17:37:000755:000755_2 : 17:37:17:726: Commande IP link sur l'hiver viseur on verra plus du tout l'interface apparaître dans la liste Fram ça sera Maps et uniquement dans le . 2
+17:37:000756:000756_3 : 17:37:27:846: Sensation du du docteur que l'interface réapparaît sur le supervie . 3
+17:37:000757:000757_4 : 17:37:35:235: Résumé trois modes de cette app réseau supporter avec . 4
+17:38:000758:000758_3 : 17:37:53:483: Sur la reproduction . 3
+17:39:000759:000759_2 : 17:38:55:042: Acronyme . 2
+17:39:000760:000760_2 : 17:39:28:201: Alors là encore comme dans Shining directrice du produit en supporter quasiment tout ce que le client envie qu'on supporte donc ça part de . 2
+17:40:000761:000761_3 : 17:39:42:081: Comment comment gère-t-on au sein d'un cluster la réplication des données ou la mobilité des données . 3
+17:40:000762:000762_4 : 17:39:50:819: 2 solutions soit . 4
+17:40:000763:000763_1 : 17:39:54:938: Poster une solution de stockage partager . 1
+17:40:000764:000764_2 : 17:39:59:142: Je te reste 17 . 2
+17:40:000765:000765_3 : 17:40:02:013: Soit on travaille avec des disques locaux dans ces cas-là on supporte . 3
+17:40:000766:000766_1 : 17:40:23:627: Sois . 1
+17:40:000767:000767_2 : 17:40:26:765: Logiciel et asynchrone . 2
+17:41:000768:000768_3 : 17:40:31:264: Viande fumée du risque d'une copie asynchrone mais en tout cas le produit légère à la place c'est le produit qui fait le ski du ligne de la réplication de données . 3
+17:41:000769:000769_4 : 17:40:40:874: Les anges budgétaire des enjeux techniques de RTO RPO au fil abonnement le bon choix de technologie entre le synchrone asynchrone logiciel . 4
+17:41:000770:000770_1 : 17:40:53:017: Je fais la totalité en es capable de piloter de la réplication côté baie de parler ob pour qu'elle se split . 1
+17:41:000771:000771_2 : 17:41:01:153: Les enverra . 2
+17:41:000772:000772_3 : 17:41:05:276: En plus simple pour . 3
+17:41:000773:000773_4 : 17:41:07:920: Vas-y vas-y . 4
+17:41:000774:000774_3 : 17:41:33:471: Faire la question et . 3
+17:42:000775:000775_4 : 17:41:39:592: Depuis quelques années dans 3 ans on parle beaucoup de produits comme Mézos ce soir mais du Béarn . 4
+17:42:000776:000776_1 : 17:41:47:563: Comment se positionne par rapport à ses produits . 1
+17:42:000777:000777_2 : 17:41:51:911: Affectivement on a 10 ans d'existence devant nous donc on attend des marées à vent dans un monde où des produits on était concurrent plutôt par rapport . 2
+17:42:000778:000778_3 : 17:42:05:607: Poster des choses comme ça . 3
+17:42:000779:000779_1 : 17:42:22:860: Devant c c un . 1
+17:42:000780:000780_2 : 17:42:30:988: Donc aujourd'hui la situation dans laquelle on essaie que on vise . 2
+17:43:000781:000781_2 : 17:42:59:222: Containerisation . 2
+17:43:000782:000782_3 : 17:43:01:187: Orchestra avec le Ster de réseau de ma chaîne et dinaz la totale . 3
+17:43:000783:000783_4 : 17:43:07:352: Position origine . 4
+17:43:000784:000784_2 : 17:43:15:597: On a pas le poids de . 2
+17:43:000785:000785_4 : 17:43:27:924: Jusqu'à la version à Huit du produit Fédération aisne - 20 on avait pour ambition que de faire la partie CRM de . 4
+17:43:000786:000786_2 : 17:43:44:176: Refaire la peinture castration . 2
+17:44:000787:000787_3 : 17:43:47:663: Lyon . 3
+17:44:000788:000788_4 : 17:43:52:779: Open en charge des parties . 4
+17:44:000789:000789_1 : 17:43:55:791: Que . 1
+17:44:000790:000790_2 : 17:43:57:909: Mais tu es con trouver dans des produits Thiers qu'on a semblé avec un autre CRM la partie monitor achat par exemple . 2
+17:44:000791:000791_3 : 17:44:04:688: Un homme qui piloter la partie CRM proposé par reconnaissance . 3
+17:44:000792:000792_2 : 17:44:23:674: Quel sont tous les éléments de la STAC lesquels sont Open Source lesquels ont des contraintes . 2
+17:52:000793:000793_3 : 17:44:36:249: De tarification . 3
+17:52:000794:000794_1 : 17:44:46:499: Il est déjà fonctionnelle pour faire du mono mono service quand on installe 2 . 1

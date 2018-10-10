@@ -1,0 +1,225 @@
+
+10:08:000012:000012_0 : --------
+10:08:000013:000013_0 : Rechargement du document
+
+Metric-learn: a scikit-learn compatible package for metric learning William de Vazelhes
+
+
+10:09:000014:000014_0 : 10:08:25:236: Just for you to know the version 0. . 1
+10:09:000015:000015_2 : 10:08:33:842: It was really is just a few days ago . 2
+10:09:000016:000016_3 : 10:08:37:511: Let's take a look at a simple example to understand better so let's say we want to recognise faces we have a bunch of faces from our friends and when a new picture of comes we want our machine learning system to classify the new image . 3
+10:09:000017:000017_4 : 10:08:59:618: So here I will under our applications or the system to say oh this this one is Cooper . 4
+10:09:000018:000018_1 : 10:09:08:206: Go to do it with her kitten but you will have to load the data set so hopefully ill take it on this the pictures I showed you our previous so you can just load them . 1
+10:09:000019:000019_2 : 10:09:20:765: Putting out the the dataset . 2
+10:10:000021:000021_1 : 10:09:39:321: 400 images of 64 by 64 pixels in a grayscale in grayscale . 1
+10:10:000022:000022_2 : 10:09:48:102: I thought you I just downloaded some random names on the internet to so that it's easier to understand what order labels so and I will collect the data and why the target the name of the people who want to classify ok so and here we will print them and we see that x is in fact a 2D array was the first dimension has 400 components . 2
+10:10:000023:000023_3 : 10:10:19:243: Show . 3
+10:11:000024:000024_4 : 10:10:21:382: 493 and under under call Adam Cullen Bella 4096 columns which are which each represent one pixel, so because there are 64 N64 felt so what you just flat flatten array of a piece of ok and it's time is is 1/:/ and then the way or the name of the person . 4
+10:11:000025:000025_1 : 10:10:48:528: So remember the days chords to classify a new upcoming picture so what you will do as you will train split your data between train and test so that you can train a mother on some training data and you just keep aside as I said that would represent the new upcoming day diet that you have never seen before and you want that you want to move to classify . 1
+10:11:000026:000026_2 : 10:11:14:160: Ok so here we see that the train set has 300 examples and test set 100 examples . 2
+10:11:000027:000027_3 : 10:11:23:767: What you will do then is to train the classifier so here are represented the point . 3
+10:11:000028:000028_4 : 10:11:30:900: in 2D space so that you can visualise it but you have to imagine that they can be like her head a little space so here it would be a 4096 dimensional space . 4
+10:12:000029:000029_1 : 10:11:46:052: The Register corporation but we could have learnt any other model . 1
+10:12:000030:000030_3 : 10:11:51:206: For the motherland what's really cool it was a concern is that they are PhD API of every mother is a shame to just have to say can be interchanged as you want you can send you the mother as you want ok so here are the registered address and we try to separate the different points so here are the same as represented on so I Separating the indus pays the difference of faces . 3
+10:13:000031:000031_4 : 10:12:25:582: When did you can buy the new sample comes ok you were you just you already have the have on the front you so you say ok as is somebody is in the top or front you so I will say OK it's probably Mark because proper and we take it you're in . 4
+10:13:000032:000032_1 : 10:12:47:708: You can now you can do the predict function but here if we predict every picture that is in the test that we see that there was a break then that's right now we don't really know if this is . 1
+10:13:000033:000033_2 : 10:13:02:847: The good ones at the good names are not so what you can do to evaluate some of that is to use a function score by default for classifiit will use the accuracy so it will just count the the percentage of correctly classify the images so here we have correctly classified 91/:/ of the incoming images . 2
+10:13:000034:000034_0 : 10:13:03:847: Cation
+10:13:000035:000035_3 : 10:13:24:995: But then . 3
+10:14:000036:000036_4 : 10:13:28:139: Speakers under a good default parameters but in fact you have to put some sometimes some parameters into the tomatoes and how to find the right value so then we do it in fact you will try them and score and see and just take this image that has the best car that's what you have to keep in mind is you cannot use the test set to score a when you do that because the disk that is something you . 4
+10:14:000037:000037_1 : 10:13:56:279: From Ann you cannot train on it and selecting hyperparameters is a kind of training because you would like a choice based on some data so that's why you have to create a validation set from your train sets so you will have a train bis train set and variation set . 1
+10:14:000038:000038_2 : 10:14:17:696: And then 42 to make sure you will sit on the train set and score on the evaluation set and you will see that we would like to to choose the second city fire with CK One . 2
+10:15:000039:000039_3 : 10:14:33:472: In fact in practice you don't do that you you would use the circuit Rhona Brut search cross validation function . 3
+10:15:000040:000040_4 : 10:14:42:626: Which makes it very easy to test a whole bunch of different parameters and I felt like this you you would just create a grid of different values for each for each hyperparameters is very that you want to test and then you instantiate a gridsearch to a subject and you can fit it and then it's like it's a matter is tomato so it's like an issue but it will have a lot of attribute that . 4
+10:15:000041:000041_1 : 10:15:10:770: Agree to a subject and you can fit it and then it's like it's a matter is tomato so it's like an issue but it will Percy after like your what are the best parameters that I have found the best score at cetera so use instead of time it will be tested because it's every combination of hyperparameters and we see that the best one is to take c = 5n . 1
+10:15:000042:000042_2 : 10:15:33:000: Affinity L25 send . 2
+10:16:000043:000043_3 : 10:15:38:166: Is that the metre was 96/:/ accuracy and in fact it does it doesn't do really is the train and validation split as I said before he does a lot of them . 3
+10:16:000044:000044_4 : 10:15:51:289: Different different evaluation said and different train set in for serial correlation and it allowed to have better estimate for the score of these images . 4
+10:16:000045:000045_1 : 10:16:05:414: Alright so . 1
+10:16:000046:000046_2 : 10:16:09:559: Things into Euro to stop me but now that you have seen how to use a kitchen to do machine learning . 2
+10:16:000047:000047_3 : 10:16:20:701: Running water ugly than that Tour de France it's a field of machine learning but we will see that they don't take the same input sometimes . 3
+10:16:000048:000048_4 : 10:16:33:684: They can I need a switching examples . 4
+10:17:000049:000049_2 : 10:16:43:950: So you have a few pictures of each person in the organisation in the building . 2
+10:17:000050:000050_3 : 10:16:51:407: In what you also have is a huge data set of unlabeled images because so . 3
+10:17:000051:000051_4 : 10:17:00:560: Tuesday to set of anybody message that says your phone on the internet something like this . 4
+10:17:000052:000052_1 : 10:17:08:688: And yet do you keep this in the database and the thing is you will ask mechanical Turks to labour not images but pair of images as is it the same person or are there different person and why do you do that because in practice you cannot you cannot ask mechanical Turk so there is 0 people that are paid to do like their basic that you cannot ask you as someone with a picture of the . 1
+10:17:000053:000053_2 : 10:17:41:813: Because . 2
+10:18:000054:000054_3 : 10:17:44:692: Jacob I don't know if I see a random people I would not be able to find his name this . 3
+10:18:000055:000055_4 : 10:17:52:792: Ok and we will see how we can use this information to infection exorcist M12 to do so . 4
+10:18:000056:000056_1 : 10:18:03:844: We will in fact tried to do is to learn a metric between different faces different images of faces . 1
+10:19:000057:000057_2 : 10:18:13:229: Put bank that are similar close together so images that are similar close together and by similar I mean they represent the same person and that will put images of people that are different person far away from each other so with a large distance . 2
+10:19:000058:000058_0 : 10:18:32:616: And that is why you use metric learning that's what metric unit. In fact and not returning is able in this case to use the information about those that have been labelled as similar or dissimilar in order to learn this metric ok, if it is not clear y . 3
+10:19:000059:000059_4 : 10:18:58:754: And ok so we had a look at an example but then once you have learnt the metric like this don't lots of stuff you can do after work . 4
+10:19:000060:000060_1 : 10:19:14:900: Ok so . 1
+10:19:000061:000061_2 : 10:19:18:043: You can you can recommend similar images you can the group pictures together by so yeah you can group pictures of the same person together which allows you front sensor to unlock a phone because with your face ID system for instance you can compare your new of coming face to Bench of faces that you have taken when you buy your phone for instance ok you can you can also . 2
+10:19:000062:000062_3 : 10:19:49:178: Do . 3
+10:19:000063:000063_4 : 10:19:51:320: Returning a for . 4
+10:20:000064:000064_1 : 10:19:54:472: How to retrieve old friend stands . 1
+10:20:000065:000065_2 : 10:19:57:608: To find a jurisdiction document that is similar to another one in a huge database then you can use metre turning . 2
+10:20:000066:000066_3 : 10:20:10:434: Let's go out come back to our example and see how . 3
+10:21:000067:000067_4 : 10:20:16:586: How is the data because right we want to do it in Python and we want to know how is the data so we in fact this dataset is already existing is Jackie Chan so you can just load it if the label face in the wild they just said so here I represented won the first here is 07 the first appear that you have in the dataset use either or two images of the same guy and the level . 4
+10:21:000068:000068_1 : 10:20:51:732: Ok here is not a stranger thing as a percentage is 1 ok and you have like this a lot of Perth . 1
+10:21:000069:000069_2 : 10:21:00:869: What is the drink the dataset with train on . 2
+10:21:000070:000070_3 : 10:21:06:112: If you print it like in the array like you see that now the X is a 3D array so that is very important to understand it's not anymore a 2D array with n samples and and and features Collins is a 3D array with n samples line then the 2nd Dimension is too because they are pears and the third dimension is and features components . 3
+10:21:000071:000071_4 : 10:21:38:859: And the labelled or 1 and -1 to -24 decimal place . 4
+10:22:000072:000072_1 : 10:21:48:801: 24-hour when we were using secretary we have to split the data said between train and test set . 1
+10:22:000073:000073_2 : 10:21:56:626: Gender in fact we can use your second and function pointer speed in this case because 20 split only looks at the third dimension it was just say ok I will slice that the input long before there mention so here it would work it will return to this disk array . 2
+10:22:000074:000074_3 : 10:22:17:771: So . 3
+10:22:000075:000075_4 : 10:22:20:910: Now the question is how do you learn from the data and I will show you . 4
+10:22:000076:000076_1 : 10:22:31:047: Cauliflower concrete that grows on which does it which is a man will be symmetric for clustering . 1
+10:23:000077:000077_2 : 10:22:38:076: My name is Matrix Focus steering wheel on a transformation matrix that will transform the input samples so in this case images like a vector . 2
+10:23:000078:000078_3 : 10:22:53:210: If I didn't see it I didn't say it but they are . 3
+10:23:000079:000079_4 : 10:22:57:963: I don't remember exactly they mentioned that it also to flatten vector image so it will transform this Victor . 4
+10:23:000080:000080_1 : 10:23:12:099: Catalina transformation so how do you do it in . 1
+10:23:000081:000081_2 : 10:23:18:235: Should just take the transformation metric Matrix and X the components the Victor . 2
+10:24:000082:000082_3 : 10:23:27:520: And ok but what what is this new space what is what are these new new pictures you want them to be . 3
+10:24:000083:000083_4 : 10:23:39:665: To define a matrix that is good for your task so here the the Matrix associated is simply that you clear understanding the new space so it's the norm of the difference of the transformations transformation and what's the what's the problem you will self is you will minimise the sum of the distances in the new space between points that for that have been labelled by the mechanical Turk I . 4
+10:25:000084:000084_2 : 10:24:15:019: You will ensure that the distance between the points that have been able and dissimilar in the new space is sicario 2 certain value and this will allow because if you only have the the term for minimising the distances then you would have . 2
+10:25:000085:000085_0 : 10:24:38:172: And now you will have minimise the distance between every point and including the point that are similar to what you want to do not to have that is and also to to put apart from that are far away from each other so that's why there's a certain time you have to ensure that the sum of difference the sum of distances between different
+10:25:000086:000086_4 : 10:25:04:351: And then as I said that in the application of metric learning slide you can do lots of stuff can do can you receive a classification with metric you can do clustering so that's also an important point because often when you do clustering you . 4
+10:26:000087:000087_1 : 10:25:23:479: You don't really know you don't give out information because it's an unsafe like most of times you say something to provide techniques so I just have my did I want to close the right in two months of points and the thing is often it doesn't matter as you want princess in like it if I didn't put information it could have custard point . 1
+10:26:000088:000088_2 : 10:25:47:616: The same of face orientation together for instance and that's not what I want so this network training allows you to give us some information that can be used for Crystal . 2
+10:26:000089:000089_4 : 10:26:00:790: Ok so if anything is unclear for an hour then asked me . 4
+10:26:000090:000090_1 : 10:26:09:562: Now we will see how to use the metric ton packet . 1
+10:26:000091:000091_2 : 10:26:14:708: So how to loads of data in Python and what is a concrete example of an algorithm but we don't know how we use the metric ton cricket . 2
+10:26:000092:000092_3 : 10:26:26:107: So . 3
+10:26:000093:000093_4 : 10:26:30:255: The Beckett equals greater Dubai city career and 1 x 470 2009 exams some . 4
+10:27:000094:000094_1 : 10:26:41:402: Santander Renault Dauphine 13 contributors . 1
+10:27:000095:000095_0 : 10:26:46:532: So here it all the contributors on the tablet you can see my line edition. Of course there are also other contributors with discussions and issues etc . 2
+10:27:000096:000096_3 : 10:27:00:658: So . 3
+10:27:000097:000097_4 : 10:27:05:784: Jean de Luz version 0.4 Giroud vs Frieza 1 months ago but is not yet compatible with scikit-learn and in the rest of the talk I will explain to you how to make it compatible with scikit-learn and how will we be able in percentage of the 5:2 train station to 23° search . 1
+10:27:000098:000098_2 : 10:27:36:106: Yeah there's a change . 2
+10:28:000099:000099_3 : 10:27:39:607: Remember the day that we had after speaking with like this represented by a 3D arrays . 3
+10:28:000100:000100_4 : 10:27:48:753: So in fact . 4
+10:28:000101:000101_1 : 10:27:49:753: disco Matt will be accepted because the format is very simple very simple to understand and . 1
+10:28:000102:000102_2 : 10:28:03:807: Out of the box you you will be able to instantiate an MCMC algorithm . 2
+10:28:000103:000103_3 : 10:28:12:934: An agreed for some hyperparameter and . 3
+10:29:000104:000104_4 : 10:28:18:066: Create a grid search CV objects like in scikit-learn and fit the greatest so why don't you talk is because in fact cos I relation with jeans and research the only look at the forms I mention they will they win only they will only sleep on the floor dimensions of this please or Siri only like they are still valid input data is it so I mean is the right lighting so this will . 4
+10:29:000105:000105_1 : 10:28:49:188: In internet version but this is a problem is that in metric learning you have these datasets and . 1
+10:29:000106:000106_2 : 10:29:00:335: You're so before I will show you that your friend sent this this point is replicated 2 times because it is involved into bed and in practice points can be involved in a lot of person sounds of frozen when they're high dimensional points like images . 2
+10:29:000107:000107_3 : 10:29:19:474: Makes a representation . 3
+10:29:000109:000109_4 : 10:29:22:618: This makes a representation of the data that is very very busy indeed it can blow up your memory ok so there was there will be also another way to give the data to matrix rotten tomatoes in the next version by two ways of in this is so as represented here instead of having a 3D array of release of Vector . 4
+10:30:000110:000110_1 : 10:29:49:759: You just have . 1
+10:30:000111:000111_3 : 10:29:51:897: Indices and then of course you have to give on the other side to the estimated that are set in which she want to speak to pick the sample space on the Indesit so he you just give this to the tomato and the data set is given that the Beginning at initialisation but then when you fit on the train set Theatre Matilda say ok So I will go to take them for a crazy Bear its similarity and it will it rain next . 3
+10:30:000112:000112_4 : 10:30:31:965: And the only thing that end here is that you will . 4
+10:31:000113:000113_1 : 10:30:37:105: Two things that end first the Witcher putting that in feet is not anymore just does it's the person in this is and you have to be in at the beginning . 1
+10:31:000114:000114_2 : 10:30:49:233: The data into the process of orgrimmar . 2
+10:31:000115:000115_4 : 10:30:54:417: That's you looked on you be able to do it with indices you can also you will also be able to do it with any kind of object that is an indicator of the data so here we can have trains to represent so . 4
+10:31:000116:000116_1 : 10:31:18:519: Instead of indices so here it still very low memory consumption just just a dream and in this case instead of putting the data into the processor you will put a callable . 1
+10:31:000117:000117_2 : 10:31:35:665: Go to the tickets on input data identifiers and go to fetch . 2
+10:31:000118:000118_3 : 10:31:43:801: The data so what the colour Bournemouth return is a 3D array as we said before . 3
+10:32:000119:000119_4 : 10:31:52:452: And in fact . 4
+10:32:000120:000120_1 : 10:31:55:380: In fact . 1
+10:32:000121:000121_2 : 10:31:57:506: How to reduce the memory consumption but it is still a point that I didn't say to you is that if you do this and inside the algorithm in pseudocode then someone goes to fit the whole 3D array then it will be the same problem as before it was create bigger Reddit who brought the memory so in fact what are grieving will do is to fit indices or batch birthday . 2
+10:33:000122:000122_3 : 10:32:27:652: The best so . 3
+10:33:000123:000123_4 : 10:32:30:794: The the Twitter the first 10 examples of pain in the centre of indices and the processor will form a 2D array that have 10 lines and it would be used to update some computation for instance if you want to come to the gradient it will be used to date it's ok now or I will just give you a quick overview of the package so . 4
+10:33:000124:000124_1 : 10:33:06:933: You'll have to read all this is just to tell you that there are . 1
+10:33:000125:000125_2 : 10:33:13:075: At the bottom you can see that they are really don't . 2
+10:33:000126:000126_3 : 10:33:19:205: And I will go into more details you will understand better here so . 3
+10:34:000127:000127_4 : 10:33:26:350: Whether they are all different types of erosions for matrix running we only saw a man and his metric for clustering in the case where you have labelled them but there are also other stuff so first they are some free supervise metric learning algorithms that work as the regular so here for them as reggae or transformers from Jackie Chan like never company night night . 4
+10:34:000128:000128_1 : 10:33:52:499: Nearest neighbourhood and FDA . 1
+10:34:000129:000129_2 : 10:33:57:620: The Moor Road dire . 2
+10:34:000130:000130_3 : 10:34:00:768: Acid metabolism but it's still your throat and . 3
+10:34:000131:000131_4 : 10:34:08:915: This will take as before input point like eggs and two data that is labelled with the fact that and then make sure that they will learn is a metric that Boots close our eyes that have the same class and put far away from each other voices have a Different Class . 4
+10:34:000132:000132_1 : 10:34:30:038: There is also in a supervised by Shawn mak kms reclining for kernel regression so this I go with him will . 1
+10:35:000133:000133_2 : 10:34:40:175: Would do together that have the same target values are in reverse and the why is a continuous value points them so they will be closer together that have the same value . 2
+10:35:000135:000135_3 : 10:34:53:543: And that can be useful for instance if you use the Channel panel regression . 3
+10:35:000136:000136_4 : 10:35:03:691: Turn . 4
+10:35:000137:000137_1 : 10:35:05:823: It's a bit like a k nearest neighbours but for Recreation can improve the performance there but ok so they are also the weakly supervised algorithms and these are the ones that are kind of original and we specific to metric learning . 1
+10:36:000138:000138_2 : 10:35:26:892: Tour de Paris agreement that like the one I presented you my little piece metric for customer there's also a Tunisian man but that you can also run on quadruplets instead of Paris and . 2
+10:36:000139:000139_3 : 10:35:44:027: You are so how does it work but you talk to remember that every weakly supervised when is a weakly supervised as it's because they don't work on the X and Y is there they don't know now on Peugeot could you please find us so every week is supervisor gruesome comes with a supervisor version that is kind of rapper that will underfloor maze on the X and Y . 3
+10:37:000140:000140_4 : 10:36:13:164: Paris hotels are of similar samples and dose of this email sample or they can even create quadruplets as extender after a bit if you if you really want to use it and then see that you are labelled data which is cool because there was more information you can see you this because there's a supervisor . 4
+10:37:000141:000141_1 : 10:36:37:296: So yeah just a quick point about how to learn with granny flat so instead of saying ok these two samples are similar or these two samples old is Mila you can say instead some play is most similar to sample b then C is to D so it's a different kind of supervision is weaker because you don't force you don't force her distance between samples to be smaller or bigger you just say it . 1
+10:37:000142:000142_2 : 10:37:06:432: Bigger than another distance and . 2
+10:37:000143:000143_4 : 10:37:14:820: First Java dataset then you can use it but even you can also cast different problems this way and so to see if you have different results in . 4
+10:37:000144:000144_1 : 10:37:29:945: So . 1
+10:37:000145:000145_2 : 10:37:34:098: Here is a diagram of the weakly supervised owners . 2
+10:38:000146:000146_3 : 10:37:42:260: How do I said that every which is supervised algorithm has a supervisor some Debussy know it from the base of neck base class . 3
+10:38:000147:000147_4 : 10:37:54:894: Call it weakly supervised methadone Aires from the . 4
+10:38:000148:000148_1 : 10:38:00:361: LEGO a meeting for parents are missing for a Peugeot play specifiers which an internal it from a base class from Ipswich sonar . 1
+10:38:000149:000149_2 : 10:38:14:098: Dorinda Slade you see there is a pretty centre score France and authority finder at the . 2
+10:38:000150:000150_3 : 10:38:21:185: Neville from their alloys only could they would be the most you can do everything with notes of times it will be the same way you would score every person see fire . 3
+10:38:000151:000151_4 : 10:38:32:326: So . 4
+10:38:000152:000152_1 : 10:38:35:472: How do you score in the context of mental Theo . 1
+10:38:000153:000153_2 : 10:38:41:607: The first . 2
+10:39:000154:000154_3 : 10:38:43:747: It's not . 3
+10:39:000155:000155_4 : 10:38:45:871: Does every metric learner has to have scopus method because this is the basic stuff you can do with message running is you take two instances and it had to run the metric so it has to give you a metric so similarity or distance between the two points so this is the Scorpions function . 4
+10:39:000156:000156_1 : 10:39:09:009: But as I know you would use the suspension scorers to to do a credit so it uses of threshold for instance you can see you would be able to fix a threshold and say if my car is my similarity score between two samples is very high these are very close together so I would predict one because ok there are similar samples and if it's not then I will predict - 1 and like this week . 1
+10:40:000157:000157_2 : 10:39:44:155: You can benefit from all sites doing fencing that work on classification for instance like the accuracy or are you see . 2
+10:40:000158:000158_3 : 10:39:56:299: What's a be able to use Deezer the functions because . 3
+10:40:000159:000159_4 : 10:40:02:438: The score France and is implemented and it just come . 4
+10:40:000160:000160_2 : 10:40:17:001: Ok yeah where when you can do predictions you you can do accurate is going in and for credit . 2
+10:41:000161:000161_3 : 10:40:28:425: The score in the prediction is done this way you would say one if a so you will have input data which are instead of personal credit so the 2nd Dimension of the 3G a reference and will be for and if they are right they arrive in the right order ring meaning of the first one is most similar to the second one than the surrenders to the first one then as you would predict my . 3
+10:41:000162:000162_4 : 10:40:56:587: It's not . 4
+10:41:000163:000163_1 : 10:40:58:716: If its natural predict - 1 and if it is you would predict what . 1
+10:41:000164:000164_2 : 10:41:04:860: And also as you can the credit plus 100 minus one you can do anything from from section functions to to do all types of scoring . 2
+10:41:000165:000165_3 : 10:41:18:122: Matrix learning algorithms right now in the package or nylon obese London . 3
+10:42:000166:000166_4 : 10:41:30:238: I will explain what it is but that's why there is a missing for that so funny thing is really cool . 4
+10:42:000167:000167_1 : 10:41:41:373: That there is a multiple inheritance or in fact you can create mixing that kind of represents a mathematical properties of estimators and health 3 each we have to organise a different estimators and create new ones that inherit from properties of others etc . 1
+10:42:000168:000168_2 : 10:42:01:509: Laura marlin Ibiza . 2
+10:42:000169:000169_3 : 10:42:04:653: Show me the one that learns a linear transformation of the input space so as a friend with MMC . 3
+10:42:000170:000170_4 : 10:42:15:810: Ok so this means that they all have a transform function I didn't explain it when I was speaking about sex on but . 4
+10:42:000171:000171_1 : 10:42:25:617: There is the Transformers Transformers I got him that . 1
+10:42:000172:000172_2 : 10:42:31:770: Are able to transform points into a number in space and this is what sold all metric learning advisor me know which one would be able to do it and they will also be able to do an insanity reductions so . 2
+10:43:000173:000173_0 : 10:42:50:911: Going to details about this. . 3
+10:43:000174:000174_4 : 10:42:54:544: Will be possible . 4
+10:43:000175:000175_1 : 10:42:57:485: No I will just . 1
+10:43:000176:000176_2 : 10:43:03:607: Look a little bit about testing in the context of metric long but I think it's a place to machine learning or even numerical scientific computing in Python and . 2
+10:43:000177:000177_3 : 10:43:19:756: I like this topic so . 3
+10:43:000178:000178_4 : 10:43:19:756: Alan when you test for instance metre training advisor or machining erosion is the . 4
+10:44:000179:000179_1 : 10:43:29:059: You don't know in advance what you want to test . 1
+10:44:000180:000180_2 : 10:43:33:206: When you want to test summer grazing that will totally you can give off a cliff that I can do example of a list and you know in the event that the least has to be ordered in this way you can see you can specify it and that if it's true or false India but in machine learning you can have a grazing that have several options and don't ok like their own political solution and you don't know in advance so what . 2
+10:44:000181:000181_3 : 10:44:07:347: The the meaning it will going to . 3
+10:45:000182:000182_4 : 10:44:14:489: Or tomorrow at 13 so that hopefully what you can do is to test some properties of the results that you expect so here are some examples for instance with something that is really useful is when you want to implement a new algorithm that has the computer gradient you can check that the gradient is correct basing its phenotype Reclamation . 4
+10:45:000183:000183_1 : 10:44:47:628: Another way of kind of Computing the gradient which is approximate and this is a pre built in sci-fi sci-fi debris so it is really useful for another example is that if you want to say that the transformation is injured in your eyes that you would start with something samples that are linear combination of . 1
+10:45:000184:000184_0 : 10:45:10:534: Example starting at
+10:46:000185:000185_3 : 10:45:16:680: The end they verified dinner or equity ok so you can use three examples and I will go on details about this example simple examples that exhibit a property that you can test and here is an example for My Little Piece metric for clustering MMC . 3
+10:46:000186:000186_4 : 10:45:39:840: You can put 3 points in a space and you say ok I want to label these two points as ring Lisa Miller and disappointed been similar but at the starting point there are there they don't respect this because this is his distance here is smaller than this distance . 4
+10:46:000187:000187_1 : 10:45:59:980: I said she's a toy example because you know in advance that there exist A linear transformation that will be able to put the two points too as well and these two points further . 1
+10:46:000188:000188_2 : 10:46:12:233: Because you can just rescale axis is an email confirmation of the space and it will give you the reason she wants . 2
+10:46:000189:000189_3 : 10:46:21:367: Here is how you did say to you and one thing is that is important is that in the end you will not test card values of . 3
+10:47:000190:000190_4 : 10:46:31:523: The coordinates of the Punch with just a test the ranking of the senses so of course is more difficult to really test but because of you there are lots of stuff that you you don't test here but still doing a lot of time examples like this you can prevent a lot of mistakes it's a lot of it so as a quick recap of . 4
+10:47:000191:000191_5 : 10:46:57:670: What will happen in new in version 0.5 0 is that you will be able to be compatible with Jackie Chan . 1
+10:47:000192:000192_2 : 10:47:06:815: The research etc and do it in memory efficient way with the process arrival . 2
+10:47:000193:000193_3 : 10:47:14:962: Our to submit to 13 contributor and country is an organisation on the top that holds lots of second-hand compatible packages and so there are some requirements of quality of course compatibility with set kitchen to a lot of tests that has to pass . 3
+10:47:000194:000194_4 : 10:47:38:101: Like special as a secretary of death . 4
+10:48:000195:000195_1 : 10:47:42:267: Ok so little that would give some more of this ability to the project and . 1
+10:48:000196:000196_2 : 10:47:50:106: So also other stuff on the next step tour still get sick of tomatoes or tomatos so right now a lot of his own use cypher algorithms for optimising princess mattresses princess parameters that you want to run so that they use for the ultimate computer full radiance on all the samples so I sent if you know about the super secret Santa sent is it Sunnah gradon that only . 2
+10:49:000197:000197_3 : 10:48:27:254: Only works on batteries of samples and does one iteration by comes to go grey dun dun some samples and sunbed shop sample and then do it like so if you are allowed to be more scalable also because it is not only is doesn't blow the memory but it also can convert faster because they were the purpose of our stuff that prevents for rowing the memory but still I could take a long time to . 3
+10:49:000198:000198_4 : 10:48:57:409: Resample to computer greyhounds and Jen just wanted to Russian etc so this will also allowed to be quicker . 4
+10:49:000199:000199_1 : 10:49:05:543: Then I would like to give more choices to form pairs or counterfeit or forgery place from label data so right now it's very nice we just see some enable data and we just say ok we want to form all the possible pairs so if you have a 5 images from the oneplus you will create £25 and then you can select to just keep a few samples but maybe we can do more intelligent by . 1
+10:49:000200:000200_2 : 10:49:36:688: Only creating build that sell have a useful information ok . 2
+10:50:000201:000201_3 : 10:49:43:848: Who had emotional functions like regularizer this thing of course is that can never be too much to sing in the communication a lot more documentation . 3
+10:50:000202:000202_4 : 10:49:55:990: African is a very neat returning is an original away and origin of subset of machinery which is very useful when you want to run similarities and when you have can be useful when you have a weekly to provide information there are many use cases about it does the Metrocentre kids to do it which is open source and in the next version there will be sectioned compatibility . 4
+10:51:000203:000203_0 : 10:50:26:133: Yeah you can check it out it's our first or second raise issues submitted. Discuss on guitar and any contribution is very welcome . 1
+10:51:000204:000204_2 : 10:50:38:355: That's it for me thank you very much for attention and you have any questions . 2
+10:51:000205:000205_3 : 10:50:45:496: Ok . 3
+10:51:000206:000206_4 : 10:51:01:000: Yeah . 4
+10:51:000207:000207_1 : 10:51:05:148: Yes so ok so the question was that you have a problem or you use one particular emitter sending a dozen NCA and . 1
+10:51:000208:000208_2 : 10:51:39:302: Ok . 2
+10:52:000209:000209_3 : 10:51:44:442: Ok so in a very large database of documents are more than Southend and you want to . 3
+10:52:000210:000210_4 : 10:51:53:593: Parallelizable . 4
+10:52:000211:000211_1 : 10:51:54:593: That's a good question and NCA been working on any at the beginning of my contract so . 1
+10:52:000212:000212_3 : 10:52:10:046: Who is use numpy applications that and then B and ensure that it is a Oreo competition to vectorise so that there was a parallelism for likes to be really fast so that the first thing . 3
+10:52:000213:000213_4 : 10:52:25:185: If you know I can run it on images of maybe not use database but I still really really faster than that what was at the beginning metric ton Francis . 4
+10:53:000214:000214_1 : 10:52:39:331: The use of an Empire because it's under the authority . 1
+10:53:000215:000215_2 : 10:52:46:466: God will use older cars to do matrix multiplication but then now you talk about so I think that there will also be the problem of memory may be . 2
+10:53:000216:000216_3 : 10:52:59:605: So maybe the process of John would be something that you could use to avoid the two forms a to having memory old are the similarities of the Pearl Princess . 3
+10:53:000217:000217_4 : 10:53:17:746: Yeah . 4
+10:54:000218:000218_1 : 10:53:21:901: Two different letters etc . 1
+10:54:000219:000219_2 : 10:53:27:038: Width width Excel for instance there is but people record me if I'm wrong with you can use for instance different backend that like dark or I like that which is another library that Rose to do parallel processing there is a friend that's gay marriage records x-rays and allowed to do machine running on different letters and . 2
+10:54:000220:000220_3 : 10:53:57:185: Sore and the requirement that later on maybe . 3
+10:54:000221:000221_4 : 10:54:02:316: Maybe better enjoy them is quite simple so it could be easy quote in that may be so . 4
+10:55:000222:000222_1 : 10:54:12:452: Yeah . 1
+10:55:000223:000223_2 : 10:54:30:503: Yep . 2
+10:55:000224:000224_4 : 10:54:34:501: So that's a good question so ok the question was how does it compare for instance for the coming similarities 2 comments retrieval how does it compare how does metric learning compared to other techniques that are like I guess you are talking about embedding techniques that will ever and documents in some space yeah . 4
+10:56:000225:000225_1 : 10:55:26:811: So . 1
+10:56:000226:000226_2 : 10:55:28:973: So first they are you can do some basic . 2
+10:56:000227:000227_3 : 10:55:28:973: With the machine running in deal with a TF idf etc but sometimes it would not give you some good reasons that's why some people use because the initial metric is not really good advice people will try sometimes to embed documents in space that is that is that has more information can be a supervisor or superviser like with different axis thickness etc but so and . 3
+10:56:000228:000228_4 : 10:56:09:276: This would compare maybe to the supervised algorithm in metric ton that are ways to Amber's points are in a space space on some labelled information Francis mama Tree Chinese very very useful is when you don't have a label and you don't want to do and supervised learning because it will not give you what you want like and in this case when you have labels on the bath or a . 4
+10:57:000229:000229_1 : 10:56:38:422: And this is stuff that is easier to ask to mechanical Turks . 1
+11:03:000230:000230_2 : 10:56:45:663: You would like to use the metric metre training . 2
+11:03:000231:000231_3 : 10:56:50:801: At element of the next song . 3
+ 
+ 
+ 

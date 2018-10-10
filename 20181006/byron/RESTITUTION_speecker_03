@@ -1,0 +1,136 @@
+ 
+
+03_Trio: rendre l'asynchrone Pythonique Emmanuel Leblond
+
+
+
+11:08:000275:000275_4 : 11:07:10:944: Je regarde quoi ah ouais bon bah c'est le futur . 4
+11:08:000276:000276_1 : 11:07:26:975: Du coup . 1
+11:08:000277:000277_2 : 11:07:31:209: C'est bon . 2
+11:08:000278:000278_3 : 11:07:38:960: Bonjour à tous désolé pour le petit retard aujourd'hui j'aimerais vous parler de Tryo et surtout de Python et de la synchronie comment trio va être capable de peut-être vous aider à moins souffrir en termes asynchrone . 3
+11:08:000279:000279_4 : 11:07:54:742: Si j'étais très ancien samantha twisted il y a maintenant plus de 15 ans message à un gros boum ces dernières années avec l'arrivée de as un caillou et surtout du mot clé async await . 4
+11:09:000280:000280_1 : 11:08:07:561: La question c'est surtout à quel point async await a changé nos vies et pour ça on pourrait regarder un petit peu dans le passé comment est-ce qu'on fait de la programmation asynchrone avant donc là j'ai un exemple qu'on ne sais plus du tout en python donc j'ai dû même prendre un autre langage pour donner quelque chose qu'on peut encore voir quelquefois dans du code donc là . 1
+11:09:000281:000281_2 : 11:08:24:683: Fil uniquement des callback donc c'est un autre disponibilité . 2
+11:09:000282:000282_3 : 11:08:31:792: Le canton Vaud j'irai des erreurs il faut tout gérer soi-même si on commence à lancer une exception elle va se retrouver dans l'immeuble où payer par exemple là qui a appelé une autre chose comme ça . 3
+11:10:000283:000283_4 : 11:08:32:792: Donc au bout de quelques temps les gens ont commencé à créer un nouveau concept que les promesses donc on appelle ça des futurs . 4
+11:10:000284:000284_1 : 11:08:56:081: Donc on va créer un objet qui va représenter l'état notre callback et comme ça ça va être beaucoup plus simple de chenil et l'école bac les unes après les autres pour pouvoir gérer les erreurs dire on va lancer cette date-là si jamais la première . 1
+11:10:000285:000285_2 : 11:09:10:196: C'est bien mais au final c'est toujours d'école bac avec beaucoup de syntaxe et d'amélioration retour donc on a toujours le même problème qui est que une callback est jamais connecté à son parents si jamais on commence à l'ancien debugger là-dessus on arrivera vraiment pas très loin et ne reviens c'est toujours assez douloureux donc c'est là ou bien sûr il y a . 2
+11:10:000286:000286_3 : 11:09:31:310: On peut voir que le code est beaucoup plus lisible et beaucoup plus sympa je pense qu'on peut même encore un petit peu l'améliorer et du coup voilà donc là on est maman on fait de la site donc on se concept de fonction asynchrone qui fonctionne . 3
+11:10:000287:000287_4 : 11:09:45:426: La seule chose qu'on a en plus c'est pouvoir utiliser le mot-clé ah ouais on veut pouvoir mettre la fonction en pause la gestion des erreurs c'est exactement comme dans les fonctions synchrone avec des exceptions donc tout à l'heure parfait alors est-ce que c'est parfait . 4
+11:11:000288:000288_1 : 11:10:01:534: Petit truc qui pose problème donc j'ai un exemple . 1
+11:11:000289:000289_2 : 11:10:06:654: Si qu'on va avoir un serveur oncle activer la fonction c'était douleur . 2
+11:11:000290:000290_3 : 11:10:11:004: Méchant de moi pardon voilà donc je disais on a donc on va lancer un serveur qui va tourner continuellement ce serveur là de temps en temps il va c'était du lait un travail et le problème de ce travail là c'est que il y a un problème dans le travail donc ça fait une exception donc si on regarde ce que ça donne ça . 3
+11:11:000291:000291_4 : 11:10:31:998: Pardon j'ai le code ici stock c'est le même que ce que je vous ai présenté je lance un donc il y a le premier job qui dérive et la . 4
+11:12:000292:000292_1 : 11:10:43:148: Si jamais on est habitué que à faire de la programmation synchrone vu qu'on avait une exception dans le code et que cette exception A4 chez nous par ben c'est devoir monter jusqu'à la jusqu'au début notre programme programme exploser par l'histoire alors que la pas du tout on se retrouve avec . 1
+11:12:000293:000293_2 : 11:11:00:263: Hello programme qui continue à tourner c'est bizarre et si on regarde un petit peu les exceptions on va voir qu'on va nous parler de la fonction do something syride exception on va nous parler de worker qui était la fonction parents qui appeler do something s'aimer on va pas plus donc si on regarde un petit peu le code qu'on avait à la base en fait on se rend bien compte que le problème . 2
+11:12:000294:000294_3 : 11:11:20:398: C'est-à-dire ici on va créer une comptine une nouvelle Coroutine qui va être séparé de salins et cette nouvelle pour routine avis avis dans son coin et elle est plus du tout vous connecter . 3
+11:12:000295:000295_4 : 11:11:31:043: Donc si ça te routine un problème là problème remonte dans les clous et il va tu loupes il se retrouve comme une poule avec infusion avec un cure-dent qu'est-ce qu'il va faire avec cette exception soit il arrête tout ce qu'il y a de moins mauvais à faire sa fiche l'exception et puis il continue en pour que c'était pas grave . 4
+11:12:000296:000296_1 : 11:11:51:162: Exemple qu'on pourrait prendre c'est ça donc là c'est une fonction grosso modo joue à la roulette russe mais de manière récursive . 1
+11:12:000297:000297_2 : 11:12:00:698: Fonction roulette russe là-dedans on va voir si on a de la chance ou pas si on a pas de chance une exception . 2
+11:12:000298:000298_3 : 11:12:10:822: Lancer de nouvelles comptines et on va utiliser as in Cayo gazon qui est une fonction qui va permettre en fait d'attendre que ces deux coups routine est fini de travailler avant de continuer notre corps et initiale donc si tu travaillais ça veut dire aussi jamais une des deux Coroutine un problème et lance une exception l'autre coup routine va être annulé et l'excès . 3
+11:12:000299:000299_4 : 11:12:11:822: Relancer par racine caillou Gardeur dans la Coroutine parente . 4
+11:12:000300:000300_1 : 11:12:33:640: On essaie de lancer sa . 1
+11:12:000301:000301_2 : 11:12:36:596: J'ai le code . 2
+11:13:000302:000302_3 : 11:12:39:708: Je lance . 3
+11:13:000303:000303_4 : 11:12:42:158: Ça sent pas bon moyen . 4
+11:13:000304:000304_1 : 11:12:47:731: Truc bizarre . 1
+11:13:000305:000305_2 : 11:12:49:849: Si je m'arrête un petit peu plus vite . 2
+11:13:000306:000306_3 : 11:12:53:980: Est-ce que je peux rouler un petit peu voilà donc là je commence à jouer à notre roulette russe passe des choses un moment on n'a pas de chance donc à l'exception exception et récupérer et ici on se retrouve dans un autre fonction . 3
+11:13:000307:000307_4 : 11:13:14:100: Juste en train d'attendre un petit peu à la fin on attend un peu en ce qui se passe . 4
+11:14:000308:000308_1 : 11:13:20:216: Et le truc deviens complètement fou il annonce partout donc il y a quelque chose qui est qui marche pas quoi . 1
+11:14:000309:000309_2 : 11:13:27:485: Je regarde un petit peu comment fonctionne le système au niveau des courtines on commence avec juste de Pauline princes . 2
+11:14:000310:000310_3 : 11:13:34:732: Gynéco à l'essai de veau à la roulette russe . 3
+11:14:000311:000311_4 : 11:13:38:866: Lancer de nouvelles routine fille celle-ci voile même gagné donc on va se retrouver en cette situation maintenant si on regarde comment fonctionne les gaz heure . 4
+11:15:000312:000312_1 : 11:13:49:789: On a la cour aussi de main qui attend la Coroutine 1 et 2 grâce à gazon et qui attend un deux et d'autres qui attend demain tout va bien jusqu'à ce que évidemment il y a une exception exception va être récupéré par . 1
+11:15:000313:000313_2 : 11:14:09:903: Pour te dire ici ce gamin-là va annuler la Coroutine de seins et tu vas faire remonter l'exception donc on va remonter à nouveau va jouer à nouveau à ce petit jeu avec le gaz heures qui est dans la courtine mais qui va annuler cette exception là aussi . 2
+11:15:000314:000314_3 : 11:14:25:033: Puisque notre exception ne remonte plus puisque à se retrouve dans le main et qu'on a mis un try except par contre routine qui était surveillé par un gars qui était une poutine qu'il est donc du coup c'est . 3
+11:15:000315:000315_4 : 11:14:38:149: Continuera travail consistait à démarrer déco routine dans une situation . 4
+11:15:000316:000316_1 : 11:14:45:061: Du coup à partir de là on peut se rendre compte que voir ma synchro c'est toujours pas parfait et donc il y a quelques petits trucs qu'on aimerait bien améliorer donc notamment ceux qu'on voudrait c'est à partir d'une cartouche pour voir d'où vient cette routine qui est son parent comment remonter jusqu'au . 1
+11:16:000317:000317_2 : 11:15:03:190: Retro levé il faut qu'elle puisse remonter jusqu'au main aussi elle est pas 4G . 2
+11:16:000318:000318_3 : 11:15:08:834: Truc on aimerait bien pouvoir faire ses contrôles et facilement la durée de vie d'une coup routine par rapport à ses parents et ses enfants par exemple là ce qu'on a vu quand on a un parent qui est arrêté on aimerait que facilement pouvoir dire je veux que les enfants soient aussi arrêté . 3
+11:16:000319:000319_4 : 11:15:22:859: Ce sont là où je vais vous vendre la la révolution de ma conférence qui est donc du coup trio donc la personne qu'on voit la . 4
+11:16:000320:000320_1 : 11:15:32:983: Nathaniel Smith et lui c'est bon on a ce nouveau mot-clé async await qui est super bien qu'est-ce qui se passerait si jamais on crée un nouveau framework asynchrone qui laisserait tomber tous les concepts archaïque comme les callback les promesses qui se concentrer juste sur async await et en plus de ça qui a introduit réunion nouveau jeu de primitive qui permettent . 1
+11:16:000321:000321_2 : 11:15:33:983: De simplifier comment on parle de concepts asynchrone . 2
+11:17:000322:000322_3 : 11:16:01:322: Donc trio concrètement l'architecture ces trois choses donc on a déjà vu async await et il y a deux autres choses qui sont un peu plus exotiques cellscope donc si on commence par D . 3
+11:17:000323:000323_4 : 11:16:15:448: Fonction la fourrure roulette russe version trio donc tout ce qui change c'est juste cette mercerie Hallyday c'est en trio contrairement à vendre à St caillou on peut pas créer une poutine comme ça ex nihilo il faut forcément qu'on utilise une nurserie pour créer une Coroutine que ça veut dire c'est que à chaque fois qu'on a une poutine celle-ci est toujours connecté à 1h sonnerie . 4
+11:17:000324:000324_1 : 11:16:37:578: Le truc et très intéressant avec sa sœur sourire c'est aussi un compteur asynchrone donc on rentre dans ce contexte par contre . 1
+11:17:000325:000325_2 : 11:16:46:705: Sortie va bloquer tant que toutes les Coroutine de cette nursery n'ont pas été résolu n'ont pas se terminer . 2
+11:17:000326:000326_3 : 11:16:54:059: Va bloquer tant que ce qui à l'intérieur la n'ai pas terminé en quoi est-ce que ça résout le problème . 3
+11:18:000327:000327_4 : 11:17:01:918: Donc là j'avais mon mon arbre de Kourou teen selfie lité dans mon exemple près . 4
+11:18:000328:000328_1 : 11:17:09:597: On a donc du coup des nursery qui maintenant enveloppe chacune de ses comptines donc ça me donne quelque chose qui a à peu près 7 être là et en fait on rentre il y a un outil qui s'appelle le moniteur qui permet en fait de se connecter . 1
+11:18:000329:000329_2 : 11:17:22:737: Python qui fait tourner un programme Tryo et de regarder en temps réel quels sont les coûts routine qui existe donc si on lance monitor sur le programme on va tomber sur quelque chose qui est comme ça . 2
+11:18:000330:000330_3 : 11:17:34:573: On arrive avoir très facilement que maintenant avec ce concept de nurserie trio est capable de créer vraiment un arbre un graphe de routine et donc de mettre des hiérarchie entre ces différentes routine à partir de la une exception comme ça . 3
+11:19:000331:000331_4 : 11:17:49:692: Est-ce que le trio va être capable de propager l'exception et d'annuler en fait toutes les Coroutine qui sont en dessous de bas de la courtine qui est en train de gérer l'exception actuellement et donc on se retrouve dans un cas où on a nettoyé toute la routine sans aucun problème . 4
+11:19:000333:000333_1 : 11:18:05:794: Clément dans l'architecture de Triomphe et on appelle les quand elle sera alors l'idée de se dire qu'on fait de la synchrone trouver de la synchro communiquant Générale avec l'extérieur l'extérieur c'est grand il y a plein de problèmes et des routeurs qui répond pas et donc du coup on se retrouve avec un moment . 1
+11:19:000334:000334_2 : 11:18:24:919: Du coup ce serait pas mal de dire j'ai un arbre de Coroutine je veux appliquer une règle par exemple surtout ce morceau d'armes je veux pas que ce morceau d'arbre il tourne plus que met-on 0 3 second . 2
+11:19:000335:000335_3 : 11:18:36:649: En fait c'est toujours assez simple en trio on va créer un autre contexte manager qui s'appelle donc un compte . 3
+11:19:000336:000336_4 : 11:18:44:141: On reste dans ce contacte manager pour au maximum 0 3 secondes et tu es comme ça magiquement on a dit que tout cet ensemble lin celui qui était en dessous . 4
+11:20:000337:000337_1 : 11:18:57:278: Ils vont . 1
+11:20:000338:000338_3 : 11:19:20:541: On peut peut-être se poser la question ok c'est bien là sur le papier mais qu'est-ce que ça donne dans la vraie vie du coup pour faire ça qu'on peut faire c'est Ryan un exemple typique qui a été présenté par Daniel lors de la dernière . 3
+11:20:000339:000339_0 : 11:19:21:541: Je veux contacter le serveur Debian. Regarde pour faire ça faut que je fasse une résolution DNS sauf que bien sur internet c'est compliqué donc quand je fais la résolution DNS je vais me retrouver avec une seule adresse IP maintenant . 4
+11:20:000340:000340_1 : 11:19:51:885: La première solution ce serait la solution . 1
+11:20:000341:000341_2 : 11:19:55:333: Au bout d'un moment ça timeout la 2e exetera je sais que c'est très lent . 2
+11:21:000342:000342_3 : 11:20:02:477: Je sais tout en parallèle et puis le premier qui marche . 3
+11:21:000343:000343_4 : 11:20:08:604: Donc il faut trouver quelque chose qui soit un petit peu entre les deux l'idée c'est justement cet algorithme qui s'appelle . 4
+11:21:000344:000344_1 : 11:20:17:276: Parce que on va commencer avec la première adresse IP on essaie de la lancée si au bout d'un moment ça marche pas alors on va lancer une nouvelle tentative sur une autre adresse cette adresse ne réussis pas il joue rapidement alors on attend pas plus que de raison . 1
+11:21:000345:000345_2 : 11:20:35:308: Idée que une de ces adresses réussi et bien on annule les autres les autres tentative voilà donc ça c'est api-agro il y a pas d'implémentation un caillou par contre il y en a une en twisted . 2
+11:21:000346:000346_3 : 11:20:50:625: Donc selon Nathaniel c'est assez compliqué à lire il y a plein de cou routine qui sont un briquet dans déco routine donc le bon c'est vraiment difficile et donc du coup et légendes de Twisted ils sont au courant de ça donc ils sont on va faire mieux on va aller dans les trucs et donc il y a le créateur de Custines . 3
+11:21:000347:000347_4 : 11:21:09:141: Une nouvelle version . 4
+11:21:000348:000348_1 : 11:21:12:326: Si paraît que c'est mieux mais il n'en n'ai toujours pas très content il y a encore des petits problèmes exetera bon c'est pourtant c'est quand même le créateur de cuisson gros . 1
+11:22:000349:000349_2 : 11:21:22:469: Lance dans l'univers python en pression asynchrone . 2
+11:22:000350:000350_3 : 11:21:26:209: Alors que on en train de parler d'un concept d'un algorithme arrivé à décrire avec des moules vin très facilement donc il y a vraiment un problème de vocabulaire dans la façon qu'on a de programmer quand on arrive pas à toucher les bons concept . 3
+11:22:000351:000351_4 : 11:21:38:114: Que ça donne en trio . 4
+11:22:000352:000352_0 : 11:21:40:513: Jusque-là taux de notre notre fonction mon appel open TCP socket tout en haut ce qu'on fait c'est juste la résolution DNS donc Tryo. Sockets exactement comme le . 1
+11:22:000353:000353_2 : 11:21:50:655: Est-ce qu'on va avoir la fin c'est une variable qui va t'appeler winning chocolat tu sois contiendra quelque chose on aura réussi soirée concernant rien . 2
+11:22:000354:000354_3 : 11:22:00:714: Donc du coup qu'est-ce qu'on va faire alors ce qu'on voit c'est qui . 3
+11:22:000355:000355_4 : 11:22:05:798: Plusieurs choses en parallèle en trio il y a pas 50 façons de le faire il faut qu'on ouvre une heure ce . 4
+11:22:000356:000356_1 : 11:22:12:162: On crée notre mercerie mercerie elle va appeler une fonction a tent qui sera la à la première tentative qu'on va faire . 1
+11:22:000357:000357_2 : 11:22:19:935: Est-ce que c'est la première tentative du coup est-ce qu'on peut voir c'est que la première tentative on fait au tout début en fait c'est surtout on attend à la toute première . 2
+11:23:000358:000358_3 : 11:22:30:080: Prophétie on va attendre donc l'idée c'est de se dire qu'est-ce qu'on va attends il y a deux choses qu'on attend la première chose si on veut que la tentative précédente si elle échoue on arrête d'attendre et l'autre chose Cécilia page précédente prend trop de temps . 3
+11:23:000359:000359_4 : 11:22:43:206: Pour dire la tentative précédente il faut . 4
+11:23:000360:000360_1 : 11:22:46:430: Autant d'événements qui va y avoir de tentative et quand une tentative échoué à jour c'était maintenant . 1
+11:23:000361:000361_2 : 11:22:52:065: Et l'autre chose quoi faire ses . 2
+11:23:000362:000362_3 : 11:22:55:628: Je veux pas me retrouver dans une eau clap plus 2 le temps du timeout si on est plus long que ça va sortir du temps voilà une fois qu'on fait ça . 3
+11:23:000363:000363_4 : 11:23:06:796: L'autre chose qu'on doit faire juste avant de commencer réellement à travailler si on se retrouve ici c'est lancé la tentative suivantes pour qu'elle commence à faire son attente donc pour faire ça . 4
+11:24:000364:000364_1 : 11:23:07:796: J'appelle la fonction internet sur la prochaine tentative . 1
+11:24:000365:000365_2 : 11:23:26:309: Tout ce qu'il me reste à faire se faire le travail de connexion à socket réellement donc ça c'est exactement le coffret avec le plastique . 2
+11:24:000366:000366_3 : 11:23:36:424: Soit ça a échoué donc on a une exception exception et on peut mettre à jour . 3
+11:24:000367:000367_4 : 11:23:43:526: Notre tentative a pas marché ou alors on a réussi c'est la fête et là du coup on va se retrouver avec l'autre meaning socket donc on va mettre à jour un autre variable . 4
+11:24:000368:000368_1 : 11:23:54:434: On va utiliser le camp de cellscope directement fourni dans la nurserie pour annuler la nurserie qu'est-ce que ça veut dire ça concrètement ça veut dire que toutes les Coroutine qui existent encore renseignements sur ils vont tout est annulé . 1
+11:24:000369:000369_2 : 11:24:08:553: Ça veut dire que cette se contacte manager là on peut en sortir . 2
+11:25:000370:000370_3 : 11:24:15:658: Où donc soir on a notre Unix socket qui vient d'ici soit ça veut dire qu'on a épuisé toutes les tentatives on a pas de Winx ok tu es mon rayon . 3
+11:25:000371:000371_4 : 11:24:24:384: Donc là c'est le moment où je peux vous faire une démonstration que ça marche ça va être extrêmement impressionnant parce que j'ai déjà préparé le truc qui a pas de suspens mais on va faire semblant ça marche . 4
+11:25:000372:000372_1 : 11:24:38:503: Du . 1
+11:25:000373:000373_2 : 11:24:41:266: Plein de bonnes choses qui sont dans donc Gabon tout ce qu'il faut bien pour faire de la synchro évidemment . 2
+11:25:000374:000374_3 : 11:24:48:197: Plein de choses il y a plein de choses pour tester si vous aimez hipotesis ça supporter hipotesis assez bien il y a un module pie test qui marche vachement bien le contrôle c'est qui marche ça semble ridicule quand on dit comme ça mais en fait contrôler c c super important c'est . 3
+11:26:000375:000375_4 : 11:25:09:320: Lire l'article Nathaniel il a un blog ce blog extrêmement intéressant je vous invite tous aller le voir où jeter dessus . 4
+11:26:000376:000376_2 : 11:25:17:438: Il y a plein de choses qui se passent d'habitude et là comme on fait de la synchronie a plein de choses qui se passe a plein d'endroits différents donc ça devient extrêmement compliqué la plupart des framework is juste compliqué à sous le tapis . 2
+11:26:000377:000377_0 : 11:25:32:691: Romania quand il fait des choses
+11:26:000378:000378_4 : 11:25:37:813: Il y a aussi ma fonction été préférée c'est qu'on peut rendre à St caillou et Rio compatibles mais ça c'est génial parce que là ça caille au c'est déjà compatible avec twisted et avec tornade . 4
+11:26:000379:000379_1 : 11:25:49:877: Juste avec cette solution qui consiste à réécrire une une email tu passes un caillou par-dessus trio on est capable d'être compatible avec tout l'écosystème asynchrone de Python depuis trio par exemple le code applicatif que nous on va écrire on va l'écrire en trio et ensuite on va pouvoir s'appuyer sur des bibliothèques marion pour connecter . 1
+11:26:000380:000380_2 : 11:26:12:003: Directement depuis tri . 2
+11:26:000381:000381_3 : 11:26:15:724: Qui dit des choses bien dessus donc peut-être qu'il faudrait . 3
+11:27:000382:000382_4 : 11:26:23:848: Et à propos . 4
+11:27:000383:000383_1 : 11:26:27:342: De la conférence de Nathaniel à la Picone qui contient absolument . 1
+11:27:000384:000384_2 : 11:26:33:941: Notamment les conférences aller voir si vous voulez savoir plus les articles de son blog à lire si vous voulez en savoir plus exetera donc je vous invite à regarder si ça vous . 2
+11:28:000385:000385_3 : 11:26:44:102: Bon bah deux trois questions . 3
+11:28:000386:000386_4 : 11:26:56:221: Oui . 4
+11:28:000387:000387_3 : 11:27:15:693: Alors du . 3
+11:28:000388:000388_4 : 11:27:20:931: Donc du coup la question c'est si on a des nursery qui sont les unes dans les autres comment se passe le nettoyage des Coroutine . 4
+11:29:000389:000389_1 : 11:27:31:974: Du coup au final les nursery faut juste imaginer que c'est des objets qui permettent de tenir en laisse les différentes Coroutine donc à la fin le concept d'annulation ça veut juste dire que on a une copine qui appelle donc il fait un à Weight quand elle fait un ah ouais tu as mis en pause et la weight ensuite on va avoir un résultat qui va sortir ou alors on peut avoir une exception . 1
+11:29:000390:000390_2 : 11:28:00:116: Injecter une exception comme celle dont sept à la sortie de cette de cette et donc notre fonction notre routine on va juste la voir Razer heure . 2
+11:29:000391:000391_3 : 11:28:13:234: Exception exception comme ça et du coup nous dans notre code très facilement on peut du coup catch exception sur me faire un travail final ou alors on peut on the block en I finally travail et on peut même utiliser pour empêcher un petit peu . 3
+11:29:000392:000392_4 : 11:28:30:365: Le niveau 2e . 4
+11:29:000393:000393_3 : 11:28:49:674: Alors trio a l'air vachement bien pourquoi est-ce que c'est pas encore plus utilisés . 3
+11:30:000394:000394_4 : 11:28:59:326: Donc du coup le truc c'est trio c'est très récent donc ça date d'il y a de 3 ans à peu près . 4
+11:30:000395:000395_1 : 11:29:08:446: Subway très récent que je disais c'est à peu près la base de code . 1
+11:33:000396:000396_2 : 11:29:13:527: La plus qualitatif que j'ai eu droit de lire dans le sens où à chaque fois qu'on lit un paragraphe en ligne code on a un paragraphe énorme qui parle de pourquoi est-ce que c'est fait cette manière-là avec toute la biographie surtout donc si vous la prendre des choses . 2
+11:33:000397:000397_3 : 11:29:27:661: Ensuite voilà c'était toujours assez jaunes les concepts ont fait leur petit bonhomme de chemin notamment justement dans as un caillou te dire que il y a plein de concert de Tryo qui sont en train d'être heureux verser dans la saint caillou il y a Youri café pas mal de conférence à ce suis là donc avec un peu de chance on aura même pas besoin de passer à trio on aura que les bébés . 3
+11:34:000398:000398_4 : 11:29:47:777: Ça c'est la théorie et la pratique c'est qu'un énorme avantage atriaux par rapport à St caillou c'est quand même que trio est extrêmement simple alors que la saint caillou dois quand même se traîner tout a des techniques qui l'a engendré comment Cézanne . 4
+11:34:000399:000399_1 : 11:29:59:887: Voilà voilà . 1
+11:34:000400:000400_2 : 11:30:03:196: Bon bah merci beaucoup . 2
+
+ 
+
+
+

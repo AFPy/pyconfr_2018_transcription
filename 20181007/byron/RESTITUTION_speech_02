@@ -1,0 +1,153 @@
+
+
+02_Recipes for Testing your Web Application Alexandre Figura
+
+
+
+11:03:000176:000176_1 : 11:03:23:342: Kasoor Hai the money . 1
+11:03:000177:000177_3 : 11:03:33:495: Discuss about testing web applications and . 3
+11:04:000178:000178_4 : 11:03:39:597: Display problems like . 4
+11:04:000179:000179_1 : 11:03:43:050: 16 9 display and it's 4:3 so maybe the pictures is a bit Ugly . 1
+11:04:000180:000180_2 : 11:03:52:174: I didn't know sorry but I am Alexander I am French but I'm working in Berlin since two years now so that's why I make my talking English so I can share my video with my colleagues and I am I missing python . 2
+11:04:000181:000181_3 : 11:04:11:294: I'm working on . 3
+11:04:000182:000182_4 : 11:04:13:409: I'm working on managing an openstack cloud every day but I also making weather applications and so that's why I will talk to you about how to test web applications today . 4
+11:04:000183:000183_1 : 11:04:25:959: But before starting two questions to be to see what is your love Island test and what applications you already use pytest . 1
+11:04:000184:000184_2 : 11:04:37:518: Hotel most everybody . 2
+11:04:000185:000185_3 : 11:04:38:518: Exeter acceptance test . 3
+11:05:000186:000186_4 : 11:04:44:824: Ok good . 4
+11:05:000187:000187_1 : 11:04:47:459: Let's start from the beginning . 1
+11:05:000188:000188_0 : 11:04:51:591: I don't work in general there is two different point of view, so
+11:05:000189:000189_2 : 11:04:52:591: you have to develop test your product manager and there is you and most of the time you have different point of view . 2
+11:05:000190:000190_3 : 11:05:07:135: your project manager will tell you if you go to . 3
+11:05:000191:000191_4 : 11:05:12:259: Ok I need I need time to Whitehurst you will tell you I don't have much time because time is money and I need all this time to develop new features instead of writing test so just don't birds and it would be fine but . 4
+11:06:000192:000192_1 : 11:05:28:457: you know it's doesn't work like that but even I was the world's most of the time maybe we don't like to write it because it's not that much funnier compared to writing real world so yeah we just tried a couple of test request otherwise we have someone else . 1
+11:06:000193:000193_2 : 11:05:49:587: So you have a coupe request is Milton book everybody's happy . 2
+11:06:000194:000194_3 : 11:05:50:587: Le Does the music from . 3
+11:06:000195:000195_4 : 11:05:58:651: Somme maybe to 50/:/ . 4
+11:06:000196:000196_1 : 11:06:04:765: Hotel What's a why don't you like to write . 1
+11:06:000197:000197_2 : 11:06:09:797: Ok . 2
+11:06:000198:000198_3 : 11:06:17:560: Ok ru Liverpool . 3
+11:06:000199:000199_4 : 11:06:26:655: Do you like to write it . 4
+11:06:000200:000200_1 : 11:06:29:781: Who did Andre the centre . 1
+11:06:000201:000201_2 : 11:06:32:902: So why do you like to write tests ? . 2
+11:07:000202:000202_3 : 11:06:38:454: Ok . 3
+11:07:000203:000203_4 : 11:06:43:561: When I asked to people to tell me they just say it's a bit boring and get more funny to just write code and I also think that . 4
+11:07:000204:000204_1 : 11:06:57:684: What's the score . 1
+11:08:000205:000205_0 : 11:06:59:793: Show me how to write code and design patterns and architecture stuff but they didn't teach me how to write and when you make it project school you will do it very quickly then you get your exam and you don't spend time writing tests and when you get older you start to work and while we do not have much time to new things and so we spend
+11:08:000206:000206_3 : 11:07:26:934: And learning how to write tests I need to send for project managers like they don't really know why you from white as because they didn't what could they didn't write code at school so we have different point of views and many kind of test cleaner Tesco kind of test ok we don't . 3
+11:09:000208:000208_4 : 11:07:50:048: People don't really know what to do when what does it mean so maybe if we don't like to write us why should we write tests and probably we all work in a company where we had to maternity coat days and then we find out if somebody calls you start using them and those alone in this world like the most if you use often git blame you have a lot of probability that you will leave your company sweater . 4
+11:09:000209:000209_1 : 11:08:24:178: That's why you should write tests something to stay for your colleagues to stay with you in the company . 1
+11:09:000210:000210_2 : 11:08:31:660: So . 2
+11:09:000211:000211_2 : 11:09:07:669: Expensive because you have to set up more no more configuration to do so it would be more time so more money and we . 2
+11:09:000212:000212_3 : 11:09:18:780: Be able to catch a lot of bugs because with one test maybe you will test your application on the other hand will have to write a lot of unit test to do it . 3
+11:10:000213:000213_4 : 11:09:29:897: But on the other side when you have high level test failing on you with very hard to pinpoint where is . 4
+11:10:000214:000214_1 : 11:09:42:035: I want it on your card you will have like 10 unit testing salts is your tutor book with unity . 1
+11:10:000215:000215_2 : 11:09:49:160: Custom very often most easy to more easy to ride because it's just sometimes just turned 10 lines and high blood test on mobile . 2
+11:10:000216:000216_3 : 11:10:03:305: Theoretical approach because in real life we don't have that much time so we cannot say ok I want to read 100/:/ coverage and I have to write you lots of love and death and love to make some trade-offs and . 3
+11:10:000217:000217_4 : 11:10:23:416: To discuss your . 4
+11:11:000218:000218_1 : 11:10:26:537: Show me the retail you ok we love to write tests will do it later it would be fine and of course would never do it because I'm we welcome those he cares and we don't have time to write this for past features . 1
+11:11:000219:000219_2 : 11:10:39:643: We have to ask ourselves is like . 2
+11:11:000220:000220_3 : 11:10:43:770: Do you prefer I like Imagine you run run a command line and hope you have a bug do you prefer to see it in live on like maybe you are right on call during the night at 3 I'll pick the cause of crime and there is a bug have to duplicate and then you have to be a real problem . 3
+11:12:000221:000221_0 : 11:11:03:902: You will have an earlier out on your receipt then you have maybe two weeks to the big easy peasy in your chair so you have to choose eyes are you want to do it is he busy or in a rush and when you know why you do one of your nose yourself then you should really talk with your colleagues like ok maybe we don't write test for that but we
+11:12:000222:000222_1 : 11:11:32:034: Yeah no drawbacks why we don't do it and when everybody knows we shre the same vision and then we can keep a good balance . 1
+11:12:000223:000223_2 : 11:11:43:123: And there are many kind of tests so as we saw the world I love it so like accident and 27/2 component tester unit test and social over in . 2
+11:12:000224:000224_3 : 11:11:59:269: What to do but then when you go higher or more coverage but also more work to set up the more testing infrastructure . 3
+11:12:000225:000225_4 : 11:12:10:165: To be sure that we speak about the same thing . 4
+11:13:000226:000226_1 : 11:12:16:289: Do some definitions of what what kind of test what what is ready to each kind of the zoo accidents test application so it will write your test in Python to json Python code but you will probably lose weight if you click click on the dashboard in your tears and it will do some request to external system so you are really testing the wall application and 20 similar to acceptance test . 1
+11:13:000227:000227_2 : 11:12:46:448: Do some definitions of what what kind of test what what is ready to each kind of the zoo accidents test application so it will write your test in Python to json Python code but you will probably lose weight if you click click on the dashboard in your tears and it will Samsung request to external system so you are really testing the wall So what is the difference between also tell computer play . 2
+11:13:000228:000228_3 : 11:12:51:225: Contests there is your application and maybe banking system and UK relations communication between the system so you know any more jokes for your Python code on same network Communications . 3
+11:13:000229:000229_4 : 11:13:06:377: Bathroom . 4
+11:13:000230:000230_1 : 11:13:09:502: components tests are to webview and then you will this web you will call many functions do it to do it works ou it's kind of big unit and unit tested directly with the function or method of . 1
+11:13:000231:000231_2 : 11:13:23:651: So now we know that there is some trade-offs to do because we don't have infinite time to write tests s when should we write what kind of tests . 2
+11:14:000232:000232_3 : 11:13:36:777: This is very easy to like her yogurt scenario in your test for example . 3
+11:14:000233:000233_4 : 11:13:43:899: Cosmo soon as an intern my password I ask for €100 and I should get back the money so this is a scenario . 4
+11:14:000234:000234_1 : 11:13:57:020: O2 with over your crystal metal gear . 1
+11:14:000235:000235_2 : 11:14:01:143: Pictures of the new user featuring you bleed it again with a customer service . 2
+11:14:000236:000236_3 : 11:14:09:170: Similar again to acceptance test match white them when you don't have to write end-to-end test . 3
+11:15:000237:000237_4 : 11:14:18:295: Because I will see later there is more work to set up a acceptance tests so accessible for when you are working with your project on her and enter enter style for when you're walking alone or with the devil goes with no business people integration test at 3 when you have time because can be hard to set up it can be hard to write properly as we'll see later if you don't want . 4
+11:15:000238:000238_1 : 11:14:46:429: Yeah kind of hard sometimes compliment you should always wear them because . 1
+11:15:000239:000239_2 : 11:14:57:560: Like you can if you test a webview you may be with you will reach your coverage of 68/:/ of your cupboard with a couple of component tester it's really I think so kind of tissue fluid and you need to test it more when you execute a function processing someday you'll want to check the result that everything is correct so then it's easier to pinpoint were actual bug is . 2
+11:15:000240:000240_3 : 11:15:23:696: In what units instead of the beginning of components which is calling functions . 3
+11:15:000241:000241_4 : 11:15:31:129: Earnings of Python World there is . 4
+11:15:000242:000242_1 : 11:15:36:267: Able to . 1
+11:16:000243:000243_2 : 11:15:38:407: I think those are the main frameworks so we'll do you need test libraries . 2
+11:16:000244:000244_3 : 11:15:44:542: Are we have pytest we have nose and we ever bought from work I just add a little bit from ok because you shouldn't use it and will see you later why . 3
+11:16:000245:000245_0 : 11:15:56:449: Err, unit tests, so first, hum... 4
+11:17:000246:000246_1 : 11:15:59:589: Add plugins to uni test and I promise that you will have to do maybe a lot of work to change behavior theory test and you cannot reuse some plugin of someone else and so that's why it can be really repetitive if you want to change the whole walkthrough 13 different Projects so it's really nice nice to see from work if you can get some clothes help us when you use jungle for the . 1
+11:17:000247:000247_2 : 11:16:02:589: The best thing but if you can use another framework like Pytest you feel it in my fingers it's not matter anymore so we don't have to speak to you get on so well if you already used to use it but otherwise . 2
+11:17:000248:000248_3 : 11:16:52:946: The throat of hoops to modify the behaviour of Pytest so you can modify Franklin . 3
+11:17:000249:000249_4 : 11:17:00:084: Turn external system in your like your bacon accounts in your in your test can provide username password into command line on win 20 Pi test and you modify to be a good fighter there is . 4
+11:18:000250:000250_1 : 11:17:15:234: So when you say assert foobar = 5 . 1
+11:18:000251:000251_0 : 11:17:16:234: If it's failing you will get what was the value of a foo bar in your test so you don't have to use pdb to make breakfast in your test season 2 debug a lot of extensions I will see so I will present a couple of ones so it's really nice to extend compared to unittest. Robot framework I used it in my previous company it was really hard to maintain its kind of keyword library so you have to learn some . 2
+11:18:000252:000252_3 : 11:17:53:509: Long words with human language but it's very strange sometimes and I really hated it when I left my company and other people left also so I don't know did you use the word for Moto . 3
+11:19:000253:000253_4 : 11:18:09:758: And I just added it here because sometimes and sometimes I see before I didn't write about why you should use wood from work so where is light why you shouldn't use it because it's made . 4
+11:19:000254:000254_1 : 11:18:23:893: It was designed for a detailed insight like people who don't know how to develop so they don't have to write Python codes they can use some kind of high abstraction to send some HTTP request but if you lose a lot of time with . 1
+11:19:000255:000255_2 : 11:18:42:026: So we might as well I decided to use pytest and know that we have some basics about how to write their what kind of test write and what every test should do we can see well how to white Astros mitre saw lot of people knew by testing the room but for people who don't know . 2
+11:19:000256:000256_0 : 11:19:08:190: How to present to buy test soil pytest Robert you can have a test directory and in this directory you can as subdirectories to organise your test file in a directory you can have a conftest.py to configure Pytest . 3
+11:20:000257:000257_1 : 11:19:26:382: The intercooler sticker set up some hooks to modify the behaviour of by Tessa who is Justin . 1
+11:20:000258:000258_2 : 11:19:35:506: You can add some pictures so fixture as like as a setup and teardown in unit test so if you need to use them that obey so if you need to connect to your bank account you can . 2
+11:20:000259:000259_3 : 11:19:48:634: Then you put your tests in some files and in the test you can say ok I need to use this fixture_ or two in order to run my test . 3
+11:20:000260:000260_1 : 11:19:58:775: So we do you can organise your test as you wanted it is emoji love this is really nice thing about it . 1
+11:21:000261:000261_2 : 11:20:09:106: Accident accident a star artist that you don't start to write code in Python to watch others to first gear solid as a product of yourself and you start a new language . 2
+11:21:000262:000262_3 : 11:20:29:223:Then you implement the test and the fixture of course and at the end you when you go to the customer to give you all could you wake the kids a test everything is going so the future is working and it's a customer asks for more cause you can say ok we didn't agree on that so please give me more money and we want a new scenario no it doesn't . 3
+11:21:000263:000263_4 : 11:20:55:367: So you start with a definition like that . 4
+11:21:000264:000264_1 : 11:21:00:485: Profile . 1
+11:21:000265:000265_2 : 11:21:03:601: A new blog and this is one thing I do I need to publish an article so let's see what naughty girls and I go on article page I press the publish button and then the article should be online . 2
+11:22:000266:000266_3 : 11:21:19:184: so this is a scenario customer and put it on her and so will you speak a common language so then you will share a common vocabulary and you will get as a developper or as a business owner and you will better understanding . 3
+11:22:000267:000267_4 : 11:21:37:293: Products on which are working on . 4
+11:22:000268:000268_1 : 11:21:40:736: But then you start to jump into the Python console you will use pytest bdd which is an extension for pytest and it's providing some the decorators some tests so first to declare scenarios and you say ok I need to write an article so she's the brightest picture so it will create an otter going to the database and I say ok to write an article I need . 1
+11:22:000269:000269_2 : 11:22:09:866: Amateur the function . 2
+11:22:000270:000270_3 : 11:22:10:866: Article page I need article is that a bit so I say ok news article and I need a brother because I was a brother I will go on the website . 3
+11:22:000271:000271_4 : 11:22:24:356: Brother against article page impressions of publish button and then at the end you test that ok your article is that has been updated and . 4
+11:23:000272:000272_1 : 11:22:37:968: Series 15 for . 1
+11:23:000273:000273_2 : 11:22:42:075: Human language and then we'll have another file in Python to implement the test . 2
+11:23:000274:000274_3 : 11:22:49:971: We can configure Python bdd for example we can run the weather in Headless mode so we don't need to set up . 3
+11:23:000275:000275_4 : 11:22:50:971: Alonso CO7 phone number and it would be faster also . 4
+11:23:000276:000276_1 : 11:23:07:251: Switch on the reason you are so then you can see what happened like what a real user will see when there is no more . 1
+11:23:000277:000277_3 : 11:23:17:383: You can configure your supply test so comforted with PY file and . 3
+11:23:000278:000278_4 : 11:23:18:383: Provided by pytest BDD and you can override them to midi files baby biting video . 4
+11:24:000279:000279_1 : 11:23:31:742: So the end to end tests there are like exactly like acceptance tests but you don't need to meet your with your customer I didn't want me to write a human language definition . 1
+11:24:000280:000280_2 : 11:23:44:873: Switch 3 nice if . 2
+11:24:000281:000281_3 : 11:23:48:229: If your project manager doesn't want to meet to speak with you I want to do his own whilst ok you just wait Python test and you don't have to worry about other places around accepting . 3
+11:24:000282:000282_4 : 11:24:02:111: Stuff from one side when was also in your application to the system so you're . 4
+11:24:000283:000283_1 : 11:24:10:234: So in this case, we write directly Python code you can use I'm just eating with you you can use Firefox or Chrome if you want but in this case I'm using web test with a Swiss cheese . 1
+11:25:000284:000284_2 : 11:24:28:360: webtest was originaly From the Pyramid project to test a wsgi application and so to be faster than running a web browser but Executives . 2
+11:25:000285:000285_3 : 11:24:41:472: As an icing with what does he said you can use it for a Ford jungle flowers for a meal so you should jump between different from what you wish to use a similar movies are not alone again . 3
+11:25:000286:000286_4 : 11:24:42:472: Guided by YouTube Family . 4
+11:25:000287:000287_1 : 11:24:58:921: This is . 1
+11:25:000288:000288_2 : 11:25:03:049: a lot of times people will use marks but when you more than 25 really the library and you make it . 2
+11:25:000289:000289_3 : 11:25:04:049: When is the new update which is breaking the behavior. 3
+11:25:000290:000290_4 : 11:25:18:333: Changing the behaviour where you put it in your test for your test with to be green but in when you will win his in Prague to visit with I'm so this is one proper way to test to make integration tests true you will write something implementation of my library for example and you will use it for your test most of the time and from time to time when I will update you will . 4
+11:26:000291:000291_1 : 11:25:43:446: Cake with my real implementation and see if still the same behavior so I fell asleep so you have a bank account . 1
+11:26:000292:000292_2 : 11:25:53:578: The bank account . 2
+11:26:000293:000293_3 : 11:25:56:695: Originality I saw you white the fake implementation which is relating Mayer . 3
+11:26:000294:000294_4 : 11:26:04:810: The Sims on my . 4
+11:26:000295:000295_1 : 11:26:07:932: So . 1
+11:26:000296:000296_0 : 11:26:11:053: Then in your conftest.py you can say ok every time when you bite it write it every time . 2
+11:27:000297:000297_3 : 11:26:12:053: nterpol I will use a fake account and the second limitation is a real one so I can compare them and when I do Tesco in Telford I will use a real or fake implementation so what are we not add or withdraw money on my real bank . 3
+11:27:000298:000298_4 : 11:26:41:324: Is the fixture I can say ok so I need to connect an existing at . 4 the end of the test I will cancel the transaction . 4
+11:27:000299:000299_1 : 11:26:52:692: So this is a pregnancy test I want to test my app so I will use fake information to do stuff . 1
+11:27:000300:000300_2 : 11:27:06:521: This is where I can feel the two apis and everything is . 2
+11:27:000301:000301_3 : 11:27:13:636: This is one way to implement integration surgeries many other ways . 3
+11:27:000302:000302_4 : 11:27:14:636: Sophie to return but not on the internet so let's finish with unit test . 4
+11:27:000303:000303_1 : 11:27:29:260: So I told you you can test functions and methods with unit test but . 1
+11:28:000304:000304_2 : 11:27:35:387: Stop div or another function or method but it appears that in Python unit of behaviour is most of the functions or methods but that means you're so that's . 2
+11:28:000305:000305_3 : 11:27:48:499: Private functions to organise your code about you will only take a high-level function and . 3
+11:28:000306:000306_4 : 11:27:57:407: Special about that I guess you already know why you need to test . 4
+11:28:000307:000307_1 : 11:28:04:531: Similar to enter enter but you don't send external requests . 1
+11:28:000308:000308_2 : 11:28:11:447: And good to know that even if you don't . 2
+11:28:000309:000309_3 : 11:28:12:447: Don't take anything in your tests even if you just run your code you will catch python syntax off . 3
+11:28:000310:000310_4 : 11:28:25:702: Air all I can girls related to python syntax also even if you don't take anything it's always good to have so much and you will get a lot of Heroes . 4
+11:29:000311:000311_1 : 11:28:37:832: You're just too small in my . 1
+11:29:000312:000312_2 : 11:28:41:121: No I will quickly finished with docker and how to make pesto to my test with joker and so we'll have time or there will be no question . 2
+11:29:000313:000313_3 : 11:28:53:205: Lookers Yardley Wood finish and if you have a question just ask me . 3
+11:29:000314:000314_4 : 11:29:00:323: Snooker snooker that's a walk Thru oi oi oi did a workshop at your python and we will do composers and we run the application in quarter as a source code is wistow centre Cinderford now so when there is a bug I can add pdb my turn my torch gone and I can give you if you were in your test in another account on your . 4
+11:29:000315:000315_1 : 11:29:30:449: other tests . 1
+11:29:000316:000316_2 : 11:29:33:311: Finally you have your vehicles to run integration tests . 2
+11:30:000317:000317_3 : 11:29:39:426: And there is a working example on github if you want to have a look i will update . 3
+11:30:000318:000318_4 : 11:29:40:426: Slides are on tomorrow and you can have a look to the court and . 4
+11:30:000319:000319_1 : 11:29:53:682: Yeah that's all I have a small demo but I don't have time so I will do it . 1
+11:31:000320:000320_2 : 11:29:59:801: And finally . 2
+11:31:000321:000321_3 : 11:30:03:462: If you are if you think your boss doesn't give you enough money will give you more so please call us and that was all thank you so no time for question . 3--------
+ 
+ 

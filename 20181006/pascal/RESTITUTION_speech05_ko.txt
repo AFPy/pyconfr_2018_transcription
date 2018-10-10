@@ -1,0 +1,16 @@
+09:28:000038:000038_0 : --------
+
+13:56:000002:000002_2 : --------
+13:57:000002:000002_2 : Rechargement du document
+
+
+
+13:58:000003:000003_4 : 13:57:43:386: Alors bonjour bienvenue pour cette conférence j'espère que vous allez avoir une transcription qui fonctionne. 4
+13:58:000004:000004_1 : 13:57:51:035: Alors est-ce que ça fonctionne . 1
+13:59:000006:000006_3 : 13:58:33:987: Ouais je pense savoir pourquoi le 2e micro et alu message à une interférence le 2e micro qui recharge il faut le laisser timbre donc là je l'ai éteint et c'est bon quoi en plus la langue n'est pas la bonne FR au lieu de US. 3
+
+Perte historique ou bien changement de maxchine
+
+
+ 
+
